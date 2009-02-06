@@ -1,0 +1,197 @@
+PCBNEW-LibDoc----V1  16/10/2008-16:35:20
+#
+$MODULE Chip_Antenna_AF
+Li Chip_Antenna_AF
+Kw ANT-2.45-CHP
+$EndMODULE
+#
+$MODULE 1Pin_TH_40milVia
+Li 1Pin_TH_40milVia
+Kw DEV
+$EndMODULE
+#
+$MODULE DC_Power_Jack_SMT_PJ006
+Li DC_Power_Jack_SMT_PJ006
+Kw CUI PJ-006B-SMT
+$EndMODULE
+#
+$MODULE LQFP64_Opendous
+Li LQFP64_Opendous
+Cd LQFP64
+Kw ARM
+$EndMODULE
+#
+$MODULE SOT23-6_Opendous
+Li SOT23-6_Opendous
+Kw SOT23-6_Opendous
+$EndMODULE
+#
+$MODULE SOT323
+Li SOT323
+Kw SOT323
+$EndMODULE
+#
+$MODULE Stereo_Jack_SMT
+Li Stereo_Jack_SMT
+Kw SJ1-3513-SMT CUI Inc.
+$EndMODULE
+#
+$MODULE TDFN_8
+Li TDFN_8
+Kw TDFN_8
+$EndMODULE
+#
+$MODULE TrimPOT_PVG3A
+Li TrimPOT_PVG3A
+Kw muRata PVG3A SMD Potentiometer
+$EndMODULE
+#
+$MODULE uMax_8
+Li uMax_8
+Kw uMax_8
+$EndMODULE
+#
+$MODULE XBGA_6
+Li XBGA_6
+Kw WCSP TI YZP
+$EndMODULE
+#
+$MODULE SOT223_Opendous
+Li SOT223_Opendous
+Cd module CMS SOT223 4 pins
+Kw CMS SOT
+$EndMODULE
+#
+$MODULE SOT23-5_Opendous
+Li SOT23-5_Opendous
+Kw SOT23-5_Opendous
+$EndMODULE
+#
+$MODULE Switch_SMT_TH_EVQ
+Li Switch_SMT_TH_EVQ
+Cd EVQ-Q2F03W, TL59AF100Q Compatible
+Kw Switch SMT TH Through-Hole
+$EndMODULE
+#
+$MODULE DC_Power_Jack_SMT_PJ015
+Li DC_Power_Jack_SMT_PJ015
+Kw CUI PJ-015B-SMT CUI PJ-015A-SMT
+$EndMODULE
+#
+$MODULE Bridge_Rectifier_SMD_4SDIP
+Li Bridge_Rectifier_SMD_4SDIP
+Cd 4pin SDIP
+Kw SDIP
+$EndMODULE
+#
+$MODULE AVROpendous-SIL9
+Li AVROpendous-SIL9
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SM1210_Opendous
+Li SM1210_Opendous
+Kw CMS SM
+$EndMODULE
+#
+$MODULE HC49-US
+Li HC49-US
+Cd HC/49US (AT49) SMD Low Profile Crystal
+Kw HC49US HC49 AT49 SMT SMD TH Through-Hole Crystal
+$EndMODULE
+#
+$MODULE 1Pin_SMT
+Li 1Pin_SMT
+Kw DEV
+$EndMODULE
+#
+$MODULE SM0805-1210_Opendous
+Li SM0805-1210_Opendous
+Kw CMS SM
+$EndMODULE
+#
+$MODULE CONN_USB2_MiniB_SMT
+Li CONN_USB2_MiniB_SMT
+Cd USB SERIES MINI-B SURFACE MOUNTED
+Kw USB SERIES MINI-B SURFACE MOUNTED
+$EndMODULE
+#
+$MODULE AVROpendous-Mini-SIL22
+Li AVROpendous-Mini-SIL22
+Cd 22 pin connector for AVRopendous-Mini
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL22
+Li AVROpendous-SIL22
+Cd 22 Pin Connector for AVRopendous
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE Switch_SMT
+Li Switch_SMT
+Cd EVQ-Q2F03W Compatible
+Kw Switch SMT
+$EndMODULE
+#
+$MODULE AVROpendous2-SIL28
+Li AVROpendous2-SIL28
+Cd 28 pin connector for AVRopendous2
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE Switch_SMT_KMR2
+Li Switch_SMT_KMR2
+Kw KMR2xxNG SMT Switch
+$EndMODULE
+#
+$MODULE CONN_USB2_MiniB_SMT_Production
+Li CONN_USB2_MiniB_SMT_Production
+Cd USB SERIES MINI-B SURFACE MOUNTED
+Kw USB SERIES MINI-B SURFACE MOUNTED
+$EndMODULE
+#
+$MODULE AVROpendous-SIL9
+Li AVROpendous-SIL9
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL9-Alt
+Li AVROpendous-SIL9-Alt
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL5-SPI
+Li AVROpendous-SIL5-SPI
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-12-ADC_Opendous
+Li SIL-12-ADC_Opendous
+Cd 12pin ADC Connector by Opendous Inc.
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL22-Alt
+Li AVROpendous-SIL22-Alt
+Cd 22 Pin Connector for AVRopendous
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE QFN32_Opendous
+Li QFN32_Opendous
+Cd Support CMS Plcc 32 pins
+Kw CMS Plcc
+$EndMODULE
+#
+$MODULE SSOP20
+Li SSOP20
+Cd SSOP 24 pins
+Kw CMS SSOP SMD
+$EndMODULE
+#
+$EndLIBDOC

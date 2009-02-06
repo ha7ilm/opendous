@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0  Date: 16/10/2008-13:59:56
+#
+$CMP 74HC138
+D 3-to-8 Decoder Active-Low
+K 3-to-8 Decoder Active-Low
+$ENDCMP
+#
+$CMP AND_GATE
+K NC7SZ08 Single AND Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP attiny44
+K ATtiny24 ATtiny44 ATtiny84
+$ENDCMP
+#
+$CMP AVROpendous-22
+K AVROpendous CONN-22
+$ENDCMP
+#
+$CMP BUFFER_GATE
+K NC7SZ125 Single Buffer Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CP_MINI
+K Polarized Capacitor
+$ENDCMP
+#
+$CMP D_zener
+D Zener Diode
+K DEV DIODE Zener
+$ENDCMP
+#
+$CMP ESD_Zener
+D Double Shottky Diode - Common Cathodes
+K DEV DIODE
+$ENDCMP
+#
+$CMP GNDS
+K GNDS GND_Shield Earth Shield
+$ENDCMP
+#
+$CMP Inverter
+K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP TLV1117
+D LDO
+K POWER REGUL
+$ENDCMP
+#
+$CMP TPS719XX
+D Dual, 200mA Output, Low Noise, High PSRR LDOs
+K LDO 200mA
+$ENDCMP
+#
+$CMP TXB0108
+K Voltage Level Translator
+$ENDCMP
+#
+#End Doc Library
