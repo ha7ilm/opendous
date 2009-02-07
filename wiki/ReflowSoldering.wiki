@@ -1,6 +1,11 @@
 #summary Reflow Soldering on-the-cheap.
 
 
+ * Solder Paste.  [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SMD291SNL-ND Digi-Key] sells small amounts of [http://www.chipquik.com ChipQuik] Lead-Free Solder.  For larger Solder Paste quantities, [http://www.opendous.org Opendous Inc.] has had success with [http://www.aimsolder.com AIM] NC254 SAC305 Solder.
 
 
+
+http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_SolderPaste_Rig_Stencil.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_SolderPaste_Rig.jpg
 http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_Oven.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_Oven_Baking.jpg
