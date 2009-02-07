@@ -3,3 +3,14 @@
 
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Dimensions.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Plot_Gerber.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Open_Gerber.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Gerber_Export_as_SVG.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Import_SVG.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Resize.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Cut_Design.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Cricut.jpg
+
+
+
+
