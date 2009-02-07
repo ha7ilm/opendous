@@ -1,5 +1,25 @@
 #summary Creating Solder Paste Stencils
 
+= Introduction =
+
+Using a [http://www.cricut.com Cricut] cutting machine and [http://www.craftedge.com/products/ Sure-Cuts-A-Lot] software it is possible to automatically create usable solder paste stencils for prototyping purposes.
+
+The quality and precision of the resulting stencils is good enough to prototype 0805 and TQFP size electronic components.  For higher precision prototyping, such as 0402 and QFN components, [http://www.pololu.com/catalog/product/446 Pololu] offers precision laser cutting of solder stencils at a decent price.
+
+= What You Will Need =
+
+ * [http://www.cricut.com/shopping/productList.aspx?sc=1 Cricut] Machine
+ * [http://www.craftedge.com/products/ Sure-Cuts-A-Lot] Software
+ * Transparency Film for overhead projectors which you can buy at any office supply store
+ * A Windows XP/Vista computer
+
+= Preparation =
+
+Your Cricut  must have a specific firmware version.  You can update your firmware by following these [http://www.craftedge.com/support/faq/faq_surecutsalot.html instructions] for updating firmware.
+
+= Preparing Your PCB Layout =
+
+It may take some trial-and-error to create decent solder paste stencils as the Cricut is not precise enough to cut exactly.  It cuts rounded edges and ignores shapes smaller than about 18mil(0.46mm) by 50mil (1.27mm).  This means you should make sure all your component pads are large than this.  To make sure a pad still has enough solder paste area, make the pad longer.  The [http://kicad.sourceforge.net/ KiCAD] EDA Suite's PCB layout program has the ability to change all of a footprint's pads at once.  Solder has this amazing property that during reflow it 'finds' metal pieces to link.  As long as your PCB has precise solder resist, solder will find metal pieces to link.
 
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Dimensions.jpg
@@ -10,7 +30,5 @@ http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Import_SVG.jpg
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Resize.jpg
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Cut_Design.jpg
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Cricut.jpg
-
-
 
 
