@@ -1,0 +1,5 @@
+#summary Creating Solder Paste Stencils
+
+
+
+http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Dimensions.jpg
