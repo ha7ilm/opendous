@@ -1,4 +1,5 @@
-#summary Tutorials related to Open Source and Open Hardware Design
+#summary Tutorials related to Open Source Software and Hardware Design
+#labels Featured
 
 
 = Prototyping =
