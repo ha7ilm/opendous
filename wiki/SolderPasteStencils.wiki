@@ -18,8 +18,7 @@ The quality and precision of the resulting stencils is good enough to prototype 
 
 = Preparation =
 
-Your Cricut  must have a specific firmware version.  You can update/downgrade your firmware by following these [http://www.craftedge.com/support/faq/faq_surecutsalot.html instructions] for updating firmware.
-You will need to download [http://www.cricut.com/cds/default.aspx?AspxAutoDetectCookieSupport=1 Cricut Desgn Studio] and follow the directions under _Help_ for updating firmware.
+Your Cricut  must have a specific firmware version.  You can update/downgrade your firmware by downloading [http://www.cricut.com/cds/default.aspx?AspxAutoDetectCookieSupport=1 Cricut Desgn Studio] and following the directions under _Help_ for updating firmware.
 
 
 = Preparing Your PCB Layout =
