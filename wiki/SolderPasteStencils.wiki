@@ -73,4 +73,6 @@ http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Cut_Design.jpg
 
 = What Next? =
 
+You may find it useful to clean your stencil with some Rubbing Alcohol (Isopropyl Alcohol) if it has some adhesive from the Cricut mat.
+
 Now that you have a stencil, proceed to [ReflowSoldering reflow solder] your prototype PCB.
