@@ -62,7 +62,7 @@ Click _"Keep Proportions"_ in the *Properties* Window and set the stencil's widt
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_SureCut_Resize.jpg
 
 Take a sheet of transparency film and cut it to the size of the Cricut's cutting mat.  Insert the cutting pad and press the _Load Paper_ button.
-Set the Cricut's _Pressure_ wheel to _High_, the _Speed_ wheel to High or Medium, and the cutting blade depth to 5 or 6.  Detailed instructions can be found in the Cricut's manual.  Some trial-and-error is required here.  Speed and pressure may change the precision if the cuts, and larger cutting blade depth speeds up how quickly you will need to replace the cutting mat.
+Set the Cricut's _Pressure_ wheel to _High_, the _Speed_ wheel to _High_ or _Medium_, and the cutting blade depth to 5 or 6.  Detailed instructions can be found in the Cricut's manual.  Some trial-and-error is required here.  Speed and pressure may change the precision if the cuts, and larger cutting blade depth speeds up how quickly you will need to replace the cutting mat.
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Stencil_Cricut.jpg
 
