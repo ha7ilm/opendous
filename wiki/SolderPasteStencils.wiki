@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Using a [http://www.cricut.com Cricut] cutting machine and [http://www.craftedge.com/products/ Sure-Cuts-A-Lot] software it is possible to automatically create usable solder paste stencils for prototyping purposes.
+Using a [http://www.cricut.com Cricut] cutting machine and [http://www.craftedge.com/products/ Sure-Cuts-A-Lot] software it is possible to automatically create usable solder paste stencils for electronic prototyping purposes.
 
 The quality and precision of the resulting stencils is good enough to prototype 0805 and TQFP size electronic components.  For higher precision prototyping, such as 0402 and QFN components, [http://www.pololu.com/catalog/product/446 Pololu] and others offers precision laser cutting of solder stencils at a decent price.
 
