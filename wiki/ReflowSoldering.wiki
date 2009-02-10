@@ -31,7 +31,7 @@ Apply solder paste.
 
 = Reflow Soldering =
 
-Place your Reflow oven in a well ventilated area.  Outdoors is best but a garage will suffice.  On your oven's baking pan, place a piece of aluminum foil to prevent your PCB from sticking to the pan.  Paper can also be used but it creates smoke.
+Place your Reflow oven in a well ventilated area.  Outdoors is best but a garage will suffice.  On your oven's baking pan, place a piece of aluminum foil to prevent your PCB from soldering to the pan.  Paper can also be used but it creates smoke.
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_Oven.jpg
 
