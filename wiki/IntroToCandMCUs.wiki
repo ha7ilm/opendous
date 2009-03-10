@@ -1,5 +1,28 @@
 #summary Introduction to C and Microcontrollers Tutorial
 
+= Draft =
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-Empty.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-Variable1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-Variables.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-VariablesSummed.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-PointerToVariablesSum.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-ArrayContents.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-Port.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-PortRead.jpg
+
+http://opendous.googlecode.com/svn/trunk/Pictures/C_Memory_Tutorial-PortReadSave.jpg
+
+
+
+
 
 {{{
 #include <stdio.h>
