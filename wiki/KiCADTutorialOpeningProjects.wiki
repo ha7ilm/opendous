@@ -1,0 +1,11 @@
+#summary Opening existing projects in KiCAD
+
+
+
+
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-1.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-2.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-3.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-4.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-5.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-1.jpg
