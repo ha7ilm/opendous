@@ -1,0 +1,19 @@
+#summary Creating GERBER-274-X files for PCB fabrication in KiCAD
+
+DRAFT
+
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-1.jpg
+
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-2.jpg
+
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-3.jpg
+
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-4.jpg
