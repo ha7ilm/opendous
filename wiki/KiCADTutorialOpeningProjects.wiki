@@ -8,15 +8,18 @@ Click *File*, then *Open*, then find the `.pro` KiCAD Project File and click *Op
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-1.jpg
 
-
+Click the *Eeschema* button to start the schematic editor.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-2.jpg
 
+While in the Schematic Editor, use your mouse wheel to zoom in and out to view the schematic.  KiCAD is heavily reliant on a wheel mouse.  Zooming is critical to using KiCAD.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-3.jpg
 
+To start the PCB editor, you can click the *PCBnew* button in either *Eeschema*, the Schematic Editor, or through the main KiCAD program.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-4.jpg
 
+While in the Layout Editor, *PCBnew*, use your mouse wheel to zoom in and out to view the layout.  Once again, KiCAD is heavily reliant on a wheel mouse.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-5.jpg
