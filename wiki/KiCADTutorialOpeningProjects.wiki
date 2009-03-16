@@ -1,11 +1,22 @@
 #summary Opening existing projects in KiCAD
 
+Install [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] by downloading and running the installer.
+
+Run `KiCAD.exe` through the shortcut created on your desktop or in the _Start Menu_.  Under Linux, the shortcut will be under *Applications* -> *Programming* -> *kicad*.
+
+Click *File*, then *Open*, then find the `.pro` KiCAD Project File and click *Open*.
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-1.jpg
 
 
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-1.jpg
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-2.jpg
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-3.jpg
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-4.jpg
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-5.jpg
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-1.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-2.jpg
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-3.jpg
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-4.jpg
+
+
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-OpenFiles-5.jpg
