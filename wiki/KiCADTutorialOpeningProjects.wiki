@@ -1,6 +1,6 @@
 #summary Opening existing projects in KiCAD
 
-Install [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] by downloading and running the installer.  Under Ubuntu, KiCAD is in the _universe_ repository and can be installed with `sudo apt-get -y install kicad`.  Under Fedora, KiCAD is in the _RPM Fusion_ repository and can be installed with `sudo yum install kicad`.  [SettingUpUbuntuLinux Ubuntu] and [SettingUpFedoraLinux Fedora] install instructions are [ available].
+Install [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] by downloading and running the installer.  Under Ubuntu, KiCAD is in the _universe_ repository and can be installed with `sudo apt-get -y install kicad`.  Under Fedora, KiCAD is in the _RPM Fusion_ repository and can be installed with `sudo yum install kicad`.  [http://code.google.com/p/avropendous/wiki/SettingUpUbuntuLinux Ubuntu] and [http://code.google.com/p/avropendous/wiki/SettingUpFedoraLinux Fedora] install instructions are [http://code.google.com/p/avropendous/wiki/QuickStartGuides available].
 
 Run `KiCAD.exe` through the shortcut created on your desktop or in the _Start Menu_.  Under Linux, the shortcut will be under *Applications* -> *Programming* -> *kicad*.
 
