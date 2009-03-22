@@ -26,7 +26,7 @@ Take your cut out [http://code.google.com/p/opendous/wiki/SolderPasteStencils so
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_SolderPaste_Rig_Stencil.jpg
 
-Apply solder paste.
+Apply solder paste with a plastic plaster trowel.  Just make sure it has a flat and sharp/clean edge.
 
 
 = Reflow Soldering =
