@@ -1,6 +1,12 @@
 #summary Tutorials related to Open Source Software and Hardware Design
 #labels Featured
 
+= PCB Design with KiCAD =
+
+[KiCADTutorialOpeningProjects] - How to open an existing project in KiCAD.
+
+[KiCADTutorialCreatingGerberFiles] - How to create Gerber files for fabrication.
+
 
 = Prototyping =
 
