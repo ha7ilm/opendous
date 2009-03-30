@@ -5,7 +5,7 @@ All [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files for this b
 The AVRopendousTinyDevBoard is an adapter board to convert the pinout of the [http://www.avropendous.org AVRopendous-Tiny] to [http://en.wikipedia.org/wiki/Insulation_displacement_connector IDC]-compatible headers with the same pinouts as an Atmel [http://www.atmel.com/dyn/Products/tools_card.asp?tool_id=2735 STK500] development board.  It also features LEDs, buttons, and an adapter for a HD44780 LCD display in order to simplify the use of [http://code.google.com/p/avropendous/wiki/USBtoSerialLCD USBtoSerialLCD] firmware.
 
 
-= Preparation & Testing =
+= Assembly =
 
 Plug your AVRopendous-Tiny in an inverted fashion into the adapter board:
 
@@ -16,7 +16,7 @@ To make full use of the adapter board, you must connect the *RESET* (_PC0_) of t
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-BoardMounted.jpg
 
 
-== Testing ==
+= Testing =
 
 To test the adapter board, [http://code.google.com/p/avropendous/wiki/Loading_Firmware load] your AVRopendous-Tiny with [http://code.google.com/p/avropendous/wiki/AVRopendousKeyboardTest AVRopendousKeyboardTest] firmware, plug the complete adapter board into a PC, then connect  each port in turn to the switch array (making sure to to keep the red wire on the VCC-GND side of the connectors).  Pressing each switch should type a different letter.  Note *PortC* only has 5 connections.
 
@@ -24,7 +24,7 @@ http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevB
 
 
 
-== Buttons and LEDs ==
+= Buttons and LEDs =
 
 The following is the schematic of the Buttons and LEDs.  It is the same as the STK500.
 
@@ -40,7 +40,7 @@ http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevB
 
 
 
-== AVR ISP Programming ==
+= AVR ISP Programming =
 
 By properly setting up the jumpers:
 
@@ -49,12 +49,6 @@ http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevB
 you can use the board (programmed with [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer AVR ISP Programmer] firmware) to simplify programming of external AVRs through ISP.
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingExternal.jpg
-
-=== Programming your AVRopendous-Tiny through ISP ===
-
-If you set the *TRGT* jumper to _CURR_ and mount the *PWR_TRGT* jumper, then you can connect an external AVR ISP Programmer through the SPI port, [http://code.google.com/p/avropendous/wiki/ISPProgrammingAnAVRopendous even another AVRopendous-Tiny], and [http://code.google.com/p/avropendous/wiki/ISPProgrammingAnAVRopendous program] the AVRopendous-Tiny connected to the adapter board.  This is useful if you wish to change the bootloader on your AVRopendous-Tiny.  The AVRopendous-Tiny being programmed should _*NOT*_ be connected through USB to a PC while it is being programmed.
-
-http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingCurrentJumpers.jpg
 
 === Programming External AVR MCUs ===
 After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and mount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer program] it while also providing power to the target AVR at the same voltage as the _VCC_Select_ jumper on the AVRopendous-Tiny.
@@ -68,8 +62,14 @@ This procedure is the same as the one above, just dismount the *PWR_TRGT* jumper
 
 After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and dismount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer program] it.  This setup assumes the target AVR is self-powered.  Set the _VCC_Select_ jumper on the AVRopendous-Tiny to the closest voltage of the target MCU.  You may need a voltage translator if the voltage difference is more than 0.5V.
 
+=== Programming your AVRopendous-Tiny through ISP ===
 
-== LCD ==
+If you set the *TRGT* jumper to _CURR_ and mount the *PWR_TRGT* jumper, then you can connect an external AVR ISP Programmer through the SPI port, [http://code.google.com/p/avropendous/wiki/ISPProgrammingAnAVRopendous even another AVRopendous-Tiny], and [http://code.google.com/p/avropendous/wiki/ISPProgrammingAnAVRopendous program] the AVRopendous-Tiny connected to the adapter board.  This is useful if you wish to change the bootloader on your AVRopendous-Tiny.  The AVRopendous-Tiny being programmed should _*NOT*_ be connected through USB to a PC while it is being programmed.
+
+http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingCurrentJumpers.jpg
+
+
+= LCD =
 
 The [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=67-1781-ND Lumex LCM-S01602DTR/M], pictured, is the LCD that the board was supposed to be designed for but must be plugged in backward.  The [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=67-1758-ND Lumex LCM-S01602DSF/A] is an LCD with a proper pinout for this adapter board.  The two pinouts are the inverse of each other.
 
