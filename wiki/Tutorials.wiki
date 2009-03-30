@@ -5,9 +5,6 @@
 
 [KiCADTutorialOpeningProjects] - How to open an existing project in KiCAD.
 
-[KiCADTutorialCreatingGerberFiles] - How to create Gerber files for fabrication.
-
-
 = Prototyping =
 
 [SolderPasteStencils]
