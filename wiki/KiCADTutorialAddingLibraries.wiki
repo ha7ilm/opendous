@@ -12,7 +12,7 @@ Click the _Ins_ button to insert a new library:
 
 http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-02.jpg
 
-Find `opendous.lib` in `/library/` where you extracted `[http://code.google.com/p/opendous/downloads/list Opendous_KiCAD_Libraries.zip]`:
+Find `opendous.lib` in `/library/` where you extracted [http://code.google.com/p/opendous/downloads/list `Opendous_KiCAD_Libraries.zip`]:
 
 http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-03.jpg
 
@@ -34,7 +34,7 @@ Click the _Ins_ button to insert a new library:
 
 http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-07.jpg
 
-Find `opendous.mod` in `/modules/` where you extracted `[http://code.google.com/p/opendous/downloads/list Opendous_KiCAD_Libraries.zip]`:
+Find `opendous.mod` in `/modules/` where you extracted [http://code.google.com/p/opendous/downloads/list `Opendous_KiCAD_Libraries.zip`]:
 
 http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-08.jpg
 
