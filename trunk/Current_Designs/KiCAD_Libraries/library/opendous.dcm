@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/10/2008-13:59:56
+EESchema-DOCLIB  Version 2.0  Date: 3/19/2009 12:29:19 PM
 #
 $CMP 74HC138
 D 3-to-8 Decoder Active-Low
@@ -14,6 +14,7 @@ K ATtiny24 ATtiny44 ATtiny84
 $ENDCMP
 #
 $CMP AVROpendous-22
+D Used in the Classic AVRopendous SIL board
 K AVROpendous CONN-22
 $ENDCMP
 #
