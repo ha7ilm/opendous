@@ -26,7 +26,7 @@ http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-05
 
 == Adding Layout Footprint Libraries ==
 
-After starting or [http://code.google.com/p/opendous/wiki/KiCADTutorialOpeningProjects opening] a project, run *EEschema*.  Select _Library_ from the _Preferences_ menu:
+After starting or [http://code.google.com/p/opendous/wiki/KiCADTutorialOpeningProjects opening] a project, run *PCBnew*.  Select _Library_ from the _Preferences_ menu:
 
 http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-06.jpg
 
