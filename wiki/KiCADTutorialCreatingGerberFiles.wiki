@@ -9,18 +9,20 @@ Now create the Gerber files.  Select _Plot_ from the _File_ menu.  Check the `Ex
 || *KiCAD Layer Name* || *Gerber Name*        || *Gerber Extension* ||
 || Copper             || Bottom Layer         || `.GBL`             ||
 || Component          || Top Layer            || `.GTL`             ||
-|| SoldP_Cmp          || Top Paste            || `.GTP`             ||
-|| SilkS_Cmp          || Top Overlay          || `.GTO`             ||
-|| Mask_Cop           || Bottom Solder Resist || `.GBS`             ||
-|| Mask_Cmp           || Top Solder Resist    || `.GTS`             ||
-|| Edges_Pcb          || Edges                || N/A                ||
+|| !SoldP_Cmp         || Top Paste            || `.GTP`             ||
+|| !SilkS_Cmp         || Top Overlay          || `.GTO`             ||
+|| !Mask_Cop          || Bottom Solder Resist || `.GBS`             ||
+|| !Mask_Cmp          || Top Solder Resist    || `.GTS`             ||
+|| !Edges_Pcb         || Edges                || N/A                ||
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-2.jpg
 
+Click _Plot_ to create the selected layers in the same directory as your project files.  Note that KiCAD creates all Gerber files with the extension `.pho`.
 
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-4.jpg
+
+Now click the _Generate Drill File_ button to create the drill file.  Your PCB fabricator may have specific requirements for these settings.  The options selected in the picture below are somewhat standard.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-3.jpg
 
-
-
-  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-4.jpg
+Click _OK_ button to generate the drill file.  Click _Close_ in the *Plot* window to close.  You are done.
