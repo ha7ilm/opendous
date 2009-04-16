@@ -1,12 +1,19 @@
 #summary Creating GERBER-274-X files for PCB fabrication in KiCAD
 
-DRAFT
-
-
+After finishing your project you must set up KiCAD to produce well-defined [http://en.wikipedia.org/wiki/Gerber_File Gerber] files.  Select _Tracks and Vias_ from the _Dimensions Menu_.  Now change the *Mask Clearance* from `0.001` to `0.0001` and click _OK_.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-1.jpg
 
+Now create the Gerber files.  Select _Plot_ from the _File_ menu.  Check the `Exclude Edges_Pcb layer` checkbox to keep other layers clean.  Select all the layers you want to plot.  Here is a quick list of the layers usually needed:
 
+|| *KiCAD Layer Name* || *Gerber Name*        || *Gerber Extension* ||
+|| Copper             || Bottom Layer         || `.GBL`             ||
+|| Component          || Top Layer            || `.GTL`             ||
+|| SoldP_Cmp          || Top Paste            || `.GTP`             ||
+|| SilkS_Cmp          || Top Overlay          || `.GTO`             ||
+|| Mask_Cop           || Bottom Solder Resist || `.GBS`             ||
+|| Mask_Cmp           || Top Solder Resist    || `.GTS`             ||
+|| Edges_Pcb          || Edges                || N/A                ||
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-2.jpg
 
