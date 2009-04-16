@@ -1,5 +1,7 @@
 #summary Creating GERBER-274-X files for PCB fabrication in KiCAD
 
+This Tutorial uses the [http://code.google.com/p/avropendous/source/browse/trunk/AVRopendous/Design/AVRopendous-DIP AVRopendous-DIP] project as an example.
+
 After finishing your project you must set up KiCAD to produce well-defined [http://en.wikipedia.org/wiki/Gerber_File Gerber] files.  Select _Tracks and Vias_ from the _Dimensions Menu_.  Now change the *Mask Clearance* from `0.001` to `0.0001` and click _OK_.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-PlottingGerbers-1.jpg
