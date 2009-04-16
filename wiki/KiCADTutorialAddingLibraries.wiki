@@ -1,0 +1,12 @@
+#summary How to add new KiCAD libraries to your projects
+
+
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-01.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-02.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-03.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-04.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-05.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-06.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-07.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-08.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-09.jpg
