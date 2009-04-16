@@ -11,8 +11,8 @@ Now create the Gerber files.  Select _Plot_ from the _File_ menu.  Check the `Ex
 || *KiCAD Layer Name* || *Gerber Name*        || *Gerber Extension* ||
 || Copper             || Bottom Layer         || `.GBL`             ||
 || Component          || Top Layer            || `.GTL`             ||
-|| !SoldP_Cmp         || Top Paste            || `.GTP`             ||
-|| !SilkS_Cmp         || Top Overlay          || `.GTO`             ||
+|| SoldP_Cmp          || Top Paste            || `.GTP`             ||
+|| SilkS_Cmp          || Top Overlay          || `.GTO`             ||
 || !Mask_Cop          || Bottom Solder Resist || `.GBS`             ||
 || !Mask_Cmp          || Top Solder Resist    || `.GTS`             ||
 || !Edges_Pcb         || Edges                || N/A                ||
