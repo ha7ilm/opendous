@@ -5,6 +5,10 @@
 
 [KiCADTutorialOpeningProjects] - How to open an existing project in KiCAD.
 
+[KiCADTutorialAddingLibraries] - How to add symbol and footprint libraries to KiCAD.
+
+[KiCADTutorialCreatingGerberFiles] - How to create [http://en.wikipedia.org/wiki/Gerber_File Gerber] PCB fabrication files from a project.
+
 = Prototyping =
 
 [SolderPasteStencils]
