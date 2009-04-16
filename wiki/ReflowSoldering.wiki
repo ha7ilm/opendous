@@ -26,8 +26,13 @@ Take your cut out [http://code.google.com/p/opendous/wiki/SolderPasteStencils so
 
 http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_SolderPaste_Rig_Stencil.jpg
 
-Apply solder paste with a plastic plaster trowel.  Just make sure it has a flat and sharp/clean edge.
+Apply solder paste with a plastic plaster trowel.  Just make sure it has a flat and sharp/clean edge.  The result should be a PCB with solder paste on all the pads:
 
+http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_Reflow_SolderPasted_Board.jpg
+
+Now just place all the components using tweezers:
+
+http://opendous.googlecode.com/svn/trunk/Pictures/Reflow_Reflow_Components_Mounted.jpg
 
 = Reflow Soldering =
 
