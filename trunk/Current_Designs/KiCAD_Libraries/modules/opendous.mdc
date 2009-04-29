@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  2/26/2009 9:01:44 AM
+PCBNEW-LibDoc----V1  4/28/2009 10:28:29 AM
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
@@ -74,6 +74,12 @@ Cd 4pin SDIP
 Kw SDIP
 $EndMODULE
 #
+$MODULE AVROpendous-SIL9
+Li AVROpendous-SIL9
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
 $MODULE SM1210_Opendous
 Li SM1210_Opendous
 Kw CMS SM
@@ -92,7 +98,7 @@ $EndMODULE
 #
 $MODULE AVROpendous-SIL22
 Li AVROpendous-SIL22
-Cd 22 Pin Connector for AVRopendous
+Cd 22 Pin Connector for AVROpendous-Pico
 Kw CONN DEV
 $EndMODULE
 #
@@ -107,9 +113,33 @@ Cd USB SERIES MINI-B SURFACE MOUNTED
 Kw USB SERIES MINI-B SURFACE MOUNTED
 $EndMODULE
 #
+$MODULE AVROpendous-SIL9
+Li AVROpendous-SIL9
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL9-Alt
+Li AVROpendous-SIL9-Alt
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE AVROpendous-SIL5-SPI
+Li AVROpendous-SIL5-SPI
+Cd Connecteur 18 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE SIL-12-ADC_Opendous
+Li SIL-12-ADC_Opendous
+Cd 12pin ADC Connector by Opendous Inc.
+Kw CONN DEV
+$EndMODULE
+#
 $MODULE AVROpendous-SIL22-Alt
 Li AVROpendous-SIL22-Alt
-Cd 22 Pin Connector for AVRopendous
+Cd 22 Pin Connector for AVROpendous-Pico
 Kw CONN DEV
 $EndMODULE
 #
@@ -129,6 +159,12 @@ $MODULE CONN_USB2_MiniB_SMT
 Li CONN_USB2_MiniB_SMT
 Cd USB SERIES MINI-B SURFACE MOUNTED
 Kw USB SERIES MINI-B SURFACE MOUNTED
+$EndMODULE
+#
+$MODULE QFN32_Opendous_v2
+Li QFN32_Opendous_v2
+Cd Support CMS Plcc 32 pins
+Kw CMS Plcc
 $EndMODULE
 #
 $MODULE Chip_Antenna_AF_2.4GHz
@@ -168,6 +204,34 @@ $MODULE CONN_USB_A_Opendous
 Li CONN_USB_A_Opendous
 Cd USB SERIES A HOLE MOUNTED
 Kw USB SERIES A HOLE MOUNTED
+$EndMODULE
+#
+$MODULE Switch_SMT_EVQ
+Li Switch_SMT_EVQ
+Cd EVQ-Q2F03W Compatible
+Kw Switch SMT
+$EndMODULE
+#
+$MODULE CONN_USB_A_Vertical_Opendous
+Li CONN_USB_A_Vertical_Opendous
+Cd USB SERIES A HOLE MOUNTED
+Kw USB SERIES A HOLE MOUNTED
+$EndMODULE
+#
+$MODULE SIL-2_Opendous
+Li SIL-2_Opendous
+Cd Connecteurs 2 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE Battery_Clips_AAA
+Li Battery_Clips_AAA
+Kw AAA Battery Clips CatNo. 82 Keystone www.keyelco.com
+$EndMODULE
+#
+$MODULE TrimPOT_PVZ3G
+Li TrimPOT_PVZ3G
+Kw muRata PVZ3G SMT Trimmer Potentiometers 220-2.2M Ohm
 $EndMODULE
 #
 $EndLIBDOC

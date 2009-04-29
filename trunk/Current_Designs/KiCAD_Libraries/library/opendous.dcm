@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/19/2009 12:29:19 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/28/2009 10:53:55 PM
 #
 $CMP 74HC138
 D 3-to-8 Decoder Active-Low
@@ -16,6 +16,10 @@ $ENDCMP
 $CMP AVROpendous-22
 D Used in the Classic AVRopendous SIL board
 K AVROpendous CONN-22
+$ENDCMP
+#
+$CMP AVROpendous-DIP
+K AVRopendous DIP AT90USB162 www.avropendous.org
 $ENDCMP
 #
 $CMP BUFFER_GATE
@@ -46,6 +50,10 @@ $ENDCMP
 #
 $CMP Inverter
 K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP LPC313x
+K LPC3130 LPC3131 NXP ARM ARM9
 $ENDCMP
 #
 $CMP TLV1117
