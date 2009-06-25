@@ -46,7 +46,7 @@ By properly setting up the jumpers:
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingJumpersUnmounted.jpg
 
-you can use the board (programmed with [http://code.google.com/p/avropendous/wiki/AVR_ISP_Programmer AVR ISP Programmer] firmware) to simplify programming of external AVRs through ISP.
+you can use the board (programmed with [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP AVR ISP Programmer] firmware) to simplify programming of external AVRs through ISP.
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingExternal.jpg
 
