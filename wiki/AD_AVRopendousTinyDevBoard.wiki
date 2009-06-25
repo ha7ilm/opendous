@@ -76,7 +76,7 @@ The [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=67-1781-ND
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-LCD.jpg
 
-As you can see in the next two photos, simply connect *PortC* to *LCD_CTRL* and *PortB* to *LCD_DATA* and [http://code.google.com/p/avropendous/wiki/Loading_Firmware load] the [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_LCD USBtoSerialLCD] firmware to use this functionality.
+As you can see in the next two photos, simply connect *PortC* to *LCD_CTRL* and *PortB* to *LCD_DATA* and [http://code.google.com/p/avropendous/wiki/Loading_Firmware load] the [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_LCD USBVirtualSerial-LCD] firmware to use this functionality.
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-LCDConnected.jpg
 
