@@ -1,4 +1,4 @@
-#summary AVRopendous-Tiny-DevBoard
+#summary AVRopendous-Tiny Development Base Board
 
 All [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files for this board are available through [http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard SVN].  This design is "abandoned" as two of the connectors are too close.  A small lot of these boards was produced before the error was noticed so this page is useful to some.
 
