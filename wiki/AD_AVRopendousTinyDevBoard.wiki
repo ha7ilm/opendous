@@ -2,7 +2,7 @@
 
 All [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files for this board are available through [http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard SVN].  This design is "abandoned" as two of the connectors are too close.  A small lot of these boards was produced before the error was noticed so this page is useful to some.
 
-The AVRopendous-Tiny Development Board is an adapter board to convert the pinout of the [http://www.avropendous.org AVRopendous-Tiny] to [http://en.wikipedia.org/wiki/Insulation_displacement_connector IDC]-compatible headers with the same pinouts as an Atmel [http://www.atmel.com/dyn/Products/tools_card.asp?tool_id=2735 STK500] development board.  It also features LEDs, buttons, and an adapter for a HD44780 LCD display in order to simplify the use of [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_LCD USBtoSerialLCD] firmware.
+The AVRopendous-Tiny Development Board is an adapter board to convert the pinout of the [http://www.avropendous.org AVRopendous-Tiny] to [http://en.wikipedia.org/wiki/Insulation_displacement_connector IDC]-compatible headers with the same pinouts as an Atmel [http://www.atmel.com/dyn/Products/tools_card.asp?tool_id=2735 STK500] development board.  It also features LEDs, buttons, and an adapter for a HD44780 LCD display in order to simplify the use of [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_LCD USBVirtualSerial-LCD] firmware.
 
 
 = Assembly =
