@@ -52,7 +52,7 @@ http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevB
 
 === Programming External AVR MCUs ===
 
-After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/USBVirtualSerial-AVRISP AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and mount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/USBVirtualSerial-AVRISP program] it while also providing power to the target AVR at the same voltage as the _VCC_Select_ jumper on the AVRopendous-Tiny.
+After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and mount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP program] it while also providing power to the target AVR at the same voltage as the _VCC_Select_ jumper on the AVRopendous-Tiny.
 
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevBoard/Pictures/AVRopendous-Tiny-DevBoard-ISPProgrammingExternalJumpers.jpg
@@ -61,7 +61,7 @@ http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/AVRopendous-Tiny-DevB
 
 This procedure is the same as the one above, just dismount the *PWR_TRGT* jumper.
 
-After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/USBVirtualSerial-AVRISP AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and dismount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP program] it.  This setup assumes the target AVR is self-powered.  Set the _VCC_Select_ jumper on the AVRopendous-Tiny to the closest voltage of the target MCU.  You may need a voltage translator if the voltage difference is more than 0.5V.
+After [http://code.google.com/p/avropendous/wiki/Loading_Firmware programming] your AVRopendous-Tiny on the adapter board with [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP AVR_ISP_Programmer] firmware, set the *TRGT* jumper to _EXT_ and dismount the *PWR_TRGT* jumper.  You can now connect the SPI port to an external AVR and [http://code.google.com/p/avropendous/wiki/USBVirtualSerial_AVRISP program] it.  This setup assumes the target AVR is self-powered.  Set the _VCC_Select_ jumper on the AVRopendous-Tiny to the closest voltage of the target MCU.  You may need a voltage translator if the voltage difference is more than 0.5V.
 
 === Programming your AVRopendous-Tiny through ISP ===
 
