@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 4/28/2009 10:53:55 PM
+EESchema-DOCLIB  Version 2.0  Date: 8/19/2009 2:51:53 PM
 #
 $CMP 74HC138
 D 3-to-8 Decoder Active-Low
@@ -30,6 +30,10 @@ $CMP C_MINI
 K Unpolarized Capacitor
 $ENDCMP
 #
+$CMP CONN_MMC_MMCplus_GMC06003XSEU
+K Memory Card MMC MMCplus RS-MMC Amphenol GMC06003XSEU or 101-00395-?? or Newark.com 40P2505
+$ENDCMP
+#
 $CMP CP_MINI
 K Polarized Capacitor
 $ENDCMP
@@ -52,8 +56,16 @@ $CMP Inverter
 K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
 $ENDCMP
 #
+$CMP LPC175x
+K ARM Cortex-M3 USB Ethernet I2S SPI I2C PWM DAC ADC
+$ENDCMP
+#
 $CMP LPC313x
 K LPC3130 LPC3131 NXP ARM ARM9
+$ENDCMP
+#
+$CMP STEREO-AUDIO-JACK
+K CUI Inc. SJ1-3515-SMT
 $ENDCMP
 #
 $CMP TLV1117
@@ -64,6 +76,10 @@ $ENDCMP
 $CMP TPS719XX
 D Dual, 200mA Output, Low Noise, High PSRR LDOs
 K LDO 200mA
+$ENDCMP
+#
+$CMP TS3USB221
+K USB 1:2 Multiplexer/Demultiplexer Switch
 $ENDCMP
 #
 $CMP TXB0108

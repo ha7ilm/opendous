@@ -26,8 +26,17 @@ import sys, string, time
 def createBGAModule(pinsX, pinsY, pinDiameter, pinPitch):
     """
     - all values are in 0.1 mils, ie, 125 = 125/10 000 inch = 12.5 mils
-    """
 
+Design:
+startX = half of height - adjusted for odd number
+ - - odd number adjustment comprises of half pad radius as start point instead of 0 - so just add it to the left and right shifts for first element
+startY = 
+for X
+        for Y
+            place pads
+    
+    """
+    
     # each pin down the side has a letter name instead of a number.
     # Some letters are confusing. This is the valid list of letters to use instead of numbers
     pinNameAlphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA"]
