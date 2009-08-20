@@ -65,7 +65,7 @@ def KiCADSCHSymbolToLabels(inFile, partName, globalLocal):
                 else:
                     # found a left-facing pin, so create a label
                     # first find the pin's name, which is third string in line
-                    pintextre = re.compile('\w*')
+                    pintextre = re.compile('\S*')
                     pintext = pintextre.findall(line)
                     print labelPart1, -500, -(locYL*100), "0", labelPart2
                     print pintext[2]
@@ -81,7 +81,7 @@ def KiCADSCHSymbolToLabels(inFile, partName, globalLocal):
                 else:
                     # found a left-facing pin, so create a label
                     # first find the pin's name, which is third string in line
-                    pintextre = re.compile('\w*')
+                    pintextre = re.compile('\S*')
                     pintext = pintextre.findall(line)
                     print labelPart1, -2000, -(locYR*100), "2", labelPart2
                     print pintext[2]

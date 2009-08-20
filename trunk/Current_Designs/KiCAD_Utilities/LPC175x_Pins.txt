@@ -1,0 +1,770 @@
+P0[1]/TD1/RXD3/
+SCL1
+38[1]
+I/O
+P0[1] —
+General purpose digital input/output pin.
+O
+TD1 —
+CAN1 transmitter output.
+I
+RXD3 —
+Receiver input for UART3.
+I/O
+SCL1 —
+I2C1 clock input/output (this is not an I2C-bus compliant open-drain pin).
+P0[2]/TXD0/AD0[7]
+79[2]
+I
+I/O
+AD0[7] —
+A/D converter 0, input 7.
+P0[3]/RXD0/AD0[6]
+80[2]
+I/O
+P0[3] —
+General purpose digital input/output pin.
+I
+RXD0 —
+Receiver input for UART0.
+I
+AD0[6] —
+A/D converter 0, input 6.
+P0[6]/
+I2SRX_SDA/
+SSEL1/MAT2[0]
+64[1]
+I/O
+P0[6] —
+General purpose digital input/output pin.
+I/O
+I2SRX_SDA —
+Receive data. It is driven by the transmitter and read by the receiver. Corresponds to the signal SD in the I2S-bus specification. (LPC1758/56 only).
+I/O
+SSEL1 —
+Slave Select for SSP1.
+O
+MAT2[0] —
+Match output for Timer 2, channel 0.
+by the receiver. Corresponds to the signal SD in the I2S-bus specification. (LPC1758/56 only).
+
+P0[7]/I2STX_CLK/
+SCK1/MAT2[1]
+63[1]
+I/O
+P0[7] —
+General purpose digital input/output pin.
+I/O
+I2STX_CLK —
+Transmit Clock. It is driven by the master and received by the slave. Corresponds to the signal SCK in the I2S-bus specification. (LPC1758/56 only).
+I/O
+SCK1 —
+Serial Clock for SSP1.
+O
+MAT2[1] —
+Match output for Timer 2, channel 1.
+P0[8]/I2STX_WS/
+MISO1/MAT2[2]
+62[1]
+I/O
+P0[8] —
+General purpose digital input/output pin.
+I/O
+I2STX_WS —
+Transmit Word Select. It is driven by the master and received by the slave. Corresponds to the signal WS in the I2S-bus specification. (LPC1758/56 only).
+I/O
+MISO1 —
+Master In Slave Out for SSP1.
+O
+MAT2[2] —
+Match output for Timer 2, channel 2.
+P0[9]/I2STX_SDA/
+MOSI1/MAT2[3]
+61[1]
+I/O
+P0[9] —
+General purpose digital input/output pin.
+I/O
+I2STX_SDA —
+Transmit data. It is driven by the transmitter and read by the receiver. Corresponds to the signal SD in the I2S-bus specification. (LPC1758/56 only).
+I/O
+MOSI1 —
+Master Out Slave In for SSP1.
+O
+MAT2[3] —
+Match output for Timer 2, channel 3.
+P0[10]/TXD2/
+SDA2/MAT3[0]
+39[1]
+I/O
+P0[10] —
+General purpose digital input/output pin.
+O
+TXD2 —
+Transmitter output for UART2.
+I/O
+SDA2 —
+I2C2 data input/output (this is not an open-drain pin).
+O
+MAT3[0] —
+Match output for Timer 3, channel 0.
+P0[11]/RXD2/
+SCL2/MAT3[1]
+40[1]
+I/O
+P0[11] —
+General purpose digital input/output pin.
+I
+RXD2 —
+Receiver input for UART2.
+I/O
+SCL2 —
+I2C2 clock input/output (this is not an open-drain pin).
+O
+MAT3[1] —
+Match output for Timer 3, channel 1.
+P0[15]/TXD1/
+SCK0/SCK
+47[1]
+I/O
+P0[15] —
+General purpose digital input/output pin.
+O
+TXD1 —
+Transmitter output for UART1.
+I/O
+SCK0 —
+Serial clock for SSP0.
+I/O
+SCK —
+Serial clock for SPI.
+P0[16]/RXD1/
+SSEL0/SSEL
+48[1]
+I/O
+P0[16] —
+General purpose digital input/output pin.
+I
+RXD1 —
+Receiver input for UART1.
+I/O
+SSEL0 —
+Slave Select for SSP0.
+I/O
+SSEL —
+Slave Select for SPI.
+P0[17]/CTS1/
+MISO0/MISO
+46[1]
+I/O
+P0[17] —
+General purpose digital input/output pin.
+I
+CTS1 —
+Clear to Send input for UART1.
+I/O
+MISO0 —
+Master In Slave Out for SSP0.
+I/O
+MISO —
+Master In Slave Out for SPI.
+P0[18]/DCD1/
+MOSI0/MOSI
+45[1]
+I/O
+P0[18] —
+General purpose digital input/output pin.
+I
+DCD1 —
+Data Carrier Detect input for UART1.
+I/O
+MOSI0 —
+Master Out Slave In for SSP0.
+I/O
+MOSI —
+Master Out Slave In for SPI.
+
+P0[22]/RTS1/TD1
+44[1]
+I/O
+P0[22] —
+General purpose digital input/output pin.
+O
+RTS1 —
+Request to Send output for UART1. Can also be configured to be an RS-485/EIA-485 output enable signal.
+O
+TD1 —
+CAN1 transmitter output.
+P0[25]/AD0[2]/
+I2SRX _SDA/
+TXD3
+7[2]
+I/O
+P0[25] —
+General purpose digital input/output pin.
+I
+AD0[2] —
+A/D converter 0, input 2.
+I/O
+I2SRX_SDA —
+Receive data. It is driven by the transmitter and read by the receiver. Corresponds to the signal SD in the I2S-bus specification. (LPC1758/56 only).
+O
+TXD3 —
+Transmitter output for UART3.
+P0[26]/AD0[3]/
+AOUT/RXD3
+6[3]
+I/O
+P0[26] —
+General purpose digital input/output pin.
+I
+AD0[3] —
+A/D converter 0, input 3.
+O
+AOUT —
+DAC output. (LPC1758/56/54 only).
+I
+RXD3 —
+Receiver input for UART3.
+P0[29]/USB_D+
+22[4]
+I/O
+P0[29] —
+General purpose digital input/output pin.
+I/O
+USB_D+ —
+USB bidirectional D+ line.
+P0[30]/USB_D-
+23[4]
+I/O
+P0[30] —
+General purpose digital input/output pin.
+I/O
+USB_D- —
+USB bidirectional D- line.
+P1[0] to P1[31]
+I/O
+Port 1: Port 1 is a 32-bit I/O port with individual direction controls for each bit. The operation of port 1 pins depends upon the pin function selected via the pin connect block. Some port pins are not available on the LQFP80 package.
+P1[0]/
+ENET_TXD0
+76[1]
+I/O
+P1[0] —
+General purpose digital input/output pin.
+O
+ENET_TXD0 —
+Ethernet transmit data 0. (LPC1758 only).
+P1[1]/
+ENET_TXD1
+75[1]
+I/O
+P1[1] —
+General purpose digital input/output pin.
+O
+ENET_TXD1 —
+Ethernet transmit data 1. (LPC1758 only).
+P1[4]/
+ENET_TX_EN
+74[1]
+I/O
+P1[4] —
+General purpose digital input/output pin.
+O
+ENET_TX_EN —
+Ethernet transmit data enable. (LPC1758 only).
+P1[8]/
+ENET_CRS
+73[1]
+I/O
+P1[8] —
+General purpose digital input/output pin.
+I
+ENET_CRS —
+Ethernet carrier sense. (LPC1758 only).
+P1[9]/
+ENET_RXD0
+72[1]
+I/O
+P1[9] —
+General purpose digital input/output pin.
+I
+ENET_RXD0 —
+Ethernet receive data. (LPC1758 only).
+P1[10]/
+ENET_RXD1
+71[1]
+I/O
+P1[10] —
+General purpose digital input/output pin.
+I
+ENET_RXD1 —
+Ethernet receive data. (LPC1758 only).
+P1[14]/
+ENET_RX_ER
+70[1]
+I/O
+P1[14] —
+General purpose digital input/output pin.
+I
+ENET_RX_ER —
+Ethernet receive error. (LPC1758 only).
+P1[15]/
+ENET_REF_CLK
+69[1]
+I/O
+P1[15] —
+General purpose digital input/output pin.
+I
+ENET_REF_CLK —
+Ethernet reference clock. (LPC1758 only).
+P1[18]/
+USB_UP_LED/
+PWM1[1]/
+CAP1[0]
+25[1]
+I/O
+P1[18] —
+General purpose digital input/output pin.
+O
+USB_UP_LED —
+USB GoodLink LED indicator. It is LOW when device is configured (non-control endpoints enabled). It is HIGH when the device is not configured or during global suspend.
+O
+PWM1[1] —
+Pulse Width Modulator 1, channel 1 output.
+I
+CAP1[0] —
+Capture input for Timer 1, channel 0.
+
+P1[19]/MCOA0/
+USB_PPWR
+CAP1[1]
+26[1]
+I/O
+P1[19] —
+General purpose digital input/output pin.
+O
+MCOA0 —
+Motor control PWM channel 0, output A.
+O
+USB_PPWR —
+Port Power enable signal for USB port. (LPC1758/56/54 only).
+I
+CAP1[1] —
+Capture input for Timer 1, channel 1.
+P1[20]/MCI0/
+PWM1[2]/SCK0
+27[1]
+I/O
+P1[20] —
+General purpose digital input/output pin.
+I
+MCI0 —
+Motor control PWM channel 0, input. Also Quadrature Encoder Interface PHA input.
+O
+PWM1[2] —
+Pulse Width Modulator 1, channel 2 output.
+I/O
+SCK0 —
+Serial clock for SSP0.
+P1[22]/MCOB0/
+USB_PWRD/
+MAT1[0]
+28[1]
+I/O
+P1[22] —
+General purpose digital input/output pin.
+O
+MCOB0 —
+Motor control PWM channel 0, output B.
+I
+USB_PWRD —
+Power Status for USB port (host power switch). (LPC1758/56/54 only).
+O
+MAT1[0] —
+Match output for Timer 1, channel 0.
+P1[23]/MCI1/
+PWM1[4]/MISO0
+29[1]
+I/O
+P1[23] —
+General purpose digital input/output pin.
+I
+MCI1 —
+Motor control PWM channel 1, input. Also Quadrature Encoder Interface PHB input.
+O
+PWM1[4] —
+Pulse Width Modulator 1, channel 4 output.
+I/O
+MISO0 —
+Master In Slave Out for SSP0.
+P1[24]/MCI2/
+PWM1[5]/MOSI0
+30[1]
+I/O
+P1[24] —
+General purpose digital input/output pin.
+I
+MCI2 —
+Motor control PWM channel 2, input. Also Quadrature Encoder Interface INDEX input.
+O
+PWM1[5] —
+Pulse Width Modulator 1, channel 5 output.
+I/O
+MOSI0 —
+Master Out Slave in for SSP0.
+P1[25]/MCOA1/
+CLKOUT/MAT1[1]
+31[1]
+I/O
+P1[25] —
+General purpose digital input/output pin.
+O
+MCOA1 —
+Motor control PWM channel 1, output A.
+O
+CLKOUT —
+Clock output.
+O
+MAT1[1] —
+Match output for Timer 1, channel 1.
+P1[26]/MCOB1/
+PWM1[6]/CAP0[0]
+32[1]
+I/O
+P1[26] —
+General purpose digital input/output pin.
+O
+MCOB1 —
+Motor control PWM channel 1, output B.
+O
+PWM1[6] —
+Pulse Width Modulator 1, channel 6 output.
+I
+CAP0[0] —
+Capture input for Timer 0, channel 0.
+P1[28]/MCOA2/
+PCAP1[0]/
+MAT0[0]
+35[1]
+I/O
+P1[28] —
+General purpose digital input/output pin.
+O
+MCOA2 —
+Motor control PWM channel 2, output A.
+I
+PCAP1[0] —
+Capture input for PWM1, channel 0.
+O
+MAT0[0] —
+Match output for Timer 0, channel 0.
+P1[29]/MCOB2/
+PCAP1[1]/
+MAT0[1]
+36[1]
+I/O
+P1[29] —
+General purpose digital input/output pin.
+O
+MCOB2 —
+Motor control PWM channel 2, output B.
+I
+PCAP1[1] —
+Capture input for PWM1, channel 1.
+O
+MAT0[1] —
+Match output for Timer 0, channel 0.
+
+P1[30]/VBUS/
+AD0[4]
+18[2]
+I/O
+P1[30] —
+General purpose digital input/output pin.
+I
+VBUS —
+Monitors the presence of USB bus power.
+Note: This signal must be HIGH for USB reset to occur.
+I
+AD0[4] —
+A/D converter 0, input 4.
+P1[31]/SCK1/
+AD0[5]
+17[2]
+I/O
+P1[31] —
+General purpose digital input/output pin.
+I/O
+SCK1 —
+Serial Clock for SSP1.
+I
+AD0[5] —
+A/D converter 0, input 5.
+P2[0] to P2[31]
+I/O
+Port 2: Port 2 is a 32-bit I/O port with individual direction controls for each bit. The operation of port 2 pins depends upon the pin function selected via the pin connect block. Some port pins are not available on the LQFP80 package.
+P2[0]/PWM1[1]/
+TXD1
+60[1]
+I/O
+P2[0] —
+General purpose digital input/output pin.
+O
+PWM1[1] —
+Pulse Width Modulator 1, channel 1 output.
+O
+TXD1 —
+Transmitter output for UART1.
+P2[1]/PWM1[2]/
+RXD1
+59[1]
+I/O
+P2[1] —
+General purpose digital input/output pin.
+O
+PWM1[2] —
+Pulse Width Modulator 1, channel 2 output.
+I
+RXD1 —
+Receiver input for UART1.
+P2[2]/PWM1[3]/
+CTS1/
+TRACEDATA[3]
+58[1]
+I/O
+P2[2] —
+General purpose digital input/output pin.
+O
+PWM1[3] —
+Pulse Width Modulator 1, channel 3 output.
+I
+CTS1 —
+Clear to Send input for UART1.
+O
+TRACEDATA[3] —
+Trace data, bit 3.
+P2[3]/PWM1[4]/
+DCD1/
+TRACEDATA[2]
+55[1]
+I/O
+P2[3] —
+General purpose digital input/output pin.
+O
+PWM1[4] —
+Pulse Width Modulator 1, channel 4 output.
+I
+DCD1 —
+Data Carrier Detect input for UART1.
+O
+TRACEDATA[2] —
+Trace data, bit 2.
+P2[4]/PWM1[5]/
+DSR1/
+TRACEDATA[1]
+54[1]
+I/O
+P2[4] —
+General purpose digital input/output pin.
+O
+PWM1[5] —
+Pulse Width Modulator 1, channel 5 output.
+I
+DSR1 —
+Data Set Ready input for UART1.
+O
+TRACEDATA[1] —
+Trace data, bit 1.
+P2[5]/PWM1[6]/
+DTR1/
+TRACEDATA[0]
+53[1]
+I/O
+P2[5] —
+General purpose digital input/output pin.
+O
+PWM1[6] —
+Pulse Width Modulator 1, channel 6 output.
+O
+DTR1 —
+Data Terminal Ready output for UART1. Can also be configured to be an RS-485/EIA-485 output enable signal.
+O
+TRACEDATA[0] —
+Trace data, bit 0.
+P2[6]/PCAP1[0]/
+RI1/TRACECLK
+52[1]
+I/O
+P2[6] —
+General purpose digital input/output pin.
+I
+PCAP1[0] —
+Capture input for PWM1, channel 0.
+I
+RI1 —
+Ring Indicator input for UART1.
+O
+TRACECLK —
+Trace Clock.
+P2[7]/RD2/
+RTS1
+51[1]
+I/O
+P2[7] —
+General purpose digital input/output pin.
+I
+RD2 —
+CAN2 receiver input. (LPC1758/56 only).
+O
+RTS1 —
+Request to Send output for UART1. Can also be configured to be an RS-485/EIA-485 output enable signal.
+
+P2[8]/TD2/
+TXD2/ENET_MDC
+50[1]
+I/O
+P2[8] —
+General purpose digital input/output pin.
+O
+TD2 —
+CAN2 transmitter output. (LPC1758/56 only).
+O
+TXD2 —
+Transmitter output for UART2.
+O
+ENET_MDC —
+Ethernet MIIM clock. (LPC1758 only).
+P2[9]/
+USB_CONNECT/
+RXD2/
+ENET_MDIO
+49[1]
+I/O
+P2[9] —
+General purpose digital input/output pin.
+O
+USB_CONNECT —
+Signal used to switch an external 1.5 kO resistor under software control. Used with the SoftConnect USB feature.
+I
+RXD2 —
+Receiver input for UART2.
+I/0
+ENET_MDIO —
+Ethernet MIIM data input and output. (LPC1758 only).
+P2[10]/EINT0/NMI
+41[5]
+I/O
+P2[10] —
+General purpose digital input/output pin.
+Note: LOW on this pin while RESET is LOW forces on-chip bootloader to take over control of the part after a reset.
+I
+EINT0 —
+External interrupt 0 input.
+I
+NMI —
+Non-maskable interrupt input.
+P4[0] to P4[31]
+I/O
+Port 4: Port 4 is a 32-bit I/O port with individual direction controls for each bit. The operation of port 4 pins depends upon the pin function selected via the pin connect block. Some port pins are not available on the LQFP80 package.
+P4[28]/RX_MCLK/MAT2[0]/TXD3
+65[1]
+I/O
+P4[28] —
+General purpose digital input/output pin.
+I
+RX_MCLK —
+I2S receive master clock. (LPC1758/56 only).
+O
+MAT2[0] —
+Match output for Timer 2, channel 0.
+O
+TXD3 —
+Transmitter output for UART3.
+P4[29]/TX_MCLK/MAT2[1]/RXD3
+68[1]
+I/O
+P4[29] —
+General purpose digital input/output pin.
+I
+TX_MCLK —
+I2S transmit master clock. (LPC1758/56 only).
+O
+MAT2[1] —
+Match output for Timer 2, channel 1.
+I
+RXD3 —
+Receiver input for UART3.
+TDO/SWO
+1[1]
+O
+TDO —
+Test Data out for JTAG interface.
+O
+SWO —
+Serial wire trace output.
+TDI
+2[1]
+I
+TDI —
+Test Data in for JTAG interface.
+TMS/SWDIO
+3[1]
+I
+TMS —
+Test Mode Select for JTAG interface.
+I/O
+SWDIO —
+Serial wire debug data input/output.
+TRST
+4[1]
+I
+TRST —
+Test Reset for JTAG interface.
+TCK/SWDCLK
+5[1]
+I
+TCK —
+Test Clock for JTAG interface.
+I
+SWDCLK —
+Serial wire clock.
+RSTOUT
+11
+O
+RSTOUT —
+This is a 3.3 V pin. LOW on this pin indicates LPC1758/56/54/52/51 being in Reset state.
+RESET
+14[6]
+I
+External reset input: A LOW on this pin resets the device, causing I/O ports and peripherals to take on their default states, and processor execution to begin at address 0. TTL with hysteresis, 5 V tolerant.
+XTAL1
+19[7]
+I
+Input to the oscillator circuit and internal clock generator circuits.
+XTAL2
+20[7]
+O
+Output from the oscillator amplifier.
+RTCX1
+13[7]
+I
+Input to the RTC oscillator circuit.
+RTCX2
+15[7]
+O
+Output from the RTC oscillator circuit.
+P0[0]/RD1/TXD3/
+SDA1
+37[1]
+I/O
+P0[0] —
+General purpose digital input/output pin.
+I
+RD1 —
+CAN1 receiver input.
+O
+TXD3 —
+Transmitter output for UART3.
+I/O
+SDA1 —
+I2C1 data input/output (this is not an I2C-bus compliant open-drain pin).
