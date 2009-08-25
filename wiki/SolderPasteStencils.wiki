@@ -12,6 +12,8 @@ http://opendous.googlecode.com/svn/trunk/Pictures/Stencil.jpg
 
 A version of this tutorial is also available on [http://www.instructables.com/id/Create_Solder_Paste_Stencils_with_Cricut/ Instructables.com].
 
+(3v0) of [http://www.electro-tech-online.com/ ElectroTech] appears to have been the first person to describe this process publicly.  However, my work was independent.
+
 = What You Will Need =
 
  * [http://www.cricut.com/shopping/productList.aspx?sc=1 Cricut] machine
@@ -19,6 +21,7 @@ A version of this tutorial is also available on [http://www.instructables.com/id
  * [http://gerbv.sourceforge.net/ Gerber Viewer] software
  * Transparency Film for overhead projectors which you can buy at any office supply store
  * A Windows XP/Vista computer
+ * The Gerber Solder Paste layer of your design
 
 
 = Preparation =
