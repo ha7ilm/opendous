@@ -1,0 +1,40 @@
+# EESchema Netlist Version 1.1 created  7/6/2009 4:41:54 PM
+(
+ ( /4A5255B3 Pin_Array_5x2_1.27mm_0.5_inch P1 CONN_10
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+  ( 3 N-000005 )
+  ( 4 N-000008 )
+  ( 5 N-000004 )
+  ( 6 N-000009 )
+  ( 7 N-000003 )
+  ( 8 N-000010 )
+  ( 9 N-000002 )
+  ( 10 N-000011 )
+ )
+ ( /4A5255B9 Pin_Array_Port_5x2_Opendous P2 CONN_10
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+  ( 3 N-000005 )
+  ( 4 N-000008 )
+  ( 5 N-000004 )
+  ( 6 N-000009 )
+  ( 7 N-000003 )
+  ( 8 N-000010 )
+  ( 9 N-000002 )
+  ( 10 N-000011 )
+ )
+ ( /4A5258CA 1Pin_20mil_VIA V1 VIA
+  ( 1 GND )
+ )
+ ( /4A5258D4 1Pin_20mil_VIA V2 VIA
+  ( 1 GND )
+ )
+ ( /4A5258D7 1Pin_20mil_VIA V3 VIA
+  ( 1 GND )
+ )
+ ( /4A5258D9 1Pin_20mil_VIA V4 VIA
+  ( 1 GND )
+ )
+)
+*

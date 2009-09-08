@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = 7/6/2009 4:41:54 PM
+
+BeginCmp
+TimeStamp = /4A5255B3;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = Pin_Array_5x2_1.27mm_0.5_inch;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A5255B9;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = Pin_Array_Port_5x2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A5258CA;
+Reference = V1;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A5258D4;
+Reference = V2;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A5258D7;
+Reference = V3;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A5258D9;
+Reference = V4;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+EndListe
