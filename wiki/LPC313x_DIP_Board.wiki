@@ -1,0 +1,11 @@
+#summary LPC313x DIP Development Board
+
+Designed to interface electronics to PCs via the High Speed USB interface.
+
+Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board SVN].
+
+* Status * : 2009-10-04 - board was prototyped and is now undergoing testing.  Would like to aim for a November release.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg
+
+There is also a sub-project related to this design, the [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x_Audio_Player LPC313x Audio Player Project] which is currently awaiting my figuring out of matched-length trace layout it KiCAD.
