@@ -1,0 +1,46 @@
+EESchema-DOCLIB  Version 2.0  8/19/2009 1:52:20 AM
+#
+$CMP BUFFER_GATE
+K NC7SZ125 Single Buffer Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_MMC_MMCplus_GMC06003XSEU
+K Memory Card MMC MMCplus RS-MMC Amphenol GMC06003XSEU or 101-00395-?? or Newark.com 40P2505
+$ENDCMP
+#
+$CMP ESD_Zener
+D Double Shottky Diode - Common Cathodes
+K DEV DIODE
+$ENDCMP
+#
+$CMP Inverter
+K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP LPC313x
+K LPC3130 LPC3131 NXP ARM ARM9
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP STEREO-AUDIO-JACK
+K CUI Inc. SJ1-3515-SMT
+$ENDCMP
+#
+$CMP TXB0108
+K Voltage Level Translator
+$ENDCMP
+#
+#End Doc Library
