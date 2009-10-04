@@ -1,0 +1,9 @@
+#summary LPC175x DIP Development Board
+
+Designed to interface electronics to PCs via the Full Speed USB or 10/100 Ethernet interfaces.
+
+Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC175x-DIP-Board SVN].
+
+* Status * : 2009-10-04 - board was prototyped but powering it up causes the IC to smoke.  The IC was either incorrectly placed or design is wrong.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC175x-DIP-Board/LPC175x-DIP-Board_Picture.jpg
