@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0  10/4/2009 10:07:49 AM
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_30
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP ESD_Zener
+D Double Shottky Diode - Common Cathodes
+K DEV DIODE
+$ENDCMP
+#
+$CMP LPC313x
+K LPC3130 LPC3131 NXP ARM ARM9
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP TS3USB221
+K USB 1:2 Multiplexer/Demultiplexer Switch
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,64 @@
+EESchema (20090216-final)  >> Creation date: 6/23/2009 8:23:42 PM
+
+#Cmp ( order = Reference )
+  Ref#   Value                 Footprint          Digi-Key Part#        QTY   Unit Cost (USD)
+  ~~~    ~~~~~                 ~~~~~~~~~          ~~~~~~~~~~~~~~        ~~~   ~~~~~~~~~~~~~~~
+| C?   ; 22pF                ; 0402             ; 490-1283-1-ND       ; 2   ; 0.02
+| C?   ; 33pF                ; 0402             ; 490-3220-1-ND       ; 1   ; 0.01
+| C?   ; 220pF               ; 0402             ; 587-1218-1-ND       ; 1   ; 0.02
+| C?   ; 0.0033uF            ; 0402             ; 709-1136-1-ND       ; 1   ; 0.03
+| C?   ; 0.001uF             ; 0402             ; 490-1303-1-ND       ; 3   ; 0.02
+| C?   ; 0.01uF              ; 0402             ; 490-4516-1-ND       ; 11  ; 0.02
+| C?   ; 0.1uF               ; 0402             ; PCC2146CT-ND        ; 14  ; 0.03
+| C?   ; 1uF                 ; 0402             ; 587-1231-1-ND       ; 22  ; 0.05
+| C?   ; 1uF                 ; 0603             ; 587-1262-1-ND       ; 1   ; 0.04
+| C?   ; 2.2uF               ; 0402             ; 587-1453-1-ND       ; 4   ; 0.30
+| C?   ; 4.7uF               ; 0603             ; 490-3302-1-ND       ; 2   ; 0.08
+| C?   ; 4.7uF               ; 0805             ; 587-1442-1-ND       ; 1   ; 0.30
+| C?   ; 10uF                ; 0805             ; 445-1371-1-ND       ; 4   ; 0.14
+| C?   ; 22uF                ; 0805             ; 587-1958-1-ND       ; 2   ; 0.58
+| CR1  ; ESD_ZENER           ; 0402             ; 445-2559-1-ND       ; 1   ; 0.12
+| D1   ; BAT54C              ; SC70-3           ; 568-1613-1-ND       ; 1   ; 0.19
+| D2   ; LO L29K             ; 0603             ; 475-2481-1-ND       ; 1   ; 0.11
+| IC1  ; LPC313X             ; TFBGA180         ; 568-4696-ND         ; 1   ; 5.60
+| IC2  ; 74LVC2G07           ; SC70-6           ; 296-13495-1-ND      ; 1   ; 0.45
+| IC3,6; ST1L05B             ; DFN6_3x3mm       ; 497-6829-1-ND       ; 2   ; 0.85
+| IC4  ; CAT811              ; SOT143-4         ; CAT811STBI-T3CT-ND  ; 1   ; 0.68
+| IC5  ; BQ24152             ; DSBGA20          ; 296-23517-1-ND      ; 1   ; 4.50
+| IC12 ; NC7SB3257           ; SC70-6           ; NC7SB3257P6XCT-ND   ; 1   ; 0.43
+| IC17 ; AT45DBxx1D-SU       ; SOIC8            ; AT45DB161D-SU-ND    ; 1   ; 2.10
+| IC18 ; TS3USB221           ; SON10            ; 296-21360-1-ND      ; 1   ; 1.50
+| L?   ; FB                  ; 0603             ; 587-1926-1-ND       ; 5   ; 0.04
+| L?   ; 1.0uH               ; 1008             ; 490-5112-1-ND       ; 1   ; 0.40
+| L?   ; 1.5uH               ; VLF301x          ; 445-3214-1-ND       ; 1   ; 0.80
+| L?   ; 2.2uH               ; VLF301x          ; 445-4177-1-ND       ; 2   ; 1.04
+| Q1   ; 2N7002              ; SC-70            ; 2N7002WT1GOSCT-ND   ; 1   ; 0.15
+| R?   ; 0.068               ; 0402             ; P.068AMCT-ND        ; 1   ; 0.52
+| R?   ; 10                  ; 0402             ; 311-10JRCT-ND       ; 1   ; 0.07
+| R?   ; 56                  ; 0402             ; 311-56.0LRCT-ND     ; 2   ; 0.07
+| R?   ; 1k                  ; 0402             ; RMCF1/16S1KFRCT-ND  ; 1   ; 0.11
+| R?   ; 1650                ; 0402             ; 541-1.65KLCT-ND     ; 1   ; 0.08
+| R?   ; 4.7k                ; 0402             ; 311-5.1KJRCT-ND     ; 1   ; 0.07
+| R?   ; 10k                 ; 0402             ; 311-10KJRCT-ND      ; 8   ; 0.07
+| R?   ; 12k                 ; 0402             ; 311-12.0KLRCT-ND    ; 1   ; 0.10
+| R?   ; 43k                 ; 0402             ; 311-43KJRCT-ND      ; 8   ; 0.07
+| RP?  ; 0                   ; 0402x8           ; 741X163220JPCT-ND   ; 1   ; 0.16
+| SW1  ; RESET               ; 6.5x6x3.1mm_EVQ  ; P12940SCT-ND        ; 1   ; 0.30
+| SW2  ; MODE                ; DIP_SW_HalfP10   ; CT21810LPST-ND      ; 1   ; 1.43
+| U2   ; USBCONN-HOSTCAPABLE ; MiniB-5pos       ; H2959CT-ND          ; 1   ; 1.18
+| U3   ; USBCONN             ; USB-A-Vert       ; 151-1082-ND         ; 1   ; 1.25
+| U4   ; JTAG                ; DIL-8x2-0.05"-F  ; S9009E-8-ND         ; 1   ; 2.50
+| U5   ; Expansion_Connector ; CONN_DF40C       ; H11614CT-ND         ; 1   ; 1.72
+| U8   ; microSD             ; MemCard_3M_mSD   ; 3M5607CT-ND         ; 1   ; 1.70
+| U10  ; SN74AUC1G17         ; SC70-6           ; 296-13173-1-ND      ; 1   ; 0.50
+| X1   ; 12MHz               ; 2.5x2mm          ; 644-1047-1-ND       ; 1   ; 0.62
+| *    ; *                   ; Shunt Jumper     ; S3404-ND            ; 3   ; 0.27
+|----------------------------------------------------------------------Total:63.27
+#End Cmp
+#End List
+
+#Notes: - this BillOfMaterials is currently incomplete!
+	- Unit costs based on minimum orders of 10 components.
+	- SC70-3 is equivalent to SOT323
+	- items with no price are optional
+	- R17 0603 should be highest wattage possible
