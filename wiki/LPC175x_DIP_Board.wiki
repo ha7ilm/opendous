@@ -9,13 +9,15 @@ Design Files are available in [http://code.google.com/p/opendous/source/browse/t
 
 == Features ==
 
- * based on [http://www.nxp.com/pip/LPC1758_56_54_52_51_2.html LPC1758] ARM Cortex-M3 MCU
- * USB-miniB and USB-A connectors and on-board [http://focus.ti.com/docs/prod/folders/print/ts3usb221.html TS3USB221] USB switch for USB Device, Host, and OTG modes
- * all pins not related to USB and Ethernet are exposed on the outer headers
- * 10/100 Ethernet based on the [http://www.smsc.com/index.php?tid=149&pid=59 LAN8720] PHY
- * 3.3V 1A+ +/- 2% [http://www.st.com/stonline/products/literature/ds/14492/st1l05b.htm ST1L05B] regulator
- * 12MHz main crystal and 32.768kHz RTC crystal
- * Dimensions (LxW): 3" x 1"
- * Design is 2-layers with 7mil/7mil Trace/Space and 15mil Vias
+  * based on [http://www.nxp.com/pip/LPC1758_56_54_52_51_2.html LPC1758] ARM Cortex-M3 MCU
+  * USB-miniB and USB-A connectors and on-board [http://focus.ti.com/docs/prod/folders/print/ts3usb221.html TS3USB221] USB switch for USB Device, Host, and OTG modes
+  * all pins not related to USB and Ethernet are exposed on the outer headers
+  * microSD connector in [http://en.wikipedia.org/wiki/MicroSD SPI Mode]
+  * 10/100 Ethernet based on the [http://www.smsc.com/index.php?tid=149&pid=59 LAN8720] PHY
+  * 3.3V 1A+ +/- 2% [http://www.st.com/stonline/products/literature/ds/14492/st1l05b.htm ST1L05B] regulator
+  * RESET button, NMI button, and USB status LED
+  * 12MHz main crystal and 32.768kHz RTC crystal
+  * Dimensions (LxW): 3" x 1" - plugs into standard solder-less breadboard
+  * Design is 2-layers with 7mil/7mil Trace/Space and 15mil Vias
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC175x-DIP-Board/LPC175x-DIP-Board_Picture.jpg
