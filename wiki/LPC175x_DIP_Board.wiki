@@ -16,6 +16,6 @@ Design Files are available in [http://code.google.com/p/opendous/source/browse/t
  * 3.3V 1A+ +/- 2% [http://www.st.com/stonline/products/literature/ds/14492/st1l05b.htm ST1L05B] regulator
  * 12MHz main crystal and 32.768kHz RTC crystal
  * Dimensions (LxW): 3" x 1"
- * Design is 7mil/7mil Trace/Space with 15mil Vias
+ * Design is 2-layers with 7mil/7mil Trace/Space and 15mil Vias
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC175x-DIP-Board/LPC175x-DIP-Board_Picture.jpg
