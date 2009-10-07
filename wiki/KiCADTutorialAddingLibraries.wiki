@@ -1,47 +1,49 @@
 #summary How to add new KiCAD libraries to your projects
 
-This example will use the Opendous KiCAD libraries available through [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/KiCAD_Libraries SVN] or in the [http://code.google.com/p/opendous/downloads/list downloads] section.
+This example will use the Opendous KiCAD libraries available through [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/KiCAD_Libraries SVN] or in the [http://code.google.com/p/opendous/downloads/list downloads] section as _KiCAD_Libraries-?.zip_.
 
 == Adding Schematic Symbol Libraries ==
 
 After starting or [http://code.google.com/p/opendous/wiki/KiCADTutorialOpeningProjects opening] a project, run *EEschema*.  Select _Library_ from the _Preferences_ menu:
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-01.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Symbol_Library-01.jpg
 
-Click the _Ins_ button to insert a new library:
+Click the _Add_ button to insert a new library:
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-02.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Symbol_Library-02.jpg
 
-Find `opendous.lib` in `/library/` directory where you extracted [http://code.google.com/p/opendous/downloads/list Opendous_KiCAD_Libraries-?.zip]:
-
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-03.jpg
-
-The library contents will now be available to your project:
-
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-04.jpg
+Find `opendous.lib` in `/library/` directory where you extracted [http://code.google.com/p/opendous/downloads/list KiCAD_Libraries-?.zip].
 
 Click _Save Cfg_ to save the configuration file for the current project:
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-05.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Symbol_Library-03.jpg
+
+The library contents will now be available to your project.  Check by opening the _Library Browser_
+
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Symbol_Library-04.jpg
+
+And browse the new library contents:
+
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Symbol_Library-05.jpg
+
 
 == Adding Layout Footprint Libraries ==
 
 After starting or [http://code.google.com/p/opendous/wiki/KiCADTutorialOpeningProjects opening] a project, run *PCBnew*.  Select _Library_ from the _Preferences_ menu:
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-06.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Module_Library-01.jpg
 
-Click the _Ins_ button to insert a new library:
+Click the _Add_ button to insert a new library:
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-07.jpg
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Module_Library-02.jpg
 
-Find `opendous.mod` in `/modules/` directory where you extracted [http://code.google.com/p/opendous/downloads/list Opendous_KiCAD_Libraries-?.zip]:
+Find `opendous.mod` in `/modules/` directory where you extracted [http://code.google.com/p/opendous/downloads/list KiCAD_Libraries-?.zip].
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-08.jpg
+The library contents will now be available to your project when running _CVPCB_, the schematic symbol to module linker.  Click _Save Cfg_ to save the configuration file for the current project:
 
-The library contents will now be available to your project:
+http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Add_Module_Library-03.jpg
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-09.jpg
 
-Click _Save Cfg_ to save the configuration file for the current project:
+== Next ==
 
-http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Tutorial-AddLibraries-05.jpg
+[Tutorials] - back to the main tutorials page 
