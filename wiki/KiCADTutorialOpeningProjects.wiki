@@ -20,7 +20,7 @@ Click the *Eeschema* button to start the schematic editor.
 
 While in the Schematic Editor, use your mouse wheel to zoom in and out to view the schematic.  KiCAD is heavily reliant on a wheel mouse.  Zooming is critical to using KiCAD.
 
-  http://opendous.googlecode.com/svn/trunk/Pictures/XXXXXXXXXXXXXXXXXXXXX.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_EEschema_Example.jpg
 
 To start the PCB editor, you can click the *PCBnew* button in either *Eeschema*, the Schematic Editor, or through the main KiCAD program.
 
@@ -28,7 +28,7 @@ To start the PCB editor, you can click the *PCBnew* button in either *Eeschema*,
 
 While in the Layout Editor, *PCBnew*, use your mouse wheel to zoom in and out to view the layout.  Once again, KiCAD is heavily reliant on a wheel mouse.
 
-  http://opendous.googlecode.com/svn/trunk/Pictures/XXXXXXXXXXXXXXXXXX.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_PCBnew_Example.jpg
 
 == Next ==
 
