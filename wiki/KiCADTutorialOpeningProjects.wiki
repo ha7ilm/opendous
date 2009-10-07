@@ -24,7 +24,7 @@ While in the Schematic Editor, use your mouse wheel to zoom in and out to view t
 
 To start the PCB editor, you can click the *PCBnew* button in either *Eeschema*, the Schematic Editor, or through the main KiCAD program.
 
-  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Start_PCBnew.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Create_Gerbers-02.jpg
 
 While in the Layout Editor, *PCBnew*, use your mouse wheel to zoom in and out to view the layout.  Once again, KiCAD is heavily reliant on a wheel mouse.
 
