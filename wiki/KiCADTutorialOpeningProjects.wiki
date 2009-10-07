@@ -29,3 +29,9 @@ To start the PCB editor, you can click the *PCBnew* button in either *Eeschema*,
 While in the Layout Editor, *PCBnew*, use your mouse wheel to zoom in and out to view the layout.  Once again, KiCAD is heavily reliant on a wheel mouse.
 
   http://opendous.googlecode.com/svn/trunk/Pictures/XXXXXXXXXXXXXXXXXX.jpg
+
+== Next ==
+
+[KiCADTutorialAddingLibraries] - adding schematic symbol and layout module libraries
+
+[Tutorials] - back to the main tutorials page
