@@ -1,6 +1,6 @@
 #summary Opening existing projects in KiCAD
 
-Install [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] by downloading and running the installer.  Under Ubuntu, KiCAD is in the _universe_ repository and can be installed with `sudo apt-get -y install kicad`.  Under Fedora, KiCAD is in the _RPM Fusion_ repository and can be installed with `yum install kicad` as *root*. [http://code.google.com/p/micropendous/wiki/LinuxQuickStart LinuxQuickStart] contains tutorials related to installing software under Linux.
+Install [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] by downloading and running the installer under Windows.  Under Ubuntu, KiCAD is in the _universe_ repository and can be installed with `sudo apt-get -y install kicad`.  Under Fedora, KiCAD is in the _RPM Fusion_ repository and can be installed with `yum install kicad` as *root*. [http://code.google.com/p/micropendous/wiki/LinuxQuickStart LinuxQuickStart] contains tutorials related to installing software under Linux.
 
 This Tutorial uses the [http://code.google.com/p/micropendous/wiki/Micropendous1 Micropendous1] project as an example.
 
