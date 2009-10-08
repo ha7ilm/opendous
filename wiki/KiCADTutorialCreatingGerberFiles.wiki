@@ -6,15 +6,15 @@ After finishing your project you must set up KiCAD to produce well-defined [http
 
 Open your PCB layout in PCBNew:
 
-    http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Start_PCBnew.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Start_PCBnew.jpg
 
 Select _Tracks and Vias_ from the _Dimensions Menu_
 
-  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Create_Gerbers-13.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Create_Gerbers-15.jpg
 
 Now change the *Mask Clearance* from `0.0100` to `0.0001` and click _OK_.
 
-  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Create_Gerbers-14.jpg
+  http://opendous.googlecode.com/svn/trunk/Pictures/KiCAD_Create_Gerbers-16.jpg
 
 Now create the Gerber files.  Select _Plot_ from the _File_ menu.
 
