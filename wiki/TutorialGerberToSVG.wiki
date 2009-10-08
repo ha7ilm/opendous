@@ -1,6 +1,6 @@
 #summary Convert Gerber files to SVG
 
-[http://sourceforge.net/projects/gerbv/ gerbv] is a cross-platform Open Source [http://en.wikipedia.org/wiki/Gerber_File Gerber] file viewer and editor.  It allows Gerber files to be exported into other formats.
+[http://sourceforge.net/projects/gerbv/ gerbv] is a cross-platform Open Source [http://en.wikipedia.org/wiki/Gerber_File Gerber] file viewer and editor.  It allows Gerber files to be exported into other formats.  This tutorial is useful if your PCB design software does not have Gerber exporting capability and you need to create [SolderPasteStencils Solder Paste stencils].
 
  * Open gerbv and select _Open Layer(s)_ from the File menu:
 
