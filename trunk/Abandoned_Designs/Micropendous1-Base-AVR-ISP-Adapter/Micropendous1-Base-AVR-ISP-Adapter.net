@@ -1,0 +1,28 @@
+# EESchema Netlist Version 1.1 created  21/10/2008-10:06:30
+(
+ ( /48FDA7FA Pin_Array_3x2_AVR_ISP_Inverted C1 AVR_MKII_ISP
+  ( 1 N-000005 )
+  ( 2 N-000009 )
+  ( 3 N-000006 )
+  ( 4 N-000011 )
+  ( 5 N-000010 )
+  ( 6 N-000007 )
+ )
+ ( /48FDA820 SIL-2-Blank JP1 JUMPER-2
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /48FDA7F1 CONN_5x2_1.27mm_0.5_inch_Inverted U1 MICROPENDOUS1-BASE-PORTB
+  ( 1 N-000006 )
+  ( 2 N-000010 )
+  ( 3 N-000005 )
+  ( 4 N-000011 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 N-000008 )
+  ( 10 N-000007 )
+ )
+)
+*

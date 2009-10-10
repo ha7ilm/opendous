@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 21/10/2008-10:06:30
+
+BeginCmp
+TimeStamp = /48FDA7FA;
+Reference = C1;
+ValeurCmp = AVR_MKII_ISP;
+IdModule  = Pin_Array_3x2_AVR_ISP_Inverted;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FDA820;
+Reference = JP1;
+ValeurCmp = JUMPER-2;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FDA7F1;
+Reference = U1;
+ValeurCmp = MICROPENDOUS1-BASE-PORTB;
+IdModule  = CONN_5x2_1.27mm_0.5_inch_Inverted;
+EndCmp
+
+EndListe

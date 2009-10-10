@@ -1,0 +1,210 @@
+# EESchema Netlist Version 1.1 created  2/16/2009 4:11:15 AM
+(
+ ( /49901669 Pin_Array_3x2_SPI_Opendous K2 SPI
+  ( 1 /PB3 )
+  ( 2 N-000006 )
+  ( 3 /PB1 )
+  ( 4 /PB2 )
+  ( 5 N-000002 )
+  ( 6 GND )
+ )
+ ( /499019B0 SIL-3-Blank K3 TRGT
+  ( 1 /RST )
+  ( 2 N-000002 )
+  ( 3 /PB0 )
+ )
+ ( /49901677 Pin_Array_4x2_UART_Opendous K4 UART
+  ( 1 /PD2 )
+  ( 2 VCC )
+  ( 3 /PD5 )
+  ( 4 /PD3 )
+  ( 5 /PD4 )
+  ( 6 GND )
+  ( 7 /PD7 )
+  ( 8 /PD6 )
+ )
+ ( /49901696 Pin_Array_3x2_I2C_Opendous K5 I2C
+  ( 1 /PD6 )
+  ( 2 VCC )
+  ( 3 /PD0 )
+  ( 4 /PD1 )
+  ( 5 /PD7 )
+  ( 6 GND )
+ )
+ ( /49901514 Pin_Array_Port_5x2 P6 PortB
+  ( 1 /PB0 )
+  ( 2 /PB1 )
+  ( 3 /PB2 )
+  ( 4 /PB3 )
+  ( 5 /PB4 )
+  ( 6 /PB5 )
+  ( 7 /PB6 )
+  ( 8 /PB7 )
+  ( 9 GND )
+  ( 10 VCC )
+ )
+ ( /4990153B Pin_Array_Port_5x2 P7 PortD
+  ( 1 /PD0 )
+  ( 2 /PD1 )
+  ( 3 /PD2 )
+  ( 4 /PD3 )
+  ( 5 /PD4 )
+  ( 6 /PD5 )
+  ( 7 /PD6 )
+  ( 8 /PD7 )
+  ( 9 GND )
+  ( 10 VCC )
+ )
+ ( /49901545 Pin_Array_Port_5x2 P8 PortC
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /PC2 )
+  ( 4 ? )
+  ( 5 /PC4 )
+  ( 6 /PC5 )
+  ( 7 /PC6 )
+  ( 8 /PC7 )
+  ( 9 GND )
+  ( 10 VCC )
+ )
+ ( /4961E5AE Micropendous1-Base-Inverted P12 MICROPENDOUS-23B
+  ( 1 /PC2 )
+  ( 2 /PC4 )
+  ( 3 /PC5 )
+  ( 4 /PC6 )
+  ( 5 /PC7 )
+  ( 6 /PB7 )
+  ( 7 /PB6 )
+  ( 8 /PB5 )
+  ( 9 /PB4 )
+  ( 10 /PB3 )
+  ( 11 /PB2 )
+  ( 12 /PB1 )
+  ( 13 /PB0 )
+  ( 14 GND )
+  ( 15 /PD7 )
+  ( 16 /PD6 )
+  ( 17 /PD5 )
+  ( 18 /PD4 )
+  ( 19 /PD3 )
+  ( 20 /PD2 )
+  ( 21 /PD1 )
+  ( 22 /PD0 )
+  ( 23 VCC )
+ )
+ ( /4961E62F 1Pin_TH_40milVia P13 CONN_1
+  ( 1 /RST )
+ )
+ ( /49901CCD SIL-2 R6 0
+  ( 1 VCC )
+  ( 2 N-000006 )
+ )
+ ( /49991CD5 Switch_SMT_TH_EVQ SW1 HWB
+  ( 1 /PD7 )
+  ( 2 GND )
+ )
+ ( /49991CD9 Switch_SMT_TH_EVQ SW2 RESET
+  ( 1 /RST )
+  ( 2 GND )
+ )
+ ( /498EA523 1Pin_20mil_VIA U2 VIA
+  ( 1 VCC )
+ )
+ ( /498EA4B9 1Pin_20mil_VIA U3 VIA
+  ( 1 /PB7 )
+ )
+ ( /498EA4C6 1Pin_20mil_VIA U4 VIA
+  ( 1 /PB5 )
+ )
+ ( /498EA4D3 1Pin_20mil_VIA U5 VIA
+  ( 1 /PB3 )
+ )
+ ( /498EA4D4 1Pin_20mil_VIA U6 VIA
+  ( 1 /PB1 )
+ )
+ ( /498FD838 1Pin_20mil_VIA U8 VIA
+  ( 1 /PD7 )
+ )
+ ( /498EA4EA 1Pin_20mil_VIA U9 VIA
+  ( 1 /PD5 )
+ )
+ ( /498EA4EB 1Pin_20mil_VIA U10 VIA
+  ( 1 /PD3 )
+ )
+ ( /498EA4EC 1Pin_20mil_VIA U11 VIA
+  ( 1 /PD1 )
+ )
+ ( /498EA4F4 1Pin_20mil_VIA U12 VIA
+  ( 1 VCC )
+ )
+ ( /498EA4F1 1Pin_20mil_VIA U13 VIA
+  ( 1 /PC7 )
+ )
+ ( /498EA51F 1Pin_20mil_VIA U15 VIA
+  ( 1 GND )
+ )
+ ( /498EA4DE 1Pin_20mil_VIA U16 VIA
+  ( 1 /PB6 )
+ )
+ ( /498EA4DF 1Pin_20mil_VIA U17 VIA
+  ( 1 /PB4 )
+ )
+ ( /498EA4E0 1Pin_20mil_VIA U18 VIA
+  ( 1 /PB2 )
+ )
+ ( /498EA4E1 1Pin_20mil_VIA U19 VIA
+  ( 1 /PB0 )
+ )
+ ( /498EA520 1Pin_20mil_VIA U20 VIA
+  ( 1 GND )
+ )
+ ( /498EA4ED 1Pin_20mil_VIA U21 VIA
+  ( 1 /PD6 )
+ )
+ ( /498EA4EE 1Pin_20mil_VIA U22 VIA
+  ( 1 /PD4 )
+ )
+ ( /498EA4EF 1Pin_20mil_VIA U23 VIA
+  ( 1 /PD2 )
+ )
+ ( /498EA4F0 1Pin_20mil_VIA U24 VIA
+  ( 1 /PD0 )
+ )
+ ( /498EA4F8 1Pin_20mil_VIA U25 VIA
+  ( 1 GND )
+ )
+ ( /498EA4F5 1Pin_20mil_VIA U26 VIA
+  ( 1 /PC6 )
+ )
+ ( /498EA4F7 1Pin_20mil_VIA U28 VIA
+  ( 1 /PC2 )
+ )
+ ( /49991EB2 1Pin_20mil_VIA U52 VIA
+  ( 1 GND )
+ )
+ ( /49991EBA 1Pin_20mil_VIA U53 VIA
+  ( 1 GND )
+ )
+ ( /49991EBD 1Pin_20mil_VIA U54 VIA
+  ( 1 GND )
+ )
+ ( /49991EBF 1Pin_20mil_VIA U55 VIA
+  ( 1 GND )
+ )
+ ( /49991EC1 1Pin_20mil_VIA U56 VIA
+  ( 1 GND )
+ )
+ ( /49991EC3 1Pin_20mil_VIA U57 VIA
+  ( 1 GND )
+ )
+ ( /49991EC5 1Pin_20mil_VIA U58 VIA
+  ( 1 GND )
+ )
+ ( /49992BE4 1Pin_20mil_VIA U59 VIA
+  ( 1 N-000002 )
+ )
+ ( /49992D9F 1Pin_20mil_VIA U60 VIA
+  ( 1 GND )
+ )
+)
+*

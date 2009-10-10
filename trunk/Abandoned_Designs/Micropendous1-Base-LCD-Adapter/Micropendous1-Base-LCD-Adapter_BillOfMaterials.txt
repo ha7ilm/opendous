@@ -1,0 +1,16 @@
+EESchema (20080825-RC1)  >> Creation date: 3/11/2008-16:48:37
+#Cmp ( order = Reference )
+ Ref#  Value     Footprint              Digi-Key Part#    Unit Cost (USD)
+ ~~~   ~~~~~     ~~~~~~~~~              ~~~~~~~~~~~~~~    ~~~~~~~~~~~~~~~
+ R1  ; 0       ; SM0805               ; RMCF1/100RCT-ND ; 0.005
+ P1b ; PortB   ; 0.05"x0.05"-DIL-10-M ; S9015E-05-ND    ; 0.992
+ P1c ; PortC   ; 0.05"x0.05"-DIL-10-M ; S9015E-04-ND    ; 0.938
+ P1d ; PortD   ; 0.05"x0.05"-DIL-10-M ; S9015E-05-ND    ; 0.992
+ U1  ; HD44780 ; 0.1"x0.1"-DIL-14-F   ; S7110-ND        ; 1.067
+---------------------------------------------------Total: 3.994
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -U1 Female Header can be substituted with Male Header
+	 S2012E-36-ND, if more appropriate for your application

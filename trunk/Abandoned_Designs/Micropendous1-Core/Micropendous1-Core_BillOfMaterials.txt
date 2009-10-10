@@ -1,0 +1,40 @@
+EESchema (20090216-final)  >> Creation date: 4/14/2009 11:28:07 AM
+#Cmp ( order = Reference )
+  Ref#  Value         Footprint             Digi-Key Part#          Unit Cost (USD)
+  ~~~   ~~~~~         ~~~~~~~~~             ~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~~
+| C1  ; 18pF        ; 0603                ; 490-1412-1-ND         ; 0.048
+| C2  ; 18pF        ; 0603                ; 490-1412-1-ND         ; 0.048
+| C3  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C4  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C5  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C6  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C7  ; 4.7uF       ; 0805                ; 445-1370-1-ND         ; 0.099
+| C8  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C9  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C10 ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| CR1 ; ESD_ZENER   ; 0603                ; CG0603MLU-12ECT-ND    ; 0.340
+| CR2 ; ESD_ZENER   ; 0603                ; CG0603MLU-12ECT-ND    ; 0.340
+| D1  ; MSS1P3L     ; MicroSMP            ; MSS1P3L-E3/89AGICT-ND ; 0.112
+| IC1 ; AT90USB16   ; QFN32               ; AT90USB162-16MURCT-ND ; 3.760
+| IC2 ; REGULATOR   ; SOT23-5             ; AP139-35WLDICT-ND     ; 1.080
+| J1  ; USBCONN     ; MiniB-5pos          ; H2959CT-ND            ; 1.180
+| K1  ; Vcc_Sel     ; SIL-0.1"-3-M        ; 609-3505-ND (3/36)    ; 0.960 (x3/36)=0.08
+| L1  ; Ferrite     ; 0603                ; 587-1926-1-ND         ; 0.041
+| P5  ; dW          ; SIL-0.1"-2-M (Opt.) ; 609-3505-ND (2/36)    ; 0.960 (x2/36)=0.06
+| R1  ; 22          ; 0603                ; RMCF1/16225%RTR-ND    ; 0.004
+| R2  ; 22          ; 0603                ; RMCF1/16225%RTR-ND    ; 0.004
+| R3  ; 15k         ; 0603                ; RMCF1/1615K5%RTR-ND   ; 0.004
+| R4  ; 15k         ; 0603                ; RMCF1/1615K5%RTR-ND   ; 0.004
+| SW1 ; RESET       ; 6.5x6x3.1mm         ; P12940SCT-ND          ; 0.296
+| SW2 ; HWB         ; 6.5x6x3.1mm         ; P12940SCT-ND          ; 0.296
+| X1  ; 8MHz        ; HC49-US             ; 535-9089-1-ND         ; 0.488
+| *   ; Jumper-PWR  ; Jumper-SIL2-0.1"    ; S9001-ND              ; 0.087
+-------------------------------------------------------------Total: 7.908
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header
+        -R5 is a PCB Trace jumper between GND and USB-Shield
+

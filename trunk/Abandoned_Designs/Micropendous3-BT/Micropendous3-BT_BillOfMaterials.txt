@@ -1,0 +1,76 @@
+EESchema (20090216-final)  >> Creation date: 4/14/2009 1:50:20 PM
+#Cmp ( order = Reference )
+  Ref#  Value         Footprint             Digi-Key Part#          Unit Cost (USD)
+  ~~~   ~~~~~         ~~~~~~~~~             ~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~~
+| C1  ; 18pF        ; 0603                ; 490-1412-1-ND         ; 0.048
+| C2  ; 18pF        ; 0603                ; 490-1412-1-ND         ; 0.048
+| C3  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C4  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C5  ; 4.7uF       ; 0805                ; 445-1370-1-ND         ; 0.099
+| C6  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C7  ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C8  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C9  ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C10 ; 1uF         ; 0603                ; 587-1262-1-ND         ; 0.044
+| C11 ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C12 ; 0.01uF      ; 0603                ; PCC1784CT-ND          ; 0.042
+| C13 ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C14 ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C15 ; 4.7uF       ; 0805                ; 445-1370-1-ND         ; 0.099
+| C16 ; 0.1uF       ; 0603                ; PCC2277TR-ND          ; 0.042
+| C17 ; 10uF        ; 1206                ; 587-1353-1-ND         ; 0.253
+| C18 ; 10uF        ; 1206                ; 587-1353-1-ND         ; 0.253
+| CR1 ; ESD_ZENER   ; 0402                ; PESD0402-140CT-ND     ; 0.195
+| CR2 ; ESD_ZENER   ; 0402                ; PESD0402-140CT-ND     ; 0.195
+| D1  ; MSS1P3L     ; MicroSMP            ; MSS1P3L-E3/89AGICT-ND ; 0.112
+| D2  ; MSS1P3L     ; MicroSMP            ; MSS1P3L-E3/89AGICT-ND ; 0.112
+| D3  ; MSS1P3L     ; MicroSMP            ; MSS1P3L-E3/89AGICT-ND ; 0.112
+| D4  ; MSS1P3L     ; MicroSMP            ; MSS1P3L-E3/89AGICT-ND ; 0.112
+| IC1 ; AT90USB647  ; QFN-32              ; AT90USB647-MU-ND      ; 9.680
+| IC2 ; REGULATOR   ; SOT23-5             ; AP139-35WLDICT-ND     ; 1.080
+| IC3 ; USB-Switch  ; MICROPAK10          ; FSUSB11L10XCT-ND      ; 1.230
+| IC4 ; REGULATOR   ; SOT223-5            ; NCP1117ST50T3GOSCT-ND ; 0.450
+| K1  ; Vcc_Sel     ; SIL-0.1"-3-M        ; 609-3505-ND (3/36)    ; 0.960 (x3/36)=0.08
+| K3  ; TRGT        ; SIL-0.1"-3-M-RA     ; 609-2227-ND (3/36)    ; 1.350 (x3/36)=0.12
+| K4  ; SPI         ; DIL-0.1"-2x3-M      ; 609-3210-ND           ; 0.400
+| K5  ; UART        ; DIL-0.1"-2x4-M      ; 609-3362-ND           ; 0.420
+| K6  ; I2C         ; DIL-0.1"-2x3-M      ; 609-3210-ND           ; 0.400
+| L1  ; Ferrite     ; 0603                ; 587-1926-1-ND         ; 0.041
+| L2  ; Ferrite     ; 0603                ; 587-1926-1-ND         ; 0.041
+| L3  ; Ferrite     ; 0603                ; 587-1926-1-ND         ; 0.041
+| P6  ; PortB       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P7  ; PortD       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P8  ; PortC       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P9  ; CONN_1      ; SIL-0.1"-1-M        ; 609-3505-ND (1/36)    ; 0.960 (x1/36)=0.03
+| P10 ; PortA       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P11 ; PortE       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P12 ; PortF       ; DIL-0.1"-2x5-F      ; S7108-ND              ; 0.763
+| P13 ; BATT2       ; DC_JACK_PJ-015B     ; CP-015BPJCT-ND        ; 0.598
+| P14 ; BATT        ; SIL-0.1"-2-F        ; S7035-ND              ; 0.229
+| R1  ; 22          ; 0603                ; RMCF1/16225%RTR-ND    ; 0.004
+| R2  ; 22          ; 0603                ; RMCF1/16225%RTR-ND    ; 0.004
+| R4  ; 0           ; 0603 (Opt.)         ; RMCF1/160RTR-ND       ; 0.101
+| R5  ; 47k         ; 0603                ; RMCF1/1647K5%RTR-ND   ; 0.004
+| R7  ; 0           ; 0603 (Opt.)         ; RMCF1/160RTR-ND       ; 0.101
+| R8  ; 47k         ; 0603                ; RMCF1/1647K5%RTR-ND   ; 0.004
+| R9  ; 0-Ferrite   ; 0603                ; 587-1926-1-ND         ; 0.041
+| SW1 ; RESET       ; 6.5x6x3.1mm-EVQ     ; P12940SCT-ND          ; 0.296
+| SW2 ; HWB         ; 6.5x6x3.1mm-EVQ     ; P12940SCT-ND          ; 0.296
+| U1  ; USBCONN     ; MiniB-5pos          ; H2959CT-ND            ; 1.180
+| U2  ; USBCONN     ; USB-A-TH            ; AE9923-ND             ; 0.754
+| U62 ; JTAG        ; DIL-0.1"-2x5-M      ; 609-3243-ND           ; 0.350
+| X1  ; 8MHz        ; HC49-US             ; 535-9089-1-ND         ; 0.488
+| *   ; Jumper-PWR  ; Jumper-SIL2-0.1"    ; S9001-ND              ; 0.087
+| *   ; Jumper-TRGT ; Jumper-SIL2-0.1"    ; S9001-ND              ; 0.087
+-------------------------------------------------------------Total:25.365
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header
+        -R3 is a copper PCB trace between GND and USB-Shield
+        -R4 connects USB_ID pin to PE3 for Host/Device Selection
+        -R7 connects AREF to VCC. Do not mount if you want to use external AREF
+        -R9 is a Ferrite Bead as SPI may require more than 1/8W
+       

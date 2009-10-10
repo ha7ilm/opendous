@@ -1,0 +1,55 @@
+EESchema (20080715  >> Creation date: 06/12/2008-21:34:56
+#Cmp ( order = Reference )
+ Ref#  Value          Footprint        Digi-Key Part#          Unit Cost (USD)
+ ~~~   ~~~~~          ~~~~~~~~~        ~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~~
+ C1  ; 0.22uF       ; SM0805         ; 587-1306-2-ND         ; 0.088
+ C2  ; 18pF         ; SM0805         ; 709-1171-2-ND         ; 0.044
+ C3  ; 18pF         ; SM0805         ; 709-1171-2-ND         ; 0.044
+ C4  ; 1uF          ; SM0805         ; PCC1849CT-ND          ; 0.112
+ C5  ; 1uF          ; SM0805         ; PCC1849CT-ND          ; 0.112
+ C6  ; 0.22uF       ; SM0805         ; 587-1306-1-ND         ; 0.088
+ C7  ; 4.7uF        ; SM1206         ; 718-1148-1-ND         ; 0.096
+ C8  ; 1uF          ; SM0805         ; PCC1849CT-ND          ; 0.112
+ C9  ; 0.1uF        ; SM0805         ; PCC1828CT-ND          ; 0.099
+ C10 ; 4.7uF        ; SM1206         ; 718-1148-1-ND         ; 0.096
+ C11 ; 0.1uF        ; SM0805         ; PCC1828CT-ND          ; 0.099
+ CR1 ; ESD_ZENER    ; SM0603         ; CG0603MLU-24ECT-ND    ; 0.216
+ CR2 ; ESD_ZENER    ; SM0603         ; CG0603MLU-24ECT-ND    ; 0.216
+ D1  ; LED          ; SM0805         ; 475-1410-1-ND         ; 0.042
+ IC1 ; AT90USB16    ; TQFP32         ; AT90USB162-16AURCT-ND ; 3.760
+ J1  ; USBCONN      ; USB2_MiniB_SMT ; H2959CT-ND            ; 1.180
+ K1  ; Vcc_Sel      ; SIL-3          ; 609-2227-ND (3/36)    ; 1.350 (x3/36)=0.11
+ L1  ; Ferrite Bead ; SM0805         ; 587-1931-1-ND         ; 0.067
+ L3  ; Ferrite Bead ; SM0805         ; 587-1931-1-ND         ; 0.067
+ P1  ; Main_Plug    ; SIL-22         ; 609-2227-ND (22/36)   ; 1.350 (x22/36)=0.83
+ P2  ; Power        ; SIL-2          ; S5438-ND              ; 0.305
+ P3  ; C1           ; SIL-1 (Opt.)   ; S1012E-36-ND (1/36)   ; 
+ P4  ; USB_Power    ; SIL-2          ; S1012E-36-ND (2/36)   ; 1.122 (x2/36)=0.06
+ R1  ; 22           ; SM0805         ; RHM22.0CRCT-ND        ; 0.037
+ R2  ; 22           ; SM0805         ; RHM22.0CRCT-ND        ; 0.037
+ R3  ; 47k          ; SM0805         ; RHM47KARCT-ND         ; 0.033
+ R4  ; 47k          ; SM0805         ; RHM47KARCT-ND         ; 0.033
+ R5  ; 0            ; SM0805         ; N/A                   ; 
+ R6  ; 1K           ; SM0805         ; RHM1.0KARCT-ND        ; 0.033
+ SW1 ; RESET        ; 6.5x6x3.1mm    ; P12940SCT-ND          ; 0.296
+ SW2 ; HWB          ; 6.5x6x3.1mm    ; P12940SCT-ND          ; 0.296
+ X1  ; 8MHz         ; HC49-US        ; 535-9089-1-ND         ; 0.488
+ *   ; Jumper       ; Jumper         ; S9001-ND              ; 0.087
+--------------------------------------------------------Total: 9.435
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header
+	-note that either the TQFP or QFN version of the IC can be used
+        -R1,R2 should be 5% or better
+	-R5 has a copper shunt on the board - GND and Shield are connected
+	 so R5 is not necessary
+	-CR1 and CR2 are not necessary in most applications
+	-C1 and C6 are not necessary in most applications and should only be
+	 populated in v1.3 boards as revisions 1.0, 1.1, and 1.2 had them
+	 incorrectly connected.
+	-SW1 and SW2 can also be populated by TL59AF100Q, a thru-hole switch
+	-X1, a 50ppm or better crystal, can also be a thru-hole HC49
+	-P3, labeled as C1 on the board, connects to PC1/RESET/debugWire

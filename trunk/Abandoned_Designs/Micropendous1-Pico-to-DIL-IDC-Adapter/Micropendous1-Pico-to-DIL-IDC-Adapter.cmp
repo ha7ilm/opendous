@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 22/12/2008-11:15:06
+
+BeginCmp
+TimeStamp = /494F70A8;
+Reference = C1;
+ValeurCmp = AVRISP;
+IdModule  = Pin_Array_3x2_AVR_ISP_Inverted;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F640B;
+Reference = P3;
+ValeurCmp = MICROPENDOUS;
+IdModule  = MICROpendous-Inverted;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F6EF8;
+Reference = P4;
+ValeurCmp = PortD;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F6EF5;
+Reference = P5;
+ValeurCmp = PortB;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F6FAF;
+Reference = P6;
+ValeurCmp = PortC;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F7270;
+Reference = P7;
+ValeurCmp = MICROPENDOUS;
+IdModule  = MICROpendous_0.1inch-DIL;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F72E5;
+Reference = P8;
+ValeurCmp = PWR_TRGT;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F7590;
+Reference = P9;
+ValeurCmp = RESET_SRC;
+IdModule  = SIL-3-Blank;
+EndCmp
+
+EndListe

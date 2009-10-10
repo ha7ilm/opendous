@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 20/10/2008-17:22:27
+
+BeginCmp
+TimeStamp = /48FCBD4E;
+Reference = P1;
+ValeurCmp = MICROPENDOUS-23;
+IdModule  = Micropendous1-Base-ReducedOutline;
+EndCmp
+
+BeginCmp
+TimeStamp = /48C52CFF;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /48C52F84;
+Reference = R1;
+ValeurCmp = 0;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48C52BFE;
+Reference = U1;
+ValeurCmp = HD44780;
+IdModule  = Pin_Array_HD44780_LCD;
+EndCmp
+
+EndListe

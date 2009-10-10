@@ -1,0 +1,26 @@
+EESchema (20090216-RC1)  >> Creation date: 15/3/2009-12:48:37
+#Cmp ( order = Reference )
+  Ref#   Value     Footprint          Digi-Key Part#         Unit Cost (USD)
+  ~~~    ~~~~~     ~~~~~~~~~          ~~~~~~~~~~~~~~         ~~~~~~~~~~~~~~~
+| K2   ; SPI     ; DIL-3x2          ; 609-3210-ND          ; 0.400
+| K3   ; TRGT    ; SIL-3x1          ; S1012E-36-ND (3/36)  ; 1.122 (x3/36)=0.09
+| K4   ; UART    ; DIL-4x2          ; 609-3362-ND          ; 0.420
+| K5   ; I2C     ; DIL-3x2          ; 609-3210-ND          ; 0.400 
+| P6   ; PortB   ; DIL-5x2          ; S7108-ND             ; 0.920
+| P7   ; PortD   ; DIL-5x2          ; S7108-ND             ; 0.920
+| P8   ; PortC   ; DIL-5x2          ; S7108-ND             ; 0.920
+| P12a ; PORTB   ; DIL-5x2-0.05"    ; S9015E-05-ND         ; 0.992
+| P12b ; PORTC   ; DIL-4x2-0.05"    ; S9015E-04-ND         ; 0.938
+| P12c ; PORTD   ; DIL-5x2-0.05"    ; S9015E-05-ND         ; 0.992
+| R6   ; 0       ; SIL-2x1          ; S1012E-36-ND (2/36)  ; 1.122 (x2/36)=0.06
+| SW1  ; HWB     ; 6.5x6x3.1mm_EVQ  ; P12940SCT-ND         ; 0.296
+| SW2  ; RESET   ; 6.5x6x3.1mm_EVQ  ; P12940SCT-ND         ; 0.296
+| *    ; *       ; 2 Jumpers        ; S9001-ND             ; 0.087 (x2)=0.174
+------------------------------------------------------Total: 7.818
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header
+        -SW1 and SW2 can also be populated by TL59AF100Q, a thru-hole switch

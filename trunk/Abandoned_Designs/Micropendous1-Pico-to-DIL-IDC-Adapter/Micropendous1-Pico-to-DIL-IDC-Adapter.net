@@ -1,0 +1,235 @@
+# EESchema Netlist Version 1.1 created  4/14/2009 6:10:31 PM
+(
+ ( /49E509BB $noname  P7 MICROPENDOUS1-PICO {Lib=MICROPENDOUS1-PICO}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 /PB3 )
+  (    5 /PB4 )
+  (    6 /PB5 )
+  (    7 /PB6 )
+  (    8 /PB7 )
+  (    9 GND )
+  (   10 VCC )
+  (   11 /PD0 )
+  (   12 /PD1 )
+  (   13 /PD2 )
+  (   14 /PD3 )
+  (   15 /PD4 )
+  (   16 /PD5 )
+  (   17 /PD6 )
+  (   18 /PD7 )
+  (   19 /PC7 )
+  (   20 /PC6 )
+  (   21 /PC5 )
+  (   22 /PC4 )
+  (   23 /RESET )
+  (   24 /PC2 )
+ )
+ ( /49E509B0 $noname  P3 MICROPENDOUS1-PICO {Lib=MICROPENDOUS1-PICO}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 /PB3 )
+  (    5 /PB4 )
+  (    6 /PB5 )
+  (    7 /PB6 )
+  (    8 /PB7 )
+  (    9 GND )
+  (   10 VCC )
+  (   11 /PD0 )
+  (   12 /PD1 )
+  (   13 /PD2 )
+  (   14 /PD3 )
+  (   15 /PD4 )
+  (   16 /PD5 )
+  (   17 /PD6 )
+  (   18 /PD7 )
+  (   19 /PC7 )
+  (   20 /PC6 )
+  (   21 /PC5 )
+  (   22 /PC4 )
+  (   23 /RESET )
+  (   24 /PC2 )
+ )
+ ( /494F7590 $noname  P9 RESET_SRC {Lib=CONN_3}
+  (    1 /RESET )
+  (    2 N-000024 )
+  (    3 /PB0 )
+ )
+ ( /494F72E5 $noname  P8 PWR_TRGT {Lib=CONN_2}
+  (    1 VCC )
+  (    2 N-000022 )
+ )
+ ( /494F70A8 $noname  C1 AVRISP {Lib=AVR_MKII_ISP}
+  (    1 /PB3 )
+  (    2 N-000022 )
+  (    3 /PB1 )
+  (    4 /PB2 )
+  (    5 N-000024 )
+  (    6 GND )
+ )
+ ( /494F6FAF $noname  P6 PortC {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PC7 )
+  (    4 /PC6 )
+  (    5 /PC5 )
+  (    6 /PC4 )
+  (    7 ? )
+  (    8 /PC2 )
+  (    9 ? )
+  (   10 ? )
+ )
+ ( /494F6EF8 $noname  P4 PortD {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PD7 )
+  (    4 /PD6 )
+  (    5 /PD5 )
+  (    6 /PD4 )
+  (    7 /PD3 )
+  (    8 /PD2 )
+  (    9 /PD1 )
+  (   10 /PD0 )
+ )
+ ( /494F6EF5 $noname  P5 PortB {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PB7 )
+  (    4 /PB6 )
+  (    5 /PB5 )
+  (    6 /PB4 )
+  (    7 /PB3 )
+  (    8 /PB2 )
+  (    9 /PB1 )
+  (   10 /PB0 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P7
+ MICROpendous1-Pico
+ MICROpendous1-Pico-Inverted
+$endlist
+$component P3
+ MICROpendous1-Pico
+ MICROpendous1-Pico-Inverted
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/PB1" "PB1"
+ P3 2
+ P7 2
+ C1 3
+ P5 9
+Net 2 "/PB2" "PB2"
+ P5 8
+ C1 4
+ P7 3
+ P3 3
+Net 3 "/PB3" "PB3"
+ P3 4
+ P7 4
+ P5 7
+ C1 1
+Net 4 "/PB4" "PB4"
+ P3 5
+ P7 5
+ P5 6
+Net 5 "/PB5" "PB5"
+ P3 6
+ P5 5
+ P7 6
+Net 6 "/PB6" "PB6"
+ P5 4
+ P3 7
+ P7 7
+Net 7 "/PB7" "PB7"
+ P5 3
+ P7 8
+ P3 8
+Net 8 "/PD0" "PD0"
+ P7 11
+ P3 11
+ P4 10
+Net 9 "/PD1" "PD1"
+ P3 12
+ P4 9
+ P7 12
+Net 10 "/PD2" "PD2"
+ P7 13
+ P4 8
+ P3 13
+Net 11 "/PD3" "PD3"
+ P3 14
+ P7 14
+ P4 7
+Net 12 "/PD4" "PD4"
+ P3 15
+ P4 6
+ P7 15
+Net 13 "/PD5" "PD5"
+ P3 16
+ P4 5
+ P7 16
+Net 14 "/PD6" "PD6"
+ P3 17
+ P4 4
+ P7 17
+Net 15 "/PD7" "PD7"
+ P4 3
+ P3 18
+ P7 18
+Net 16 "/PC7" "PC7"
+ P7 19
+ P3 19
+ P6 3
+Net 17 "/PC6" "PC6"
+ P6 4
+ P7 20
+ P3 20
+Net 18 "/PC5" "PC5"
+ P7 21
+ P6 5
+ P3 21
+Net 19 "/PC4" "PC4"
+ P6 6
+ P7 22
+ P3 22
+Net 20 "/PC2" "PC2"
+ P3 24
+ P6 8
+ P7 24
+Net 21 "GND" "GND"
+ P3 9
+ P7 9
+ C1 6
+ P6 2
+ P5 2
+ P4 2
+Net 22 "" ""
+ P8 2
+ C1 2
+Net 23 "VCC" "VCC"
+ P7 10
+ P5 1
+ P4 1
+ P8 1
+ P6 1
+ P3 10
+Net 24 "" ""
+ C1 5
+ P9 2
+Net 25 "/PB0" "PB0"
+ P9 3
+ P5 10
+ P3 1
+ P7 1
+Net 26 "/RESET" "RESET"
+ P9 1
+ P7 23
+ P3 23
+}
+#End

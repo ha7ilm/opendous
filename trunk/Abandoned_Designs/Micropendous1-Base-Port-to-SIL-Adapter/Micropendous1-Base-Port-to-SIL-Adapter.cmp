@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 21/10/2008-09:16:17
+
+BeginCmp
+TimeStamp = /48FD9B80;
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FD9D08;
+Reference = U1;
+ValeurCmp = MICROPENDOUS-10;
+IdModule  = CONN_5x2_1.27mm_0.5_inch_Inverted;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FD9D02;
+Reference = U2;
+ValeurCmp = MICROPENDOUS-9;
+IdModule  = SIL-9-Blank;
+EndCmp
+
+EndListe

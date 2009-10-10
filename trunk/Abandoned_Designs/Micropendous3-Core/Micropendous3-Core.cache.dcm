@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0  4/14/2009 2:06:36 PM
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_3
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP ESD_Zener
+D Double Shottky Diode - Common Cathodes
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
