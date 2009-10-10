@@ -4,7 +4,7 @@ Designed to interface electronics to PCs via the Full Speed USB or 10/100 Ethern
 
 Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC175x-DIP-Board SVN].
 
-* Status * : 2009-10-04 - board was prototyped but powering it up causes the IC to smoke.  The IC was either incorrectly placed or design is wrong.
+* Status * : 2009-10-09 - Board is prototyped and earlier problems were the result of the IC being incorrectly oriented.  Now there are USB enumeration problems (timeout error).
 
 
 == Features ==
