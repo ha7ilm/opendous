@@ -1,0 +1,13 @@
+EESchema (20090216-final)  >> Creation date: 4/14/2009 6:26:50 PM
+#Cmp ( order = Reference )
+  Ref# Value                Footprint          Digi-Key Part#        Unit Cost (USD)
+  ~~~  ~~~~~                ~~~~~~~~~          ~~~~~~~~~~~~~~        ~~~~~~~~~~~~~~~
+| P1 ; CONN_12            ; SIL-12           ; 609-2224-ND (12/36) ; 1.310 (x12/36)=0.44
+| P2 ; CONN_12            ; SIL-12           ; 609-2224-ND (12/36) ; 1.310 (x12/36)=0.44
+| P3 ; MICROPENDOUS1-PICO ; DIL-0.05"-2x10-M ; S9015E-10-ND        ; 1.344
+-------------------------------------------------------------Total: 2.224
+#End Cmp
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header

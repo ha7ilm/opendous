@@ -1,0 +1,36 @@
+EESchema (20090216-RC1)  >> Creation date: 14/4/2009-16:48:37
+#Cmp ( order = Reference )
+  Ref#  Value        Footprint           Digi-Key Part#          Unit Cost (USD)
+  ~~~   ~~~~~        ~~~~~~~~~           ~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~~
+| C1  ; 18pF       ; 0402              ; PCC180CQCT-ND         ; 0.073
+| C2  ; 18pF       ; 0402              ; PCC180CQCT-ND         ; 0.073
+| C3  ; 0.1uF      ; 0402              ; 490-3271-1-ND         ; 0.022
+| C4  ; 1uF        ; 0402              ; 445-3441-1-ND         ; 0.055
+| C5  ; 1uF        ; 0402              ; 445-3441-1-ND         ; 0.055
+| C6  ; 1uF        ; 0402              ; 445-3441-1-ND         ; 0.055
+| C7  ; 4.7uF      ; 0603              ; 490-3302-1-ND         ; 0.125
+| C8  ; 0.1uF      ; 0402              ; 490-3271-1-ND         ; 0.022
+| C9  ; 0.1uF      ; 0402              ; 490-3271-1-ND         ; 0.022
+| CR1 ; ESD_ZENER  ; 0402              ; PESD0402-140CT-ND     ; 0.195
+| CR2 ; ESD_ZENER  ; 0402              ; PESD0402-140CT-ND     ; 0.195
+| IC1 ; AT90USB16  ; QFN32             ; AT90USB162-16MURCT-ND ; 3.760
+| J1  ; USB_MiniB  ; MiniB-5pos        ; H2959CT-ND            ; 1.180
+| K1  ; Vcc_Sel    ; 2mm-3pos-SIL      ; S5800-40-ND (3/40)    ; 1.095(x3/40)=0.082
+| L3  ; Ferrite    ; 0603              ; 587-1926-1-ND         ; 0.041
+| P1  ; CONN_20    ; MICROPENDOUS1-PICO; S9009E-10-ND          ; 1.757
+| R1  ; 22         ; 0402              ; 311-22JRCT-ND         ; 0.066
+| R2  ; 22         ; 0402              ; 311-22JRCT-ND         ; 0.066
+| R3  ; 47k        ; 0402              ; 311-47KJRCT-ND        ; 0.066
+| R4  ; 47k        ; 0402              ; 311-47KJRCT-ND        ; 0.066
+| SW1 ; RESET      ; 6.5x6x3.1mm_EVQ   ; P12940SCT-ND          ; 0.296
+| SW2 ; HWB        ; 6.5x6x3.1mm_EVQ   ; P12940SCT-ND          ; 0.296
+| X1  ; 8MHz       ; 6x3.6mm_ABMM2     ; 535-9628-1-ND         ; 1.105
+| *   ; *          ; Shunt Jumper      ; S3404-ND              ; 0.263
+----------------------------------------------------------Total: 9.936
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Headers are bought as large pieces and seperated,
+         hence the fraction after each breakable header
+

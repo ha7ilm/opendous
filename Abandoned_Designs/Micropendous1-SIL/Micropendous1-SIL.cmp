@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 7/12/2008-03:20:09
+
+BeginCmp
+TimeStamp = /4893D2FD;
+Reference = C1;
+ValeurCmp = 0.22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D443;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D446;
+Reference = C3;
+ValeurCmp = 18pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D53C;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893DA02;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D734;
+Reference = C6;
+ValeurCmp = 0.22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /489B85E8;
+Reference = C7;
+ValeurCmp = 4.7uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D94F;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D99C;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /489ED685;
+Reference = C10;
+ValeurCmp = 4.7uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /489B8692;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBC085;
+Reference = CR1;
+ValeurCmp = ESD_ZENER;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBC1D2;
+Reference = CR2;
+ValeurCmp = ESD_ZENER;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /489A3AAF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /480FE7A8;
+Reference = IC1;
+ValeurCmp = AT90USB16;
+IdModule  = TQFP32my;
+EndCmp
+
+BeginCmp
+TimeStamp = /487FEFB9;
+Reference = IC2;
+ValeurCmp = AT90USB16;
+IdModule  = QFN32;
+EndCmp
+
+BeginCmp
+TimeStamp = /484E10D0;
+Reference = J1;
+ValeurCmp = USBCONN;
+IdModule  = CONN_USB2_MiniB_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBB096;
+Reference = K1;
+ValeurCmp = Vcc_Sel;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D9A7;
+Reference = L1;
+ValeurCmp = Ferrite;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /489B83F5;
+Reference = L3;
+ValeurCmp = 47nH;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893DB7A;
+Reference = P1;
+ValeurCmp = MICROPENDOUS-22;
+IdModule  = Micropendous-SIL22;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBAEE5;
+Reference = P2;
+ValeurCmp = Ext_PWR;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /480AC78A;
+Reference = P3;
+ValeurCmp = C1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /48104C10;
+Reference = P4;
+ValeurCmp = USB_Pwr;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893DBAC;
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893DBA9;
+Reference = R2;
+ValeurCmp = 22;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D306;
+Reference = R3;
+ValeurCmp = 47k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D735;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D655;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D81A;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBB3F1;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = Switch_SMT_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /4893D730;
+Reference = SW2;
+ValeurCmp = HWB;
+IdModule  = Switch_SMT_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /489B907F;
+Reference = via1;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /489B9080;
+Reference = via2;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /493B3708;
+Reference = via3;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /493B3709;
+Reference = via4;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /493B3841;
+Reference = via5;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /47FBB4E7;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = HC49-US;
+EndCmp
+
+EndListe

@@ -1,0 +1,65 @@
+# EESchema Netlist Version 1.1 created  21/10/2008-09:37:53
+(
+ ( /48FDA29B $noname  U1 MICROPENDOUS1-BASE-PORTB {Lib=MICROPENDOUS1-BASE-PORTB}
+  (    1 N-000005 )
+  (    2 N-000007 )
+  (    3 N-000004 )
+  (    4 N-000006 )
+  (    5 N-000003 )
+  (    6 N-000008 )
+  (    7 N-000002 )
+  (    8 N-000009 )
+  (    9 N-000010 )
+  (   10 N-000001 )
+ )
+ ( /48FDA02F $noname  U2 MICROPENDOUS-9 {Lib=MICROPENDOUS-9}
+  (    1 N-000001 )
+  (    2 N-000007 )
+  (    3 N-000005 )
+  (    4 N-000006 )
+  (    5 N-000004 )
+  (    6 N-000008 )
+  (    7 N-000003 )
+  (    8 N-000009 )
+  (    9 N-000002 )
+ )
+ ( /48FD9B80 $noname  P1 Power {Lib=CONN_2}
+  (    1 N-000001 )
+  (    2 N-000010 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 ""
+ U2 1
+ U1 10
+ P1 1
+Net 2 ""
+ U2 9
+ U1 7
+Net 3 ""
+ U1 5
+ U2 7
+Net 4 ""
+ U2 5
+ U1 3
+Net 5 ""
+ U2 3
+ U1 1
+Net 6 ""
+ U1 4
+ U2 4
+Net 7 ""
+ U2 2
+ U1 2
+Net 8 ""
+ U1 6
+ U2 6
+Net 9 ""
+ U2 8
+ U1 8
+Net 10 ""
+ P1 2
+ U1 9
+}
+#End

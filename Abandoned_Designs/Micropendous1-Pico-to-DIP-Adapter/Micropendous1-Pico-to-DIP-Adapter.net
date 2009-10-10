@@ -1,0 +1,224 @@
+# EESchema Netlist Version 1.1 created  4/14/2009 6:11:29 PM
+(
+ ( /49E50A00 $noname  P3 Micropendous1-PICO {Lib=Micropendous1-PICO}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 /PB3 )
+  (    5 /PB4 )
+  (    6 /PB5 )
+  (    7 /PB6 )
+  (    8 /PB7 )
+  (    9 GND )
+  (   10 VCC )
+  (   11 /PD0 )
+  (   12 /PD1 )
+  (   13 /PD2 )
+  (   14 /PD3 )
+  (   15 /PD4 )
+  (   16 /PD5 )
+  (   17 /PD6 )
+  (   18 /PD7 )
+  (   19 /PC7 )
+  (   20 /PC6 )
+  (   21 /PC5 )
+  (   22 /PC4 )
+  (   23 N-000023 )
+  (   24 /PC2 )
+ )
+ ( /49622ABB $noname  U13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AB7 $noname  U10 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AB5 $noname  U9 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AB3 $noname  U12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AB1 $noname  U11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AAF $noname  U19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AAD $noname  U18 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AAB $noname  U21 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AA9 $noname  U20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AA7 $noname  U15 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AA5 $noname  U14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AA3 $noname  U17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622AA1 $noname  U16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622994 $noname  U6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622992 $noname  U5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622990 $noname  U8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4962298E $noname  U7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4962298C $noname  U2 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4962298A $noname  U1 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622982 $noname  U4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49622972 $noname  U3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /494A1BC5 $noname  P2 CONN_12 {Lib=CONN_12}
+  (    1 VCC )
+  (    2 /PC5 )
+  (    3 /PC6 )
+  (    4 /PC7 )
+  (    5 /PB7 )
+  (    6 /PB6 )
+  (    7 /PB5 )
+  (    8 /PB4 )
+  (    9 /PB3 )
+  (   10 /PB2 )
+  (   11 /PB1 )
+  (   12 /PB0 )
+ )
+ ( /494A1BC3 $noname  P1 CONN_12 {Lib=CONN_12}
+  (    1 N-000023 )
+  (    2 /PC4 )
+  (    3 /PC2 )
+  (    4 /PD0 )
+  (    5 /PD1 )
+  (    6 /PD2 )
+  (    7 /PD3 )
+  (    8 /PD4 )
+  (    9 /PD5 )
+  (   10 /PD6 )
+  (   11 /PD7 )
+  (   12 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P3
+ Micropendous1-Pico
+ Micropendous1-Pico-Inverted
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/PB0" "PB0"
+ P2 12
+ P3 1
+Net 2 "/PB1" "PB1"
+ P2 11
+ P3 2
+Net 3 "/PB2" "PB2"
+ P2 10
+ P3 3
+Net 4 "/PB3" "PB3"
+ P2 9
+ P3 4
+Net 5 "/PB4" "PB4"
+ P2 8
+ P3 5
+Net 6 "/PB5" "PB5"
+ P3 6
+ P2 7
+Net 7 "/PB6" "PB6"
+ P2 6
+ P3 7
+Net 8 "/PB7" "PB7"
+ P2 5
+ P3 8
+Net 9 "/PD0" "PD0"
+ P3 11
+ P1 4
+Net 10 "/PD1" "PD1"
+ P3 12
+ P1 5
+Net 11 "/PD2" "PD2"
+ P1 6
+ P3 13
+Net 12 "/PD3" "PD3"
+ P3 14
+ P1 7
+Net 13 "/PD4" "PD4"
+ P1 8
+ P3 15
+Net 14 "/PD5" "PD5"
+ P3 16
+ P1 9
+Net 15 "/PD6" "PD6"
+ P3 17
+ P1 10
+Net 16 "/PD7" "PD7"
+ P1 11
+ P3 18
+Net 17 "/PC7" "PC7"
+ P2 4
+ P3 19
+Net 18 "/PC6" "PC6"
+ P3 20
+ P2 3
+Net 19 "/PC5" "PC5"
+ P3 21
+ P2 2
+Net 20 "/PC4" "PC4"
+ P1 2
+ P3 22
+Net 21 "/PC2" "PC2"
+ P1 3
+ P3 24
+Net 22 "GND" "GND"
+ U8 1
+ U7 1
+ U2 1
+ U1 1
+ U4 1
+ P3 9
+ U5 1
+ U6 1
+ U15 1
+ U13 1
+ U3 1
+ U20 1
+ U16 1
+ U17 1
+ U21 1
+ U18 1
+ U19 1
+ U11 1
+ U12 1
+ P1 12
+ U9 1
+ U10 1
+ U14 1
+Net 23 "" ""
+ P1 1
+ P3 23
+Net 24 "VCC" "VCC"
+ P2 1
+ P3 10
+}
+#End

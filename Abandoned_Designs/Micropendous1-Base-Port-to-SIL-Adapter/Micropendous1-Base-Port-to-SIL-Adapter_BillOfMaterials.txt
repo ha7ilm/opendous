@@ -1,0 +1,14 @@
+EESchema (20080825-RC1)  >> Creation date: 3/11/2008-16:48:37
+#Cmp ( order = Reference )
+ Ref#  Value    Footprint               Digi-Key Part#  Unit Cost (USD)
+ ~~~   ~~~~~    ~~~~~~~~~               ~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~
+ U1  ; PortB  ; 0.05"x0.05"-DIL-10-RA ; S9017E-05-ND  ; 0.533
+ U2  ; SIL-9  ; 9-Pin-RA-0.1"         ; S5484-ND      ; 0.687
+ P1  ; Power  ; SIL-2                 ; S5438-ND      ; 0.305
+-------------------------------------------------Total: 1.525
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+	-U2 can be replaced with Male Header 609-2227-ND
+

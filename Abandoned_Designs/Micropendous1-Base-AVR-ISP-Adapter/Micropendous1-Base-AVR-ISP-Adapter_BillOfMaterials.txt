@@ -1,0 +1,17 @@
+EESchema (20080825-RC1)  >> Creation date: 3/11/2008-16:48:37
+#Cmp ( order = Reference )
+ Ref#  Value        Footprint               Digi-Key Part#        Unit Cost (USD)
+ ~~~   ~~~~~        ~~~~~~~~~               ~~~~~~~~~~~~~~        ~~~~~~~~~~~~~~~
+ U1  ; PortB      ; 0.05"x0.05"-DIL-10-RA ; S9017E-05-ND        ; 0.533
+ C1  ; AVRISP_MK2 ; 0.1"x0.1"-DIL-6-M     ; S2012E-36-ND (6/72) ; 2.280(x6/72)=0.190
+ JP1 ; PWR_TRGT   ; 2mm-3pos-SIL          ; S5800-40-ND (2/40)  ; 1.095(x2/40)=0.054
+ *   ; *          ; Shunt Jumper          ; S3404-ND            ; 0.263
+-----------------------------------------------------------Total: 1.040
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+        -Mounting the jumper allows the Micropendous-Base to
+	 power the target.
+	-C1 can be replaced with S5517-ND, a Right-Angle Female Header
+	 or S7071-ND, a standard Female Header

@@ -1,0 +1,913 @@
+# EESchema Netlist Version 1.1 created  4/14/2009 2:25:09 PM
+(
+ ( /49991178 $noname  U6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49991105 $noname  U5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997B9E9 $noname  U192 VIA {Lib=VIA}
+  (    1 /PE2 )
+ )
+ ( /4997B982 $noname  U193 VIA {Lib=VIA}
+  (    1 /PE2 )
+ )
+ ( /4997B7D5 $noname  U191 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997B6F4 $noname  U190 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997AB12 $noname  U189 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4997AB10 $noname  U188 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4997AA1A $noname  U184 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4997A766 $noname  U183 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997A39C $noname  U181 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997A39A $noname  U180 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997A398 $noname  U179 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4997A396 $noname  U178 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996F190 $noname  U177 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996F126 $noname  U176 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996E872 $noname  U174 VIA {Lib=VIA}
+  (    1 /RST )
+ )
+ ( /4996E644 $noname  U173 VIA {Lib=VIA}
+  (    1 N-000013 )
+ )
+ ( /4996E5A9 $noname  U172 VIA {Lib=VIA}
+  (    1 N-000013 )
+ )
+ ( /4996D6C5 $noname  U171 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996D6C3 $noname  U170 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996D2CE $noname  U169 VIA {Lib=VIA}
+  (    1 /PE6 )
+ )
+ ( /4996D2A9 $noname  U167 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996CEC2 $noname  U165 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996CEC0 $noname  U164 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996CEBE $noname  U163 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996CEBC $noname  U162 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996CCB8 $noname  U161 VIA {Lib=VIA}
+  (    1 +5V )
+ )
+ ( /4996CA6B $noname  U160 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996C8A4 $noname  U159 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996C8A2 $noname  U158 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996C85B $noname  U157 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996C84C $noname  U156 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996C7CE $noname  U155 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996C7CC $noname  U154 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996C0C0 $noname  U149 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /4996C09E $noname  U151 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /4996BBB8 $noname  U148 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996BBB6 $noname  U147 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996BBB4 $noname  U146 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996B3EE $noname  U143 VIA {Lib=VIA}
+  (    1 /PE2 )
+ )
+ ( /4996B3ED $noname  U144 VIA {Lib=VIA}
+  (    1 /PE1 )
+ )
+ ( /4996B3EC $noname  U138 VIA {Lib=VIA}
+  (    1 /PE7 )
+ )
+ ( /4996B3EB $noname  U139 VIA {Lib=VIA}
+  (    1 /PE6 )
+ )
+ ( /4996B3EA $noname  U140 VIA {Lib=VIA}
+  (    1 /PE5 )
+ )
+ ( /4996B3E9 $noname  U141 VIA {Lib=VIA}
+  (    1 /PE4 )
+ )
+ ( /4996B3E7 $noname  U145 VIA {Lib=VIA}
+  (    1 /PE0 )
+ )
+ ( /4996B013 $noname  U137 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996B00E $noname  U136 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996AFCE $noname  U135 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A523 $noname  U80 VIA {Lib=VIA}
+  (    1 /PE2 )
+ )
+ ( /4996A522 $noname  U81 VIA {Lib=VIA}
+  (    1 /PE1 )
+ )
+ ( /4996A51E $noname  U75 VIA {Lib=VIA}
+  (    1 /PE7 )
+ )
+ ( /4996A51D $noname  U76 VIA {Lib=VIA}
+  (    1 /PE6 )
+ )
+ ( /4996A51C $noname  U77 VIA {Lib=VIA}
+  (    1 /PE5 )
+ )
+ ( /4996A51B $noname  U78 VIA {Lib=VIA}
+  (    1 /PE4 )
+ )
+ ( /4996A51A $noname  U79 VIA {Lib=VIA}
+  (    1 /PE3 )
+ )
+ ( /4996A519 $noname  U90 VIA {Lib=VIA}
+  (    1 /PA2 )
+ )
+ ( /4996A518 $noname  U91 VIA {Lib=VIA}
+  (    1 /PA1 )
+ )
+ ( /4996A517 $noname  U82 VIA {Lib=VIA}
+  (    1 /PE0 )
+ )
+ ( /4996A516 $noname  U83 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A515 $noname  U84 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A514 $noname  U85 VIA {Lib=VIA}
+  (    1 /PA7 )
+ )
+ ( /4996A513 $noname  U86 VIA {Lib=VIA}
+  (    1 /PA6 )
+ )
+ ( /4996A512 $noname  U87 VIA {Lib=VIA}
+  (    1 /PA5 )
+ )
+ ( /4996A511 $noname  U88 VIA {Lib=VIA}
+  (    1 /PA4 )
+ )
+ ( /4996A510 $noname  U89 VIA {Lib=VIA}
+  (    1 /PA3 )
+ )
+ ( /4996A50F $noname  U92 VIA {Lib=VIA}
+  (    1 /PA0 )
+ )
+ ( /4996A50E $noname  U93 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A50D $noname  U94 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A50C $noname  U103 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A50B $noname  U104 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A50A $noname  U95 VIA {Lib=VIA}
+  (    1 /PC7 )
+ )
+ ( /4996A509 $noname  U96 VIA {Lib=VIA}
+  (    1 /PC6 )
+ )
+ ( /4996A508 $noname  U97 VIA {Lib=VIA}
+  (    1 /PC5 )
+ )
+ ( /4996A507 $noname  U98 VIA {Lib=VIA}
+  (    1 /PC4 )
+ )
+ ( /4996A506 $noname  U99 VIA {Lib=VIA}
+  (    1 /PC3 )
+ )
+ ( /4996A505 $noname  U100 VIA {Lib=VIA}
+  (    1 /PC2 )
+ )
+ ( /4996A504 $noname  U101 VIA {Lib=VIA}
+  (    1 /PC1 )
+ )
+ ( /4996A503 $noname  U102 VIA {Lib=VIA}
+  (    1 /PC0 )
+ )
+ ( /4996A502 $noname  U113 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A501 $noname  U114 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A500 $noname  U105 VIA {Lib=VIA}
+  (    1 /PD7 )
+ )
+ ( /4996A4FF $noname  U106 VIA {Lib=VIA}
+  (    1 /PD6 )
+ )
+ ( /4996A4FE $noname  U107 VIA {Lib=VIA}
+  (    1 /PD5 )
+ )
+ ( /4996A4FD $noname  U108 VIA {Lib=VIA}
+  (    1 /PD4 )
+ )
+ ( /4996A4FC $noname  U109 VIA {Lib=VIA}
+  (    1 /PD3 )
+ )
+ ( /4996A4FB $noname  U110 VIA {Lib=VIA}
+  (    1 /PD2 )
+ )
+ ( /4996A4FA $noname  U111 VIA {Lib=VIA}
+  (    1 /PD1 )
+ )
+ ( /4996A4F9 $noname  U112 VIA {Lib=VIA}
+  (    1 /PD0 )
+ )
+ ( /4996A4F8 $noname  U123 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A4F7 $noname  U124 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A4F6 $noname  U115 VIA {Lib=VIA}
+  (    1 /PB7 )
+ )
+ ( /4996A4F5 $noname  U116 VIA {Lib=VIA}
+  (    1 /PB6 )
+ )
+ ( /4996A4F4 $noname  U117 VIA {Lib=VIA}
+  (    1 /PB5 )
+ )
+ ( /4996A4F3 $noname  U118 VIA {Lib=VIA}
+  (    1 /PB4 )
+ )
+ ( /4996A4F2 $noname  U119 VIA {Lib=VIA}
+  (    1 /PB3 )
+ )
+ ( /4996A4F1 $noname  U120 VIA {Lib=VIA}
+  (    1 /PB2 )
+ )
+ ( /4996A4F0 $noname  U121 VIA {Lib=VIA}
+  (    1 /PB1 )
+ )
+ ( /4996A4EF $noname  U122 VIA {Lib=VIA}
+  (    1 /PB0 )
+ )
+ ( /4996A4E9 $noname  U133 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4996A4E8 $noname  U134 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4996A4E5 $noname  U125 VIA {Lib=VIA}
+  (    1 /PF7 )
+ )
+ ( /4996A4E4 $noname  U126 VIA {Lib=VIA}
+  (    1 /PF6 )
+ )
+ ( /4996A4E3 $noname  U127 VIA {Lib=VIA}
+  (    1 /PF5 )
+ )
+ ( /4996A4E2 $noname  U128 VIA {Lib=VIA}
+  (    1 /PF4 )
+ )
+ ( /4996A4DE $noname  U129 VIA {Lib=VIA}
+  (    1 /PF3 )
+ )
+ ( /4996A4DD $noname  U130 VIA {Lib=VIA}
+  (    1 /PF2 )
+ )
+ ( /4996A4D8 $noname  U131 VIA {Lib=VIA}
+  (    1 /PF1 )
+ )
+ ( /4996A4CD $noname  U132 VIA {Lib=VIA}
+  (    1 /PF0 )
+ )
+ ( /4996A3CE $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 /AREF )
+ )
+ ( /4996A143 $noname  X1 8MHz {Lib=CRYSTAL}
+  (    1 N-000026 )
+  (    2 N-000025 )
+ )
+ ( /4996A0B7 $noname  C15 4.7uF {Lib=CP_TANTALUM_MINI}
+  (    1 VPP )
+  (    2 N-000032 )
+ )
+ ( /494E15BF $noname  U62 JTAG {Lib=JTAG_AVR}
+  (    1 /PF4 )
+  (    2 GND )
+  (    3 /PF6 )
+  (    4 VCC )
+  (    5 /PF5 )
+  (    6 /RST )
+  (    7 VCC )
+  (    8 ? )
+  (    9 /PF7 )
+  (   10 GND )
+ )
+ ( /494A62C7 $noname  R4 0 {Lib=R_MINI}
+  (    1 N-000013 )
+  (    2 /PE3 )
+ )
+ ( /494A5892 $noname  C9 1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A56AF $noname  C1 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000026 )
+ )
+ ( /494A56AB $noname  C2 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000025 )
+ )
+ ( /494A5641 $noname  R3 0 {Lib=R_MINI}
+  (    1 AGND )
+  (    2 N-000032 )
+ )
+ ( /494A561E $noname  CR1 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000032 )
+  (    2 N-000010 )
+ )
+ ( /494A55E6 $noname  CR2 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000032 )
+  (    2 N-000005 )
+ )
+ ( /494A550A $noname  L1 Ferrite {Lib=L_MINI}
+  (    1 GND )
+  (    2 AGND )
+ )
+ ( /494A5461 $noname  C11 0.1uF {Lib=C_MINI}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /494A53A6 $noname  C13 0.1uF {Lib=C_MINI}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /494A53A3 $noname  C14 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A537A $noname  L3 Ferrite {Lib=L_MINI}
+  (    1 VCC )
+  (    2 N-000006 )
+ )
+ ( /494A52C7 $noname  SW2 HWB {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 /PE2 )
+ )
+ ( /494A52C6 $noname  R8 47k {Lib=R_MINI}
+  (    1 /PE2 )
+  (    2 VCC )
+ )
+ ( /494A525F $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 /RST )
+ )
+ ( /494A5258 $noname  R5 47k {Lib=R_MINI}
+  (    1 /RST )
+  (    2 VCC )
+ )
+ ( /494A51E2 $noname  C10 1uF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /494A5137 $noname  R2 22 {Lib=R_MINI}
+  (    1 N-000007 )
+  (    2 N-000005 )
+ )
+ ( /494A512F $noname  R1 22 {Lib=R_MINI}
+  (    1 N-000009 )
+  (    2 N-000010 )
+ )
+ ( /494A5027 $noname  C3 1uF {Lib=C_MINI}
+  (    1 N-000012 )
+  (    2 AGND )
+ )
+ ( /494A4F89 $noname  C4 0.1uF {Lib=C_MINI}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /494A4F43 $noname  C5 4.7uF {Lib=C_MINI}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /494A4EA2 $noname  C12 0.01uF {Lib=C_MINI}
+  (    1 /AREF )
+  (    2 GND )
+ )
+ ( /494A4E54 $noname  R7 0 {Lib=R_MINI}
+  (    1 /AREF )
+  (    2 VCC )
+ )
+ ( /494A4CAC $noname  U1 USBCONN-HOSTCAPABLE {Lib=USBCONN-HOSTCAPABLE}
+  (    1 VPP )
+  (    2 N-000010 )
+  (    3 N-000005 )
+  (    4 AGND )
+  (    5 N-000032 )
+  (    6 N-000013 )
+ )
+ ( /494A3BCE $noname  IC1 AT90USB64 {Lib=AT90USB64}
+  (    1 /PE6 )
+  (    2 /PE7 )
+  (    3 +5V )
+  (    4 N-000009 )
+  (    5 N-000007 )
+  (    6 GND )
+  (    7 +3.3V )
+  (    8 VPP )
+  (    9 /PE3 )
+  (   10 /PB0 )
+  (   11 /PB1 )
+  (   12 /PB2 )
+  (   13 /PB3 )
+  (   14 /PB4 )
+  (   15 /PB5 )
+  (   16 /PB6 )
+  (   17 /PB7 )
+  (   18 /PE4 )
+  (   19 /PE5 )
+  (   20 /RST )
+  (   21 VCC )
+  (   22 GND )
+  (   23 N-000025 )
+  (   24 N-000026 )
+  (   25 /PD0 )
+  (   26 /PD1 )
+  (   27 /PD2 )
+  (   28 /PD3 )
+  (   29 /PD4 )
+  (   30 /PD5 )
+  (   31 /PD6 )
+  (   32 /PD7 )
+  (   33 /PE0 )
+  (   34 /PE1 )
+  (   35 /PC0 )
+  (   36 /PC1 )
+  (   37 /PC2 )
+  (   38 /PC3 )
+  (   39 /PC4 )
+  (   40 /PC5 )
+  (   41 /PC6 )
+  (   42 /PC7 )
+  (   43 /PE2 )
+  (   44 /PA7 )
+  (   45 /PA6 )
+  (   46 /PA5 )
+  (   47 /PA4 )
+  (   48 /PA3 )
+  (   49 /PA2 )
+  (   50 /PA1 )
+  (   51 /PA0 )
+  (   52 VCC )
+  (   53 GND )
+  (   54 /PF7 )
+  (   55 /PF6 )
+  (   56 /PF5 )
+  (   57 /PF4 )
+  (   58 /PF3 )
+  (   59 /PF2 )
+  (   60 /PF1 )
+  (   61 /PF0 )
+  (   62 /AREF )
+  (   63 GND )
+  (   64 N-000006 )
+  (   65 GND )
+ )
+ ( /498FD909 $noname  L2 Ferrite {Lib=L_MINI}
+  (    1 VCC )
+  (    2 +5V )
+ )
+ ( /498EEF77 $noname  C6 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /498EE674 $noname  IC2 REGULATOR {Lib=TPS736XX}
+  (    1 N-000012 )
+  (    2 GND )
+  (    3 N-000012 )
+  (    4 N-000011 )
+  (    5 +3.3V )
+ )
+ ( /498EE860 $noname  C16 0.1uF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4901E150 $noname  D1 MSS1P3L {Lib=D_RECTIFIER}
+  (    1 +5V )
+  (    2 +3.3V )
+ )
+ ( /48BB90E5 $noname  C8 1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4893D53C $noname  C7 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /47FBB096 $noname  K1 Vcc_Sel {Lib=CONN_3}
+  (    1 N-000012 )
+  (    2 VPP )
+  (    3 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component IC2
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U134 1
+ C7 2
+ U124 1
+ U62 10
+ U62 2
+ U114 1
+ C8 2
+ C9 2
+ C1 1
+ C2 1
+ U104 1
+ U94 1
+ L1 1
+ C11 2
+ C13 2
+ U84 1
+ C14 2
+ SW2 1
+ U135 1
+ U136 1
+ C16 2
+ IC2 2
+ U137 1
+ U5 1
+ SW1 1
+ C10 2
+ C4 2
+ U146 1
+ U147 1
+ C6 2
+ U148 1
+ C5 2
+ U154 1
+ U155 1
+ U158 1
+ U159 1
+ U160 1
+ U162 1
+ U163 1
+ U164 1
+ U165 1
+ C12 2
+ U178 1
+ U179 1
+ U180 1
+ U181 1
+ U183 1
+ U190 1
+ U191 1
+ U6 1
+ IC1 65
+ IC1 63
+ IC1 53
+ IC1 22
+ IC1 6
+Net 2 "+3.3V" "+3.3V"
+ IC2 5
+ C16 1
+ U151 1
+ U149 1
+ IC1 7
+ C10 1
+ D1 2
+Net 3 "VCC" "VCC"
+ U133 1
+ R7 2
+ U189 1
+ U188 1
+ U184 1
+ C7 1
+ U123 1
+ U62 4
+ C8 1
+ U113 1
+ U62 7
+ U177 1
+ U176 1
+ C9 1
+ U171 1
+ U170 1
+ U167 1
+ U103 1
+ U93 1
+ IC1 21
+ U157 1
+ U156 1
+ U83 1
+ IC1 52
+ C14 1
+ L3 1
+ L2 1
+ C6 1
+ R8 2
+ R5 2
+Net 4 "+5V" "+5V"
+ D1 1
+ K1 3
+ IC1 3
+ U161 1
+ L2 2
+ C5 1
+ C11 1
+Net 5 "" ""
+ U1 3
+ R2 2
+ CR2 2
+Net 6 "" ""
+ L3 2
+ IC1 64
+ C13 1
+Net 7 "" ""
+ IC1 5
+ R2 1
+Net 8 "/AREF" "AREF"
+ C12 1
+ R7 1
+ IC1 62
+ P9 1
+Net 9 "" ""
+ R1 1
+ IC1 4
+Net 10 "" ""
+ R1 2
+ U1 2
+ CR1 2
+Net 11 "" ""
+ C4 1
+ IC2 4
+Net 12 "" ""
+ K1 1
+ C3 1
+ IC2 1
+ IC2 3
+Net 13 "" ""
+ U172 1
+ U1 6
+ R4 1
+ U173 1
+Net 14 "/PE3" "PE3"
+ IC1 9
+ R4 2
+ U79 1
+Net 15 "AGND" "AGND"
+ R3 1
+ U1 4
+ L1 2
+ C3 2
+Net 16 "VPP" "VPP"
+ IC1 8
+ C15 1
+ U1 1
+ K1 2
+Net 17 "/PE2" "PE2"
+ U143 1
+ U193 1
+ IC1 43
+ R8 1
+ U80 1
+ U192 1
+ SW2 2
+Net 18 "/RST" "RST"
+ U62 6
+ IC1 20
+ U174 1
+ SW1 2
+ R5 1
+Net 19 "/PE6" "PE6"
+ U169 1
+ IC1 1
+ U76 1
+ U139 1
+Net 20 "/PE1" "PE1"
+ U144 1
+ IC1 34
+ U81 1
+Net 21 "/PE7" "PE7"
+ U75 1
+ IC1 2
+ U138 1
+Net 22 "/PE5" "PE5"
+ U140 1
+ U77 1
+ IC1 19
+Net 23 "/PE4" "PE4"
+ U141 1
+ U78 1
+ IC1 18
+Net 24 "/PE0" "PE0"
+ U82 1
+ IC1 33
+ U145 1
+Net 25 "" ""
+ C2 2
+ X1 2
+ IC1 23
+Net 26 "" ""
+ IC1 24
+ C1 2
+ X1 1
+Net 28 "/PF7" "PF7"
+ U62 9
+ U125 1
+ IC1 54
+Net 29 "/PF5" "PF5"
+ IC1 56
+ U127 1
+ U62 5
+Net 30 "/PF6" "PF6"
+ IC1 55
+ U62 3
+ U126 1
+Net 31 "/PF4" "PF4"
+ U128 1
+ U62 1
+ IC1 57
+Net 32 "" ""
+ C15 2
+ CR2 1
+ U1 5
+ CR1 1
+ R3 2
+Net 33 "/PA0" "PA0"
+ IC1 51
+ U92 1
+Net 34 "/PA1" "PA1"
+ U91 1
+ IC1 50
+Net 35 "/PA2" "PA2"
+ U90 1
+ IC1 49
+Net 36 "/PA3" "PA3"
+ IC1 48
+ U89 1
+Net 37 "/PA4" "PA4"
+ U88 1
+ IC1 47
+Net 38 "/PA5" "PA5"
+ IC1 46
+ U87 1
+Net 39 "/PA6" "PA6"
+ IC1 45
+ U86 1
+Net 40 "/PA7" "PA7"
+ IC1 44
+ U85 1
+Net 41 "/PC0" "PC0"
+ IC1 35
+ U102 1
+Net 42 "/PC1" "PC1"
+ IC1 36
+ U101 1
+Net 43 "/PC2" "PC2"
+ U100 1
+ IC1 37
+Net 44 "/PC3" "PC3"
+ IC1 38
+ U99 1
+Net 45 "/PC4" "PC4"
+ U98 1
+ IC1 39
+Net 46 "/PC5" "PC5"
+ IC1 40
+ U97 1
+Net 47 "/PC6" "PC6"
+ U96 1
+ IC1 41
+Net 48 "/PC7" "PC7"
+ IC1 42
+ U95 1
+Net 49 "/PD0" "PD0"
+ IC1 25
+ U112 1
+Net 50 "/PD1" "PD1"
+ U111 1
+ IC1 26
+Net 51 "/PD2" "PD2"
+ U110 1
+ IC1 27
+Net 52 "/PD3" "PD3"
+ U109 1
+ IC1 28
+Net 53 "/PD4" "PD4"
+ U108 1
+ IC1 29
+Net 54 "/PD5" "PD5"
+ IC1 30
+ U107 1
+Net 55 "/PD6" "PD6"
+ U106 1
+ IC1 31
+Net 56 "/PD7" "PD7"
+ IC1 32
+ U105 1
+Net 57 "/PF0" "PF0"
+ IC1 61
+ U132 1
+Net 58 "/PF1" "PF1"
+ U131 1
+ IC1 60
+Net 59 "/PF2" "PF2"
+ U130 1
+ IC1 59
+Net 60 "/PF3" "PF3"
+ U129 1
+ IC1 58
+Net 61 "/PB0" "PB0"
+ IC1 10
+ U122 1
+Net 62 "/PB1" "PB1"
+ U121 1
+ IC1 11
+Net 63 "/PB2" "PB2"
+ IC1 12
+ U120 1
+Net 64 "/PB3" "PB3"
+ U119 1
+ IC1 13
+Net 65 "/PB4" "PB4"
+ U118 1
+ IC1 14
+Net 66 "/PB5" "PB5"
+ IC1 15
+ U117 1
+Net 67 "/PB6" "PB6"
+ U116 1
+ IC1 16
+Net 68 "/PB7" "PB7"
+ IC1 17
+ U115 1
+}
+#End

@@ -1,0 +1,557 @@
+# EESchema Netlist Version 1.1 created  6/1/2009-22:49:28
+(
+ ( /494F70A8 Pin_Array_3x2_AVR_ISP_Inverted C1 AVRISP
+  ( 1 /PB3 )
+  ( 2 N-000018 )
+  ( 3 /PB1 )
+  ( 4 /PB2 )
+  ( 5 N-000064 )
+  ( 6 GND )
+ )
+ ( /4963B663 SIL-3-Blank K1 TRGT_SLCT
+  ( 1 /PB0 )
+  ( 2 N-000064 )
+  ( 3 /RESET )
+ )
+ ( /4961EE8E SM0805_Opendous LED0 D_LED
+  ( 1 N-000026 )
+  ( 2 N-000012 )
+ )
+ ( /4961EF5B SM0805_Opendous LED1 D_LED
+  ( 1 N-000029 )
+  ( 2 N-000027 )
+ )
+ ( /4961EF68 SM0805_Opendous LED2 D_LED
+  ( 1 N-000032 )
+  ( 2 N-000030 )
+ )
+ ( /4961EF6D SM0805_Opendous LED3 D_LED
+  ( 1 N-000035 )
+  ( 2 N-000033 )
+ )
+ ( /4961EF72 SM0805_Opendous LED4 D_LED
+  ( 1 N-000038 )
+  ( 2 N-000036 )
+ )
+ ( /4961EF77 SM0805_Opendous LED5 D_LED
+  ( 1 N-000041 )
+  ( 2 N-000039 )
+ )
+ ( /4961EF7C SM0805_Opendous LED6 D_LED
+  ( 1 N-000044 )
+  ( 2 N-000042 )
+ )
+ ( /4961EF81 SM0805_Opendous LED7 D_LED
+  ( 1 N-000047 )
+  ( 2 N-000045 )
+ )
+ ( /494F640B Micropendous1-Inverted P3 MICROPENDOUS1
+  ( 1 /PB0 )
+  ( 2 /PB1 )
+  ( 3 /PB2 )
+  ( 4 /PB3 )
+  ( 5 /PB4 )
+  ( 6 /PB5 )
+  ( 7 /PB6 )
+  ( 8 /PB7 )
+  ( 9 GND )
+  ( 10 VCC )
+  ( 11 /PD0 )
+  ( 12 /PD1 )
+  ( 13 /PD2 )
+  ( 14 /PD3 )
+  ( 15 /PD4 )
+  ( 16 /PD5 )
+  ( 17 /PD6 )
+  ( 18 /PD7 )
+  ( 19 /PC7 )
+  ( 20 /PC6 )
+  ( 21 /PC5 )
+  ( 22 /PC4 )
+  ( 23 /RESET )
+  ( 24 /PC2 )
+ )
+ ( /494F6EF8 Pin_Array_Port_5x2 P4 PortD
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /PD7 )
+  ( 4 /PD6 )
+  ( 5 /PD5 )
+  ( 6 /PD4 )
+  ( 7 /PD3 )
+  ( 8 /PD2 )
+  ( 9 /PD1 )
+  ( 10 /PD0 )
+ )
+ ( /494F6EF5 Pin_Array_Port_5x2 P5 PortB
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /PB7 )
+  ( 4 /PB6 )
+  ( 5 /PB5 )
+  ( 6 /PB4 )
+  ( 7 /PB3 )
+  ( 8 /PB2 )
+  ( 9 /PB1 )
+  ( 10 /PB0 )
+ )
+ ( /494F6FAF Pin_Array_Port_5x2 P6 PortC
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /PC7 )
+  ( 4 /PC6 )
+  ( 5 /PC5 )
+  ( 6 /PC4 )
+  ( 7 ? )
+  ( 8 /PC2 )
+  ( 9 ? )
+  ( 10 ? )
+ )
+ ( /494F72E5 SIL-2 P8 PWR_TRGT
+  ( 1 VCC )
+  ( 2 N-000018 )
+ )
+ ( /495CFF7E Pin_Array_Port_5x2 P9 LCD_CTRL
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 N-000023 )
+  ( 4 N-000013 )
+  ( 5 N-000024 )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+ )
+ ( /495CFF74 Pin_Array_Port_5x2 P10 LCD_Data
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 N-000019 )
+  ( 4 N-000017 )
+  ( 5 N-000020 )
+  ( 6 N-000016 )
+  ( 7 N-000021 )
+  ( 8 N-000015 )
+  ( 9 N-000022 )
+  ( 10 N-000014 )
+ )
+ ( /4961F121 Pin_Array_Port_5x2 P11 Switches
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 N-000006 )
+  ( 4 N-000059 )
+  ( 5 N-000005 )
+  ( 6 N-000060 )
+  ( 7 N-000004 )
+  ( 8 N-000061 )
+  ( 9 N-000003 )
+  ( 10 N-000062 )
+ )
+ ( /4961E5AE Micropendous1-Base-Inverted P12 MICROPENDOUS
+  ( 1 /PC2 )
+  ( 2 /PC4 )
+  ( 3 /PC5 )
+  ( 4 /PC6 )
+  ( 5 /PC7 )
+  ( 6 /PB7 )
+  ( 7 /PB6 )
+  ( 8 /PB5 )
+  ( 9 /PB4 )
+  ( 10 /PB3 )
+  ( 11 /PB2 )
+  ( 12 /PB1 )
+  ( 13 /PB0 )
+  ( 14 GND )
+  ( 15 /PD7 )
+  ( 16 /PD6 )
+  ( 17 /PD5 )
+  ( 18 /PD4 )
+  ( 19 /PD3 )
+  ( 20 /PD2 )
+  ( 21 /PD1 )
+  ( 22 /PD0 )
+  ( 23 VCC )
+ )
+ ( /4961E62F 1Pin_TH_40milVia P13 CONN_1
+  ( 1 /RESET )
+ )
+ ( /4961EF85 Pin_Array_Port_5x2 P15 LEDs
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 N-000011 )
+  ( 4 N-000048 )
+  ( 5 N-000010 )
+  ( 6 N-000049 )
+  ( 7 N-000051 )
+  ( 8 N-000008 )
+  ( 9 N-000050 )
+  ( 10 N-000009 )
+ )
+ ( /4963BFC6 1Pin_TH_40milVia P16 CONN_1
+  ( 1 N-000002 )
+ )
+ ( /4963D8BF SIL-2 P17 LED_POWER
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4963D8CF SIL-2 P18 POWER
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4961E984 SM0805_Opendous R1 0
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4961F04E SM0805_Opendous R2 150
+  ( 1 N-000007 )
+  ( 2 N-000062 )
+ )
+ ( /4961F0E2 SM0805_Opendous R3 150
+  ( 1 N-000052 )
+  ( 2 N-000061 )
+ )
+ ( /4961F0F9 SM0805_Opendous R4 150
+  ( 1 N-000053 )
+  ( 2 N-000060 )
+ )
+ ( /4961F0FE SM0805_Opendous R5 150
+  ( 1 N-000054 )
+  ( 2 N-000059 )
+ )
+ ( /4961F058 SM0805_Opendous R6 10k
+  ( 1 N-000007 )
+  ( 2 VCC )
+ )
+ ( /4961F0E3 SM0805_Opendous R7 10k
+  ( 1 N-000052 )
+  ( 2 VCC )
+ )
+ ( /4961F0FA SM0805_Opendous R8 10k
+  ( 1 N-000053 )
+  ( 2 VCC )
+ )
+ ( /4961F0FF SM0805_Opendous R9 10k
+  ( 1 N-000054 )
+  ( 2 VCC )
+ )
+ ( /4961F10E SM0805_Opendous R10 150
+  ( 1 N-000055 )
+  ( 2 N-000003 )
+ )
+ ( /4961F113 SM0805_Opendous R11 150
+  ( 1 N-000056 )
+  ( 2 N-000004 )
+ )
+ ( /4961F118 SM0805_Opendous R12 150
+  ( 1 N-000057 )
+  ( 2 N-000005 )
+ )
+ ( /4961F11D SM0805_Opendous R13 150
+  ( 1 N-000058 )
+  ( 2 N-000006 )
+ )
+ ( /4961F10F SM0805_Opendous R14 10k
+  ( 1 N-000055 )
+  ( 2 VCC )
+ )
+ ( /4961F114 SM0805_Opendous R15 10k
+  ( 1 N-000056 )
+  ( 2 VCC )
+ )
+ ( /4961F119 SM0805_Opendous R16 10k
+  ( 1 N-000057 )
+  ( 2 VCC )
+ )
+ ( /4961F11E SM0805_Opendous R17 10k
+  ( 1 N-000058 )
+  ( 2 VCC )
+ )
+ ( /4961EEB5 SM0805_Opendous R18 10k
+  ( 1 N-000025 )
+  ( 2 VCC )
+ )
+ ( /4961EE9F SM0805_Opendous R19 150
+  ( 1 N-000012 )
+  ( 2 VCC )
+ )
+ ( /4961EF5D SM0805_Opendous R20 10k
+  ( 1 N-000028 )
+  ( 2 VCC )
+ )
+ ( /4961EF5C SM0805_Opendous R21 150
+  ( 1 N-000027 )
+  ( 2 VCC )
+ )
+ ( /4961EF6A SM0805_Opendous R22 10k
+  ( 1 N-000031 )
+  ( 2 VCC )
+ )
+ ( /4961EF69 SM0805_Opendous R23 150
+  ( 1 N-000030 )
+  ( 2 VCC )
+ )
+ ( /4961EF6F SM0805_Opendous R24 10k
+  ( 1 N-000034 )
+  ( 2 VCC )
+ )
+ ( /4961EF6E SM0805_Opendous R25 150
+  ( 1 N-000033 )
+  ( 2 VCC )
+ )
+ ( /4961EF74 SM0805_Opendous R26 10k
+  ( 1 N-000037 )
+  ( 2 VCC )
+ )
+ ( /4961EF73 SM0805_Opendous R27 150
+  ( 1 N-000036 )
+  ( 2 VCC )
+ )
+ ( /4961EF79 SM0805_Opendous R28 10k
+  ( 1 N-000040 )
+  ( 2 VCC )
+ )
+ ( /4961EF78 SM0805_Opendous R29 150
+  ( 1 N-000039 )
+  ( 2 VCC )
+ )
+ ( /4961EF7E SM0805_Opendous R30 10k
+  ( 1 N-000043 )
+  ( 2 VCC )
+ )
+ ( /4961EF7D SM0805_Opendous R31 150
+  ( 1 N-000042 )
+  ( 2 VCC )
+ )
+ ( /4961EF83 SM0805_Opendous R32 10k
+  ( 1 N-000046 )
+  ( 2 VCC )
+ )
+ ( /4961EF82 SM0805_Opendous R33 150
+  ( 1 N-000045 )
+  ( 2 VCC )
+ )
+ ( /4961F028 Switch_SMT_TH SW0 SWITCH_PUSHBUTTON
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4961F10C Switch_SMT_TH SW1 SWITCH_PUSHBUTTON
+  ( 1 N-000055 )
+  ( 2 GND )
+ )
+ ( /4961F0E0 Switch_SMT_TH SW2 SWITCH_PUSHBUTTON
+  ( 1 N-000052 )
+  ( 2 GND )
+ )
+ ( /4961F111 Switch_SMT_TH SW3 SWITCH_PUSHBUTTON
+  ( 1 N-000056 )
+  ( 2 GND )
+ )
+ ( /4961F0F7 Switch_SMT_TH SW4 SWITCH_PUSHBUTTON
+  ( 1 N-000053 )
+  ( 2 GND )
+ )
+ ( /4961F116 Switch_SMT_TH SW5 SWITCH_PUSHBUTTON
+  ( 1 N-000057 )
+  ( 2 GND )
+ )
+ ( /4961F0FC Switch_SMT_TH SW6 SWITCH_PUSHBUTTON
+  ( 1 N-000054 )
+  ( 2 GND )
+ )
+ ( /4961F11B Switch_SMT_TH SW7 SWITCH_PUSHBUTTON
+  ( 1 N-000058 )
+  ( 2 GND )
+ )
+ ( /49620132 Switch_SMT_TH SW8 HWB
+  ( 1 /PD7 )
+  ( 2 GND )
+ )
+ ( /49620134 Switch_SMT_TH SW9 RESET
+  ( 1 /RESET )
+  ( 2 GND )
+ )
+ ( /495CFF34 SIL-14 U1 HD44780
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 N-000002 )
+  ( 4 N-000023 )
+  ( 5 N-000013 )
+  ( 6 N-000024 )
+  ( 7 N-000014 )
+  ( 8 N-000022 )
+  ( 9 N-000015 )
+  ( 10 N-000021 )
+  ( 11 N-000016 )
+  ( 12 N-000020 )
+  ( 13 N-000017 )
+  ( 14 N-000019 )
+ )
+ ( /4961EE6E SOT23-3_Opendous U2 NPN_OPENDOUS
+  ( 1 N-000025 )
+  ( 2 N-000026 )
+  ( 3 N-000009 )
+ )
+ ( /4961EF5A SOT23-3_Opendous U3 NPN_OPENDOUS
+  ( 1 N-000028 )
+  ( 2 N-000029 )
+  ( 3 N-000050 )
+ )
+ ( /4961EF67 SOT23-3_Opendous U4 NPN_OPENDOUS
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+  ( 3 N-000008 )
+ )
+ ( /4961EF6C SOT23-3_Opendous U5 NPN_OPENDOUS
+  ( 1 N-000034 )
+  ( 2 N-000035 )
+  ( 3 N-000051 )
+ )
+ ( /4961EF71 SOT23-3_Opendous U6 NPN_OPENDOUS
+  ( 1 N-000037 )
+  ( 2 N-000038 )
+  ( 3 N-000049 )
+ )
+ ( /4961EF76 SOT23-3_Opendous U7 NPN_OPENDOUS
+  ( 1 N-000040 )
+  ( 2 N-000041 )
+  ( 3 N-000010 )
+ )
+ ( /4961EF7B SOT23-3_Opendous U8 NPN_OPENDOUS
+  ( 1 N-000043 )
+  ( 2 N-000044 )
+  ( 3 N-000048 )
+ )
+ ( /4961EF80 SOT23-3_Opendous U9 NPN_OPENDOUS
+  ( 1 N-000046 )
+  ( 2 N-000047 )
+  ( 3 N-000011 )
+ )
+ ( /4963A876 1Pin_25mil_VIA U10 VIA
+  ( 1 VCC )
+ )
+ ( /4963A878 1Pin_25mil_VIA U11 VIA
+  ( 1 VCC )
+ )
+ ( /4963A87A 1Pin_25mil_VIA U12 VIA
+  ( 1 VCC )
+ )
+ ( /4963A87C 1Pin_25mil_VIA U13 VIA
+  ( 1 VCC )
+ )
+ ( /4963A842 1Pin_25mil_VIA U14 VIA
+  ( 1 VCC )
+ )
+ ( /4963A86B 1Pin_25mil_VIA U15 VIA
+  ( 1 VCC )
+ )
+ ( /4963A871 1Pin_25mil_VIA U16 VIA
+  ( 1 VCC )
+ )
+ ( /4963A873 1Pin_25mil_VIA U17 VIA
+  ( 1 VCC )
+ )
+ ( /4963AF1A 1Pin_25mil_VIA U18 VIA
+  ( 1 GND )
+ )
+ ( /4963AF28 1Pin_25mil_VIA U19 VIA
+  ( 1 GND )
+ )
+ ( /4963AF2C 1Pin_25mil_VIA U20 VIA
+  ( 1 GND )
+ )
+ ( /4963AF2E 1Pin_25mil_VIA U21 VIA
+  ( 1 GND )
+ )
+ ( /4963AF30 1Pin_25mil_VIA U22 VIA
+  ( 1 GND )
+ )
+ ( /4963AFD5 1Pin_25mil_VIA U23 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFD7 1Pin_25mil_VIA U24 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFD9 1Pin_25mil_VIA U25 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFDB 1Pin_25mil_VIA U26 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFCD 1Pin_25mil_VIA U27 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFCF 1Pin_25mil_VIA U28 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFD1 1Pin_25mil_VIA U29 VIA
+  ( 1 VCC )
+ )
+ ( /4963AFD3 1Pin_25mil_VIA U30 VIA
+  ( 1 VCC )
+ )
+ ( /4963B36D 1Pin_25mil_VIA U31 VIA
+  ( 1 GND )
+ )
+ ( /4963B36F 1Pin_25mil_VIA U32 VIA
+  ( 1 GND )
+ )
+ ( /4963B371 1Pin_25mil_VIA U33 VIA
+  ( 1 GND )
+ )
+ ( /4963B373 1Pin_25mil_VIA U34 VIA
+  ( 1 GND )
+ )
+ ( /4963B375 1Pin_25mil_VIA U35 VIA
+  ( 1 GND )
+ )
+ ( /4963B378 1Pin_25mil_VIA U36 VIA
+  ( 1 GND )
+ )
+ ( /4963B37A 1Pin_25mil_VIA U37 VIA
+  ( 1 GND )
+ )
+ ( /4963B37C 1Pin_25mil_VIA U38 VIA
+  ( 1 GND )
+ )
+ ( /4963D5E8 1Pin_25mil_VIA U39 VIA
+  ( 1 GND )
+ )
+ ( /4963D5EA 1Pin_25mil_VIA U40 VIA
+  ( 1 GND )
+ )
+ ( /4963D5EC 1Pin_25mil_VIA U41 VIA
+  ( 1 GND )
+ )
+ ( /4963D5EE 1Pin_25mil_VIA U42 VIA
+  ( 1 GND )
+ )
+ ( /4963D5F0 1Pin_25mil_VIA U43 VIA
+  ( 1 GND )
+ )
+ ( /4963D5F2 1Pin_25mil_VIA U44 VIA
+  ( 1 GND )
+ )
+ ( /4963D5F4 1Pin_25mil_VIA U45 VIA
+  ( 1 GND )
+ )
+ ( /4963D5F6 1Pin_25mil_VIA U46 VIA
+  ( 1 GND )
+ )
+ ( /4963D5F8 1Pin_25mil_VIA U47 VIA
+  ( 1 GND )
+ )
+ ( /4963D5FA 1Pin_25mil_VIA U48 VIA
+  ( 1 GND )
+ )
+ ( /4963DFE5 1Pin_25mil_VIA U49 VIA
+  ( 1 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P3
+ Micropendous1
+ Micropendous1-Inverted
+$endlist
+$endfootprintlist
+}
