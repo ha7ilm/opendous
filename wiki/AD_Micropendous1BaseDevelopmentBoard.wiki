@@ -76,8 +76,6 @@ The [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=67-1781-ND
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/Micropendous1-Base-DevBoard/Pictures/Micropendous1-Base-DevBoard-LCD.jpg
 
-As you can see in the next two photos, simply connect *PortC* to *LCD_CTRL* and *PortB* to *LCD_DATA* and [http://code.google.com/p/micropendous/wiki/ProgramAndTest program] [http://code.google.com/p/micropendous/wiki/USBVirtualSerial_LCD USBVirtualSerial-LCD] *2Port* version firmware onto your Micropendous1-Base board to use this functionality.
+As you can see in the next photo, simply connect *PortC* to *LCD_CTRL* and *PortB* to *LCD_DATA* and [http://code.google.com/p/micropendous/wiki/ProgramAndTest program] [http://code.google.com/p/micropendous/wiki/USBVirtualSerial_LCD USBVirtualSerial-LCD] *2Port* version firmware onto your Micropendous1-Base board to use this functionality.
 
-http://opendous.googlecode.com/svn/trunk/Pictures/Micropendous1-Base-DevBoard-LCDConnected3.jpg
-
-http://opendous.googlecode.com/svn/trunk/Pictures/Micropendous1-Base-DevBoard-LCDConnected4.jpg
+http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/Micropendous1-Base-DevBoard/Pictures/Micropendous1-Base-DevBoard-LCDConnected3.jpg
