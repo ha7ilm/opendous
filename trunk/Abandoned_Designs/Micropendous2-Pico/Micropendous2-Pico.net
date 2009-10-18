@@ -1,0 +1,323 @@
+# EESchema Netlist Version 1.1 created  3/1/2009-02:41:10
+(
+ ( /494A56AF SM0402_Opendous C1 18pF
+  ( 1 GND )
+  ( 2 N-000042 )
+ )
+ ( /494A56AB SM0402_Opendous C2 18pF
+  ( 1 GND )
+  ( 2 N-000043 )
+ )
+ ( /494A5027 SM0402_Opendous C3 1uF
+  ( 1 N-000007 )
+  ( 2 AGND )
+ )
+ ( /494A4F89 SM0402_Opendous C4 0.1uF
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /494A4F43 SM0603_Opendous C5 4.7uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /494A4F46 SM0402_Opendous C6 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /494A53E1 SM0402_Opendous C7 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /494A53EA SM0402_Opendous C8 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /494A5892 SM0402_Opendous C9 0.1uF
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /494A51E2 SM0402_Opendous C10 1uF
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /494A5461 SM0402_Opendous C11 0.1uF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /494A4EA2 SM0402_Opendous C12 0.01uF
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /494A53A6 SM0402_Opendous C13 0.1uF
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /494A53A3 SM0402_Opendous C14 1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /494A561E SM0402_Opendous CR1 ESD_ZENER
+  ( 1 N-000044 )
+  ( 2 N-000006 )
+ )
+ ( /494A55E6 SM0402_Opendous CR2 ESD_ZENER
+  ( 1 N-000044 )
+  ( 2 N-000011 )
+ )
+ ( /494A54C4 microSMP D1 D_SCHOTTKY
+  ( 1 VDD )
+  ( 2 N-000010 )
+ )
+ ( /4954CC3E QFN44_0.5mmPitch_7x7mm_Opendous IC1 ATMEGA32U4
+  ( 1 /PE6 )
+  ( 2 N-000013 )
+  ( 3 N-000004 )
+  ( 4 N-000012 )
+  ( 5 GND )
+  ( 6 N-000003 )
+  ( 7 N-000013 )
+  ( 8 /PB0 )
+  ( 9 /PB1 )
+  ( 10 /PB2 )
+  ( 11 /PB3 )
+  ( 12 /PB7 )
+  ( 13 N-000009 )
+  ( 14 VCC )
+  ( 15 GND )
+  ( 16 N-000043 )
+  ( 17 N-000042 )
+  ( 18 /PD0 )
+  ( 19 /PD1 )
+  ( 20 /PD2 )
+  ( 21 /PD3 )
+  ( 22 /PD5 )
+  ( 23 GND )
+  ( 24 VAA )
+  ( 25 /PD4 )
+  ( 26 /PD6 )
+  ( 27 /PD7 )
+  ( 28 /PB4 )
+  ( 29 /PB5 )
+  ( 30 /PB6 )
+  ( 31 /PC6 )
+  ( 32 /PC7 )
+  ( 33 /PE2 )
+  ( 34 VCC )
+  ( 35 GND )
+  ( 36 /PF7 )
+  ( 37 /PF6 )
+  ( 38 /PF5 )
+  ( 39 /PF4 )
+  ( 40 /PF1 )
+  ( 41 /PF0 )
+  ( 42 N-000002 )
+  ( 43 GND )
+  ( 44 VAA )
+  ( 45 GND )
+ )
+ ( /494A4C70 SIL-3POS-2mm K1 VCC_SEL
+  ( 1 N-000007 )
+  ( 2 N-000013 )
+  ( 3 VDD )
+ )
+ ( /494A550A SM0603_Opendous L1 Ferrite
+  ( 1 GND )
+  ( 2 AGND )
+ )
+ ( /494A4F5E SM0603_Opendous L2 Ferrite
+  ( 1 VCC )
+  ( 2 VDD )
+ )
+ ( /494A537A SM0603_Opendous L3 Ferrite
+  ( 1 VCC )
+  ( 2 VAA )
+ )
+ ( /4954CF9C Micropendous2-Pico P1 Micropendous2-Pico
+  ( 1 /PE2 )
+  ( 2 /PE6 )
+  ( 3 /PF0 )
+  ( 4 /PF1 )
+  ( 5 /PF4 )
+  ( 6 /PF5 )
+  ( 7 /PF6 )
+  ( 8 /PF7 )
+  ( 9 N-000009 )
+  ( 10 N-000002 )
+  ( 11 /PB0 )
+  ( 12 /PB1 )
+  ( 13 /PB2 )
+  ( 14 /PB3 )
+  ( 15 /PB4 )
+  ( 16 /PB5 )
+  ( 17 /PB6 )
+  ( 18 /PB7 )
+  ( 19 GND )
+  ( 20 VCC )
+  ( 21 /PD0 )
+  ( 22 /PD1 )
+  ( 23 /PD2 )
+  ( 24 /PD3 )
+  ( 25 /PD4 )
+  ( 26 /PD5 )
+  ( 27 /PD6 )
+  ( 28 /PD7 )
+  ( 29 /PC7 )
+  ( 30 /PC6 )
+ )
+ ( /494A512F SM0402_Opendous R1 22
+  ( 1 N-000004 )
+  ( 2 N-000006 )
+ )
+ ( /494A5137 SM0402_Opendous R2 22
+  ( 1 N-000012 )
+  ( 2 N-000011 )
+ )
+ ( /494A5641 SM0402_Opendous R3 0
+  ( 1 N-000044 )
+  ( 2 AGND )
+ )
+ ( /494A5258 SM0402_Opendous R5 47k
+  ( 1 N-000009 )
+  ( 2 VCC )
+ )
+ ( /494A52C6 SM0402_Opendous R6 47k
+  ( 1 /PE2 )
+  ( 2 VCC )
+ )
+ ( /495ECD2C SM0603_Opendous R7 4.7k
+  ( 1 /PD0 )
+  ( 2 VCC )
+ )
+ ( /495ECD19 SM0603_Opendous R8 4.7k
+  ( 1 /PD1 )
+  ( 2 VCC )
+ )
+ ( /494A525F Switch_SMT SW1 RESET
+  ( 1 GND )
+  ( 2 N-000009 )
+ )
+ ( /494A52C7 Switch_SMT SW2 HWB
+  ( 1 GND )
+  ( 2 /PE2 )
+ )
+ ( /494A4DCC SOT23-5 U3 TPS736XX
+  ( 1 N-000007 )
+  ( 2 GND )
+  ( 3 N-000007 )
+  ( 4 N-000008 )
+  ( 5 N-000010 )
+ )
+ ( /4954CC7F CONN_USB2_MiniB_SMT U63 USBCONN
+  ( 1 N-000013 )
+  ( 2 N-000006 )
+  ( 3 N-000011 )
+  ( 4 AGND )
+  ( 5 N-000044 )
+ )
+ ( /495A7E51 1Pin_TH_40milVia U64 VIA
+  ( 1 GND )
+ )
+ ( /495AD502 1Pin_TH_40milVia U65 VIA
+  ( 1 VCC )
+ )
+ ( /495AD602 1Pin_TH_40milVia U66 VIA
+  ( 1 VCC )
+ )
+ ( /495AD9C7 1Pin_15mil_VIA U67 VIA
+  ( 1 /PB7 )
+ )
+ ( /495AD9D1 1Pin_15mil_VIA U68 VIA
+  ( 1 /PB6 )
+ )
+ ( /495AD9D3 1Pin_15mil_VIA U69 VIA
+  ( 1 /PB5 )
+ )
+ ( /495AD9D7 1Pin_15mil_VIA U70 VIA
+  ( 1 /PB4 )
+ )
+ ( /495AD9DA 1Pin_15mil_VIA U71 VIA
+  ( 1 /PB3 )
+ )
+ ( /495AD9DD 1Pin_15mil_VIA U72 VIA
+  ( 1 /PB2 )
+ )
+ ( /495AD9E0 1Pin_15mil_VIA U73 VIA
+  ( 1 /PB1 )
+ )
+ ( /495AD9E2 1Pin_15mil_VIA U74 VIA
+  ( 1 /PB0 )
+ )
+ ( /495ADA8C 1Pin_15mil_VIA U75 VIA
+  ( 1 /PD7 )
+ )
+ ( /495ADA8D 1Pin_15mil_VIA U76 VIA
+  ( 1 /PD6 )
+ )
+ ( /495ADA8E 1Pin_15mil_VIA U77 VIA
+  ( 1 /PD5 )
+ )
+ ( /495ADA8F 1Pin_15mil_VIA U78 VIA
+  ( 1 /PD4 )
+ )
+ ( /495ADA90 1Pin_15mil_VIA U79 VIA
+  ( 1 /PD3 )
+ )
+ ( /495ADA91 1Pin_15mil_VIA U80 VIA
+  ( 1 /PD2 )
+ )
+ ( /495ADA92 1Pin_15mil_VIA U81 VIA
+  ( 1 /PD1 )
+ )
+ ( /495ADA93 1Pin_15mil_VIA U82 VIA
+  ( 1 /PD0 )
+ )
+ ( /495ADF7A 1Pin_TH_40milVia U83 VIA
+  ( 1 VAA )
+ )
+ ( /495AE1A3 1Pin_TH_40milVia U84 VIA
+  ( 1 VDD )
+ )
+ ( /495B7581 1Pin_TH_40milVia U85 VIA
+  ( 1 VAA )
+ )
+ ( /495B75D5 1Pin_TH_40milVia U86 VIA
+  ( 1 VCC )
+ )
+ ( /495B78AF 1Pin_TH_40milVia U87 VIA
+  ( 1 VAA )
+ )
+ ( /495B78B0 1Pin_TH_40milVia U88 VIA
+  ( 1 VAA )
+ )
+ ( /495B7D65 1Pin_TH_40milVia U89 VIA
+  ( 1 GND )
+ )
+ ( /495ED02D 1Pin_15mil_VIA U90 VIA
+  ( 1 VCC )
+ )
+ ( /494A5692 Crystal_6x3.6mm_ReducedSize X1 8MHz
+  ( 1 N-000043 )
+  ( 3 N-000042 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component P1
+ Micropendous2-Pico-Inverted
+ Micropendous2-Pico
+$endlist
+$component U3
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}

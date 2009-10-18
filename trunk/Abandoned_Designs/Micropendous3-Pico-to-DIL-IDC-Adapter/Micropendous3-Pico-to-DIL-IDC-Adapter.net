@@ -1,0 +1,489 @@
+# EESchema Netlist Version 1.1 created  22/12/2008-09:09:00
+(
+ ( /494F58B0 $noname  P11 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /RESET )
+  (    4 /AREF )
+  (    5 /GND-VBUS )
+  (    6 /VBUS )
+ )
+ ( /494E68F3 $noname  P10 Power {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494E679A $noname  P8 Micropendous3 {Lib=Micropendous3}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /PF0 )
+  (    4 /PF1 )
+  (    5 /PF2 )
+  (    6 /PF3 )
+  (    7 /PF4 )
+  (    8 /PF5 )
+  (    9 /PF6 )
+  (   10 /PF7 )
+  (   11 /RESET )
+  (   12 /AREF )
+  (   13 /PB0 )
+  (   14 /PB1 )
+  (   15 /PB2 )
+  (   16 /PB3 )
+  (   17 /PB4 )
+  (   18 /PB5 )
+  (   19 /PB6 )
+  (   20 /PB7 )
+  (   21 GND )
+  (   22 VCC )
+  (   23 /PD0 )
+  (   24 /PD1 )
+  (   25 /PD2 )
+  (   26 /PD3 )
+  (   27 /PD4 )
+  (   28 /PD5 )
+  (   29 /PD6 )
+  (   30 /PD7 )
+  (   31 /PC7 )
+  (   32 /PC6 )
+  (   33 /PC5 )
+  (   34 /PC4 )
+  (   35 /PC3 )
+  (   36 /PC2 )
+  (   37 /PC1 )
+  (   38 /PC0 )
+  (   39 /PA0 )
+  (   40 /PA1 )
+  (   41 /PA2 )
+  (   42 /PA3 )
+  (   43 /PA4 )
+  (   44 /PA5 )
+  (   45 /PA6 )
+  (   46 /PA7 )
+  (   47 GND )
+  (   48 VCC )
+  (   49 /PE0 )
+  (   50 /PE1 )
+  (   51 /PE2 )
+  (   52 /PE3 )
+  (   53 /PE4 )
+  (   54 /PE5 )
+  (   55 /PE6 )
+  (   56 /PE7 )
+  (   57 GND )
+  (   58 VCC )
+  (   59 /GND-VBUS )
+  (   60 /VBUS )
+ )
+ ( /494E6541 $noname  P7 PortF {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PF7 )
+  (    4 /PF6 )
+  (    5 /PF5 )
+  (    6 /PF4 )
+  (    7 /PF3 )
+  (    8 /PF2 )
+  (    9 /PF1 )
+  (   10 /PF0 )
+ )
+ ( /494E6540 $noname  P6 PortE {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PE7 )
+  (    4 /PE6 )
+  (    5 /PE5 )
+  (    6 /PE4 )
+  (    7 /PE3 )
+  (    8 /PE2 )
+  (    9 /PE1 )
+  (   10 /PE0 )
+ )
+ ( /494E6532 $noname  P5 PortD {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PD7 )
+  (    4 /PD6 )
+  (    5 /PD5 )
+  (    6 /PD4 )
+  (    7 /PD3 )
+  (    8 /PD2 )
+  (    9 /PD1 )
+  (   10 /PD0 )
+ )
+ ( /494E6531 $noname  P4 PortC {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PC7 )
+  (    4 /PC6 )
+  (    5 /PC5 )
+  (    6 /PC4 )
+  (    7 /PC3 )
+  (    8 /PC2 )
+  (    9 /PC1 )
+  (   10 /PC0 )
+ )
+ ( /494E652A $noname  P3 PortB {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PB7 )
+  (    4 /PB6 )
+  (    5 /PB5 )
+  (    6 /PB4 )
+  (    7 /PB3 )
+  (    8 /PB2 )
+  (    9 /PB1 )
+  (   10 /PB0 )
+ )
+ ( /494E64D1 $noname  P2 PortA {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PA7 )
+  (    4 /PA6 )
+  (    5 /PA5 )
+  (    6 /PA4 )
+  (    7 /PA3 )
+  (    8 /PA2 )
+  (    9 /PA1 )
+  (   10 /PA0 )
+ )
+ ( /494E6478 $noname  U1 JTAG_AVR {Lib=JTAG_AVR}
+  (    1 /PF4 )
+  (    2 GND )
+  (    3 /PF6 )
+  (    4 VCC )
+  (    5 /PF5 )
+  (    6 /RESET )
+  (    7 VCC )
+  (    8 ? )
+  (    9 /PF7 )
+  (   10 GND )
+ )
+ ( /494B7FAB $noname  P1 Micropendous3 {Lib=Micropendous3}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /PF0 )
+  (    4 /PF1 )
+  (    5 /PF2 )
+  (    6 /PF3 )
+  (    7 /PF4 )
+  (    8 /PF5 )
+  (    9 /PF6 )
+  (   10 /PF7 )
+  (   11 /RESET )
+  (   12 /AREF )
+  (   13 /PB0 )
+  (   14 /PB1 )
+  (   15 /PB2 )
+  (   16 /PB3 )
+  (   17 /PB4 )
+  (   18 /PB5 )
+  (   19 /PB6 )
+  (   20 /PB7 )
+  (   21 GND )
+  (   22 VCC )
+  (   23 /PD0 )
+  (   24 /PD1 )
+  (   25 /PD2 )
+  (   26 /PD3 )
+  (   27 /PD4 )
+  (   28 /PD5 )
+  (   29 /PD6 )
+  (   30 /PD7 )
+  (   31 /PC7 )
+  (   32 /PC6 )
+  (   33 /PC5 )
+  (   34 /PC4 )
+  (   35 /PC3 )
+  (   36 /PC2 )
+  (   37 /PC1 )
+  (   38 /PC0 )
+  (   39 /PA0 )
+  (   40 /PA1 )
+  (   41 /PA2 )
+  (   42 /PA3 )
+  (   43 /PA4 )
+  (   44 /PA5 )
+  (   45 /PA6 )
+  (   46 /PA7 )
+  (   47 GND )
+  (   48 VCC )
+  (   49 /PE0 )
+  (   50 /PE1 )
+  (   51 /PE2 )
+  (   52 /PE3 )
+  (   53 /PE4 )
+  (   54 /PE5 )
+  (   55 /PE6 )
+  (   56 /PE7 )
+  (   57 GND )
+  (   58 VCC )
+  (   59 /GND-VBUS )
+  (   60 /VBUS )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P8
+ Micropendous3-Inverted
+ Micropendous3
+$endlist
+$component P1
+ Micropendous3-Inverted
+ Micropendous3
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND"
+ P8 57
+ P8 47
+ P7 2
+ P6 2
+ P5 2
+ P4 2
+ P8 21
+ P3 2
+ P2 2
+ U1 10
+ U1 2
+ P1 1
+ P1 21
+ P1 47
+ P1 57
+ P8 1
+ P10 2
+ P11 1
+Net 2 "VCC"
+ P11 2
+ P10 1
+ P8 2
+ P1 58
+ P1 48
+ P1 22
+ P1 2
+ U1 7
+ U1 4
+ P2 1
+ P3 1
+ P8 22
+ P4 1
+ P5 1
+ P6 1
+ P7 1
+ P8 48
+ P8 58
+/Net 4 "PF0"
+ P1 3
+ P8 3
+ P7 10
+/Net 5 "PF1"
+ P8 4
+ P7 9
+ P1 4
+/Net 6 "PF2"
+ P1 5
+ P8 5
+ P7 8
+/Net 7 "PF3"
+ P8 6
+ P7 7
+ P1 6
+/Net 8 "AREF"
+ P11 4
+ P8 12
+ P1 12
+/Net 9 "PB0"
+ P3 10
+ P1 13
+ P8 13
+/Net 10 "PB1"
+ P1 14
+ P3 9
+ P8 14
+/Net 11 "PB2"
+ P3 8
+ P8 15
+ P1 15
+/Net 12 "PB3"
+ P3 7
+ P8 16
+ P1 16
+/Net 13 "PB4"
+ P1 17
+ P8 17
+ P3 6
+/Net 14 "PB5"
+ P1 18
+ P8 18
+ P3 5
+/Net 15 "PB6"
+ P3 4
+ P1 19
+ P8 19
+/Net 16 "PB7"
+ P3 3
+ P1 20
+ P8 20
+/Net 17 "PD0"
+ P5 10
+ P8 23
+ P1 23
+/Net 18 "PD1"
+ P1 24
+ P5 9
+ P8 24
+/Net 19 "PD2"
+ P8 25
+ P5 8
+ P1 25
+/Net 20 "PD3"
+ P5 7
+ P8 26
+ P1 26
+/Net 21 "PD4"
+ P8 27
+ P5 6
+ P1 27
+/Net 22 "PD5"
+ P1 28
+ P5 5
+ P8 28
+/Net 23 "PD6"
+ P8 29
+ P5 4
+ P1 29
+/Net 24 "PD7"
+ P8 30
+ P5 3
+ P1 30
+/Net 25 "PC7"
+ P8 31
+ P1 31
+ P4 3
+/Net 26 "PC6"
+ P8 32
+ P4 4
+ P1 32
+/Net 27 "PC5"
+ P1 33
+ P8 33
+ P4 5
+/Net 28 "PC4"
+ P8 34
+ P1 34
+ P4 6
+/Net 29 "PC3"
+ P8 35
+ P4 7
+ P1 35
+/Net 30 "PC2"
+ P1 36
+ P4 8
+ P8 36
+/Net 31 "PC1"
+ P4 9
+ P8 37
+ P1 37
+/Net 32 "PC0"
+ P8 38
+ P4 10
+ P1 38
+/Net 33 "PA0"
+ P2 10
+ P1 39
+ P8 39
+/Net 34 "PA1"
+ P1 40
+ P8 40
+ P2 9
+/Net 35 "PA2"
+ P2 8
+ P1 41
+ P8 41
+/Net 36 "PA3"
+ P8 42
+ P2 7
+ P1 42
+/Net 37 "PA4"
+ P2 6
+ P1 43
+ P8 43
+/Net 38 "PA5"
+ P8 44
+ P2 5
+ P1 44
+/Net 39 "PA6"
+ P2 4
+ P1 45
+ P8 45
+/Net 40 "PA7"
+ P2 3
+ P1 46
+ P8 46
+/Net 41 "PE0"
+ P8 49
+ P1 49
+ P6 10
+/Net 42 "PE1"
+ P8 50
+ P1 50
+ P6 9
+/Net 43 "PE2"
+ P1 51
+ P8 51
+ P6 8
+/Net 44 "PE3"
+ P1 52
+ P6 7
+ P8 52
+/Net 45 "PE4"
+ P8 53
+ P6 6
+ P1 53
+/Net 46 "PE5"
+ P8 54
+ P6 5
+ P1 54
+/Net 47 "PE6"
+ P1 55
+ P6 4
+ P8 55
+/Net 48 "PE7"
+ P8 56
+ P1 56
+ P6 3
+/Net 49 "GND-VBUS"
+ P8 59
+ P11 5
+ P1 59
+/Net 50 "VBUS"
+ P11 6
+ P8 60
+ P1 60
+/Net 51 "RESET"
+ P11 3
+ U1 6
+ P1 11
+ P8 11
+/Net 52 "PF7"
+ P7 3
+ P8 10
+ P1 10
+ U1 9
+/Net 53 "PF5"
+ U1 5
+ P7 5
+ P8 8
+ P1 8
+/Net 54 "PF6"
+ P8 9
+ U1 3
+ P7 4
+ P1 9
+/Net 55 "PF4"
+ U1 1
+ P1 7
+ P8 7
+ P7 6
+}
+#End

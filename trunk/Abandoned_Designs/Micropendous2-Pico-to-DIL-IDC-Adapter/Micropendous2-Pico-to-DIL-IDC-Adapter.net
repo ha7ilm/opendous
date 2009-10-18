@@ -1,0 +1,289 @@
+# EESchema Netlist Version 1.1 created  1/1/2009-03:37:37
+(
+ ( /495C0C87 $noname  U2 JTAG_AVR {Lib=JTAG_AVR}
+  (    1 /PF4 )
+  (    2 GND )
+  (    3 /PF6 )
+  (    4 VCC )
+  (    5 /PF5 )
+  (    6 /RST )
+  (    7 VCC )
+  (    8 ? )
+  (    9 /PF7 )
+  (   10 GND )
+ )
+ ( /495C0A01 $noname  P6 Misc {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PC7 )
+  (    4 /PC6 )
+  (    5 /PE6 )
+  (    6 /PE2 )
+  (    7 ? )
+  (    8 ? )
+  (    9 /AREF )
+  (   10 /RST )
+ )
+ ( /495C096F $noname  P5 PortF {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PF7 )
+  (    4 /PF6 )
+  (    5 /PF5 )
+  (    6 /PF4 )
+  (    7 ? )
+  (    8 ? )
+  (    9 /PF1 )
+  (   10 /PF0 )
+ )
+ ( /495C095A $noname  P4 PortD {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PD7 )
+  (    4 /PD6 )
+  (    5 /PD5 )
+  (    6 /PD4 )
+  (    7 /PD3 )
+  (    8 /PD2 )
+  (    9 /PD1 )
+  (   10 /PD0 )
+ )
+ ( /495C093D $noname  P3 PortB {Lib=CONN_10}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /PB7 )
+  (    4 /PB6 )
+  (    5 /PB5 )
+  (    6 /PB4 )
+  (    7 /PB3 )
+  (    8 /PB2 )
+  (    9 /PB1 )
+  (   10 /PB0 )
+ )
+ ( /495C0761 $noname  P2 MICROPENDOUS2-PICO {Lib=MICROOPENDOUS2-PICO}
+  (    1 /PE2 )
+  (    2 /PE6 )
+  (    3 /PF0 )
+  (    4 /PF1 )
+  (    5 /PF4 )
+  (    6 /PF5 )
+  (    7 /PF6 )
+  (    8 /PF7 )
+  (    9 /RST )
+  (   10 /AREF )
+  (   11 /PB0 )
+  (   12 /PB1 )
+  (   13 /PB2 )
+  (   14 /PB3 )
+  (   15 /PB4 )
+  (   16 /PB5 )
+  (   17 /PB6 )
+  (   18 /PB7 )
+  (   19 GND )
+  (   20 VCC )
+  (   21 /PD0 )
+  (   22 /PD1 )
+  (   23 /PD2 )
+  (   24 /PD3 )
+  (   25 /PD4 )
+  (   26 /PD5 )
+  (   27 /PD6 )
+  (   28 /PD7 )
+  (   29 /PC7 )
+  (   30 /PC6 )
+ )
+ ( /495BF211 $noname  U5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /495BF1F2 $noname  U3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /495BF1EE $noname  U4 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /4954CF9C $noname  P1 MICROPENDOUS2-PICO {Lib=MICROPENDOUS2-PICO}
+  (    1 /PE2 )
+  (    2 /PE6 )
+  (    3 /PF0 )
+  (    4 /PF1 )
+  (    5 /PF4 )
+  (    6 /PF5 )
+  (    7 /PF6 )
+  (    8 /PF7 )
+  (    9 /RST )
+  (   10 /AREF )
+  (   11 /PB0 )
+  (   12 /PB1 )
+  (   13 /PB2 )
+  (   14 /PB3 )
+  (   15 /PB4 )
+  (   16 /PB5 )
+  (   17 /PB6 )
+  (   18 /PB7 )
+  (   19 GND )
+  (   20 VCC )
+  (   21 /PD0 )
+  (   22 /PD1 )
+  (   23 /PD2 )
+  (   24 /PD3 )
+  (   25 /PD4 )
+  (   26 /PD5 )
+  (   27 /PD6 )
+  (   28 /PD7 )
+  (   29 /PC7 )
+  (   30 /PC6 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P2
+ Micropendous2-Pico-Inverted
+ Micropendous2-Pico
+$endlist
+$component P1
+ Micropendous2-Pico-Inverted
+ Micropendous2-Pico
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND"
+ P1 19
+ P4 2
+ P6 2
+ P3 2
+ P2 19
+ U5 1
+ U2 2
+ U2 10
+ U3 1
+ P5 2
+Net 2 "VCC"
+ U2 4
+ U2 7
+ P2 20
+ P3 1
+ P6 1
+ P4 1
+ P1 20
+ P5 1
+ U4 1
+/Net 4 "RST"
+ P2 9
+ P1 9
+ U2 6
+ P6 10
+/Net 5 "PF7"
+ P1 8
+ P5 3
+ U2 9
+ P2 8
+/Net 6 "PF5"
+ P1 6
+ P5 5
+ U2 5
+ P2 6
+/Net 7 "PF6"
+ P5 4
+ P2 7
+ P1 7
+ U2 3
+/Net 8 "PF4"
+ P1 5
+ P5 6
+ P2 5
+ U2 1
+/Net 13 "PE2"
+ P1 1
+ P2 1
+ P6 6
+/Net 14 "PE6"
+ P1 2
+ P6 5
+ P2 2
+/Net 15 "PF0"
+ P2 3
+ P1 3
+ P5 10
+/Net 16 "PF1"
+ P1 4
+ P5 9
+ P2 4
+/Net 17 "AREF"
+ P2 10
+ P1 10
+ P6 9
+/Net 18 "PB0"
+ P3 10
+ P1 11
+ P2 11
+/Net 19 "PB1"
+ P1 12
+ P3 9
+ P2 12
+/Net 20 "PB2"
+ P2 13
+ P3 8
+ P1 13
+/Net 21 "PB3"
+ P3 7
+ P1 14
+ P2 14
+/Net 22 "PB4"
+ P1 15
+ P2 15
+ P3 6
+/Net 23 "PB5"
+ P2 16
+ P1 16
+ P3 5
+/Net 24 "PB6"
+ P2 17
+ P3 4
+ P1 17
+/Net 25 "PB7"
+ P1 18
+ P2 18
+ P3 3
+/Net 26 "PD0"
+ P2 21
+ P4 10
+ P1 21
+/Net 27 "PD1"
+ P1 22
+ P4 9
+ P2 22
+/Net 28 "PD2"
+ P1 23
+ P4 8
+ P2 23
+/Net 29 "PD3"
+ P1 24
+ P4 7
+ P2 24
+/Net 30 "PD4"
+ P4 6
+ P2 25
+ P1 25
+/Net 31 "PD5"
+ P1 26
+ P2 26
+ P4 5
+/Net 32 "PD6"
+ P2 27
+ P1 27
+ P4 4
+/Net 33 "PD7"
+ P2 28
+ P4 3
+ P1 28
+/Net 34 "PC7"
+ P6 3
+ P1 29
+ P2 29
+/Net 35 "PC6"
+ P2 30
+ P6 4
+ P1 30
+}
+#End
