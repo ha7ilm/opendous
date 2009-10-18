@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 22/12/2008-09:08:11
+
+BeginCmp
+TimeStamp = /494B7FAB;
+Reference = P1;
+ValeurCmp = Micropendous3;
+IdModule  = Micropendous3-Inverted;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E64D1;
+Reference = P2;
+ValeurCmp = PortA;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E652A;
+Reference = P3;
+ValeurCmp = PortB;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E6531;
+Reference = P4;
+ValeurCmp = PortC;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E6532;
+Reference = P5;
+ValeurCmp = PortD;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E6540;
+Reference = P6;
+ValeurCmp = PortE;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E6541;
+Reference = P7;
+ValeurCmp = PortF;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E679A;
+Reference = P8;
+ValeurCmp = Micropendous3;
+IdModule  = Micropendous3_0.1inch-DIL;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E68F3;
+Reference = P10;
+ValeurCmp = Power;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /494F58B0;
+Reference = P11;
+ValeurCmp = CONN_6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /494E6478;
+Reference = U1;
+ValeurCmp = JTAG_AVR;
+IdModule  = Pin_Array_Port_5x2;
+EndCmp
+
+EndListe

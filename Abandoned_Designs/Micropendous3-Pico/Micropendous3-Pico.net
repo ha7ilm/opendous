@@ -1,0 +1,820 @@
+# EESchema Netlist Version 1.1 created  21/12/2008-13:16:56
+(
+ ( /494E3480 $noname  U73 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494E3475 $noname  U74 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494E330E $noname  U72 VIA {Lib=VIA}
+  (    1 N-000023 )
+ )
+ ( /494E32FE $noname  U71 VIA {Lib=VIA}
+  (    1 N-000023 )
+ )
+ ( /494E318F $noname  U70 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494E3156 $noname  U69 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494E2A32 $noname  U68 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494E2904 $noname  U67 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /494E21F7 $noname  U65 VIA {Lib=VIA}
+  (    1 N-000016 )
+ )
+ ( /494E1AE5 $noname  U64 VIA {Lib=VIA}
+  (    1 /PF4 )
+ )
+ ( /494E15BF $noname  U62 JTAG_AVR {Lib=JTAG_AVR}
+  (    1 /PF4 )
+  (    2 GND )
+  (    3 /PF6 )
+  (    4 VCC )
+  (    5 /PF5 )
+  (    6 N-000013 )
+  (    7 VCC )
+  (    8 ? )
+  (    9 /PF7 )
+  (   10 GND )
+ )
+ ( /494E1454 $noname  U61 VIA {Lib=VIA}
+  (    1 /PE3 )
+ )
+ ( /494E0DDF $noname  U59 VIA {Lib=VIA}
+  (    1 N-000023 )
+ )
+ ( /494E038D $noname  U58 VIA {Lib=VIA}
+  (    1 /PE6 )
+ )
+ ( /494E038C $noname  U57 VIA {Lib=VIA}
+  (    1 /PE7 )
+ )
+ ( /494DFE08 $noname  U56 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494DFD7D $noname  U55 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494DF128 $noname  U54 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /494DDD77 $noname  U51 VIA {Lib=VIA}
+  (    1 N-000013 )
+ )
+ ( /494DDD76 $noname  U50 VIA {Lib=VIA}
+  (    1 N-000013 )
+ )
+ ( /494DDD73 $noname  U52 VIA {Lib=VIA}
+  (    1 N-000009 )
+ )
+ ( /494DDD71 $noname  U53 VIA {Lib=VIA}
+  (    1 N-000009 )
+ )
+ ( /494DDCD0 $noname  U49 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /494DDCCD $noname  U48 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494DDCA0 $noname  U47 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /494DDC9A $noname  U46 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /494DD79C $noname  U45 VIA {Lib=VIA}
+  (    1 /PE2 )
+ )
+ ( /494DC8C4 $noname  U44 VIA {Lib=VIA}
+  (    1 /PD0 )
+ )
+ ( /494DC8C3 $noname  U43 VIA {Lib=VIA}
+  (    1 /PD1 )
+ )
+ ( /494DC8C2 $noname  U42 VIA {Lib=VIA}
+  (    1 /PD2 )
+ )
+ ( /494DC8C1 $noname  U41 VIA {Lib=VIA}
+  (    1 /PD3 )
+ )
+ ( /494DC8C0 $noname  U40 VIA {Lib=VIA}
+  (    1 /PD4 )
+ )
+ ( /494DC8BF $noname  U39 VIA {Lib=VIA}
+  (    1 /PD5 )
+ )
+ ( /494DC8BE $noname  U38 VIA {Lib=VIA}
+  (    1 /PD6 )
+ )
+ ( /494DC8BD $noname  U37 VIA {Lib=VIA}
+  (    1 /PD7 )
+ )
+ ( /494DC82B $noname  U36 VIA {Lib=VIA}
+  (    1 /PD0 )
+ )
+ ( /494DC82A $noname  U35 VIA {Lib=VIA}
+  (    1 /PD1 )
+ )
+ ( /494DC829 $noname  U34 VIA {Lib=VIA}
+  (    1 /PD2 )
+ )
+ ( /494DC828 $noname  U33 VIA {Lib=VIA}
+  (    1 /PD3 )
+ )
+ ( /494DC827 $noname  U32 VIA {Lib=VIA}
+  (    1 /PD4 )
+ )
+ ( /494DC826 $noname  U31 VIA {Lib=VIA}
+  (    1 /PD5 )
+ )
+ ( /494DC825 $noname  U30 VIA {Lib=VIA}
+  (    1 /PD6 )
+ )
+ ( /494DC824 $noname  U29 VIA {Lib=VIA}
+  (    1 /PD7 )
+ )
+ ( /494BA146 $noname  U20 VIA {Lib=VIA}
+  (    1 /PB0 )
+ )
+ ( /494BA145 $noname  U19 VIA {Lib=VIA}
+  (    1 /PB1 )
+ )
+ ( /494BA144 $noname  U18 VIA {Lib=VIA}
+  (    1 /PB2 )
+ )
+ ( /494BA143 $noname  U17 VIA {Lib=VIA}
+  (    1 /PB3 )
+ )
+ ( /494BA142 $noname  U16 VIA {Lib=VIA}
+  (    1 /PB4 )
+ )
+ ( /494BA141 $noname  U15 VIA {Lib=VIA}
+  (    1 /PB5 )
+ )
+ ( /494BA140 $noname  U14 VIA {Lib=VIA}
+  (    1 /PB6 )
+ )
+ ( /494BA13F $noname  U13 VIA {Lib=VIA}
+  (    1 /PB7 )
+ )
+ ( /494BA12B $noname  U12 VIA {Lib=VIA}
+  (    1 /PA0 )
+ )
+ ( /494BA126 $noname  U11 VIA {Lib=VIA}
+  (    1 /PA1 )
+ )
+ ( /494BA117 $noname  U10 VIA {Lib=VIA}
+  (    1 /PA2 )
+ )
+ ( /494BA115 $noname  U9 VIA {Lib=VIA}
+  (    1 /PA3 )
+ )
+ ( /494BA112 $noname  U8 VIA {Lib=VIA}
+  (    1 /PA4 )
+ )
+ ( /494BA10E $noname  U7 VIA {Lib=VIA}
+  (    1 /PA5 )
+ )
+ ( /494BA10A $noname  U6 VIA {Lib=VIA}
+  (    1 /PA6 )
+ )
+ ( /494BA102 $noname  U5 VIA {Lib=VIA}
+  (    1 /PA7 )
+ )
+ ( /494B7FAB $noname  P1 Micropendous3 {Lib=Micropendous3}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /PF0 )
+  (    4 /PF1 )
+  (    5 /PF2 )
+  (    6 /PF3 )
+  (    7 /PF4 )
+  (    8 /PF5 )
+  (    9 /PF6 )
+  (   10 /PF7 )
+  (   11 N-000013 )
+  (   12 N-000009 )
+  (   13 /PB0 )
+  (   14 /PB1 )
+  (   15 /PB2 )
+  (   16 /PB3 )
+  (   17 /PB4 )
+  (   18 /PB5 )
+  (   19 /PB6 )
+  (   20 /PB7 )
+  (   21 GND )
+  (   22 VCC )
+  (   23 /PD0 )
+  (   24 /PD1 )
+  (   25 /PD2 )
+  (   26 /PD3 )
+  (   27 /PD4 )
+  (   28 /PD5 )
+  (   29 /PD6 )
+  (   30 /PD7 )
+  (   31 /PC7 )
+  (   32 /PC6 )
+  (   33 /PC5 )
+  (   34 /PC4 )
+  (   35 /PC3 )
+  (   36 /PC2 )
+  (   37 /PC1 )
+  (   38 /PC0 )
+  (   39 /PA0 )
+  (   40 /PA1 )
+  (   41 /PA2 )
+  (   42 /PA3 )
+  (   43 /PA4 )
+  (   44 /PA5 )
+  (   45 /PA6 )
+  (   46 /PA7 )
+  (   47 GND )
+  (   48 VCC )
+  (   49 /PE0 )
+  (   50 /PE1 )
+  (   51 /PE2 )
+  (   52 /PE3 )
+  (   53 /PE4 )
+  (   54 /PE5 )
+  (   55 /PE6 )
+  (   56 /PE7 )
+  (   57 GND )
+  (   58 VCC )
+  (   59 AGND )
+  (   60 N-000023 )
+ )
+ ( /494A62C7 $noname  R4 0 {Lib=R_MINI}
+  (    1 N-000016 )
+  (    2 /PE3 )
+ )
+ ( /494A5892 $noname  C9 1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A56AF $noname  C1 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000032 )
+ )
+ ( /494A56AB $noname  C2 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( /494A5692 $noname  X1 8MHz {Lib=CRYSTAL_4PIN}
+  (    1 N-000033 )
+  (    3 N-000032 )
+ )
+ ( /494A5641 $noname  R3 0 {Lib=R_MINI}
+  (    1 N-000034 )
+  (    2 AGND )
+ )
+ ( /494A561E $noname  CR1 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000034 )
+  (    2 N-000012 )
+ )
+ ( /494A55E6 $noname  CR2 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000034 )
+  (    2 N-000002 )
+ )
+ ( /494A550A $noname  L1 Ferrite {Lib=L_MINI}
+  (    1 GND )
+  (    2 AGND )
+ )
+ ( /494A54C4 $noname  D1 D_SCHOTTKY {Lib=D_SCHOTTKY}
+  (    1 VDD )
+  (    2 N-000003 )
+ )
+ ( /494A5461 $noname  C11 0.1uF {Lib=C_MINI}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /494A53EA $noname  C8 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A53E1 $noname  C7 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A53A6 $noname  C13 0.1uF {Lib=C_MINI}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /494A53A3 $noname  C14 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A537A $noname  L3 Ferrite {Lib=L_MINI}
+  (    1 VCC )
+  (    2 N-000005 )
+ )
+ ( /494A52C7 $noname  SW2 HWB {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 /PE2 )
+ )
+ ( /494A52C6 $noname  R6 47k {Lib=R_MINI}
+  (    1 /PE2 )
+  (    2 VCC )
+ )
+ ( /494A525F $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 N-000013 )
+ )
+ ( /494A5258 $noname  R5 47k {Lib=R_MINI}
+  (    1 N-000013 )
+  (    2 VCC )
+ )
+ ( /494A51FE $noname  U4 VIA {Lib=VIA}
+  (    1 N-000035 )
+ )
+ ( /494A51E2 $noname  C10 1uF {Lib=C_MINI}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /494A5137 $noname  R2 22 {Lib=R_MINI}
+  (    1 N-000007 )
+  (    2 N-000002 )
+ )
+ ( /494A512F $noname  R1 22 {Lib=R_MINI}
+  (    1 N-000011 )
+  (    2 N-000012 )
+ )
+ ( /494A5027 $noname  C3 1uF {Lib=C_MINI}
+  (    1 N-000008 )
+  (    2 AGND )
+ )
+ ( /494A4F89 $noname  C4 0.1uF {Lib=C_MINI}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /494A4F5E $noname  L2 Ferrite {Lib=L_MINI}
+  (    1 VCC )
+  (    2 VDD )
+ )
+ ( /494A4F46 $noname  C6 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /494A4F43 $noname  C5 4.7uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /494A4EA2 $noname  C12 0.01uF {Lib=C_MINI}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /494A4E54 $noname  R7 0 {Lib=R_MINI}
+  (    1 N-000009 )
+  (    2 VCC )
+ )
+ ( /494A4DCC $noname  U3 TPS736XX {Lib=TPS736XX}
+  (    1 N-000008 )
+  (    2 GND )
+  (    3 N-000008 )
+  (    4 N-000010 )
+  (    5 N-000003 )
+ )
+ ( /494A4CAC $noname  U1 USBCONN-HOSTCAPABLE {Lib=USBCONN-HOSTCAPABLE}
+  (    1 N-000023 )
+  (    2 N-000012 )
+  (    3 N-000002 )
+  (    4 AGND )
+  (    5 N-000034 )
+  (    6 N-000016 )
+ )
+ ( /494A4C70 $noname  K1 VCC_SEL {Lib=CONN_3}
+  (    1 N-000008 )
+  (    2 N-000023 )
+  (    3 VDD )
+ )
+ ( /494A3BCE $noname  IC1 AT90USB64 {Lib=AT90USB64}
+  (    1 /PE6 )
+  (    2 /PE7 )
+  (    3 N-000023 )
+  (    4 N-000011 )
+  (    5 N-000007 )
+  (    6 GND )
+  (    7 N-000035 )
+  (    8 N-000023 )
+  (    9 /PE3 )
+  (   10 /PB0 )
+  (   11 /PB1 )
+  (   12 /PB2 )
+  (   13 /PB3 )
+  (   14 /PB4 )
+  (   15 /PB5 )
+  (   16 /PB6 )
+  (   17 /PB7 )
+  (   18 /PE4 )
+  (   19 /PE5 )
+  (   20 N-000013 )
+  (   21 VCC )
+  (   22 GND )
+  (   23 N-000033 )
+  (   24 N-000032 )
+  (   25 /PD0 )
+  (   26 /PD1 )
+  (   27 /PD2 )
+  (   28 /PD3 )
+  (   29 /PD4 )
+  (   30 /PD5 )
+  (   31 /PD6 )
+  (   32 /PD7 )
+  (   33 /PE0 )
+  (   34 /PE1 )
+  (   35 /PC0 )
+  (   36 /PC1 )
+  (   37 /PC2 )
+  (   38 /PC3 )
+  (   39 /PC4 )
+  (   40 /PC5 )
+  (   41 /PC6 )
+  (   42 /PC7 )
+  (   43 /PE2 )
+  (   44 /PA7 )
+  (   45 /PA6 )
+  (   46 /PA5 )
+  (   47 /PA4 )
+  (   48 /PA3 )
+  (   49 /PA2 )
+  (   50 /PA1 )
+  (   51 /PA0 )
+  (   52 VCC )
+  (   53 GND )
+  (   54 /PF7 )
+  (   55 /PF6 )
+  (   56 /PF5 )
+  (   57 /PF4 )
+  (   58 /PF3 )
+  (   59 /PF2 )
+  (   60 /PF1 )
+  (   61 /PF0 )
+  (   62 N-000009 )
+  (   63 GND )
+  (   64 N-000005 )
+  (   65 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P1
+ Micropendous3-Inverted
+ Micropendous3
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component U3
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VCC"
+ L3 1
+ R6 2
+ R5 2
+ C14 1
+ C7 1
+ C8 1
+ P1 2
+ L2 1
+ C6 1
+ IC1 21
+ U46 1
+ U48 1
+ U55 1
+ IC1 52
+ U56 1
+ R7 2
+ U62 7
+ U62 4
+ U68 1
+ U69 1
+ U70 1
+ U74 1
+ U73 1
+ C9 1
+ P1 22
+ P1 48
+ P1 58
+Net 2 ""
+ CR2 2
+ U1 3
+ R2 2
+Net 3 ""
+ D1 2
+ U3 5
+Net 4 "VDD"
+ D1 1
+ K1 3
+ C5 1
+ L2 2
+Net 5 ""
+ L3 2
+ C13 1
+ IC1 64
+/Net 6 "PE2"
+ U45 1
+ IC1 43
+ R6 1
+ SW2 2
+ P1 51
+Net 7 ""
+ IC1 5
+ R2 1
+Net 8 ""
+ U3 1
+ C3 1
+ K1 1
+ U3 3
+Net 9 ""
+ P1 12
+ U52 1
+ C12 1
+ U53 1
+ R7 1
+ IC1 62
+Net 10 ""
+ U3 4
+ C4 1
+Net 11 ""
+ IC1 4
+ R1 1
+Net 12 ""
+ R1 2
+ CR1 2
+ U1 2
+Net 13 ""
+ SW1 2
+ U62 6
+ P1 11
+ IC1 20
+ U50 1
+ R5 1
+ U51 1
+Net 14 "AGND"
+ C3 2
+ U1 4
+ R3 2
+ P1 59
+ L1 2
+Net 15 "GND"
+ U62 2
+ U62 10
+ U3 2
+ C12 2
+ U67 1
+ U54 1
+ U49 1
+ U47 1
+ C5 2
+ C6 2
+ C4 2
+ IC1 6
+ C10 2
+ SW1 1
+ SW2 1
+ C14 2
+ C13 2
+ C7 2
+ P1 1
+ IC1 22
+ C8 2
+ C11 2
+ L1 1
+ C2 1
+ C1 1
+ IC1 53
+ P1 21
+ IC1 63
+ C9 2
+ IC1 65
+ P1 57
+ P1 47
+Net 16 ""
+ U65 1
+ R4 1
+ U1 6
+/Net 17 "PF4"
+ IC1 57
+ U62 1
+ U64 1
+ P1 7
+/Net 19 "PF7"
+ U62 9
+ IC1 54
+ P1 10
+/Net 20 "PF5"
+ U62 5
+ IC1 56
+ P1 8
+/Net 21 "PF6"
+ IC1 55
+ P1 9
+ U62 3
+/Net 22 "PE3"
+ U61 1
+ P1 52
+ R4 2
+ IC1 9
+Net 23 ""
+ C11 1
+ U72 1
+ K1 2
+ U71 1
+ IC1 3
+ U1 1
+ P1 60
+ U59 1
+ IC1 8
+/Net 24 "PD0"
+ IC1 25
+ U36 1
+ U44 1
+ P1 23
+/Net 25 "PD1"
+ P1 24
+ U35 1
+ IC1 26
+ U43 1
+/Net 26 "PD2"
+ U34 1
+ U42 1
+ IC1 27
+ P1 25
+/Net 27 "PD3"
+ P1 26
+ U41 1
+ U33 1
+ IC1 28
+/Net 28 "PD4"
+ U40 1
+ IC1 29
+ U32 1
+ P1 27
+/Net 29 "PD5"
+ IC1 30
+ P1 28
+ U31 1
+ U39 1
+/Net 30 "PD6"
+ U30 1
+ P1 29
+ U38 1
+ IC1 31
+/Net 31 "PD7"
+ U29 1
+ IC1 32
+ U37 1
+ P1 30
+Net 32 ""
+ IC1 24
+ C1 2
+ X1 3
+Net 33 ""
+ C2 2
+ IC1 23
+ X1 1
+Net 34 ""
+ R3 1
+ U1 5
+ CR2 1
+ CR1 1
+Net 35 ""
+ C10 1
+ IC1 7
+ U4 1
+/Net 36 "PA0"
+ U12 1
+ P1 39
+ IC1 51
+/Net 37 "PA1"
+ IC1 50
+ P1 40
+ U11 1
+/Net 38 "PA2"
+ IC1 49
+ P1 41
+ U10 1
+/Net 39 "PA3"
+ U9 1
+ P1 42
+ IC1 48
+/Net 40 "PA4"
+ IC1 47
+ P1 43
+ U8 1
+/Net 41 "PA5"
+ U7 1
+ P1 44
+ IC1 46
+/Net 42 "PA6"
+ IC1 45
+ P1 45
+ U6 1
+/Net 43 "PA7"
+ IC1 44
+ P1 46
+ U5 1
+/Net 44 "PC0"
+ IC1 35
+ P1 38
+/Net 45 "PC1"
+ IC1 36
+ P1 37
+/Net 46 "PC2"
+ P1 36
+ IC1 37
+/Net 47 "PC3"
+ P1 35
+ IC1 38
+/Net 48 "PC4"
+ IC1 39
+ P1 34
+/Net 49 "PC5"
+ IC1 40
+ P1 33
+/Net 50 "PC6"
+ IC1 41
+ P1 32
+/Net 51 "PC7"
+ P1 31
+ IC1 42
+/Net 52 "PE0"
+ P1 49
+ IC1 33
+/Net 53 "PE1"
+ P1 50
+ IC1 34
+/Net 54 "PE4"
+ IC1 18
+ P1 53
+/Net 55 "PE5"
+ IC1 19
+ P1 54
+/Net 56 "PE6"
+ P1 55
+ U58 1
+ IC1 1
+/Net 57 "PE7"
+ IC1 2
+ U57 1
+ P1 56
+/Net 58 "PF0"
+ P1 3
+ IC1 61
+/Net 59 "PF1"
+ IC1 60
+ P1 4
+/Net 60 "PF2"
+ P1 5
+ IC1 59
+/Net 61 "PF3"
+ IC1 58
+ P1 6
+/Net 62 "PB0"
+ P1 13
+ U20 1
+ IC1 10
+/Net 63 "PB1"
+ P1 14
+ U19 1
+ IC1 11
+/Net 64 "PB2"
+ IC1 12
+ P1 15
+ U18 1
+/Net 65 "PB3"
+ IC1 13
+ U17 1
+ P1 16
+/Net 66 "PB4"
+ IC1 14
+ U16 1
+ P1 17
+/Net 67 "PB5"
+ P1 18
+ IC1 15
+ U15 1
+/Net 68 "PB6"
+ P1 19
+ U14 1
+ IC1 16
+/Net 69 "PB7"
+ P1 20
+ IC1 17
+ U13 1
+}
+#End

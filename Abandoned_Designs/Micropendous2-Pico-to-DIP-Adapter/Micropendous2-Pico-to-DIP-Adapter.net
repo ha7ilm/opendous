@@ -1,0 +1,176 @@
+# EESchema Netlist Version 1.1 created  31/12/2008-22:41:44
+(
+ ( /4954CF9C Micropendous2-Inverted P1 Micropendous2
+  ( 1 /PE2 )
+  ( 2 /PE6 )
+  ( 3 /PF0 )
+  ( 4 /PF1 )
+  ( 5 /PF4 )
+  ( 6 /PF5 )
+  ( 7 /PF6 )
+  ( 8 /PF7 )
+  ( 9 /RST )
+  ( 10 /AREF )
+  ( 11 /PB0 )
+  ( 12 /PB1 )
+  ( 13 /PB2 )
+  ( 14 /PB3 )
+  ( 15 /PB4 )
+  ( 16 /PB5 )
+  ( 17 /PB6 )
+  ( 18 /PB7 )
+  ( 19 GND )
+  ( 20 VCC )
+  ( 21 /PD0 )
+  ( 22 /PD1 )
+  ( 23 /PD2 )
+  ( 24 /PD3 )
+  ( 25 /PD4 )
+  ( 26 /PD5 )
+  ( 27 /PD6 )
+  ( 28 /PD7 )
+  ( 29 /PC7 )
+  ( 30 /PC6 )
+ )
+ ( /495BAAB6 SIL-15-Port_Opendous-Inverted U1 Top
+  ( 1 VCC )
+  ( 2 /PE6 )
+  ( 3 /PE2 )
+  ( 4 /RST )
+  ( 5 /AREF )
+  ( 6 /PC6 )
+  ( 7 /PC7 )
+  ( 8 /PB7 )
+  ( 9 /PB6 )
+  ( 10 /PB5 )
+  ( 11 /PB4 )
+  ( 12 /PB3 )
+  ( 13 /PB2 )
+  ( 14 /PB1 )
+  ( 15 /PB0 )
+ )
+ ( /495BABBE SIL-15-Port_Opendous-Inverted U2 Bottom
+  ( 1 /PF7 )
+  ( 2 /PF6 )
+  ( 3 /PF5 )
+  ( 4 /PF4 )
+  ( 5 /PF1 )
+  ( 6 /PF0 )
+  ( 7 /PD0 )
+  ( 8 /PD1 )
+  ( 9 /PD2 )
+  ( 10 /PD3 )
+  ( 11 /PD4 )
+  ( 12 /PD5 )
+  ( 13 /PD6 )
+  ( 14 /PD7 )
+  ( 15 GND )
+ )
+ ( /495BF1F2 1Pin_TH_40milVia U3 VIA
+  ( 1 GND )
+ )
+ ( /495BF1EE 1Pin_TH_40milVia U4 VIA
+  ( 1 VCC )
+ )
+ ( /495BF211 1Pin_15mil_VIA U5 VIA
+  ( 1 GND )
+ )
+ ( /495BF259 1Pin_15mil_VIA U6 VIA
+  ( 1 GND )
+ )
+ ( /495BF218 1Pin_15mil_VIA U7 VIA
+  ( 1 GND )
+ )
+ ( /495BF25B 1Pin_15mil_VIA U8 VIA
+  ( 1 GND )
+ )
+ ( /495BF21C 1Pin_15mil_VIA U9 VIA
+  ( 1 GND )
+ )
+ ( /495BF25D 1Pin_15mil_VIA U10 VIA
+  ( 1 GND )
+ )
+ ( /495BF21E 1Pin_15mil_VIA U11 VIA
+  ( 1 GND )
+ )
+ ( /495BF25F 1Pin_15mil_VIA U12 VIA
+  ( 1 GND )
+ )
+ ( /495BF221 1Pin_15mil_VIA U13 VIA
+  ( 1 GND )
+ )
+ ( /495BF261 1Pin_15mil_VIA U14 VIA
+  ( 1 GND )
+ )
+ ( /495BF223 1Pin_15mil_VIA U15 VIA
+  ( 1 GND )
+ )
+ ( /495BF263 1Pin_15mil_VIA U16 VIA
+  ( 1 GND )
+ )
+ ( /495BF225 1Pin_15mil_VIA U17 VIA
+  ( 1 GND )
+ )
+ ( /495BF265 1Pin_15mil_VIA U18 VIA
+  ( 1 GND )
+ )
+ ( /495BF227 1Pin_15mil_VIA U19 VIA
+  ( 1 GND )
+ )
+ ( /495BF267 1Pin_15mil_VIA U20 VIA
+  ( 1 GND )
+ )
+ ( /495BF229 1Pin_15mil_VIA U21 VIA
+  ( 1 GND )
+ )
+ ( /495BF269 1Pin_15mil_VIA U22 VIA
+  ( 1 GND )
+ )
+ ( /495BF22B 1Pin_15mil_VIA U23 VIA
+  ( 1 GND )
+ )
+ ( /495BF26B 1Pin_15mil_VIA U24 VIA
+  ( 1 GND )
+ )
+ ( /495BF22D 1Pin_15mil_VIA U25 VIA
+  ( 1 GND )
+ )
+ ( /495BF26D 1Pin_15mil_VIA U26 VIA
+  ( 1 GND )
+ )
+ ( /495BF22F 1Pin_15mil_VIA U27 VIA
+  ( 1 GND )
+ )
+ ( /495BF26F 1Pin_15mil_VIA U28 VIA
+  ( 1 GND )
+ )
+ ( /495BF231 1Pin_15mil_VIA U29 VIA
+  ( 1 GND )
+ )
+ ( /495BF271 1Pin_15mil_VIA U30 VIA
+  ( 1 GND )
+ )
+ ( /495BF233 1Pin_15mil_VIA U31 VIA
+  ( 1 GND )
+ )
+ ( /495BF273 1Pin_15mil_VIA U32 VIA
+  ( 1 GND )
+ )
+ ( /495BF235 1Pin_TH_40milVia U33 VIA
+  ( 1 GND )
+ )
+ ( /495BF275 1Pin_TH_40milVia U34 VIA
+  ( 1 GND )
+ )
+ ( /495BF51A 1Pin_15mil_VIA U35 VIA
+  ( 1 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P1
+ Micropendous2-Inverted
+ Micropendous2
+$endlist
+$endfootprintlist
+}
