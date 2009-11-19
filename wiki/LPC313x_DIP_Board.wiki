@@ -22,5 +22,3 @@ Design Files are available in [http://code.google.com/p/opendous/source/browse/t
 
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg
-
-There is also a sub-project related to this design, the [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x_Audio_Player LPC313x Audio Player Project] which is still in development.
