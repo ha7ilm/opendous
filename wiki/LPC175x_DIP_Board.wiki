@@ -4,7 +4,7 @@ Designed to interface electronics to PCs via the Full Speed USB or 10/100 Ethern
 
 Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC175x-DIP-Board SVN].
 
-* Status * : 2009-10-28 - Board development is currently on hold in favor of the Opendous LPC176x Development Board.  Details for the LPC176x board are currently available on the [http://groups.google.com/group/opendous Opendous Group].  The costs to manufacture this board made it uncompetitive.  Development may resume in the future.  Also, the USB switch is proving difficult to work with.
+* Status * : 2009-11-18 - Board development is currently on hold in favor of the Opendous LPC176x Development Board.  The LPC176x Board is a 2-layer 8mil/8mil design with 20mil vias and uses 0805 components to allow cheap prototyping.  All design materials created thus far are in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC176x-Development-Board SVN].
 
 
 == Features ==
