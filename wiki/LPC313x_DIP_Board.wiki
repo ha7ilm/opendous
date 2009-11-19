@@ -4,7 +4,7 @@ Designed to interface electronics to PCs via a High Speed USB interface.
 
 Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board SVN].
 
-* Status * : 2009-10-04 - board was prototyped and is now undergoing testing.  Aim is for a November release.
+* Status * : 2009-11-18 - Development of this board is on hold to focus on the LPC313x DAP.
 
 == Features ==
 
