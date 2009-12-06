@@ -1,0 +1,346 @@
+# EESchema Netlist Version 1.1 created  12/6/2009 6:02:15 AM
+(
+ ( /4B1B805A $noname  P2 Top {Lib=CONN_20}
+  (    1 VDD )
+  (    2 VIN )
+  (    3 VBUS )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+ )
+ ( /4B1B8056 $noname  P1 Bottom {Lib=CONN_20}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 GND )
+ )
+ ( /4B199FC5 $noname  Q1 2N7002 {Lib=MOSFET_N_OPENDOUS}
+  (    1 /PIO0_6-nUSB_CONNECT-SCK )
+  (    2 VDD )
+  (    3 N-000044 )
+ )
+ ( /4B199F4D $noname  IC1 LPC1343 {Lib=LPC1343}
+  (    1 ? )
+  (    2 ? )
+  (    3 /nRESET )
+  (    4 /nMSC )
+  (    5 GND )
+  (    6 /XTALIN )
+  (    7 /XTALOUT )
+  (    8 VDD )
+  (    9 ? )
+  (   10 /PIO0_2-SSEL-CT16B0_CAP0 )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 VBUS )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 N-000041 )
+  (   20 N-000051 )
+  (   21 ? )
+  (   22 /PIO0_6-nUSB_CONNECT-SCK )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 /PIO0_8-MISO-CT16B0_MAT0 )
+  (   28 /PIO0_9-MOSI-CT16B_MAT1-SWO )
+  (   29 /TCK-SWCLK )
+  (   30 ? )
+  (   31 /PIO2_11-SCK )
+  (   32 /TDI )
+  (   33 /TMS )
+  (   34 /TDO )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+  (   41 GND )
+  (   42 ? )
+  (   43 ? )
+  (   44 VDD )
+  (   45 ? )
+  (   46 ? )
+  (   47 ? )
+  (   48 ? )
+ )
+ ( /4B186BD4 $noname  R6 0 {Lib=R_MINI}
+  (    1 GND )
+  (    2 GNDPWR )
+ )
+ ( /4B186266 $noname  D1 MBR120VLSF {Lib=D_SCHOTTKY}
+  (    1 VIN )
+  (    2 VBUS )
+ )
+ ( /4B1861B2 $noname  C4 10uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4B18616F $noname  C3 10uF {Lib=C_MINI}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4B1860AB $noname  R4 12k {Lib=R_MINI}
+  (    1 /nMSC )
+  (    2 VDD )
+ )
+ ( /4B18604C $noname  SW2 MSC {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 /nMSC )
+ )
+ ( /4B186034 $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 /nRESET )
+ )
+ ( /4B185DF5 $noname  R3 1.5k {Lib=R_MINI}
+  (    1 /DP )
+  (    2 N-000044 )
+ )
+ ( /4B185D15 $noname  R2 33 {Lib=R_MINI}
+  (    1 N-000041 )
+  (    2 /DM )
+ )
+ ( /4B185CEB $noname  CR1 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 GNDPWR )
+  (    2 /DP )
+ )
+ ( /4B185CE2 $noname  CR2 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 GNDPWR )
+  (    2 /DM )
+ )
+ ( /4B18585F $noname  C8 0.01uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4B18585D $noname  C7 0.01uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4B18585A $noname  C6 0.1uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4B185857 $noname  C5 0.1uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4B1857B3 $noname  R1 33 {Lib=R_MINI}
+  (    1 N-000051 )
+  (    2 /DP )
+ )
+ ( /4B18579B $noname  U3 CORTEX_M3_JTAG {Lib=CONN_CORTEXM3_JTAG}
+  (    1 VDD )
+  (    2 /TMS )
+  (    3 GND )
+  (    4 /TCK-SWCLK )
+  (    5 GND )
+  (    6 /TDO )
+  (    7 ? )
+  (    8 /TDI )
+  (    9 GND )
+  (   10 /nRESET )
+ )
+ ( /4B1853BA $noname  R5 12k {Lib=R_MINI}
+  (    1 /nRESET )
+  (    2 VDD )
+ )
+ ( /4B1850E8 $noname  X1 12MHz {Lib=CRYSTAL}
+  (    1 /XTALOUT )
+  (    2 /XTALIN )
+ )
+ ( /4B184FF3 $noname  C2 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 /XTALIN )
+ )
+ ( /4B184FF0 $noname  C1 18pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 /XTALOUT )
+ )
+ ( /4B184C5D $noname  U1 microSD {Lib=CONN_MICROSD}
+  (    1 ? )
+  (    2 /PIO0_2-SSEL-CT16B0_CAP0 )
+  (    3 /PIO0_9-MOSI-CT16B_MAT1-SWO )
+  (    4 VDD )
+  (    5 /PIO2_11-SCK )
+  (    6 GND )
+  (    7 /PIO0_8-MISO-CT16B0_MAT0 )
+  (    8 ? )
+  (    9 GND )
+ )
+ ( /4B184C52 $noname  U2 USBCONN {Lib=USBCONN}
+  (    1 VBUS )
+  (    2 /DM )
+  (    3 /DP )
+  (    4 GND )
+  (    5 GNDPWR )
+ )
+ ( /4B184C48 $noname  U4 1117-3.3 {Lib=1117}
+  (    1 GND )
+  (    2 VDD )
+  (    3 VIN )
+  (    4 VDD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 18 "VBUS" "VBUS"
+ P2 3
+ U2 1
+ D1 2
+ IC1 14
+Net 19 "VIN" "VIN"
+ C3 1
+ D1 1
+ P2 2
+ U4 3
+Net 20 "VDD" "VDD"
+ C8 1
+ C7 1
+ C6 1
+ C5 1
+ C4 1
+ U3 1
+ R5 2
+ IC1 44
+ IC1 8
+ Q1 2
+ U1 4
+ R4 2
+ P2 1
+ U4 2
+ U4 4
+Net 40 "/DM" "DM"
+ R2 2
+ CR2 2
+ U2 2
+Net 41 "" ""
+ R2 1
+ IC1 19
+Net 42 "/nMSC" "nMSC"
+ IC1 4
+ SW2 2
+ R4 1
+Net 43 "GNDPWR" "GNDPWR"
+ CR2 1
+ CR1 1
+ U2 5
+ R6 2
+Net 44 "" ""
+ Q1 3
+ R3 2
+Net 45 "/TCK-SWCLK" "TCK-SWCLK"
+ U3 4
+ IC1 29
+Net 46 "/TDI" "TDI"
+ IC1 32
+ U3 8
+Net 47 "/TDO" "TDO"
+ IC1 34
+ U3 6
+Net 48 "/TMS" "TMS"
+ IC1 33
+ U3 2
+Net 49 "GND" "GND"
+ U3 9
+ C5 2
+ U3 3
+ C6 2
+ U3 5
+ C7 2
+ C8 2
+ C2 1
+ C1 1
+ IC1 5
+ IC1 41
+ R6 1
+ P1 20
+ U1 9
+ U1 6
+ C4 2
+ C3 2
+ SW2 1
+ SW1 1
+ U2 4
+ U4 1
+Net 50 "/PIO0_6-nUSB_CONNECT-SCK" "PIO0_6-nUSB_CONNECT-SCK"
+ Q1 1
+ IC1 22
+Net 51 "" ""
+ R1 1
+ IC1 20
+Net 52 "/DP" "DP"
+ R3 1
+ U2 3
+ R1 2
+ CR1 2
+Net 84 "/nRESET" "nRESET"
+ R5 1
+ IC1 3
+ U3 10
+ SW1 2
+Net 85 "/XTALIN" "XTALIN"
+ IC1 6
+ C2 2
+ X1 2
+Net 86 "/XTALOUT" "XTALOUT"
+ X1 1
+ C1 2
+ IC1 7
+Net 87 "/PIO0_9-MOSI-CT16B_MAT1-SWO" "PIO0_9-MOSI-CT16B_MAT1-SWO"
+ U1 3
+ IC1 28
+Net 88 "/PIO2_11-SCK" "PIO2_11-SCK"
+ IC1 31
+ U1 5
+Net 89 "/PIO0_8-MISO-CT16B0_MAT0" "PIO0_8-MISO-CT16B0_MAT0"
+ U1 7
+ IC1 27
+Net 90 "/PIO0_2-SSEL-CT16B0_CAP0" "PIO0_2-SSEL-CT16B0_CAP0"
+ IC1 10
+ U1 2
+}
+#End
