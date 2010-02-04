@@ -1,24 +1,5 @@
 #summary LPC313x DIP Development Board
 
-Designed to interface electronics to PCs via a High Speed USB interface.
+This project has been abandoned.  These designs are not viable commercially at lower quantities.  The LPC313x is great value in volume production but that does not extend well to prototype lots.
 
-Design Files are available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board SVN].
-
-* Status * : 2009-11-18 - Development of this board is on hold to focus on the enhanced [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x_Audio_Player LPC313x DAP].
-
-== Features ==
-
-  * Based on [http://www.nxp.com/ NXP] [http://www.standardics.nxp.com/products/lpc3000/lpc313x.lpc314x.lpc315x/ LPC313x]
-  * USB Device/Host/OTG Modes supported
-  * microSD connector in [http://en.wikipedia.org/wiki/MicroSD SPI Mode]
-  * SPI Flash - [http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf 2Mbyte] or [http://www.atmel.com/dyn/resources/prod_documents/doc3597.pdf 4Mbyte]
-  * Miniature ARM reduced JTAG connector [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S9006E-08-ND 16pin 8x2 0.05" (1.27mm) SMT] - DBGACK, DBGRQ pins unsupported
-  * Choice of two USB connectors - [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H2959CT-ND USB-miniB] and/or [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=151-1082-ND USB-A-Vertical]/[http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=151-1080-ND USB-A] which are logic switchable using the [http://focus.ti.com/docs/prod/folders/print/ts3usb221.html TS3USB221] IC.
-  * 3V and 1.2V 1A+ [http://www.st.com/stonline/products/literature/ds/14492/st1l05b.htm ST1L05B] regulators
-  * RESET button, status LED, and 2mm jumpers for boot selection
-  * 12MHz main crystal and 32.768kHz RTC crystal
-  * Dimensions (LxW): 3" x 1" - plugs into standard solder-less breadboard
-  * Design is 2-layers with 6mil/6mil Trace/Space and 12mil Vias 
-
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg
+http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/LPC313x-DIP-Board
