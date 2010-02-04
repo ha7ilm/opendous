@@ -3,7 +3,7 @@
 
 This is a DIY project with design files available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/FT2232H_JTAG_Adapter SVN].  The design is 8mil/8mil trace/space with minimum 20mil vias for cheap PCB prototyping.
 
-It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cables are: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8218-ND 0.05" 5x2 for Cortex Debug], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H3AAH-2006G-ND 0.1" 10x2 for ARM], and [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1476-ND 2mm 7x4] or a [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1473-ND flying-lead version] for Xilinx.
+It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cables are: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8218-ND 0.05" 5x2 for Cortex Debug], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H3AAH-2006G-ND 0.1" 10x2 for ARM], and [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1476-ND 2mm 7x4 for Xilinx].
 
 This current revision requires a custom version of [http://openocd.berlios.de/web/ OpenOCD].  The next revision will use a more common OpenOCD JTAG layout.  This board is still useful if you only need the JTAG pins (TMS, TCK, TDI, TDO) or the secondary bus.
 
