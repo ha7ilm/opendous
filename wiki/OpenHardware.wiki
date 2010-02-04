@@ -6,6 +6,6 @@ The ideal of Open Source is the ability to use, copy, distribute, study, change,
 
 Therefore, the ideal of Open Hardware is the ability to use, copy, distribute, study, change, and improve a hardware project.  This is accomplished when an author distributes all of their work for a project in a manner that allows the above.
 
-Opendous Inc. releases all design materials created for a hardware project (schematics, design/layout, !BillOfMaterials, assembly instructions) in their original Open Formats and under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License].  [http://en.wikipedia.org/wiki/Open_format Open Formats] are important for many [http://www.openformats.org/ reasons], such as the possibility of using an Open Source EDA suite.
+Opendous Inc. releases all design materials created for a hardware project (schematics, design/layout, !BillOfMaterials, assembly instructions) in their original Open Formats and under the [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License].  [http://en.wikipedia.org/wiki/Open_format Open Formats] are important for many [http://www.openformats.org/ reasons], such as the possibility of using an [http://sourceforge.net/projects/kicad/ Open Source EDA Suite].
 
 Feel free to use any [http://www.opendous.org Opendous Inc.] designs as you see fit on the condition you attribute all work appropriately.  Take credit for what you do and give credit to others for what they do.
