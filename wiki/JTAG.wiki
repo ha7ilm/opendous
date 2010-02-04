@@ -6,6 +6,4 @@ This is a DIY project with design files available in [http://code.google.com/p/o
 This current revision requires a custom version of [http://openocd.berlios.de/web/ OpenOCD].  The next revision will use a more common OpenOCD JTAG layout.  This board is still useful if you only need the JTAG pins (TMS, TCK, TDI, TDO) or the secondary bus.
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/FT2232H_JTAG_Adapter.jpg
-
-Availability: 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/FT2232H_JTAG_Adapter/FT2232H_JTAG_Adapter.jpg
