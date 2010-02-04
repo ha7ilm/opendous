@@ -5,7 +5,7 @@ This is a DIY project with design files available in [http://code.google.com/p/o
 
 It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cables are: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8218-ND 0.05" 5x2 for Cortex Debug], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H3AAH-2006G-ND 0.1" 10x2 for ARM], and [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1476-ND 2mm 7x4 for Xilinx].
 
-The board uses one of the following TSSOP20 pin-compatible voltage level translators to interface with a wide variety of targets: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-21527-1-ND TXB0108], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-23011-1-ND TXS0108], or [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ADG3300BRUZ-REEL7CT-NDADG3300] 
+The board uses one of the following TSSOP20 pin-compatible voltage level translators to interface with a wide variety of targets: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-21527-1-ND TXB0108], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-23011-1-ND TXS0108], or [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ADG3300BRUZ-REEL7CT-ND ADG3300] 
 
 This current revision requires a custom version of [http://openocd.berlios.de/web/ OpenOCD].  The next revision will use a more common OpenOCD JTAG layout.  This board is still useful if you only need the JTAG pins (TMS, TCK, TDI, TDO) or the secondary bus.
 
