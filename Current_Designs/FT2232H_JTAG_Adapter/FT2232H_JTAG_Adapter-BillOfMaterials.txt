@@ -1,0 +1,57 @@
+Not yet complete.
+
+Look at FT2232H_JTAG_Adapter.cmp and FT2232H_JTAG_Adapter-Assembly.svg to
+determine components and their footprints.  Only the 12k resistor needs
+to be 1%.  All other components can be standard.
+
+The TXB0108 can be replaced with an ADG3300, TXS0108, or MAX3002
+depending on speed requirements and availability.
+
+
+
+EESchema (20090216-final)  >> Creation date: 2/3/2010 11:16:46 AM
+
+#Cmp ( order = Reference )
+| C1         10u         ;             
+| C2         10u         ;             
+| C3         24p         ;             
+| C4         0u1         ;             
+| C5         24p         ;             
+| C6         0u1         ;             
+| C7         0u1         ;             
+| C8         0u1         ;             
+| C9         10u         ;             
+| C10        0u1         ;             
+| C11        4u7         ;             
+| C12        4u7         ;             
+| C13        0u1         ;             
+| C14        0u1         ;             
+| C15        0u1         ;             
+| C16        0u1         ;             
+| C17        0u1         ;             
+| IC1        FT2232      ;             
+| IC2        93C46       ;             
+| IC3        TXB0108     ;             
+| IC4        PRTR        ;             
+| L1         FB          ;             
+| L2         FB          ;             
+| L3         FB          ;             
+| P1         BBUS        ;             
+| R1         0           ;             
+| R2         2k2         ;             
+| R3         10k         ;             
+| R4         10k         ;             
+| R5         10k         ;             
+| R6         47k         ;             
+| R7         12k         ;             
+| R8         47k         ;             
+| R9         0           ;             
+| U1         USB-B       ;             
+| U2         1117-3.3V   ;             
+| U3         CORTEXM3    ;             
+| U4         XILINX      ;             
+| U5         ARM         ;             
+| X1         12MHz       ;             
+#End Cmp
+
+#End List

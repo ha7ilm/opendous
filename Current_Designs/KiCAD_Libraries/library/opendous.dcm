@@ -1,8 +1,16 @@
-EESchema-DOCLIB  Version 2.0  Date: 8/19/2009 2:51:53 PM
+EESchema-DOCLIB  Version 2.0  Date: 12/20/2009 6:57:04 AM
+#
+$CMP 1117
+K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
+$ENDCMP
 #
 $CMP 74HC138
 D 3-to-8 Decoder Active-Low
 K 3-to-8 Decoder Active-Low
+$ENDCMP
+#
+$CMP 93CX6
+K Microwire Serial EEPROM
 $ENDCMP
 #
 $CMP AND_GATE
@@ -11,15 +19,6 @@ $ENDCMP
 #
 $CMP attiny44
 K ATtiny24 ATtiny44 ATtiny84
-$ENDCMP
-#
-$CMP AVROpendous-22
-D Used in the Classic AVRopendous SIL board
-K AVROpendous CONN-22
-$ENDCMP
-#
-$CMP AVROpendous-DIP
-K AVRopendous DIP AT90USB162 www.avropendous.org
 $ENDCMP
 #
 $CMP BUFFER_GATE
@@ -56,6 +55,14 @@ $CMP Inverter
 K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
 $ENDCMP
 #
+$CMP LM3S9B92
+K LM3S9B92 LM3S9B95 LM3S9B96 LM3S9B9x LM3S979x ARM Cortex-M3 Stellaris
+$ENDCMP
+#
+$CMP LPC1343
+K LPC1343 ARM Cortex-M3 USB MCU LQFP48
+$ENDCMP
+#
 $CMP LPC175x
 K ARM Cortex-M3 USB Ethernet I2S SPI I2C PWM DAC ADC
 $ENDCMP
@@ -64,13 +71,12 @@ $CMP LPC313x
 K LPC3130 LPC3131 NXP ARM ARM9
 $ENDCMP
 #
-$CMP STEREO-AUDIO-JACK
-K CUI Inc. SJ1-3515-SMT
+$CMP Micropendous1
+K Micropendous1 AT90USB162 www.Micropendous1.org
 $ENDCMP
 #
-$CMP TLV1117
-D LDO
-K POWER REGUL
+$CMP STEREO-AUDIO-JACK
+K CUI Inc. SJ1-3515-SMT
 $ENDCMP
 #
 $CMP TPS719XX
@@ -83,7 +89,11 @@ K USB 1:2 Multiplexer/Demultiplexer Switch
 $ENDCMP
 #
 $CMP TXB0108
-K Voltage Level Translator
+K Voltage Level Translator TXS0108 ADG3300 MAX3002 TXB0108
+$ENDCMP
+#
+$CMP TXB0108_Inverted
+K Voltage Level Translator TXS0108 ADG3300 MAX3002 TXS0108
 $ENDCMP
 #
 #End Doc Library
