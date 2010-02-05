@@ -1,57 +1,37 @@
-Not yet complete.
+QTY, Manufacturer Part#     , Cost($USD each) - References - Description
 
-Look at FT2232H_JTAG_Adapter.cmp and FT2232H_JTAG_Adapter-Assembly.svg to
-determine components and their footprints.  Only the 12k resistor needs
-to be 1%.  All other components can be standard.
+1  , FT2232HL               , 6.71 - IC1 - IC USB UARTFIFO DUAL HS 64LQFP
+1  , AT93C46EN-SH-B         , 0.32 - IC2 - IC EEPROM 1KBIT 2MHZ 8SOIC
+1  , TXB0108PWR             , 2.80 - IC3 - IC 8-BIT TRNSTR 15KV ESD 20TSSOP
+1  , PRTR5V0U2AX            , 1.33 - IC4 - DIODE ESD 3V SOT-143B
+1  , ABLS-12.000MHZ-B4-T    , 0.46 - X1 - CRYSTAL 12.000 MHZ 18PF HC49US 30ppm
+3  , LMK212BJ106KG-T        , 0.28 - C1 C2 C9 - CAP CER 10uF 10V X5R 0805
+2  , C2012Y5V1A475Z         , 0.13 - C11 C12 - CAP CER 4.7UF 10V Y5V 0805
+10 , GRM21BR71E104KA01L     , 0.04 - C4 C6 C7 C8 C10 C13 C14 C15 C16 C17 - CAP CER .1UF 25V 10% X7R 0805
+2  , 500R15N220JV4T         , 0.04 - C3 C5 - CAP CER 22PF 50V NP0 0805
+3  , BK2125HS750-T          , 0.06 - L1 L2 L3 - FERRITE BEAD 75 OHM 0805
+1  , RMCF1/100RTR-ND        , 0.03 - R9 - RES 0.0 OHM 1/8W 0805
+1  , RMCF1/102.2KJRTR-ND    , 0.03 - R2 - RES 2.2K OHM 1/8W 5% 0805
+3  , RMCF1/1010KJRTR-ND     , 0.03 - R3 R4 R5 - RES 10K OHM 1/8W 5% 0805
+2  , RMCF1/1047KJRTR-ND     , 0.03 - R6 R8 - RES 47K OHM 1/8W 5% 0805
+1  , MCR10EZPF1202          , 0.38 - R7 - RES 12.0K OHM 1/8W 1% 0805
+1  , 690-004-221-023        , 0.93 - U1 - CONN USB JACK TYPE B HORIZON R/A
+1  , ZLDO1117G33TA          , 0.62 - U2 - IC REG LDO 1A 3.3V SOT223
+-----------------------Total:15.52
 
-The TXB0108 can be replaced with an ADG3300, TXS0108, or MAX3002
-depending on speed requirements and availability.
+The Following Connectors and Cables are optional depending on desired usage:
+
+1  , PPTC102LFBN-RC         , 1.11 - P1 - ARM CONN HEADER FMAL 20PS .1" DL TIN
+1  , GRPB052VWVN-RC         , 1.11 - U3 - Cortex CONN HEADER .050" 10PS DL PCB AU
+1  , 951214-8622-AR         , 0.58 - U4 - Xilinx CONN HEADER 14POS 2MM VERT T/H
+1  , 67996-420HLF           , 0.84 - U5 - BBUS CONN Female HEADER 20POS .100 STR TIN
+1  , H3AAH-2006G-ND         , 1.54 - ARM 0.1" 10x2 IDC CABLE Socket to Socket HSC20H/AE20G/HSC20H
+1  , HW-RIBBON14            , 8.82 - Xilinx 2mm 7x2 CABLE FOR CABLEIV OR MULTIPRO
+1  , FFSD-05-D-06.00-01-N   ,10.06 - Cortex 0.05" 5x2 CABLE ASSEM .05" 10POS F-F 6"
 
 
+Notes:	- Component costs listed are for single quantity orders from DigiKey
+	- R1 is a copper trace connecting GND and GNDPWR
+	- R7 must be 1% or better
+	- TXB0108 can be replaced with an ADG3300 or TXS0108 in TSSOP20
 
-EESchema (20090216-final)  >> Creation date: 2/3/2010 11:16:46 AM
-
-#Cmp ( order = Reference )
-| C1         10u         ;             
-| C2         10u         ;             
-| C3         24p         ;             
-| C4         0u1         ;             
-| C5         24p         ;             
-| C6         0u1         ;             
-| C7         0u1         ;             
-| C8         0u1         ;             
-| C9         10u         ;             
-| C10        0u1         ;             
-| C11        4u7         ;             
-| C12        4u7         ;             
-| C13        0u1         ;             
-| C14        0u1         ;             
-| C15        0u1         ;             
-| C16        0u1         ;             
-| C17        0u1         ;             
-| IC1        FT2232      ;             
-| IC2        93C46       ;             
-| IC3        TXB0108     ;             
-| IC4        PRTR        ;             
-| L1         FB          ;             
-| L2         FB          ;             
-| L3         FB          ;             
-| P1         BBUS        ;             
-| R1         0           ;             
-| R2         2k2         ;             
-| R3         10k         ;             
-| R4         10k         ;             
-| R5         10k         ;             
-| R6         47k         ;             
-| R7         12k         ;             
-| R8         47k         ;             
-| R9         0           ;             
-| U1         USB-B       ;             
-| U2         1117-3.3V   ;             
-| U3         CORTEXM3    ;             
-| U4         XILINX      ;             
-| U5         ARM         ;             
-| X1         12MHz       ;             
-#End Cmp
-
-#End List
