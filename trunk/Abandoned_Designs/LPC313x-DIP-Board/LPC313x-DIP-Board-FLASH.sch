@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date 10/4/2009 10:07:49 AM
+EESchema Schematic File Version 2  date 11/21/2009 9:44:01 PM
 LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x-DIP-Board.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 6
 Title "FLASH"
-Date "4 oct 2009"
+Date "22 nov 2009"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -13,12 +13,17 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.opendous.org"
 $EndDescr
-Text Label 3100 3100 0    30   ~ 0
-DAT0
-Wire Wire Line
-	2550 2800 3750 2800
-Wire Wire Line
-	2550 3200 3550 3200
+$Comp
+L GND #PWR014
+U 1 1 4A8CD1FD
+P 5500 3700
+F 0 "#PWR014" H 5500 3700 30  0001 C CNN
+F 1 "GND" H 5500 3630 30  0001 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 2950 2050 0    60   ~ 0
+microSD Flash
 Connection ~ 8850 5200
 Wire Wire Line
 	8850 5100 8850 5200
@@ -55,55 +60,8 @@ Wire Wire Line
 Wire Wire Line
 	8950 5200 8750 5200
 Wire Wire Line
-	8850 5500 8850 5400
+	8850 5400 8850 5500
 Connection ~ 8850 5400
-Wire Wire Line
-	3750 3550 3500 3550
-Wire Wire Line
-	3500 3550 3500 3300
-Wire Wire Line
-	5500 3700 5500 3600
-Connection ~ 5500 3600
-Wire Wire Line
-	5500 3300 5500 3400
-Connection ~ 5500 3400
-Wire Wire Line
-	4350 3750 4350 3550
-Wire Wire Line
-	3650 2600 3650 3350
-Wire Wire Line
-	3650 3350 3750 3350
-Wire Wire Line
-	3750 3250 3550 3250
-Wire Wire Line
-	3750 3450 3650 3450
-Wire Wire Line
-	3650 3450 3650 3750
-Wire Wire Line
-	3550 3250 3550 3200
-Wire Wire Line
-	2550 3000 3750 3000
-Wire Wire Line
-	3750 3100 2550 3100
-Wire Wire Line
-	3500 3300 2550 3300
-Text Label 2950 2800 0    30   ~ 0
-CS
-Text Label 3050 3000 0    30   ~ 0
-DAT1
-Text Label 3200 3300 0    30   ~ 0
-CMD
-$Comp
-L GND #PWR014
-U 1 1 4A8CD1FD
-P 5500 3700
-F 0 "#PWR014" H 5500 3700 30  0001 C CNN
-F 1 "GND" H 5500 3630 30  0001 C CNN
-	1    5500 3700
-	1    0    0    -1  
-$EndComp
-Text Notes 2950 2050 0    60   ~ 0
-microSD Flash in SPI Mode
 Text Notes 8350 2050 0    60   ~ 0
 SPI Boot Flash
 $Comp
@@ -206,24 +164,24 @@ F 1 "VSUP3" H 8850 5200 30  0000 C CNN
 	1    8850 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 3000 0    40   BiDi ~ 0
-mNAND_RYBN3
-Text GLabel 2150 2800 0    40   BiDi ~ 0
-mNAND_RYBN1
-NoConn ~ 2150 2900
-NoConn ~ 2550 2900
-Text GLabel 2150 3300 0    40   BiDi ~ 0
+Text GLabel 2450 4000 0    40   BiDi ~ 0
+mNAND_RYBN3-MCI_DAT7
+Text GLabel 2450 3800 0    40   BiDi ~ 0
+mNAND_RYBN1-MCI_DAT5
+NoConn ~ 2450 3900
+NoConn ~ 2850 3900
+Text GLabel 2450 4300 0    40   BiDi ~ 0
 SPI_MOSI
-Text GLabel 2150 3100 0    40   BiDi ~ 0
+Text GLabel 2450 4100 0    40   BiDi ~ 0
 SPI_MISO
-Text GLabel 2150 3200 0    40   BiDi ~ 0
+Text GLabel 2450 4200 0    40   BiDi ~ 0
 SPI_SCK
 Text GLabel 6600 7550 0    30   Input ~ 0
-CMD
+SD_CMD
 Text GLabel 6600 7450 0    30   Input ~ 0
-CLK
+SD_CLK
 Text GLabel 6600 7050 0    30   Input ~ 0
-CS
+DAT3
 Text GLabel 6600 7150 0    30   Input ~ 0
 DAT2
 Text GLabel 6600 7250 0    30   Input ~ 0
@@ -231,9 +189,9 @@ DAT1
 Text GLabel 6600 7350 0    30   Input ~ 0
 DAT0
 Text Label 6600 7550 0    30   ~ 0
-CMD
+SD_CMD
 Text Label 6600 7450 0    30   ~ 0
-CLK
+SD_CLK
 Text Label 6600 7350 0    30   ~ 0
 DAT0
 Text Label 6600 7250 0    30   ~ 0
@@ -241,20 +199,104 @@ DAT1
 Text Label 6600 7150 0    30   ~ 0
 DAT2
 Text Label 6600 7050 0    30   ~ 0
-CS
+DAT3
+Text Label 3200 3300 0    30   ~ 0
+SD_CMD
 Text Label 3150 3200 0    30   ~ 0
-CLK
-NoConn ~ 2150 3400
-NoConn ~ 2150 3500
-NoConn ~ 2550 3500
-NoConn ~ 2550 3400
+SD_CLK
+Text Label 3100 3100 0    30   ~ 0
+DAT0
+Text Label 3050 3000 0    30   ~ 0
+DAT1
+Text Label 3000 2900 0    30   ~ 0
+DAT2
+Text Label 2950 2800 0    30   ~ 0
+DAT3
+NoConn ~ 2450 4400
+NoConn ~ 2450 4500
+NoConn ~ 2850 4500
+NoConn ~ 2850 4400
+Connection ~ 3200 3300
+Wire Wire Line
+	3200 3300 3200 4300
+Wire Wire Line
+	3200 4300 2850 4300
+Connection ~ 3150 3200
+Wire Wire Line
+	3150 3200 3150 4200
+Wire Wire Line
+	3150 4200 2850 4200
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 3000 3050 4000
+Wire Wire Line
+	3050 4000 2850 4000
+Wire Wire Line
+	3750 3550 3500 3550
+Wire Wire Line
+	3500 3550 3500 3300
+Wire Wire Line
+	3500 3300 2850 3300
+Wire Wire Line
+	2850 3100 3750 3100
+Wire Wire Line
+	3750 2900 2850 2900
+Wire Wire Line
+	5500 3700 5500 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	5500 3300 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	4350 3750 4350 3550
+Wire Wire Line
+	3650 2600 3650 3350
+Wire Wire Line
+	3650 3350 3750 3350
+Wire Wire Line
+	3750 3250 3550 3250
+Wire Wire Line
+	3750 3450 3650 3450
+Wire Wire Line
+	3650 3450 3650 3750
+Wire Wire Line
+	3750 2800 2850 2800
+Wire Wire Line
+	2850 3000 3750 3000
+Wire Wire Line
+	2850 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3250
+Wire Wire Line
+	2850 3800 2950 3800
+Wire Wire Line
+	2950 3800 2950 2800
+Connection ~ 2950 2800
+Wire Wire Line
+	3100 3100 3100 4100
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 4100 2850 4100
 $Comp
 L R_PACK8 RP19
 U 1 1 4A6504AD
-P 2350 3150
-F 0 "RP19" H 2350 3600 40  0000 C CNN
-F 1 "SPI_EN" H 2350 2700 40  0000 C CNN
-	1    2350 3150
+P 2650 4150
+F 0 "RP19" H 2650 4600 40  0000 C CNN
+F 1 "SPI_EN" H 2650 3700 40  0000 C CNN
+	1    2650 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2850 3400
+NoConn ~ 2850 3500
+NoConn ~ 2450 3500
+NoConn ~ 2450 3400
+$Comp
+L R_PACK8 RP18
+U 1 1 4A65047F
+P 2650 3150
+F 0 "RP18" H 2650 3600 40  0000 C CNN
+F 1 "SD_EN" H 2650 2700 40  0000 C CNN
+	1    2650 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -315,4 +357,16 @@ F 1 "GND" H 3650 3680 30  0001 C CNN
 	1    3650 3750
 	1    0    0    -1  
 $EndComp
+Text GLabel 2450 2800 0    40   BiDi ~ 0
+MCI_DAT3
+Text GLabel 2450 2900 0    40   BiDi ~ 0
+MCI_DAT2
+Text GLabel 2450 3000 0    40   BiDi ~ 0
+MCI_DAT1
+Text GLabel 2450 3100 0    40   BiDi ~ 0
+MCI_DAT0
+Text GLabel 2450 3300 0    40   BiDi ~ 0
+MCI_CMD
+Text GLabel 2450 3200 0    40   BiDi ~ 0
+MCI_CLK
 $EndSCHEMATC

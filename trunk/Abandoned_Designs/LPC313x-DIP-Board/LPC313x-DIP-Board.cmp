@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = 8/19/2009 10:56:27 AM
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = 11/21/2009 9:43:40 PM
 
 BeginCmp
 TimeStamp = /49F49153/49F49972;
@@ -211,14 +211,14 @@ IdModule  = SM0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49546/49FB8879;
+TimeStamp = /49F49522/4A8CD21F;
 Reference = C58;
 ValeurCmp = 10uF;
 IdModule  = SM0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49546/49FB887E;
+TimeStamp = /49F49538/49FB887E;
 Reference = C60;
 ValeurCmp = 0.01uF;
 IdModule  = SM0402_Opendous;
@@ -372,7 +372,7 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49153/49F49B04;
+TimeStamp = /49F49153/4B088E85;
 Reference = IC1;
 ValeurCmp = LPC313X;
 IdModule  = TFBGA180_0.8mm_14x14_LPC313x;
@@ -519,7 +519,7 @@ IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49582/49FB5E5E;
+TimeStamp = /49F49582/4B08A001;
 Reference = Q1;
 ValeurCmp = 2N7002;
 IdModule  = SC70-3_SOT-323;
@@ -722,14 +722,14 @@ IdModule  = SM0402_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49546/4A65047F;
+TimeStamp = /49F49538/4A65047F;
 Reference = RP18;
 ValeurCmp = SD_EN;
 IdModule  = SM0402_8Array_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49546/4A6504AD;
+TimeStamp = /49F49538/4A6504AD;
 Reference = RP19;
 ValeurCmp = SPI_EN;
 IdModule  = SM0402_8Array_Opendous;
@@ -771,7 +771,7 @@ IdModule  = Pin_Array_10x2_SMT_1.27mm_0.5_inch;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49546/4A5BCA01;
+TimeStamp = /49F49538/4A5BCA01;
 Reference = U8;
 ValeurCmp = microSD;
 IdModule  = Memory_Card_microSD_3M_290805;
@@ -2563,13 +2563,6 @@ IdModule  = 1Pin_12mil_VIA;
 EndCmp
 
 BeginCmp
-TimeStamp = /4A0869EC/4A6AB866;
-Reference = V686;
-ValeurCmp = VIA;
-IdModule  = 1Pin_15mil_VIA;
-EndCmp
-
-BeginCmp
 TimeStamp = /4A0869EC/4A6AD131;
 Reference = V689;
 ValeurCmp = VIA;
@@ -2684,6 +2677,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4A0869EC/4A8C112F;
 Reference = V707;
+ValeurCmp = VIA;
+IdModule  = 1Pin_12mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4B08A531;
+Reference = V708;
+ValeurCmp = VIA;
+IdModule  = 1Pin_12mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4B08A533;
+Reference = V709;
 ValeurCmp = VIA;
 IdModule  = 1Pin_12mil_VIA;
 EndCmp

@@ -1,0 +1,4384 @@
+# EESchema Netlist Version 1.1 created  12/2/2009 11:48:38 PM
+(
+ ( /49F49153/4B08C876 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B08C875 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B08C86F $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B08C86E $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B08C868 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B08C85A $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /49F49153/4B088E85 $noname  IC1 LPC313X {Lib=LPC313X}
+  (   C6 VDDI )
+  (  C12 VDDI )
+  (   H3 VDDI )
+  (   L7 VDDI )
+  (  L12 VDDI )
+  (   A9 VDDI )
+  (   C9 VDDI )
+  (   B2 VDD18 )
+  (   E5 VDD18 )
+  (   G5 VDD18 )
+  (   H5 VDD18 )
+  (   F5 VDD18 )
+  (   L4 VDD18 )
+  (   M5 VDD18 )
+  (   M7 VDD18 )
+  (   M9 VDD18 )
+  (  C13 VSUP3 )
+  (   D5 VSUP3 )
+  (   D7 VSUP3 )
+  (   E8 VSUP3 )
+  (  G12 VSUP3 )
+  (  L10 VSUP3 )
+  (  K11 VSUP3 )
+  (  D11 VDDI )
+  (  E10 VDDI )
+  (  A13 VSUP3 )
+  (   L1 VDDA12 )
+  (   M2 VDDA3 )
+  (   P1 VDDA3_USB )
+  (  K13 /Connectors_JTAG/GPIO20 )
+  (  H11 ? )
+  (  K14 /Connectors_JTAG/GPIO18 )
+  (  K12 /Connectors_JTAG/GPIO17 )
+  (  J11 ? )
+  (  J13 /Connectors_JTAG/GPIO15 )
+  (  J14 /LPC313x/GPIO14 )
+  (  J12 /LPC313x/GPIO13 )
+  (  H10 /Connectors_JTAG/GPIO12 )
+  (  H13 /Connectors_JTAG/GPIO11 )
+  (  C11 ? )
+  (  B11 /LPC313x/GPIO3 )
+  (  L14 /Connectors_JTAG/GPIO2 )
+  (  J10 /LPC313x/GPIO1 )
+  (  K10 /LPC313x/GPIO0 )
+  (   D4 /Connectors_JTAG/mNAND_RYBN3-MCI_DAT7 )
+  (   B4 /Connectors_JTAG/mNAND_RYBN2-MCI_DAT6 )
+  (   E7 /Connectors_JTAG/mNAND_RYBN1-MCI_DAT5 )
+  (   E6 /LPC313x/mNAND_RYBN0-MCI_DAT4 )
+  (   K2 /LPC313x/NAND_NCS_3 )
+  (   K1 /Connectors_JTAG/NAND_NCS_2 )
+  (   J3 /LPC313x/NAND_NCS_1 )
+  (   J1 /Connectors_JTAG/NAND_NCS_0 )
+  (   N3 /LPC313x/mLCD_DB_15-EBI_A15 )
+  (   P3 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+  (   P4 /LPC313x/mLCD_DB_13-EBI_A13 )
+  (   K5 /LPC313x/mLCD_DB_12-EBI_A12 )
+  (   N4 /LPC313x/mLCD_DB_11-EBI_A11 )
+  (   K7 /LPC313x/mLCD_DB_10-EBI_A10 )
+  (   L5 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+  (   N5 /LPC313x/mLCD_DB_8-EBI_A8 )
+  (   P5 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+  (   K6 /LPC313x/mLCD_DB_6-EBI_A6 )
+  (   P7 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+  (   N7 /LPC313x/mLCD_DB_4-EBI_A4 )
+  (   P6 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+  (   N6 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+  (   P9 /Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1 )
+  (   N8 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+  (   N9 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+  (   P8 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+  (   L8 /Memory/CKE )
+  (   K8 /LPC313x/mLCD_CSB-EBI_nSTCS0 )
+  (   A2 /LPC313x/EBI_A1-CLE )
+  (   B3 /LPC313x/EBI_A0-ALE )
+  (   J2 /LPC313x/EBI_nWE )
+  (   H1 N-000085 )
+  (   H2 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+  (   G1 /Connectors_JTAG/EBI_nCAS-BLOUT_0 )
+  (   F3 /Connectors_JTAG/EBI_D_15 )
+  (   E3 /Connectors_JTAG/EBI_D_14 )
+  (   D3 /Connectors_JTAG/EBI_D_13 )
+  (   G3 /LPC313x/EBI_D_12 )
+  (   C2 /Connectors_JTAG/EBI_D_11 )
+  (   A1 /LPC313x/EBI_D_10 )
+  (   A3 /Connectors_JTAG/EBI_D_9 )
+  (   B1 /LPC313x/EBI_D_8 )
+  (   C1 /Connectors_JTAG/EBI_D_7 )
+  (   D2 /Connectors_JTAG/EBI_D_6 )
+  (   D1 /Connectors_JTAG/EBI_D_5 )
+  (   E2 /LPC313x/EBI_D_4 )
+  (   E1 /Connectors_JTAG/EBI_D_3 )
+  (   F1 /Connectors_JTAG/EBI_D_2 )
+  (   F2 /LPC313x/EBI_D_1 )
+  (   G2 /Connectors_JTAG/EBI_D_0 )
+  (   A4 /LPC313x/MCI_DAT3 )
+  (   C5 /Memory/DAT2 )
+  (   B5 /Memory/DAT1 )
+  (   A5 /Memory/DAT0 )
+  (   A6 /Connectors_JTAG/MCI_CMD )
+  (   B6 /Memory/SD_CLK )
+  (  E13 /LPC313x/I2C_SCL1 )
+  (  E12 /Connectors_JTAG/I2C_SDA1 )
+  (  D10 /LPC313x/I2C_SCL0 )
+  (  C10 /LPC313x/I2C_SDA0 )
+  (  N12 /LPC313x/UART_TXD )
+  (  P12 /LPC313x/UART_RXD )
+  (  P14 /Connectors_JTAG/mUART_RTS_N )
+  (  N13 /Connectors_JTAG/mUART_CTS_N )
+  (   B8 ? )
+  (   B7 /LPC313x/SPI_MOSI )
+  (   C8 /LPC313x/SPI_MISO )
+  (   A8 /Connectors_JTAG/SPI_SCK )
+  (   A7 /LPC313x/SPI_CS_OUT0 )
+  (  G10 /LPC313x/I2STX_WS1 )
+  (  E14 /Connectors_JTAG/I2STX_BCK1 )
+  (  F12 /LPC313x/I2STX_DATA1 )
+  (  N14 /LPC313x/mI2STX_CLK0 )
+  (  M11 /LPC313x/mI2STX_WS0 )
+  (  M12 /LPC313x/mI2STX_BCK0 )
+  (  M13 /LPC313x/mI2STX_DATA0 )
+  (  P11 /Connectors_JTAG/I2SRX_WS0 )
+  (  N10 /Connectors_JTAG/I2SRX_BCK0 )
+  (  M10 /Connectors_JTAG/I2SRX_DATA0 )
+  (  F13 /Connectors_JTAG/I2SRX_WS1 )
+  (  F14 /Connectors_JTAG/I2SRX_BCK1 )
+  (  G14 /Connectors_JTAG/I2SRX_DATA1 )
+  (  C14 /LPC313x/ADC10B_GPA3 )
+  (  B13 /LPC313x/ADC10B_GPA2 )
+  (  A14 /LPC313x/ADC10B_GPA1 )
+  (  B14 /LPC313x/ADC10B_GPA0 )
+  (   N2 /LPC313x/USB_DM )
+  (   P2 /LPC313x/USB_DP )
+  (   J5 /LPC313x/USB_RREF )
+  (   M1 /Connectors_JTAG/USB_ID )
+  (   L2 N-000005 )
+  (  D14 ? )
+  (  D13 ? )
+  (  F11 ? )
+  (  E11 /Connectors_JTAG/ARM_TDO )
+  (  F10 /LPC313x/SCAN_TDO )
+  (  P10 /Connectors_JTAG/TMS )
+  (  M14 /Connectors_JTAG/TCK )
+  (  P13 /LPC313x/TRST_N )
+  (   K9 /Connectors_JTAG/TDI )
+  (  N11 /LPC313x/JTAGSEL )
+  (   B9 /Connectors_JTAG/PWM_DATA )
+  (  H14 /LPC313x/RESET_SUP3 )
+  (  G13 /Connectors_JTAG/SYSCLK_O )
+  (  H12 /LPC313x/CLK_256FS_O )
+  (   J4 /Connectors_JTAG/CLOCK_OUT )
+  (  B10 /LPC313x/XTALo )
+  (  A10 /LPC313x/XTALi )
+  (  A11 GND )
+  (   C7 GND )
+  (  D12 GND )
+  (   G4 GND )
+  (   L6 GND )
+  (  L11 GND )
+  (   C3 GND )
+  (   C4 GND )
+  (   E4 GND )
+  (   F4 GND )
+  (   H4 GND )
+  (   K3 GND )
+  (   M3 GND )
+  (   M4 GND )
+  (   M6 GND )
+  (   M8 GND )
+  (  B12 GND )
+  (   D6 GND )
+  (   D8 GND )
+  (   D9 GND )
+  (  G11 GND )
+  (   L9 GND )
+  (  L13 GND )
+  (  A12 GND )
+  (   E9 GND )
+  (   L3 GND )
+  (   N1 GND )
+  (   K4 GND )
+ )
+ ( /49F49153/4A6AA978 $noname  L1 FB {Lib=L_MINI}
+  (    1 N-000003 )
+  (    2 VBUS )
+ )
+ ( /49F49153/49F49B3C $noname  R1 1k {Lib=R_MINI}
+  (    1 N-000005 )
+  (    2 N-000003 )
+ )
+ ( /49F49153/49F49975 $noname  C2 22pF {Lib=C_MINI}
+  (    1 /LPC313x/XTALi )
+  (    2 GND )
+ )
+ ( /49F49153/49F49972 $noname  C1 22pF {Lib=C_MINI}
+  (    1 /LPC313x/XTALo )
+  (    2 GND )
+ )
+ ( /49F49153/49F49969 $noname  X1 12MHz {Lib=CRYSTAL_4PIN}
+  (    1 /LPC313x/XTALo )
+  (    3 /LPC313x/XTALi )
+ )
+ ( /49F49538/4B172DA2 $noname  U8 CONN_MMC {Lib=CONN_SD}
+  (    1 /LPC313x/MCI_DAT3 )
+  (    2 /Connectors_JTAG/MCI_CMD )
+  (    3 GND )
+  (    4 VSUP3 )
+  (    5 /Memory/SD_CLK )
+  (    6 GND )
+  (    7 /Memory/DAT0 )
+  (    8 /Memory/DAT1 )
+  (    9 /Memory/DAT2 )
+  (   14 ? )
+  (   15 ? )
+  (   16 GND )
+  (   17 GND )
+ )
+ ( /49F49538/4B13B595 $noname  MLT63 MLT {Lib=MLT}
+  (    1 /Memory/nWEv )
+  (    2 N-000184 )
+ )
+ ( /49F49538/4B13B594 $noname  MLT64 MLT {Lib=MLT}
+  (    1 /Memory/LDQMv )
+  (    2 /Memory/LDQMv2 )
+ )
+ ( /49F49538/4B13B593 $noname  MLT66 MLT {Lib=MLT}
+  (    1 /Memory/LDQMv2 )
+  (    2 /Memory/LDQM )
+ )
+ ( /49F49538/4B13B58B $noname  MLT65 MLT {Lib=MLT}
+  (    1 N-000184 )
+  (    2 /Memory/nWE )
+ )
+ ( /49F49538/4B13B588 $noname  MLT62 MLT {Lib=MLT}
+  (    1 /LPC313x/EBI_nWE )
+  (    2 /Memory/nWEv )
+ )
+ ( /49F49538/4B104544 $noname  MLT61 MLT {Lib=MLT}
+  (    1 /Memory/DQ0v )
+  (    2 /Connectors_JTAG/EBI_D_0 )
+ )
+ ( /49F49538/4B104543 $noname  MLT60 MLT {Lib=MLT}
+  (    1 /Memory/DQ1v )
+  (    2 /LPC313x/EBI_D_1 )
+ )
+ ( /49F49538/4B104542 $noname  MLT59 MLT {Lib=MLT}
+  (    1 /Memory/DQ2v )
+  (    2 /Connectors_JTAG/EBI_D_2 )
+ )
+ ( /49F49538/4B104541 $noname  MLT58 MLT {Lib=MLT}
+  (    1 N-000175 )
+  (    2 /Connectors_JTAG/EBI_D_3 )
+ )
+ ( /49F49538/4B104540 $noname  MLT57 MLT {Lib=MLT}
+  (    1 N-000174 )
+  (    2 /LPC313x/EBI_D_4 )
+ )
+ ( /49F49538/4B10453F $noname  MLT56 MLT {Lib=MLT}
+  (    1 N-000173 )
+  (    2 /Connectors_JTAG/EBI_D_5 )
+ )
+ ( /49F49538/4B103A78 $noname  MLT55 MLT {Lib=MLT}
+  (    1 N-000085 )
+  (    2 /Memory/LDQMv )
+ )
+ ( /49F49538/4B103A77 $noname  MLT54 MLT {Lib=MLT}
+  (    1 /LPC313x/EBI_A1-CLE )
+  (    2 N-000172 )
+ )
+ ( /49F49538/4B103A76 $noname  MLT53 MLT {Lib=MLT}
+  (    1 N-000172 )
+  (    2 /Memory/A1 )
+ )
+ ( /49F49538/4B103A75 $noname  MLT52 MLT {Lib=MLT}
+  (    1 /LPC313x/EBI_A0-ALE )
+  (    2 N-000170 )
+ )
+ ( /49F49538/4B103A74 $noname  MLT51 MLT {Lib=MLT}
+  (    1 N-000170 )
+  (    2 /Memory/A0 )
+ )
+ ( /49F49538/4B103A73 $noname  MLT50 MLT {Lib=MLT}
+  (    1 /Memory/DQ5v )
+  (    2 N-000173 )
+ )
+ ( /49F49538/4B103A72 $noname  MLT49 MLT {Lib=MLT}
+  (    1 N-000168 )
+  (    2 /Connectors_JTAG/EBI_D_6 )
+ )
+ ( /49F49538/4B1038AD $noname  MLT47 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+  (    2 /Memory/nRAS )
+ )
+ ( /49F49538/4B1038AB $noname  MLT46 MLT {Lib=MLT}
+  (    1 /Memory/nCASv )
+  (    2 /Memory/nCAS )
+ )
+ ( /49F49538/4B1038AA $noname  MLT45 MLT {Lib=MLT}
+  (    1 /Memory/nCASv )
+  (    2 N-000164 )
+ )
+ ( /49F49538/4B1038A7 $noname  MLT44 MLT {Lib=MLT}
+  (    1 /Memory/DQ3v )
+  (    2 N-000175 )
+ )
+ ( /49F49538/4B1038A6 $noname  MLT43 MLT {Lib=MLT}
+  (    1 /Memory/DQ4v )
+  (    2 N-000174 )
+ )
+ ( /49F49538/4B1038A4 $noname  MLT42 MLT {Lib=MLT}
+  (    1 N-000164 )
+  (    2 /Connectors_JTAG/EBI_nCAS-BLOUT_0 )
+ )
+ ( /49F49538/4B1038A2 $noname  MLT41 MLT {Lib=MLT}
+  (    1 /Memory/DQ6v )
+  (    2 N-000168 )
+ )
+ ( /49F49538/4B102880 $noname  MLT39 MLT {Lib=MLT}
+  (    1 /Memory/DQ15v )
+  (    2 /Connectors_JTAG/EBI_D_15 )
+ )
+ ( /49F49538/4B1021D9 $noname  MLT38 MLT {Lib=MLT}
+  (    1 /Memory/DQ14v )
+  (    2 /Connectors_JTAG/EBI_D_14 )
+ )
+ ( /49F49538/4B102083 $noname  MLT37 MLT {Lib=MLT}
+  (    1 /Memory/DQ13v )
+  (    2 /Connectors_JTAG/EBI_D_13 )
+ )
+ ( /49F49538/4B101E1E $noname  MLT36 MLT {Lib=MLT}
+  (    1 /Memory/DQ12v )
+  (    2 /LPC313x/EBI_D_12 )
+ )
+ ( /49F49538/4B101AD9 $noname  MLT35 MLT {Lib=MLT}
+  (    1 N-000156 )
+  (    2 /LPC313x/EBI_D_10 )
+ )
+ ( /49F49538/4B101AD7 $noname  MLT34 MLT {Lib=MLT}
+  (    1 /Memory/DQ10v )
+  (    2 N-000156 )
+ )
+ ( /49F49538/4B101591 $noname  MLT33 MLT {Lib=MLT}
+  (    1 /Memory/DQ8v )
+  (    2 /LPC313x/EBI_D_8 )
+ )
+ ( /49F49538/4B0D26A2 $noname  MLT32 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+  (    2 /Memory/BA1 )
+ )
+ ( /49F49538/4B0D22E9 $noname  MLT31 MLT {Lib=MLT}
+  (    1 N-000151 )
+  (    2 /Memory/BA0 )
+ )
+ ( /49F49538/4B0D20FA $noname  MLT30 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_13-EBI_A13 )
+  (    2 N-000151 )
+ )
+ ( /49F49538/4B0D1E90 $noname  MLT29 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+  (    2 /Memory/A10 )
+ )
+ ( /49F49538/4B0D0D69 $noname  MLT28 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_12-EBI_A12 )
+  (    2 N-000149 )
+ )
+ ( /49F49538/4B0D0D68 $noname  MLT27 MLT {Lib=MLT}
+  (    1 N-000149 )
+  (    2 N-000148 )
+ )
+ ( /49F49538/4B0D0D67 $noname  MLT26 MLT {Lib=MLT}
+  (    1 N-000148 )
+  (    2 /Memory/A12 )
+ )
+ ( /49F49538/4B0D074C $noname  MLT25 MLT {Lib=MLT}
+  (    1 /Memory/A11v )
+  (    2 /Memory/A11 )
+ )
+ ( /49F49538/4B0D0443 $noname  MLT24 MLT {Lib=MLT}
+  (    1 N-000144 )
+  (    2 /Memory/A11v )
+ )
+ ( /49F49538/4B0D0442 $noname  MLT23 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_11-EBI_A11 )
+  (    2 N-000144 )
+ )
+ ( /49F49538/4B0CFE89 $noname  MLT22 MLT {Lib=MLT}
+  (    1 N-000142 )
+  (    2 N-000143 )
+ )
+ ( /49F49538/4B0CFC4A $noname  MLT21 MLT {Lib=MLT}
+  (    1 N-000143 )
+  (    2 /Memory/A9 )
+ )
+ ( /49F49538/4B0CFAFF $noname  MLT20 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+  (    2 N-000142 )
+ )
+ ( /49F49538/4B0CF52A $noname  MLT19 MLT {Lib=MLT}
+  (    1 N-000139 )
+  (    2 /Memory/A8 )
+ )
+ ( /49F49538/4B0CF1FC $noname  MLT17 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_8-EBI_A8 )
+  (    2 /Memory/A8v )
+ )
+ ( /49F49538/4B0CF1FB $noname  MLT18 MLT {Lib=MLT}
+  (    1 /Memory/A8v )
+  (    2 N-000139 )
+ )
+ ( /49F49538/4B0CE7F1 $noname  MLT16 MLT {Lib=MLT}
+  (    1 N-000136 )
+  (    2 /Memory/A7 )
+ )
+ ( /49F49538/4B0CE7CD $noname  MLT15 MLT {Lib=MLT}
+  (    1 /Memory/A7v )
+  (    2 N-000136 )
+ )
+ ( /49F49538/4B0CE333 $noname  MLT13 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+  (    2 /Memory/A7v )
+ )
+ ( /49F49538/4B0CE332 $noname  MLT14 MLT {Lib=MLT}
+  (    1 /LPC313x/mLCD_DB_6-EBI_A6 )
+  (    2 /Memory/A6 )
+ )
+ ( /49F49538/4B0CDCF8 $noname  MLT12 MLT {Lib=MLT}
+  (    1 N-000132 )
+  (    2 N-000133 )
+ )
+ ( /49F49538/4B0CDB8F $noname  MLT10 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+  (    2 N-000132 )
+ )
+ ( /49F49538/4B0CDB8E $noname  MLT11 MLT {Lib=MLT}
+  (    1 N-000133 )
+  (    2 /Memory/A5 )
+ )
+ ( /49F49538/4B0CD37C $noname  MLT7 MLT {Lib=MLT}
+  (    1 /Memory/A2 )
+  (    2 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+ )
+ ( /49F49538/4B0CD37B $noname  MLT8 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+  (    2 /Memory/A3 )
+ )
+ ( /49F49538/4B0CD37A $noname  MLT9 MLT {Lib=MLT}
+  (    1 /Memory/A4 )
+  (    2 /LPC313x/mLCD_DB_4-EBI_A4 )
+ )
+ ( /49F49538/4B0CC9CB $noname  MLT6 MLT {Lib=MLT}
+  (    1 N-000103 )
+  (    2 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /49F49538/4B0CC634 $noname  MLT5 MLT {Lib=MLT}
+  (    1 N-000103 )
+  (    2 N-000104 )
+ )
+ ( /49F49538/4B0CC633 $noname  MLT4 MLT {Lib=MLT}
+  (    1 N-000109 )
+  (    2 N-000104 )
+ )
+ ( /49F49538/4B0CC176 $noname  MLT3 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+  (    2 /Memory/nCS )
+ )
+ ( /49F49538/4B0CBE2E $noname  MLT2 MLT {Lib=MLT}
+  (    1 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+  (    2 N-000105 )
+ )
+ ( /49F49538/4B0CB391 $noname  MLT1 MLT {Lib=MLT}
+  (    1 N-000105 )
+  (    2 /Memory/UDQM )
+ )
+ ( /49F49538/49FFF67B $noname  R35 22 {Lib=R_MINI}
+  (    1 /LPC313x/SPI_MISO )
+  (    2 N-000107 )
+ )
+ ( /49F49538/49FFF5C4 $noname  R34 47k {Lib=R_MINI}
+  (    1 /LPC313x/SPI_CS_OUT0 )
+  (    2 VSUP3 )
+ )
+ ( /49F49538/49FFF537 $noname  IC17 AT45DBxx1D-SU {Lib=AT45DBXX1}
+  (    1 /LPC313x/SPI_MOSI )
+  (    2 /Connectors_JTAG/SPI_SCK )
+  (    3 /LPC313x/RESET_SUP3 )
+  (    4 /LPC313x/SPI_CS_OUT0 )
+  (    5 /LPC313x/RESET_SUP3 )
+  (    6 VSUP3 )
+  (    7 GND )
+  (    8 N-000107 )
+ )
+ ( /49F49538/49FE272A $noname  C49 0.01uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49538/49FE2729 $noname  C45 0.1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB887E $noname  C60 0.1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49538/4A000A50 $noname  R36 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /Memory/CKE )
+ )
+ ( /49F49538/49FB88C8 $noname  C57 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB88C7 $noname  C56 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB88BC $noname  C55 0.1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB88BB $noname  C54 0.1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB88B1 $noname  C53 10uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49FB7BC6 $noname  IC14 LPSDRAM_MT48_X16 {Lib=LPSDRAM_MT48_X16}
+  (   A9 VDD18 )
+  (   E7 VDD18 )
+  (   J9 VDD18 )
+  (   A7 VDD18 )
+  (   B3 VDD18 )
+  (   C7 VDD18 )
+  (   D3 VDD18 )
+  (   A8 /Memory/DQ0 )
+  (   B9 /Memory/DQ1 )
+  (   B8 /Memory/DQ2 )
+  (   C9 /Memory/DQ3 )
+  (   C8 /Memory/DQ4 )
+  (   D9 /Memory/DQ5 )
+  (   D8 /Memory/DQ6 )
+  (   E9 /Memory/DQ7 )
+  (   E1 /Memory/DQ8 )
+  (   D2 /Memory/DQ9 )
+  (   D1 /Memory/DQ10 )
+  (   C2 /Memory/DQ11 )
+  (   C1 /Memory/DQ12 )
+  (   B2 /Memory/DQ13 )
+  (   B1 /Memory/DQ14 )
+  (   A2 /Memory/DQ15 )
+  (   F1 /Memory/UDQM )
+  (   E8 /Memory/LDQM )
+  (   F3 /Memory/CKE )
+  (   F2 N-000109 )
+  (   G9 /Memory/nCS )
+  (   F8 /Memory/nRAS )
+  (   F7 /Memory/nCAS )
+  (   F9 /Memory/nWE )
+  (   H7 /Memory/A0 )
+  (   H8 /Memory/A1 )
+  (   J8 /Memory/A2 )
+  (   J7 /Memory/A3 )
+  (   J3 /Memory/A4 )
+  (   J2 /Memory/A5 )
+  (   H3 /Memory/A6 )
+  (   H2 /Memory/A7 )
+  (   H1 /Memory/A8 )
+  (   G3 /Memory/A9 )
+  (   H9 /Memory/A10 )
+  (   G2 /Memory/A11 )
+  (   G1 /Memory/A12 )
+  (   G7 /Memory/BA0 )
+  (   G8 /Memory/BA1 )
+  (   A1 GND )
+  (   E3 GND )
+  (   J1 GND )
+  (   A3 GND )
+  (   B7 GND )
+  (   C3 GND )
+  (   D7 GND )
+  (   E2 ? )
+ )
+ ( /49F49538/49F5C175 $noname  R23 47k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+  (    2 VDD18 )
+ )
+ ( /49F49538/49F5BEE7 $noname  RP2 22 {Lib=R_PACK8}
+  (    1 /Memory/DQ0 )
+  (    2 /Memory/DQ1 )
+  (    3 /Memory/DQ2 )
+  (    4 /Memory/DQ3 )
+  (    5 /Memory/DQ4 )
+  (    6 /Memory/DQ5 )
+  (    7 /Memory/DQ6 )
+  (    8 /Memory/DQ7 )
+  (    9 /Connectors_JTAG/EBI_D_7 )
+  (   10 /Memory/DQ6v )
+  (   11 /Memory/DQ5v )
+  (   12 /Memory/DQ4v )
+  (   13 /Memory/DQ3v )
+  (   14 /Memory/DQ2v )
+  (   15 /Memory/DQ1v )
+  (   16 /Memory/DQ0v )
+ )
+ ( /49F49538/49F5BED5 $noname  RP1 22 {Lib=R_PACK8}
+  (    1 /Memory/DQ8 )
+  (    2 /Memory/DQ9 )
+  (    3 /Memory/DQ10 )
+  (    4 /Memory/DQ11 )
+  (    5 /Memory/DQ12 )
+  (    6 /Memory/DQ13 )
+  (    7 /Memory/DQ14 )
+  (    8 /Memory/DQ15 )
+  (    9 /Memory/DQ15v )
+  (   10 /Memory/DQ14v )
+  (   11 /Memory/DQ13v )
+  (   12 /Memory/DQ12v )
+  (   13 /Connectors_JTAG/EBI_D_11 )
+  (   14 /Memory/DQ10v )
+  (   15 /Connectors_JTAG/EBI_D_9 )
+  (   16 /Memory/DQ8v )
+ )
+ ( /49F49538/49FE815C $noname  IC7 NAND {Lib=NAND_VFBGA63}
+  (   F6 VDD18 )
+  (   G4 VDD18 )
+  (   NC ? )
+  (   F2 /Memory/DQ0v )
+  (   G2 /Memory/DQ1v )
+  (   H2 /Memory/DQ2v )
+  (   H3 /Memory/DQ3v )
+  (   H4 /Memory/DQ4v )
+  (   G5 /Memory/DQ5v )
+  (   H5 /Memory/DQ6v )
+  (   G6 /Connectors_JTAG/EBI_D_7 )
+  (   A6 /LPC313x/mNAND_RYBN0-MCI_DAT4 )
+  (   A1 /Power/RESET_SUP4 )
+  (   B3 /LPC313x/EBI_A1-CLE )
+  (   A2 /LPC313x/EBI_A0-ALE )
+  (   A5 /Memory/nWEv )
+  (   B2 /Memory/LDQMv2 )
+  (   A4 /Connectors_JTAG/NAND_NCS_0 )
+  (   A3 GND )
+  (   H1 GND )
+  (   H6 GND )
+ )
+ ( /49F49538/49F5A8C0 $noname  R19 47k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/NAND_NCS_0 )
+  (    2 VDD18 )
+ )
+ ( /49F49538/49F5A833 $noname  C44 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49F5A820 $noname  C41 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49F5A81C $noname  C42 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49F5A804 $noname  C43 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49538/49F5A603 $noname  R18 47k {Lib=R_MINI}
+  (    1 /LPC313x/mNAND_RYBN0-MCI_DAT4 )
+  (    2 VDD18 )
+ )
+ ( /49F49522/4B16D81C $noname  C87 10uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4B16D7ED $noname  C86 10uF {Lib=C_MINI}
+  (    1 VSYS )
+  (    2 GND )
+ )
+ ( /49F49522/4B16D7DA $noname  U11 1117-1.8 {Lib=1117}
+  (    1 GND )
+  (    2 VDD18 )
+  (    3 VSYS )
+  (    4 VDD18 )
+ )
+ ( /49F49522/4B13BD72 $noname  C85 1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A8CD21F $noname  C58 10uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A6C4D50 $noname  L11 FB {Lib=L_MINI}
+  (    1 VSUP3 )
+  (    2 VDD )
+ )
+ ( /49F49522/4A5A6152 $noname  C63 10uF {Lib=C_MINI}
+  (    1 VSYS )
+  (    2 GNDPWR )
+ )
+ ( /49F49522/4A5A6151 $noname  IC6 ST1L05B {Lib=ST1L05B}
+  (    1 ? )
+  (    2 GNDPWR )
+  (    3 ? )
+  (    4 VDD )
+  (    5 N-000101 )
+  (    6 VSYS )
+  (    7 GNDPWR )
+ )
+ ( /49F49522/4A5A614F $noname  R72 43k {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 N-000101 )
+ )
+ ( /49F49522/4A5A614E $noname  R71 63k {Lib=R_MINI}
+  (    1 N-000101 )
+  (    2 VDD )
+ )
+ ( /49F49522/4A5A455E $noname  C80 0.1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A3EE9 $noname  C79 4.7uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A3E0A $noname  C78 1uF {Lib=C_MINI}
+  (    1 VDDA12 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A3BD9 $noname  C77 4.7uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A3785 $noname  L9 FB {Lib=L_MINI}
+  (    1 VDDA3_USB )
+  (    2 VSUP3 )
+ )
+ ( /49F49522/4A5A365A $noname  C76 4.7uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A2238 $noname  C52 4.7uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A0942 $noname  C51 0.1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A093B $noname  C48 1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A08F9 $noname  C61 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A5A08F6 $noname  C50 0.1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/4A085403 $noname  C74 1uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/4A063E0F $noname  C73 1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A063E0C $noname  C70 0.01uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A063D4D $noname  C69 1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A063CC4 $noname  C68 1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A063CC3 $noname  C67 0.1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A0638D3 $noname  C66 1uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/4A063669 $noname  C65 1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/4A04F8C5 $noname  C64 1uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/4A03E78F $noname  C62 0.01uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/49F7CEA6 $noname  IC4 CAT811 {Lib=ADM811}
+  (    1 GND )
+  (    2 /Power/nRST )
+  (    3 N-000095 )
+  (    4 VSUP3 )
+ )
+ ( /49F49522/49F5B5EF $noname  R8 100k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /Power/nRST )
+ )
+ ( /49F49522/49F5B0AA $noname  D1 BAT54C {Lib=BAT54}
+  (    1 /LPC313x/TRST_N )
+  (    2 /LPC313x/JTAGSEL )
+  (    3 /Power/nRST )
+ )
+ ( /49F49522/49F5ACDE $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
+  (    1 GND )
+  (    2 N-000095 )
+ )
+ ( /49F49522/49F5ACBA $noname  R13 10k {Lib=R_MINI}
+  (    1 N-000095 )
+  (    2 VSUP3 )
+ )
+ ( /49F49522/49F5ABB5 $noname  IC2 74LVC2G07 {Lib=74LVC2G07}
+  (    1 N-000094 )
+  (    2 GND )
+  (    3 /Power/nRST )
+  (    4 /LPC313x/RESET_SUP3 )
+  (    5 VSUP3 )
+  (    6 /LPC313x/RESET_SUP3 )
+ )
+ ( /49F49522/49F5A65B $noname  R2 47k {Lib=R_MINI}
+  (    1 /LPC313x/RESET_SUP3 )
+  (    2 VSUP3 )
+ )
+ ( /49F49522/49F4E763 $noname  C16 10uF {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GNDPWR )
+ )
+ ( /49F49522/49F4E2C8 $noname  C7 10uF {Lib=C_MINI}
+  (    1 VDD12 )
+  (    2 GNDPWR )
+ )
+ ( /49F49522/49F4D755 $noname  L3 FB {Lib=L_MINI}
+  (    1 VSYS )
+  (    2 VBUS )
+ )
+ ( /49F49522/49F4AA10 $noname  L7 FB {Lib=L_MINI}
+  (    1 VDDA3 )
+  (    2 VSUP3 )
+ )
+ ( /49F49522/49F4A9FE $noname  C39 0.0039uF {Lib=C_MINI}
+  (    1 VDDA3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A9FD $noname  C32 10uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDDA3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A9A9 $noname  R17 10 {Lib=R_MINI}
+  (    1 VDDA12 )
+  (    2 VDDI )
+ )
+ ( /49F49522/49F4A8E3 $noname  C37 0.01uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A8E0 $noname  C24 0.1uF {Lib=C_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A8DF $noname  C20 1uF {Lib=CP_TANTALUM_MINI}
+  (    1 VSUP3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A881 $noname  C29 1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A87F $noname  C19 10uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A803 $noname  C35 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A800 $noname  C28 0.01uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A7FF $noname  C22 0.1uF {Lib=C_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A7FC $noname  C18 1uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDD18 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A7C0 $noname  C34 0.01uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A6D7 $noname  L6 FB {Lib=L_MINI}
+  (    1 VDDI )
+  (    2 VDD12 )
+ )
+ ( /49F49522/49F4A6CD $noname  C38 220pF {Lib=C_MINI}
+  (    1 VDDA12 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A6CB $noname  C25 10uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDDA12 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A6C9 $noname  C40 0.033uF {Lib=C_MINI}
+  (    1 VDDA3_USB )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A6C8 $noname  C33 0.1uF {Lib=C_MINI}
+  (    1 VDDA3 )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A6C7 $noname  C26 10uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDDA3_USB )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A664 $noname  C27 0.01uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A662 $noname  C21 0.1uF {Lib=C_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/49F4A638 $noname  C17 4.7uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDDI )
+  (    2 GND )
+ )
+ ( /49F49522/49F93888 $noname  C81 10uF {Lib=C_MINI}
+  (    1 VSYS )
+  (    2 GNDPWR )
+ )
+ ( /49F49522/49F937ED $noname  IC3 ST1L05B {Lib=ST1L05B}
+  (    1 ? )
+  (    2 GNDPWR )
+  (    3 ? )
+  (    4 VDD12 )
+  (    5 N-000092 )
+  (    6 VSYS )
+  (    7 GNDPWR )
+ )
+ ( /49F49522/49F8B058 $noname  R62 43k {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 N-000092 )
+ )
+ ( /49F49522/49F8B052 $noname  R61 0 {Lib=R_MINI}
+  (    1 N-000092 )
+  (    2 VDD12 )
+ )
+ ( /49F49522/4A0B0F20 $noname  R85 0 {Lib=R_MINI}
+  (    1 /LPC313x/RESET_SUP3 )
+  (    2 /Power/RESET_SUP4 )
+ )
+ ( /49F49522/4A0B057F $noname  R57 100 {Lib=R_MINI}
+  (    1 /LPC313x/RESET_SUP3 )
+  (    2 N-000087 )
+ )
+ ( /49F49522/4A0B0260 $noname  U10 SN74AUC1G17 {Lib=BUFFER_GATE}
+  (    1 ? )
+  (    2 N-000087 )
+  (    3 GND )
+  (    4 /Power/RESET_SUP4 )
+  (    5 VDD18 )
+ )
+ ( /49F49582/4B174302 $noname  P16 CONN_1 {Lib=CONN_1}
+  (    1 /LPC313x/mI2STX_DATA0 )
+ )
+ ( /49F49582/4B1742B1 $noname  P17 CONN_1 {Lib=CONN_1}
+  (    1 /Connectors_JTAG/GPIO20 )
+ )
+ ( /49F49582/4B1740BC $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 /LPC313x/mI2STX_BCK0 )
+ )
+ ( /49F49582/4B1740BB $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 /LPC313x/mI2STX_CLK0 )
+ )
+ ( /49F49582/4B174068 $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 /Connectors_JTAG/GPIO11 )
+ )
+ ( /49F49582/4B174014 $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 /Connectors_JTAG/GPIO15 )
+ )
+ ( /49F49582/4B17122E $noname  P11 EXP2 {Lib=CONN_12X2}
+  (    1 /LPC313x/UART_RXD )
+  (    2 /Connectors_JTAG/PWM_DATA )
+  (    3 /LPC313x/UART_TXD )
+  (    4 /LPC313x/I2C_SCL0 )
+  (    5 /Connectors_JTAG/mUART_RTS_N )
+  (    6 /LPC313x/I2C_SDA0 )
+  (    7 /Connectors_JTAG/mUART_CTS_N )
+  (    8 /Connectors_JTAG/PWM_DATA )
+  (    9 /LPC313x/CLK_256FS_O )
+  (   10 /Connectors_JTAG/SPI_SCK )
+  (   11 /Connectors_JTAG/I2SRX_DATA1 )
+  (   12 /LPC313x/SPI_MOSI )
+  (   13 /Connectors_JTAG/I2SRX_WS1 )
+  (   14 /LPC313x/SPI_MISO )
+  (   15 /Connectors_JTAG/I2SRX_BCK1 )
+  (   16 /LPC313x/GPIO3 )
+  (   17 /LPC313x/ADC10B_GPA3 )
+  (   18 /Connectors_JTAG/I2C_SDA1 )
+  (   19 /LPC313x/ADC10B_GPA0 )
+  (   20 /LPC313x/I2C_SCL1 )
+  (   21 /LPC313x/ADC10B_GPA2 )
+  (   22 /Connectors_JTAG/I2STX_BCK1 )
+  (   23 /LPC313x/ADC10B_GPA1 )
+  (   24 /LPC313x/GPIO13 )
+ )
+ ( /49F49582/4B162F18 $noname  P10 EXP1 {Lib=CONN_25X2}
+  (    1 VBUS )
+  (    2 GND )
+  (    3 VDD18 )
+  (    4 VSUP3 )
+  (    5 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+  (    6 /LPC313x/mLCD_DB_15-EBI_A15 )
+  (    7 /LPC313x/mLCD_DB_12-EBI_A12 )
+  (    8 /LPC313x/mLCD_DB_13-EBI_A13 )
+  (    9 /LPC313x/mLCD_DB_10-EBI_A10 )
+  (   10 /LPC313x/mLCD_DB_11-EBI_A11 )
+  (   11 /LPC313x/mLCD_DB_8-EBI_A8 )
+  (   12 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+  (   13 /LPC313x/mLCD_DB_6-EBI_A6 )
+  (   14 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+  (   15 /LPC313x/mLCD_DB_4-EBI_A4 )
+  (   16 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+  (   17 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+  (   18 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+  (   19 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+  (   20 /Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1 )
+  (   21 /LPC313x/mLCD_CSB-EBI_nSTCS0 )
+  (   22 /Memory/CKE )
+  (   23 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+  (   24 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+  (   25 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+  (   26 /LPC313x/EBI_A0-ALE )
+  (   27 /Memory/LDQMv2 )
+  (   28 /LPC313x/EBI_A1-CLE )
+  (   29 /Memory/DQ14v )
+  (   30 /Memory/DQ15v )
+  (   31 /Memory/DQ12v )
+  (   32 /Memory/DQ13v )
+  (   33 /Memory/DQ10v )
+  (   34 /Connectors_JTAG/EBI_D_11 )
+  (   35 /LPC313x/EBI_D_8 )
+  (   36 /Connectors_JTAG/EBI_D_9 )
+  (   37 /Memory/DQ6v )
+  (   38 /Connectors_JTAG/EBI_D_7 )
+  (   39 /Memory/DQ4v )
+  (   40 /Memory/DQ5v )
+  (   41 /Memory/DQ2v )
+  (   42 /Memory/DQ3v )
+  (   43 /Memory/DQ0v )
+  (   44 /Memory/DQ1v )
+  (   45 GND )
+  (   46 /Connectors_JTAG/NAND_NCS_2 )
+  (   47 GND )
+  (   48 /Connectors_JTAG/CLOCK_OUT )
+  (   49 /LPC313x/RESET_SUP3 )
+  (   50 /Memory/nWEv )
+ )
+ ( /49F49582/4B08A001 $noname  Q1 2N7002 {Lib=MOSFET_N_OPENDOUS}
+  (    1 /Connectors_JTAG/GPIO2 )
+  (    2 GND )
+  (    3 N-000193 )
+ )
+ ( /49F49582/4A6BA953 $noname  R81 10k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/TDI )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A6BA952 $noname  R80 10k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/TMS )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A6BA951 $noname  R82 10k {Lib=R_MINI}
+  (    1 /LPC313x/TRST_N )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A6BA94F $noname  R78 10k {Lib=R_MINI}
+  (    1 N-000191 )
+  (    2 GND )
+ )
+ ( /49F49582/4A6BA94E $noname  R79 10k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/TCK )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A6BA94B $noname  R77 10k {Lib=R_MINI}
+  (    1 /Connectors_JTAG/TDO )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A6AB403 $noname  L10 FB {Lib=L_MINI}
+  (    1 GND )
+  (    2 GNDPWR )
+ )
+ ( /49F49582/4A64F6EA $noname  R76 4.7k {Lib=R_MINI}
+  (    1 /LPC313x/JTAGSEL )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/4A5BB0EF $noname  R74 4.7k {Lib=R_MINI}
+  (    1 N-000188 )
+  (    2 /LPC313x/GPIO0 )
+ )
+ ( /49F49582/4A5BB0ED $noname  R75 4.7k {Lib=R_MINI}
+  (    1 N-000194 )
+  (    2 /LPC313x/GPIO1 )
+ )
+ ( /49F49582/4A5BB0CF $noname  R73 4.7k {Lib=R_MINI}
+  (    1 N-000189 )
+  (    2 /Connectors_JTAG/GPIO2 )
+ )
+ ( /49F49582/4A5BB068 $noname  JP0 JUMPER-3 {Lib=JUMPER-3}
+  (    1 VSUP3 )
+  (    2 N-000188 )
+  (    3 GND )
+ )
+ ( /49F49582/4A5BB064 $noname  JP2 JUMPER-3 {Lib=JUMPER-3}
+  (    1 GND )
+  (    2 N-000189 )
+  (    3 VSUP3 )
+ )
+ ( /49F49582/4A5BB05B $noname  JP1 JUMPER-3 {Lib=JUMPER-3}
+  (    1 VSUP3 )
+  (    2 N-000194 )
+  (    3 GND )
+ )
+ ( /49F49582/49F7CD20 $noname  R26 12k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /LPC313x/USB_RREF )
+ )
+ ( /49F49582/49FE2F57 $noname  R31 1k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /Connectors_JTAG/USB_ID )
+ )
+ ( /49F49582/49FB5F38 $noname  R33 1650 {Lib=R_MINI}
+  (    1 N-000190 )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/49FB5E87 $noname  D2 LO_L29K {Lib=D_LED}
+  (    1 N-000193 )
+  (    2 N-000190 )
+ )
+ ( /49F49582/49F7BE91 $noname  IC12 NC7SB3257 {Lib=NC7SB3257}
+  (    1 /Connectors_JTAG/ARM_TDO )
+  (    2 GND )
+  (    3 /LPC313x/SCAN_TDO )
+  (    4 /Connectors_JTAG/TDO )
+  (    5 VSUP3 )
+  (    6 /LPC313x/JTAGSEL )
+ )
+ ( /49F49582/49F7BB94 $noname  R27 10k {Lib=R_MINI}
+  (    1 N-000094 )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/49F7B8F4 $noname  R29 33 {Lib=R_MINI}
+  (    1 N-000192 )
+  (    2 VSUP3 )
+ )
+ ( /49F49582/49F7B888 $noname  U4 JTAG {Lib=CONN_JTAG_ARM}
+  (    1 N-000192 )
+  (    2 VSUP3 )
+  (    3 /LPC313x/TRST_N )
+  (    4 GND )
+  (    5 /Connectors_JTAG/TDI )
+  (    6 GND )
+  (    7 /Connectors_JTAG/TMS )
+  (    8 GND )
+  (    9 /Connectors_JTAG/TCK )
+  (   10 GND )
+  (   11 N-000191 )
+  (   12 GND )
+  (   13 /Connectors_JTAG/TDO )
+  (   14 GND )
+  (   15 N-000094 )
+  (   16 GND )
+  (   17 ? )
+  (   18 GND )
+  (   19 ? )
+  (   20 GND )
+ )
+ ( /49F49582/49FE2E6D $noname  CR1 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 GNDPWR )
+  (    2 /Connectors_JTAG/USB_ID )
+ )
+ ( /49F49582/49FE2DAD $noname  IC21 PRTR5V0U2X {Lib=PRTR5V0U2X}
+  (    1 GNDPWR )
+  (    2 /LPC313x/USB_DP )
+  (    3 /LPC313x/USB_DM )
+  (    4 VBUS )
+ )
+ ( /49F49582/49F7CD99 $noname  R24 1M {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 /LPC313x/USB_DP )
+ )
+ ( /49F49582/49F7CD63 $noname  R25 1M {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 /LPC313x/USB_DM )
+ )
+ ( /49F49582/49F7CC55 $noname  U2 USBCONN-HOSTCAPABLE {Lib=USBCONN-HOSTCAPABLE}
+  (    1 VBUS )
+  (    2 /LPC313x/USB_DM )
+  (    3 /LPC313x/USB_DP )
+  (    4 GND )
+  (    5 GNDPWR )
+  (    6 /Connectors_JTAG/USB_ID )
+ )
+ ( /4A0869EC/4B17301D $noname  V914 VIA {Lib=VIA}
+  (    1 /Memory/DAT2 )
+ )
+ ( /4A0869EC/4B173003 $noname  V913 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/MCI_CMD )
+ )
+ ( /4A0869EC/4B1723A7 $noname  V912 VIA {Lib=VIA}
+  (    1 /LPC313x/mNAND_RYBN0-MCI_DAT4 )
+ )
+ ( /4A0869EC/4B16DC1A $noname  V911 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv2 )
+ )
+ ( /4A0869EC/4B16DC19 $noname  V910 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B16DC17 $noname  V909 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B16DC15 $noname  V908 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B16DC13 $noname  V907 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B16D259 $noname  V695 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TDO )
+ )
+ ( /4A0869EC/4B16D258 $noname  V694 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TDO )
+ )
+ ( /4A0869EC/4B164BD9 $noname  V899 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_7 )
+ )
+ ( /4A0869EC/4B164BD8 $noname  V903 VIA {Lib=VIA}
+  (    1 /Memory/DQ3v )
+ )
+ ( /4A0869EC/4B164BD7 $noname  V905 VIA {Lib=VIA}
+  (    1 /Memory/DQ1v )
+ )
+ ( /4A0869EC/4B164BD6 $noname  V904 VIA {Lib=VIA}
+  (    1 /Memory/DQ2v )
+ )
+ ( /4A0869EC/4B164BD5 $noname  V906 VIA {Lib=VIA}
+  (    1 /Memory/DQ0v )
+ )
+ ( /4A0869EC/4B164BD4 $noname  V902 VIA {Lib=VIA}
+  (    1 /Memory/DQ4v )
+ )
+ ( /4A0869EC/4B164BD3 $noname  V901 VIA {Lib=VIA}
+  (    1 /Memory/DQ5v )
+ )
+ ( /4A0869EC/4B164BD2 $noname  V900 VIA {Lib=VIA}
+  (    1 /Memory/DQ6v )
+ )
+ ( /4A0869EC/4B164A97 $noname  V895 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_11 )
+ )
+ ( /4A0869EC/4B164A96 $noname  V894 VIA {Lib=VIA}
+  (    1 /Memory/DQ12v )
+ )
+ ( /4A0869EC/4B164A95 $noname  V893 VIA {Lib=VIA}
+  (    1 /Memory/DQ13v )
+ )
+ ( /4A0869EC/4B164A94 $noname  V892 VIA {Lib=VIA}
+  (    1 /Memory/DQ14v )
+ )
+ ( /4A0869EC/4B164A93 $noname  V891 VIA {Lib=VIA}
+  (    1 /Memory/DQ15v )
+ )
+ ( /4A0869EC/4B164A92 $noname  V897 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4B164A91 $noname  V896 VIA {Lib=VIA}
+  (    1 /Memory/DQ10v )
+ )
+ ( /4A0869EC/4B164A90 $noname  V898 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_8 )
+ )
+ ( /4A0869EC/4B163CFF $noname  V890 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+ )
+ ( /4A0869EC/4B1620BC $noname  V889 VIA {Lib=VIA}
+  (    1 /Power/RESET_SUP4 )
+ )
+ ( /4A0869EC/4B1614CE $noname  V888 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B1612CB $noname  V887 VIA {Lib=VIA}
+  (    1 /Memory/nWEv )
+ )
+ ( /4A0869EC/4B16109D $noname  V886 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv2 )
+ )
+ ( /4A0869EC/4B1609CB $noname  V878 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_7 )
+ )
+ ( /4A0869EC/4B1609CA $noname  V882 VIA {Lib=VIA}
+  (    1 /Memory/DQ3v )
+ )
+ ( /4A0869EC/4B1609C9 $noname  V884 VIA {Lib=VIA}
+  (    1 /Memory/DQ1v )
+ )
+ ( /4A0869EC/4B1609C8 $noname  V883 VIA {Lib=VIA}
+  (    1 /Memory/DQ2v )
+ )
+ ( /4A0869EC/4B1609C7 $noname  V885 VIA {Lib=VIA}
+  (    1 /Memory/DQ0v )
+ )
+ ( /4A0869EC/4B1609C6 $noname  V881 VIA {Lib=VIA}
+  (    1 /Memory/DQ4v )
+ )
+ ( /4A0869EC/4B1609C5 $noname  V880 VIA {Lib=VIA}
+  (    1 /Memory/DQ5v )
+ )
+ ( /4A0869EC/4B1609C4 $noname  V879 VIA {Lib=VIA}
+  (    1 /Memory/DQ6v )
+ )
+ ( /4A0869EC/4B160993 $noname  V877 VIA {Lib=VIA}
+  (    1 /Memory/nWEv )
+ )
+ ( /4A0869EC/4B160979 $noname  V876 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv2 )
+ )
+ ( /4A0869EC/4B15FCDA $noname  V875 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+ )
+ ( /4A0869EC/4B15F6FA $noname  V869 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_15-EBI_A15 )
+ )
+ ( /4A0869EC/4B15F6F9 $noname  V868 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+ )
+ ( /4A0869EC/4B15F6F8 $noname  V867 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_13-EBI_A13 )
+ )
+ ( /4A0869EC/4B15F6F7 $noname  V866 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_12-EBI_A12 )
+ )
+ ( /4A0869EC/4B15F6F6 $noname  V865 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_11-EBI_A11 )
+ )
+ ( /4A0869EC/4B15F6F5 $noname  V864 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+ )
+ ( /4A0869EC/4B15F6F4 $noname  V863 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+ )
+ ( /4A0869EC/4B15F6F3 $noname  V862 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_8-EBI_A8 )
+ )
+ ( /4A0869EC/4B15F6F2 $noname  V860 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_6-EBI_A6 )
+ )
+ ( /4A0869EC/4B15F6F1 $noname  V859 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+ )
+ ( /4A0869EC/4B15F6F0 $noname  V858 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_4-EBI_A4 )
+ )
+ ( /4A0869EC/4B15F6EF $noname  V857 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+ )
+ ( /4A0869EC/4B15F6EE $noname  V856 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+ )
+ ( /4A0869EC/4B15F6ED $noname  V855 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1 )
+ )
+ ( /4A0869EC/4B15F6EC $noname  V854 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4B15F6EB $noname  V871 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_CSB-EBI_nSTCS0 )
+ )
+ ( /4A0869EC/4B15F6EA $noname  V861 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+ )
+ ( /4A0869EC/4B15F6E9 $noname  V873 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+ )
+ ( /4A0869EC/4B15F6E8 $noname  V872 VIA {Lib=VIA}
+  (    1 N-000085 )
+ )
+ ( /4A0869EC/4B15F6E7 $noname  V870 VIA {Lib=VIA}
+  (    1 /Memory/CKE )
+ )
+ ( /4A0869EC/4B15F6E6 $noname  V874 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4B142A8A $noname  V853 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/NAND_NCS_0 )
+ )
+ ( /4A0869EC/4B1427F4 $noname  V852 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv2 )
+ )
+ ( /4A0869EC/4B1427A7 $noname  V851 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv2 )
+ )
+ ( /4A0869EC/4B13B609 $noname  V850 VIA {Lib=VIA}
+  (    1 /Memory/LDQMv )
+ )
+ ( /4A0869EC/4B13B608 $noname  V849 VIA {Lib=VIA}
+  (    1 /Memory/nWEv )
+ )
+ ( /4A0869EC/4B107615 $noname  V848 VIA {Lib=VIA}
+  (    1 /Memory/nRAS )
+ )
+ ( /4A0869EC/4B1075B6 $noname  V847 VIA {Lib=VIA}
+  (    1 /Memory/nRAS )
+ )
+ ( /4A0869EC/4B105F3E $noname  V843 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_nCAS-BLOUT_0 )
+ )
+ ( /4A0869EC/4B105F36 $noname  V846 VIA {Lib=VIA}
+  (    1 /Memory/LDQM )
+ )
+ ( /4A0869EC/4B105F2D $noname  V845 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+ )
+ ( /4A0869EC/4B105F29 $noname  V844 VIA {Lib=VIA}
+  (    1 /Memory/nWE )
+ )
+ ( /4A0869EC/4B105C13 $noname  V841 VIA {Lib=VIA}
+  (    1 /Memory/A1 )
+ )
+ ( /4A0869EC/4B105C12 $noname  V842 VIA {Lib=VIA}
+  (    1 /Memory/A0 )
+ )
+ ( /4A0869EC/4B105AFB $noname  V839 VIA {Lib=VIA}
+  (    1 /Memory/A1 )
+ )
+ ( /4A0869EC/4B105AFA $noname  V840 VIA {Lib=VIA}
+  (    1 /Memory/A0 )
+ )
+ ( /4A0869EC/4B105955 $noname  V837 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A0-ALE )
+ )
+ ( /4A0869EC/4B105954 $noname  V838 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A1-CLE )
+ )
+ ( /4A0869EC/4B105951 $noname  V835 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A0-ALE )
+ )
+ ( /4A0869EC/4B105950 $noname  V836 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A1-CLE )
+ )
+ ( /4A0869EC/4B1058FE $noname  V833 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A0-ALE )
+ )
+ ( /4A0869EC/4B1058FD $noname  V834 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A1-CLE )
+ )
+ ( /4A0869EC/4B104E63 $noname  V832 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_0 )
+ )
+ ( /4A0869EC/4B104E1F $noname  V831 VIA {Lib=VIA}
+  (    1 /Memory/DQ0v )
+ )
+ ( /4A0869EC/4B104E1C $noname  V830 VIA {Lib=VIA}
+  (    1 /Memory/DQ1v )
+ )
+ ( /4A0869EC/4B104E15 $noname  V829 VIA {Lib=VIA}
+  (    1 /Memory/DQ2v )
+ )
+ ( /4A0869EC/4B104D70 $noname  V828 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_1 )
+ )
+ ( /4A0869EC/4B104D6F $noname  V827 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_2 )
+ )
+ ( /4A0869EC/4B100C83 $noname  V823 VIA {Lib=VIA}
+  (    1 /Memory/DQ3v )
+ )
+ ( /4A0869EC/4B100C82 $noname  V825 VIA {Lib=VIA}
+  (    1 /Memory/DQ1v )
+ )
+ ( /4A0869EC/4B100C81 $noname  V824 VIA {Lib=VIA}
+  (    1 /Memory/DQ2v )
+ )
+ ( /4A0869EC/4B100C80 $noname  V826 VIA {Lib=VIA}
+  (    1 /Memory/DQ0v )
+ )
+ ( /4A0869EC/4B100C7F $noname  V822 VIA {Lib=VIA}
+  (    1 /Memory/DQ4v )
+ )
+ ( /4A0869EC/4B100C7E $noname  V815 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_11 )
+ )
+ ( /4A0869EC/4B100C7D $noname  V814 VIA {Lib=VIA}
+  (    1 /Memory/DQ12v )
+ )
+ ( /4A0869EC/4B100C7C $noname  V813 VIA {Lib=VIA}
+  (    1 /Memory/DQ13v )
+ )
+ ( /4A0869EC/4B100C7B $noname  V812 VIA {Lib=VIA}
+  (    1 /Memory/DQ14v )
+ )
+ ( /4A0869EC/4B100C7A $noname  V811 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_15 )
+ )
+ ( /4A0869EC/4B100C79 $noname  V817 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4B100C78 $noname  V816 VIA {Lib=VIA}
+  (    1 /Memory/DQ10v )
+ )
+ ( /4A0869EC/4B100C77 $noname  V819 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_7 )
+ )
+ ( /4A0869EC/4B100C76 $noname  V818 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_8 )
+ )
+ ( /4A0869EC/4B100C75 $noname  V821 VIA {Lib=VIA}
+  (    1 /Memory/DQ5v )
+ )
+ ( /4A0869EC/4B100C74 $noname  V820 VIA {Lib=VIA}
+  (    1 /Memory/DQ6v )
+ )
+ ( /4A0869EC/4B0EE2D9 $noname  V810 VIA {Lib=VIA}
+  (    1 /LPC313x/mNAND_RYBN0-MCI_DAT4 )
+ )
+ ( /4A0869EC/4B0ED972 $noname  V809 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_13 )
+ )
+ ( /4A0869EC/4B0ED971 $noname  V808 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_14 )
+ )
+ ( /4A0869EC/4B0ED970 $noname  V807 VIA {Lib=VIA}
+  (    1 /Memory/DQ15v )
+ )
+ ( /4A0869EC/4B0E513B $noname  V806 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/NAND_NCS_2 )
+ )
+ ( /4A0869EC/4B0E50BB $noname  V805 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/CLOCK_OUT )
+ )
+ ( /4A0869EC/4B0E4951 $noname  V803 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B0E494F $noname  V804 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4B0E1E2F $noname  V796 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_nWE )
+ )
+ ( /4A0869EC/4B0E1E2E $noname  V797 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_nCAS-BLOUT_0 )
+ )
+ ( /4A0869EC/4B0E1E2D $noname  V802 VIA {Lib=VIA}
+  (    1 /Memory/UDQM )
+ )
+ ( /4A0869EC/4B0E1E2C $noname  V801 VIA {Lib=VIA}
+  (    1 N-000085 )
+ )
+ ( /4A0869EC/4B0E1E2B $noname  V800 VIA {Lib=VIA}
+  (    1 /Memory/CKE )
+ )
+ ( /4A0869EC/4B0E1E2A $noname  V799 VIA {Lib=VIA}
+  (    1 /Memory/nCS )
+ )
+ ( /4A0869EC/4B0E1E29 $noname  V798 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+ )
+ ( /4A0869EC/4B0DFE5D $noname  V794 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A0-ALE )
+ )
+ ( /4A0869EC/4B0DFE42 $noname  V795 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_A1-CLE )
+ )
+ ( /4A0869EC/4B0DFCE4 $noname  V790 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_3 )
+ )
+ ( /4A0869EC/4B0DFCE3 $noname  V792 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_1 )
+ )
+ ( /4A0869EC/4B0DFCE2 $noname  V791 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_2 )
+ )
+ ( /4A0869EC/4B0DFCE0 $noname  V793 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_0 )
+ )
+ ( /4A0869EC/4B0DFCDF $noname  V789 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_4 )
+ )
+ ( /4A0869EC/4B0DFCDE $noname  V782 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_11 )
+ )
+ ( /4A0869EC/4B0DFCDD $noname  V781 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_12 )
+ )
+ ( /4A0869EC/4B0DFCDC $noname  V780 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_13 )
+ )
+ ( /4A0869EC/4B0DFCDB $noname  V779 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_14 )
+ )
+ ( /4A0869EC/4B0DFCDA $noname  V778 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_15 )
+ )
+ ( /4A0869EC/4B0DFCD9 $noname  V784 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4B0DFCD8 $noname  V783 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_10 )
+ )
+ ( /4A0869EC/4B0DFCD7 $noname  V786 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_7 )
+ )
+ ( /4A0869EC/4B0DFCD6 $noname  V785 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_8 )
+ )
+ ( /4A0869EC/4B0DFCD5 $noname  V788 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_5 )
+ )
+ ( /4A0869EC/4B0DFCD4 $noname  V787 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_6 )
+ )
+ ( /4A0869EC/4B0DEA54 $noname  V775 VIA {Lib=VIA}
+  (    1 /LPC313x/NAND_NCS_1 )
+ )
+ ( /4A0869EC/4B0DEA19 $noname  V777 VIA {Lib=VIA}
+  (    1 /LPC313x/NAND_NCS_3 )
+ )
+ ( /4A0869EC/4B0DEA16 $noname  V776 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/NAND_NCS_2 )
+ )
+ ( /4A0869EC/4B0DE9F2 $noname  V774 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/NAND_NCS_0 )
+ )
+ ( /4A0869EC/4B0D21D8 $noname  V773 VIA {Lib=VIA}
+  (    1 /Memory/BA0 )
+ )
+ ( /4A0869EC/4B0D0D95 $noname  V772 VIA {Lib=VIA}
+  (    1 /Memory/A12 )
+ )
+ ( /4A0869EC/4B0D07C6 $noname  V771 VIA {Lib=VIA}
+  (    1 /Memory/A11v )
+ )
+ ( /4A0869EC/4B0CFBDE $noname  V770 VIA {Lib=VIA}
+  (    1 /Memory/A9 )
+ )
+ ( /4A0869EC/4B0CF2CF $noname  V769 VIA {Lib=VIA}
+  (    1 /Memory/A8v )
+ )
+ ( /4A0869EC/4B0CE860 $noname  V768 VIA {Lib=VIA}
+  (    1 /Memory/A7v )
+ )
+ ( /4A0869EC/4B0CE577 $noname  V767 VIA {Lib=VIA}
+  (    1 /Memory/A6 )
+ )
+ ( /4A0869EC/4B0CE573 $noname  V766 VIA {Lib=VIA}
+  (    1 /Memory/A6 )
+ )
+ ( /4A0869EC/4B0CE40A $noname  V765 VIA {Lib=VIA}
+  (    1 /Memory/A6 )
+ )
+ ( /4A0869EC/4B0B4303 $noname  V758 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B4301 $noname  V757 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42FF $noname  V756 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42FD $noname  V755 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42FB $noname  V754 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42F9 $noname  V753 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42F7 $noname  V764 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42F5 $noname  V763 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42F3 $noname  V762 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42F1 $noname  V761 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42EF $noname  V760 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B42ED $noname  V759 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B0B35FE $noname  V731 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/I2SRX_WS0 )
+ )
+ ( /4A0869EC/4B0B3543 $noname  V730 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/I2SRX_BCK0 )
+ )
+ ( /4A0869EC/4B09D5C4 $noname  V723 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5C2 $noname  V722 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5C0 $noname  V721 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5BE $noname  V720 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5BC $noname  V719 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5BA $noname  V718 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5B8 $noname  V729 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5B6 $noname  V728 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5B4 $noname  V727 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5B2 $noname  V726 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5B0 $noname  V725 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09D5AE $noname  V724 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B09867C $noname  V408 VIA {Lib=VIA}
+  (    1 /Power/nRST )
+ )
+ ( /4A0869EC/4B09867B $noname  V700 VIA {Lib=VIA}
+  (    1 /Power/nRST )
+ )
+ ( /4A0869EC/4B09867A $noname  V699 VIA {Lib=VIA}
+  (    1 /Power/nRST )
+ )
+ ( /4A0869EC/4B098679 $noname  V409 VIA {Lib=VIA}
+  (    1 /Power/nRST )
+ )
+ ( /4A0869EC/4B098678 $noname  V407 VIA {Lib=VIA}
+  (    1 /Power/nRST )
+ )
+ ( /4A0869EC/4B08A533 $noname  V709 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4B08A531 $noname  V708 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A8C112F $noname  V707 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A8C1070 $noname  V706 VIA {Lib=VIA}
+  (    1 ? )
+ )
+ ( /4A0869EC/4A6C6C57 $noname  V705 VIA {Lib=VIA}
+  (    1 VDDA3_USB )
+ )
+ ( /4A0869EC/4A6C51E7 $noname  V704 VIA {Lib=VIA}
+  (    1 VDD )
+ )
+ ( /4A0869EC/4A6C4E9B $noname  V703 VIA {Lib=VIA}
+  (    1 VDD )
+ )
+ ( /4A0869EC/4A6C4D0B $noname  V701 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4A0869EC/4A6C11CA $noname  V696 VIA {Lib=VIA}
+  (    1 N-000094 )
+ )
+ ( /4A0869EC/4A6C11BF $noname  V698 VIA {Lib=VIA}
+  (    1 N-000094 )
+ )
+ ( /4A0869EC/4A6BBD40 $noname  V693 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4A0869EC/4A6BBD3E $noname  V692 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4A0869EC/4A6BBD3C $noname  V691 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4A0869EC/4A6BBD3A $noname  V690 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4A0869EC/4A6AD131 $noname  V689 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/USB_ID )
+ )
+ ( /4A0869EC/4A6A8B50 $noname  V684 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN2-MCI_DAT6 )
+ )
+ ( /4A0869EC/4A6A8B4F $noname  V683 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN2-MCI_DAT6 )
+ )
+ ( /4A0869EC/4A6A8742 $noname  V681 VIA {Lib=VIA}
+  (    1 /Memory/SD_CLK )
+ )
+ ( /4A0869EC/4A6A8741 $noname  V680 VIA {Lib=VIA}
+  (    1 /Memory/DAT0 )
+ )
+ ( /4A0869EC/4A6A8740 $noname  V679 VIA {Lib=VIA}
+  (    1 /Memory/DAT1 )
+ )
+ ( /4A0869EC/4A65060B $noname  V675 VIA {Lib=VIA}
+  (    1 /Memory/SD_CLK )
+ )
+ ( /4A0869EC/4A65060A $noname  V674 VIA {Lib=VIA}
+  (    1 /Memory/DAT0 )
+ )
+ ( /4A0869EC/4A650609 $noname  V673 VIA {Lib=VIA}
+  (    1 /Memory/DAT1 )
+ )
+ ( /4A0869EC/4A650607 $noname  V671 VIA {Lib=VIA}
+  (    1 /LPC313x/MCI_DAT3 )
+ )
+ ( /4A0869EC/4A6505FD $noname  V669 VIA {Lib=VIA}
+  (    1 /Memory/SD_CLK )
+ )
+ ( /4A0869EC/4A6505FC $noname  V668 VIA {Lib=VIA}
+  (    1 /Memory/DAT0 )
+ )
+ ( /4A0869EC/4A6505FA $noname  V667 VIA {Lib=VIA}
+  (    1 /Memory/DAT1 )
+ )
+ ( /4A0869EC/4A6505EB $noname  V665 VIA {Lib=VIA}
+  (    1 /LPC313x/MCI_DAT3 )
+ )
+ ( /4A0869EC/4A5A47B6 $noname  V664 VIA {Lib=VIA}
+  (    1 VDDA3_USB )
+ )
+ ( /4A0869EC/4A5A4112 $noname  V661 VIA {Lib=VIA}
+  (    1 VDDA3 )
+ )
+ ( /4A0869EC/4A5A4111 $noname  V660 VIA {Lib=VIA}
+  (    1 VDDA12 )
+ )
+ ( /4A0869EC/4A5A40F2 $noname  V663 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A5A40F0 $noname  V662 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B2AAC $noname  V659 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B299A $noname  V658 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B25C9 $noname  V655 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B25C7 $noname  V654 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B24D3 $noname  V653 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B24D1 $noname  V652 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B24CB $noname  V651 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B24C9 $noname  V650 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B24C7 $noname  V649 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B21A7 $noname  V648 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B1B9A $noname  V645 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0B04BA $noname  V640 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A087FC5 $noname  V632 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E12 $noname  V624 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E10 $noname  V623 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E0E $noname  V622 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E0A $noname  V620 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E08 $noname  V629 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087E02 $noname  V626 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A087DFC $noname  V630 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A058A89 $noname  V434 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MOSI )
+ )
+ ( /4A0869EC/4A058A88 $noname  V433 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MISO )
+ )
+ ( /4A0869EC/4A058814 $noname  V429 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MOSI )
+ )
+ ( /4A0869EC/4A058812 $noname  V428 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MISO )
+ )
+ ( /4A0869EC/4A05880E $noname  V426 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_CS_OUT0 )
+ )
+ ( /4A0869EC/4A0550BF $noname  V422 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A0550BE $noname  V423 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A0550BB $noname  V424 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A0550B5 $noname  V425 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A0538E6 $noname  V390 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TCK )
+ )
+ ( /4A0869EC/4A051BE4 $noname  V386 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TMS )
+ )
+ ( /4A0869EC/4A051BE2 $noname  V385 VIA {Lib=VIA}
+  (    1 /LPC313x/JTAGSEL )
+ )
+ ( /4A0869EC/4A051BE1 $noname  V384 VIA {Lib=VIA}
+  (    1 /LPC313x/TRST_N )
+ )
+ ( /4A0869EC/4A051B20 $noname  V383 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/GPIO2 )
+ )
+ ( /4A0869EC/4A04560F $noname  V370 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN1-MCI_DAT5 )
+ )
+ ( /4A0869EC/4A041132 $noname  V346 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4A03F0C3 $noname  V272 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/GPIO18 )
+ )
+ ( /4A0869EC/4A03F0BF $noname  V268 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO14 )
+ )
+ ( /4A0869EC/4A03F0BA $noname  V263 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO3 )
+ )
+ ( /4A0869EC/4A03F0B9 $noname  V262 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/GPIO2 )
+ )
+ ( /4A0869EC/4A03F0B6 $noname  V259 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN3-MCI_DAT7 )
+ )
+ ( /4A0869EC/4A02C70E $noname  V178 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/USB_ID )
+ )
+ ( /4A0869EC/4A02B704 $noname  V155 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_14 )
+ )
+ ( /4A0869EC/4A02644A $noname  V91 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_D_12 )
+ )
+ ( /4A0869EC/4A026448 $noname  V92 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_13 )
+ )
+ ( /4A0869EC/4A026447 $noname  V93 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_14 )
+ )
+ ( /4A0869EC/4A026445 $noname  V94 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_15 )
+ )
+ ( /4A0869EC/4A026220 $noname  V90 VIA {Lib=VIA}
+  (    1 /LPC313x/I2C_SDA0 )
+ )
+ ( /4A0869EC/4A025F10 $noname  V84 VIA {Lib=VIA}
+  (    1 /LPC313x/I2STX_DATA1 )
+ )
+ ( /4A0869EC/4A025CAE $noname  V83 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/GPIO12 )
+ )
+ ( /4A0869EC/4A025CAC $noname  V82 VIA {Lib=VIA}
+  (    1 /LPC313x/I2C_SCL0 )
+ )
+ ( /4A0869EC/4A025CA9 $noname  V81 VIA {Lib=VIA}
+  (    1 /LPC313x/I2STX_WS1 )
+ )
+ ( /4A0869EC/4A025CA7 $noname  V80 VIA {Lib=VIA}
+  (    1 /LPC313x/SCAN_TDO )
+ )
+ ( /4A0869EC/4A025CA5 $noname  V79 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/ARM_TDO )
+ )
+ ( /4A0869EC/4A025C9F $noname  V76 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/GPIO17 )
+ )
+ ( /4A0869EC/4A024C3C $noname  V75 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO1 )
+ )
+ ( /4A0869EC/4A024C3B $noname  V74 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO0 )
+ )
+ ( /4A0869EC/4A02498E $noname  V72 VIA {Lib=VIA}
+  (    1 /LPC313x/mI2STX_WS0 )
+ )
+ ( /4A0869EC/4A02498B $noname  V71 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/I2SRX_DATA0 )
+ )
+ ( /4A0869EC/4A024746 $noname  V70 VIA {Lib=VIA}
+  (    1 /Memory/DAT2 )
+ )
+ ( /4A0869EC/4A024745 $noname  V69 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN3-MCI_DAT7 )
+ )
+ ( /4A0869EC/4A024038 $noname  V65 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TDI )
+ )
+ ( /4A0869EC/4A023EDD $noname  V64 VIA {Lib=VIA}
+  (    1 /Memory/CKE )
+ )
+ ( /4A0869EC/4A015A19 $noname  V61 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mNAND_RYBN1-MCI_DAT5 )
+ )
+ ( /4A0869EC/4A015807 $noname  V57 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+ )
+ ( /4A0869EC/4A015805 $noname  V56 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_12-EBI_A12 )
+ )
+ ( /4A0869EC/4A015803 $noname  V55 VIA {Lib=VIA}
+  (    1 /LPC313x/USB_RREF )
+ )
+ ( /4A0869EC/4A015801 $noname  V54 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_6-EBI_A6 )
+ )
+ ( /4A0869EC/4A01571C $noname  V50 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+ )
+ ( /4A0869EC/4A06A8E7 $noname  V524 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+ )
+ ( /4A0869EC/4A06996A $noname  V496 VIA {Lib=VIA}
+  (    1 /Memory/nCASv )
+ )
+ ( /4A0869EC/4A069856 $noname  V485 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_4-EBI_A4 )
+ )
+ ( /4A0869EC/4A067C73 $noname  V465 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4A067C71 $noname  V463 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_11 )
+ )
+ ( /4A0869EC/4A067C64 $noname  V459 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_15 )
+ )
+ ( /4A0869EC/4A03798A $noname  V199 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_D_9 )
+ )
+ ( /4A0869EC/4A0283BE $noname  V100 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+ )
+ ( /4A0869EC/4A0283BC $noname  V101 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+ )
+ ( /4A0869EC/4A085ECF $noname  V619 VIA {Lib=VIA}
+  (    1 VSYS )
+ )
+ ( /4A0869EC/4A085002 $noname  V609 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A084FF9 $noname  V611 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A084FF0 $noname  V614 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0847A4 $noname  V595 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0847A2 $noname  V604 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A08479E $noname  V602 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A08479A $noname  V600 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A084798 $noname  V606 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A084796 $noname  V605 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A082221 $noname  V587 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A08221F $noname  V586 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A08221B $noname  V584 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A082219 $noname  V583 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A082211 $noname  V589 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A08220F $noname  V588 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B20E $noname  V540 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B20C $noname  V539 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B20A $noname  V538 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B208 $noname  V537 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B204 $noname  V545 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B202 $noname  V544 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B200 $noname  V543 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B1FE $noname  V542 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B1FA $noname  V548 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06B1F8 $noname  V547 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06ADCD $noname  V535 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06ADCB $noname  V534 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06ADC9 $noname  V533 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A06ADC5 $noname  V531 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A067A8E $noname  V458 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A067A8C $noname  V457 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A067A8A $noname  V456 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A067A88 $noname  V455 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A067A86 $noname  V454 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A062A88 $noname  V448 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A062A86 $noname  V447 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A062A84 $noname  V446 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A062A82 $noname  V445 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A062A74 $noname  V453 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A062A72 $noname  V452 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A062A70 $noname  V451 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A062A6E $noname  V450 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A062A6C $noname  V449 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A054D32 $noname  V417 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A054C9E $noname  V415 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0548D1 $noname  V410 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A04FA00 $noname  V379 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A042F17 $noname  V374 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A041850 $noname  V367 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A04184E $noname  V366 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A04183B $noname  V365 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A041839 $noname  V364 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A041837 $noname  V363 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0409FF $noname  V354 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A0409FD $noname  V353 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A040419 $noname  V334 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A040417 $noname  V333 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A03E89F $noname  V225 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A03E89D $noname  V224 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A03E89B $noname  V223 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A03E899 $noname  V222 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A03E751 $noname  V220 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A03E74F $noname  V219 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A037148 $noname  V184 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A02A689 $noname  V151 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A687 $noname  V150 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A685 $noname  V149 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A683 $noname  V148 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A544 $noname  V147 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A542 $noname  V146 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A540 $noname  V145 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A53E $noname  V144 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A53C $noname  V143 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A02A085 $noname  V133 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A028C8D $noname  V123 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0289EA $noname  V118 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0289DD $noname  V117 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A0289C6 $noname  V115 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A0289BC $noname  V112 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0289BA $noname  V111 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0289B8 $noname  V110 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0289B6 $noname  V109 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A025FB8 $noname  V88 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A025FA8 $noname  V87 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0249D8 $noname  V73 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015B14 $noname  V62 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A0158ED $noname  V59 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A0158E9 $noname  V58 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A0156A1 $noname  V52 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A015682 $noname  V53 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A01567D $noname  V51 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A015578 $noname  V49 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015576 $noname  V48 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015574 $noname  V47 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015572 $noname  V46 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015570 $noname  V45 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015490 $noname  V44 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A01548E $noname  V43 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A015437 $noname  V41 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A015436 $noname  V40 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A01542D $noname  V39 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A01542B $noname  V38 VIA {Lib=VIA}
+  (    1 VDD18 )
+ )
+ ( /4A0869EC/4A014B18 $noname  V35 VIA {Lib=VIA}
+  (    1 VDDI )
+ )
+ ( /4A0869EC/4A013D89 $noname  V22 VIA {Lib=VIA}
+  (    1 VSUP3 )
+ )
+ ( /4A0869EC/4A013D7D $noname  V21 VIA {Lib=VIA}
+  (    1 VSYS )
+ )
+ ( /4A0869EC/4A013993 $noname  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A013991 $noname  V11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A01398B $noname  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A013989 $noname  V12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0136AB $noname  V9 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0136A7 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A01339B $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4A0869EC/4A0848FA $noname  V608 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A03E60C $noname  V221 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4A0382FC $noname  V210 VIA {Lib=VIA}
+  (    1 /LPC313x/RESET_SUP3 )
+ )
+ ( /4A0869EC/4B0B425A $noname  V747 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_15-EBI_A15 )
+ )
+ ( /4A0869EC/4B0B4259 $noname  V746 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+ )
+ ( /4A0869EC/4B0B4258 $noname  V745 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_13-EBI_A13 )
+ )
+ ( /4A0869EC/4B0B4257 $noname  V744 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_12-EBI_A12 )
+ )
+ ( /4A0869EC/4B0B4256 $noname  V743 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_11-EBI_A11 )
+ )
+ ( /4A0869EC/4B0B4255 $noname  V742 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+ )
+ ( /4A0869EC/4B0B4254 $noname  V741 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+ )
+ ( /4A0869EC/4B0B4253 $noname  V740 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_8-EBI_A8 )
+ )
+ ( /4A0869EC/4B0B4252 $noname  V738 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_6-EBI_A6 )
+ )
+ ( /4A0869EC/4B0B4251 $noname  V737 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+ )
+ ( /4A0869EC/4B0B4250 $noname  V736 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_4-EBI_A4 )
+ )
+ ( /4A0869EC/4B0B424F $noname  V735 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+ )
+ ( /4A0869EC/4B0B424E $noname  V734 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+ )
+ ( /4A0869EC/4B0B424D $noname  V733 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1 )
+ )
+ ( /4A0869EC/4B0B424C $noname  V732 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4B0B424B $noname  V749 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_CSB-EBI_nSTCS0 )
+ )
+ ( /4A0869EC/4B0B424A $noname  V739 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+ )
+ ( /4A0869EC/4B0B4249 $noname  V751 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+ )
+ ( /4A0869EC/4B0B4248 $noname  V750 VIA {Lib=VIA}
+  (    1 N-000085 )
+ )
+ ( /4A0869EC/4B0B4247 $noname  V748 VIA {Lib=VIA}
+  (    1 /Memory/CKE )
+ )
+ ( /4A0869EC/4B0B4246 $noname  V752 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4A6AAB86 $noname  V685 VIA {Lib=VIA}
+  (    1 N-000003 )
+ )
+ ( /4A0869EC/4A03F100 $noname  V283 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TDI )
+ )
+ ( /4A0869EC/4A03F0FF $noname  V282 VIA {Lib=VIA}
+  (    1 /LPC313x/JTAGSEL )
+ )
+ ( /4A0869EC/4A03F0FC $noname  V279 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/SYSCLK_O )
+ )
+ ( /4A0869EC/4A03F0FA $noname  V277 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/CLOCK_OUT )
+ )
+ ( /4A0869EC/4A03F0E7 $noname  V317 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MOSI )
+ )
+ ( /4A0869EC/4A03F0E6 $noname  V316 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_MISO )
+ )
+ ( /4A0869EC/4A03F0E4 $noname  V314 VIA {Lib=VIA}
+  (    1 /LPC313x/SPI_CS_OUT0 )
+ )
+ ( /4A0869EC/4A03F0D0 $noname  V294 VIA {Lib=VIA}
+  (    1 /LPC313x/USB_RREF )
+ )
+ ( /4A0869EC/4A03F0CF $noname  V293 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/USB_ID )
+ )
+ ( /4A0869EC/4A03F0CE $noname  V292 VIA {Lib=VIA}
+  (    1 N-000003 )
+ )
+ ( /4A0869EC/4A03F0CA $noname  V288 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/ARM_TDO )
+ )
+ ( /4A0869EC/4A03F0C9 $noname  V287 VIA {Lib=VIA}
+  (    1 /LPC313x/SCAN_TDO )
+ )
+ ( /4A0869EC/4A03F0C8 $noname  V286 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TMS )
+ )
+ ( /4A0869EC/4A03F0C7 $noname  V285 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/TCK )
+ )
+ ( /4A0869EC/4A03F0C6 $noname  V284 VIA {Lib=VIA}
+  (    1 /LPC313x/TRST_N )
+ )
+ ( /4A0869EC/4A03F0AE $noname  V251 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_15-EBI_A15 )
+ )
+ ( /4A0869EC/4A03F0AD $noname  V250 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_14-EBI_A14 )
+ )
+ ( /4A0869EC/4A03F0AC $noname  V249 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_13-EBI_A13 )
+ )
+ ( /4A0869EC/4A03F0AB $noname  V248 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_12-EBI_A12 )
+ )
+ ( /4A0869EC/4A03F0AA $noname  V247 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_11-EBI_A11 )
+ )
+ ( /4A0869EC/4A03F0A9 $noname  V246 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_10-EBI_A10 )
+ )
+ ( /4A0869EC/4A03F0A8 $noname  V245 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_9-EBI_A9 )
+ )
+ ( /4A0869EC/4A03F0A7 $noname  V244 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_8-EBI_A8 )
+ )
+ ( /4A0869EC/4A03F0A5 $noname  V242 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_6-EBI_A6 )
+ )
+ ( /4A0869EC/4A03F0A4 $noname  V241 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_5-EBI_A5 )
+ )
+ ( /4A0869EC/4A03F0A3 $noname  V240 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_4-EBI_A4 )
+ )
+ ( /4A0869EC/4A03F0A2 $noname  V239 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_3-EBI_A3 )
+ )
+ ( /4A0869EC/4A03F0A1 $noname  V238 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_2-EBI_A2 )
+ )
+ ( /4A0869EC/4A03F0A0 $noname  V237 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1 )
+ )
+ ( /4A0869EC/4A03F09F $noname  V236 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4A023EDA $noname  V63 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_CSB-EBI_nSTCS0 )
+ )
+ ( /4A0869EC/4A054E25 $noname  V419 VIA {Lib=VIA}
+  (    1 /LPC313x/JTAGSEL )
+ )
+ ( /4A0869EC/4A054DE9 $noname  V418 VIA {Lib=VIA}
+  (    1 /LPC313x/JTAGSEL )
+ )
+ ( /4A0869EC/4A054BAD $noname  V413 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO0 )
+ )
+ ( /4A0869EC/4A054BAB $noname  V412 VIA {Lib=VIA}
+  (    1 /LPC313x/GPIO1 )
+ )
+ ( /4A0869EC/4A0549CA $noname  V411 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/USB_ID )
+ )
+ ( /4A0869EC/4A0815BB $noname  V574 VIA {Lib=VIA}
+  (    1 /Memory/DAT2 )
+ )
+ ( /4A0869EC/4A02A30C $noname  V139 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_DB_7-EBI_A7 )
+ )
+ ( /4A0869EC/4A02A216 $noname  V134 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+ )
+ ( /4A0869EC/4B09D585 $noname  V717 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RW_WR-EBI_DQM1 )
+ )
+ ( /4A0869EC/4B09D584 $noname  V716 VIA {Lib=VIA}
+  (    1 N-000085 )
+ )
+ ( /4A0869EC/4B09D583 $noname  V715 VIA {Lib=VIA}
+  (    1 /Memory/CKE )
+ )
+ ( /4A0869EC/4B09D582 $noname  V713 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/mLCD_RS-EBI_NDYCS )
+ )
+ ( /4A0869EC/4B09D580 $noname  V714 VIA {Lib=VIA}
+  (    1 /LPC313x/mLCD_DB_0-EBI_CLKOUT )
+ )
+ ( /4A0869EC/4B09D57F $noname  V712 VIA {Lib=VIA}
+  (    1 /Connectors_JTAG/EBI_nRAS-BLOUT_1 )
+ )
+ ( /4A0869EC/4B09D57C $noname  V711 VIA {Lib=VIA}
+  (    1 /Memory/nCAS )
+ )
+ ( /4A0869EC/4B09D575 $noname  V710 VIA {Lib=VIA}
+  (    1 /LPC313x/EBI_nWE )
+ )
+)
+*
+{ Allowed footprints by component:
+$component MLT63
+ MuSelf
+$endlist
+$component MLT64
+ MuSelf
+$endlist
+$component MLT66
+ MuSelf
+$endlist
+$component MLT65
+ MuSelf
+$endlist
+$component MLT62
+ MuSelf
+$endlist
+$component MLT61
+ MuSelf
+$endlist
+$component MLT60
+ MuSelf
+$endlist
+$component MLT59
+ MuSelf
+$endlist
+$component MLT58
+ MuSelf
+$endlist
+$component MLT57
+ MuSelf
+$endlist
+$component MLT56
+ MuSelf
+$endlist
+$component MLT55
+ MuSelf
+$endlist
+$component MLT54
+ MuSelf
+$endlist
+$component MLT53
+ MuSelf
+$endlist
+$component MLT52
+ MuSelf
+$endlist
+$component MLT51
+ MuSelf
+$endlist
+$component MLT50
+ MuSelf
+$endlist
+$component MLT49
+ MuSelf
+$endlist
+$component MLT47
+ MuSelf
+$endlist
+$component MLT46
+ MuSelf
+$endlist
+$component MLT45
+ MuSelf
+$endlist
+$component MLT44
+ MuSelf
+$endlist
+$component MLT43
+ MuSelf
+$endlist
+$component MLT42
+ MuSelf
+$endlist
+$component MLT41
+ MuSelf
+$endlist
+$component MLT39
+ MuSelf
+$endlist
+$component MLT38
+ MuSelf
+$endlist
+$component MLT37
+ MuSelf
+$endlist
+$component MLT36
+ MuSelf
+$endlist
+$component MLT35
+ MuSelf
+$endlist
+$component MLT34
+ MuSelf
+$endlist
+$component MLT33
+ MuSelf
+$endlist
+$component MLT32
+ MuSelf
+$endlist
+$component MLT31
+ MuSelf
+$endlist
+$component MLT30
+ MuSelf
+$endlist
+$component MLT29
+ MuSelf
+$endlist
+$component MLT28
+ MuSelf
+$endlist
+$component MLT27
+ MuSelf
+$endlist
+$component MLT26
+ MuSelf
+$endlist
+$component MLT25
+ MuSelf
+$endlist
+$component MLT24
+ MuSelf
+$endlist
+$component MLT23
+ MuSelf
+$endlist
+$component MLT22
+ MuSelf
+$endlist
+$component MLT21
+ MuSelf
+$endlist
+$component MLT20
+ MuSelf
+$endlist
+$component MLT19
+ MuSelf
+$endlist
+$component MLT17
+ MuSelf
+$endlist
+$component MLT18
+ MuSelf
+$endlist
+$component MLT16
+ MuSelf
+$endlist
+$component MLT15
+ MuSelf
+$endlist
+$component MLT13
+ MuSelf
+$endlist
+$component MLT14
+ MuSelf
+$endlist
+$component MLT12
+ MuSelf
+$endlist
+$component MLT10
+ MuSelf
+$endlist
+$component MLT11
+ MuSelf
+$endlist
+$component MLT7
+ MuSelf
+$endlist
+$component MLT8
+ MuSelf
+$endlist
+$component MLT9
+ MuSelf
+$endlist
+$component MLT6
+ MuSelf
+$endlist
+$component MLT5
+ MuSelf
+$endlist
+$component MLT4
+ MuSelf
+$endlist
+$component MLT3
+ MuSelf
+$endlist
+$component MLT2
+ MuSelf
+$endlist
+$component MLT1
+ MuSelf
+$endlist
+$component U10
+ SOT23
+ SOT23-5
+ SOT23-6
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/LPC313x/XTALo" "XTALo"
+ IC1 B10
+ C1 1
+ X1 1
+Net 2 "/LPC313x/XTALi" "XTALi"
+ C2 1
+ IC1 A10
+ X1 3
+Net 3 "" ""
+ R1 2
+ L1 1
+ V292 1
+ V685 1
+Net 4 "VDDA12" "VDDA12"
+ V660 1
+ R17 1
+ C38 1
+ C25 1
+ IC1 L1
+ C78 1
+Net 5 "" ""
+ IC1 L2
+ R1 1
+Net 6 "VDDI" "VDDI"
+ C79 1
+ C74 1
+ C66 1
+ C64 1
+ C62 1
+ V220 1
+ V219 1
+ R17 2
+ C34 1
+ L6 1
+ C27 1
+ C21 1
+ C17 1
+ V115 1
+ V88 1
+ V59 1
+ IC1 C6
+ IC1 C12
+ IC1 H3
+ IC1 L7
+ IC1 L12
+ IC1 A9
+ IC1 C9
+ V58 1
+ IC1 D11
+ IC1 E10
+ V41 1
+ V35 1
+Net 7 "VDDA3_USB" "VDDA3_USB"
+ V664 1
+ L9 1
+ V705 1
+ C40 1
+ C26 1
+ IC1 P1
+Net 8 "VDDA3" "VDDA3"
+ IC1 M2
+ C33 1
+ C32 1
+ C39 1
+ L7 1
+ V661 1
+Net 9 "GND" "GND"
+ V623 1
+ P10 45
+ P10 47
+ P10 2
+ V622 1
+ U2 4
+ V620 1
+ V629 1
+ V626 1
+ V630 1
+ V658 1
+ V659 1
+ V662 1
+ C53 2
+ C54 2
+ IC1 A11
+ IC1 C7
+ IC1 D12
+ IC1 G4
+ IC1 L6
+ IC1 L11
+ IC1 C3
+ IC1 C4
+ IC1 E4
+ IC1 F4
+ IC1 H4
+ IC1 K3
+ IC1 M3
+ IC1 M4
+ IC1 M6
+ IC1 M8
+ IC1 B12
+ IC1 D6
+ IC1 D8
+ IC1 D9
+ IC1 G11
+ IC1 L9
+ IC1 L13
+ IC1 A12
+ IC1 E9
+ IC1 L3
+ IC1 N1
+ IC1 K4
+ C55 2
+ C56 2
+ V624 1
+ C57 2
+ R36 1
+ V663 1
+ C60 2
+ Q1 2
+ V632 1
+ R78 2
+ IC7 A3
+ IC7 H1
+ IC7 H6
+ C44 2
+ C45 2
+ C41 2
+ C49 2
+ IC17 7
+ C42 2
+ C43 2
+ V758 1
+ V757 1
+ V756 1
+ V755 1
+ V754 1
+ V753 1
+ U8 17
+ U8 16
+ U8 6
+ V764 1
+ U8 3
+ V763 1
+ V762 1
+ V761 1
+ V760 1
+ V759 1
+ V723 1
+ V722 1
+ V721 1
+ V720 1
+ V719 1
+ V718 1
+ V6 1
+ V729 1
+ V728 1
+ V727 1
+ V726 1
+ V725 1
+ V724 1
+ V7 1
+ V9 1
+ V12 1
+ V709 1
+ V708 1
+ L10 1
+ V14 1
+ V11 1
+ V13 1
+ IC12 2
+ U4 20
+ U4 18
+ V43 1
+ U4 16
+ U4 14
+ U4 12
+ V44 1
+ U4 10
+ U4 8
+ C2 2
+ C1 2
+ V654 1
+ V45 1
+ V46 1
+ V47 1
+ V48 1
+ IC14 A3
+ U4 6
+ V49 1
+ V595 1
+ IC14 B7
+ IC14 C3
+ IC14 D7
+ V648 1
+ V604 1
+ V602 1
+ V600 1
+ V649 1
+ P3 1
+ P4 1
+ V73 1
+ P5 1
+ P6 1
+ P7 1
+ V109 1
+ V110 1
+ V111 1
+ V655 1
+ U10 3
+ V112 1
+ P8 1
+ V606 1
+ V605 1
+ V587 1
+ V143 1
+ V144 1
+ V145 1
+ V146 1
+ C17 2
+ V586 1
+ C21 2
+ U4 4
+ C27 2
+ JP0 3
+ C26 2
+ JP2 1
+ C33 2
+ JP1 3
+ C40 2
+ C25 2
+ C38 2
+ V650 1
+ C34 2
+ V584 1
+ C18 2
+ C22 2
+ C28 2
+ C35 2
+ C19 2
+ R26 1
+ C29 2
+ C20 2
+ V147 1
+ C24 2
+ C37 2
+ V148 1
+ V645 1
+ C32 2
+ R31 1
+ C39 2
+ V149 1
+ V150 1
+ V151 1
+ V583 1
+ V651 1
+ V652 1
+ IC2 2
+ V222 1
+ SW1 1
+ V223 1
+ V224 1
+ V225 1
+ V333 1
+ R8 1
+ IC4 1
+ V334 1
+ V653 1
+ C62 2
+ C64 2
+ C65 2
+ C66 2
+ C67 2
+ C68 2
+ C69 2
+ C70 2
+ C73 2
+ C74 2
+ C50 2
+ C61 2
+ C48 2
+ C51 2
+ V363 1
+ C52 2
+ C76 2
+ V364 1
+ C77 2
+ C78 2
+ C79 2
+ V365 1
+ C80 2
+ V589 1
+ V449 1
+ V450 1
+ V451 1
+ V452 1
+ V453 1
+ V588 1
+ V454 1
+ V455 1
+ C58 2
+ C85 2
+ V456 1
+ U11 1
+ V457 1
+ V540 1
+ C86 2
+ C87 2
+ V458 1
+ V539 1
+ V538 1
+ V531 1
+ V533 1
+ V534 1
+ V535 1
+ V547 1
+ V548 1
+ V537 1
+ IC14 A1
+ IC14 E3
+ IC14 J1
+ V542 1
+ V543 1
+ V544 1
+ V545 1
+Net 10 "VDD18" "VDD18"
+ C87 1
+ U11 4
+ U11 2
+ C85 1
+ C58 1
+ V446 1
+ V445 1
+ V379 1
+ C76 1
+ V354 1
+ C51 1
+ C48 1
+ C61 1
+ C50 1
+ V353 1
+ V184 1
+ C29 1
+ C19 1
+ C35 1
+ C28 1
+ C22 1
+ C18 1
+ V133 1
+ V117 1
+ IC1 B2
+ U10 5
+ IC1 E5
+ IC1 G5
+ V53 1
+ V51 1
+ V611 1
+ V609 1
+ IC1 H5
+ IC1 F5
+ V40 1
+ V38 1
+ R23 2
+ IC1 L4
+ IC1 M5
+ IC1 M7
+ IC1 M9
+ P10 3
+ V910 1
+ R18 2
+ V909 1
+ V804 1
+ C43 1
+ C42 1
+ C41 1
+ V803 1
+ C44 1
+ R19 2
+ V908 1
+ V907 1
+ IC7 G4
+ IC7 F6
+ IC14 D3
+ IC14 C7
+ IC14 B3
+ IC14 A7
+ IC14 J9
+ IC14 E7
+ IC14 A9
+ V888 1
+ C57 1
+ C53 1
+ C56 1
+ C55 1
+ C54 1
+Net 11 "/LPC313x/RESET_SUP3" "RESET_SUP3"
+ IC1 H14
+ V423 1
+ V424 1
+ V425 1
+ V422 1
+ IC2 4
+ IC2 6
+ R2 1
+ R85 1
+ IC17 3
+ IC17 5
+ R57 1
+ V608 1
+ V221 1
+ P10 49
+ V210 1
+ V640 1
+Net 12 "/Connectors_JTAG/GPIO11" "GPIO11"
+ P13 1
+ IC1 H13
+Net 13 "/LPC313x/GPIO3" "GPIO3"
+ IC1 B11
+ P11 16
+ V263 1
+Net 14 "/Connectors_JTAG/GPIO2" "GPIO2"
+ IC1 L14
+ V383 1
+ Q1 1
+ R73 2
+ V262 1
+Net 15 "/LPC313x/GPIO1" "GPIO1"
+ V75 1
+ V412 1
+ IC1 J10
+ R75 2
+Net 16 "/LPC313x/GPIO0" "GPIO0"
+ V413 1
+ V74 1
+ IC1 K10
+ R74 2
+Net 17 "/Connectors_JTAG/mNAND_RYBN2-MCI_DAT6" "mNAND_RYBN2-MCI_DAT6"
+ V684 1
+ V683 1
+ IC1 B4
+Net 18 "/LPC313x/NAND_NCS_3" "NAND_NCS_3"
+ V777 1
+ IC1 K2
+Net 19 "/LPC313x/mLCD_DB_15-EBI_A15" "mLCD_DB_15-EBI_A15"
+ IC1 N3
+ V747 1
+ P10 6
+ V869 1
+ V251 1
+Net 20 "/Connectors_JTAG/mLCD_DB_14-EBI_A14" "mLCD_DB_14-EBI_A14"
+ V250 1
+ P10 5
+ MLT32 1
+ V868 1
+ V746 1
+ IC1 P3
+Net 21 "/LPC313x/mLCD_DB_13-EBI_A13" "mLCD_DB_13-EBI_A13"
+ P10 8
+ V867 1
+ IC1 P4
+ V249 1
+ MLT30 1
+ V745 1
+Net 22 "/LPC313x/mLCD_DB_12-EBI_A12" "mLCD_DB_12-EBI_A12"
+ V56 1
+ V866 1
+ P10 7
+ IC1 K5
+ MLT28 1
+ V248 1
+ V744 1
+Net 23 "/LPC313x/mLCD_DB_11-EBI_A11" "mLCD_DB_11-EBI_A11"
+ P10 10
+ V247 1
+ MLT23 1
+ V865 1
+ IC1 N4
+ V743 1
+Net 24 "/LPC313x/mLCD_DB_10-EBI_A10" "mLCD_DB_10-EBI_A10"
+ V50 1
+ MLT29 1
+ IC1 K7
+ V864 1
+ V100 1
+ P10 9
+ V246 1
+ V742 1
+Net 25 "/Connectors_JTAG/mLCD_DB_9-EBI_A9" "mLCD_DB_9-EBI_A9"
+ MLT20 1
+ V245 1
+ P10 12
+ V741 1
+ V57 1
+ V101 1
+ V863 1
+ IC1 L5
+Net 26 "/LPC313x/mLCD_DB_8-EBI_A8" "mLCD_DB_8-EBI_A8"
+ IC1 N5
+ V862 1
+ P10 11
+ V740 1
+ V244 1
+ MLT17 1
+Net 27 "/Connectors_JTAG/mLCD_DB_7-EBI_A7" "mLCD_DB_7-EBI_A7"
+ MLT13 1
+ V739 1
+ P10 14
+ V139 1
+ IC1 P5
+ V861 1
+Net 28 "/LPC313x/mLCD_DB_6-EBI_A6" "mLCD_DB_6-EBI_A6"
+ P10 13
+ V242 1
+ IC1 K6
+ V860 1
+ V738 1
+ MLT14 1
+ V54 1
+Net 29 "/Connectors_JTAG/mLCD_DB_5-EBI_A5" "mLCD_DB_5-EBI_A5"
+ V524 1
+ MLT10 1
+ V859 1
+ V737 1
+ P10 16
+ V241 1
+ IC1 P7
+Net 30 "/LPC313x/mLCD_DB_4-EBI_A4" "mLCD_DB_4-EBI_A4"
+ MLT9 2
+ P10 15
+ V485 1
+ IC1 N7
+ V736 1
+ V858 1
+ V240 1
+Net 31 "/Connectors_JTAG/mLCD_DB_3-EBI_A3" "mLCD_DB_3-EBI_A3"
+ V857 1
+ V735 1
+ P10 18
+ IC1 P6
+ V239 1
+ MLT8 1
+Net 32 "/Connectors_JTAG/mLCD_DB_2-EBI_A2" "mLCD_DB_2-EBI_A2"
+ MLT7 2
+ V238 1
+ V856 1
+ V734 1
+ P10 17
+ IC1 N6
+Net 33 "/Connectors_JTAG/mLCD_DB_1-EBI_nSTCS1" "mLCD_DB_1-EBI_nSTCS1"
+ V855 1
+ P10 20
+ V733 1
+ V237 1
+ IC1 P9
+Net 34 "/LPC313x/mLCD_DB_0-EBI_CLKOUT" "mLCD_DB_0-EBI_CLKOUT"
+ V752 1
+ IC1 N8
+ V874 1
+ V714 1
+ V854 1
+ V732 1
+ P10 19
+ MLT6 2
+ V236 1
+Net 35 "/LPC313x/EBI_A1-CLE" "EBI_A1-CLE"
+ V795 1
+ V834 1
+ V836 1
+ V838 1
+ IC7 B3
+ IC1 A2
+ MLT54 1
+ P10 28
+Net 36 "/LPC313x/EBI_A0-ALE" "EBI_A0-ALE"
+ MLT52 1
+ P10 26
+ IC1 B3
+ V794 1
+ V833 1
+ V835 1
+ IC7 A2
+ V837 1
+Net 37 "/LPC313x/EBI_nWE" "EBI_nWE"
+ MLT62 1
+ V710 1
+ IC1 J2
+ V796 1
+Net 39 "/Connectors_JTAG/EBI_nCAS-BLOUT_0" "EBI_nCAS-BLOUT_0"
+ V843 1
+ MLT42 2
+ V797 1
+ IC1 G1
+Net 40 "/Connectors_JTAG/EBI_D_15" "EBI_D_15"
+ V811 1
+ V778 1
+ V459 1
+ IC1 F3
+ MLT39 2
+ V94 1
+Net 41 "/Connectors_JTAG/EBI_D_14" "EBI_D_14"
+ V93 1
+ IC1 E3
+ V155 1
+ MLT38 2
+ V779 1
+ V808 1
+Net 42 "/Connectors_JTAG/EBI_D_13" "EBI_D_13"
+ V92 1
+ MLT37 2
+ IC1 D3
+ V780 1
+ V809 1
+Net 43 "/LPC313x/EBI_D_12" "EBI_D_12"
+ V91 1
+ IC1 G3
+ MLT36 2
+ V781 1
+Net 44 "/Connectors_JTAG/EBI_D_11" "EBI_D_11"
+ IC1 C2
+ V815 1
+ V782 1
+ V463 1
+ V895 1
+ RP1 13
+ P10 34
+Net 45 "/LPC313x/EBI_D_10" "EBI_D_10"
+ MLT35 2
+ V783 1
+ IC1 A1
+Net 46 "/Connectors_JTAG/EBI_D_9" "EBI_D_9"
+ V199 1
+ V465 1
+ P10 36
+ RP1 15
+ V346 1
+ IC1 A3
+ V897 1
+ V817 1
+ V784 1
+Net 47 "/LPC313x/EBI_D_8" "EBI_D_8"
+ P10 35
+ V785 1
+ V898 1
+ MLT33 2
+ IC1 B1
+ V818 1
+Net 48 "/Connectors_JTAG/EBI_D_7" "EBI_D_7"
+ V819 1
+ V786 1
+ V878 1
+ RP2 9
+ V899 1
+ P10 38
+ IC7 G6
+ IC1 C1
+Net 49 "/Connectors_JTAG/EBI_D_6" "EBI_D_6"
+ V787 1
+ IC1 D2
+ MLT49 2
+Net 50 "/Connectors_JTAG/EBI_D_5" "EBI_D_5"
+ V788 1
+ MLT56 2
+ IC1 D1
+Net 51 "/LPC313x/EBI_D_4" "EBI_D_4"
+ V789 1
+ MLT57 2
+ IC1 E2
+Net 52 "/Connectors_JTAG/EBI_D_3" "EBI_D_3"
+ V790 1
+ MLT58 2
+ IC1 E1
+Net 53 "/Connectors_JTAG/EBI_D_2" "EBI_D_2"
+ IC1 F1
+ V791 1
+ MLT59 2
+ V827 1
+Net 54 "/LPC313x/EBI_D_1" "EBI_D_1"
+ V828 1
+ MLT60 2
+ V792 1
+ IC1 F2
+Net 55 "/Connectors_JTAG/EBI_D_0" "EBI_D_0"
+ IC1 G2
+ V793 1
+ V832 1
+ MLT61 2
+Net 56 "/LPC313x/I2C_SCL0" "I2C_SCL0"
+ V82 1
+ IC1 D10
+ P11 4
+Net 57 "/LPC313x/I2C_SDA0" "I2C_SDA0"
+ IC1 C10
+ V90 1
+ P11 6
+Net 58 "/LPC313x/UART_TXD" "UART_TXD"
+ P11 3
+ IC1 N12
+Net 59 "/LPC313x/UART_RXD" "UART_RXD"
+ IC1 P12
+ P11 1
+Net 60 "/Connectors_JTAG/mUART_RTS_N" "mUART_RTS_N"
+ IC1 P14
+ P11 5
+Net 61 "/Connectors_JTAG/mUART_CTS_N" "mUART_CTS_N"
+ P11 7
+ IC1 N13
+Net 62 "/LPC313x/SPI_MOSI" "SPI_MOSI"
+ V434 1
+ V317 1
+ V429 1
+ IC17 1
+ IC1 B7
+ P11 12
+Net 63 "/LPC313x/SPI_MISO" "SPI_MISO"
+ V433 1
+ R35 1
+ P11 14
+ IC1 C8
+ V428 1
+ V316 1
+Net 64 "/Connectors_JTAG/SPI_SCK" "SPI_SCK"
+ IC17 2
+ IC1 A8
+ P11 10
+Net 65 "/LPC313x/mI2STX_CLK0" "mI2STX_CLK0"
+ P14 1
+ IC1 N14
+Net 66 "/LPC313x/mI2STX_BCK0" "mI2STX_BCK0"
+ P15 1
+ IC1 M12
+Net 67 "/Connectors_JTAG/I2SRX_WS1" "I2SRX_WS1"
+ P11 13
+ IC1 F13
+Net 68 "/Connectors_JTAG/I2SRX_BCK1" "I2SRX_BCK1"
+ P11 15
+ IC1 F14
+Net 69 "/Connectors_JTAG/I2SRX_DATA1" "I2SRX_DATA1"
+ IC1 G14
+ P11 11
+Net 70 "/LPC313x/ADC10B_GPA3" "ADC10B_GPA3"
+ IC1 C14
+ P11 17
+Net 71 "/LPC313x/ADC10B_GPA2" "ADC10B_GPA2"
+ P11 21
+ IC1 B13
+Net 72 "/LPC313x/ADC10B_GPA1" "ADC10B_GPA1"
+ P11 23
+ IC1 A14
+Net 73 "/LPC313x/ADC10B_GPA0" "ADC10B_GPA0"
+ P11 19
+ IC1 B14
+Net 74 "/LPC313x/USB_RREF" "USB_RREF"
+ IC1 J5
+ R26 2
+ V55 1
+ V294 1
+Net 75 "/Connectors_JTAG/USB_ID" "USB_ID"
+ V293 1
+ V411 1
+ U2 6
+ IC1 M1
+ R31 2
+ CR1 2
+ V689 1
+ V178 1
+Net 76 "/Connectors_JTAG/ARM_TDO" "ARM_TDO"
+ IC1 E11
+ V288 1
+ IC12 1
+ V79 1
+Net 77 "/LPC313x/SCAN_TDO" "SCAN_TDO"
+ IC12 3
+ V287 1
+ IC1 F10
+ V80 1
+Net 78 "/Connectors_JTAG/TMS" "TMS"
+ V286 1
+ V386 1
+ IC1 P10
+ U4 7
+ R80 1
+Net 79 "/Connectors_JTAG/TCK" "TCK"
+ U4 9
+ V390 1
+ R79 1
+ V285 1
+ IC1 M14
+Net 80 "/LPC313x/TRST_N" "TRST_N"
+ D1 1
+ U4 3
+ R82 1
+ V384 1
+ IC1 P13
+ V284 1
+Net 81 "/Connectors_JTAG/TDI" "TDI"
+ IC1 K9
+ R81 1
+ U4 5
+ V283 1
+ V65 1
+Net 82 "/LPC313x/JTAGSEL" "JTAGSEL"
+ V385 1
+ V282 1
+ V418 1
+ V419 1
+ D1 2
+ IC1 N11
+ R76 1
+ IC12 6
+Net 83 "/Connectors_JTAG/PWM_DATA" "PWM_DATA"
+ P11 2
+ IC1 B9
+ P11 8
+Net 84 "/LPC313x/CLK_256FS_O" "CLK_256FS_O"
+ IC1 H12
+ P11 9
+Net 85 "" ""
+ V716 1
+ MLT55 1
+ IC1 H1
+ V750 1
+ V801 1
+ V872 1
+Net 87 "" ""
+ R57 2
+ U10 2
+Net 88 "/Power/RESET_SUP4" "RESET_SUP4"
+ R85 2
+ IC7 A1
+ U10 4
+ V889 1
+Net 89 "VDD12" "VDD12"
+ C7 1
+ L6 2
+ IC3 4
+ R61 2
+Net 92 "" ""
+ IC3 5
+ R62 2
+ R61 1
+Net 93 "VSYS" "VSYS"
+ C81 1
+ C86 1
+ U11 3
+ C63 1
+ V21 1
+ V619 1
+ L3 1
+ IC6 6
+ IC3 6
+Net 94 "" ""
+ R27 1
+ V698 1
+ U4 15
+ V696 1
+ IC2 1
+Net 95 "" ""
+ IC4 3
+ SW1 2
+ R13 1
+Net 96 "VSUP3" "VSUP3"
+ V118 1
+ C20 1
+ C24 1
+ C37 1
+ L7 2
+ R77 2
+ R79 2
+ R82 2
+ R80 2
+ IC1 C13
+ R81 2
+ JP0 1
+ IC1 D5
+ JP2 3
+ IC1 D7
+ IC1 E8
+ R2 2
+ IC1 G12
+ IC2 5
+ R13 2
+ R76 2
+ IC1 L10
+ IC4 4
+ C65 1
+ C67 1
+ C68 1
+ C69 1
+ C70 1
+ C73 1
+ C52 1
+ L9 2
+ C77 1
+ P10 4
+ C80 1
+ V87 1
+ V367 1
+ V374 1
+ V410 1
+ V415 1
+ V417 1
+ V62 1
+ JP1 1
+ V447 1
+ V448 1
+ L11 1
+ R33 2
+ V52 1
+ IC12 5
+ R27 2
+ V123 1
+ V366 1
+ V614 1
+ R29 2
+ V39 1
+ R34 2
+ IC17 6
+ C49 1
+ C45 1
+ C60 1
+ U4 2
+ V22 1
+ IC1 A13
+ V707 1
+ U8 4
+ IC1 K11
+Net 97 "VDD" "VDD"
+ R71 2
+ C16 1
+ V704 1
+ L11 2
+ IC6 4
+ V703 1
+Net 98 "GNDPWR" "GNDPWR"
+ CR1 1
+ IC21 1
+ IC3 7
+ C81 2
+ IC3 2
+ R62 1
+ R24 1
+ R25 1
+ L10 2
+ C7 2
+ V701 1
+ C16 2
+ U2 5
+ IC6 2
+ IC6 7
+ R72 1
+ C63 2
+ V690 1
+ V691 1
+ V692 1
+ V693 1
+Net 101 "" ""
+ R72 2
+ R71 1
+ IC6 5
+Net 102 "/Power/nRST" "nRST"
+ V699 1
+ IC2 3
+ V409 1
+ V407 1
+ V408 1
+ IC4 2
+ R8 2
+ D1 3
+ V700 1
+Net 103 "" ""
+ MLT6 1
+ MLT5 1
+Net 104 "" ""
+ MLT5 2
+ MLT4 2
+Net 105 "" ""
+ MLT2 2
+ MLT1 1
+Net 107 "" ""
+ R35 2
+ IC17 8
+Net 108 "/Memory/UDQM" "UDQM"
+ IC14 F1
+ MLT1 2
+ V802 1
+Net 109 "" ""
+ IC14 F2
+ MLT4 1
+Net 110 "/Memory/nCS" "nCS"
+ V799 1
+ IC14 G9
+ MLT3 2
+Net 111 "/Memory/DQ7" "DQ7"
+ IC14 E9
+ RP2 8
+Net 112 "/Memory/DQ6" "DQ6"
+ IC14 D8
+ RP2 7
+Net 113 "/Memory/DQ5" "DQ5"
+ RP2 6
+ IC14 D9
+Net 114 "/Memory/DQ4" "DQ4"
+ IC14 C8
+ RP2 5
+Net 115 "/Memory/DQ3" "DQ3"
+ RP2 4
+ IC14 C9
+Net 116 "/Memory/DQ2" "DQ2"
+ RP2 3
+ IC14 B8
+Net 117 "/Memory/DQ1" "DQ1"
+ RP2 2
+ IC14 B9
+Net 118 "/Memory/DQ0" "DQ0"
+ IC14 A8
+ RP2 1
+Net 119 "/Memory/DQ15" "DQ15"
+ IC14 A2
+ RP1 8
+Net 120 "/Memory/DQ14" "DQ14"
+ RP1 7
+ IC14 B1
+Net 121 "/Memory/DQ13" "DQ13"
+ RP1 6
+ IC14 B2
+Net 122 "/Memory/DQ12" "DQ12"
+ RP1 5
+ IC14 C1
+Net 123 "/Memory/DQ11" "DQ11"
+ RP1 4
+ IC14 C2
+Net 124 "/Memory/DQ10" "DQ10"
+ IC14 D1
+ RP1 3
+Net 125 "/Memory/DQ9" "DQ9"
+ RP1 2
+ IC14 D2
+Net 126 "/Memory/DQ8" "DQ8"
+ IC14 E1
+ RP1 1
+Net 128 "/Memory/A4" "A4"
+ MLT9 1
+ IC14 J3
+Net 129 "/Memory/A3" "A3"
+ IC14 J7
+ MLT8 2
+Net 130 "/Memory/A2" "A2"
+ IC14 J8
+ MLT7 1
+Net 131 "/Memory/A5" "A5"
+ MLT11 2
+ IC14 J2
+Net 132 "" ""
+ MLT12 1
+ MLT10 2
+Net 133 "" ""
+ MLT11 1
+ MLT12 2
+Net 134 "/Memory/A6" "A6"
+ V767 1
+ IC14 H3
+ V766 1
+ V765 1
+ MLT14 2
+Net 135 "/Memory/A7v" "A7v"
+ V768 1
+ MLT15 1
+ MLT13 2
+Net 136 "" ""
+ MLT16 1
+ MLT15 2
+Net 137 "/Memory/A7" "A7"
+ MLT16 2
+ IC14 H2
+Net 138 "/Memory/A8v" "A8v"
+ V769 1
+ MLT18 1
+ MLT17 2
+Net 139 "" ""
+ MLT19 1
+ MLT18 2
+Net 140 "/Memory/A8" "A8"
+ IC14 H1
+ MLT19 2
+Net 141 "/Memory/A9" "A9"
+ IC14 G3
+ MLT21 2
+ V770 1
+Net 142 "" ""
+ MLT20 2
+ MLT22 1
+Net 143 "" ""
+ MLT21 1
+ MLT22 2
+Net 144 "" ""
+ MLT24 1
+ MLT23 2
+Net 145 "/Memory/A11v" "A11v"
+ V771 1
+ MLT25 1
+ MLT24 2
+Net 146 "/Memory/A11" "A11"
+ MLT25 2
+ IC14 G2
+Net 147 "/Memory/A12" "A12"
+ MLT26 2
+ V772 1
+ IC14 G1
+Net 148 "" ""
+ MLT26 1
+ MLT27 2
+Net 149 "" ""
+ MLT28 2
+ MLT27 1
+Net 150 "/Memory/A10" "A10"
+ MLT29 2
+ IC14 H9
+Net 151 "" ""
+ MLT30 2
+ MLT31 1
+Net 152 "/Memory/BA0" "BA0"
+ IC14 G7
+ MLT31 2
+ V773 1
+Net 153 "/Memory/BA1" "BA1"
+ IC14 G8
+ MLT32 2
+Net 154 "/Memory/DQ8v" "DQ8v"
+ RP1 16
+ MLT33 1
+Net 155 "/Memory/DQ10v" "DQ10v"
+ RP1 14
+ V896 1
+ MLT34 1
+ V816 1
+ P10 33
+Net 156 "" ""
+ MLT34 2
+ MLT35 1
+Net 157 "/Memory/DQ12v" "DQ12v"
+ V894 1
+ V814 1
+ RP1 12
+ MLT36 1
+ P10 31
+Net 158 "/Memory/DQ13v" "DQ13v"
+ V813 1
+ V893 1
+ MLT37 1
+ P10 32
+ RP1 11
+Net 159 "/Memory/DQ14v" "DQ14v"
+ V812 1
+ MLT38 1
+ V892 1
+ P10 29
+ RP1 10
+Net 160 "/Memory/DQ15v" "DQ15v"
+ RP1 9
+ V891 1
+ P10 30
+ V807 1
+ MLT39 1
+Net 161 "/Memory/DQ6v" "DQ6v"
+ V879 1
+ RP2 10
+ P10 37
+ V820 1
+ IC7 H5
+ MLT41 1
+ V900 1
+Net 162 "/Memory/DQ4v" "DQ4v"
+ P10 39
+ V881 1
+ V822 1
+ V902 1
+ MLT43 1
+ RP2 12
+ IC7 H4
+Net 163 "/Memory/DQ3v" "DQ3v"
+ V823 1
+ IC7 H3
+ MLT44 1
+ RP2 13
+ V903 1
+ P10 42
+ V882 1
+Net 164 "" ""
+ MLT45 2
+ MLT42 1
+Net 165 "/Memory/nCASv" "nCASv"
+ MLT45 1
+ MLT46 1
+ V496 1
+Net 166 "/Memory/nCAS" "nCAS"
+ V711 1
+ IC14 F7
+ MLT46 2
+Net 167 "/Memory/nRAS" "nRAS"
+ MLT47 2
+ IC14 F8
+ V848 1
+ V847 1
+Net 168 "" ""
+ MLT41 2
+ MLT49 1
+Net 169 "/Memory/DQ5v" "DQ5v"
+ V821 1
+ P10 40
+ MLT50 1
+ V901 1
+ RP2 11
+ V880 1
+ IC7 G5
+Net 170 "" ""
+ MLT51 1
+ MLT52 2
+Net 171 "/Memory/A1" "A1"
+ V839 1
+ IC14 H8
+ V841 1
+ MLT53 2
+Net 172 "" ""
+ MLT53 1
+ MLT54 2
+Net 173 "" ""
+ MLT56 1
+ MLT50 2
+Net 174 "" ""
+ MLT57 1
+ MLT43 2
+Net 175 "" ""
+ MLT44 2
+ MLT58 1
+Net 176 "/Memory/DQ2v" "DQ2v"
+ V829 1
+ V883 1
+ V904 1
+ V824 1
+ IC7 H2
+ RP2 14
+ P10 41
+ MLT59 1
+Net 177 "/Memory/DQ1v" "DQ1v"
+ P10 44
+ MLT60 1
+ V830 1
+ V905 1
+ V884 1
+ V825 1
+ RP2 15
+ IC7 G2
+Net 178 "/Memory/DQ0v" "DQ0v"
+ IC7 F2
+ RP2 16
+ V885 1
+ V831 1
+ V826 1
+ P10 43
+ MLT61 1
+ V906 1
+Net 179 "/Memory/A0" "A0"
+ V840 1
+ IC14 H7
+ MLT51 2
+ V842 1
+Net 180 "/Memory/nWE" "nWE"
+ V844 1
+ IC14 F9
+ MLT65 2
+Net 181 "/Memory/LDQM" "LDQM"
+ MLT66 2
+ V846 1
+ IC14 E8
+Net 182 "/Memory/LDQMv2" "LDQMv2"
+ P10 27
+ V852 1
+ V851 1
+ MLT64 2
+ IC7 B2
+ V886 1
+ V876 1
+ V911 1
+ MLT66 1
+Net 183 "/Memory/nWEv" "nWEv"
+ V877 1
+ V849 1
+ MLT62 2
+ IC7 A5
+ P10 50
+ V887 1
+ MLT63 1
+Net 184 "" ""
+ MLT65 1
+ MLT63 2
+Net 185 "/Memory/LDQMv" "LDQMv"
+ V850 1
+ MLT55 2
+ MLT64 1
+Net 188 "" ""
+ JP0 2
+ R74 1
+Net 189 "" ""
+ JP2 2
+ R73 1
+Net 190 "" ""
+ R33 1
+ D2 2
+Net 191 "" ""
+ U4 11
+ R78 1
+Net 192 "" ""
+ U4 1
+ R29 1
+Net 193 "" ""
+ D2 1
+ Q1 3
+Net 194 "" ""
+ JP1 2
+ R75 1
+Net 195 "/Connectors_JTAG/TDO" "TDO"
+ IC12 4
+ U4 13
+ R77 1
+ V694 1
+ V695 1
+Net 198 "/Connectors_JTAG/GPIO20" "GPIO20"
+ P17 1
+ IC1 K13
+Net 200 "/Connectors_JTAG/GPIO18" "GPIO18"
+ V272 1
+ IC1 K14
+Net 201 "/Connectors_JTAG/GPIO17" "GPIO17"
+ IC1 K12
+ V76 1
+Net 203 "/Connectors_JTAG/GPIO15" "GPIO15"
+ IC1 J13
+ P12 1
+Net 204 "/LPC313x/GPIO14" "GPIO14"
+ V268 1
+ IC1 J14
+Net 205 "/LPC313x/GPIO13" "GPIO13"
+ IC1 J12
+ P11 24
+Net 206 "/Connectors_JTAG/GPIO12" "GPIO12"
+ IC1 H10
+ V83 1
+Net 208 "/Connectors_JTAG/mNAND_RYBN3-MCI_DAT7" "mNAND_RYBN3-MCI_DAT7"
+ V69 1
+ V259 1
+ IC1 D4
+Net 209 "/Connectors_JTAG/mNAND_RYBN1-MCI_DAT5" "mNAND_RYBN1-MCI_DAT5"
+ V61 1
+ V370 1
+ IC1 E7
+Net 210 "/LPC313x/mNAND_RYBN0-MCI_DAT4" "mNAND_RYBN0-MCI_DAT4"
+ R18 1
+ IC1 E6
+ V810 1
+ IC7 A6
+ V912 1
+Net 212 "/Connectors_JTAG/NAND_NCS_2" "NAND_NCS_2"
+ P10 46
+ IC1 K1
+ V776 1
+ V806 1
+Net 213 "/LPC313x/NAND_NCS_1" "NAND_NCS_1"
+ V775 1
+ IC1 J3
+Net 214 "/Connectors_JTAG/NAND_NCS_0" "NAND_NCS_0"
+ R19 1
+ IC1 J1
+ V853 1
+ V774 1
+ IC7 A4
+Net 215 "/Connectors_JTAG/mLCD_RW_WR-EBI_DQM1" "mLCD_RW_WR-EBI_DQM1"
+ V717 1
+ P10 23
+ V873 1
+ P10 23
+ V751 1
+ MLT2 1
+ IC1 N9
+Net 216 "/Connectors_JTAG/mLCD_RS-EBI_NDYCS" "mLCD_RS-EBI_NDYCS"
+ IC1 P8
+ V134 1
+ V713 1
+ V875 1
+ P10 24
+ V890 1
+ R23 1
+ MLT3 1
+Net 217 "/Memory/CKE" "CKE"
+ IC14 F3
+ V64 1
+ V800 1
+ V715 1
+ V748 1
+ V870 1
+ R36 2
+ P10 22
+ IC1 L8
+Net 218 "/LPC313x/mLCD_CSB-EBI_nSTCS0" "mLCD_CSB-EBI_nSTCS0"
+ V749 1
+ V871 1
+ V63 1
+ P10 21
+ IC1 K8
+Net 221 "/Connectors_JTAG/EBI_nRAS-BLOUT_1" "EBI_nRAS-BLOUT_1"
+ V712 1
+ IC1 H2
+ P10 25
+ V798 1
+ MLT47 1
+ V845 1
+Net 222 "/LPC313x/MCI_DAT3" "MCI_DAT3"
+ V665 1
+ IC1 A4
+ V671 1
+ U8 1
+Net 223 "/Memory/DAT2" "DAT2"
+ IC1 C5
+ V914 1
+ V574 1
+ V70 1
+ U8 9
+Net 224 "/Memory/DAT1" "DAT1"
+ IC1 B5
+ V667 1
+ V679 1
+ U8 8
+ V673 1
+Net 225 "/Memory/DAT0" "DAT0"
+ U8 7
+ V668 1
+ V680 1
+ V674 1
+ IC1 A5
+Net 226 "/Connectors_JTAG/MCI_CMD" "MCI_CMD"
+ IC1 A6
+ V913 1
+ U8 2
+Net 227 "/Memory/SD_CLK" "SD_CLK"
+ V669 1
+ U8 5
+ V675 1
+ IC1 B6
+ V681 1
+Net 228 "/LPC313x/I2C_SCL1" "I2C_SCL1"
+ IC1 E13
+ P11 20
+Net 229 "/Connectors_JTAG/I2C_SDA1" "I2C_SDA1"
+ IC1 E12
+ P11 18
+Net 231 "/LPC313x/SPI_CS_OUT0" "SPI_CS_OUT0"
+ R34 1
+ IC1 A7
+ IC17 4
+ V426 1
+ V314 1
+Net 232 "/LPC313x/I2STX_WS1" "I2STX_WS1"
+ V81 1
+ IC1 G10
+Net 233 "/Connectors_JTAG/I2STX_BCK1" "I2STX_BCK1"
+ P11 22
+ IC1 E14
+Net 234 "/LPC313x/I2STX_DATA1" "I2STX_DATA1"
+ IC1 F12
+ V84 1
+Net 235 "/LPC313x/mI2STX_WS0" "mI2STX_WS0"
+ IC1 M11
+ V72 1
+Net 236 "/LPC313x/mI2STX_DATA0" "mI2STX_DATA0"
+ IC1 M13
+ P16 1
+Net 237 "/Connectors_JTAG/I2SRX_WS0" "I2SRX_WS0"
+ V731 1
+ IC1 P11
+Net 238 "/Connectors_JTAG/I2SRX_BCK0" "I2SRX_BCK0"
+ IC1 N10
+ V730 1
+Net 239 "/Connectors_JTAG/I2SRX_DATA0" "I2SRX_DATA0"
+ V71 1
+ IC1 M10
+Net 240 "/LPC313x/USB_DM" "USB_DM"
+ R25 2
+ IC1 N2
+ U2 2
+ IC21 3
+Net 241 "/LPC313x/USB_DP" "USB_DP"
+ IC21 2
+ R24 2
+ IC1 P2
+ U2 3
+Net 242 "VBUS" "VBUS"
+ U2 1
+ L1 2
+ P10 1
+ L3 2
+ IC21 4
+Net 247 "/Connectors_JTAG/SYSCLK_O" "SYSCLK_O"
+ V279 1
+ IC1 G13
+Net 248 "/Connectors_JTAG/CLOCK_OUT" "CLOCK_OUT"
+ IC1 J4
+ V277 1
+ V805 1
+ P10 48
+}
+#End

@@ -1,0 +1,225 @@
+# EESchema Netlist Version 1.1 created  10/26/2009 6:21:51 AM
+(
+ ( /4AE58374 $noname  V22 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE58343 $noname  V21 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE5821A $noname  V20 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE58218 $noname  V19 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE58028 $noname  V18 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE58026 $noname  V17 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE57FEF $noname  V16 VIA {Lib=VIA}
+  (    1 VCC2 )
+ )
+ ( /4AE57FE7 $noname  V15 VIA {Lib=VIA}
+  (    1 VCC2 )
+ )
+ ( /4AE57D8D $noname  V14 VIA {Lib=VIA}
+  (    1 VCC1 )
+ )
+ ( /4AE57D8C $noname  V13 VIA {Lib=VIA}
+  (    1 VCC2 )
+ )
+ ( /4AE57C2B $noname  V12 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE57C2A $noname  V10 VIA {Lib=VIA}
+  (    1 VCC2 )
+ )
+ ( /4AE57C29 $noname  V11 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE57C28 $noname  V9 VIA {Lib=VIA}
+  (    1 VCC2 )
+ )
+ ( /4AE52108 $noname  V8 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE52107 $noname  V4 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE52104 $noname  V6 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE52103 $noname  V2 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE52100 $noname  V7 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE520FF $noname  V3 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE520F1 $noname  V5 VIA {Lib=VIA}
+  (    1 GND2 )
+ )
+ ( /4AE520ED $noname  V1 VIA {Lib=VIA}
+  (    1 GND1 )
+ )
+ ( /4AE5206F $noname  C2 4.7uF {Lib=C_MINI}
+  (    1 VCC1 )
+  (    2 GND1 )
+ )
+ ( /4AE52010 $noname  IC1 Si8441 {Lib=SI844X}
+  (    1 VCC1 )
+  (    2 GND1 )
+  (    3 /SPI_IN_MISO )
+  (    4 /SPI_IN_SCK )
+  (    5 /SPI_IN_MOSI )
+  (    6 /SPI_IN_CS )
+  (    7 N-000005 )
+  (    8 GND1 )
+  (    9 GND2 )
+  (   10 N-000006 )
+  (   11 /SPI_OUT_CS )
+  (   12 /SPI_OUT_MOSI )
+  (   13 /SPI_OUT_SCK )
+  (   14 /SPI_OUT_MISO )
+  (   15 GND2 )
+  (   16 VCC2 )
+ )
+ ( /4AE49FDE $noname  R2 47k {Lib=R_MINI}
+  (    1 N-000006 )
+  (    2 VCC2 )
+ )
+ ( /4AE49FB6 $noname  R1 47k {Lib=R_MINI}
+  (    1 N-000005 )
+  (    2 VCC1 )
+ )
+ ( /4AE49ED6 $noname  C1 1uF {Lib=C_MINI}
+  (    1 VCC1 )
+  (    2 GND1 )
+ )
+ ( /4AE49E62 $noname  C3 1uF {Lib=C_MINI}
+  (    1 VCC2 )
+  (    2 GND2 )
+ )
+ ( /4AE49BD0 $noname  Battery1 20mm {Lib=BATTERY}
+  (    1 VCC2 )
+  (    2 GND2 )
+ )
+ ( /4AE49BA3 $noname  K2 SPI {Lib=CONN_SPI}
+  (    1 /SPI_OUT_MISO )
+  (    2 VCC2 )
+  (    3 /SPI_OUT_SCK )
+  (    4 /SPI_OUT_MOSI )
+  (    5 /SPI_OUT_CS )
+  (    6 GND2 )
+ )
+ ( /4AE49BA1 $noname  K1 SPI {Lib=CONN_SPI}
+  (    1 /SPI_IN_MISO )
+  (    2 VCC1 )
+  (    3 /SPI_IN_SCK )
+  (    4 /SPI_IN_MOSI )
+  (    5 /SPI_IN_CS )
+  (    6 GND1 )
+ )
+ ( /4AE49B63 $noname  P1 5x2_0.05 {Lib=CONN_5X2}
+  (    1 /SPI_IN_CS )
+  (    2 /SPI_IN_SCK )
+  (    3 /SPI_IN_MOSI )
+  (    4 /SPI_IN_MISO )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND1 )
+  (   10 VCC1 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND1" "GND1"
+ V22 1
+ V21 1
+ V20 1
+ V19 1
+ C2 2
+ P1 9
+ K1 6
+ IC1 8
+ V3 1
+ C1 2
+ V2 1
+ IC1 2
+ V4 1
+ V1 1
+Net 2 "GND2" "GND2"
+ Battery1 2
+ V6 1
+ V11 1
+ V12 1
+ V7 1
+ K2 6
+ C3 2
+ IC1 15
+ IC1 9
+ V17 1
+ V18 1
+ V8 1
+ V5 1
+Net 3 "VCC2" "VCC2"
+ V15 1
+ C3 1
+ V13 1
+ V16 1
+ IC1 16
+ K2 2
+ Battery1 1
+ R2 2
+ V10 1
+ V9 1
+Net 4 "VCC1" "VCC1"
+ C1 1
+ R1 2
+ IC1 1
+ K1 2
+ P1 10
+ V14 1
+ C2 1
+Net 5 "" ""
+ IC1 7
+ R1 1
+Net 6 "" ""
+ IC1 10
+ R2 1
+Net 7 "/SPI_OUT_CS" "SPI_OUT_CS"
+ K2 5
+ IC1 11
+Net 8 "/SPI_OUT_MOSI" "SPI_OUT_MOSI"
+ IC1 12
+ K2 4
+Net 9 "/SPI_OUT_SCK" "SPI_OUT_SCK"
+ IC1 13
+ K2 3
+Net 10 "/SPI_OUT_MISO" "SPI_OUT_MISO"
+ IC1 14
+ K2 1
+Net 11 "/SPI_IN_CS" "SPI_IN_CS"
+ K1 5
+ IC1 6
+ P1 1
+Net 12 "/SPI_IN_MOSI" "SPI_IN_MOSI"
+ IC1 5
+ P1 3
+ K1 4
+Net 13 "/SPI_IN_SCK" "SPI_IN_SCK"
+ P1 2
+ K1 3
+ IC1 4
+Net 14 "/SPI_IN_MISO" "SPI_IN_MISO"
+ IC1 3
+ P1 4
+ K1 1
+}
+#End
