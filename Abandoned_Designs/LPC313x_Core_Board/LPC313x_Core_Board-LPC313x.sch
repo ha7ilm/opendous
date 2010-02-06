@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date 11/21/2009 9:44:01 PM
-LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x-DIP-Board.cache
+EESchema Schematic File Version 2  date 12/2/2009 11:48:39 PM
+LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x_Core_Board.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 6
 Title "LPC313x"
-Date "22 nov 2009"
+Date "3 dec 2009"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -13,15 +13,20 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.opendous.org"
 $EndDescr
-$Comp
-L LPC313X IC1
-U 1 1 4B088E85
-P 3900 4300
-F 0 "IC1" H 1500 700 60  0000 C CNN
-F 1 "LPC313X" H 1650 7850 60  0000 C CNN
-	1    3900 4300
-	1    0    0    -1  
-$EndComp
+Text Label 1200 1000 2    20   ~ 0
+XTALo
+Text Label 1200 900  2    20   ~ 0
+XTALi
+Connection ~ 10600 4400
+Connection ~ 10700 4400
+Connection ~ 10800 4400
+Connection ~ 10900 4400
+Connection ~ 11000 4400
+Text Notes 10550 4100 0    40   ~ 0
+Mounting Holes
+Connection ~ 10850 4400
+Wire Wire Line
+	10850 4400 10850 4450
 Connection ~ 850  2950
 Wire Wire Line
 	850  2950 850  2850
@@ -132,6 +137,80 @@ Wire Wire Line
 	5550 700  5550 600 
 Wire Wire Line
 	800  2950 900  2950
+Wire Wire Line
+	10600 4400 11100 4400
+$Comp
+L GND #PWR01
+U 1 1 4B08C896
+P 10850 4450
+F 0 "#PWR01" H 10850 4450 30  0001 C CNN
+F 1 "GND" H 10850 4380 30  0001 C CNN
+	1    10850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P8
+U 1 1 4B08C876
+P 11100 4250
+F 0 "P8" V 11150 4250 40  0000 L CNN
+F 1 "CONN_1" H 11100 4305 30  0001 C CNN
+	1    11100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P7
+U 1 1 4B08C875
+P 11000 4250
+F 0 "P7" V 11050 4250 40  0000 L CNN
+F 1 "CONN_1" H 11000 4305 30  0001 C CNN
+	1    11000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 4B08C86F
+P 10900 4250
+F 0 "P6" V 10950 4250 40  0000 L CNN
+F 1 "CONN_1" H 10900 4305 30  0001 C CNN
+	1    10900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 4B08C86E
+P 10800 4250
+F 0 "P5" V 10850 4250 40  0000 L CNN
+F 1 "CONN_1" H 10800 4305 30  0001 C CNN
+	1    10800 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 4B08C868
+P 10700 4250
+F 0 "P4" V 10750 4250 40  0000 L CNN
+F 1 "CONN_1" H 10700 4305 30  0001 C CNN
+	1    10700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 4B08C85A
+P 10600 4250
+F 0 "P3" V 10650 4250 40  0000 L CNN
+F 1 "CONN_1" H 10600 4305 30  0001 C CNN
+	1    10600 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LPC313X IC1
+U 1 1 4B088E85
+P 3900 4300
+F 0 "IC1" H 1500 700 60  0000 C CNN
+F 1 "LPC313X" H 1650 7850 60  0000 C CNN
+	1    3900 4300
+	1    0    0    -1  
+$EndComp
 Text GLabel 850  2850 2    30   BiDi ~ 0
 VBUSfilt
 $Comp
@@ -150,28 +229,28 @@ GPIO19
 Text GLabel 6600 6700 2    40   BiDi ~ 0
 GPIO4
 $Comp
-L VDDA3_USB #PWR01
+L VDDA3_USB #PWR02
 U 1 1 4A5A43F0
 P 5650 600
-F 0 "#PWR01" H 5650 700 30  0001 C CNN
+F 0 "#PWR02" H 5650 700 30  0001 C CNN
 F 1 "VDDA3_USB" H 5775 700 30  0000 C CNN
 	1    5650 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDA12 #PWR02
+L VDDA12 #PWR03
 U 1 1 49F4A4CA
 P 5450 600
-F 0 "#PWR02" H 5450 700 30  0001 C CNN
+F 0 "#PWR03" H 5450 700 30  0001 C CNN
 F 1 "VDDA12" V 5400 625 30  0000 C CNN
 	1    5450 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDA3 #PWR03
+L VDDA3 #PWR04
 U 1 1 4A5A4285
 P 5550 600
-F 0 "#PWR03" H 5550 700 30  0001 C CNN
+F 0 "#PWR04" H 5550 700 30  0001 C CNN
 F 1 "VDDA3" V 5500 645 30  0000 C CNN
 	1    5550 600 
 	1    0    0    -1  
@@ -261,7 +340,7 @@ mLCD_DB_3-EBI_A3
 Text Label 9900 2800 0    25   ~ 0
 mLCD_DB_2-EBI_A2
 Text Label 9900 2700 0    25   ~ 0
-mLCD_DB_1-EBI_nSTC1
+mLCD_DB_1-EBI_nSTCS1
 Text Label 9900 2600 0    25   ~ 0
 mLCD_DB_0-EBI_CLKOUT
 Text Label 9900 2500 0    25   ~ 0
@@ -273,9 +352,9 @@ mLCD_E_RD-EBI_CKE
 Text Label 9900 2200 0    25   ~ 0
 mLCD_CSB-EBI_nSTCS0
 Text Label 9900 2100 0    25   ~ 0
-EBI_A_1-CLE
+EBI_A1-CLE
 Text Label 9900 2000 0    25   ~ 0
-EBI_A_0-ALE
+EBI_A0-ALE
 Text Label 9900 1900 0    25   ~ 0
 EBI_nWE
 Text Label 9900 1800 0    25   ~ 0
@@ -507,7 +586,7 @@ mLCD_DB_3-EBI_A3
 Text GLabel 9900 2800 0    40   BiDi ~ 0
 mLCD_DB_2-EBI_A2
 Text GLabel 9900 2700 0    40   BiDi ~ 0
-mLCD_DB_1-EBI_nSTC1
+mLCD_DB_1-EBI_nSTCS1
 Text GLabel 9900 2600 0    40   BiDi ~ 0
 mLCD_DB_0-EBI_CLKOUT
 Text GLabel 9900 2500 0    40   BiDi ~ 0
@@ -519,13 +598,13 @@ mLCD_E_RD-EBI_CKE
 Text GLabel 9900 2200 0    40   BiDi ~ 0
 mLCD_CSB-EBI_nSTCS0
 Text GLabel 9900 2100 0    40   BiDi ~ 0
-EBI_A_1-CLE
+EBI_A1-CLE
 Text GLabel 9900 2000 0    40   BiDi ~ 0
-EBI_A_0-ALE
+EBI_A0-ALE
 Text GLabel 9900 1900 0    40   BiDi ~ 0
 EBI_nWE
 Text GLabel 9900 1800 0    40   BiDi ~ 0
-EBI_DQM0_nOE
+EBI_DQM0-nOE
 Text GLabel 9900 1700 0    40   BiDi ~ 0
 EBI_nRAS-BLOUT_1
 Text GLabel 9900 1600 0    40   BiDi ~ 0
@@ -679,73 +758,73 @@ FFAST_OUT
 Text GLabel 8350 800  2    40   BiDi ~ 0
 FFAST_IN
 $Comp
-L VDDI #PWR04
+L VDDI #PWR05
 U 1 1 49F4A33A
 P 2350 600
-F 0 "#PWR04" H 2350 700 30  0001 C CNN
+F 0 "#PWR05" H 2350 700 30  0001 C CNN
 F 1 "VDDI" H 2350 700 30  0000 C CNN
 	1    2350 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP3 #PWR05
+L VSUP3 #PWR06
 U 1 1 49F4A092
 P 5250 600
-F 0 "#PWR05" H 5250 700 30  0001 C CNN
+F 0 "#PWR06" H 5250 700 30  0001 C CNN
 F 1 "VSUP3" H 5250 700 30  0000 C CNN
 	1    5250 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP1 #PWR06
+L VSUP1 #PWR07
 U 1 1 49F49F94
 P 5000 600
-F 0 "#PWR06" H 5000 700 30  0001 C CNN
+F 0 "#PWR07" H 5000 700 30  0001 C CNN
 F 1 "VSUP1" H 5000 700 30  0000 C CNN
 	1    5000 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP3 #PWR07
+L VSUP3 #PWR08
 U 1 1 49F49F72
 P 4400 600
-F 0 "#PWR07" H 4400 700 30  0001 C CNN
+F 0 "#PWR08" H 4400 700 30  0001 C CNN
 F 1 "VSUP3" H 4400 700 30  0000 C CNN
 	1    4400 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP8 #PWR08
+L VSUP8 #PWR09
 U 1 1 49F49F65
 P 3750 600
-F 0 "#PWR08" H 3750 700 30  0001 C CNN
+F 0 "#PWR09" H 3750 700 30  0001 C CNN
 F 1 "VSUP8" H 3750 700 30  0000 C CNN
 	1    3750 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP4 #PWR09
+L VSUP4 #PWR010
 U 1 1 49F49F54
 P 3200 600
-F 0 "#PWR09" H 3200 700 30  0001 C CNN
+F 0 "#PWR010" H 3200 700 30  0001 C CNN
 F 1 "VSUP4" H 3200 700 30  0000 C CNN
 	1    3200 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VSUP1 #PWR010
+L VSUP1 #PWR011
 U 1 1 49F49F2B
 P 2750 600
-F 0 "#PWR010" H 2750 700 30  0001 C CNN
+F 0 "#PWR011" H 2750 700 30  0001 C CNN
 F 1 "VSUP1" H 2750 700 30  0000 C CNN
 	1    2750 600 
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR011
+L VBUS #PWR012
 U 1 1 49F49B95
 P 550 2950
-F 0 "#PWR011" H 550 3050 30  0001 C CNN
+F 0 "#PWR012" H 550 3050 30  0001 C CNN
 F 1 "VBUS" H 550 3050 30  0000 C CNN
 	1    550  2950
 	1    0    0    -1  
@@ -760,10 +839,10 @@ F 1 "1k" H 1070 3000 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND #PWR013
 U 1 1 49F499A1
 P 800 900
-F 0 "#PWR012" H 800 900 30  0001 C CNN
+F 0 "#PWR013" H 800 900 30  0001 C CNN
 F 1 "GND" H 800 830 30  0001 C CNN
 	1    800  900 
 	1    0    0    -1  
@@ -797,10 +876,10 @@ F 4 "NX2520" H 800 600 60  0001 C CNN "Field1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND #PWR014
 U 1 1 49F49918
 P 3850 8000
-F 0 "#PWR013" H 3850 8000 30  0001 C CNN
+F 0 "#PWR014" H 3850 8000 30  0001 C CNN
 F 1 "GND" H 3850 7930 30  0001 C CNN
 	1    3850 8000
 	1    0    0    -1  
@@ -874,7 +953,7 @@ mLCD_DB_3-EBI_A3
 Text GLabel 6600 3900 2    40   BiDi ~ 0
 mLCD_DB_2-EBI_A2
 Text GLabel 6600 3800 2    40   BiDi ~ 0
-mLCD_DB_1-EBI_nSTC1
+mLCD_DB_1-EBI_nSTCS1
 Text GLabel 6600 3700 2    40   BiDi ~ 0
 mLCD_DB_0-EBI_CLKOUT
 Text GLabel 6600 3600 2    40   BiDi ~ 0
@@ -886,9 +965,9 @@ mLCD_E_RD-EBI_CKE
 Text GLabel 6600 3300 2    40   BiDi ~ 0
 mLCD_CSB-EBI_nSTCS0
 Text GLabel 6600 3100 2    40   BiDi ~ 0
-EBI_A_1-CLE
+EBI_A1-CLE
 Text GLabel 6600 3000 2    40   BiDi ~ 0
-EBI_A_0-ALE
+EBI_A0-ALE
 Text GLabel 6600 2900 2    40   BiDi ~ 0
 EBI_nWE
 Text GLabel 6600 2800 2    40   BiDi ~ 0

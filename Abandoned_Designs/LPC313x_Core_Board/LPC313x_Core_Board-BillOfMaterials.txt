@@ -1,0 +1,87 @@
+Not yet complete.
+
+This Bill of Materials is for an earlier version of the board.  Most of the components are
+the same.
+
+
+
+#Cmp ( order = Reference )
+  Ref#   Value                 Footprint          Digi-Key Part#        QTY   Unit Cost (USD)
+  ~~~    ~~~~~                 ~~~~~~~~~          ~~~~~~~~~~~~~~        ~~~   ~~~~~~~~~~~~~~~
+| BT1  ; Li-Ion Battery      ; SIL-2-0.1"-F     ; S7035-ND            ; 1   ; 0.23
+| C?   ; 22pF                ; 0402             ; 490-1283-1-ND       ; 2   ; 0.02
+| C?   ; 33pF                ; 0402             ; 490-3220-1-ND       ; 1   ; 0.01
+| C?   ; 220pF               ; 0402             ; 587-1218-1-ND       ; 1   ; 0.02
+| C?   ; 0.0033uF            ; 0402             ; 709-1136-1-ND       ; 1   ; 0.03
+| C?   ; 0.001uF             ; 0402             ; 490-1303-1-ND       ; 3   ; 0.02
+| C?   ; 0.01uF              ; 0402             ; 490-4516-1-ND       ; 11  ; 0.02
+| C?   ; 0.1uF               ; 0402             ; PCC2146CT-ND        ; 14  ; 0.03
+| C?   ; 1uF                 ; 0402             ; 587-1231-1-ND       ; 22  ; 0.05
+| C?   ; 1uF                 ; 0603             ; 587-1262-1-ND       ; 1   ; 0.04
+| C?   ; 2.2uF               ; 0402             ; 587-1453-1-ND       ; 4   ; 0.30
+| C?   ; 4.7uF               ; 0603             ; 490-3302-1-ND       ; 2   ; 0.08
+| C?   ; 4.7uF               ; 0805             ; 587-1442-1-ND       ; 1   ; 0.30
+| C?   ; 10uF                ; 0805             ; 445-1371-1-ND       ; 4   ; 0.14
+| C?   ; 22uF                ; 0805             ; 587-1958-1-ND       ; 2   ; 0.58
+| CR1  ; ESD_ZENER           ; 0402             ; 445-2559-1-ND       ; 1   ; 0.12
+| D1   ; BAT54C              ; SC70-3           ; 568-1613-1-ND       ; 1   ; 0.19
+| D2   ; LO L29K             ; 0603             ; 475-2481-1-ND       ; 1   ; 0.11
+| IC1  ; LPC313X             ; TFBGA180         ; 568-4696-ND         ; 1   ; 5.60
+| IC2  ; 74LVC2G07           ; SC70-6           ; 296-13495-1-ND      ; 1   ; 0.45
+| IC3  ; TPS624X0            ; SON10            ; 296-20692-1-ND      ; 1   ; 5.29
+| IC4  ; CAT811              ; SOT143-4         ; CAT811STBI-T3CT-ND  ; 1   ; 0.68
+| IC5  ; BQ24152             ; DSBGA20          ; 296-23517-1-ND      ; 1   ; 4.50
+| IC6  ; TPS63030            ; SON10            ; 296-23903-1-ND      ; 1   ; 3.60
+| IC7  ; NAND                ; VFBGA63          ; NAND01GR3B2BZA6E-ND ; 1   ; 9.64
+| IC12 ; NC7SB3257           ; SC70-6           ; NC7SB3257P6XCT-ND   ; 1   ; 0.43
+| IC14 ; LPSDRAM_MT48_X16    ; VFBGA-54         ; 557-1392-1-ND       ; 1   ; 4.50
+| IC15 ; SN74CBTLV3257       ; TSSOP16          ; 296-9138-1-ND       ; 1   ; 1.00
+| IC16 ; PRTR5V0U2X          ; SOT143B          ; 568-4140-1-ND       ; 1   ; 0.65
+| IC17 ; AT45DBxx1D-SU       ; SOIC8            ; AT45DB161D-SU-ND    ; 1   ; 2.10
+| L?   ; FB                  ; 0603             ; 587-1926-1-ND       ; 5   ; 0.04
+| L?   ; 1.0uH               ; 1008             ; 490-5112-1-ND       ; 1   ; 0.40
+| L?   ; 1.5uH               ; VLF301x          ; 445-3214-1-ND       ; 1   ; 0.80
+| L?   ; 2.2uH               ; VLF301x          ; 445-4177-1-ND       ; 2   ; 1.04
+| Q1   ; 2N7002              ; SC-70            ; 2N7002WT1GOSCT-ND   ; 1   ; 0.15
+| R?   ; 0.068               ; 0402             ; P.068AMCT-ND        ; 1   ; 0.52
+| R?   ; 10                  ; 0402             ; 311-10JRCT-ND       ; 1   ; 0.07
+| R?   ; 56                  ; 0402             ; 311-56.0LRCT-ND     ; 2   ; 0.07
+| R?   ; 1k                  ; 0402             ; RMCF1/16S1KFRCT-ND  ; 1   ; 0.11
+| R?   ; 1650                ; 0402             ; 541-1.65KLCT-ND     ; 1   ; 0.08
+| R?   ; 4.7k                ; 0402             ; 311-5.1KJRCT-ND     ; 1   ; 0.07
+| R?   ; 10k                 ; 0402             ; 311-10KJRCT-ND      ; 8   ; 0.07
+| R?   ; 12k                 ; 0402             ; 311-12.0KLRCT-ND    ; 1   ; 0.10
+| R?   ; 47k                 ; 0402             ; 311-47KJRCT-ND      ; 8   ; 0.07
+| R?   ; 100k                ; 0402             ; 311-180KLRCT-ND     ; 1   ; 0.08
+| R?   ; 180k                ; 0402             ; 311-180KLRCT-ND     ; 2   ; 0.08
+| R?   ; 200k                ; 0402             ; 311-200KLRCT-ND     ; 2   ; 0.08
+| R?   ; 400k                ; 0402             ; 541-402KLCT-ND      ; 1   ; 0.08
+| R?   ; 1M                  ; 0402             ; RMCF1/16S1MFRCT-ND  ; 2   ; 0.11
+| RP?  ; 22                  ; 0402x8           ; 741X163220JPCT-ND   ; 2   ; 0.16
+| RP?  ; 56                  ; 0402x8           ; 741X163560JPCT-ND   ; 10  ; 0.16
+| RP?  ; 10k                 ; 0402x8           ; 741X163103JPCT-ND   ; 2   ; 0.16
+| RP?  ; 47k                 ; 0402x8           ; 741X163473JPCT-ND   ; 1   ; 0.16
+| SW1  ; RESET               ; 6.5x6x3.1mm_EVQ  ; P12940SCT-ND        ; 1   ; 0.30
+| SW2  ; MODE                ; DIP_SW_HalfP10   ; CT21810LPST-ND      ; 1   ; 1.43
+| U2   ; USBCONN-HOSTCAPABLE ; MiniB-5pos       ; H2959CT-ND          ; 1   ; 1.18
+| U3   ; USBCONN             ; USB-A-Vert       ; 151-1082-ND         ; 1   ; 
+| U4   ; JTAG                ; DIL-10x2-0.05"-F ; S9009E-10-ND        ; 1   ; 1.76
+| U5   ; Expansion_Connector ; CONN_DF40C       ; H11614CT-ND         ; 1   ; 1.72
+| U8   ; SD                  ; MemCard_3M_SD    ; 3M564CT-ND          ; 1   ; 
+| U9   ; MMCPLUS             ; GMC06003XSEU     ; Newark.com          ; 1   ; 2.50
+| U10  ; SN74AUC1G17         ; SC70-6           ; 296-13173-1-ND      ; 1   ; 0.50
+| X1   ; 12MHz               ; 2.5x2mm          ; 644-1047-1-ND       ; 1   ; 0.62
+|----------------------------------------------------------------------Total:63.27
+#End Cmp
+#End List
+
+#Notes: -Unit costs based on minimum orders of 10 components.
+	-SC70-3 is equivalent to SOT323
+	-items with no price are optional
+
+
+
+
+***** NEW NOTES:
+
+- R17 0603 should be highest wattage possible

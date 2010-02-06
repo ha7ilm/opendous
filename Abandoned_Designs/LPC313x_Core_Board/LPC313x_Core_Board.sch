@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date 11/21/2009 9:44:01 PM
-LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x-DIP-Board.cache
+EESchema Schematic File Version 2  date 12/2/2009 11:48:39 PM
+LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x_Core_Board.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 6
-Title "LPC313x-DIP-Board"
-Date "22 nov 2009"
+Title "LPC313x_Core_Board"
+Date "3 dec 2009"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -23,30 +23,30 @@ $Sheet
 S 4500 1000 2600 450 
 U 49F49153
 F0 "LPC313x" 60
-F1 "LPC313x-DIP-Board-LPC313x.sch" 60
+F1 "LPC313x_Core_Board-LPC313x.sch" 60
 $EndSheet
 $Sheet
 S 2750 3000 2600 450 
 U 49F49538
-F0 "FLASH" 60
-F1 "LPC313x-DIP-Board-FLASH.sch" 60
+F0 "Memory" 60
+F1 "LPC313x_Core_Board-Memory.sch" 60
 $EndSheet
 $Sheet
 S 5350 5000 2600 450 
 U 49F49522
 F0 "Power" 60
-F1 "LPC313x-DIP-Board-Power.sch" 60
+F1 "LPC313x_Core_Board-Power.sch" 60
 $EndSheet
 $Sheet
 S 4050 4000 2600 450 
 U 49F49582
 F0 "Connectors_JTAG" 60
-F1 "LPC313x-DIP-Board-Connectors_JTAG.sch" 60
+F1 "LPC313x_Core_Board-Connectors_JTAG.sch" 60
 $EndSheet
 $Sheet
 S 1000 7000 2600 450 
 U 4A0869EC
 F0 "Vias" 60
-F1 "LPC313x-DIP-Board-Vias.sch" 60
+F1 "LPC313x_Core_Board-Vias.sch" 60
 $EndSheet
 $EndSCHEMATC

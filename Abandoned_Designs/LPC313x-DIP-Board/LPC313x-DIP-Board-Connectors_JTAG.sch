@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date 10/4/2009 10:07:49 AM
+EESchema Schematic File Version 2  date 11/21/2009 9:44:01 PM
 LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x-DIP-Board.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 6
 Title "Connectors and JTAG"
-Date "4 oct 2009"
+Date "22 nov 2009"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -13,6 +13,15 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.opendous.org"
 $EndDescr
+$Comp
+L MOSFET_N_OPENDOUS Q1
+U 1 1 4B08A001
+P 3500 6900
+F 0 "Q1" H 3500 7090 30  0000 R CNN
+F 1 "2N7002" H 3945 6900 30  0000 R CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
 Connection ~ 4150 3550
 Wire Wire Line
 	4050 3550 4150 3550
@@ -752,17 +761,6 @@ F 1 "LO L29K" H 3950 6585 50  0000 C CNN
 	1    3950 6700
 	-1   0    0    1   
 $EndComp
-$Comp
-L MOSFET_N_OPENDOUS Q1
-U 1 1 49FB5E5E
-P 3500 6900
-AR Path="/4A0869EC/49FB5E5E" Ref="Q1"  Part="1" 
-AR Path="/49F49582/49FB5E5E" Ref="Q1"  Part="1" 
-F 0 "Q1" H 3500 7090 30  0000 R CNN
-F 1 "2N7002" H 3950 6900 30  0000 R CNN
-	1    3500 6900
-	1    0    0    -1  
-$EndComp
 Text GLabel 3200 7000 0    40   BiDi ~ 0
 GPIO2
 Text Notes 8600 750  0    60   ~ 0
@@ -951,80 +949,48 @@ F 1 "JTAG" H 4550 2450 50  0000 C CNN
 	1    4550 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 6250 0    40   BiDi ~ 0
-GPIO20
-Text GLabel 10700 6150 0    40   BiDi ~ 0
-GPIO18
-Text GLabel 10700 6050 0    40   BiDi ~ 0
-GPIO15
-Text GLabel 10700 5950 0    40   BiDi ~ 0
-GPIO14
 Text GLabel 8450 3950 0    40   BiDi ~ 0
 GPIO3
 Text GLabel 9650 4050 2    40   BiDi ~ 0
-mNAND_RYBN2
-Text GLabel 8800 5600 2    40   BiDi ~ 0
-NAND_RYBN2
-Text GLabel 8800 5700 2    40   BiDi ~ 0
-NAND_RYBN1
-Text GLabel 8200 5500 2    40   BiDi ~ 0
-NAND_NCS_3
-Text GLabel 8200 5600 2    40   BiDi ~ 0
-NAND_NCS_2
-Text GLabel 8200 5400 2    40   BiDi ~ 0
-NAND_NCS_1
+mNAND_RYBN2-MCI_DAT6
 Text GLabel 9650 2050 2    40   BiDi ~ 0
-mLCD_DB_15
+mLCD_DB_15-EBI_A15
 Text GLabel 9650 1950 2    40   BiDi ~ 0
-mLCD_DB_14
+mLCD_DB_14-EBI_A14
 Text GLabel 9650 1850 2    40   BiDi ~ 0
-mLCD_DB_13
+mLCD_DB_13-EBI_A13
 Text GLabel 9650 1750 2    40   BiDi ~ 0
-mLCD_DB_12
+mLCD_DB_12-EBI_A12
 Text GLabel 9650 1650 2    40   BiDi ~ 0
-mLCD_DB_11
+mLCD_DB_11-EBI_A11
 Text GLabel 9650 1550 2    40   BiDi ~ 0
-mLCD_DB_10
+mLCD_DB_10-EBI_A10
 Text GLabel 9650 1450 2    40   BiDi ~ 0
-mLCD_DB_9
+mLCD_DB_9-EBI_A9
 Text GLabel 9650 1350 2    40   BiDi ~ 0
-mLCD_DB_8
+mLCD_DB_8-EBI_A8
 Text GLabel 8450 1350 0    40   BiDi ~ 0
-mLCD_DB_7
+mLCD_DB_7-EBI_A7
 Text GLabel 8450 1450 0    40   BiDi ~ 0
-mLCD_DB_6
+mLCD_DB_6-EBI_A6
 Text GLabel 8450 1550 0    40   BiDi ~ 0
-mLCD_DB_5
+mLCD_DB_5-EBI_A5
 Text GLabel 8450 1650 0    40   BiDi ~ 0
-mLCD_DB_4
+mLCD_DB_4-EBI_A4
 Text GLabel 8450 1750 0    40   BiDi ~ 0
-mLCD_DB_3
+mLCD_DB_3-EBI_A3
 Text GLabel 8450 1850 0    40   BiDi ~ 0
-mLCD_DB_2
+mLCD_DB_2-EBI_A2
 Text GLabel 8450 1950 0    40   BiDi ~ 0
-mLCD_DB_1
+mLCD_DB_1-EBI_nSTC1
 Text GLabel 8450 2050 0    40   BiDi ~ 0
-mLCD_DB_0
-Text GLabel 8400 6200 0    40   BiDi ~ 0
-mLCD_RW_WR
-Text GLabel 8400 6300 0    40   BiDi ~ 0
-mLCD_RS
-Text GLabel 8400 6100 0    40   BiDi ~ 0
-mLCD_E_RD
-Text GLabel 8400 6400 0    40   BiDi ~ 0
-mLCD_CSB
+mLCD_DB_0-EBI_CLKOUT
 Text GLabel 9650 3850 2    40   BiDi ~ 0
-EBI_A_1_CLE
+EBI_A_1-CLE
 Text GLabel 9650 3950 2    40   BiDi ~ 0
-EBI_A_0_ALE
-Text GLabel 9150 5050 2    40   BiDi ~ 0
-EBI_NWE
-Text GLabel 9150 5150 2    40   BiDi ~ 0
-EBI_DQM_0_NOE
-Text GLabel 9300 4900 2    40   BiDi ~ 0
-EBI_NRAS_BLOUT_1
+EBI_A_0-ALE
 Text GLabel 9650 2150 2    40   BiDi ~ 0
-EBI_NCAS_BLOUT_0
+EBI_nCAS-BLOUT_0
 Text GLabel 9650 3750 2    40   BiDi ~ 0
 EBI_D_15
 Text GLabel 9650 3650 2    40   BiDi ~ 0
@@ -1057,10 +1023,6 @@ Text GLabel 9650 2350 2    40   BiDi ~ 0
 EBI_D_1
 Text GLabel 9650 2250 2    40   BiDi ~ 0
 EBI_D_0
-Text GLabel 9900 5550 0    40   BiDi ~ 0
-I2C_SCL1
-Text GLabel 9900 5650 0    40   BiDi ~ 0
-I2C_SDA1
 Text GLabel 8450 3350 0    40   BiDi ~ 0
 I2C_SCL0
 Text GLabel 8450 3450 0    40   BiDi ~ 0
@@ -1073,36 +1035,12 @@ Text GLabel 8450 2350 0    40   BiDi ~ 0
 mUART_RTS_N
 Text GLabel 8450 2450 0    40   BiDi ~ 0
 mUART_CTS_N
-Text GLabel 9050 4950 0    40   BiDi ~ 0
-SPI_CS_IN
 Text GLabel 8450 3750 0    40   BiDi ~ 0
 SPI_MOSI
 Text GLabel 8450 3850 0    40   BiDi ~ 0
 SPI_MISO
 Text GLabel 8450 3650 0    40   BiDi ~ 0
 SPI_SCK
-Text GLabel 9050 5250 0    40   BiDi ~ 0
-SPI_CS_OUT0
-Text GLabel 10100 5950 0    40   BiDi ~ 0
-I2STX_WS1
-Text GLabel 9000 6050 0    40   BiDi ~ 0
-I2STX_BCK1
-Text GLabel 9500 6350 0    40   BiDi ~ 0
-I2STX_DATA1
-Text GLabel 8050 5400 0    40   BiDi ~ 0
-mI2STX_CLK0
-Text GLabel 8050 5100 0    40   BiDi ~ 0
-mI2STX_WS0
-Text GLabel 8050 5300 0    40   BiDi ~ 0
-mI2STX_BCK0
-Text GLabel 8050 5200 0    40   BiDi ~ 0
-mI2STX_DATA0
-Text GLabel 8400 5900 0    40   BiDi ~ 0
-I2SRX_WS0
-Text GLabel 8400 6000 0    40   BiDi ~ 0
-I2SRX_BCK0
-Text GLabel 10100 6150 0    40   BiDi ~ 0
-I2SRX_DATA0
 Text GLabel 8450 2750 0    40   BiDi ~ 0
 I2SRX_WS1
 Text GLabel 8450 2850 0    40   BiDi ~ 0
@@ -1141,12 +1079,8 @@ Text GLabel 8450 3550 0    40   BiDi ~ 0
 PWM_DATA
 Text GLabel 8450 1250 0    40   BiDi ~ 0
 RESET_SUP3
-Text GLabel 10700 5650 0    40   BiDi ~ 0
-SYSCLK_O
 Text GLabel 8450 2550 0    40   BiDi ~ 0
 CLK_256FS_O
-Text GLabel 8200 5700 2    40   BiDi ~ 0
-CLOCK_OUT
 Text Notes 1950 2250 0    30   ~ 0
 Debugger can RESET board
 Text Notes 2050 2650 0    40   ~ 0
