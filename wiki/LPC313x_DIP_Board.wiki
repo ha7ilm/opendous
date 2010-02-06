@@ -1,5 +1,9 @@
 #summary LPC313x DIP Development Board
 
-This project has been abandoned.  These designs are not viable commercially at lower quantities.  The LPC313x is great value in volume production but that does not extend well to prototype lots.  I have one final design for the board which is 8mil/8mil with 20mil vias and is useful for learning DIY BGA prototyping.  I will post it as soon as I completed related tutorials.
+This project has been abandoned.  These designs are not viable commercially at lower quantities.  The LPC313x is great value in volume production but that does not extend well to prototype lots.
 
 http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/LPC313x-DIP-Board
+
+There is a similar and much simpler version of this board at:
+
+http://code.google.com/p/propendous/source/browse/trunk/PRopendous/Hardware/PROpendous-DIY
