@@ -1,0 +1,44 @@
+# EESchema Netlist Version 1.1 created  2/8/2010 1:56:43 PM
+(
+ ( /4B705E26 $noname  U1 1117 {Lib=1117}
+  (    1 N-000001 )
+  (    2 N-000002 )
+  (    3 N-000003 )
+  (    4 N-000002 )
+ )
+ ( /49B489CA $noname  C2 10uF {Lib=C_MINI}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /49B489C5 $noname  C1 10uF {Lib=C_MINI}
+  (    1 N-000003 )
+  (    2 N-000001 )
+ )
+ ( /49B4899C $noname  P2 PWROUT {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /49B4898A $noname  P1 PWRIN {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 N-000001 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ P1 2
+ P2 2
+ C1 2
+ C2 2
+ U1 1
+Net 2 "" ""
+ U1 4
+ U1 2
+ P2 1
+ C2 1
+Net 3 "" ""
+ U1 3
+ P1 1
+ C1 1
+}
+#End

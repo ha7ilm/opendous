@@ -1,0 +1,39 @@
+# EESchema Netlist Version 1.1 created  18/10/2008-12:14:22
+(
+ ( /48F9D097 SIL-9 P1 Electrode_Array
+  ( 1 GND )
+  ( 2 N-000009 )
+  ( 3 N-000002 )
+  ( 4 N-000008 )
+  ( 5 N-000003 )
+  ( 6 N-000007 )
+  ( 7 N-000004 )
+  ( 8 N-000006 )
+  ( 9 N-000005 )
+ )
+ ( /48F9D0B0 1Pin_SMT_7mm P2 CONN_1
+  ( 1 N-000005 )
+ )
+ ( /48F9D0B2 1Pin_SMT_7mm P3 CONN_1
+  ( 1 N-000006 )
+ )
+ ( /48F9D0B4 1Pin_SMT_7mm P4 CONN_1
+  ( 1 N-000004 )
+ )
+ ( /48F9D0B7 1Pin_SMT_7mm P5 CONN_1
+  ( 1 N-000007 )
+ )
+ ( /48F9D0BE 1Pin_SMT_7mm P6 CONN_1
+  ( 1 N-000003 )
+ )
+ ( /48F9D0BF 1Pin_SMT_7mm P7 CONN_1
+  ( 1 N-000008 )
+ )
+ ( /48F9D0C0 1Pin_SMT_7mm P8 CONN_1
+  ( 1 N-000002 )
+ )
+ ( /48F9D0C1 1Pin_SMT_7mm P9 CONN_1
+  ( 1 N-000009 )
+ )
+)
+*

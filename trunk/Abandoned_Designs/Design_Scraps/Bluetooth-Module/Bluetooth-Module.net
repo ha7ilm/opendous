@@ -1,0 +1,736 @@
+# EESchema Netlist Version 1.1 created  17/6/2008-07:43:09
+(
+ ( /48576AE4 $noname  U6 TBF-1608-245 {Lib=TBF-1608-245}
+  (    1 N-000001 )
+  (    2 N-000079 )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4816D05A $noname  CR1 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000002 )
+  (    2 N-000020 )
+ )
+ ( /4821AC5E $noname  RF_Shield1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /481F9B6B $noname  D1 uClamp0501P {Lib=D_ZENER}
+  (    1 N-000022 )
+  (    2 VCC )
+ )
+ ( /481CF87E $noname  D2 PMEG2005AEA {Lib=DIODESCH}
+  (    1 N-000062 )
+  (    2 +3.3V )
+ )
+ ( /481BCB1E $noname  PWR_IN1 CONN_2 {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /481BCB18 $noname  PWR_OUT1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 +3.3V )
+ )
+ ( /481BC80B $noname  R11 10k {Lib=R_MINI}
+  (    1 /PIO9 )
+  (    2 N-000008 )
+ )
+ ( /481BC747 $noname  EEPROM_PROG1 CONN_5 {Lib=CONN_5}
+  (    1 /PIO6 )
+  (    2 /PIO7 )
+  (    3 /PIO8 )
+  (    4 GND )
+  (    5 N-000055 )
+ )
+ ( /481BC728 $noname  P2 CONN_22 {Lib=CONN_22}
+  (    1  ? )
+  (    2 /PIO3 )
+  (    3 /PIO5 )
+  (    4 /PIO10 )
+  (    5 /PIO11 )
+  (    6 /PCM_IN )
+  (    7 /PCM_OUT )
+  (    8 /PCM_SYNC )
+  (    9 /PCM_CLK )
+  (   10 /MISO )
+  (   11 /MOSI )
+  (   12 /SCK )
+  (   13 /SS )
+  (   14 GND )
+  (   15 /CTS )
+  (   16 /RTS )
+  (   17 /PIO2 )
+  (   18 /RST )
+  (   19 /TXD1 )
+  (   20 /RXD1 )
+  (   21  ? )
+  (   22 /AIO0 )
+ )
+ ( /481BBD2F $noname  D3 LL4148 {Lib=DIODE}
+  (    1 +3.3V )
+  (    2 N-000055 )
+ )
+ ( /481BBC23 $noname  C12 0.01uF {Lib=C_MINI}
+  (    1 GND )
+  (    2 /AIO2 )
+ )
+ ( /481BBABE $noname  SW4 F2 {Lib=SW_PUSH}
+  (    1 /PIO0 )
+  (    2 +1.8V )
+ )
+ ( /481BBABA $noname  SW3 VOL+ {Lib=SW_PUSH}
+  (    1 /PIO1 )
+  (    2 +1.8V )
+ )
+ ( /481BBA56 $noname  D5 LEDB {Lib=LED}
+  (    1 +1.8V )
+  (    2 N-000028 )
+ )
+ ( /481BBA0F $noname  D4 LEDR {Lib=LED}
+  (    1 +1.8V )
+  (    2 N-000011 )
+ )
+ ( /481BBA06 $noname  R13 50 {Lib=R_MINI}
+  (    1 N-000028 )
+  (    2 N-000012 )
+ )
+ ( /481BBA04 $noname  R12 500 {Lib=R_MINI}
+  (    1 N-000011 )
+  (    2 N-000027 )
+ )
+ ( /481BB9E6 $noname  SW2 VOL- {Lib=SW_PUSH}
+  (    1 /PIO2 )
+  (    2 +1.8V )
+ )
+ ( /481BB9C2 $noname  SW5 F1 {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 N-000008 )
+ )
+ ( /481BB5D8 $noname  C7 0.047uF {Lib=C_MINI}
+  (    1 N-000026 )
+  (    2 N-000006 )
+ )
+ ( /481BB5D7 $noname  C1 0.047uF {Lib=C_MINI}
+  (    1 N-000013 )
+  (    2 N-000014 )
+ )
+ ( /481BB5D6 $noname  C8 2.2uF {Lib=C_MINI}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /481BB5D2 $noname  C2 15pF {Lib=C_MINI}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /481BB5AE $noname  R4 2.2k {Lib=R_MINI}
+  (    1 N-000006 )
+  (    2 N-000014 )
+ )
+ ( /481BB5A3 $noname  L1 15nH {Lib=L_MINI}
+  (    1 N-000014 )
+  (    2 N-000025 )
+ )
+ ( /481BB58E $noname  M1 ELECTRET_MIC {Lib=ELECTRET_MIC}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /481BB332 $noname  U3 STEREO_JACK {Lib=STEREO_JACK}
+  (    1 N-000032 )
+  (    2 N-000032 )
+  (    3 N-000033 )
+ )
+ ( /481BB1B7 $noname  R8 4.7k {Lib=R_MINI}
+  (    1 /PIO7 )
+  (    2 N-000055 )
+ )
+ ( /481BB1B3 $noname  R9 4.7k {Lib=R_MINI}
+  (    1 /PIO6 )
+  (    2 N-000055 )
+ )
+ ( /481BB171 $noname  R10 4.7k {Lib=R_MINI}
+  (    1 /PIO8 )
+  (    2 N-000055 )
+ )
+ ( /481BAD93 $noname  R14 4.7k {Lib=R_MINI}
+  (    1 N-000015 )
+  (    2 VCC )
+ )
+ ( /481BAD50 $noname  R15 220k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /PIO4 )
+ )
+ ( /481BAD0A $noname  C18 1uF {Lib=C_MINI}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /481BAB66 $noname  C16 1uF {Lib=C_MINI}
+  (    1 N-000016 )
+  (    2 VCC )
+ )
+ ( /481BAB64 $noname  C17 1uF {Lib=C_MINI}
+  (    1 N-000016 )
+  (    2 +3.3V )
+ )
+ ( /481BAB57 $noname  U7 TPS71933-28 {Lib=TPS71933-28}
+  (    1 +3.3V )
+  (    2 VCC )
+  (    3 N-000057 )
+  (    4 /PIO4 )
+  (    5 GND )
+  (    6 N-000015 )
+ )
+ ( /481B9499 $noname  R6 10k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /PIO9 )
+ )
+ ( /481B8F84 $noname  C11 0.01uF {Lib=C_MINI}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /481B8F70 $noname  R7 2.2 {Lib=R_MINI}
+  (    1 N-000004 )
+  (    2 +1.8V )
+ )
+ ( /481B8E7C $noname  C6 15pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 +1.8V )
+ )
+ ( /481B8E7B $noname  C5 0.047uF {Lib=C_MINI}
+  (    1 GND )
+  (    2 +1.8V )
+ )
+ ( /481B8E78 $noname  C4 4.7uF {Lib=C_MINI}
+  (    1 GND )
+  (    2 +1.8V )
+ )
+ ( /481B8E00 $noname  L2 22uH {Lib=L_MINI}
+  (    1 N-000062 )
+  (    2 +1.8V )
+ )
+ ( /481B8B75 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 /RST )
+ )
+ ( /481B8B66 $noname  R5 10k {Lib=R_MINI}
+  (    1 /RST )
+  (    2 +1.8V )
+ )
+ ( /481B8A64 $noname  C10 5.6pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000080 )
+ )
+ ( /481B8A58 $noname  C9 12pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000081 )
+ )
+ ( /481B84FC $noname  C3 4.7uF {Lib=CP}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48170064 $noname  U5 24AA32 {Lib=24AA32}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 /PIO7 )
+  (    6 /PIO6 )
+  (    7 /PIO8 )
+  (    8 N-000055 )
+ )
+ ( /4816FF6F $noname  U8 RF-TP {Lib=RF-TP}
+  (    1 N-000079 )
+  (    2 GND )
+ )
+ ( /4816FDD4 $noname  A1 ANT {Lib=ANT}
+  (    1 N-000079 )
+ )
+ ( /4816FD00 $noname  X1 TCXO {Lib=TCXO}
+  (    1 N-000081 )
+  (    2 GND )
+  (    3 N-000080 )
+  (    4 GND )
+ )
+ ( /4816D1F2 $noname  R1 1M {Lib=R_MINI}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /4816D0CF $noname  R3 22 {Lib=R_MINI}
+  (    1 N-000017 )
+  (    2 N-000019 )
+ )
+ ( /4816D0CB $noname  R2 22 {Lib=R_MINI}
+  (    1 N-000024 )
+  (    2 N-000020 )
+ )
+ ( /4816D058 $noname  CR2 ESD_ZENER {Lib=ESD_ZENER}
+  (    1 N-000002 )
+  (    2 N-000019 )
+ )
+ ( /4816CFED $noname  L5 15nH {Lib=L_MINI}
+  (    1 +1.8V )
+  (    2 N-000082 )
+ )
+ ( /4816CFEC $noname  C15 15pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000082 )
+ )
+ ( /4816CFD6 $noname  L3 3.9nH {Lib=L_MINI}
+  (    1 N-000084 )
+  (    2 N-000018 )
+ )
+ ( /4816CFD5 $noname  C14 2.2pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 N-000083 )
+ )
+ ( /4816CF7C $noname  L4 3.9nH {Lib=L_MINI}
+  (    1 N-000083 )
+  (    2 N-000023 )
+ )
+ ( /4816CF76 $noname  C13 2.2pF {Lib=C_MINI}
+  (    1 N-000084 )
+  (    2 GND )
+ )
+ ( /4816CA68 $noname  U4 HHM1517 {Lib=HHM1517}
+  (    1 N-000001 )
+  (    2 N-000082 )
+  (    3 N-000084 )
+  (    4 N-000083 )
+  (    5 GND )
+  (    6  ? )
+ )
+ ( /4816CA60 $noname  U2 BC413159B {Lib=BC413159B}
+  (  E11 N-000004 )
+  (  L11 +3.3V )
+  (   L1 +1.8V )
+  (   L5 +1.8V )
+  (   H2 +1.8V )
+  (   B1 +3.3V )
+  (   C1 +1.8V )
+  (  D11 +3.3V )
+  (   B6 +3.3V )
+  (   B8 +3.3V )
+  (   J7 +3.3V )
+  (   K8 +3.3V )
+  (   J1 N-000033 )
+  (   J2 N-000032 )
+  (   H9 /PCM_SYNC )
+  (  J11 /PCM_IN )
+  (  G11 /PCM_OUT )
+  (  H11 /PCM_CLK )
+  (   C3  ? )
+  (  A10 N-000012 )
+  (   A9 N-000027 )
+  (   A3 /PIO11 )
+  (   B4 /PIO10 )
+  (   A4  ? )
+  (   A5 /PIO8 )
+  (   G9 /PIO7 )
+  (  F11 /PIO6 )
+  (  F10 /PIO5 )
+  (   F9 /PIO4 )
+  (   B3 /PIO3 )
+  (   A2 /PIO2 )
+  (   B2 /PIO1 )
+  (   A1 /PIO0 )
+  (   L7 /AIO2 )
+  (   L6  ? )
+  (   J6 /AIO0 )
+  (   D1  ? )
+  (   E1 N-000023 )
+  (   F1 N-000018 )
+  (  C10  ? )
+  (   L3 N-000013 )
+  (   L2 N-000026 )
+  (   K1 +1.8V )
+  (   A8  ? )
+  (   H1 +3.3V )
+  (  A11  ? )
+  (   H3 N-000008 )
+  (   A6 N-000062 )
+  (  K11 /CTS )
+  (   L8 /RTS )
+  (  K10 /RXD1 )
+  (   K9 /TXD1 )
+  (   C9 /MOSI )
+  (  B11 /MISO )
+  (   B9 /SS )
+  (  C11 /SCK )
+  (   L9 N-000017 )
+  (  L10 N-000024 )
+  (   K4 N-000080 )
+  (   L4 N-000081 )
+  (  D10 /RST )
+  (   K7  ? )
+  (   K6  ? )
+  (   K5  ? )
+  (  J10  ? )
+  (   J8  ? )
+  (  H10  ? )
+  (  G10  ? )
+  (   G3  ? )
+  (   B5  ? )
+  (   B7  ? )
+  (  B10  ? )
+  (   C6  ? )
+  (   D3  ? )
+  (  E10  ? )
+  (   F3  ? )
+  (   C2 GND )
+  (   D2 GND )
+  (   E2 GND )
+  (   F2 GND )
+  (   J3 GND )
+  (   J4 GND )
+  (   J5 GND )
+  (   K2 GND )
+  (   K3 GND )
+  (   G1 GND )
+  (   G2 GND )
+  (   J9 GND )
+  (   D9 GND )
+  (   C8 GND )
+  (   C4 GND )
+  (   E9 GND )
+  (   A7 GND )
+  (   E3 GND )
+  (   C5 GND )
+  (   C7 GND )
+ )
+ ( /4816CA38 $noname  U1 USBCONN {Lib=USBCONN}
+  (    1 VCC )
+  (    2 N-000019 )
+  (    3 N-000020 )
+  (    4 GND )
+  (    5 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component U2
+ TFBGA96_0.65mm-Pitch
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 ""
+ U4 1
+ U6 1
+Net 2 ""
+ CR2 1
+ CR1 1
+Net 4 ""
+ R7 1
+ C11 1
+ U2 E11
+Net 5 "GND"
+ U2 A7
+ U2 E3
+ U2 E9
+ U2 C4
+ U2 C8
+ U2 D9
+ U1 4
+ U2 J9
+ U2 G2
+ U2 G1
+ U2 K3
+ U2 K2
+ U2 J5
+ U2 J4
+ U2 J3
+ U2 F2
+ U2 E2
+ U2 D2
+ U2 C2
+ U4 5
+ C13 2
+ C14 1
+ C15 1
+ R1 2
+ X1 4
+ X1 2
+ U8 2
+ U5 1
+ U5 3
+ U5 4
+ C3 2
+ C9 1
+ C10 1
+ SW1 1
+ U6 4
+ C4 1
+ C5 1
+ C6 1
+ U2 C5
+ U2 C7
+ C11 2
+ U6 3
+ R6 1
+ U7 5
+ C18 2
+ R15 1
+ M1 2
+ C2 2
+ U5 2
+ C8 2
+ RF_Shield1 1
+ C12 1
+ P2 14
+ EEPROM_PROG1 4
+ PWR_OUT1 1
+ PWR_IN1 2
+Net 6 ""
+ R4 1
+ C8 1
+ C7 2
+/Net 7 "PIO9"
+ R11 1
+ R6 2
+Net 8 ""
+ U2 H3
+ SW5 2
+ R11 2
+/Net 9 "RST"
+ U2 D10
+ SW1 2
+ P2 18
+ R5 1
+/Net 10 "PIO1"
+ SW3 1
+ U2 B2
+Net 11 ""
+ R12 1
+ D4 2
+Net 12 ""
+ U2 A10
+ R13 2
+Net 13 ""
+ U2 L3
+ C1 1
+Net 14 ""
+ C2 1
+ R4 2
+ L1 1
+ C1 2
+Net 15 ""
+ R14 1
+ U7 6
+Net 16 ""
+ C17 1
+ C16 1
+Net 17 ""
+ R3 1
+ U2 L9
+Net 18 ""
+ L3 2
+ U2 F1
+Net 19 ""
+ CR2 2
+ R3 2
+ U1 2
+Net 20 ""
+ R2 2
+ U1 3
+ CR1 2
+Net 23 ""
+ L4 2
+ U2 E1
+Net 24 ""
+ U2 L10
+ R2 1
+Net 25 ""
+ L1 2
+ M1 1
+Net 26 ""
+ C7 1
+ U2 L2
+Net 27 ""
+ U2 A9
+ R12 2
+Net 28 ""
+ R13 1
+ D5 2
+Net 29 "+3.3V"
+ U2 L11
+ U2 B1
+ D2 2
+ PWR_OUT1 2
+ U2 K8
+ SW5 1
+ C17 2
+ U7 1
+ U2 H1
+ U2 D11
+ U2 B6
+ U2 B8
+ D3 1
+ U2 J7
+/Net 30 "AIO2"
+ C12 2
+ U2 L7
+/Net 31 "PIO0"
+ SW4 1
+ U2 A1
+Net 32 ""
+ U2 J2
+ U3 1
+ U3 2
+Net 33 ""
+ U2 J1
+ U3 3
+Net 34 "VCC"
+ R14 2
+ PWR_IN1 1
+ C16 2
+ U7 2
+ C3 1
+ U1 1
+ D1 2
+/Net 38 "PIO8"
+ U5 7
+ EEPROM_PROG1 3
+ U2 A5
+ R10 1
+/Net 39 "PIO7"
+ U2 G9
+ U5 5
+ EEPROM_PROG1 2
+ R8 1
+/Net 40 "PIO6"
+ R9 1
+ EEPROM_PROG1 1
+ U5 6
+ U2 F11
+/Net 41 "AIO0"
+ U2 J6
+ P2 22
+/Net 42 "RXD1"
+ P2 20
+ U2 K10
+/Net 43 "TXD1"
+ U2 K9
+ P2 19
+/Net 44 "PIO2"
+ SW2 1
+ U2 A2
+ P2 17
+/Net 45 "RTS"
+ P2 16
+ U2 L8
+/Net 46 "CTS"
+ U2 K11
+ P2 15
+/Net 47 "SS"
+ P2 13
+ U2 B9
+/Net 48 "SCK"
+ P2 12
+ U2 C11
+/Net 49 "MOSI"
+ U2 C9
+ P2 11
+/Net 50 "MISO"
+ P2 10
+ U2 B11
+/Net 51 "PIO11"
+ U2 A3
+ P2 5
+/Net 52 "PIO10"
+ U2 B4
+ P2 4
+/Net 53 "PIO5"
+ U2 F10
+ P2 3
+/Net 54 "PIO3"
+ U2 B3
+ P2 2
+Net 55 ""
+ U5 8
+ R9 2
+ R10 2
+ EEPROM_PROG1 5
+ R8 2
+ D3 2
+/Net 56 "PIO4"
+ U2 F9
+ U7 4
+ R15 2
+Net 57 ""
+ C18 1
+ U7 3
+Net 61 "+1.8V"
+ SW3 2
+ SW4 2
+ SW2 2
+ U2 K1
+ D5 1
+ L5 1
+ L2 2
+ R7 2
+ R5 2
+ C4 2
+ D4 1
+ C5 2
+ U2 C1
+ C6 2
+ U2 L1
+ U2 L5
+ U2 H2
+Net 62 ""
+ D2 1
+ U2 A6
+ L2 1
+Net 79 ""
+ U6 2
+ A1 1
+ U8 1
+Net 80 ""
+ C10 2
+ X1 3
+ U2 K4
+Net 81 ""
+ X1 1
+ C9 2
+ U2 L4
+Net 82 ""
+ C15 2
+ U4 2
+ L5 2
+Net 83 ""
+ L4 1
+ C14 2
+ U4 4
+Net 84 ""
+ L3 1
+ U4 3
+ C13 1
+/Net 85 "PCM_SYNC"
+ U2 H9
+ P2 8
+/Net 86 "PCM_IN"
+ P2 6
+ U2 J11
+/Net 87 "PCM_OUT"
+ U2 G11
+ P2 7
+/Net 88 "PCM_CLK"
+ U2 H11
+ P2 9
+}
+#End

@@ -1,0 +1,321 @@
+# EESchema Netlist Version 1.1 created  6/1/2009-23:39:50
+(
+ ( /49611513 Chip_Antenna_AF_2.4GHz A1 ANT
+  ( 1 N-000039 )
+ )
+ ( /496109EA SM0402_Opendous C1 15pF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /496109F0 SM0402_Opendous C2 15pF
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /496119C2 SM0402_Opendous C3 2.2uF
+  ( 1 +1.5V )
+  ( 2 GND )
+ )
+ ( /4961193B SM0402_Opendous C4 15pF
+  ( 1 +1.5V )
+  ( 2 GND )
+ )
+ ( /49611D20 SM0402_Opendous C5 2.2uF
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /49611937 SM0402_Opendous C6 0.1uF
+  ( 1 +1.5V )
+  ( 2 GND )
+ )
+ ( /49610A0B SM0402_Opendous C7 0.01uF
+  ( 1 N-000009 )
+  ( 2 GND )
+ )
+ ( /49611C03 SM0402_Opendous C8 0.01uF
+  ( 1 VDD_PADS )
+  ( 2 GND )
+ )
+ ( /496138D4 SM0402_Opendous C10 2.2uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /496138D0 SM0402_Opendous C11 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /496106E4 SM0402_Opendous C13 15pF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /49611652 SM0603_Opendous C14 4.7uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4961152E SM0402_Opendous C15 20pF
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /49611EDC SM0603_Opendous L1 Ferrite
+  ( 1 VCC )
+  ( 2 VDD )
+ )
+ ( /496106EC SM0402_Opendous L3 18nH
+  ( 1 +1.5V )
+  ( 2 N-000006 )
+ )
+ ( /496145CA Pin_Array_4x2_0.05inch P1 PCM
+  ( 1 /PCM_CLK )
+  ( 2 /PCM_OUT )
+  ( 3 /PCM_IN )
+  ( 4 /PCM_SYNC )
+  ( 5 /PIO7 )
+  ( 6 /PIO5 )
+  ( 7 VDD )
+  ( 8 GND )
+ )
+ ( /49613A75 Micropendous1-Core P2 MICROPENDOUS1-CORE
+  ( 1 /SPI_CS )
+  ( 2 /SPI_CLK )
+  ( 3 /SPI_MOSI )
+  ( 4 /SPI_MISO )
+  ( 5 /SDIO_SD_CS )
+  ( 6 /CSPI_MOSI )
+  ( 7 /RESET )
+  ( 8 /AIO0 )
+  ( 9 GND )
+  ( 10 VCC )
+  ( 11 /PIO4 )
+  ( 12 /PIO3 )
+  ( 13 /UART_TX )
+  ( 14 /UART_RX )
+  ( 15 /PIO9 )
+  ( 16 /CSPI_CLK )
+  ( 17 /UART_RTS )
+  ( 18 /UART_CTS )
+  ( 19 /PIO2 )
+  ( 20 /PIO1 )
+ )
+ ( /4961202D 1Pin_TH_40milVia P3 CONN_1
+  ( 1 N-000012 )
+ )
+ ( /49611995 SM0402_Opendous R1 2.2
+  ( 1 +1.5V )
+  ( 2 N-000010 )
+ )
+ ( /49611D26 SM0402_Opendous R2 2.2
+  ( 1 N-000011 )
+  ( 2 +1.8V )
+ )
+ ( /496116B4 SM0402_Opendous R3 15k
+  ( 1 /RESET )
+  ( 2 VCC )
+ )
+ ( /49610968 QFN40_0.5mmPitch_6x6mm U1 BLUECORE6-ROM_QFN
+  ( 1 /SPI_CLK )
+  ( 2 /SPI_CS )
+  ( 3 /SPI_MOSI )
+  ( 4 /RESET )
+  ( 5 N-000012 )
+  ( 6 N-000008 )
+  ( 7 N-000007 )
+  ( 8 +1.5V )
+  ( 9 +1.8V )
+  ( 10 +1.5V )
+  ( 11 N-000029 )
+  ( 12 N-000005 )
+  ( 13 N-000009 )
+  ( 14 /AIO0 )
+  ( 15 +1.8V )
+  ( 16 VDD )
+  ( 17 VDD )
+  ( 18 VDD_PADS )
+  ( 19 /PIO1 )
+  ( 20 /PIO2 )
+  ( 21 /PIO3 )
+  ( 22 /PIO4 )
+  ( 23 /PIO5 )
+  ( 24 /PIO7 )
+  ( 25 /PIO9 )
+  ( 26 N-000010 )
+  ( 27 ? )
+  ( 28 /UART_TX )
+  ( 29 /UART_RTS )
+  ( 30 /UART_RX )
+  ( 31 /UART_CTS )
+  ( 32 /CSPI_CLK )
+  ( 33 /SDIO_SD_CS )
+  ( 34 /CSPI_MOSI )
+  ( 35 VDD_PADS )
+  ( 36 /PCM_SYNC )
+  ( 37 /PCM_CLK )
+  ( 38 /PCM_OUT )
+  ( 39 /PCM_IN )
+  ( 40 /SPI_MISO )
+  ( 41 GND )
+ )
+ ( /4961069D LFB212G45BA1A220 U3 BALUN_LFB212G45BA1A220
+  ( 1 ? )
+  ( 2 N-000006 )
+  ( 3 N-000039 )
+  ( 4 GND )
+  ( 5 N-000008 )
+  ( 6 GND )
+  ( 7 N-000007 )
+  ( 8 GND )
+ )
+ ( /49615D57 1Pin_15mil_VIA U4 VIA
+  ( 1 GND )
+ )
+ ( /49615D5B 1Pin_15mil_VIA U5 VIA
+  ( 1 GND )
+ )
+ ( /49615D5D 1Pin_15mil_VIA U6 VIA
+  ( 1 GND )
+ )
+ ( /49615D5F 1Pin_15mil_VIA U7 VIA
+  ( 1 GND )
+ )
+ ( /49615D61 1Pin_15mil_VIA U8 VIA
+  ( 1 GND )
+ )
+ ( /49615D63 1Pin_15mil_VIA U9 VIA
+  ( 1 GND )
+ )
+ ( /49615D65 1Pin_15mil_VIA U10 VIA
+  ( 1 GND )
+ )
+ ( /49615D66 1Pin_15mil_VIA U11 VIA
+  ( 1 GND )
+ )
+ ( /49615D6B 1Pin_15mil_VIA U13 VIA
+  ( 1 GND )
+ )
+ ( /4961A8CB 1Pin_15mil_VIA U14 VIA
+  ( 1 /UART_RTS )
+ )
+ ( /4961A478 1Pin_15mil_VIA U15 VIA
+  ( 1 GND )
+ )
+ ( /4961A479 1Pin_15mil_VIA U16 VIA
+  ( 1 GND )
+ )
+ ( /4961A47A 1Pin_15mil_VIA U17 VIA
+  ( 1 GND )
+ )
+ ( /4961A47B 1Pin_15mil_VIA U18 VIA
+  ( 1 GND )
+ )
+ ( /4961A8C0 1Pin_15mil_VIA U19 VIA
+  ( 1 /PIO1 )
+ )
+ ( /4961A8C1 1Pin_15mil_VIA U20 VIA
+  ( 1 /PIO2 )
+ )
+ ( /4961A8CC 1Pin_15mil_VIA U23 VIA
+  ( 1 /PIO9 )
+ )
+ ( /4961A8D9 1Pin_15mil_VIA U29 VIA
+  ( 1 /PCM_SYNC )
+ )
+ ( /4961A905 1Pin_15mil_VIA U30 VIA
+  ( 1 /AIO0 )
+ )
+ ( /4961A903 1Pin_15mil_VIA U32 VIA
+  ( 1 /CSPI_MOSI )
+ )
+ ( /4961A904 1Pin_15mil_VIA U33 VIA
+  ( 1 /SDIO_SD_CS )
+ )
+ ( /4961A909 1Pin_15mil_VIA U34 VIA
+  ( 1 /SPI_MISO )
+ )
+ ( /4961A90A 1Pin_15mil_VIA U35 VIA
+  ( 1 /SPI_MOSI )
+ )
+ ( /4961A907 1Pin_15mil_VIA U36 VIA
+  ( 1 /SPI_CLK )
+ )
+ ( /4961A908 1Pin_15mil_VIA U37 VIA
+  ( 1 /SPI_CS )
+ )
+ ( /4961A90D 1Pin_15mil_VIA U38 VIA
+  ( 1 /PIO3 )
+ )
+ ( /4961A90B 1Pin_15mil_VIA U40 VIA
+  ( 1 /PIO7 )
+ )
+ ( /4961A90C 1Pin_15mil_VIA U41 VIA
+  ( 1 /PIO5 )
+ )
+ ( /4961BADE 1Pin_15mil_VIA U42 VIA
+  ( 1 +1.8V )
+ )
+ ( /4961BAE1 1Pin_15mil_VIA U43 VIA
+  ( 1 +1.8V )
+ )
+ ( /4961C938 1Pin_15mil_VIA U44 VIA
+  ( 1 VCC )
+ )
+ ( /4961C939 1Pin_15mil_VIA U45 VIA
+  ( 1 VCC )
+ )
+ ( /4961CA8E 1Pin_15mil_VIA U46 VIA
+  ( 1 GND )
+ )
+ ( /4961CA8F 1Pin_15mil_VIA U47 VIA
+  ( 1 GND )
+ )
+ ( /4961CA90 1Pin_15mil_VIA U48 VIA
+  ( 1 GND )
+ )
+ ( /4961CA91 1Pin_15mil_VIA U49 VIA
+  ( 1 GND )
+ )
+ ( /4961D84F 1Pin_15mil_VIA U50 VIA
+  ( 1 /PIO1 )
+ )
+ ( /4961D850 1Pin_15mil_VIA U51 VIA
+  ( 1 /PIO2 )
+ )
+ ( /4961D97F 1Pin_15mil_VIA U52 VIA
+  ( 1 VCC )
+ )
+ ( /4961D980 1Pin_15mil_VIA U53 VIA
+  ( 1 VCC )
+ )
+ ( /4961DA10 1Pin_15mil_VIA U54 VIA
+  ( 1 /PIO2 )
+ )
+ ( /4961DABB 1Pin_15mil_VIA U55 VIA
+  ( 1 GND )
+ )
+ ( /4961DB9F 1Pin_15mil_VIA U56 VIA
+  ( 1 VDD )
+ )
+ ( /4961DBA0 1Pin_15mil_VIA U57 VIA
+  ( 1 VDD )
+ )
+ ( /4963E6E2 1Pin_15mil_VIA U58 VIA
+  ( 1 /RESET )
+ )
+ ( /4963E9D5 1Pin_15mil_VIA U59 VIA
+  ( 1 +1.5V )
+ )
+ ( /4963EBB8 1Pin_15mil_VIA U60 VIA
+  ( 1 +1.5V )
+ )
+ ( /49618EAE Crystal_2.5x2mm X1 CRYSTAL_4PIN_GND
+  ( 1 N-000029 )
+  ( 2 GND )
+  ( 3 N-000005 )
+  ( 4 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component P2
+ Micropendous1-Core-Inverted
+ Micropendous1-Core
+$endlist
+$endfootprintlist
+}

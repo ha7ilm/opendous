@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0  2/8/2010 1:17:40 PM
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_8
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP TXB0108
+K Voltage Level Translator TXS0108 ADG3300 MAX3002 TXB0108
+$ENDCMP
+#
+#End Doc Library

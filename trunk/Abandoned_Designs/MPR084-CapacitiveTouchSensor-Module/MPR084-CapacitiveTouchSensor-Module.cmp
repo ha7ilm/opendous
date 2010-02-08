@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 18/10/2008-09:08:56
+
+BeginCmp
+TimeStamp = /48F9A658;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A661;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A666;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A699;
+Reference = C4;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A2AD;
+Reference = K1;
+ValeurCmp = AD_Sel;
+IdModule  = SIL-3POS-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A66E;
+Reference = L1;
+ValeurCmp = Ferrite;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A1C0;
+Reference = P1;
+ValeurCmp = Electrode_Array;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A63D;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A373;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A3F5;
+Reference = P4;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A1B4;
+Reference = R1;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A1B3;
+Reference = R2;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A1B2;
+Reference = R3;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A1B1;
+Reference = R4;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A19B;
+Reference = R5;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A19A;
+Reference = R6;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A190;
+Reference = R7;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A164;
+Reference = R8;
+ValeurCmp = 780k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A5DB;
+Reference = R9;
+ValeurCmp = 4.7k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A2D1;
+Reference = R10;
+ValeurCmp = 4.7k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9A157;
+Reference = U1;
+ValeurCmp = MPR084;
+IdModule  = QFN16_p0.8mm_MPR08x;
+EndCmp
+
+EndListe

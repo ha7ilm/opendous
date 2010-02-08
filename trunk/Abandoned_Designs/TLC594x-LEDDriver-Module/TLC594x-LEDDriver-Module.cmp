@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 20/10/2008-10:19:47
+
+BeginCmp
+TimeStamp = /48FC49C1;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC45AA;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC45B7;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC45CE;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC45E2;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC463D;
+Reference = P1;
+ValeurCmp = ControlOUT;
+IdModule  = SIL-10-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC461D;
+Reference = P2;
+ValeurCmp = ControlIN;
+IdModule  = SIL-10-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC484B;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC484E;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC464D;
+Reference = P5;
+ValeurCmp = LED1;
+IdModule  = SIL-8-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC4653;
+Reference = P6;
+ValeurCmp = LED2;
+IdModule  = SIL-8-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC5A87;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC5B2C;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC4A56;
+Reference = R1;
+ValeurCmp = 0;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC49CB;
+Reference = R2;
+ValeurCmp = 1.3k;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC459E;
+Reference = U1;
+ValeurCmp = TLC5941(HTSSOP);
+IdModule  = SSOP28;
+EndCmp
+
+EndListe

@@ -1,0 +1,156 @@
+# EESchema Netlist Version 1.1 created  20/10/2008-08:02:15
+(
+ ( /48FBFBCF SM0805_Opendous C1 4.7uF
+  ( 1 VPP )
+  ( 2 GND )
+ )
+ ( /48FBFBDD SM0603_Opendous C2 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /48FBFC82 SM0603_Opendous C3 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /48FBFBEC SM0603_Opendous C4 1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /48FBFDD8 SM0805_Opendous C5 10uF
+  ( 1 VCC )
+  ( 2 GNDA )
+ )
+ ( /48FBFD91 SM0603_Opendous C6 0.1uF
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /48FBFE2B SM0603_Opendous C7 0.01uF
+  ( 1 N-000011 )
+  ( 2 GNDA )
+ )
+ ( /48FBFBFF SM0603_Opendous C8 1uF
+  ( 1 VCC )
+  ( 2 GNDA )
+ )
+ ( /48FBFC03 SM0603_Opendous C9 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /48FBFC06 SM0603_Opendous C10 0.01uF
+  ( 1 VCC )
+  ( 2 GNDA )
+ )
+ ( /48FBFED5 SM0603_Opendous C11 20pF
+  ( 1 N-000016 )
+  ( 2 GNDA )
+ )
+ ( /48FBFED9 SM0603_Opendous C12 20pF
+  ( 1 N-000015 )
+  ( 2 GNDA )
+ )
+ ( /48FBFEDC SM0603_Opendous C13 20pF
+  ( 1 N-000014 )
+  ( 2 GNDA )
+ )
+ ( /48FBFBD6 SM0603_Opendous L1 Ferrite
+  ( 1 VDD )
+  ( 2 VPP )
+ )
+ ( /48FBFBF3 SM0603_Opendous L2 Ferrite
+  ( 1 N-000012 )
+  ( 2 VDD )
+ )
+ ( /48FBFBFB SM0603_Opendous L3 Ferrite
+  ( 1 GNDA )
+  ( 2 GND )
+ )
+ ( /48FBF90E SIL-9-Blank P1 PortB
+  ( 1 GND )
+  ( 2 N-000005 )
+  ( 3 N-000006 )
+  ( 4 N-000007 )
+  ( 5 ? )
+  ( 6 N-000004 )
+  ( 7 N-000008 )
+  ( 8 N-000003 )
+ )
+ ( /48FBFBA2 SIL-2-Blank P2 Power
+  ( 1 GND )
+  ( 2 VPP )
+ )
+ ( /48FBFE9E SIL-2-Blank P3 SYNCout
+  ( 1 N-000016 )
+  ( 2 GNDA )
+ )
+ ( /48FBFEAB SIL-2-Blank P4 MSBout
+  ( 1 N-000015 )
+  ( 2 GNDA )
+ )
+ ( /48FBFEAE SMB_RF_PCmount_MalePin P5 Vout
+  ( 1 N-000014 )
+  ( 2 GNDA )
+ )
+ ( /48FC0389 1Pin_15mil_VIA P6 CONN_1
+  ( 1 N-000010 )
+ )
+ ( /48FC03C0 1Pin_15mil_VIA P7 CONN_1
+  ( 1 GNDA )
+ )
+ ( /48FC03C4 1Pin_15mil_VIA P8 CONN_1
+  ( 1 GNDA )
+ )
+ ( /48FC03C6 1Pin_15mil_VIA P9 CONN_1
+  ( 1 GNDA )
+ )
+ ( /48FC08EE 1Pin_15mil_VIA P10 CONN_1
+  ( 1 GNDA )
+ )
+ ( /48FC29C2 1Pin_15mil_VIA P11 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC30E8 1Pin_15mil_VIA P12 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC30E9 1Pin_15mil_VIA P13 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC3262 1Pin_15mil_VIA P14 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC3AE5 1Pin_15mil_VIA P15 CONN_1
+  ( 1 GND )
+ )
+ ( /48FBFAF5 SM0603_Opendous R1 4.7k
+  ( 1 N-000002 )
+  ( 2 VDD )
+ )
+ ( /48FBFFE7 SM0603_Opendous R2 1.5
+  ( 1 VCC )
+  ( 2 N-000012 )
+ )
+ ( /48FB3B9A SSOP16_Opendous U1 AD5932
+  ( 1 N-000011 )
+  ( 2 VCC )
+  ( 3 VDD )
+  ( 4 N-000010 )
+  ( 5 GND )
+  ( 6 N-000009 )
+  ( 7 N-000016 )
+  ( 8 N-000015 )
+  ( 9 N-000003 )
+  ( 10 N-000004 )
+  ( 11 N-000007 )
+  ( 12 N-000006 )
+  ( 13 N-000005 )
+  ( 14 N-000008 )
+  ( 15 GNDA )
+  ( 16 N-000014 )
+ )
+ ( /48FB530D Oscillator_5x3.2mm_ASFL1 X1 OSCILLATOR
+  ( 1 N-000002 )
+  ( 2 GND )
+  ( 3 N-000009 )
+  ( 4 VDD )
+ )
+)
+*

@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CVpcb (20090216-RC1) date = 3/8/2009 10:18:59 PM
+
+BeginCmp
+TimeStamp = /49B489C5;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49B489CA;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49B4898A;
+Reference = P1;
+ValeurCmp = PWRIN;
+IdModule  = DC_Power_Jack_SMT_PJ015;
+EndCmp
+
+BeginCmp
+TimeStamp = /49B4899C;
+Reference = P2;
+ValeurCmp = PWROUT;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /49B48995;
+Reference = U1;
+ValeurCmp = TLV1117;
+IdModule  = SOT-223_Opendous;
+EndCmp
+
+EndListe

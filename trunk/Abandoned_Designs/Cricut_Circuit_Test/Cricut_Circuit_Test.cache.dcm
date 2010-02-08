@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0  2/8/2010 1:56:44 PM
+#
+$CMP 1117
+K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
+$ENDCMP
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library
