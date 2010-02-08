@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 18/10/2008-12:14:22
+
+BeginCmp
+TimeStamp = /48F9D097;
+Reference = P1;
+ValeurCmp = Electrode_Array;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0B0;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0B2;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0B4;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0B7;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0BE;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0BF;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0C0;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48F9D0C1;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT_7mm;
+EndCmp
+
+EndListe

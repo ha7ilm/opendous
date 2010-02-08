@@ -1,0 +1,219 @@
+# EESchema Netlist Version 1.1 created  20/10/2008-14:39:54
+(
+ ( /48FC6B5A SM0805_Opendous C9 6.8pF
+  ( 1 N-000019 )
+  ( 2 N-000005 )
+ )
+ ( /48FC742F SM0805_Opendous C10 12pF
+  ( 1 N-000014 )
+  ( 2 N-000006 )
+ )
+ ( /48FC6675 SM0603_Opendous C11 4.7uF
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /48FC78D6 SM0603_Opendous C12 4.7uF
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /48FC7A26 SM0603_Opendous C13 0.01uF
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /48FC7909 SM0603_Opendous C14 0.1uF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /48FC66CD SM0603_Opendous C15 4.7uF
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /48FC79DD SM0603_Opendous C16 0.01uF
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /48FC7300 SM0603_Opendous C17 0.22uF
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /48FC70D5 SM0805_Opendous C18 4.7uF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /48FC70FF SM0805_Opendous C19 4.7uF
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /48FC70D8 SM0805_Opendous C20 4.7uF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /48FC7100 SM0805_Opendous C21 4.7uF
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /48FC70DB SM0805_Opendous C22 4.7uF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /48FC7101 SM0805_Opendous C23 4.7uF
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /48FC70DD SM0805_Opendous C24 4.7uF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /48FC7102 SM0805_Opendous C25 4.7uF
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /48FC66BF Powermite_457 D1 MBRM120
+  ( 1 N-000018 )
+  ( 2 N-000004 )
+ )
+ ( /48FC721D Powermite_457 D2 MBRM120
+  ( 1 N-000015 )
+  ( 2 N-000017 )
+ )
+ ( /48FC7F5C SM0805_Opendous D3 ONP
+  ( 1 GND )
+  ( 2 N-000001 )
+ )
+ ( /48FC7F32 SM0805_Opendous D4 ONN
+  ( 1 N-000009 )
+  ( 2 GND )
+ )
+ ( /48FC66AF Inductor_SMD_0.15x0.15_744031wurth L1 4.7uH
+  ( 1 N-000004 )
+  ( 2 N-000020 )
+ )
+ ( /48FC724C Inductor_SMD_0.15x0.15_744031wurth L2 4.7uH
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /48FC662A SIL-2-Blank P1 PWRin
+  ( 1 GND )
+  ( 2 N-000021 )
+ )
+ ( /48FC7B44 SIL-2-Blank P2 VPOS
+  ( 1 GND )
+  ( 2 N-000018 )
+ )
+ ( /48FC7B58 SIL-2-Blank P3 VNEG
+  ( 1 GND )
+  ( 2 N-000017 )
+ )
+ ( /48FC8FA5 1Pin_TH_40milVia P4 CONN_1
+  ( 1 N-000021 )
+ )
+ ( /48FC9807 1Pin_TH_40milVia P5 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97F1 1Pin_TH_40milVia P6 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97EA 1Pin_TH_40milVia P7 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97EE 1Pin_15mil_VIA P8 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97F9 1Pin_15mil_VIA P9 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97FC 1Pin_15mil_VIA P10 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC97FE 1Pin_15mil_VIA P11 CONN_1
+  ( 1 GND )
+ )
+ ( /48FC8449 SOT23-3_Opendous Q1 Si2323DS
+  ( 1 N-000002 )
+  ( 2 N-000021 )
+  ( 3 N-000020 )
+ )
+ ( /48FC6B3F SM0805_Opendous R1 909k
+  ( 1 N-000018 )
+  ( 2 N-000019 )
+ )
+ ( /48FC6C6D SM0805_Opendous R2 162k
+  ( 1 GND )
+  ( 2 N-000019 )
+ )
+ ( /48FC7546 SM0805_Opendous R3 665k
+  ( 1 N-000017 )
+  ( 2 N-000014 )
+ )
+ ( /48FC712D SM0805_Opendous R4 162k
+  ( 1 N-000016 )
+  ( 2 N-000014 )
+ )
+ ( /48FC7829 SM0603_Opendous R5 100
+  ( 1 N-000013 )
+  ( 2 N-000021 )
+ )
+ ( /48FC7A48 SM0603_Opendous R6 1k
+  ( 1 N-000008 )
+  ( 2 N-000003 )
+ )
+ ( /48FC7431 SM0603_Opendous R7 10k
+  ( 1 N-000017 )
+  ( 2 N-000006 )
+ )
+ ( /48FC6B55 SM0603_Opendous R8 10k
+  ( 1 N-000018 )
+  ( 2 N-000005 )
+ )
+ ( /48FC7F5B SM0603_Opendous R9 1.5k
+  ( 1 N-000001 )
+  ( 2 N-000018 )
+ )
+ ( /48FC7F2B SM0603_Opendous R10 1.5k
+  ( 1 N-000009 )
+  ( 2 N-000017 )
+ )
+ ( /48FC6519 QFN24_p0.5mm_TPS6513x U1 TPS65131
+  ( 1 N-000004 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000013 )
+  ( 5 N-000021 )
+  ( 6 N-000021 )
+  ( 7 N-000002 )
+  ( 8 N-000013 )
+  ( 9 N-000013 )
+  ( 10 N-000013 )
+  ( 11 N-000013 )
+  ( 12 ? )
+  ( 13 N-000015 )
+  ( 14 N-000015 )
+  ( 15 N-000017 )
+  ( 16 N-000014 )
+  ( 17 N-000016 )
+  ( 18 N-000007 )
+  ( 19 GND )
+  ( 20 ? )
+  ( 21 N-000003 )
+  ( 22 N-000019 )
+  ( 23 N-000018 )
+  ( 24 N-000004 )
+  ( 25 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0  2/8/2010 1:59:08 PM
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_5X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_6X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP_MINI
+K Polarized Capacitor
+$ENDCMP
+#
+#End Doc Library

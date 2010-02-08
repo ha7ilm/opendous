@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 20/10/2008-15:02:45
+
+BeginCmp
+TimeStamp = /4830ACBC;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830ACBE;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830ACA9;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830ACA6;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830AC9A;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830AC97;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830AF11;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_TH_40milVia;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830AF9B;
+Reference = R1;
+ValeurCmp = 47k;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4830AC8B;
+Reference = U1;
+ValeurCmp = TXB0108;
+IdModule  = SSOP20;
+EndCmp
+
+EndListe

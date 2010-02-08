@@ -1,0 +1,201 @@
+# EESchema Netlist Version 1.1 created  18/10/2008-09:55:18
+(
+ ( /48F9A699 $noname  C4 0.01uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48F9A66E $noname  L1 Ferrite {Lib=L_MINI}
+  (    1 VCC )
+  (    2 VDD )
+ )
+ ( /48F9A666 $noname  C3 1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48F9A661 $noname  C2 0.1uF {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48F9A658 $noname  C1 4.7uF {Lib=CP_TANTALUM_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /48F9A63D $noname  P2 Power {Lib=CONN_2}
+  (    1 GND )
+  (    2 VDD )
+ )
+ ( /48F9A5DB $noname  R9 4.7k {Lib=R_MINI}
+  (    1 N-000014 )
+  (    2 VCC )
+ )
+ ( /48F9A3F5 $noname  P4 CONN_5 {Lib=CONN_5}
+  (    1 GND )
+  (    2 N-000014 )
+  (    3 N-000002 )
+  (    4 N-000015 )
+  (    5 N-000001 )
+ )
+ ( /48F9A373 $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /48F9A2D1 $noname  R10 4.7k {Lib=R_MINI}
+  (    1 VCC )
+  (    2 N-000004 )
+ )
+ ( /48F9A2AD $noname  K1 AD_Sel {Lib=CONN_3}
+  (    1 N-000004 )
+  (    2 N-000003 )
+  (    3 GND )
+ )
+ ( /48F9A1C0 $noname  P1 Electrode_Array {Lib=CONN_9}
+  (    1 GND )
+  (    2 N-000012 )
+  (    3 N-000005 )
+  (    4 N-000011 )
+  (    5 N-000006 )
+  (    6 N-000010 )
+  (    7 N-000007 )
+  (    8 N-000009 )
+  (    9 N-000008 )
+ )
+ ( /48F9A1B4 $noname  R1 780k {Lib=R_MINI}
+  (    1 N-000012 )
+  (    2 VCC )
+ )
+ ( /48F9A1B3 $noname  R2 780k {Lib=R_MINI}
+  (    1 N-000005 )
+  (    2 VCC )
+ )
+ ( /48F9A1B2 $noname  R3 780k {Lib=R_MINI}
+  (    1 N-000011 )
+  (    2 VCC )
+ )
+ ( /48F9A1B1 $noname  R4 780k {Lib=R_MINI}
+  (    1 N-000006 )
+  (    2 VCC )
+ )
+ ( /48F9A19B $noname  R5 780k {Lib=R_MINI}
+  (    1 N-000010 )
+  (    2 VCC )
+ )
+ ( /48F9A19A $noname  R6 780k {Lib=R_MINI}
+  (    1 N-000007 )
+  (    2 VCC )
+ )
+ ( /48F9A190 $noname  R7 780k {Lib=R_MINI}
+  (    1 N-000009 )
+  (    2 VCC )
+ )
+ ( /48F9A164 $noname  R8 780k {Lib=R_MINI}
+  (    1 N-000008 )
+  (    2 VCC )
+ )
+ ( /48F9A157 $noname  U1 MPR084 {Lib=MPR084}
+  (    1 N-000001 )
+  (    2 N-000014 )
+  (    3 VCC )
+  (    4 GND )
+  (    5 N-000015 )
+  (    6 N-000002 )
+  (    7 N-000003 )
+  (    8 N-000013 )
+  (    9 N-000012 )
+  (   10 N-000005 )
+  (   11 N-000011 )
+  (   12 N-000006 )
+  (   13 N-000010 )
+  (   14 N-000007 )
+  (   15 N-000009 )
+  (   16 N-000008 )
+  (   17 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 ""
+ P4 5
+ U1 1
+Net 2 ""
+ P4 3
+ U1 6
+Net 3 ""
+ U1 7
+ K1 2
+Net 4 ""
+ K1 1
+ R10 2
+Net 5 ""
+ U1 10
+ P1 3
+ R2 1
+Net 6 ""
+ P1 5
+ R4 1
+ U1 12
+Net 7 ""
+ P1 7
+ R6 1
+ U1 14
+Net 8 ""
+ U1 16
+ P1 9
+ R8 1
+Net 9 ""
+ P1 8
+ R7 1
+ U1 15
+Net 10 ""
+ P1 6
+ R5 1
+ U1 13
+Net 11 ""
+ U1 11
+ P1 4
+ R3 1
+Net 12 ""
+ U1 9
+ R1 1
+ P1 2
+Net 13 ""
+ P3 1
+ U1 8
+Net 14 ""
+ U1 2
+ P4 2
+ R9 1
+Net 15 ""
+ U1 5
+ P4 4
+Net 16 "VCC"
+ C2 1
+ R3 2
+ R2 2
+ U1 3
+ R6 2
+ L1 1
+ R1 2
+ C3 1
+ C4 1
+ R7 2
+ R10 1
+ R8 2
+ R4 2
+ R9 2
+ R5 2
+Net 17 "GND"
+ K1 3
+ P4 1
+ P1 1
+ P2 1
+ U1 4
+ C1 2
+ C3 2
+ C4 2
+ U1 17
+ C2 2
+Net 18 "VDD"
+ C1 1
+ L1 2
+ P2 2
+}
+#End

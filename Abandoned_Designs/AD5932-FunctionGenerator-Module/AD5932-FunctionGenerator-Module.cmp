@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by CVpcb (20080825-RC1) date = 20/10/2008-08:02:15
+
+BeginCmp
+TimeStamp = /48FBFBCF;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBDD;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFC82;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBEC;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFDD8;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFD91;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFE2B;
+Reference = C7;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBFF;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFC03;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFC06;
+Reference = C10;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFED5;
+Reference = C11;
+ValeurCmp = 20pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFED9;
+Reference = C12;
+ValeurCmp = 20pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFEDC;
+Reference = C13;
+ValeurCmp = 20pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBD6;
+Reference = L1;
+ValeurCmp = Ferrite;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBF3;
+Reference = L2;
+ValeurCmp = Ferrite;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBFB;
+Reference = L3;
+ValeurCmp = Ferrite;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBF90E;
+Reference = P1;
+ValeurCmp = PortB;
+IdModule  = SIL-9-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFBA2;
+Reference = P2;
+ValeurCmp = Power;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFE9E;
+Reference = P3;
+ValeurCmp = SYNCout;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFEAB;
+Reference = P4;
+ValeurCmp = MSBout;
+IdModule  = SIL-2-Blank;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFEAE;
+Reference = P5;
+ValeurCmp = Vout;
+IdModule  = SMB_RF_PCmount_MalePin;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC0389;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC03C0;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC03C4;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC03C6;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC08EE;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC29C2;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC30E8;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC30E9;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC3262;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FC3AE5;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFAF5;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FBFFE7;
+Reference = R2;
+ValeurCmp = 1.5;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FB3B9A;
+Reference = U1;
+ValeurCmp = AD5932;
+IdModule  = SSOP16_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /48FB530D;
+Reference = X1;
+ValeurCmp = OSCILLATOR;
+IdModule  = Oscillator_5x3.2mm_ASFL1;
+EndCmp
+
+EndListe
