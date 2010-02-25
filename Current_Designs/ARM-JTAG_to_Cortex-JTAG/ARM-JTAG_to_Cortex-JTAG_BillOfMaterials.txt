@@ -1,0 +1,6 @@
+This is a very simple design:
+
+ARM JTAG - 10x2 0.1" Unshrouded Male Header - DigiKey Part# 67996-220HLF
+Cortex JTAG - 5x2 0.05"(1.27mm) Unshrouded Male Right-Angle Header - DigiKey Part# GRPB052MWCN-RC
+Reset Switch - DigiKey Part# TL59FF260Q or any of the TL59 series of switches
+

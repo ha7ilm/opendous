@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  2/3/2010 11:16:24 AM
+EESchema-DOCLIB  Version 2.0  2/24/2010 8:02:29 PM
 #
 $CMP 1117
 K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
@@ -15,10 +15,6 @@ $ENDCMP
 $CMP CONN_10X2
 D symbole general de connecteur
 K CONN
-$ENDCMP
-#
-$CMP TXB0108
-K Voltage Level Translator TXS0108 ADG3300 MAX3002 TXB0108
 $ENDCMP
 #
 #End Doc Library
