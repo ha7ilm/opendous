@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = 2/24/2010 2:02:10 PM
+
+BeginCmp
+TimeStamp = /4B832AB1;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = Switch_TH_TL59;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B2215E3;
+Reference = U3;
+ValeurCmp = CORTEX;
+IdModule  = Pin_Array_5x2_SMT_1.27mm_0.5_inch;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B2214BE;
+Reference = U5;
+ValeurCmp = ARM;
+IdModule  = Pin_Array_Port_10x2_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8327C4;
+Reference = V1;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8327CD;
+Reference = V2;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8327D0;
+Reference = V3;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8327D2;
+Reference = V4;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8577A7;
+Reference = V5;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+EndListe

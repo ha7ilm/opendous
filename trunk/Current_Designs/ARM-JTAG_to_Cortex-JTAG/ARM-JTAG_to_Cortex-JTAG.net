@@ -1,0 +1,57 @@
+# EESchema Netlist Version 1.1 created  2/24/2010 2:02:10 PM
+(
+ ( /4B832AB1 Switch_TH_TL59 SW1 RESET
+  ( 1 GND )
+  ( 2 /nSRST )
+ )
+ ( /4B2215E3 Pin_Array_5x2_SMT_1.27mm_0.5_inch U3 CORTEX
+  ( 1 VREF )
+  ( 2 /TMS )
+  ( 3 GND )
+  ( 4 /TCK )
+  ( 5 GND )
+  ( 6 /TDO )
+  ( 7 /RTCK )
+  ( 8 /TDI )
+  ( 9 GND )
+  ( 10 /nSRST )
+ )
+ ( /4B2214BE Pin_Array_Port_10x2_Polarized U5 ARM
+  ( 1 VREF )
+  ( 2 VREF )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /TDI )
+  ( 6 GND )
+  ( 7 /TMS )
+  ( 8 GND )
+  ( 9 /TCK )
+  ( 10 GND )
+  ( 11 /RTCK )
+  ( 12 GND )
+  ( 13 /TDO )
+  ( 14 GND )
+  ( 15 /nSRST )
+  ( 16 GND )
+  ( 17 ? )
+  ( 18 GND )
+  ( 19 ? )
+  ( 20 GND )
+ )
+ ( /4B8327C4 1Pin_20mil_VIA V1 VIA
+  ( 1 GND )
+ )
+ ( /4B8327CD 1Pin_20mil_VIA V2 VIA
+  ( 1 GND )
+ )
+ ( /4B8327D0 1Pin_20mil_VIA V3 VIA
+  ( 1 GND )
+ )
+ ( /4B8327D2 1Pin_20mil_VIA V4 VIA
+  ( 1 GND )
+ )
+ ( /4B8577A7 1Pin_20mil_VIA V5 VIA
+  ( 1 GND )
+ )
+)
+*
