@@ -1,6 +1,11 @@
 This is a very simple design:
 
 ARM JTAG - 10x2 0.1" Unshrouded Male Header - DigiKey Part# 67996-220HLF
-Cortex JTAG - 5x2 0.05"(1.27mm) Unshrouded Male Right-Angle Header - DigiKey Part# GRPB052MWCN-RC
+Cortex JTAG - 5x2 0.05"(1.27mm) Unshrouded Male Header - DigiKey Part# GRPB052VWVN-RC or GRPB052VWQS-RC for the SMT version
 Reset Switch - DigiKey Part# TL59FF260Q or any of the TL59 series of switches
+Cable Assembly 10Pos F-F - 5x2 0.05"(1.27mm) - DigiKey Part# SAM8218-ND
+
+Instead of Male headers and a cable you could also use a female 5x2 0.05"(1.27mm)
+Header and mount it on the underside of the board - DigiKey Part# S9009E-05-ND
+If you can source a right-angle 5x2 0.05"(1.27mm) female header that would work even better.
 
