@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date 2/24/2010 8:02:29 PM
+EESchema Schematic File Version 2  date 2/26/2010 8:12:45 AM
 LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\Opendous_FT2232H_JTAG.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "Opendous FT2232H JTAG"
-Date "25 feb 2010"
+Date "26 feb 2010"
 Rev "2.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -13,11 +13,17 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.opendous.org/JTAG"
 $EndDescr
+Connection ~ 10650 4950
+Connection ~ 10650 4750
+Connection ~ 10850 4750
+Connection ~ 10850 4950
+Wire Wire Line
+	11050 4950 10450 4950
+Wire Wire Line
+	10450 4750 11050 4750
 Connection ~ 10750 4950
 Wire Wire Line
 	10750 4950 10750 5000
-Wire Wire Line
-	10650 4950 10850 4950
 Wire Wire Line
 	5600 7200 5600 7250
 Wire Wire Line
@@ -36,7 +42,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 4050 7350 4000
 Wire Wire Line
-	7600 4050 7800 4050
+	7800 4050 7600 4050
 Wire Wire Line
 	3850 8000 3850 7950
 Wire Wire Line
@@ -131,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 8250 1450 8250
 Wire Wire Line
-	3800 3100 1800 3100
+	1800 3100 3800 3100
 Connection ~ 2650 3200
 Wire Wire Line
 	2650 3350 2650 3200
@@ -208,14 +214,14 @@ Connection ~ 4300 7150
 Wire Wire Line
 	4300 7050 4300 7150
 Wire Wire Line
-	4100 7350 4500 7350
+	4500 7350 4100 7350
 Wire Wire Line
-	4500 7150 4100 7150
+	4100 7150 4500 7150
 Connection ~ 3500 7150
 Wire Wire Line
 	3500 7150 3500 7050
 Wire Wire Line
-	3800 7350 3200 7350
+	3200 7350 3800 7350
 Connection ~ 5100 2000
 Connection ~ 5200 2000
 Connection ~ 5150 2000
@@ -225,7 +231,7 @@ Connection ~ 4700 2000
 Wire Wire Line
 	4700 1800 4700 2000
 Wire Wire Line
-	3650 2750 3450 2750
+	3450 2750 3650 2750
 Wire Wire Line
 	3650 2450 3800 2450
 Wire Wire Line
@@ -233,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1250 4300 2000
 Wire Wire Line
-	3950 900  4150 900 
+	4150 900  3950 900 
 Wire Wire Line
 	2700 7500 1500 7500
 Wire Wire Line
@@ -279,9 +285,9 @@ Wire Wire Line
 Wire Wire Line
 	3000 5100 2900 5100
 Wire Wire Line
-	2100 4950 1900 4950
+	1900 4950 2100 4950
 Wire Wire Line
-	3800 4900 2900 4900
+	2900 4900 3800 4900
 Connection ~ 3000 5750
 Connection ~ 3400 5750
 Wire Wire Line
@@ -292,7 +298,7 @@ Connection ~ 3200 6050
 Wire Wire Line
 	3200 6100 3200 6050
 Wire Wire Line
-	3400 6050 3000 6050
+	3000 6050 3400 6050
 Wire Wire Line
 	3800 5650 3400 5650
 Wire Wire Line
@@ -300,9 +306,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 5400 2500 5300
 Wire Wire Line
-	2900 4800 3800 4800
+	3800 4800 2900 4800
 Wire Wire Line
-	2900 5000 3800 5000
+	3800 5000 2900 5000
 Wire Wire Line
 	3200 5000 3200 5300
 Connection ~ 3200 5000
@@ -321,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4950 1700 4950
 Wire Wire Line
-	3200 4450 3400 4450
+	3400 4450 3200 4450
 Wire Wire Line
 	3200 4650 3200 4800
 Connection ~ 3200 4800
@@ -342,13 +348,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 3200 1000 3300
 Wire Wire Line
-	2100 7550 2100 7450
+	2100 7450 2100 7550
 Wire Wire Line
 	2500 7250 2500 7150
 Wire Wire Line
 	900  7150 1100 7150
 Wire Wire Line
-	1700 7150 1300 7150
+	1300 7150 1700 7150
 Connection ~ 1500 7150
 Connection ~ 2700 7150
 Wire Wire Line
@@ -361,7 +367,7 @@ Connection ~ 4050 900
 Connection ~ 3950 700 
 Connection ~ 4150 700 
 Wire Wire Line
-	3950 1450 4150 1450
+	4150 1450 3950 1450
 Wire Wire Line
 	3550 1250 3650 1250
 Wire Wire Line
@@ -374,18 +380,18 @@ Wire Wire Line
 Wire Wire Line
 	4400 700  3850 700 
 Wire Wire Line
-	3800 2550 3250 2550
+	3250 2550 3800 2550
 Wire Wire Line
 	3550 2800 3550 2750
 Connection ~ 3550 2750
 Connection ~ 3650 2550
 Connection ~ 3450 2550
 Wire Wire Line
-	4600 2000 4800 2000
+	4800 2000 4600 2000
 Wire Wire Line
-	5000 2000 5300 2000
+	5300 2000 5000 2000
 Wire Wire Line
-	3200 7150 3800 7150
+	3800 7150 3200 7150
 Wire Wire Line
 	3500 7350 3500 7450
 Connection ~ 3500 7350
@@ -401,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 6050 3700 6150
 Wire Wire Line
-	5150 6500 4450 6500
+	4450 6500 5150 6500
 Connection ~ 5050 6500
 Connection ~ 4950 6500
 Connection ~ 4850 6500
@@ -494,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 2200 7700 2200
 Wire Wire Line
-	8300 750  8300 1450
+	8300 1450 8300 750 
 Connection ~ 8300 1350
 Connection ~ 8300 1250
 Connection ~ 8300 1150
@@ -508,7 +514,7 @@ Wire Wire Line
 	2750 3350 2750 3100
 Connection ~ 2750 3100
 Wire Wire Line
-	3800 3200 1800 3200
+	1800 3200 3800 3200
 Wire Wire Line
 	1000 8100 1150 8100
 Wire Wire Line
@@ -537,7 +543,7 @@ Connection ~ 1900 8200
 Connection ~ 1900 8050
 Connection ~ 1900 8000
 Wire Wire Line
-	1000 8250 1000 8050
+	1000 8050 1000 8250
 Connection ~ 1000 8100
 Connection ~ 1000 8150
 Connection ~ 1000 8200
@@ -641,7 +647,7 @@ Wire Wire Line
 	7700 4000 7700 4050
 Connection ~ 7700 4050
 Wire Wire Line
-	7800 4250 7600 4250
+	7600 4250 7800 4250
 Wire Wire Line
 	7700 4300 7700 4250
 Connection ~ 7700 4250
@@ -652,10 +658,26 @@ Wire Wire Line
 Wire Wire Line
 	5900 7250 5900 7200
 Wire Wire Line
-	10850 4750 10650 4750
-Wire Wire Line
-	10750 4750 10750 4700
+	10750 4700 10750 4750
 Connection ~ 10750 4750
+$Comp
+L C_MINI C23
+U 1 1 4B87C8A6
+P 10450 4850
+F 0 "C23" V 10400 4900 30  0000 C CNN
+F 1 "0u1" V 10500 4900 25  0000 C CNN
+	1    10450 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C24
+U 1 1 4B87C89E
+P 11050 4850
+F 0 "C24" V 11000 4900 30  0000 C CNN
+F 1 "0u1" V 11100 4900 25  0000 C CNN
+	1    11050 4850
+	0    1    1    0   
+$EndComp
 $Comp
 L C_MINI C22
 U 1 1 4B85CBAF
