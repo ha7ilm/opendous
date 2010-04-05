@@ -1,0 +1,87 @@
+PCBNEW-BOARD Version 1 date 05/04/2010 00:52:53
+
+# Created by Pcbnew(20100314 SVN-R2460)-final
+
+$GENERAL
+LayerCount 4
+Ly 1FFF8007
+EnabledLayers 11FC8007
+Links 0
+NoConn 0
+Di 0 0 117000 82670
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title "ADS1298 Base Board"
+Date "5 apr 2010"
+Rev "1.0"
+Comp "Opendous Inc. (www.opendous.org)"
+Comment1 ""
+Comment2 "http://creativecommons.org/licenses/by/3.0/"
+Comment3 "Copyright Under the Creative Commons Attribution License"
+Comment4 "Analog Front-End for Biopotential Measurements"
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+ZoneGridSize 250
+Layers 4
+Layer[0] Bottom signal
+Layer[1] Inner2 signal
+Layer[2] Inner1 signal
+Layer[15] Top signal
+TrackWidth 80
+TrackClearence 80
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 80
+EdgeSegmWidth 80
+ViaSize 360
+ViaDrill 200
+ViaMinSize 360
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 120
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 120
+TextPcbWidth 60
+TextPcbSize 240 260
+EdgeModWidth 60
+TextModSize 240 260
+TextModWidth 60
+PadSize 600 600
+PadDrill 380
+Pad2MaskClearance 10
+Pad2PasteClearance 10
+Pad2PasteClearanceRatio 1e-005
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 80
+TrackWidth 80
+ViaDia 360
+ViaDrill 200
+uViaDia 200
+uViaDrill 120
+AddNet ""
+$EndNCLASS
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/20/2009 6:57:04 AM
+EESchema-DOCLIB  Version 2.0  Date: 05/04/2010 08:47:39
 #
 $CMP 1117
 K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
@@ -11,6 +11,16 @@ $ENDCMP
 #
 $CMP 93CX6
 K Microwire Serial EEPROM
+$ENDCMP
+#
+$CMP ADS1298
+D ADS1x9x Analog Front-End for Biopotential Measurements
+K TI ADS1298 ADS1294 ADS1198 ADS1194
+$ENDCMP
+#
+$CMP ADuMx401
+D ADuMx401 Quad-Channel (3-1) Digital Isolator
+K ADuM5401 ADuM1401 ADuM3401
 $ENDCMP
 #
 $CMP AND_GATE
@@ -27,6 +37,11 @@ $ENDCMP
 #
 $CMP C_MINI
 K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_36
+D Symbole general de connexion
+K CONN
 $ENDCMP
 #
 $CMP CONN_MMC_MMCplus_GMC06003XSEU
@@ -75,6 +90,15 @@ $CMP Micropendous1
 K Micropendous1 AT90USB162 www.Micropendous1.org
 $ENDCMP
 #
+$CMP OPA211
+D OPA211 1.1nV/Hz Low Noise Low Power Precision Op-Amp
+K TI OPA211
+$ENDCMP
+#
+$CMP REGULATOR_SOT23-5
+K Regulator SOT23 SOT23-5 SOT25 TPS736xx AP131 PQ1Uxx1M2ZPH LP2985 ZXCLxxx 
+$ENDCMP
+#
 $CMP STEREO-AUDIO-JACK
 K CUI Inc. SJ1-3515-SMT
 $ENDCMP
@@ -82,6 +106,11 @@ $ENDCMP
 $CMP TPS719XX
 D Dual, 200mA Output, Low Noise, High PSRR LDOs
 K LDO 200mA
+$ENDCMP
+#
+$CMP TPS79101
+D Ultralow Noise, High-PSRR, Fast RF Adjustable LDO
+K TI TPS79101 TPS79201
 $ENDCMP
 #
 $CMP TS3USB221
