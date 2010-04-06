@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 05/04/2010 08:47:39
+EESchema-DOCLIB  Version 2.0  Date: 05/04/2010 23:48:08
 #
 $CMP 1117
 K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
@@ -64,6 +64,11 @@ $ENDCMP
 #
 $CMP GNDS
 K GNDS GND_Shield Earth Shield
+$ENDCMP
+#
+$CMP iMX233
+D Freescale i.MX233 ARM9 Portable Multimedia Processor
+K Freescale i.MX233 i.MX23 i.MX ARM9 MCIMX233_AG4B 128LQFP
 $ENDCMP
 #
 $CMP Inverter

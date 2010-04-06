@@ -1,5 +1,5 @@
 ######################################################################
-#  IBIS to KiCAD Component v2010-04-05                               #
+#  Freescale iMX to KiCAD Component v2010-04-05                      #
 #                                                                    #
 #  Copyright 2010 Opendous Inc. (www.opendous.org)                   #
 #                                                                    #
@@ -25,10 +25,10 @@ import sys, string, time, re
 from sets import Set
 
 
-# Find the definition of PartName in IBISFile and convert it into a KiCAD component
-def IBIStoKiCADComponent(IBISFile, PartName):
+# Convert pins defined in IMXFile into a KiCAD component
+def IMXtoKiCADComponent(IMXFile):
 
-    file = open(IBISFile, 'r')
+    file = open(IMXFile, 'r')
 
     # TODO - ideally the pin type names associated with each list should be determined
     # from the IBIS model names which would also provide more detailed pin information
@@ -41,56 +41,48 @@ def IBIStoKiCADComponent(IBISFile, PartName):
 
     pinCount = 0
 
-    foundComponent = 0
-
     longestComponentName = 0
 
     # find all pins and place them in their corresponding list
     for line in file.readlines():
 
-        if (foundComponent == 1):
-            if ("[Component]" in line.strip()):
-                foundComponent = 0
-
-        if (PartName in line):
-            # the following lines describe our intended part
-            foundComponent = 1
-
-        if (foundComponent == 1):
-            # match at start of line a letter followed by a number followed by whitespace or
-            # match at start of line a number followed by a letter followed by whitespace
-            p1 = re.compile('(^[a-zA-Z]{0,3}\d{1,3}\s+)|(^\d{1,3}[a-zA-Z]{0,3}\s+)')
-            p2 = re.compile('\w*\S*\w') # match all non-whitespace items in the line
-            rpl1 = p1.findall(line.strip())
-            rpl2 = p2.findall(line.strip())
-            if (rpl1 != []):
-                # found a pin for the our component
-                pinCount = pinCount + 1
-                if (len(rpl2[1]) > longestComponentName):
-                    longestComponentName = len((rpl2[1]).strip())
-                #print "Line\t\"", line.strip(), "\"\tContains: ", rpl2
-                if ("GND" in line):
-                    # it is a GND pin
-                    pinList_GND.append((rpl2[1], rpl2[0]))
-                    #pinNameList_GND.append(rpl2[1])
-                elif (("POWER" in line) or ("analog" in line)):
-                    # it is a POWER pin
-                    pinList_Power.append((rpl2[1], rpl2[0]))
-                elif (("TERM" in line) or ("analog" in line)):
-                    # it is an Analog pin
-                    pinList_Analog.append((rpl2[1], rpl2[0]))
-                elif (("emi" in line) or ("gpio33s" in line) or ("gpio" in line) or ("adrs" in line) or ("DOUTRI" in line) or ("DIO" in line) or ("emiq" in line)):
-                    # found a digital pin
-                    pinList_Digital.append((rpl2[1], rpl2[0]))
-                elif ("NC" in line):
-                    # it is a No Connect pin
-                    pinList_NC.append((rpl2[1], rpl2[0]))
-                else:
-                    pinList_Other.append((rpl2[1], rpl2[0]))
+        # match at start of line a letter followed by a number followed by whitespace or
+        # match at start of line a number followed by a letter followed by whitespace
+        p1 = re.compile('(^[a-zA-Z]{0,3}\d{1,3}\s+)|(^\d{1,3}[a-zA-Z]{0,3}\s+)')
+        p2 = re.compile('\w*\S*\w') # match all non-whitespace items in the line
+        rpl1 = p1.findall(line.strip())
+        rpl2 = p2.findall(line.strip())
+        #fullPinName = rpl2[1] + "-" + rpl2[4]
+        #for i in rpl2[5:]:
+        #    fullPinName = fullPinName + " " + i
+        if (rpl1 != []):
+            # found a pin for the our component
+            pinCount = pinCount + 1
+            if (len(rpl2[1]) > longestComponentName):
+                longestComponentName = len((rpl2[1]).strip())
+            #print "Line\t\"", line.strip(), "\"\tContains: ", rpl2
+            if ("Ground" in line):
+                # it is a GND pin
+                pinList_GND.append((rpl2[1], rpl2[0]))
+                #pinNameList_GND.append(rpl2[1])
+            elif (("DCDC" in line) or ("VDD" in line)):
+                # it is a POWER pin
+                pinList_Power.append((rpl2[1], rpl2[0]))
+            elif (rpl2[2] == "A"):
+                # it is an Analog pin
+                pinList_Analog.append((rpl2[1], rpl2[0]))
+            elif ("DIO" in line):
+                # found a digital pin
+                pinList_Digital.append((rpl2[1], rpl2[0]))
+            elif ("NC" in line):
+                # it is a No Connect pin
+                pinList_NC.append((rpl2[1], rpl2[0]))
+            else:
+                pinList_Other.append((rpl2[1], rpl2[0]))
 
     file.close()
 
-    outFileName = PartName + ".lib"
+    outFileName = IMXFile + "_KiCADSymbolLibrary.lib"
     # TODO - output to file
     #outFile = open(outFileName, 'w')
 
@@ -129,11 +121,11 @@ def IBIStoKiCADComponent(IBISFile, PartName):
     # preample to a KiCAD Schematic Symbol Library
     print "EESchema-LIBRARY Version 2.3  Date:", time.strftime('%d/%m/%Y-%H:%M:%S')
     print "#"
-    print "#", PartName
+    print "#", IMXFile
     print "#"
-    print "DEF", PartName, "U 0 40 Y Y 1 F N"
+    print "DEF", IMXFile, "U 0 40 Y Y 1 F N"
     print "F0 \"IC\" 0 0 60 H V C CNN"
-    print "F1 \"" + PartName + "\" 0 0 60 H V C CNN"
+    print "F1 \"" + IMXFile + "\" 0 0 60 H V C CNN"
     print "DRAW"
 
     # create all the GND pins
@@ -187,22 +179,22 @@ def IBIStoKiCADComponent(IBISFile, PartName):
     print "ENDDRAW"
     print "ENDDEF"
 
-    print "\n\nCreated", outFileName, "using", pinCountCreated, "of", pinCount, "pins from", IBISFile
+    print "\n\nCreated", outFileName, "using", pinCountCreated, "of", pinCount, "pins from", IMXFile
 
     #outFile.close()
 
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print "IBIS to KiCAD Component v2010-04-05 By Opendous Inc."
-        print "  Convert a component defined in an IBIS file to a KiCAD Schematic"
-        print "  Symbol. You need to add any decorative elements yourself."
+    if len(sys.argv) != 2:
+        print "Freescale iMX to KiCAD Component v2010-04-05 By Opendous Inc."
+        print "  Convert the pin definitions copied from an i.MX datasheet into a"
+        print "  KiCAD Symbol. You need to add any decorative elements yourself."
         print "  Output is a KiCAD library named: <ComponentName>.lib"
         print "    Usage:"
         print "      python", sys.argv[0], "<IBIS_File> <ComponentName>"
         print "        Where <IBIS_File> = the IBIS file containing your component"
         print "        Where <ComponentName> = the name of your component"
-        print "      python", sys.argv[0], " ads1x9x.ibs  ADS1x98IZXGx"
+        print "      python", sys.argv[0], " iMX233_Pins.txt"
         exit()
-    IBIStoKiCADComponent(sys.argv[1], sys.argv[2])
+    IMXtoKiCADComponent(sys.argv[1])
