@@ -1,7 +1,7 @@
 ######################################################################
-#  DIL Module (Footprint) Creator for KiCAD v2009-05-01              #
+#  DIL Module (Footprint) Creator for KiCAD v2010-04-07              #
 #                                                                    #
-#  Copyright 2009 Opendous Inc. (www.opendous.org)                   #
+#  Copyright 2010 Opendous Inc. (www.opendous.org)                   #
 #                                                                    #
 #  Permission to use, copy, modify, and distribute this software     #
 #  and its documentation for any purpose and without fee is hereby   #
@@ -31,13 +31,16 @@ def createDILModule(numPins, acrossDistance, pinPitch, pinLength, pinWidth):
 
     # footprint name will be of form DIL48_p20, where 48 is number of pins and p20 is pitch in mils
     footprint_name = "_DIL_" + str(numPins) + "p" + str(pinPitch / 10)
-    file_name = footprint_name + ".mod"
+    file_name = footprint_name + ".emp"
+
+    Xoffset = 0
+    XpinSubtract = 0
 
     # what is the position for the first pad, off of which all other positions are based
     # only care about X direction as Y is fixed at 
-    if (((numPins / 4) % 2) == 1):
+    if (((numPins / 2) % 2) == 1):
         Xoffset = int(pinPitch / 2)
-        XpinSubtract = 0
+        XpinSubtract = -(pinPitch/2)
     else:
         Xoffset = 0
         XpinSubtract = -(pinPitch/2)
@@ -85,7 +88,7 @@ def createDILModule(numPins, acrossDistance, pinPitch, pinLength, pinWidth):
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
-        print "DIL Module (Footprint) Creator for KiCAD v2009-05-01 By Opendous Inc."
+        print "DIL Module (Footprint) Creator for KiCAD v2010-04-07 By Opendous Inc."
         print "Include the resulting file as a library in your project."
         print "Usage:"
         print "  python", sys.argv[0], "#pads, acrossDistance, pitch, padLength, padWidth"
