@@ -1,0 +1,5 @@
+INCOMPLETE
+
+AVX TCJ Series Tantalum 1206 6.3V TCJA157M006#0200 150uF 200mOhm ESR
+	TCJA476M006#0200 47uF 200mOhm ESR
+* 1210 case would be a much better alternative
