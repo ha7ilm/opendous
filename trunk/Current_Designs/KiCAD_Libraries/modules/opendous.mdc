@@ -1,13 +1,8 @@
-PCBNEW-LibDoc----V1  07/04/2010 19:49:37
+PCBNEW-LibDoc----V1  17/04/2010 14:50:29
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
 Kw DEV
-$EndMODULE
-#
-$MODULE DC_Power_Jack_SMT_PJ006
-Li DC_Power_Jack_SMT_PJ006
-Kw CUI PJ-006B-SMT
 $EndMODULE
 #
 $MODULE LQFP64_Opendous
@@ -46,37 +41,15 @@ Li XBGA_6
 Kw WCSP TI YZP
 $EndMODULE
 #
-$MODULE SOT23-5_Opendous
-Li SOT23-5_Opendous
-Kw SOT23-5_Opendous
-$EndMODULE
-#
 $MODULE Switch_SMT_TH
 Li Switch_SMT_TH
 Cd EVQ-Q2F03W, TL59AF100Q Compatible
 Kw Switch SMT TH Through-Hole
 $EndMODULE
 #
-$MODULE DC_Power_Jack_SMT_PJ015
-Li DC_Power_Jack_SMT_PJ015
-Kw CUI PJ-015B-SMT CUI PJ-015A-SMT
-$EndMODULE
-#
-$MODULE Bridge_Rectifier_SMD_4SDIP
-Li Bridge_Rectifier_SMD_4SDIP
-Cd 4pin SDIP
-Kw SDIP
-$EndMODULE
-#
 $MODULE SM1210_Opendous
 Li SM1210_Opendous
 Kw CMS SM
-$EndMODULE
-#
-$MODULE HC49-US
-Li HC49-US
-Cd HC/49US (AT49) SMD Low Profile Crystal
-Kw HC49US HC49 AT49 SMT SMD TH Through-Hole Crystal
 $EndMODULE
 #
 $MODULE 1Pin_SMT
@@ -99,21 +72,6 @@ $MODULE QFN32_Opendous_v2
 Li QFN32_Opendous_v2
 Cd Support CMS Plcc 32 pins
 Kw CMS Plcc
-$EndMODULE
-#
-$MODULE Chip_Antenna_AF_2.4GHz
-Li Chip_Antenna_AF_2.4GHz
-Kw ANT-2.45-CHP
-$EndMODULE
-#
-$MODULE SOT23-6_Opendous
-Li SOT23-6_Opendous
-Kw SOT23-6_Opendous
-$EndMODULE
-#
-$MODULE SOT23-3_Opendous
-Li SOT23-3_Opendous
-Kw SOT23-6_Opendous
 $EndMODULE
 #
 $MODULE Switch_SMT
@@ -152,16 +110,6 @@ $EndMODULE
 $MODULE SC70-6L_PowerPak_Vishay
 Li SC70-6L_PowerPak_Vishay
 Kw SC-70-6L-Single Vishay PowerPak Si?4?? TrenchFET Power MOSFETs
-$EndMODULE
-#
-$MODULE SMD_Inductor_VLF301x
-Li SMD_Inductor_VLF301x
-Kw VLF3010 VLF3014 2.6x2.8mm SMD Inductor TDK
-$EndMODULE
-#
-$MODULE SMD_Inductor_LQH3NP
-Li SMD_Inductor_LQH3NP
-Kw LQH3NP 3x3mm SMD Inductor MuRata
 $EndMODULE
 #
 $MODULE Memory_Card_MMCplus_GMC05005XSEU
@@ -208,11 +156,6 @@ Cd USB SERIES A HOLE MOUNTED
 Kw USB SERIES A HOLE MOUNTED
 $EndMODULE
 #
-$MODULE Memory_Card_microSD_3M_290805
-Li Memory_Card_microSD_3M_290805
-Kw microSD 3M 290805 3M5607CT-ND
-$EndMODULE
-#
 $MODULE Switch_SMT_TH_EVQ
 Li Switch_SMT_TH_EVQ
 Cd EVQ-Q2F03W Compatible
@@ -222,12 +165,6 @@ $EndMODULE
 $MODULE Switch_TH_TL59
 Li Switch_TH_TL59
 Kw Switch TH E-Switch TL59
-$EndMODULE
-#
-$MODULE U3
-Li U3
-Cd USB SERIES A HOLE MOUNTED
-Kw USB SERIES A HOLE MOUNTED
 $EndMODULE
 #
 $MODULE CONN_USB-A_Vertical_Opendous
@@ -269,10 +206,83 @@ Cd module CMS SOT223 4 pins
 Kw CMS SOT
 $EndMODULE
 #
+$MODULE Bridge_Rectifier_SMD_4SDIP
+Li Bridge_Rectifier_SMD_4SDIP
+Cd 4pin SDIP
+Kw SDIP
+$EndMODULE
+#
+$MODULE Chip_Antenna_AF_2.4GHz
+Li Chip_Antenna_AF_2.4GHz
+Kw ANT-2.45-CHP
+$EndMODULE
+#
+$MODULE DC_Power_Jack_SMT_PJ006
+Li DC_Power_Jack_SMT_PJ006
+Kw CUI PJ-006B-SMT
+$EndMODULE
+#
+$MODULE DC_Power_Jack_SMT_PJ015
+Li DC_Power_Jack_SMT_PJ015
+Kw CUI PJ-015B-SMT CUI PJ-015A-SMT
+$EndMODULE
+#
 $MODULE HC49-US_Minimized
 Li HC49-US_Minimized
 Cd HC/49US (AT49) SMD Low Profile Crystal
 Kw HC49US HC49 AT49 SMT SMD TH Through-Hole Crystal
+$EndMODULE
+#
+$MODULE HC49-US
+Li HC49-US
+Cd HC/49US (AT49) SMD Low Profile Crystal
+Kw HC49US HC49 AT49 SMT SMD TH Through-Hole Crystal
+$EndMODULE
+#
+$MODULE BGA64_P0.8mm_8x8mm_ADS1298
+Li BGA64_P0.8mm_8x8mm_ADS1298
+Kw BGA PBGA NFBGA TI ZXG 64pos 8x8mm ADS1298 Opendous
+$EndMODULE
+#
+$MODULE Memory_Card_microSD_3M_290805
+Li Memory_Card_microSD_3M_290805
+Kw microSD 3M 290805 3M5607CT-ND
+$EndMODULE
+#
+$MODULE UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230
+Li UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230
+Kw UMCC U.FL RF PCB Receptacle Style-A Tyco-1566230 Hirose-U.FL-R-SMT DC-6GHz 50 Ohms Opendous
+$EndMODULE
+#
+$MODULE SMD_Inductor_LQH3NP
+Li SMD_Inductor_LQH3NP
+Kw LQH3NP 3x3mm SMD Inductor MuRata
+$EndMODULE
+#
+$MODULE SMD_Inductor_VLF301x
+Li SMD_Inductor_VLF301x
+Kw VLF3010 VLF3014 2.6x2.8mm SMD Inductor TDK
+$EndMODULE
+#
+$MODULE SOT23-5_Opendous
+Li SOT23-5_Opendous
+Kw SOT23-5_Opendous
+$EndMODULE
+#
+$MODULE SO8E_4x5mm_Opendous
+Li SO8E_4x5mm_Opendous
+Cd module CMS SOJ 8 pins etroit
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE SOT23-3_Opendous
+Li SOT23-3_Opendous
+Kw SOT23-5_Opendous
+$EndMODULE
+#
+$MODULE SOT23-6_Opendous
+Li SOT23-6_Opendous
+Kw SOT23-5_Opendous
 $EndMODULE
 #
 $EndLIBDOC
