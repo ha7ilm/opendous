@@ -1,0 +1,11 @@
+#summary ADS1298 Based Biopotential Sensor Platform
+
+[http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware Biopotential Sensor Platform based on [http://www.ti.com/ TI]'s [http://focus.ti.com/docs/prod/folders/print/ads1298.html ADS1298] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electrocardiography ECG]/[http://en.wikipedia.org/wiki/Electroencephalography EEG] front end.
+
+Design files are available in [http://en.wikipedia.org/wiki/Open_format Open Formats] for the [http://kicad.sourceforge.net/ KiCAD] [http://en.wikipedia.org/wiki/Open_source Open Source] [http://en.wikipedia.org/wiki/Electronic_design_automation EDA] Suite.
+
+You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/ADS1298 browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
+
+{{{
+svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/ADS1298/ opendous-ADS1298-BioSensorPlatform
+}}}
