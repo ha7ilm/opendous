@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 17/04/2010 17:11:51
+EESchema Schematic File Version 2  date 18/04/2010 02:44:13
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "ADS1298 Base Board"
-Date "17 apr 2010"
+Date "18 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
@@ -44,6 +44,8 @@ Comment2 "Copyright Under the Creative Commons Attribution License"
 Comment3 "Analog Front-End for Biopotential Measurements"
 Comment4 "http://www.opendous.org/BioSensorPlatform"
 $EndDescr
+Text Notes 8050 6450 0    60   ~ 0
+Consider Hirose FX15S-51S-0.5SH Receptacle and FX15S-51P-C\nPlug which are shielded RA SMT Connectors each about 3USD
 Text Notes 1950 1650 0    30   ~ 0
 GND Fence surrounds\ncircuit to limit EMI
 Text Notes 3875 1675 0    30   ~ 0
@@ -1916,11 +1918,11 @@ F 1 "0u1" V 3200 3700 25  0000 C CNN
 	1    3150 3650
 	0    1    1    0   
 $EndComp
-Text Notes 8400 6250 0    60   ~ 0
+Text Notes 8400 6200 0    60   ~ 0
 Sullins FFMD-25-D Cable for Female Headers 20USD
-Text Notes 8400 6350 0    60   ~ 0
+Text Notes 8400 6300 0    60   ~ 0
 Sullins FFSD-25-D Cable for Male Headers 20USD
-Text Notes 8100 6050 0    60   ~ 0
+Text Notes 8100 6000 0    60   ~ 0
 Use Sullins SFH31-NPPB-D25-SP-BK (Female Header) 3USD
 Text Label 2000 6250 0    20   ~ 0
 OUTinv
@@ -3201,7 +3203,7 @@ Text Notes 5350 2200 0    40   ~ 0
 Tie START low to control\nconversions via commands,\nAs per datasheet Pg34
 Text Notes 5450 550  0    40   ~ 0
 CLKSEL=0 for External Clock\nCLKSEL=1 for Internal Clock\nas per datasheet Pg24
-Text Notes 8100 6150 0    60   ~ 0
+Text Notes 8100 6100 0    60   ~ 0
 Mates with Sullins SBH31-NBPB-D25-ST-BK (Male Header) 3USD
 Text Notes 1850 2850 0    40   ~ 0
 Notes:\n - ADuM(6,4)401 chosen for medical-grade isolation of 5kVDC\n - ADuM4401 only needs to be populated in multi-ADS1298 systems\n - requires 4-layer board for proper isolator layout per Analog AppNote AN-0971\n - series resistors should be 1% or better
@@ -3230,7 +3232,7 @@ Text Notes 3500 4500 0    60   ~ 0
 AVDD
 Text Notes 3500 3400 0    60   ~ 0
 DVDD
-Text Notes 8650 5850 0    60   ~ 0
+Text Notes 8650 5800 0    60   ~ 0
 1.27mm*1.27mm Dual Row 25x2 Header
 $Comp
 L AGND #PWR040
