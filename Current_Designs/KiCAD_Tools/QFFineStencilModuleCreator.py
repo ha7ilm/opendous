@@ -1,5 +1,5 @@
 ######################################################################
-#  QF? Stencil Module (Footprint) Creator for KiCAD v2010-04-21      #
+#  QF? Fine Stencil Module (Footprint) Creator for KiCAD v2010-04-21 #
 #                                                                    #
 #  Copyright 2010 Opendous Inc. (www.opendous.org)                   #
 #                                                                    #
@@ -23,7 +23,7 @@
 ######################################################################
 import sys, string, time
 
-def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_pitch, pin_length, length_between_adjacent_pin_centres, min_pad_size):
+def createFineStencilModule(number_of_pins, length_between_across_pin_centers, pin_pitch, pin_length, length_between_adjacent_pin_centres, min_pad_size):
     """
     - all values are in 0.1 mils, ie, 125 = 125/10 000 inch = 12.5 mils
     - only works with perfectly square QFP/QFN footprints
@@ -120,7 +120,7 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
         file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
                 % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x, pin_pos_y))
         cnt = 0
-        while (cnt < num_squares):
+        while (cnt < (num_squares + 1)):
             cnt = cnt + 1
             pin_pos_x2 = pin_pos_x + (cnt * min_pad_size)
             file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
@@ -128,6 +128,20 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
             pin_pos_x2 = pin_pos_x - (cnt * min_pad_size)
             file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
                     % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x2, pin_pos_y))
+            pin_pos_x2 = pin_pos_x + int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x2, pin_pos_y))
+            pin_pos_x2 = pin_pos_x - int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x2, pin_pos_y))
+
+        pin_pos_x2 = pin_pos_x + int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x2, pin_pos_y))
+        pin_pos_x2 = pin_pos_x - int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_x2, pin_pos_y))
+
 
         # bottom
         orient = 450
@@ -144,6 +158,20 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
             temp_pin_pos_x2 = temp_pin_pos_x - (cnt * min_pad_size)
             file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
                     % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_y, temp_pin_pos_x2))
+            temp_pin_pos_x2 = temp_pin_pos_x + int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_y, temp_pin_pos_x2))
+            temp_pin_pos_x2 = temp_pin_pos_x - int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_y, temp_pin_pos_x2))
+
+        temp_pin_pos_x2 = temp_pin_pos_x + int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_y, temp_pin_pos_x2))
+        temp_pin_pos_x2 = temp_pin_pos_x - int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, pin_pos_y, temp_pin_pos_x2))
+
 
         # right
         orient = 3150
@@ -161,6 +189,20 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
             temp_pin_pos_x2 = temp_pin_pos_x - (cnt * min_pad_size)
             file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
                     % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_x2, temp_pin_pos_y))
+            temp_pin_pos_x2 = temp_pin_pos_x + int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_x2, temp_pin_pos_y))
+            temp_pin_pos_x2 = temp_pin_pos_x - int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                    % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_x2, temp_pin_pos_y))
+
+        temp_pin_pos_x2 = temp_pin_pos_x + int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_x2, temp_pin_pos_y))
+        temp_pin_pos_x2 = temp_pin_pos_x - int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_x2, temp_pin_pos_y))
+
 
         # top
         orient = 450
@@ -177,6 +219,20 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
             pin_pos_x2 = pin_pos_x - (cnt * min_pad_size)
             file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
                 % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_y, pin_pos_x2))
+            pin_pos_x2 = pin_pos_x + int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_y, pin_pos_x2))
+            pin_pos_x2 = pin_pos_x - int(.5 * (cnt * min_pad_size))
+            file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+                % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_y, pin_pos_x2))
+
+        pin_pos_x2 = pin_pos_x + int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+            % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_y, pin_pos_x2))
+        pin_pos_x2 = pin_pos_x - int(.5 * ((num_squares + 1) * min_pad_size))
+        file.write('\n$PAD\nSh "%d" R %d %d 0 0 %d\n%s\n%s\nNe 0 ""\nPo %d %d\n$EndPAD' \
+            % (pin_num, pin_pitch, min_pad_size, orient, pad_drill, pad_type, temp_pin_pos_y, pin_pos_x2))
+
 
         count += 1
     # END while
@@ -189,7 +245,7 @@ def createStencilModule(number_of_pins, length_between_across_pin_centers, pin_p
 
 if __name__ == '__main__':
     if len(sys.argv) != 7:
-        print "QF? Stencil Module (Footprint) Creator for KiCAD v2010-04-21 By Opendous Inc."
+        print "QF? Fine Stencil Module (Footprint) Creator for KiCAD v2010-04-21 By Opendous Inc."
         print "  Creates modules with 45deg angled pads for right-angle-only paste stencils"
         print "Usage:"
         print "  python", sys.argv[0], "#pads, acrossLen, padWidth, padLen, pitch, min_pad"
@@ -205,4 +261,4 @@ if __name__ == '__main__':
         print "           size of 10mil would be created with:"
         print "  python", sys.argv[0], "100  6200  105  580  197  100"
         exit()
-    createStencilModule(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]), int(sys.argv[6]))
+    createFineStencilModule(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]), int(sys.argv[6]))

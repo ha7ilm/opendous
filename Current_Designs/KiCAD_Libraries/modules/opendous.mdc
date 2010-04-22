@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  17/04/2010 14:50:29
+PCBNEW-LibDoc----V1  21/04/2010 02:22:45
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
@@ -16,29 +16,14 @@ Li SOT323
 Kw SOT323
 $EndMODULE
 #
-$MODULE Stereo_Jack_SMT
-Li Stereo_Jack_SMT
-Kw SJ1-3513-SMT CUI Inc.
-$EndMODULE
-#
 $MODULE TDFN_8
 Li TDFN_8
 Kw TDFN_8
 $EndMODULE
 #
-$MODULE TrimPOT_PVG3A
-Li TrimPOT_PVG3A
-Kw muRata PVG3A SMD Potentiometer
-$EndMODULE
-#
 $MODULE uMax_8
 Li uMax_8
 Kw uMax_8
-$EndMODULE
-#
-$MODULE XBGA_6
-Li XBGA_6
-Kw WCSP TI YZP
 $EndMODULE
 #
 $MODULE Switch_SMT_TH
@@ -74,12 +59,6 @@ Cd Support CMS Plcc 32 pins
 Kw CMS Plcc
 $EndMODULE
 #
-$MODULE Switch_SMT
-Li Switch_SMT
-Cd EVQ-Q2F03W Compatible
-Kw Switch SMT
-$EndMODULE
-#
 $MODULE Switch_SMT_EVQ
 Li Switch_SMT_EVQ
 Cd EVQ-Q2F03W Compatible
@@ -109,12 +88,12 @@ $EndMODULE
 #
 $MODULE SC70-6L_PowerPak_Vishay
 Li SC70-6L_PowerPak_Vishay
-Kw SC-70-6L-Single Vishay PowerPak Si?4?? TrenchFET Power MOSFETs
+Kw SC-70-6L-Single Vishay PowerPak Si?4?? TrenchFET Power MOSFETs Opendous
 $EndMODULE
 #
 $MODULE Memory_Card_MMCplus_GMC05005XSEU
 Li Memory_Card_MMCplus_GMC05005XSEU
-Kw Memory Card MMC MMCplus RS-MMC Amphenol GMC05005XSEU
+Kw Memory Card MMC MMCplus RS-MMC Amphenol GMC05005XSEU Opendous
 $EndMODULE
 #
 $MODULE TSSOP20_PW
@@ -125,7 +104,7 @@ $EndMODULE
 #
 $MODULE Memory_Card_SD_3M
 Li Memory_Card_SD_3M
-Kw SD Memory Card Connector 3M SD-RSMT-2-MQ-WF Push-Push R/A SMD
+Kw SD Memory Card Connector 3M SD-RSMT-2-MQ-WF Push-Push RA SMD Opendous
 $EndMODULE
 #
 $MODULE SC70-3_SOT-323
@@ -141,7 +120,7 @@ $EndMODULE
 #
 $MODULE Memory_Card_MMCplus_GMC06003XSEU
 Li Memory_Card_MMCplus_GMC06003XSEU
-Kw Memory Card MMC MMCplus RS-MMC Amphenol GMC06003XSEU or 101-00395-68 or Newark 40P2505
+Kw Memory Card MMC MMCplus RS-MMC Amphenol GMC06003XSEU or 101-00395-68 or Newark 40P2505 Opendous
 $EndMODULE
 #
 $MODULE CONN_USB2_MiniB_SMT
@@ -244,11 +223,6 @@ Li BGA64_P0.8mm_8x8mm_ADS1298
 Kw BGA PBGA NFBGA TI ZXG 64pos 8x8mm ADS1298 Opendous
 $EndMODULE
 #
-$MODULE Memory_Card_microSD_3M_290805
-Li Memory_Card_microSD_3M_290805
-Kw microSD 3M 290805 3M5607CT-ND
-$EndMODULE
-#
 $MODULE UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230
 Li UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230
 Kw UMCC U.FL RF PCB Receptacle Style-A Tyco-1566230 Hirose-U.FL-R-SMT DC-6GHz 50 Ohms Opendous
@@ -283,6 +257,87 @@ $EndMODULE
 $MODULE SOT23-6_Opendous
 Li SOT23-6_Opendous
 Kw SOT23-5_Opendous
+$EndMODULE
+#
+$MODULE XBGA_6
+Li XBGA_6
+Kw WCSP TI YZP
+$EndMODULE
+#
+$MODULE Stereo_Jack_SMT
+Li Stereo_Jack_SMT
+Kw SJ1-3513-SMT CUI Inc.
+$EndMODULE
+#
+$MODULE Switch_SMT
+Li Switch_SMT
+Cd EVQ-Q2F03W Compatible
+Kw Switch SMT
+$EndMODULE
+#
+$MODULE TrimPOT_PVG3A
+Li TrimPOT_PVG3A
+Kw muRata PVG3A SMD Potentiometer
+$EndMODULE
+#
+$MODULE VFBGA63_0.8mm_6x8_NAND0xG-B2
+Li VFBGA63_0.8mm_6x8_NAND0xG-B2
+Kw VFBGA63 0.8mm Pitch 6x8mm Standard FLASH Opendous
+$EndMODULE
+#
+$MODULE VFBGA54_0.8mm_9x9_MT48H
+Li VFBGA54_0.8mm_9x9_MT48H
+Kw VFBGA54 0.8mm Pitch 9x9mm JEDEC Mobile SDRAM Opendous
+$EndMODULE
+#
+$MODULE TSOPII54_SDRAM_MT48
+Li TSOPII54_SDRAM_MT48
+Kw TSOPII54 JEDEC SDRAM Opendous
+$EndMODULE
+#
+$MODULE TSOP66_JEDEC_DDR_SDRAM
+Li TSOP66_JEDEC_DDR_SDRAM
+Kw TSOP66 JEDEC DDR SDRAM Opendous
+$EndMODULE
+#
+$MODULE TSOPII32
+Li TSOPII32
+Kw TSOPII32 CY7C1019D-10ZXSI 1Mbit SRAM Opendous
+$EndMODULE
+#
+$MODULE TFBGA180_0.8mm_14x14_LPC313x
+Li TFBGA180_0.8mm_14x14_LPC313x
+Kw TFBGA180 0.8mm Pitch 14x14mm NXP LPC313x Opendous
+$EndMODULE
+#
+$MODULE LQFP100_0.5mm_SOT407-1_LPC1768
+Li LQFP100_0.5mm_SOT407-1_LPC1768
+Kw LQFP100 0.5mm Pitch SOT407-1 NXP LPC176x Opendous
+$EndMODULE
+#
+$MODULE LQFP80_0.5mm_SOT315_Opendous
+Li LQFP80_0.5mm_SOT315_Opendous
+Kw LQFP80 0.5mm Pitch SOT315 NXP LPC175x Opendous
+$EndMODULE
+#
+$MODULE LQFP64_0.5mm_Pitch_10x10mm_FT2232
+Li LQFP64_0.5mm_Pitch_10x10mm_FT2232
+Kw LQFP64 0.5mm Pitch 10x10mm FT2232 Opendous
+$EndMODULE
+#
+$MODULE Memory_Card_microSD_3M_290805
+Li Memory_Card_microSD_3M_290805
+Kw microSD 3M 290805 DigiKey 3M5607CT-ND Opendous
+$EndMODULE
+#
+$MODULE 1553B_Hammond_Enclosure
+Li 1553B_Hammond_Enclosure
+Kw Guard Ring and Edge Outline for Hammond 1553B_BAT Enclosure Opendous
+$EndMODULE
+#
+$MODULE SJ-3524-SMT_Stereo_Jack
+Li SJ-3524-SMT_Stereo_Jack
+Kw Stereo Jack SJ-3524-SMT Opendous
 $EndMODULE
 #
 $EndLIBDOC

@@ -1,5 +1,5 @@
 ######################################################################
-#  QF? Module (Footprint) Creator for KiCAD v2009-03-18              #
+#  QF? Module (Footprint) Creator for KiCAD v2010-04-21              #
 #                                                                    #
 #  Copyright 2009 Opendous Inc. (www.opendous.org)                   #
 #                                                                    #
@@ -65,7 +65,7 @@ def createModule(number_of_pins, length_between_across_pin_centers, pin_pitch, p
     file.write('\n$INDEX\n' + footprint_name \
             + '\n$EndINDEX\n$MODULE ' \
             + footprint_name + '\nPo 0 0 0 15 00000000 00000000 ~~\nLi ' \
-            + footprint_name + '\nSc 00000000\nOp 0 0 0\nT0 0 -250 220 200 0 80 N V 21 "' \
+            + footprint_name + '\nSc 00000000\nAR\nOp 0 0 0\nAt SMD \nT0 0 -250 220 200 0 80 N V 21 "' \
             + footprint_name + '"\nT1 0 250 220 200 0 80 N V 21 "VAL**"')
 
 
@@ -136,7 +136,7 @@ def createModule(number_of_pins, length_between_across_pin_centers, pin_pitch, p
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
-        print "QF? Module (Footprint) Creator for KiCAD v2009-03-18 By Opendous Inc."
+        print "QF? Module (Footprint) Creator for KiCAD v2010-04-21 By Opendous Inc."
         print "Usage:"
         print "  python", sys.argv[0], "#pads, acrossLen, padWidth, padLen, pitch"
         print "    Where #pads = number of pads(pins) in the component"
