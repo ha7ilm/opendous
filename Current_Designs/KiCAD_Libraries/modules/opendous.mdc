@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  21/04/2010 02:22:45
+PCBNEW-LibDoc----V1  25/04/2010 04:10:46
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
@@ -338,6 +338,12 @@ $EndMODULE
 $MODULE SJ-3524-SMT_Stereo_Jack
 Li SJ-3524-SMT_Stereo_Jack
 Kw Stereo Jack SJ-3524-SMT Opendous
+$EndMODULE
+#
+$MODULE BATTery_Molex_53047-0310
+Li BATTery_Molex_53047-0310
+Cd Molex 53047-0310
+Kw Molex 53047-0310 which mates with Molex 51021-0300
 $EndMODULE
 #
 $EndLIBDOC
