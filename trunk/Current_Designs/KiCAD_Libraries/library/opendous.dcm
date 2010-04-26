@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 21/04/2010 06:04:46
+EESchema-DOCLIB  Version 2.0  Date: 25/04/2010 02:16:24
 #
 $CMP 1117
 K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
@@ -148,16 +148,6 @@ $ENDCMP
 #
 $CMP TXB0108_Inverted
 K Voltage Level Translator TXS0108 ADG3300 MAX3002 TXB0108
-$ENDCMP
-#
-$CMP USB_SWITCH
-D SOT23-5 USB Power Switch TPS2041B AP2141 AP2161
-K Current-Limited Power Switch with Over-current Flag - AP21xx Block Reverse Current
-$ENDCMP
-#
-$CMP USB_SWITCH_ActiveHigh
-D SOT23-5 USB Power Switch TPS2051B AP2151 AP2171
-K Current-Limited Power Switch with Over-current Flag - AP21xx Block Reverse Current
 $ENDCMP
 #
 #End Doc Library
