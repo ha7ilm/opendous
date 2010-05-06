@@ -18,7 +18,7 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
 
 ~~~ Power Supply Components ~~~
  1, TPS79230DBV                     , 1.52 - U2 - IC 3.0V 100MA LDO REG SOT-23-5
- 1, TPS79101DBV                     , 1.52 - U3 - IC ADJ 100MA LDO REG SOT-23-6
+ 1, TPS79201DBV                     , 1.52 - U3 - IC ADJ 100MA LDO REG SOT-23-6
  1, TPS60403DBV                     , 1.31 - U4 - IC UNREG CHRG PUMP V INV SOT23-5
  1, TPS72325DBV                     , 3.60 - U5 - IC LDO REG NEG 200MA 2.5V SOT23
  1, ADM811RARTZ                     , 1.38 - IC4 - IC SUPERVISER RST 2.63V SOT-143
