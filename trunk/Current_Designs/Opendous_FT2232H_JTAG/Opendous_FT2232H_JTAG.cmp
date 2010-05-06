@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = 2/26/2010 8:12:38 AM
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 28/04/2010 15:30:40
 
 BeginCmp
 TimeStamp = /4B220FD4;
@@ -351,7 +351,7 @@ IdModule  = CONN_USB_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B2215E3;
+TimeStamp = /4BD88C28;
 Reference = U3;
 ValeurCmp = CORTEX;
 IdModule  = Pin_Array_5x2_SMT_1.27mm_0.5_inch;
@@ -1004,6 +1004,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4B83039A;
 Reference = V100;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD88B4F;
+Reference = V101;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BD88B46;
+Reference = V102;
 ValeurCmp = VIA;
 IdModule  = 1Pin_20mil_VIA;
 EndCmp

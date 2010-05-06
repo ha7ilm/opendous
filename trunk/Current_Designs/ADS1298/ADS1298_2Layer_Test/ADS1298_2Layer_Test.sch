@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 17/04/2010 17:11:15
+EESchema Schematic File Version 2  date 01/05/2010 13:29:16
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,25 +30,33 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:ADS1298_2Layer_Test-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "ADS1298 Base Board 2-Layer Test"
-Date "17 apr 2010"
-Rev "1.0"
+Date "1 may 2010"
+Rev "1.1"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
 Comment2 "Copyright Under the Creative Commons Attribution License"
 Comment3 "Analog Front-End for Biopotential Measurements"
 Comment4 "http://www.opendous.org/BioSensorPlatform"
 $EndDescr
-Text Label 6650 8150 2    20   ~ 0
-GPIO2-RESP_BLK
-NoConn ~ 10500 5100
-NoConn ~ 9700 5100
-NoConn ~ 9700 5200
+$Comp
+L GND #PWR01
+U 1 1 4BDC5F0F
+P 6000 8150
+F 0 "#PWR01" H 6000 8150 30  0001 C CNN
+F 1 "GND" H 6000 8080 30  0001 C CNN
+	1    6000 8150
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 6500 0    60   ~ 0
+REWORK NOTE: In Revision 1.0 TPS79101 was used for U3 (TPS79201)\nbut has an active-low EN pin so connect appropriately or use the TPS79201
+Connection ~ 1050 4650
+Wire Wire Line
+	1050 5050 1050 4650
 Connection ~ 10750 4600
 Wire Wire Line
 	10500 4600 11100 4600
@@ -204,7 +212,7 @@ Wire Wire Line
 	10750 4200 10500 4200
 Connection ~ 10750 4400
 Wire Wire Line
-	10500 4400 10750 4400
+	10750 4400 10500 4400
 Wire Wire Line
 	9450 3100 9450 4500
 Wire Wire Line
@@ -409,7 +417,7 @@ Connection ~ 1700 7050
 Connection ~ 1850 7050
 Connection ~ 1850 7450
 Wire Wire Line
-	1850 7450 1850 7350
+	1850 7350 1850 7450
 Wire Wire Line
 	1700 7150 1700 7050
 Wire Wire Line
@@ -591,9 +599,7 @@ Connection ~ 2350 4650
 Wire Wire Line
 	1850 4650 2450 4650
 Wire Wire Line
-	2150 5250 2150 5300
-Wire Wire Line
-	1050 5050 1050 4650
+	2150 5300 2150 5250
 Wire Wire Line
 	900  6850 900  7050
 Wire Wire Line
@@ -618,7 +624,6 @@ Wire Wire Line
 Wire Wire Line
 	900  5400 850  5400
 Connection ~ 900  6850
-Connection ~ 1050 4650
 Wire Wire Line
 	1950 5250 1950 5300
 Connection ~ 2150 5300
@@ -839,8 +844,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 7450 2750 7450
 Connection ~ 2250 7450
-Wire Wire Line
-	2250 7550 2250 7050
 Wire Wire Line
 	1900 700  2400 700 
 Connection ~ 2050 700 
@@ -1119,6 +1122,33 @@ Wire Wire Line
 	6650 7900 6550 7900
 Wire Wire Line
 	6550 7900 6550 7950
+Wire Wire Line
+	2250 7050 2250 7500
+$Comp
+L TPS79101 U3
+U 1 1 4BB6CABB
+P 1450 4850
+F 0 "U3" H 1650 4550 40  0000 C CNN
+F 1 "TPS79201" H 1450 5150 45  0000 C CNN
+	1    1450 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 7050 0    60   ~ 0
+REWORK NOTE: In Revision 1.0 pins IN\nand GND of TPS72325 (U5) were reversed\nCurrent Revision of Board Layout is correct
+$Comp
+L TPS723XX U5
+U 1 1 4BDC3FFE
+P 1300 6950
+F 0 "U5" H 1500 6700 40  0000 C CNN
+F 1 "TPS72325" H 1300 7150 45  0000 C CNN
+	1    1300 6950
+	1    0    0    -1  
+$EndComp
+Text Label 6650 8150 2    20   ~ 0
+GPIO2-RESP_BLK
+NoConn ~ 10500 5100
+NoConn ~ 9700 5100
+NoConn ~ 9700 5200
 NoConn ~ 10500 5200
 $Comp
 L VIA V168
@@ -1146,15 +1176,6 @@ F 0 "V167" V 6675 8000 20  0000 C CNN
 F 1 "VIA" H 6650 8100 60  0001 C CNN
 	1    6650 7900
 	0    1    1    0   
-$EndComp
-$Comp
-L AGND #PWR01
-U 1 1 4BC93B19
-P 6000 8150
-F 0 "#PWR01" H 6000 8150 40  0001 C CNN
-F 1 "AGND" H 6000 8080 50  0000 C CNN
-	1    6000 8150
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
@@ -3440,13 +3461,13 @@ SCLK
 Text Label 9800 1800 2    40   ~ 0
 DOUT
 Text Notes 550  7700 0    40   ~ 0
-Note: Install R20, R21 if using TPS72301
+Note: Install R20, R21 if using TPS72301 or LT1964; select resistors appropriately
 Text Notes 1950 7275 0    30   ~ 0
 Optional
 Text Notes 1950 6975 0    30   ~ 0
 Optional
-Text Notes 1150 6700 0    40   ~ 0
-TPS72301
+Text Notes 1025 6700 0    40   ~ 0
+TPS72301, LT1964
 $Comp
 L R_MINI R21
 U 1 1 4BC52E2C
@@ -4694,8 +4715,6 @@ F 1 "PolyFUSE" H 1350 625 20  0000 C CNN
 	1    1350 700 
 	-1   0    0    1   
 $EndComp
-Text Notes 1300 4500 0    40   ~ 0
-TPS79201
 Text Notes 1800 3400 0    40   ~ 0
 TPS79133
 $Comp
@@ -4980,10 +4999,10 @@ $EndComp
 $Comp
 L AGND #PWR0117
 U 1 1 4BB6CDB5
-P 2250 7550
-F 0 "#PWR0117" H 2250 7550 40  0001 C CNN
-F 1 "AGND" H 2250 7480 50  0000 C CNN
-	1    2250 7550
+P 2250 7500
+F 0 "#PWR0117" H 2250 7500 40  0001 C CNN
+F 1 "AGND" H 2250 7430 50  0000 C CNN
+	1    2250 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5111,24 +5130,6 @@ F 0 "C23" V 1900 4800 30  0000 C CNN
 F 1 "22p" V 2000 4820 25  0000 C CNN
 	1    1950 4750
 	0    1    1    0   
-$EndComp
-$Comp
-L TPS736XX U5
-U 1 1 4BB6CAF0
-P 1300 6950
-F 0 "U5" H 1500 6700 40  0000 C CNN
-F 1 "TPS72325" H 1300 7150 45  0000 C CNN
-	1    1300 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L TPS79101 U3
-U 1 1 4BB6CABB
-P 1450 4850
-F 0 "U3" H 1650 4550 40  0000 C CNN
-F 1 "TPS79101" H 1450 5150 45  0000 C CNN
-	1    1450 4850
-	1    0    0    -1  
 $EndComp
 NoConn ~ 8300 3900
 NoConn ~ 8200 3900
