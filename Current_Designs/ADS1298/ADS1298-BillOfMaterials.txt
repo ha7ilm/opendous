@@ -3,3 +3,919 @@ INCOMPLETE
 AVX TCJ Series Tantalum 1206 6.3V TCJA157M006#0200 150uF 200mOhm ESR
 	TCJA476M006#0200 47uF 200mOhm ESR
 * 1210 case would be a much better alternative
+
+
+              0,  3,               ,R25, R8, R16
+            0u1, 11,               ,C50, C3, C4, C8, C9, C31, C33, C42, C44, C48, C49
+            100,  2,               ,R24, R23
+           100k,  2,               ,R22, R19
+          100uF,  1,               ,C47
+            10n,  7,               ,C40, C15, C16, C26, C29, C35, C39
+            10p,  1,               ,C41
+            10u, 12,               ,C43, C2, C6, C7, C10, C11, C14, C21, C25, C32, C34, C38
+             1u,  3,               ,C20, C18, C19
+            1u0,  4,               ,C52, C27, C28, C51
+            1uF,  1,               ,C30
+            2.2,  1,               ,R1
+            22p,  1,               ,C23
+            22u,  1,               ,C17
+           22uF,  3,               ,C46, C5, C45
+           22uH,  4,               ,L5, L1, L2, L4
+            2u2,  6,               ,C37, C12, C13, C22, C24, C36
+            2uH,  2,               ,L14, L13
+           30k1,  1,               ,R18
+           33k4,  1,               ,R17
+            43k,  1,               ,R21
+            47k,  6,               ,R20, R2, R3, R9, R10, R12
+             50,  8,               ,R15, R4, R5, R6, R7, R11, R13, R14
+            68u,  1,               ,C1
+         ADM811,  1,               ,IC4
+        ADS1298,  1,               ,IC1
+ADS1298_Control,  1,               ,U1
+    ADS_Sensors,  1,               ,P1
+       ADuM4401,  1,               ,IC3
+       ADuM6401,  1,               ,IC2
+         CONN_1,  1,               ,TP4
+            ESD,  8,               ,CR8, CR1, CR2, CR3, CR4, CR5, CR6, CR7
+             FB, 11,               ,L19, L3, L8, L9, L10, L11, L12, L15, L16, L17, L18
+     MBR120VLSF,  1,               ,D1
+         OPA211,  1,               ,IC6
+   PCB_BoardCut,  1,               ,P2
+       PolyFUSE,  1,               ,F1
+        REF5025,  1,               ,IC5
+          RF-TP,  3,               ,TP3, TP1, TP2
+       TPS60403,  1,               ,U4
+       TPS72325,  1,               ,U5
+       TPS79201,  1,               ,U3
+       TPS79230,  1,               ,U2
+            VIA,148,               ,V148, V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32, V33, V34, V35, V36, V37, V38, V39, V40, V41, V42, V43, V44, V45, V46, V47, V48, V49, V50, V51, V52, V53, V54, V55, V56, V57, V58, V59, V60, V61, V62, V63, V64, V65, V66, V67, V68, V69, V70, V71, V72, V73, V74, V75, V76, V77, V78, V79, V80, V81, V82, V83, V84, V85, V86, V87, V88, V89, V90, V91, V92, V93, V94, V95, V96, V97, V98, V99, V100, V101, V102, V103, V104, V105, V106, V107, V108, V109, V110, V111, V112, V113, V114, V115, V116, V117, V118, V119, V120, V121, V122, V123, V124, V125, V126, V127, V128, V129, V130, V131, V132, V133, V134, V135, V136, V137, V138, V139, V140, V141, V142, V143, V144, V145, V146, V147
+
+
+eeschema (20100406 SVN-R2508)-final  >> Creation date: 04/05/2010 22:09:02
+
+#Cmp ( order = Reference )
+| C1         68u         ;             
+| C2         10u         ;             
+| C3         0u1         ;             
+| C4         0u1         ;             
+| C5         22uF        ;             
+| C6         10u         ;             
+| C7         10u         ;             
+| C8         0u1         ;             
+| C9         0u1         ;             
+| C10        10u         ;             
+| C11        10u         ;             
+| C12        2u2         ;             
+| C13        2u2         ;             
+| C14        10u         ;             
+| C15        10n         ;             
+| C16        10n         ;             
+| C17        22u         ;             
+| C18        1u          ;             
+| C19        1u          ;             
+| C20        1u          ;             
+| C21        10u         ;             
+| C22        2u2         ;             
+| C23        22p         ;             
+| C24        2u2         ;             
+| C25        10u         ;             
+| C26        10n         ;             
+| C27        1u0         ;             
+| C28        1u0         ;             
+| C29        10n         ;             
+| C30        1uF         ;             
+| C31        0u1         ;             
+| C32        10u         ;             
+| C33        0u1         ;             
+| C34        10u         ;             
+| C35        10n         ;             
+| C36        2u2         ;             
+| C37        2u2         ;             
+| C38        10u         ;             
+| C39        10n         ;             
+| C40        10n         ;             
+| C41        10p         ;             
+| C42        0u1         ;             
+| C43        10u         ;             
+| C44        0u1         ;             
+| C45        22uF        ;             
+| C46        22uF        ;             
+| C47        100uF       ;             
+| C48        0u1         ;             
+| C49        0u1         ;             
+| C50        0u1         ;             
+| C51        1u0         ;             
+| C52        1u0         ;             
+| CR1        ESD         ;             
+| CR2        ESD         ;             
+| CR3        ESD         ;             
+| CR4        ESD         ;             
+| CR5        ESD         ;             
+| CR6        ESD         ;             
+| CR7        ESD         ;             
+| CR8        ESD         ;             
+| D1         MBR120VLSF  ;             
+| F1         PolyFUSE    ;             
+| IC1        ADS1298     ;             
+| IC2        ADuM6401    ;             
+| IC3        ADuM4401    ;             
+| IC4        ADM811      ;             
+| IC5        REF5025     ;             
+| IC6        OPA211      ;             
+| L1         22uH        ;             
+| L2         22uH        ;             
+| L3         FB          ;             
+| L4         22uH        ;             
+| L5         22uH        ;             
+| L8         FB          ;             
+| L9         FB          ;             
+| L10        FB          ;             
+| L11        FB          ;             
+| L12        FB          ;             
+| L13        2uH         ;             
+| L14        2uH         ;             
+| L15        FB          ;             
+| L16        FB          ;             
+| L17        FB          ;             
+| L18        FB          ;             
+| L19        FB          ;             
+| P1         ADS_Sensors ;             
+| P2         PCB_BoardCut;             
+| R1         2.2         ;             
+| R2         47k         ;             
+| R3         47k         ;             
+| R4         50          ;             
+| R5         50          ;             
+| R6         50          ;             
+| R7         50          ;             
+| R8         0           ;             
+| R9         47k         ;             
+| R10        47k         ;             
+| R11        50          ;             
+| R12        47k         ;             
+| R13        50          ;             
+| R14        50          ;             
+| R15        50          ;             
+| R16        0           ;             
+| R17        33k4        ;             
+| R18        30k1        ;             
+| R19        100k        ;             
+| R20        47k         ;             
+| R21        43k         ;             
+| R22        100k        ;             
+| R23        100         ;             
+| R24        100         ;             
+| R25        0           ;             
+| TP1        RF-TP       ;             
+| TP2        RF-TP       ;             
+| TP3        RF-TP       ;             
+| TP4        CONN_1      ;             
+| U1         ADS1298_Control;             
+| U2         TPS79230    ;             
+| U3         TPS79201    ;             
+| U4         TPS60403    ;             
+| U5         TPS72325    ;             
+| V1         VIA         ;             
+| V2         VIA         ;             
+| V3         VIA         ;             
+| V4         VIA         ;             
+| V5         VIA         ;             
+| V6         VIA         ;             
+| V7         VIA         ;             
+| V8         VIA         ;             
+| V9         VIA         ;             
+| V10        VIA         ;             
+| V11        VIA         ;             
+| V12        VIA         ;             
+| V13        VIA         ;             
+| V14        VIA         ;             
+| V15        VIA         ;             
+| V16        VIA         ;             
+| V17        VIA         ;             
+| V18        VIA         ;             
+| V19        VIA         ;             
+| V20        VIA         ;             
+| V21        VIA         ;             
+| V22        VIA         ;             
+| V23        VIA         ;             
+| V24        VIA         ;             
+| V25        VIA         ;             
+| V26        VIA         ;             
+| V27        VIA         ;             
+| V28        VIA         ;             
+| V29        VIA         ;             
+| V30        VIA         ;             
+| V31        VIA         ;             
+| V32        VIA         ;             
+| V33        VIA         ;             
+| V34        VIA         ;             
+| V35        VIA         ;             
+| V36        VIA         ;             
+| V37        VIA         ;             
+| V38        VIA         ;             
+| V39        VIA         ;             
+| V40        VIA         ;             
+| V41        VIA         ;             
+| V42        VIA         ;             
+| V43        VIA         ;             
+| V44        VIA         ;             
+| V45        VIA         ;             
+| V46        VIA         ;             
+| V47        VIA         ;             
+| V48        VIA         ;             
+| V49        VIA         ;             
+| V50        VIA         ;             
+| V51        VIA         ;             
+| V52        VIA         ;             
+| V53        VIA         ;             
+| V54        VIA         ;             
+| V55        VIA         ;             
+| V56        VIA         ;             
+| V57        VIA         ;             
+| V58        VIA         ;             
+| V59        VIA         ;             
+| V60        VIA         ;             
+| V61        VIA         ;             
+| V62        VIA         ;             
+| V63        VIA         ;             
+| V64        VIA         ;             
+| V65        VIA         ;             
+| V66        VIA         ;             
+| V67        VIA         ;             
+| V68        VIA         ;             
+| V69        VIA         ;             
+| V70        VIA         ;             
+| V71        VIA         ;             
+| V72        VIA         ;             
+| V73        VIA         ;             
+| V74        VIA         ;             
+| V75        VIA         ;             
+| V76        VIA         ;             
+| V77        VIA         ;             
+| V78        VIA         ;             
+| V79        VIA         ;             
+| V80        VIA         ;             
+| V81        VIA         ;             
+| V82        VIA         ;             
+| V83        VIA         ;             
+| V84        VIA         ;             
+| V85        VIA         ;             
+| V86        VIA         ;             
+| V87        VIA         ;             
+| V88        VIA         ;             
+| V89        VIA         ;             
+| V90        VIA         ;             
+| V91        VIA         ;             
+| V92        VIA         ;             
+| V93        VIA         ;             
+| V94        VIA         ;             
+| V95        VIA         ;             
+| V96        VIA         ;             
+| V97        VIA         ;             
+| V98        VIA         ;             
+| V99        VIA         ;             
+| V100       VIA         ;             
+| V101       VIA         ;             
+| V102       VIA         ;             
+| V103       VIA         ;             
+| V104       VIA         ;             
+| V105       VIA         ;             
+| V106       VIA         ;             
+| V107       VIA         ;             
+| V108       VIA         ;             
+| V109       VIA         ;             
+| V110       VIA         ;             
+| V111       VIA         ;             
+| V112       VIA         ;             
+| V113       VIA         ;             
+| V114       VIA         ;             
+| V115       VIA         ;             
+| V116       VIA         ;             
+| V117       VIA         ;             
+| V118       VIA         ;             
+| V119       VIA         ;             
+| V120       VIA         ;             
+| V121       VIA         ;             
+| V122       VIA         ;             
+| V123       VIA         ;             
+| V124       VIA         ;             
+| V125       VIA         ;             
+| V126       VIA         ;             
+| V127       VIA         ;             
+| V128       VIA         ;             
+| V129       VIA         ;             
+| V130       VIA         ;             
+| V131       VIA         ;             
+| V132       VIA         ;             
+| V133       VIA         ;             
+| V134       VIA         ;             
+| V135       VIA         ;             
+| V136       VIA         ;             
+| V137       VIA         ;             
+| V138       VIA         ;             
+| V139       VIA         ;             
+| V140       VIA         ;             
+| V141       VIA         ;             
+| V142       VIA         ;             
+| V143       VIA         ;             
+| V144       VIA         ;             
+| V145       VIA         ;             
+| V146       VIA         ;             
+| V147       VIA         ;             
+| V148       VIA         ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 0            R8        ;             
+| 0            R16       ;             
+| 0            R25       ;             
+| 0u1          C3        ;             
+| 0u1          C4        ;             
+| 0u1          C8        ;             
+| 0u1          C9        ;             
+| 0u1          C31       ;             
+| 0u1          C33       ;             
+| 0u1          C42       ;             
+| 0u1          C44       ;             
+| 0u1          C48       ;             
+| 0u1          C49       ;             
+| 0u1          C50       ;             
+| 100          R23       ;             
+| 100          R24       ;             
+| 100k         R19       ;             
+| 100k         R22       ;             
+| 100uF        C47       ;             
+| 10n          C15       ;             
+| 10n          C16       ;             
+| 10n          C26       ;             
+| 10n          C29       ;             
+| 10n          C35       ;             
+| 10n          C39       ;             
+| 10n          C40       ;             
+| 10p          C41       ;             
+| 10u          C2        ;             
+| 10u          C6        ;             
+| 10u          C7        ;             
+| 10u          C10       ;             
+| 10u          C11       ;             
+| 10u          C14       ;             
+| 10u          C21       ;             
+| 10u          C25       ;             
+| 10u          C32       ;             
+| 10u          C34       ;             
+| 10u          C38       ;             
+| 10u          C43       ;             
+| 1u           C18       ;             
+| 1u           C19       ;             
+| 1u           C20       ;             
+| 1u0          C27       ;             
+| 1u0          C28       ;             
+| 1u0          C51       ;             
+| 1u0          C52       ;             
+| 1uF          C30       ;             
+| 2.2          R1        ;             
+| 22p          C23       ;             
+| 22u          C17       ;             
+| 22uF         C5        ;             
+| 22uF         C45       ;             
+| 22uF         C46       ;             
+| 22uH         L1        ;             
+| 22uH         L2        ;             
+| 22uH         L4        ;             
+| 22uH         L5        ;             
+| 2u2          C12       ;             
+| 2u2          C13       ;             
+| 2u2          C22       ;             
+| 2u2          C24       ;             
+| 2u2          C36       ;             
+| 2u2          C37       ;             
+| 2uH          L13       ;             
+| 2uH          L14       ;             
+| 30k1         R18       ;             
+| 33k4         R17       ;             
+| 43k          R21       ;             
+| 47k          R2        ;             
+| 47k          R3        ;             
+| 47k          R9        ;             
+| 47k          R10       ;             
+| 47k          R12       ;             
+| 47k          R20       ;             
+| 50           R4        ;             
+| 50           R5        ;             
+| 50           R6        ;             
+| 50           R7        ;             
+| 50           R11       ;             
+| 50           R13       ;             
+| 50           R14       ;             
+| 50           R15       ;             
+| 68u          C1        ;             
+| ADM811       IC4       ;             
+| ADS1298      IC1       ;             
+| ADS1298_Control U1        ;             
+| ADS_Sensors  P1        ;             
+| ADuM4401     IC3       ;             
+| ADuM6401     IC2       ;             
+| CONN_1       TP4       ;             
+| ESD          CR1       ;             
+| ESD          CR2       ;             
+| ESD          CR3       ;             
+| ESD          CR4       ;             
+| ESD          CR5       ;             
+| ESD          CR6       ;             
+| ESD          CR7       ;             
+| ESD          CR8       ;             
+| FB           L3        ;             
+| FB           L8        ;             
+| FB           L9        ;             
+| FB           L10       ;             
+| FB           L11       ;             
+| FB           L12       ;             
+| FB           L15       ;             
+| FB           L16       ;             
+| FB           L17       ;             
+| FB           L18       ;             
+| FB           L19       ;             
+| MBR120VLSF   D1        ;             
+| OPA211       IC6       ;             
+| PCB_BoardCut P2        ;             
+| PolyFUSE     F1        ;             
+| REF5025      IC5       ;             
+| RF-TP        TP1       ;             
+| RF-TP        TP2       ;             
+| RF-TP        TP3       ;             
+| TPS60403     U4        ;             
+| TPS72325     U5        ;             
+| TPS79201     U3        ;             
+| TPS79230     U2        ;             
+| VIA          V1        ;             
+| VIA          V2        ;             
+| VIA          V3        ;             
+| VIA          V4        ;             
+| VIA          V5        ;             
+| VIA          V6        ;             
+| VIA          V7        ;             
+| VIA          V8        ;             
+| VIA          V9        ;             
+| VIA          V10       ;             
+| VIA          V11       ;             
+| VIA          V12       ;             
+| VIA          V13       ;             
+| VIA          V14       ;             
+| VIA          V15       ;             
+| VIA          V16       ;             
+| VIA          V17       ;             
+| VIA          V18       ;             
+| VIA          V19       ;             
+| VIA          V20       ;             
+| VIA          V21       ;             
+| VIA          V22       ;             
+| VIA          V23       ;             
+| VIA          V24       ;             
+| VIA          V25       ;             
+| VIA          V26       ;             
+| VIA          V27       ;             
+| VIA          V28       ;             
+| VIA          V29       ;             
+| VIA          V30       ;             
+| VIA          V31       ;             
+| VIA          V32       ;             
+| VIA          V33       ;             
+| VIA          V34       ;             
+| VIA          V35       ;             
+| VIA          V36       ;             
+| VIA          V37       ;             
+| VIA          V38       ;             
+| VIA          V39       ;             
+| VIA          V40       ;             
+| VIA          V41       ;             
+| VIA          V42       ;             
+| VIA          V43       ;             
+| VIA          V44       ;             
+| VIA          V45       ;             
+| VIA          V46       ;             
+| VIA          V47       ;             
+| VIA          V48       ;             
+| VIA          V49       ;             
+| VIA          V50       ;             
+| VIA          V51       ;             
+| VIA          V52       ;             
+| VIA          V53       ;             
+| VIA          V54       ;             
+| VIA          V55       ;             
+| VIA          V56       ;             
+| VIA          V57       ;             
+| VIA          V58       ;             
+| VIA          V59       ;             
+| VIA          V60       ;             
+| VIA          V61       ;             
+| VIA          V62       ;             
+| VIA          V63       ;             
+| VIA          V64       ;             
+| VIA          V65       ;             
+| VIA          V66       ;             
+| VIA          V67       ;             
+| VIA          V68       ;             
+| VIA          V69       ;             
+| VIA          V70       ;             
+| VIA          V71       ;             
+| VIA          V72       ;             
+| VIA          V73       ;             
+| VIA          V74       ;             
+| VIA          V75       ;             
+| VIA          V76       ;             
+| VIA          V77       ;             
+| VIA          V78       ;             
+| VIA          V79       ;             
+| VIA          V80       ;             
+| VIA          V81       ;             
+| VIA          V82       ;             
+| VIA          V83       ;             
+| VIA          V84       ;             
+| VIA          V85       ;             
+| VIA          V86       ;             
+| VIA          V87       ;             
+| VIA          V88       ;             
+| VIA          V89       ;             
+| VIA          V90       ;             
+| VIA          V91       ;             
+| VIA          V92       ;             
+| VIA          V93       ;             
+| VIA          V94       ;             
+| VIA          V95       ;             
+| VIA          V96       ;             
+| VIA          V97       ;             
+| VIA          V98       ;             
+| VIA          V99       ;             
+| VIA          V100      ;             
+| VIA          V101      ;             
+| VIA          V102      ;             
+| VIA          V103      ;             
+| VIA          V104      ;             
+| VIA          V105      ;             
+| VIA          V106      ;             
+| VIA          V107      ;             
+| VIA          V108      ;             
+| VIA          V109      ;             
+| VIA          V110      ;             
+| VIA          V111      ;             
+| VIA          V112      ;             
+| VIA          V113      ;             
+| VIA          V114      ;             
+| VIA          V115      ;             
+| VIA          V116      ;             
+| VIA          V117      ;             
+| VIA          V118      ;             
+| VIA          V119      ;             
+| VIA          V120      ;             
+| VIA          V121      ;             
+| VIA          V122      ;             
+| VIA          V123      ;             
+| VIA          V124      ;             
+| VIA          V125      ;             
+| VIA          V126      ;             
+| VIA          V127      ;             
+| VIA          V128      ;             
+| VIA          V129      ;             
+| VIA          V130      ;             
+| VIA          V131      ;             
+| VIA          V132      ;             
+| VIA          V133      ;             
+| VIA          V134      ;             
+| VIA          V135      ;             
+| VIA          V136      ;             
+| VIA          V137      ;             
+| VIA          V138      ;             
+| VIA          V139      ;             
+| VIA          V140      ;             
+| VIA          V141      ;             
+| VIA          V142      ;             
+| VIA          V143      ;             
+| VIA          V144      ;             
+| VIA          V145      ;             
+| VIA          V146      ;             
+| VIA          V147      ;             
+| VIA          V148      ;             
+#End Cmp
+
+#End List
+
+
+
+
+comp = "C1" module = "SM1206_Opendous"
+comp = "C2" module = "SM0805_Opendous"
+comp = "C3" module = "SM0603_Opendous"
+comp = "C4" module = "SM0603_Opendous"
+comp = "C5" module = "SM1206_Opendous"
+comp = "C6" module = "SM0805_Opendous"
+comp = "C7" module = "SM0805_Opendous"
+comp = "C8" module = "SM0603_Opendous"
+comp = "C9" module = "SM0603_Opendous"
+comp = "C10" module = "SM0805_Opendous"
+comp = "C11" module = "SM0805_Opendous"
+comp = "C12" module = "SM0805_Opendous"
+comp = "C13" module = "SM0805_Opendous"
+comp = "C14" module = "SM0805_Opendous"
+comp = "C15" module = "SM0805_Opendous"
+comp = "C16" module = "SM0603_Opendous"
+comp = "C17" module = "SM1206_Opendous"
+comp = "C18" module = "SM0603_Opendous"
+comp = "C19" module = "SM0603_Opendous"
+comp = "C20" module = "SM0603_Opendous"
+comp = "C21" module = "SM0805_Opendous"
+comp = "C22" module = "SM0805_Opendous"
+comp = "C23" module = "SM0603_Opendous"
+comp = "C24" module = "SM0805_Opendous"
+comp = "C25" module = "SM0805_Opendous"
+comp = "C26" module = "SM0805_Opendous"
+comp = "C27" module = "SM0603_Opendous"
+comp = "C28" module = "SM0603_Opendous"
+comp = "C29" module = "SM0603_Opendous"
+comp = "C30" module = "SM0603_Opendous"
+comp = "C31" module = "SM0603_Opendous"
+comp = "C32" module = "SM0805_Opendous"
+comp = "C33" module = "SM0603_Opendous"
+comp = "C34" module = "SM0805_Opendous"
+comp = "C35" module = "SM0603_Opendous"
+comp = "C36" module = "SM0805_Opendous"
+comp = "C37" module = "SM0805_Opendous"
+comp = "C38" module = "SM0805_Opendous"
+comp = "C39" module = "SM0805_Opendous"
+comp = "C40" module = "SM0603_Opendous"
+comp = "C41" module = "SM0603_Opendous"
+comp = "C42" module = "SM0603_Opendous"
+comp = "C43" module = "SM0805_Opendous"
+comp = "C44" module = "SM0603_Opendous"
+comp = "C45" module = "SM1206_Opendous"
+comp = "C46" module = "SM1206_Opendous"
+comp = "C47" module = "SM1206_Opendous"
+comp = "C48" module = "SM0603_Opendous"
+comp = "C49" module = "SM0603_Opendous"
+comp = "C50" module = "SM0603_Opendous"
+comp = "C51" module = "SM0805_Opendous"
+comp = "C52" module = "SM0805_Opendous"
+comp = "CR1" module = "SM0603_Opendous"
+comp = "CR2" module = "SM0603_Opendous"
+comp = "CR3" module = "SM0603_Opendous"
+comp = "CR4" module = "SM0603_Opendous"
+comp = "CR5" module = "SM0603_Opendous"
+comp = "CR6" module = "SM0603_Opendous"
+comp = "CR7" module = "SM0603_Opendous"
+comp = "CR8" module = "SM0603_Opendous"
+comp = "D1" module = "SOD123"
+comp = "F1" module = "SM1206_Opendous"
+comp = "IC1" module = "BGA64_P0.8mm_8x8mm_ADS1298"
+comp = "IC2" module = "SOIC16_Wide_RW16"
+comp = "IC3" module = "SOIC16_Wide_RW16"
+comp = "IC4" module = "SOT-143B"
+comp = "IC5" module = "MSOP8_DGK"
+comp = "IC6" module = "MSOP8_DGK"
+comp = "L1" module = "SM0805_Opendous"
+comp = "L2" module = "SM0805_Opendous"
+comp = "L3" module = "SM0603_Opendous"
+comp = "L4" module = "SM0805_Opendous"
+comp = "L5" module = "SM0805_Opendous"
+comp = "L8" module = "SM0603_Opendous"
+comp = "L9" module = "SM0603_Opendous"
+comp = "L10" module = "SM0603_Opendous"
+comp = "L11" module = "SM0603_Opendous"
+comp = "L12" module = "SM0805_Opendous"
+comp = "L13" module = "SM0805_Opendous"
+comp = "L14" module = "SM0805_Opendous"
+comp = "L15" module = "SM0603_Opendous"
+comp = "L16" module = "SM0603_Opendous"
+comp = "L17" module = "SM0603_Opendous"
+comp = "L18" module = "SM0603_Opendous"
+comp = "L19" module = "SM0603_Opendous"
+comp = "P1" module = "Pin_Array_25x2_SMT_1.27mm_0.5_inch"
+comp = "P2" module = "DIL20-2mm_BoardCut"
+comp = "R1" module = "SM1206_Opendous"
+comp = "R2" module = "SM0805_Opendous"
+comp = "R3" module = "SM0805_Opendous"
+comp = "R4" module = "SM0805_Opendous"
+comp = "R5" module = "SM0805_Opendous"
+comp = "R6" module = "SM0805_Opendous"
+comp = "R7" module = "SM0805_Opendous"
+comp = "R8" module = "SM0805_Opendous"
+comp = "R9" module = "SM0805_Opendous"
+comp = "R10" module = "SM0805_Opendous"
+comp = "R11" module = "SM0805_Opendous"
+comp = "R12" module = "SM0805_Opendous"
+comp = "R13" module = "SM0805_Opendous"
+comp = "R14" module = "SM0805_Opendous"
+comp = "R15" module = "SM0805_Opendous"
+comp = "R16" module = "SM0805_Opendous"
+comp = "R17" module = "SM0805_Opendous"
+comp = "R18" module = "SM0805_Opendous"
+comp = "R19" module = "SM0805_Opendous"
+comp = "R20" module = "SM0805_Opendous"
+comp = "R21" module = "SM0805_Opendous"
+comp = "R22" module = "SM0805_Opendous"
+comp = "R23" module = "SM0805_Opendous"
+comp = "R24" module = "SM0805_Opendous"
+comp = "R25" module = "SM0603_Opendous"
+comp = "TP1" module = "UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230"
+comp = "TP2" module = "SIL-2_Opendous"
+comp = "TP3" module = "UMCC_RF_PCB_Receptacle_StyleA_Tyco1566230"
+comp = "TP4" module = "1Pin_25mil_VIA"
+comp = "U1" module = "PIN_ARRAY_5x2"
+comp = "U2" module = "SOT23-5_Opendous"
+comp = "U3" module = "SOT23-6_Opendous"
+comp = "U4" module = "SOT23-5_Opendous"
+comp = "U5" module = "SOT23-5_Opendous"
+comp = "V1" module = "1Pin_20mil_VIA"
+comp = "V2" module = "1Pin_20mil_VIA"
+comp = "V3" module = "1Pin_20mil_VIA"
+comp = "V4" module = "1Pin_20mil_VIA"
+comp = "V5" module = "1Pin_25mil_VIA"
+comp = "V6" module = "1Pin_20mil_VIA"
+comp = "V7" module = "1Pin_20mil_VIA"
+comp = "V8" module = "1Pin_20mil_VIA"
+comp = "V9" module = "1Pin_20mil_VIA"
+comp = "V10" module = "1Pin_20mil_VIA"
+comp = "V11" module = "1Pin_20mil_VIA"
+comp = "V12" module = "1Pin_25mil_VIA"
+comp = "V13" module = "1Pin_25mil_VIA"
+comp = "V14" module = "1Pin_25mil_VIA"
+comp = "V15" module = "1Pin_20mil_VIA"
+comp = "V16" module = "1Pin_25mil_VIA"
+comp = "V17" module = "1Pin_20mil_VIA"
+comp = "V18" module = "1Pin_20mil_VIA"
+comp = "V19" module = "1Pin_20mil_VIA"
+comp = "V20" module = "1Pin_25mil_VIA"
+comp = "V21" module = "1Pin_25mil_VIA"
+comp = "V22" module = "1Pin_25mil_VIA"
+comp = "V23" module = "1Pin_20mil_VIA"
+comp = "V24" module = "1Pin_25mil_VIA"
+comp = "V25" module = "1Pin_20mil_VIA"
+comp = "V26" module = "1Pin_25mil_VIA"
+comp = "V27" module = "1Pin_20mil_VIA"
+comp = "V28" module = "1Pin_25mil_VIA"
+comp = "V29" module = "1Pin_20mil_VIA"
+comp = "V30" module = "1Pin_20mil_VIA"
+comp = "V31" module = "1Pin_20mil_VIA"
+comp = "V32" module = "1Pin_20mil_VIA"
+comp = "V33" module = "1Pin_25mil_VIA"
+comp = "V34" module = "1Pin_20mil_VIA"
+comp = "V35" module = "1Pin_25mil_VIA"
+comp = "V36" module = "1Pin_20mil_VIA"
+comp = "V37" module = "1Pin_20mil_VIA"
+comp = "V38" module = "1Pin_20mil_VIA"
+comp = "V39" module = "1Pin_20mil_VIA"
+comp = "V40" module = "1Pin_20mil_VIA"
+comp = "V41" module = "1Pin_20mil_VIA"
+comp = "V42" module = "1Pin_20mil_VIA"
+comp = "V43" module = "1Pin_20mil_VIA"
+comp = "V44" module = "1Pin_20mil_VIA"
+comp = "V45" module = "1Pin_20mil_VIA"
+comp = "V46" module = "1Pin_20mil_VIA"
+comp = "V47" module = "1Pin_20mil_VIA"
+comp = "V48" module = "1Pin_20mil_VIA"
+comp = "V49" module = "1Pin_20mil_VIA"
+comp = "V50" module = "1Pin_20mil_VIA"
+comp = "V51" module = "1Pin_20mil_VIA"
+comp = "V52" module = "1Pin_20mil_VIA"
+comp = "V53" module = "1Pin_20mil_VIA"
+comp = "V54" module = "1Pin_20mil_VIA"
+comp = "V55" module = "1Pin_20mil_VIA"
+comp = "V56" module = "1Pin_20mil_VIA"
+comp = "V57" module = "1Pin_20mil_VIA"
+comp = "V58" module = "1Pin_20mil_VIA"
+comp = "V59" module = "1Pin_20mil_VIA"
+comp = "V60" module = "1Pin_20mil_VIA"
+comp = "V61" module = "1Pin_20mil_VIA"
+comp = "V62" module = "1Pin_20mil_VIA"
+comp = "V63" module = "1Pin_20mil_VIA"
+comp = "V64" module = "1Pin_20mil_VIA"
+comp = "V65" module = "1Pin_20mil_VIA"
+comp = "V66" module = "1Pin_20mil_VIA"
+comp = "V67" module = "1Pin_20mil_VIA"
+comp = "V68" module = "1Pin_20mil_VIA"
+comp = "V69" module = "1Pin_20mil_VIA"
+comp = "V70" module = "1Pin_20mil_VIA"
+comp = "V71" module = "1Pin_20mil_VIA"
+comp = "V72" module = "1Pin_20mil_VIA"
+comp = "V73" module = "1Pin_20mil_VIA"
+comp = "V74" module = "1Pin_20mil_VIA"
+comp = "V75" module = "1Pin_20mil_VIA"
+comp = "V76" module = "1Pin_20mil_VIA"
+comp = "V77" module = "1Pin_20mil_VIA"
+comp = "V78" module = "1Pin_20mil_VIA"
+comp = "V79" module = "1Pin_20mil_VIA"
+comp = "V80" module = "1Pin_20mil_VIA"
+comp = "V81" module = "1Pin_20mil_VIA"
+comp = "V82" module = "1Pin_20mil_VIA"
+comp = "V83" module = "1Pin_20mil_VIA"
+comp = "V84" module = "1Pin_20mil_VIA"
+comp = "V85" module = "1Pin_20mil_VIA"
+comp = "V86" module = "1Pin_20mil_VIA"
+comp = "V87" module = "1Pin_20mil_VIA"
+comp = "V88" module = "1Pin_20mil_VIA"
+comp = "V89" module = "1Pin_20mil_VIA"
+comp = "V90" module = "1Pin_20mil_VIA"
+comp = "V91" module = "1Pin_25mil_VIA"
+comp = "V92" module = "1Pin_20mil_VIA"
+comp = "V93" module = "1Pin_20mil_VIA"
+comp = "V94" module = "1Pin_20mil_VIA"
+comp = "V95" module = "1Pin_20mil_VIA"
+comp = "V96" module = "1Pin_25mil_VIA"
+comp = "V97" module = "1Pin_25mil_VIA"
+comp = "V98" module = "1Pin_20mil_VIA"
+comp = "V99" module = "1Pin_20mil_VIA"
+comp = "V100" module = "1Pin_20mil_VIA"
+comp = "V101" module = "1Pin_20mil_VIA"
+comp = "V102" module = "1Pin_25mil_VIA"
+comp = "V103" module = "1Pin_25mil_VIA"
+comp = "V104" module = "1Pin_20mil_VIA"
+comp = "V105" module = "1Pin_20mil_VIA"
+comp = "V106" module = "1Pin_20mil_VIA"
+comp = "V107" module = "1Pin_20mil_VIA"
+comp = "V108" module = "1Pin_20mil_VIA"
+comp = "V109" module = "1Pin_20mil_VIA"
+comp = "V110" module = "1Pin_20mil_VIA"
+comp = "V111" module = "1Pin_20mil_VIA"
+comp = "V112" module = "1Pin_20mil_VIA"
+comp = "V113" module = "1Pin_20mil_VIA"
+comp = "V114" module = "1Pin_25mil_VIA"
+comp = "V115" module = "1Pin_25mil_VIA"
+comp = "V116" module = "1Pin_20mil_VIA"
+comp = "V117" module = "1Pin_20mil_VIA"
+comp = "V118" module = "1Pin_20mil_VIA"
+comp = "V119" module = "1Pin_20mil_VIA"
+comp = "V120" module = "1Pin_20mil_VIA"
+comp = "V121" module = "1Pin_25mil_VIA"
+comp = "V122" module = "1Pin_20mil_VIA"
+comp = "V123" module = "1Pin_20mil_VIA"
+comp = "V124" module = "1Pin_20mil_VIA"
+comp = "V125" module = "1Pin_20mil_VIA"
+comp = "V126" module = "1Pin_20mil_VIA"
+comp = "V127" module = "1Pin_25mil_VIA"
+comp = "V128" module = "1Pin_20mil_VIA"
+comp = "V129" module = "1Pin_20mil_VIA"
+comp = "V130" module = "1Pin_25mil_VIA"
+comp = "V131" module = "1Pin_20mil_VIA"
+comp = "V132" module = "1Pin_20mil_VIA"
+comp = "V133" module = "1Pin_20mil_VIA"
+comp = "V134" module = "1Pin_20mil_VIA"
+comp = "V135" module = "1Pin_25mil_VIA"
+comp = "V136" module = "1Pin_20mil_VIA"
+comp = "V137" module = "1Pin_20mil_VIA"
+comp = "V138" module = "1Pin_20mil_VIA"
+comp = "V139" module = "1Pin_20mil_VIA"
+comp = "V140" module = "1Pin_25mil_VIA"
+comp = "V141" module = "1Pin_25mil_VIA"
+comp = "V142" module = "1Pin_20mil_VIA"
+comp = "V143" module = "1Pin_20mil_VIA"
+comp = "V144" module = "1Pin_20mil_VIA"
+comp = "V145" module = "1Pin_20mil_VIA"
+comp = "V146" module = "1Pin_20mil_VIA"
+comp = "V147" module = "1Pin_20mil_VIA"
+comp = "V148" module = "1Pin_25mil_VIA"
+
+
+
+
+              0,  3,               ,R25, R8, R16
+            0u1, 11,               ,C50, C3, C4, C8, C9, C31, C33, C42, C44, C48, C49
+            100,  2,               ,R24, R23
+           100k,  2,               ,R22, R19
+          100uF,  1,               ,C47
+            10n,  7,               ,C40, C15, C16, C26, C29, C35, C39
+            10p,  1,               ,C41
+            10u, 12,               ,C43, C2, C6, C7, C10, C11, C14, C21, C25, C32, C34, C38
+             1u,  3,               ,C20, C18, C19
+            1u0,  4,               ,C52, C27, C28, C51
+            1uF,  1,               ,C30
+            2.2,  1,               ,R1
+            22p,  1,               ,C23
+            22u,  1,               ,C17
+           22uF,  3,               ,C46, C5, C45
+           22uH,  4,               ,L5, L1, L2, L4
+            2u2,  6,               ,C37, C12, C13, C22, C24, C36
+            2uH,  2,               ,L14, L13
+           30k1,  1,               ,R18
+           33k4,  1,               ,R17
+            43k,  1,               ,R21
+            47k,  6,               ,R20, R2, R3, R9, R10, R12
+             50,  8,               ,R15, R4, R5, R6, R7, R11, R13, R14
+            68u,  1,               ,C1
+         ADM811,  1,               ,IC4
+        ADS1298,  1,               ,IC1
+ADS1298_Control,  1,               ,U1
+    ADS_Sensors,  1,               ,P1
+       ADuM4401,  1,               ,IC3
+       ADuM6401,  1,               ,IC2
+         CONN_1,  1,               ,TP4
+            ESD,  8,               ,CR8, CR1, CR2, CR3, CR4, CR5, CR6, CR7
+             FB, 11,               ,L19, L3, L8, L9, L10, L11, L12, L15, L16, L17, L18
+     MBR120VLSF,  1,               ,D1
+         OPA211,  1,               ,IC6
+   PCB_BoardCut,  1,               ,P2
+       PolyFUSE,  1,               ,F1
+        REF5025,  1,               ,IC5
+          RF-TP,  3,               ,TP3, TP1, TP2
+       TPS60403,  1,               ,U4
+       TPS72325,  1,               ,U5
+       TPS79201,  1,               ,U3
+       TPS79230,  1,               ,U2
+            VIA,148,               ,V148, V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32, V33, V34, V35, V36, V37, V38, V39, V40, V41, V42, V43, V44, V45, V46, V47, V48, V49, V50, V51, V52, V53, V54, V55, V56, V57, V58, V59, V60, V61, V62, V63, V64, V65, V66, V67, V68, V69, V70, V71, V72, V73, V74, V75, V76, V77, V78, V79, V80, V81, V82, V83, V84, V85, V86, V87, V88, V89, V90, V91, V92, V93, V94, V95, V96, V97, V98, V99, V100, V101, V102, V103, V104, V105, V106, V107, V108, V109, V110, V111, V112, V113, V114, V115, V116, V117, V118, V119, V120, V121, V122, V123, V124, V125, V126, V127, V128, V129, V130, V131, V132, V133, V134, V135, V136, V137, V138, V139, V140, V141, V142, V143, V144, V145, V146, V147

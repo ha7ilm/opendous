@@ -1,5 +1,20 @@
-# EESchema Netlist Version 1.1 created  17/04/2010 03:19:11
+# EESchema Netlist Version 1.1 created  01/05/2010 13:04:26
 (
+ ( /4BB6CABB $noname  U3 TPS79201 {Lib=TPS79101}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 N-000071 )
+  (    5 /FB25 )
+  (    6 /OUT25 )
+ )
+ ( /4BDC3FFE $noname  U5 TPS72325 {Lib=TPS723XX}
+  (    1 GND )
+  (    2 AVCC )
+  (    3 AVCC )
+  (    4 /NRn25 )
+  (    5 /OUTneg25 )
+ )
  ( /4BC95E44 $noname  V168 VIA {Lib=VIA}
   (    1 /GPIO2-RESP_BLK )
  )
@@ -10,7 +25,7 @@
   (    1 GND )
  )
  ( /4BC9352D $noname  V166 VIA {Lib=VIA}
-  (    1 AGND )
+  (    1 GND )
  )
  ( /4BC9352C $noname  V164 VIA {Lib=VIA}
   (    1 DGND )
@@ -778,19 +793,19 @@
  )
  ( /4BB957A1 $noname  R14 50 {Lib=R_MINI}
   (    1 /nRESET_MR )
-  (    2 N-000096 )
+  (    2 N-000090 )
  )
  ( /4BB957A0 $noname  R15 50 {Lib=R_MINI}
   (    1 /nDRDY )
-  (    2 N-000097 )
+  (    2 N-000091 )
  )
  ( /4BB9579D $noname  R13 50 {Lib=R_MINI}
   (    1 /nPWDN )
-  (    2 N-000095 )
+  (    2 N-000089 )
  )
  ( /4BB95792 $noname  R11 50 {Lib=R_MINI}
   (    1 /START )
-  (    2 N-000094 )
+  (    2 N-000088 )
  )
  ( /4BB95668 $noname  IC4 ADM811 {Lib=ADM811}
   (    1 DGND )
@@ -824,21 +839,21 @@
   (    7 ? )
   (    8 GNDPWR )
   (    9 /GNDiso )
-  (   10 N-000098 )
-  (   11 N-000097 )
-  (   12 N-000096 )
-  (   13 N-000095 )
-  (   14 N-000094 )
+  (   10 N-000092 )
+  (   11 N-000091 )
+  (   12 N-000090 )
+  (   13 N-000089 )
+  (   14 N-000088 )
   (   15 /GNDiso )
   (   16 /Viso )
  )
  ( /4BB8E31E $noname  R16 0 {Lib=R_MINI}
   (    1 /Viso )
-  (    2 N-000098 )
+  (    2 N-000092 )
  )
  ( /4BB878B4 $noname  R8 0 {Lib=R_MINI}
   (    1 /GNDiso )
-  (    2 N-000093 )
+  (    2 N-000082 )
  )
  ( /4BB8771B $noname  D1 MBR120VLSF {Lib=D_SCHOTTKY}
   (    1 VIN )
@@ -862,7 +877,7 @@
   (    7 ? )
   (    8 GNDPWR )
   (    9 /GNDiso )
-  (   10 N-000093 )
+  (   10 N-000082 )
   (   11 /ID )
   (   12 /OC )
   (   13 /OB )
@@ -1025,7 +1040,7 @@
   (    1 VCC )
   (    2 GND )
   (    3 VCC )
-  (    4 N-000076 )
+  (    4 N-000077 )
   (    5 /OUT33 )
  )
  ( /4BB6CEB6 $noname  C13 2u2 {Lib=C_MINI}
@@ -1033,7 +1048,7 @@
   (    2 DGND )
  )
  ( /4BB6CEB5 $noname  C16 10n {Lib=C_MINI}
-  (    1 N-000076 )
+  (    1 N-000077 )
   (    2 DGND )
  )
  ( /4BB6CEB4 $noname  C12 2u2 {Lib=C_MINI}
@@ -1073,38 +1088,17 @@
   (    2 /OUT25 )
  )
  ( /4BB6CB54 $noname  C29 10n {Lib=C_MINI}
-  (    1 N-000078 )
+  (    1 N-000071 )
   (    2 AGND )
  )
  ( /4BB6CB44 $noname  C23 22p {Lib=C_MINI}
   (    1 /OUT25 )
   (    2 /FB25 )
  )
- ( /4BB6CAF0 $noname  U5 TPS72325 {Lib=TPS736XX}
-  (    1 AVCC )
-  (    2 GND )
-  (    3 AVCC )
-  (    4 /NRn25 )
-  (    5 /OUTneg25 )
- )
- ( /4BB6CABB $noname  U3 TPS79101 {Lib=TPS79101}
-  (    1 VCC )
-  (    2 GND )
-  (    3 VCC )
-  (    4 N-000078 )
-  (    5 /FB25 )
-  (    6 /OUT25 )
- )
 )
 *
 { Allowed footprints by component:
-$component D1
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
-$component U2
+$component U3
  SOT23
  SOT23-5
  SOT23-6
@@ -1118,7 +1112,13 @@ $component U5
  SOT223
  SON8
 $endlist
-$component U3
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component U2
  SOT23
  SOT23-5
  SOT23-6
@@ -1128,630 +1128,630 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "GND" "GND"
- V126 1
- L9 2
- U2 2
- V102 1
+Net 1 "/nRESET_MR" "nRESET_MR"
+ IC4 3
+ R14 1
+ P2 11
+ P2 12
+Net 2 "/nDRDY" "nDRDY"
+ P2 9
+ P2 10
+ IC1 6D
+ R15 1
+Net 3 "/DOUT" "DOUT"
+ R7 1
+ IC1 8E
+ P2 7
+ P2 8
+Net 4 "/nCS" "nCS"
+ IC1 7F
+ R6 1
+ R9 1
+ P2 6
+ V95 1
+ P2 5
+Net 5 "/SCLK" "SCLK"
+ P2 4
+ IC1 8F
+ P2 3
+ R5 1
+Net 6 "/DIN" "DIN"
+ R4 1
+ IC1 8H
+ P2 1
+ P2 2
+Net 7 "GND" "GND"
+ C33 2
+ C34 2
+ L19 2
+ C31 2
+ C32 2
+ C35 2
+ V106 1
+ U5 1
+ V165 1
+ V166 1
  C12 2
  V103 1
- P1 45
- C22 2
- U5 2
- U3 2
- C35 2
- C34 2
- C33 2
- C31 2
- V165 1
- P1 49
- V106 1
- L5 1
+ V102 1
  V94 1
- V125 1
- C36 2
- L12 2
- L19 2
- C6 2
- P2 17
- P2 18
- C32 2
  P1 50
+ P1 45
  U4 4
-Net 2 "/START" "START"
- P2 15
- P2 16
- R11 1
-Net 3 "/nPWDN" "nPWDN"
- P2 13
- P2 14
- R13 1
-Net 4 "/nRESET_MR" "nRESET_MR"
- P2 12
- P2 11
- R14 1
- IC4 3
-Net 5 "VCC" "VCC"
- L13 2
+ V125 1
+ V126 1
+ L5 1
+ U3 2
+ C22 2
+ L12 2
+ C36 2
+ L9 2
+ U2 2
+ C6 2
+ P2 18
+ P2 17
+ P1 49
+Net 8 "/AVSS1" "AVSS1"
+ L10 2
+ IC1 8A
+Net 9 "VCC" "VCC"
  U3 3
- U3 1
- C22 1
+ V123 1
+ V122 1
+ V121 1
+ P2 20
+ R1 1
  C12 1
  U2 3
  U2 1
- V121 1
- V122 1
- V123 1
- R1 1
- P2 20
+ C22 1
  P2 19
-Net 6 "/nDRDY" "nDRDY"
- IC1 6D
- R15 1
- P2 10
- P2 9
-Net 7 "/DOUT" "DOUT"
- R7 1
- IC1 8E
- P2 8
- P2 7
-Net 8 "/nCS" "nCS"
- P2 5
- P2 6
- R9 1
- R6 1
- V95 1
- IC1 7F
-Net 9 "/SCLK" "SCLK"
- IC1 8F
- R5 1
- P2 3
- P2 4
-Net 10 "/DIN" "DIN"
- P2 1
- P2 2
- IC1 8H
- R4 1
-Net 11 "AGND" "AGND"
- C39 2
- C38 2
- C25 2
- C26 2
- V166 1
- V110 1
- V113 1
- V119 1
- V120 1
- V118 1
- V114 1
- V137 1
- C37 2
- C24 2
- R18 1
- C29 2
- V138 1
- V136 1
- V141 1
- V140 1
- L19 1
- L12 1
- C40 2
- P1 5
- P1 8
- P1 9
- P1 20
- P1 40
- P1 21
- P1 12
- P1 32
- C51 2
- C52 2
- P1 13
- P1 24
- P1 25
- P1 16
- P1 17
- P1 37
- P1 28
- P1 29
- P1 1
- P1 4
- R21 1
-Net 12 "/nPWDN_EXT" "nPWDN_EXT"
- U1 9
- IC3 4
- CR3 2
-Net 13 "/START_EXT" "START_EXT"
- IC3 3
- U1 7
- CR1 2
-Net 14 "GNDPWR" "GNDPWR"
- IC2 8
- IC2 2
+ U3 1
+ L13 2
+Net 10 "/START" "START"
+ P2 16
+ P2 15
+ R11 1
+Net 11 "/nPWDN" "nPWDN"
+ R13 1
+ P2 13
+ P2 14
+Net 12 "GNDPWR" "GNDPWR"
+ V32 1
+ IC3 8
  C3 2
+ V8 1
+ V9 1
  IC3 2
+ L4 1
  C8 2
  C7 2
+ IC2 2
+ V11 1
+ V34 1
+ V5 1
+ V6 1
+ V18 1
  V1 1
  V2 1
  V4 1
  V3 1
  V7 1
- V6 1
- V5 1
  V10 1
- V11 1
- V8 1
- V9 1
- L4 1
- IC3 8
- V32 1
- V34 1
+ IC2 8
  C2 2
- V18 1
-Net 15 "GNDIN" "GNDIN"
+Net 13 "GNDIN" "GNDIN"
+ CR4 2
+ CR8 2
+ CR6 2
+ V14 1
+ V13 1
+ V12 1
+ L4 2
  CR1 1
  CR3 1
- U1 6
- C1 2
- CR5 1
- CR6 2
- CR8 2
- CR7 1
  V19 1
- CR4 2
- L16 2
- V14 1
- L4 2
+ CR7 1
  D1 2
+ CR5 1
+ U1 6
  CR2 2
- V12 1
- V13 1
-Net 16 "/Viso" "Viso"
- L2 2
- IC2 16
+ C1 2
+ L16 2
+Net 14 "/Viso" "Viso"
  C10 1
  C9 1
+ C4 1
+ L2 2
+ IC2 16
+ IC3 16
+ R16 1
  V74 1
  C5 1
- IC3 16
- C4 1
- V75 1
- R16 1
- V76 1
  V73 1
-Net 17 "/SCLK_EXT" "SCLK_EXT"
+ V76 1
+ V75 1
+Net 15 "/SCLK_EXT" "SCLK_EXT"
  CR2 1
- U1 3
  IC2 4
-Net 18 "/DIN_EXT" "DIN_EXT"
- IC2 3
+ U1 3
+Net 16 "/DIN_EXT" "DIN_EXT"
  U1 4
+ IC2 3
  CR4 1
-Net 19 "/DOUT_EXT" "DOUT_EXT"
- CR8 1
- IC2 6
+Net 17 "/DOUT_EXT" "DOUT_EXT"
  V30 1
  U1 1
-Net 20 "/nCS_EXT" "nCS_EXT"
+ CR8 1
+ IC2 6
+Net 18 "/nCS_EXT" "nCS_EXT"
+ CR6 1
  IC2 5
  U1 5
- CR6 1
-Net 21 "/nRESET_EXT" "nRESET_EXT"
+Net 19 "/nRESET_EXT" "nRESET_EXT"
  CR5 2
  U1 8
  IC3 5
-Net 22 "/nDRDY_EXT" "nDRDY_EXT"
+Net 20 "/nDRDY_EXT" "nDRDY_EXT"
  CR7 2
  U1 10
  IC3 6
+Net 21 "/nPWDN_EXT" "nPWDN_EXT"
+ U1 9
+ CR3 2
+ IC3 4
+Net 22 "/START_EXT" "START_EXT"
+ CR1 2
+ IC3 3
+ U1 7
 Net 23 "AVCC" "AVCC"
- C36 1
+ U5 2
  C35 1
- U5 1
- U5 3
+ C36 1
  V135 1
+ U5 3
  L14 1
 Net 24 "DVDD" "DVDD"
- IC1 8D
- C15 1
- R2 2
- V109 1
  R9 2
  IC4 4
- IC1 8C
+ R2 2
  V92 1
- L8 1
- V107 1
- C14 1
- C48 1
  V91 1
-Net 25 "/TESTP_PACE_OUT1" "TESTP_PACE_OUT1"
- IC1 3E
- P1 39
- V151 1
-Net 27 "/IN6P" "IN6P"
- IC1 1C
- P1 22
-Net 29 "/IN3N" "IN3N"
- P1 11
- IC1 2F
-Net 30 "/IN3P" "IN3P"
- P1 10
- IC1 1F
-Net 31 "/IN2N" "IN2N"
- P1 7
- IC1 2G
-Net 32 "/IN2P" "IN2P"
- P1 6
- IC1 1G
-Net 33 "/IN1N" "IN1N"
- P1 3
- IC1 2H
-Net 34 "/IN1P" "IN1P"
- P1 2
- IC1 1H
-Net 35 "/IN5N" "IN5N"
- P1 19
- IC1 2D
-Net 36 "/TESTN_PACE_OUT2" "TESTN_PACE_OUT2"
+ C48 1
+ IC1 8C
+ IC1 8D
+ V107 1
+ V109 1
+ L8 1
+ C15 1
+ C14 1
+Net 25 "/TESTN_PACE_OUT2" "TESTN_PACE_OUT2"
+ IC1 3F
  P1 38
  V152 1
- IC1 3F
-Net 37 "/IN5P" "IN5P"
- IC1 1D
- P1 18
-Net 38 "/IN7N" "IN7N"
- IC1 2B
- P1 27
-Net 39 "/WCT" "WCT"
- V145 1
- P1 46
- V144 1
- C21 1
+Net 26 "/WCT" "WCT"
  IC1 3D
-Net 41 "/IN7P" "IN7P"
- IC1 1B
- P1 26
-Net 42 "/RLDINV" "RLDINV"
- P1 35
+ C21 1
+ P1 46
+ V145 1
+ V144 1
+Net 27 "/IN2N" "IN2N"
+ IC1 2G
+ P1 7
+Net 28 "/IN2P" "IN2P"
+ P1 6
+ IC1 1G
+Net 29 "AGND" "AGND"
+ C51 2
+ P1 1
+ P1 4
+ C52 2
+ P1 5
+ V140 1
+ V137 1
+ V138 1
+ P1 20
+ P1 9
+ P1 8
+ P1 16
+ P1 25
+ P1 24
+ P1 13
+ P1 32
+ P1 12
+ P1 21
+ R21 1
+ P1 40
+ C25 2
+ V113 1
+ V119 1
+ V120 1
+ V114 1
+ C37 2
+ C40 2
+ V118 1
+ L12 1
+ V141 1
+ L19 1
+ P1 29
+ P1 17
+ P1 28
+ P1 37
+ C26 2
+ V136 1
+ C24 2
+ R18 1
+ C29 2
+ V110 1
+ C39 2
+ C38 2
+Net 30 "/IN1N" "IN1N"
+ P1 3
+ IC1 2H
+Net 31 "/IN1P" "IN1P"
+ IC1 1H
+ P1 2
+Net 33 "/RLDINV" "RLDINV"
  IC1 3C
+ P1 35
  TP3 1
-Net 43 "/IN4N" "IN4N"
- P1 15
- IC1 2E
-Net 45 "/RLDIN" "RLDIN"
- P1 34
+Net 35 "/RLDIN" "RLDIN"
  IC1 3A
-Net 46 "/IN4P" "IN4P"
- P1 14
- IC1 1E
-Net 48 "/RLDOUT" "RLDOUT"
- P1 33
+ P1 34
+Net 37 "/RLDOUT" "RLDOUT"
  IC1 3B
-Net 49 "/IN6N" "IN6N"
- P1 23
- IC1 2C
-Net 50 "/VCAP3" "VCAP3"
- IC1 7B
- C19 1
-Net 51 "DGND" "DGND"
- R3 2
- L9 1
- IC4 1
- TP1 2
+ P1 33
+Net 40 "DGND" "DGND"
  R19 1
- IC1 7H
- IC1 7G
+ V163 1
+ IC1 7C
+ IC1 7D
+ C14 2
+ C15 2
+ R3 2
+ V162 1
  C13 2
  C16 2
- V164 1
- C15 2
- V160 1
  V161 1
- IC1 7C
- V143 1
- V163 1
- V162 1
- V111 1
- V112 1
+ V160 1
+ V164 1
+ V167 1
+ V96 1
  V97 1
  C48 2
- V96 1
- C14 2
- IC1 7D
- V167 1
-Net 52 "GNDFenceISO" "GNDFenceISO"
- V104 1
- V90 1
- V81 1
- V77 1
- V78 1
+ V143 1
+ V112 1
+ L9 1
+ V111 1
+ IC1 7H
+ IC1 7G
+ TP1 2
+ IC4 1
+Net 41 "AVSS" "AVSS"
+ C49 2
+ C50 2
+ C27 2
+ C11 2
+ L10 1
+ V98 1
+ V99 1
+ V101 1
+ V100 1
+ V153 1
+ V155 1
+ V154 1
+ V148 1
+ P1 47
+ C28 2
+ TP3 2
+ V124 1
+ V146 1
+ IC1 5A
+ L15 1
+ C38 1
+ C39 1
+ IC1 5C
+ IC1 4H
+ IC1 4D
+ C18 2
+ C17 2
+ IC1 5D
+ C21 2
+ C20 2
+ C19 2
+ IC1 5B
+Net 42 "/GNDiso" "GNDiso"
+ IC3 9
+ IC3 15
+ V33 1
+ V35 1
+ IC2 9
+ V70 1
+ V31 1
+ V133 1
+ V72 1
+ C5 2
+ L17 2
+ C4 2
+ R8 1
+ C10 2
+ V132 1
+ C9 2
+ V71 1
+ V131 1
+ IC2 15
+ L5 2
+Net 43 "GNDFenceISO" "GNDFenceISO"
+ V157 1
+ V156 1
+ V158 1
+ V159 1
  V80 1
  V79 1
  V82 1
- V83 1
- L17 1
- V157 1
- V159 1
+ V78 1
+ V77 1
+ V81 1
  V86 1
- V158 1
- V156 1
- V89 1
  V87 1
  V85 1
  V84 1
+ V89 1
  V88 1
-Net 53 "/nRESET" "nRESET"
- V147 1
- R19 2
- IC4 2
- IC1 6G
- V150 1
- V149 1
-Net 58 "/GPIO2-RESP_BLK" "GPIO2-RESP_BLK"
+ V104 1
+ V83 1
+ L17 1
+ V90 1
+Net 44 "/VCAP3" "VCAP3"
+ C19 1
+ IC1 7B
+Net 49 "/IN3N" "IN3N"
+ P1 11
+ IC1 2F
+Net 50 "/IN3P" "IN3P"
+ P1 10
+ IC1 1F
+Net 51 "/GPIO2-RESP_BLK" "GPIO2-RESP_BLK"
  IC1 7E
  V168 1
-Net 59 "AVSS" "AVSS"
- V148 1
- V146 1
- C50 2
- C11 2
- IC1 5B
- IC1 5C
- C21 2
- C20 2
- IC1 4D
- C19 2
- C17 2
- IC1 5D
- C18 2
- C38 1
- C39 1
- C28 2
- L15 1
- L10 1
- TP3 2
- V100 1
- V101 1
- V99 1
- V98 1
- C27 2
- C49 2
- V124 1
- IC1 4H
- V155 1
- V153 1
- P1 47
- V154 1
- IC1 5A
-Net 60 "AVDD" "AVDD"
- IC1 5G
- C50 1
- C49 1
- C27 1
- IC1 3H
- C28 1
+Net 55 "/TESTP_PACE_OUT1" "TESTP_PACE_OUT1"
+ V151 1
+ P1 39
+ IC1 3E
+Net 56 "/IN4N" "IN4N"
+ IC1 2E
+ P1 15
+Net 57 "/IN4P" "IN4P"
+ IC1 1E
+ P1 14
+Net 58 "AVDD" "AVDD"
  C51 1
- L11 1
  C52 1
- C26 1
- IC1 4B
- IC1 6A
- IC1 4A
  L3 2
  V108 1
  V115 1
- V93 1
+ C28 1
+ IC1 6C
+ IC1 6B
+ IC1 4B
+ IC1 6A
+ IC1 4A
+ L11 1
+ C26 1
  C25 1
  C11 1
- IC1 6B
- IC1 6C
-Net 61 "GNDFenceIN" "GNDFenceIN"
- V66 1
- V60 1
- V59 1
- V69 1
- V63 1
- V62 1
+ IC1 3H
+ IC1 5G
+ C27 1
+ C49 1
+ C50 1
+ V93 1
+Net 59 "/nRESET" "nRESET"
+ V149 1
+ V150 1
+ IC1 6G
+ R19 2
+ V147 1
+ IC4 2
+Net 60 "GNDFenceIN" "GNDFenceIN"
+ V54 1
+ V47 1
+ V40 1
  V36 1
  V37 1
  V39 1
  V38 1
  V42 1
  V41 1
- L16 1
+ V55 1
+ V56 1
+ V50 1
+ V51 1
  V53 1
  V52 1
- V56 1
- V55 1
+ V62 1
+ V63 1
+ V59 1
+ V60 1
  V48 1
  V49 1
  V45 1
  V46 1
  V44 1
- V51 1
- V43 1
- V50 1
- V54 1
- V47 1
- V40 1
- V61 1
- V68 1
- V64 1
- V65 1
- V57 1
  V58 1
+ V57 1
+ V43 1
+ V61 1
+ V64 1
+ V68 1
+ V69 1
+ V66 1
+ L16 1
  V67 1
+ V65 1
  V105 1
-Net 62 "VDD" "VDD"
+Net 61 "VDD" "VDD"
  C2 1
- IC3 1
- C8 1
  C7 1
- V22 1
- V24 1
- IC2 1
- V28 1
  L1 1
- V26 1
  C3 1
-Net 63 "/GNDiso" "GNDiso"
- IC2 9
- C10 2
- C9 2
- V131 1
- V132 1
- V133 1
- IC2 15
- C4 2
- C5 2
- V71 1
- V70 1
- L17 2
- V31 1
- V35 1
- V33 1
- L5 2
- R8 1
- IC3 15
- IC3 9
- V72 1
-Net 64 "/Cfly+" "Cfly+"
+ IC2 1
+ V26 1
+ C8 1
+ IC3 1
+ V22 1
+ V28 1
+ V24 1
+Net 62 "/Cfly+" "Cfly+"
  C30 2
  U4 5
-Net 65 "/Cfly-" "Cfly-"
- C30 1
+Net 63 "/Cfly-" "Cfly-"
  U4 3
-Net 66 "/AVSS1" "AVSS1"
- IC1 8A
- L10 2
+ C30 1
+Net 64 "/VCAP4" "VCAP4"
+ C20 1
+ IC1 3G
+Net 65 "/VCAP1" "VCAP1"
+ IC1 5H
+ C17 1
+Net 66 "/VCAP2" "VCAP2"
+ IC1 6H
+ C18 1
 Net 67 "/INinv" "INinv"
- C32 1
- C31 1
  U4 2
  V130 1
+ C32 1
+ C31 1
  L13 1
 Net 68 "/OUTinv" "OUTinv"
- U4 1
- L14 2
- C34 1
- C33 1
  V128 1
  V129 1
-Net 70 "/FB25" "FB25"
- U3 5
+ C33 1
+ C34 1
+ L14 2
+ U4 1
+Net 69 "/FB25" "FB25"
  C23 2
+ U3 5
  R17 1
  R18 2
  V134 1
-Net 75 "/OUT33" "OUT33"
+Net 70 "/OUT25" "OUT25"
+ C23 1
+ R17 2
+ C24 1
+ V127 1
+ U3 6
+ L11 2
+ P1 48
+Net 71 "" ""
+ U3 4
+ C29 1
+Net 76 "/OUT33" "OUT33"
  C13 1
  U2 5
  L8 2
-Net 76 "" ""
- U2 4
+Net 77 "" ""
  C16 1
-Net 77 "/OUT25" "OUT25"
- P1 48
- L11 2
- C24 1
- V127 1
- R17 2
- C23 1
- U3 6
-Net 78 "" ""
- U3 4
- C29 1
-Net 79 "/OUTneg25" "OUTneg25"
+ U2 4
+Net 78 "/OUTneg25" "OUTneg25"
  V142 1
  R20 2
- L15 2
  U5 5
  C37 1
-Net 80 "/NRn25" "NRn25"
- R21 2
- R20 1
- C40 1
- U5 4
- V139 1
-Net 81 "/FuseNet" "FuseNet"
+ L15 2
+Net 79 "/ID" "ID"
+ R7 2
+ V29 1
+ IC2 11
+Net 81 "VIN" "VIN"
+ D1 1
+ U1 2
+ V21 1
+ V20 1
+ F1 1
+Net 82 "" ""
+ IC2 10
+ R8 2
+Net 83 "/FuseNet" "FuseNet"
+ V17 1
+ V16 1
+ V15 1
+ F1 2
  L1 2
  C1 1
- F1 2
- V15 1
- V16 1
- V17 1
-Net 82 "/OA" "OA"
- R4 2
- V23 1
- IC2 14
-Net 83 "/OB" "OB"
- IC2 13
- V25 1
- R5 2
-Net 84 "/OC" "OC"
- V27 1
- R6 2
- IC2 12
-Net 85 "/ID" "ID"
- IC2 11
- V29 1
- R7 2
-Net 87 "/VCAP4" "VCAP4"
- IC1 3G
- C20 1
-Net 88 "/VCAP1" "VCAP1"
- C17 1
- IC1 5H
-Net 89 "/VCAP2" "VCAP2"
- IC1 6H
- C18 1
-Net 90 "/VisoVCCNet" "VisoVCCNet"
+Net 84 "/VisoVCCNet" "VisoVCCNet"
  R1 2
  L2 1
  C6 1
-Net 92 "VIN" "VIN"
- U1 2
- V20 1
- V21 1
- D1 1
- F1 1
-Net 93 "" ""
- R8 2
- IC2 10
-Net 94 "" ""
- IC3 14
+Net 85 "/OA" "OA"
+ IC2 14
+ V23 1
+ R4 2
+Net 86 "/OB" "OB"
+ IC2 13
+ R5 2
+ V25 1
+Net 87 "/OC" "OC"
+ V27 1
+ R6 2
+ IC2 12
+Net 88 "" ""
  R11 2
-Net 95 "" ""
+ IC3 14
+Net 89 "" ""
  IC3 13
  R13 2
-Net 96 "" ""
+Net 90 "" ""
  IC3 12
  R14 2
-Net 97 "" ""
- IC3 11
+Net 91 "" ""
  R15 2
-Net 98 "" ""
- IC3 10
+ IC3 11
+Net 92 "" ""
  R16 2
-Net 99 "/CLK" "CLK"
- IC1 8G
- V116 1
+ IC3 10
+Net 94 "/NRn25" "NRn25"
+ R21 2
+ R20 1
+ V139 1
+ U5 4
+ C40 1
+Net 95 "/CLK" "CLK"
  TP1 1
+ V116 1
  V117 1
-Net 103 "/AVDD1" "AVDD1"
+ IC1 8G
+Net 97 "/IN8P" "IN8P"
+ IC1 1A
+ P1 30
+Net 98 "/IN5N" "IN5N"
+ IC1 2D
+ P1 19
+Net 99 "/IN5P" "IN5P"
+ P1 18
+ IC1 1D
+Net 100 "/IN6N" "IN6N"
+ P1 23
+ IC1 2C
+Net 101 "/IN6P" "IN6P"
+ IC1 1C
+ P1 22
+Net 102 "/CLKSEL" "CLKSEL"
+ R2 1
+ IC1 8B
+ R3 1
+Net 103 "/IN7N" "IN7N"
+ IC1 2B
+ P1 27
+Net 104 "/IN7P" "IN7P"
+ P1 26
+ IC1 1B
+Net 105 "/AVDD1" "AVDD1"
  IC1 7A
  L3 1
-Net 104 "/IN8N" "IN8N"
+Net 106 "/IN8N" "IN8N"
  P1 31
  IC1 2A
-Net 105 "/IN8P" "IN8P"
- P1 30
- IC1 1A
-Net 106 "/CLKSEL" "CLKSEL"
- R2 1
- R3 1
- IC1 8B
 }
 #End
