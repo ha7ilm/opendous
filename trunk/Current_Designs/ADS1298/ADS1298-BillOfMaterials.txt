@@ -4,33 +4,73 @@ AVX TCJ Series Tantalum 1206 6.3V TCJA157M006#0200 150uF 200mOhm ESR
 	TCJA476M006#0200 47uF 200mOhm ESR
 * 1210 case would be a much better alternative
 
+Bill of Materials for the ADS1298 Project
+
+
+Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description
+
+
+~~~ ADS1298 Components ~~~
+ 1, ADS1298                         ,??.?? - IC1 - IC EEG ECG AFE ADC 24BIT 64-HTQFP
+ 2, C2012X5R0J106K                  , 0.23 - C11 C21 - CAP CER 10UF 6.3V X5R 10% 0805
+ 2, GRM188R71C104KA01D              , 0.01 - C49 C50 - CAP CER .1UF 16V 10% X7R 0603
+ 5, GRM188R61A105KA61D,             , 0.04 - C18 C19 C20 C27 C28 - CAP CER 1.0UF 10V 10% X5R 0603
+ 1, C3216X5R0J226K/1.6              , 0.66 - C17 - CAP CER 22UF 6.3V X5R 10% 1206
+
+~~~ Power Supply Components ~~~
+ 1, TPS79230DBV                     , 1.52 - U2 - IC 3.0V 100MA LDO REG SOT-23-5
+ 1, TPS79101DBV                     , 1.52 - U3 - IC ADJ 100MA LDO REG SOT-23-6
+ 1, TPS60403DBV                     , 1.31 - U4 - IC UNREG CHRG PUMP V INV SOT23-5
+ 1, TPS72325DBV                     , 3.60 - U5 - IC LDO REG NEG 200MA 2.5V SOT23
+ 1, ADM811RARTZ                     , 1.38 - IC4 - IC SUPERVISER RST 2.63V SOT-143
+ 1, C1608C0G1H100D                  , 0.02 - C41 - CAP CER 10PF 50V C0G 0603
+ 1, C1608C0G1H220J                  , 0.03 - C23 - CAP CER 22PF 50V C0G 5% 0603
+ 7, GRM188R71H103KA01D              , 0.02 - C15 C16 C26 C29 C35 C39 C40 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
+ 3, GRM188R71C104KA01D              , 0.01 - C31 C33 C48 - CAP CER .1UF 16V 10% X7R 0603
+ 2, GRM188R61A105KA61D              , 0.04 - C30 C51 C52 - CAP CER 1.0UF 10V 10% X5R 0603
+ 6, C0805C225K8RACTU                , 0.17 - C12 C13 C22 C24 C36 C37 - CAP CERAMIC 2.2UF 10V 10% X7R 0805
+ 5, C2012X5R0J106K                  , 0.23 - C14 C25 C32 C34 C38 - CAP CER 10UF 6.3V X5R 10% 0805
+ 2, LBR2012T2R2M                    , 0.12 - L13 L14 - INDUCTOR 2.2UH 260MA 20% 80MHz 169.0-mOhm-DCR SMD
+
+
+
+~~~ Isolator Components ~~~
+ 1, MBR120VLSFT1G                   , 0.45 - D1 - DIODE SCHOTTKY 20V 1A SOD123FL
+ 4, GRM188R71C104KA01D              , 0.01 - C3 C4 C8 C9 - CAP CER .1UF 16V 10% X7R 0603
+ 4, C2012X5R0J106K                  , 0.23 - C2 C6 C7 C10 - CAP CER 10UF 6.3V X5R 10% 0805
+ 1, C3216X5R0J226K/1.6              , 0.66 - C5 - CAP CER 22UF 6.3V X5R 10% 1206
+ 1, F950J686MSAAQ2                  , 1.32 - C1 - CAP TANT 6.3V 68UF SMD 900-mOhm-ESR 1206
+ 4, BRC2016T220K                    , 0.31 - L1 L2 L4 L5 - INDUCTOR 22UH 310MA 24MHz 1.3-Ohm-DCR 0806 SMD
+
+
+
+
+~~~ Voltage Reference Components ~~~
+ 1, GRM188R71C104KA01D              , 0.01 - C42 C44 - CAP CER .1UF 16V 10% X7R 0603
+ 1, C2012X5R0J106K                  , 0.23 - C43 - CAP CER 10UF 6.3V X5R 10% 0805
+ 2, C3216X5R0J226K/1.6              , 0.66 - C45 C46 - CAP CER 22UF 6.3V X5R 10% 1206
+ 1, F950J107MAAAQ2                  , 1.32 - C47 - CAP TANT 6.3V 100UF 500-mOhm-ESR SMD 3217-14(EIA) 1206
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=40.92
+
+
+
 
               0,  3,               ,R25, R8, R16
-            0u1, 11,               ,C50, C3, C4, C8, C9, C31, C33, C42, C44, C48, C49
+            2.2,  1,               ,R1
             100,  2,               ,R24, R23
            100k,  2,               ,R22, R19
-          100uF,  1,               ,C47
-            10n,  7,               ,C40, C15, C16, C26, C29, C35, C39
-            10p,  1,               ,C41
-            10u, 12,               ,C43, C2, C6, C7, C10, C11, C14, C21, C25, C32, C34, C38
-             1u,  3,               ,C20, C18, C19
-            1u0,  4,               ,C52, C27, C28, C51
-            1uF,  1,               ,C30
-            2.2,  1,               ,R1
-            22p,  1,               ,C23
-            22u,  1,               ,C17
-           22uF,  3,               ,C46, C5, C45
-           22uH,  4,               ,L5, L1, L2, L4
-            2u2,  6,               ,C37, C12, C13, C22, C24, C36
-            2uH,  2,               ,L14, L13
            30k1,  1,               ,R18
            33k4,  1,               ,R17
             43k,  1,               ,R21
             47k,  6,               ,R20, R2, R3, R9, R10, R12
              50,  8,               ,R15, R4, R5, R6, R7, R11, R13, R14
-            68u,  1,               ,C1
-         ADM811,  1,               ,IC4
-        ADS1298,  1,               ,IC1
+
+
+
+
+
 ADS1298_Control,  1,               ,U1
     ADS_Sensors,  1,               ,P1
        ADuM4401,  1,               ,IC3
@@ -38,17 +78,26 @@ ADS1298_Control,  1,               ,U1
          CONN_1,  1,               ,TP4
             ESD,  8,               ,CR8, CR1, CR2, CR3, CR4, CR5, CR6, CR7
              FB, 11,               ,L19, L3, L8, L9, L10, L11, L12, L15, L16, L17, L18
-     MBR120VLSF,  1,               ,D1
          OPA211,  1,               ,IC6
    PCB_BoardCut,  1,               ,P2
        PolyFUSE,  1,               ,F1
         REF5025,  1,               ,IC5
           RF-TP,  3,               ,TP3, TP1, TP2
-       TPS60403,  1,               ,U4
-       TPS72325,  1,               ,U5
-       TPS79201,  1,               ,U3
-       TPS79230,  1,               ,U2
-            VIA,148,               ,V148, V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32, V33, V34, V35, V36, V37, V38, V39, V40, V41, V42, V43, V44, V45, V46, V47, V48, V49, V50, V51, V52, V53, V54, V55, V56, V57, V58, V59, V60, V61, V62, V63, V64, V65, V66, V67, V68, V69, V70, V71, V72, V73, V74, V75, V76, V77, V78, V79, V80, V81, V82, V83, V84, V85, V86, V87, V88, V89, V90, V91, V92, V93, V94, V95, V96, V97, V98, V99, V100, V101, V102, V103, V104, V105, V106, V107, V108, V109, V110, V111, V112, V113, V114, V115, V116, V117, V118, V119, V120, V121, V122, V123, V124, V125, V126, V127, V128, V129, V130, V131, V132, V133, V134, V135, V136, V137, V138, V139, V140, V141, V142, V143, V144, V145, V146, V147
+
+
+
+
+
+Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
+	- LT1964ES5-SD#TRMPBF is a compatible replacement for the TPS72301DBV/TPS72325DBV
+	  Although R20, R21 may need to be adjusted for a more accurate output
+	- ADP150AUJZ-3.0-R7 is a drop-in replacement for the TPS79230DBV
+	- TPS79201DBV is a higher output, higher noise replacement for the TPS79101DBV
+	- LM828M5/NOPB is a compatible replacement for the TPS60403DBV
+
+
+
+
 
 
 eeschema (20100406 SVN-R2508)-final  >> Creation date: 04/05/2010 22:09:02
