@@ -5,7 +5,7 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
 
 
 ~~~ ADS1298 Components ~~~
- 1, ADS1298                         ,??.?? - IC1 - IC EEG ECG AFE ADC 24BIT 64-HTQFP
+ 1, ADS1298                         ,??.?? - IC1 - IC EEG ECG AFE 24BIT ADC 64-BGA
  2, C2012X5R0J106K                  , 0.23 - C11 C21 - CAP CER 10UF 6.3V X5R 10% 0805
  2, GRM188R71C104KA01D              , 0.01 - C49 C50 - CAP CER .1UF 16V 10% X7R 0603
  5, GRM188R61A105KA61D              , 0.04 - C18 C19 C20 C27 C28 - CAP CER 1.0UF 10V 10% X5R 0603
@@ -13,7 +13,8 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
  4, BK1608TS102-T                   , 0.04 - L3 L10 L18 L19 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
  3, RMCF 1/10 47K 1% R 0805         , 0.04 - R2 R3 R9 R10 R12 - RES 47K OHM 1/8W 1% 0805 SMD
  3, 1566230-1                       , 1.23 - TP1 TP2 TP3 - CONN UMCC RCPT 50-Ohm SMD STYLE A
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 5.31+
+ 1, SFH31-NPPB-D25-SP-BK            , 2.93 - P1 - CONN HDR FMAL 50PS 1.27MM SMD AU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 8.24+
 
 
 ~~~ Power Supply Components ~~~
@@ -71,19 +72,23 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
  1, ERA-6AEB104V                    , 0.20 - R22 - RES 100K OHM 1/8W .1% 0805 SMD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=18.40
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=67.51+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=70.44+
 
 
 Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
 	- LT1964ES5-SD#TRMPBF is a compatible replacement for the TPS72301DBV/TPS72325DBV
-	  Although R20, R21 may need to be adjusted for a more accurate output
+	  Although R20, R21 values may need to be adjusted for a more accurate output
 	- ADP150AUJZ-3.0-R7 is a drop-in replacement for the TPS79230DBV
 	- TPS79201DBV is a higher output, higher noise replacement for the TPS79101DBV
 	- LM828M5/NOPB is a compatible replacement for the TPS60403DBV
-	- Of the five 47k resistors (R2 R3 R9 R10 R12) at most three should be populated
-	- For the voltage reference, consider using more precise resistors:
-	  1, RG2012N-104-W-T1, R22 - RES 100K OHM 1/8W .05% 0805 SMD
-	  2, RG2012N-121-W-T1, R23 R24 - RES 120 OHM 1/8W .05% 0805 SMD
+	- ADS_Sensor header P1 can also be SFML-125-T1-S-D, SFML-125-01-S-D, or SFML-125-02-S-D
+	  and will mate with SBH31-NBPB-D25-ST-BK or SBH31-NBPB-D25-SM-BK
+	- Only one of each of the pairs (R2, R3), (R10, R12) of 47k pull-up resistors
+	  should be populated depending on required functionality.
+	- For the voltage reference, if using the 0.05% version of the REF5025 use 0.05%
+	  resistors such as the following:
+	    1, RG2012N-104-W-T1, R22 - RES 100K OHM 1/8W .05% 0805 SMD
+	    2, RG2012N-121-W-T1, R23 R24 - RES 120 OHM 1/8W .05% 0805 SMD
 	- If you cut the board to separate the isolation and ADS1298 portions you can
 	  use the following components to link the two pieces together:
 	  1, 951110-7622-AR, 0.52 - ADS1298 Half - CONN HEADER 10POS 2MM R/A T/H
@@ -91,4 +96,3 @@ Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
 	- The UMCC 1566230-1 connectors can be replaced by 73412-0110 U.FL connectors
 	- For insulation use Polyimide tape which has a 7.5kV breakdown voltage such
 	  as 3M 1205 or 1206 Electrical Tape
-
