@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 01/05/2010 13:30:25
+EESchema Schematic File Version 2  date 09/05/2010 02:06:27
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:ADS1298-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "ADS1298 Base Board"
-Date "1 may 2010"
+Date "9 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
@@ -3312,7 +3313,7 @@ AVDD1
 Text Label 7650 950  2    18   ~ 0
 AVDD1
 Text Notes 5450 4800 0    50   ~ 0
-Design Notes:\n - capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - pull-up resistors can be standard 5%\n - connectors for precision off-board signals (CLK, RLDINV) should be RF\n    coaxial connectors such as Tyco UMCC or Hirose U.FL (which are footprint compatible)\n - ADM811 will de-assert RESET 140ms+ after 3.3V is valid\n    to give time for other regulators to stabilize\n - AGND and DGND should be separate layers in the PCB stack-up\n - power vias should be 20mil or larger to lower impedance\n - place power and isolation components on bottom of PCB and analog\n    circuitry on top\n - VREF and VCAP1 caps C11, C17 should be highest quality possible\n - Staggered AGND on sensor connector is for differential pair isolation
+Design Notes:\n - capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - pull-up resistors can be standard 5%\n - connectors for precision off-board signals (CLK, RLDINV) should be RF\n    coaxial connectors such as Tyco UMCC or Hirose U.FL (which are footprint compatible)\n - ADM811 will de-assert RESET 140ms+ after 3.3V is valid\n    to give time for other regulators to stabilize\n - AGND and DGND should be separate layers in the PCB stack-up\n - power vias should be 20mil or larger to lower impedance\n - place power and isolation components on bottom of PCB and analog\n    circuitry on top\n - VREF and VCAP1 caps C11, C17 should be highest quality possible\n - Staggered AGND on ADS_Sensors connector is for differential pair isolation
 Text Notes 5350 2200 0    40   ~ 0
 Tie START low to control\nconversions via commands,\nAs per datasheet Pg34
 Text Notes 5450 550  0    40   ~ 0
@@ -3335,7 +3336,7 @@ $EndComp
 Text Notes 3850 4500 0    60   ~ 0
 RESET Supervisor
 Text Notes 3400 6400 0    40   ~ 0
-Notes:\n - do not populate L18 FB if using external reference\n - resistors should be 0.1%, 50ppm or better\n - Panasonic ERA-6A are 0805, +/-25ppm, 0.1%, 0.20USD\n - Susumu RG are 0805, +/-10ppm, 0.05%, 1.00USD\n - capacitors are X5R, 6.3V, 10% or better unless noted\n - 1206 capacitors are tantalum 6.3V with <300mOhm ESR
+Notes:\n - do not populate L18 FB if using external reference\n - resistors should be 0.1%, 50ppm or better\n - use 0.1% resistors with the 0.1% version of the REF5025\n    and 0.05% resistors with the 0.05% version\n - Panasonic ERA-6A are 0805, +/-25ppm, 0.1%, 0.20USD\n - Susumu RG are 0805, +/-10ppm, 0.05%, 1.00USD\n - capacitors are X5R, 6.3V, 10% or better unless noted\n - 1206 capacitors are tantalum 6.3V with <300mOhm ESR
 Text Notes 3350 6300 0    60   ~ 0
 External REFERENCE
 Text Notes 3750 3200 0    60   ~ 0

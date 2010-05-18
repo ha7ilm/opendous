@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 01/05/2010 13:29:16
+EESchema-LIBRARY Version 2.3  Date: 17/05/2010 19:50:57
 #
 # ADM811
 #
@@ -21,7 +21,7 @@ F0 "IC" 850 1400 60 H V C CNN
 F1 "ADS1298" -750 1400 60 H V C CNN
 DRAW
 T 0 0 50 50 0 0 0 ADS1298IZXG  Normal 0 C C
-T 0 0 0 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S 950 1350 -950 -1350 0 1 2 f
 X IN8P 1A 1100 -250 150 L 40 40 1 1 P
 X IN8N 2A 1100 -150 150 L 40 40 1 1 P
@@ -90,13 +90,41 @@ X DIN 8H -1100 350 150 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
+# ADuM6401
+#
+DEF ADuM6401 IC 0 40 Y Y 1 F N
+F0 "IC" 0 -500 60 H V C CNN
+F1 "ADuM6401" 0 500 60 H V C CNN
+DRAW
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
+S -25 450 25 -450 0 1 4 N
+S 350 450 -350 -450 0 1 2 f
+X VDD 1 -500 400 150 R 40 40 1 1 W
+X GND 2 -500 300 150 R 40 40 1 1 W
+X IA 3 -500 50 150 R 40 40 1 1 I
+X IB 4 -500 -50 150 R 40 40 1 1 I
+X IC 5 -500 -150 150 R 40 40 1 1 I
+X OD 6 -500 -250 150 R 40 40 1 1 O
+X RCout-NC 7 -500 -400 150 R 40 35 1 1 O
+X GND 8 -500 200 150 R 40 40 1 1 W
+X GNDiso 9 500 200 150 L 40 40 1 1 W
+X Vsel-Ve 10 500 -400 150 L 40 40 1 1 I
+X ID 11 500 -250 150 L 40 40 1 1 I
+X OC 12 500 -150 150 L 40 40 1 1 O
+X OB 13 500 -50 150 L 40 40 1 1 O
+X OA 14 500 50 150 L 40 40 1 1 O
+X GNDiso 15 500 300 150 L 40 40 1 1 W
+X Viso 16 500 400 150 L 40 40 1 1 w
+ENDDRAW
+ENDDEF
+#
 # ADuMx401
 #
 DEF ADuMx401 IC 0 40 Y Y 1 F N
 F0 "IC" 0 -500 60 H V C CNN
 F1 "ADuMx401" 0 500 60 H V C CNN
 DRAW
-T 0 0 0 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S -25 450 25 -450 0 1 4 N
 S 350 450 -350 -450 0 1 2 f
 X VDD 1 -500 400 150 R 40 40 1 1 W
@@ -384,6 +412,17 @@ F1 "GND" 0 -70 30 H I C CNN
 DRAW
 P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
 X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDFence
+#
+DEF GNDFence #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GNDFence" 0 -70 30 H V C CNN
+DRAW
+P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
+X GNDFence 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
