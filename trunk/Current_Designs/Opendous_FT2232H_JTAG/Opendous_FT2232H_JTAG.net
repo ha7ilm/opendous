@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  29/04/2010 00:36:11
+# EESchema Netlist Version 1.1 created  30/05/2010 23:45:56
 (
  ( /4BD90C5A $noname  U5 ARM {Lib=CONN_JTAG_ARM}
   (    1 VREF )
@@ -30,7 +30,7 @@
   (    5 /TDI_FT )
   (    6 /TDI )
   (    7 GND )
-  (    8 N-000054 )
+  (    8 N-000053 )
   (    9 /nSRST )
   (   10 GND )
   (   11 /nSRST )
@@ -39,7 +39,7 @@
   (   14 VREF )
  )
  ( /4BD90BB3 $noname  IC6 74LCX125 {Lib=74LCX125}
-  (    1 /nJTAG_OE_FT )
+  (    1 GND )
   (    2 /TDO )
   (    3 /TDO_FT )
   (    4 /nJTAG_OE_FT )
@@ -229,7 +229,7 @@
   (    2 /VREF_IN )
  )
  ( /4B7D62EB $noname  R13 0 {Lib=R_MINI}
-  (    1 N-000054 )
+  (    1 N-000053 )
   (    2 /nSRST_IN )
  )
  ( /4B7D5B8A $noname  R10 10k {Lib=R_MINI}
@@ -478,15 +478,15 @@
   (    2 GND )
  )
  ( /4B22118A $noname  C15 0u1 {Lib=C_MINI}
-  (    1 N-000050 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4B221189 $noname  C12 4u7 {Lib=C_MINI}
-  (    1 N-000050 )
+  (    1 N-000049 )
   (    2 GND )
  )
  ( /4B221188 $noname  L3 FB {Lib=L_MINI}
-  (    1 N-000050 )
+  (    1 N-000049 )
   (    2 VDD33 )
  )
  ( /4B221149 $noname  C14 0u1 {Lib=C_MINI}
@@ -506,7 +506,7 @@
   (    2 GND )
  )
  ( /4B22105B $noname  L1 FB {Lib=L_MINI}
-  (    1 N-000049 )
+  (    1 N-000032 )
   (    2 VBUS )
  )
  ( /4B221030 $noname  C2 10u {Lib=C_MINI}
@@ -518,16 +518,16 @@
   (    2 GND )
  )
  ( /4B220FD4 $noname  C1 10u {Lib=C_MINI}
-  (    1 N-000049 )
+  (    1 N-000032 )
   (    2 GND )
  )
  ( /4B220FA3 $noname  IC1 FT2232H {Lib=FT2232}
   (    1 GND )
-  (    2 N-000033 )
-  (    3 N-000029 )
-  (    4 N-000050 )
+  (    2 N-000038 )
+  (    3 N-000033 )
+  (    4 N-000049 )
   (    5 GND )
-  (    6 N-000034 )
+  (    6 N-000039 )
   (    7 /DM )
   (    8 /DP )
   (    9 /VPLL )
@@ -535,7 +535,7 @@
   (   11 GND )
   (   12 VDD18 )
   (   13 GND )
-  (   14 N-000036 )
+  (   14 N-000041 )
   (   15 GND )
   (   16 /ADBUS0 )
   (   17 /ADBUS1 )
@@ -582,9 +582,9 @@
   (   58 ? )
   (   59 ? )
   (   60 /nPWREN )
-  (   61 N-000053 )
+  (   61 N-000050 )
   (   62 N-000052 )
-  (   63 N-000035 )
+  (   63 N-000040 )
   (   64 VDD18 )
  )
  ( /4B220E7F $noname  U1 USB-B {Lib=USBCONN}
@@ -596,10 +596,10 @@
  )
  ( /4B220E39 $noname  R7 12k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000034 )
+  (    2 N-000039 )
  )
  ( /4B220E16 $noname  R6 47k {Lib=R_MINI}
-  (    1 N-000036 )
+  (    1 N-000041 )
   (    2 VDD33 )
  )
  ( /4B220D49 $noname  R3 10k {Lib=R_MINI}
@@ -611,15 +611,15 @@
   (    2 VDD33 )
  )
  ( /4B220D34 $noname  R4 10k {Lib=R_MINI}
-  (    1 N-000035 )
+  (    1 N-000040 )
   (    2 VDD33 )
  )
  ( /4B220C5D $noname  R2 2k2 {Lib=R_MINI}
   (    1 N-000051 )
-  (    2 N-000053 )
+  (    2 N-000050 )
  )
  ( /4B220BDA $noname  C5 24p {Lib=C_MINI}
-  (    1 N-000029 )
+  (    1 N-000033 )
   (    2 GND )
  )
  ( /4B220BCE $noname  C6 0u1 {Lib=C_MINI}
@@ -627,13 +627,13 @@
   (    2 GND )
  )
  ( /4B220BC5 $noname  C3 24p {Lib=C_MINI}
-  (    1 N-000033 )
+  (    1 N-000038 )
   (    2 GND )
  )
  ( /4B220B81 $noname  IC2 93C46 {Lib=93CX6}
-  (    1 N-000035 )
+  (    1 N-000040 )
   (    2 N-000052 )
-  (    3 N-000053 )
+  (    3 N-000050 )
   (    4 N-000051 )
   (    5 GND )
   (    6 VDD33 )
@@ -643,419 +643,419 @@
  ( /4B22073F $noname  IC3 1117-3.3V {Lib=1117}
   (    1 GND )
   (    2 VDD33 )
-  (    3 N-000049 )
+  (    3 N-000032 )
   (    4 VDD33 )
  )
  ( /4B220734 $noname  X1 12MHz {Lib=CRYSTAL_MINI}
-  (    1 N-000029 )
-  (    2 N-000033 )
+  (    1 N-000033 )
+  (    2 N-000038 )
  )
 )
 *
 { Pin List by Nets
 Net 1 "/nSRST_FT" "nSRST_FT"
  IC5 12
- V67 1
  V35 1
+ V67 1
  IC1 52
 Net 2 "GND" "GND"
- IC1 47
- IC1 35
- IC1 25
- IC1 15
- U5 4
- U5 6
- IC1 51
- IC1 11
  IC1 10
  IC1 5
  IC1 1
  C1 2
+ V100 1
+ IC1 47
+ C6 2
+ C5 2
+ IC1 11
+ IC1 51
+ IC1 13
+ C18 2
+ C20 2
  R10 1
- IC6 7
- V68 1
- U3 3
- U5 8
- U5 10
- U5 20
- U5 12
- U5 18
- U5 16
- U5 14
+ V99 1
+ IC1 35
+ IC1 25
+ IC1 15
+ C19 2
+ C9 2
+ C21 2
+ C7 2
+ P1 19
+ C22 2
+ C24 2
+ C23 2
+ R1 2
+ C2 2
+ C17 2
+ C4 2
  C13 2
  C16 2
+ C11 2
  C8 2
+ C14 2
  C10 2
  C12 2
  C15 2
- C9 2
- C7 2
- C14 2
- P1 19
- C11 2
- C4 2
- C2 2
- R1 2
- C17 2
- C3 2
- C6 2
- C5 2
- IC1 13
  R7 1
  U1 4
  IC3 1
  IC2 5
- V22 1
- V62 1
- V61 1
- V60 1
- V59 1
- V15 1
- V14 1
- V13 1
- V12 1
+ V98 1
+ V97 1
+ C3 2
+ V102 1
+ V101 1
+ U3 9
+ U3 5
+ U3 3
  V8 1
  V7 1
  V6 1
  V5 1
+ V22 1
+ V59 1
+ V58 1
+ U5 10
+ IC6 1
+ U5 18
+ V62 1
+ IC5 7
+ U5 12
+ V61 1
+ U5 20
+ V60 1
  V16 1
- V46 1
- V47 1
- V63 1
+ V15 1
+ V14 1
+ V13 1
+ V12 1
  V48 1
- V64 1
- V51 1
- V52 1
- V53 1
- V54 1
- V55 1
- V56 1
- V57 1
+ V47 1
  U4 13
+ V46 1
  U4 11
  U4 9
  U4 7
  U4 5
  U4 3
  U4 1
- V58 1
- U3 5
- V96 1
- V98 1
- V97 1
- V100 1
- V99 1
- V32 1
- V29 1
- IC5 7
  IC5 10
- C18 2
- C19 2
- V31 1
+ U5 8
+ V63 1
+ V64 1
+ V57 1
+ V56 1
+ V55 1
+ V54 1
+ V53 1
+ U5 6
+ V52 1
+ V51 1
+ U5 4
+ V32 1
  V83 1
+ V31 1
  V30 1
- C21 2
- V37 1
+ V29 1
+ V96 1
  V40 1
- U3 9
- V101 1
- V102 1
- C23 2
- C24 2
- C22 2
- C20 2
+ V37 1
+ U5 14
+ V68 1
+ IC6 7
+ U5 16
 Net 3 "VDD18" "VDD18"
- C7 1
+ IC1 49
+ IC1 37
  C9 1
- C17 1
+ C7 1
+ V27 1
+ V28 1
+ C16 1
  V26 1
  C13 1
- V27 1
- IC1 12
- IC1 49
- V28 1
  IC1 64
- C16 1
- IC1 37
+ IC1 12
+ C17 1
 Net 4 "/nSUSPEND" "nSUSPEND"
- P1 17
  IC1 36
- V50 1
+ P1 17
  V49 1
+ V50 1
 Net 7 "GNDPWR" "GNDPWR"
  R1 1
- V89 1
  V90 1
  V91 1
+ V89 1
+ IC4 1
  V92 1
  U1 5
- IC4 1
 Net 8 "/DP" "DP"
  IC4 3
  U1 3
  IC1 8
 Net 9 "VBUS" "VBUS"
- L1 2
- C18 1
  V41 1
+ C18 1
+ L1 2
+ U1 1
  V42 1
  R11 1
  P1 18
  IC4 4
- U1 1
 Net 10 "VREF" "VREF"
- V82 1
- V24 1
- JP1 2
- C23 1
- V94 1
- U5 1
- C22 1
- V95 1
- U4 2
- IC6 14
- V81 1
  U3 1
- IC5 14
+ U5 1
  U5 2
- C21 1
+ C23 1
  C24 1
+ IC6 14
+ IC5 14
+ V81 1
+ V82 1
  R12 1
+ V24 1
+ V94 1
+ V95 1
+ C22 1
+ C21 1
+ JP1 2
+ U4 2
 Net 11 "/nSRST" "nSRST"
- IC5 9
- V21 1
- IC5 11
  V88 1
- U5 15
+ V21 1
  V87 1
+ U5 15
+ IC5 11
+ IC5 9
  U3 10
 Net 12 "/TDO" "TDO"
- U3 6
- V93 1
- U4 8
  U5 13
- V20 1
+ V93 1
  IC6 2
+ U4 8
  V23 1
+ V20 1
+ U3 6
 Net 13 "/TMS" "TMS"
- V18 1
+ U5 7
+ U4 4
  U3 2
  IC6 6
- U4 4
- U5 7
+ V18 1
 Net 14 "/TDI" "TDI"
  V25 1
+ U4 10
+ U5 5
  U3 8
  V17 1
- U5 5
- U4 10
  IC5 6
 Net 15 "VDD33" "VDD33"
- IC1 31
- IC1 50
- IC1 20
- JP1 1
- IC1 56
- C20 1
  V65 1
- C19 1
+ R16 2
+ C20 1
  R14 2
  R15 2
- R16 2
- R6 2
- R3 2
+ V77 1
+ V11 1
+ V10 1
+ V9 1
+ V4 1
+ V3 1
+ V2 1
+ V1 1
+ V76 1
  R5 2
  R4 2
  IC3 4
  IC3 2
  IC2 8
- P1 20
- L3 2
- L2 2
- C4 1
- C2 1
- C8 1
- C10 1
- V4 1
- V9 1
- V10 1
- V11 1
- V77 1
- V3 1
- IC1 42
- C6 1
- V2 1
  IC2 6
- V1 1
- V76 1
-Net 20 "/nSRST_OE_FT" "nSRST_OE_FT"
- V85 1
- IC5 13
- R16 1
- IC1 54
- V69 1
-Net 21 "/RTCK" "RTCK"
- IC6 12
- V66 1
- U3 7
- U5 11
-Net 22 "/nJTAG_OE_FT" "nJTAG_OE_FT"
- R15 1
- V72 1
- IC6 4
- IC6 1
- IC1 43
- IC6 13
- V73 1
- V71 1
+ C10 1
+ C8 1
+ L2 2
+ C6 1
+ L3 2
+ JP1 1
+ P1 20
+ R6 2
+ R3 2
+ IC1 20
+ IC1 56
+ C2 1
+ C4 1
+ IC1 42
+ C19 1
+ IC1 31
+ IC1 50
+Net 16 "/nJTAG_OE_FT" "nJTAG_OE_FT"
+ V86 1
  V75 1
  V70 1
- V74 1
- V86 1
- IC5 4
+ V71 1
+ V72 1
+ R15 1
+ IC6 13
+ IC6 4
  IC5 1
-Net 24 "/ACBUS7" "ACBUS7"
- IC1 34
- P1 16
-Net 25 "/VREF_IN" "VREF_IN"
- V80 1
- V78 1
- R12 2
- IC1 44
-Net 26 "/nSRST_IN" "nSRST_IN"
- IC1 45
- V84 1
- V79 1
- R13 2
-Net 27 "/ADBUS1" "ADBUS1"
- P1 2
- IC1 17
-Net 28 "/ADBUS3" "ADBUS3"
- P1 4
- IC1 19
-Net 29 "" ""
- C5 1
- X1 1
- IC1 3
-Net 30 "/nPWREN" "nPWREN"
+ V74 1
+ IC5 4
+ V73 1
+ IC1 43
+Net 21 "/nSRST_OE_FT" "nSRST_OE_FT"
+ V69 1
+ R16 1
+ V85 1
+ IC5 13
+ IC1 54
+Net 22 "/RTCK" "RTCK"
+ V66 1
+ IC6 12
+ U3 7
+ U5 11
+Net 23 "/nPWREN" "nPWREN"
  IC1 60
  R11 2
  R10 2
-Net 31 "/ACBUS5" "ACBUS5"
- IC1 32
- P1 14
+Net 25 "/ADBUS7" "ADBUS7"
+ IC1 24
+ P1 8
+Net 26 "/VREF_IN" "VREF_IN"
+ V80 1
+ V78 1
+ IC1 44
+ R12 2
+Net 27 "/nSRST_IN" "nSRST_IN"
+ V84 1
+ R13 2
+ IC1 45
+ V79 1
+Net 28 "/ADBUS1" "ADBUS1"
+ P1 2
+ IC1 17
+Net 29 "/ACBUS1" "ACBUS1"
+ P1 10
+ IC1 27
+Net 30 "/ACBUS2" "ACBUS2"
+ P1 11
+ IC1 28
+Net 31 "/ADBUS3" "ADBUS3"
+ IC1 19
+ P1 4
+Net 32 "" ""
+ IC3 3
+ L1 1
+ C1 1
 Net 33 "" ""
+ X1 1
+ IC1 3
+ C5 1
+Net 34 "/ACBUS4" "ACBUS4"
+ IC1 30
+ P1 13
+Net 35 "/ACBUS6" "ACBUS6"
+ P1 15
+ IC1 33
+Net 36 "/ADBUS5" "ADBUS5"
+ P1 6
+ IC1 22
+Net 38 "" ""
  X1 2
  C3 1
  IC1 2
-Net 34 "" ""
- IC1 6
+Net 39 "" ""
  R7 2
-Net 35 "" ""
- R4 1
+ IC1 6
+Net 40 "" ""
  IC1 63
+ R4 1
  IC2 1
-Net 36 "" ""
+Net 41 "" ""
  IC1 14
  R6 1
-Net 38 "/ADBUS0" "ADBUS0"
- P1 1
+Net 43 "/ADBUS0" "ADBUS0"
  IC1 16
-Net 39 "/ADBUS2" "ADBUS2"
- IC1 18
+ P1 1
+Net 44 "/ADBUS2" "ADBUS2"
  P1 3
-Net 40 "/ADBUS4" "ADBUS4"
+ IC1 18
+Net 45 "/ADBUS4" "ADBUS4"
  P1 5
  IC1 21
-Net 41 "/ADBUS5" "ADBUS5"
- IC1 22
- P1 6
-Net 42 "/ADBUS6" "ADBUS6"
- P1 7
+Net 46 "/ADBUS6" "ADBUS6"
  IC1 23
-Net 43 "/ADBUS7" "ADBUS7"
- IC1 24
- P1 8
-Net 44 "/ACBUS6" "ACBUS6"
- P1 15
- IC1 33
-Net 45 "/ACBUS4" "ACBUS4"
- IC1 30
- P1 13
-Net 46 "/ACBUS2" "ACBUS2"
- P1 11
- IC1 28
-Net 47 "/ACBUS1" "ACBUS1"
- P1 10
- IC1 27
-Net 48 "/ACBUS0" "ACBUS0"
- IC1 26
- P1 9
+ P1 7
+Net 47 "/ACBUS5" "ACBUS5"
+ IC1 32
+ P1 14
+Net 48 "/ACBUS3" "ACBUS3"
+ IC1 29
+ P1 12
 Net 49 "" ""
- C1 1
- IC3 3
- L1 1
-Net 50 "" ""
  C15 1
  C12 1
  L3 1
  IC1 4
-Net 51 "" ""
- R2 1
- IC2 4
- R3 1
-Net 52 "" ""
- R5 1
- IC2 2
- IC1 62
-Net 53 "" ""
- IC2 3
+Net 50 "" ""
  R2 2
  IC1 61
-Net 54 "" ""
- IC5 8
+ IC2 3
+Net 51 "" ""
+ IC2 4
+ R2 1
+ R3 1
+Net 52 "" ""
+ IC1 62
+ R5 1
+ IC2 2
+Net 53 "" ""
  R13 1
+ IC5 8
+Net 54 "/ACBUS0" "ACBUS0"
+ IC1 26
+ P1 9
 Net 55 "/DM" "DM"
  IC4 2
  IC1 7
  U1 2
-Net 56 "/TDO_FT" "TDO_FT"
- IC1 40
+Net 56 "/ACBUS7" "ACBUS7"
+ IC1 34
+ P1 16
+Net 57 "/TDO_FT" "TDO_FT"
  IC6 3
-Net 57 "/TMS_FT" "TMS_FT"
- IC6 5
+ IC1 40
+Net 58 "/TMS_FT" "TMS_FT"
  IC1 41
-Net 58 "/nTRST" "nTRST"
+ IC6 5
+Net 59 "/nTRST" "nTRST"
  IC6 8
  U5 3
-Net 59 "/nTRST_FT" "nTRST_FT"
- IC6 9
+Net 60 "/nTRST_FT" "nTRST_FT"
  IC1 48
-Net 60 "/nTRST_OE_FT" "nTRST_OE_FT"
- IC1 53
+ IC6 9
+Net 61 "/nTRST_OE_FT" "nTRST_OE_FT"
  IC6 10
  R14 1
-Net 61 "/RTCK_FT" "RTCK_FT"
+ IC1 53
+Net 62 "/RTCK_FT" "RTCK_FT"
  IC6 11
  IC1 46
-Net 62 "/VPLL" "VPLL"
- L2 1
- C11 1
- C14 1
+Net 63 "/VPLL" "VPLL"
  IC1 9
-Net 63 "/TCK_FT" "TCK_FT"
+ C14 1
+ C11 1
+ L2 1
+Net 64 "/TDI_FT" "TDI_FT"
+ IC1 39
+ IC5 5
+Net 65 "/TCK" "TCK"
+ U3 4
+ U5 9
+ IC5 3
+ U4 6
+Net 66 "/TCK_FT" "TCK_FT"
  IC1 38
  IC5 2
-Net 64 "/TCK" "TCK"
- U5 9
- U3 4
- U4 6
- IC5 3
-Net 65 "/TDI_FT" "TDI_FT"
- IC5 5
- IC1 39
-Net 66 "/ACBUS3" "ACBUS3"
- IC1 29
- P1 12
 }
 #End
