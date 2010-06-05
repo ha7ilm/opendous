@@ -100,12 +100,12 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.83667901"
-     inkscape:cx="735.63489"
-     inkscape:cy="295.42708"
+     inkscape:zoom="1.1832428"
+     inkscape:cx="495.6038"
+     inkscape:cy="324.69758"
      inkscape:window-x="0"
      inkscape:window-y="22"
-     inkscape:current-layer="g32340" />
+     inkscape:current-layer="svg2" />
   <title
      id="title4">SVG Picture created as FT2232H_JTAG_Adapter-SilkS_Cmp.svg </title>
   <desc
@@ -20572,30 +20572,6 @@
        id="tspan37515"
        x="57209.672"
        y="15639.833">SIL-2-0.1&quot;-M</tspan></text>
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:184.19456482;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect37517"
-     width="4814.8804"
-     height="2503.3093"
-     x="17279.016"
-     y="12975.745"
-     ry="213.79399"
-     inkscape:export-filename="C:\0\Opendous_FT2232H_JTAG\Opendous_FT2232H_JTAG-Assembly.png"
-     inkscape:export-xdpi="400"
-     inkscape:export-ydpi="400" />
-  <text
-     xml:space="preserve"
-     style="font-size:1596.35290527px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="17737.004"
-     y="14803.428"
-     id="text37519"
-     inkscape:export-filename="C:\0\Opendous_FT2232H_JTAG\Opendous_FT2232H_JTAG-Assembly.png"
-     inkscape:export-xdpi="400"
-     inkscape:export-ydpi="400"><tspan
-       sodipodi:role="line"
-       id="tspan37521"
-       x="17737.004"
-       y="14803.428">10kΩ</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:184.19456482;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect37523"
