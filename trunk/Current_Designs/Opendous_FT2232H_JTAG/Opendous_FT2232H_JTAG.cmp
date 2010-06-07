@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 28/04/2010 15:30:40
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 07/06/2010 06:42:38
 
 BeginCmp
 TimeStamp = /4B220FD4;
@@ -197,14 +197,14 @@ IdModule  = SOT-143B;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B82B0F3;
+TimeStamp = /4BD90BD3;
 Reference = IC5;
 ValeurCmp = 74LCX125;
 IdModule  = SO14N;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B82B0F7;
+TimeStamp = /4BD90BB3;
 Reference = IC6;
 ValeurCmp = 74LCX125;
 IdModule  = SO14N;
@@ -365,7 +365,7 @@ IdModule  = Pin_Array_7x2_SMT_TH_2mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B2214BE;
+TimeStamp = /4BD90C5A;
 Reference = U5;
 ValeurCmp = ARM;
 IdModule  = Pin_Array_Port_10x2_Polarized;
@@ -1020,6 +1020,34 @@ TimeStamp = /4BD88B46;
 Reference = V102;
 ValeurCmp = VIA;
 IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0CCCF4;
+Reference = V103;
+ValeurCmp = VIA;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0CCCF5;
+Reference = V104;
+ValeurCmp = VIA;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0CCCF2;
+Reference = V105;
+ValeurCmp = VIA;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0CCCF3;
+Reference = V106;
+ValeurCmp = VIA;
+IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
