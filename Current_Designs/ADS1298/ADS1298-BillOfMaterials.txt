@@ -76,6 +76,9 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
 
 
 Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
+	- ADuM5401C or ADuM5401W are compatible replacements for the ADUM6401CRWZ but
+	  these ICs do not support voltage regulation (Vin=Viso) and Vsel may need to
+	  be adjusted appropriately
 	- LT1964ES5-SD#TRMPBF is a compatible replacement for the TPS72301DBV/TPS72325DBV
 	  Although R20, R21 values may need to be adjusted for a more accurate output
 	- ADP150AUJZ-3.0-R7 is a drop-in replacement for the TPS79230DBV
