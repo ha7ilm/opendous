@@ -1,14 +1,12 @@
 #summary FT2232H JTAG Debugger for OpenOCD
 #labels Phase-Deploy
 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Opendous_FT2232H_JTAG/Opendous_FT2232H_JTAG_Picture_Small.jpg
+
 This is a DIY project with design files available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG SVN].  The design is 8mil/8mil trace/space with minimum 20mil vias for cheap PCB prototyping.
 
 It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cables are: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8218-ND 0.05" 5x2 for Cortex Debug], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H3AAH-2006G-ND 0.1" 10x2 for ARM], and [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1476-ND 2mm 7x4 for Xilinx].
 
-This current revision has not yet been prototyped.  You can play with this design yourself as it is an [OpenHardware] board and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG all design materials] are [http://www.creativecommons.org/licenses/by/3.0/ Creative Commons Attribution Licensed] and made with the Open Source [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD EDA Suite].
+You can play with this design yourself as it is an [OpenHardware] board and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG all design materials] are [http://www.creativecommons.org/licenses/by/3.0/ Creative Commons Attribution Licensed] and made with the Open Source [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD EDA Suite].
 
 See the [http://www.intra2net.com/en/developer/libftdi/ libftdi] Project for Open Source software to control this board.
-
-== FT2232H JTAG ==
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Opendous_FT2232H_JTAG/Opendous_FT2232H_JTAG.jpg
