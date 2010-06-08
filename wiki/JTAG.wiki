@@ -9,4 +9,15 @@ It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cabl
 
 You can play with this design yourself as it is an [OpenHardware] board and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG all design materials] are [http://www.creativecommons.org/licenses/by/3.0/ Creative Commons Attribution Licensed] and made with the Open Source [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD EDA Suite].
 
+The Opendous FT2232H JTAG uses Channel B for JTAG as only Channel A supports fast synchronous 245 mode which will be used for other functionality later on.  If using the [http://openocd.git.sourceforge.net/git/gitweb.cgi?p=openocd/openocd;a=snapshot;h=56e74908d17d740db0a376f354c21e6608e8af8d;sf=tgz 0.4.0 release]
+you will need to alter line `2016` of [http://openocd.git.sourceforge.net/git/gitweb.cgi?p=openocd/openocd;a=blob_plain;f=src/jtag/drivers/ft2232.c;hb=56e74908d17d740db0a376f354c21e6608e8af8d ft2232.c] from
+{{{
+         if (ftdi_set_interface(&ftdic, INTERFACE_A) < 0)
+}}}
+to
+{{{
+         if (ftdi_set_interface(&ftdic, INTERFACE_B) < 0)
+}}}
+in order to use Channel B for JTAG.  The next release of [http://openocd.berlios.de/web/ OpenOCD] will feature the ability to change this setting more easily.
+
 See the [http://www.intra2net.com/en/developer/libftdi/ libftdi] Project for Open Source software to control this board.
