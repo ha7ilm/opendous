@@ -1,0 +1,30 @@
+Bill of Materials for the Isolation Interface of the ADS1298 Project
+
+
+Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description
+
+~~~ Isolator Components ~~~
+ 1, ADUM6401CRWZ                    ,12.83 - IC2 - IC ISOLATOR 4CH DCDC CONV 16SOIC
+ 1, ADUM4401CRWZ                    ,10.51 - IC3 - IC DIGITAL ISOLATOR 4CH 16-SOIC
+ 1, MBR120VLSFT1G                   , 0.45 - D1 - DIODE SCHOTTKY 20V 1A SOD123FL
+ 4, GRM188R71C104KA01D              , 0.01 - C3 C4 C8 C9 - CAP CER .1UF 16V 10% X7R 0603
+ 4, C2012X5R0J106K                  , 0.23 - C2 C6 C7 C10 - CAP CER 10UF 6.3V X5R 10% 0805
+ 1, C3216X5R0J226K/1.6              , 0.66 - C5 - CAP CER 22UF 6.3V X5R 10% 1206
+ 1, F950J686MSAAQ2                  , 1.32 - C1 - CAP TANT 6.3V 68UF SMD 900-mOhm-ESR 1206
+ 8, CG0603MLC-12LE                  , 0.23 - CR1 CR2 CR3 CR4 CR5 CR6 CR7 CR8 - SUPPRESSOR ESD 12VDC 0603 SMD
+ 1, 1206L035YR                      , 0.51 - F1 - THERMISTOR PTC 6V .35A RESETTABLE
+ 4, BRC2016T220K                    , 0.31 - L1 L2 L4 L5 - INDUCTOR 22UH 310MA 24MHz 1.3-Ohm-DCR 0806 SMD
+ 2, BK1608TS102-T                   , 0.04 - L16 L17 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 1, CSR 1/2 1 1% I 1OHM             , 0.54 - R1 - RES 1OHM 1/2W 1% 1206 SMD
+ 2, RMCF 1/10 0 R 0805              , 0.03 - R8 R16 - RES 0.0 OHM 1/8W 0805 SMD
+ 8, MCR10EZPF49R9                   , 0.04 - R4 R5 R6 R7 R11 R13 R14 R15 - RES 49.9 OHM 1/8W 1% 0805 SMD
+ 1, 950510-5002-AR                  , 1.39 - P2 - CONN SOCKET 10POS RT/A 2MM T/H
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=32.71
+
+
+Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
+	- ADuM5401C or ADuM5401W are compatible replacements for the ADUM6401CRWZ but
+	  these ICs do not support voltage regulation (Vin=Viso) and Vsel may need to
+	  be adjusted appropriately
+	- For insulation use Polyimide tape which has a 7.5kV breakdown voltage such
+	  as 3M 1205 or 1206 Electrical Tape

@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  16/05/2010 19:08:04
+PCBNEW-LibDoc----V1  25/06/2010 22:46:36
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
@@ -350,6 +350,11 @@ $MODULE OSCILLATOR_DIP_HALF_FULL_SIZE
 Li OSCILLATOR_DIP_HALF_FULL_SIZE
 Cd 14 pins DIL package, round pads
 Kw DIL
+$EndMODULE
+#
+$MODULE MSOP10-0.5mmPitch_Opendous
+Li MSOP10-0.5mmPitch_Opendous
+Cd MSOP10 10pins pitch 0.5mm
 $EndMODULE
 #
 $EndLIBDOC
