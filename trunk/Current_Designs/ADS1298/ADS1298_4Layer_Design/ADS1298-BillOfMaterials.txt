@@ -1,0 +1,100 @@
+Bill of Materials for the ADS1298 Project
+
+
+Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description
+
+
+~~~ ADS1298 Components ~~~
+ 1, ADS1298CZXGT                    ,47.41 - IC1 - IC ADC 24BIT SPI 32KSPS 64NFBGA
+ 2, C2012X5R0J106K                  , 0.23 - C11 C21 - CAP CER 10UF 6.3V X5R 10% 0805
+ 2, GRM188R71C104KA01D              , 0.01 - C49 C50 - CAP CER .1UF 16V 10% X7R 0603
+ 5, GRM188R61A105KA61D              , 0.04 - C18 C19 C20 C27 C28 - CAP CER 1.0UF 10V 10% X5R 0603
+ 1, C3216X5R0J226K/1.6              , 0.66 - C17 - CAP CER 22UF 6.3V X5R 10% 1206
+ 4, BK1608TS102-T                   , 0.04 - L3 L10 L18 L19 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 3, RMCF 1/10 47K 1% R 0805         , 0.04 - R2 R3 R9 R10 R12 - RES 47K OHM 1/8W 1% 0805 SMD
+ 3, 1566230-1                       , 1.23 - TP1 TP2 TP3 - CONN UMCC RCPT 50-Ohm SMD STYLE A
+ 1, SFH31-NPPB-D25-SP-BK            , 2.93 - P1 - CONN HDR FMAL 50PS 1.27MM SMD AU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=55.83
+
+
+~~~ Power Supply Components ~~~
+ 1, TPS79230DBV                     , 1.52 - U2 - IC 3.0V 100MA LDO REG SOT-23-5
+ 1, TPS79201DBV                     , 1.52 - U3 - IC ADJ 100MA LDO REG SOT-23-6
+ 1, TPS60403DBV                     , 1.31 - U4 - IC UNREG CHRG PUMP V INV SOT23-5
+ 1, TPS72325DBV                     , 3.60 - U5 - IC LDO REG NEG 200MA 2.5V SOT23
+ 1, ADM811RARTZ                     , 1.38 - IC4 - IC SUPERVISER RST 2.63V SOT-143
+ 1, C1608C0G1H100D                  , 0.02 - C41 - CAP CER 10PF 50V C0G 0603
+ 1, C1608C0G1H220J                  , 0.03 - C23 - CAP CER 22PF 50V C0G 5% 0603
+ 7, GRM188R71H103KA01D              , 0.02 - C15 C16 C26 C29 C35 C39 C40 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
+ 3, GRM188R71C104KA01D              , 0.01 - C31 C33 C48 - CAP CER .1UF 16V 10% X7R 0603
+ 2, GRM188R61A105KA61D              , 0.04 - C30 C51 C52 - CAP CER 1.0UF 10V 10% X5R 0603
+ 6, C0805C225K8RACTU                , 0.17 - C12 C13 C22 C24 C36 C37 - CAP CERAMIC 2.2UF 10V 10% X7R 0805
+ 5, C2012X5R0J106K                  , 0.23 - C14 C25 C32 C34 C38 - CAP CER 10UF 6.3V X5R 10% 0805
+ 4, BK1608TS102-T                   , 0.04 - L8 L9 L11 L15 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 1, BK2125HS102-T                   , 0.06 - L12 - FERRITE BEAD 1000 OHM 300mA 400-mOhm-DCR 0805
+ 2, LBR2012T2R2M                    , 0.12 - L13 L14 - INDUCTOR 2.2UH 260MA 20% 80MHz 169.0-mOhm-DCR SMD 0805
+ 1, RMCF 1/10 30.1K 1% R 0805       , 0.04 - R18 - RES 30.1K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 33.2K 1% R 0805       , 0.04 - R17 - RES 33.2K OHM 1/8W 1% 0805 SMD
+ 1, MCR10EZHF4322                   , 0.04 - R21 - RES 43.2K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 47K 1% R 0805         , 0.04 - R20 - RES 47K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 100K 1% R 0805        , 0.04 - R19 - RES 100K OHM 1/8W 1% 0805 SMD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=12.48
+
+
+~~~ Isolator Components ~~~
+ 1, ADUM6401CRWZ                    ,12.83 - IC2 - IC ISOLATOR 4CH DCDC CONV 16SOIC
+ 1, ADUM4401CRWZ                    ,10.51 - IC3 - IC DIGITAL ISOLATOR 4CH 16-SOIC
+ 1, MBR120VLSFT1G                   , 0.45 - D1 - DIODE SCHOTTKY 20V 1A SOD123FL
+ 4, GRM188R71C104KA01D              , 0.01 - C3 C4 C8 C9 - CAP CER .1UF 16V 10% X7R 0603
+ 4, C2012X5R0J106K                  , 0.23 - C2 C6 C7 C10 - CAP CER 10UF 6.3V X5R 10% 0805
+ 1, C3216X5R0J226K/1.6              , 0.66 - C5 - CAP CER 22UF 6.3V X5R 10% 1206
+ 1, F950J686MSAAQ2                  , 1.32 - C1 - CAP TANT 6.3V 68UF SMD 900-mOhm-ESR 1206
+ 8, CG0603MLC-12LE                  , 0.23 - CR1 CR2 CR3 CR4 CR5 CR6 CR7 CR8 - SUPPRESSOR ESD 12VDC 0603 SMD
+ 1, 1206L035YR                      , 0.51 - F1 - THERMISTOR PTC 6V .35A RESETTABLE
+ 4, BRC2016T220K                    , 0.31 - L1 L2 L4 L5 - INDUCTOR 22UH 310MA 24MHz 1.3-Ohm-DCR 0806 SMD
+ 2, BK1608TS102-T                   , 0.04 - L16 L17 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 1, CSR 1/2 1 1% I 1OHM             , 0.54 - R1 - RES 1OHM 1/2W 1% 1206 SMD
+ 2, RMCF 1/10 0 R 0805              , 0.03 - R8 R16 - RES 0.0 OHM 1/8W 0805 SMD
+ 8, MCR10EZPF49R9                   , 0.04 - R4 R5 R6 R7 R11 R13 R14 R15 - RES 49.9 OHM 1/8W 1% 0805 SMD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=31.32
+
+
+~~~ Voltage Reference Components ~~~
+ 1, REF5025AIDGKT                   , 4.50 - IC5 - IC PREC VREF 2.5V 0.1% LN/LD 8-MSOP
+ 1, OPA211AIDGKT                    ,10.07 - IC6 - IC OPAMP GP R-R 80MHZ SGL 8MSOP
+ 1, ERB1885C2E100JDX5D              , 0.33 - C41 - CAP CER 10PF 250V 5% C0G 0603
+ 1, GRM188R71C104KA01D              , 0.01 - C42 C44 - CAP CER .1UF 16V 10% X7R 0603
+ 1, C2012X5R0J106K                  , 0.23 - C43 - CAP CER 10UF 6.3V X5R 10% 0805
+ 2, C3216X5R0J226K/1.6              , 0.66 - C45 C46 - CAP CER 22UF 6.3V X5R 10% 1206
+ 1, F950J107MAAAQ2                  , 1.32 - C47 - CAP TANT 6.3V 100UF 500-mOhm-ESR SMD 3217-14(EIA) 1206
+ 1, RMCF 1/16 0 R 0603              , 0.02 - R25 - RES 0.0 OHM 1/10W 0603 SMD
+ 2, ERA-6AEB101V                    , 0.20 - R23 R24 - RES 100 OHM 1/8W .1% 0805 SMD
+ 1, ERA-6AEB104V                    , 0.20 - R22 - RES 100K OHM 1/8W .1% 0805 SMD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=18.40
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=118.03
+
+
+Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
+	- ADuM5401C or ADuM5401W are compatible replacements for the ADUM6401CRWZ but
+	  these ICs do not support voltage regulation (Vin=Viso) and Vsel may need to
+	  be adjusted appropriately
+	- LT1964ES5-SD#TRMPBF is a compatible replacement for the TPS72301DBV/TPS72325DBV
+	  Although R20, R21 values may need to be adjusted for a more accurate output
+	- ADP150AUJZ-3.0-R7 is a drop-in replacement for the TPS79230DBV
+	- LM828M5/NOPB is a compatible replacement for the TPS60403DBV
+	- ADS_Sensor header P1 can also be SFML-125-T1-S-D, SFML-125-01-S-D, or SFML-125-02-S-D
+	  and will mate with SBH31-NBPB-D25-ST-BK or SBH31-NBPB-D25-SM-BK
+	- Only one of each of the pairs (R2, R3), (R10, R12) of 47k pull-up resistors
+	  should be populated depending on required functionality.
+	- For the voltage reference, if using the 0.05% version of the REF5025 use 0.05%
+	  resistors such as the following:
+	    1, RG2012N-104-W-T1, R22 - RES 100K OHM 1/8W .05% 0805 SMD
+	    2, RG2012N-121-W-T1, R23 R24 - RES 120 OHM 1/8W .05% 0805 SMD
+	- If you cut the board to separate the isolation and ADS1298 portions you can
+	  use the following components to link the two pieces together:
+	  1, 951110-7622-AR, 0.52 - ADS1298 Half - CONN HEADER 10POS 2MM R/A T/H
+	  1, 950510-5002-AR, 1.39 - Isolator Half - CONN SOCKET 10POS RT/A 2MM T/H
+	- The UMCC 1566230-1 connectors can be replaced by 73412-0110 U.FL connectors
+	- For insulation use Polyimide tape which has a 7.5kV breakdown voltage such
+	  as 3M 1205 or 1206 Electrical Tape
