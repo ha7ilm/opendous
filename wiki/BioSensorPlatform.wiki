@@ -1,6 +1,6 @@
 #summary ADS1298 Based Biopotential Sensor Platform
 
-*Status*: _Under Development_.  Prototype is being tested.
+*Status*: _Under Development_.  Second revision is being designed.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/ADS1298/ADS1298_2Layer_Test/ADS1298_2Layer_Test-Picture_Small.jpg
 
