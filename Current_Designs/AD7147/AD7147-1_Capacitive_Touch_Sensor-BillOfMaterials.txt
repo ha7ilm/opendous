@@ -1,0 +1,14 @@
+              0,  3,               ,R5, R6, R7
+            0u1,  2,               ,C4, C5
+            10u,  1,               ,C2
+            1u0,  1,               ,C3
+            2k2,  2,               ,R8, R9
+            47k,  4,               ,R1, R2, R3, R4
+       AD7147-1,  1,               ,IC1
+         CONN_1,  3,               ,MASK1, MASK2, MASK3
+             FB,  1,               ,L3
+            I2C,  1,               ,U1
+          PORTD,  1,               ,P2
+        Sensors,  1,               ,P1
+            u01,  2,               ,C1, C6
+
