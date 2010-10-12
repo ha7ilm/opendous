@@ -1,0 +1,10 @@
+Not yet complete.
+Open the design in KiCAD and CVpcb will list footprint values for all components.
+
+
+Notes:	- The LPC3130 can be replaced by the LPC3131
+	- 1.2V Regulators: ZLDO11171.2   or  LD1117S12
+	- 3V can be any adjustable 1117 regulator but check datasheet
+	- LED can be any 0805 LED
+	- for capacitors, only the 4.7uF input caps should be X5R +/-20% or better
+	- for resistors, only those marked 1% should be 1%
