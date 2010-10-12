@@ -1,0 +1,15 @@
+              0,  2,               ,R2, R4
+            0u1,  3,               ,C3, C4, C7
+            10u,  2,               ,C2, C6
+            15k,  2,               ,R1, R3
+            3uH,  2,               ,L1, L3
+            47u,  2,               ,C1, C5
+         CONN_1,  2,               ,P1, P2
+            ESD,  8,               ,CR1, CR2, CR3, CR4, CR5, CR6, CR7, CR8
+       ISOLATED,  1,               ,U2
+       ISOLATOR,  1,               ,IC1
+   NON-ISOLATED,  1,               ,U1
+       PolyFUSE,  1,               ,F1
+
+
+

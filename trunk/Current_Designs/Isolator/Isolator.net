@@ -1,0 +1,420 @@
+# EESchema Netlist Version 1.1 created  28/06/2010 15:58:08
+(
+ ( /4C28FE3F $noname  C7 0u1 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4C28FD18 $noname  C2 10u {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GNDIN )
+ )
+ ( /4C28F5B0 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /4C28F5AC $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /4BE1ED14 $noname  V46 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BE1ED13 $noname  V48 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BE1ED11 $noname  V47 VIA {Lib=VIA}
+  (    1 /Viso )
+ )
+ ( /4BE1ED10 $noname  V40 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BE1ED0F $noname  V41 VIA {Lib=VIA}
+  (    1 /Viso )
+ )
+ ( /4BE1ED0D $noname  V39 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BE1ECFE $noname  V29 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1ECFD $noname  V30 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1ECFC $noname  V35 VIA {Lib=VIA}
+  (    1 GNDIN )
+ )
+ ( /4BE1ECFB $noname  V31 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1ECFA $noname  V38 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BE1ECF9 $noname  V37 VIA {Lib=VIA}
+  (    1 GNDIN )
+ )
+ ( /4BE1ECF8 $noname  V36 VIA {Lib=VIA}
+  (    1 GNDIN )
+ )
+ ( /4BE1ECF7 $noname  V43 VIA {Lib=VIA}
+  (    1 GNDIN )
+ )
+ ( /4BE1ECF6 $noname  V44 VIA {Lib=VIA}
+  (    1 VDD )
+ )
+ ( /4BE1ECF5 $noname  V45 VIA {Lib=VIA}
+  (    1 VDD )
+ )
+ ( /4BE1ECF4 $noname  V34 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1ECF3 $noname  V42 VIA {Lib=VIA}
+  (    1 GNDIN )
+ )
+ ( /4BE1ECF2 $noname  V33 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1ECF1 $noname  V32 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1E782 $noname  CR7 ESD {Lib=ESD}
+  (    1 GND )
+  (    2 /IC )
+ )
+ ( /4BE1E781 $noname  CR5 ESD {Lib=ESD}
+  (    1 GND )
+  (    2 /IA )
+ )
+ ( /4BE1E780 $noname  CR6 ESD {Lib=ESD}
+  (    1 GND )
+  (    2 /IB )
+ )
+ ( /4BE1E77F $noname  CR8 ESD {Lib=ESD}
+  (    1 GND )
+  (    2 /ID )
+ )
+ ( /4BE1CD06 $noname  V15 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD05 $noname  V16 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD04 $noname  V18 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD03 $noname  V17 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD02 $noname  V21 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD01 $noname  V20 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CD00 $noname  V19 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFF $noname  V26 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFE $noname  V27 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFD $noname  V28 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFC $noname  V24 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFB $noname  V25 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCFA $noname  V23 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCF9 $noname  V22 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4BE1CCF8 $noname  V8 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF7 $noname  V9 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF6 $noname  V11 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF5 $noname  V10 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF4 $noname  V14 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF3 $noname  V13 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCF2 $noname  V12 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCEA $noname  V5 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCE9 $noname  V6 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCE7 $noname  V7 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCE5 $noname  V3 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCE4 $noname  V4 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCE1 $noname  V2 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1CCDB $noname  V1 VIA {Lib=VIA}
+  (    1 GNDFenceISO )
+ )
+ ( /4BE1C81E $noname  R3 15k {Lib=R_MINI}
+  (    1 N-000014 )
+  (    2 /Viso )
+ )
+ ( /4BE1C81D $noname  R4 0 {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000014 )
+ )
+ ( /4BE1C81B $noname  R2 0 {Lib=R_MINI}
+  (    1 GNDIN )
+  (    2 N-000019 )
+ )
+ ( /4BE1C5A8 $noname  U2 ISOLATED {Lib=CONN_6PIN}
+  (    1 /ID )
+  (    2 /IC )
+  (    3 /IB )
+  (    4 /IA )
+  (    5 GND )
+  (    6 VCC )
+ )
+ ( /4BE1C58E $noname  U1 NON-ISOLATED {Lib=CONN_6PIN}
+  (    1 /D )
+  (    2 /C )
+  (    3 /B )
+  (    4 /A )
+  (    5 GNDIN )
+  (    6 VIN )
+ )
+ ( /4BC593B7 $noname  CR1 ESD {Lib=ESD}
+  (    1 GNDIN )
+  (    2 /A )
+ )
+ ( /4BC593B6 $noname  CR3 ESD {Lib=ESD}
+  (    1 GNDIN )
+  (    2 /C )
+ )
+ ( /4BC593AB $noname  CR4 ESD {Lib=ESD}
+  (    1 GNDIN )
+  (    2 /D )
+ )
+ ( /4BC593A6 $noname  CR2 ESD {Lib=ESD}
+  (    1 GNDIN )
+  (    2 /B )
+ )
+ ( /4BC5798F $noname  C5 47u {Lib=CP_TANTALUM_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BB878B4 $noname  R1 15k {Lib=R_MINI}
+  (    1 N-000019 )
+  (    2 VDD )
+ )
+ ( /4BB86A29 $noname  IC1 ISOLATOR {Lib=ADUMX401}
+  (    1 VDD )
+  (    2 GNDIN )
+  (    3 /A )
+  (    4 /B )
+  (    5 /C )
+  (    6 /D )
+  (    7 N-000019 )
+  (    8 GNDIN )
+  (    9 GND )
+  (   10 N-000014 )
+  (   11 /ID )
+  (   12 /IC )
+  (   13 /IB )
+  (   14 /IA )
+  (   15 GND )
+  (   16 /Viso )
+ )
+ ( /4BB868AA $noname  L3 3uH {Lib=L_MINI}
+  (    1 VCC )
+  (    2 /Viso )
+ )
+ ( /4BB8689E $noname  C1 47u {Lib=CP_TANTALUM_MINI}
+  (    1 /FuseNet )
+  (    2 GNDIN )
+ )
+ ( /4BB8689D $noname  L1 3uH {Lib=L_MINI}
+  (    1 VDD )
+  (    2 /FuseNet )
+ )
+ ( /4BB866C6 $noname  C4 0u1 {Lib=C_MINI}
+  (    1 /Viso )
+  (    2 GND )
+ )
+ ( /4BB866C5 $noname  C6 10u {Lib=C_MINI}
+  (    1 /Viso )
+  (    2 GND )
+ )
+ ( /4BB8662F $noname  C3 0u1 {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GNDIN )
+ )
+ ( /4BB6D771 $noname  F1 PolyFUSE {Lib=FUSE-MINI}
+  (    1 VIN )
+  (    2 /FuseNet )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GNDFenceIN" "GNDFenceIN"
+ V27 1
+ V28 1
+ V24 1
+ V25 1
+ V23 1
+ V22 1
+ V34 1
+ V33 1
+ V32 1
+ V26 1
+ V19 1
+ V20 1
+ V21 1
+ V17 1
+ V18 1
+ V16 1
+ V15 1
+Net 2 "GNDFenceISO" "GNDFenceISO"
+ V30 1
+ V31 1
+ V13 1
+ V14 1
+ V10 1
+ V11 1
+ V9 1
+ V8 1
+ V5 1
+ V6 1
+ V7 1
+ V3 1
+ V4 1
+ V2 1
+ V1 1
+ V12 1
+ V29 1
+Net 3 "/IA" "IA"
+ U2 4
+ CR5 2
+ IC1 14
+Net 4 "/IC" "IC"
+ CR7 2
+ U2 2
+ IC1 12
+Net 5 "VDD" "VDD"
+ C2 1
+ L1 1
+ C3 1
+ IC1 1
+ R1 2
+ V44 1
+ V45 1
+Net 6 "VIN" "VIN"
+ F1 1
+ U1 6
+Net 7 "VCC" "VCC"
+ C5 1
+ L3 1
+ C7 1
+ U2 6
+Net 8 "/Viso" "Viso"
+ IC1 16
+ V47 1
+ V41 1
+ L3 2
+ C4 1
+ C6 1
+ R3 2
+Net 9 "/FuseNet" "FuseNet"
+ F1 2
+ C1 1
+ L1 2
+Net 10 "GND" "GND"
+ C7 2
+ R4 1
+ U2 5
+ C4 2
+ C6 2
+ IC1 9
+ IC1 15
+ CR7 1
+ CR5 1
+ CR6 1
+ CR8 1
+ V46 1
+ V48 1
+ V40 1
+ V39 1
+ V38 1
+ C5 2
+Net 11 "/B" "B"
+ U1 3
+ CR2 2
+ IC1 4
+Net 12 "/D" "D"
+ U1 1
+ CR4 2
+ IC1 6
+Net 13 "GNDIN" "GNDIN"
+ V37 1
+ V36 1
+ CR2 1
+ IC1 8
+ V43 1
+ V35 1
+ CR1 1
+ CR3 1
+ CR4 1
+ V42 1
+ R2 1
+ C2 2
+ IC1 2
+ U1 5
+ C1 2
+ C3 2
+Net 14 "" ""
+ R3 1
+ R4 2
+ P2 1
+ IC1 10
+Net 15 "/ID" "ID"
+ U2 1
+ CR8 2
+ IC1 11
+Net 16 "/IB" "IB"
+ CR6 2
+ IC1 13
+ U2 3
+Net 17 "/C" "C"
+ IC1 5
+ U1 2
+ CR3 2
+Net 18 "/A" "A"
+ IC1 3
+ U1 4
+ CR1 2
+Net 19 "" ""
+ R2 2
+ P1 1
+ IC1 7
+ R1 1
+}
+#End
