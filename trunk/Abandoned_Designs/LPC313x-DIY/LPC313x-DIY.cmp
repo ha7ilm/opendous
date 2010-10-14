@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = 12/10/2009 12:21:07 PM
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 13/10/2010 22:37:36
 
 BeginCmp
 TimeStamp = /49F49153/49F49972;
@@ -262,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /49F49582/49FE2DAD;
 Reference = IC21;
-ValeurCmp = PRTR5V0U2X;
+ValeurCmp = PRTR;
 IdModule  = SOT-143B;
 EndCmp
 
@@ -1417,6 +1417,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4A0869EC/4B212DFD;
 Reference = V940;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CB66CD6;
+Reference = V941;
 ValeurCmp = VIA;
 IdModule  = 1Pin_20mil_VIA;
 EndCmp

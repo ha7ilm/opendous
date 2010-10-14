@@ -1,17 +1,47 @@
-EESchema Schematic File Version 2  date 2/6/2010 1:53:44 AM
-LIBS:opendous,power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,transistors,.\LPC313x-DIY.cache
+EESchema Schematic File Version 2  date 13/10/2010 22:37:46
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LPC313x-DIY-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 6
 Title "LPC313x"
-Date "10 dec 2009"
+Date "14 oct 2010"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.opendous.org"
+Comment4 "www.opendous.org/LPC313x"
 $EndDescr
 $Comp
 L CRYSTAL_MINI X1
