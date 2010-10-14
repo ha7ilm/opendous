@@ -1,0 +1,231 @@
+# EESchema Netlist Version 1.1 created  13/10/2010 23:18:24
+(
+ ( /4CB67420 $noname  U21 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4CB6741E $noname  U23 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4CB6741C $noname  U22 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4CB6741A $noname  U24 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4CB673B7 $noname  R99 0 {Lib=R_MINI}
+  (    1 GND )
+  (    2 GNDPWR )
+ )
+ ( /49F07DD4 $noname  U20 VIA {Lib=VIA}
+  (    1 N-000010 )
+ )
+ ( /49F07DD2 $noname  U19 VIA {Lib=VIA}
+  (    1 N-000010 )
+ )
+ ( /49F07582 $noname  U18 VIA {Lib=VIA}
+  (    1 N-000008 )
+ )
+ ( /49F070B6 $noname  U16 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070B4 $noname  U14 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070B2 $noname  U12 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070B0 $noname  U10 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070AE $noname  U8 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070AC $noname  U6 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070AA $noname  U4 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070A8 $noname  U2 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070A6 $noname  U15 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070A4 $noname  U13 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070A2 $noname  U11 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F070A0 $noname  U9 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F0709E $noname  U7 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F0709C $noname  U5 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F07098 $noname  U3 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49F0708D $noname  U1 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /49EFCB69 $noname  D1 ON {Lib=D_LED}
+  (    1 GNDPWR )
+  (    2 N-000002 )
+ )
+ ( /49EFCB55 $noname  R6 1.5k {Lib=R_MINI}
+  (    1 N-000002 )
+  (    2 N-000008 )
+ )
+ ( /49EFC8F4 $noname  P2 OUT {Lib=CONN_2}
+  (    1 GNDPWR )
+  (    2 N-000008 )
+ )
+ ( /49EFC8E6 $noname  P1 OUT {Lib=CONN_2}
+  (    1 GNDPWR )
+  (    2 N-000008 )
+ )
+ ( /49EFC766 $noname  R31 2M {Lib=TRIMPOT}
+  (    1 N-000006 )
+  (    2 N-000007 )
+  (    3 N-000007 )
+ )
+ ( /49EFC51C $noname  C3 100uF {Lib=CP_TANTALUM_MINI}
+  (    1 N-000008 )
+  (    2 GNDPWR )
+ )
+ ( /49EFC11D $noname  R5 1M {Lib=R_MINI}
+  (    1 N-000004 )
+  (    2 N-000008 )
+ )
+ ( /49EFC0EB $noname  C2 2.2uF {Lib=C_MINI}
+  (    1 N-000008 )
+  (    2 GNDPWR )
+ )
+ ( /49EFC019 $noname  BT1 AAA_BATTERY {Lib=BATTERY}
+  (    1 N-000010 )
+  (    2 GNDPWR )
+ )
+ ( /49EFBFD2 $noname  C1 10uF {Lib=C_MINI}
+  (    1 N-000010 )
+  (    2 GNDPWR )
+ )
+ ( /49EFBFA5 $noname  L1 6.0uH {Lib=L_MINI}
+  (    1 N-000009 )
+  (    2 N-000010 )
+ )
+ ( /49EFBF73 $noname  R2 500k {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 N-000005 )
+ )
+ ( /49EFBF72 $noname  R1 400k {Lib=R_MINI}
+  (    1 N-000005 )
+  (    2 N-000010 )
+ )
+ ( /49EFBF29 $noname  R4 200k {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /49EFBECF $noname  IC1 TPS6102X {Lib=TPS6102X}
+  (    1 N-000010 )
+  (    2 N-000008 )
+  (    3 N-000007 )
+  (    4 N-000004 )
+  (    5 GND )
+  (    6 N-000010 )
+  (    7 N-000005 )
+  (    8 GNDPWR )
+  (    9 N-000009 )
+  (   10 GNDPWR )
+  (   11 GNDPWR )
+ )
+ ( /49EFBD6E $noname  R3 400k {Lib=R_MINI}
+  (    1 N-000006 )
+  (    2 N-000008 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GNDPWR" "GNDPWR"
+ C2 2
+ C3 2
+ P1 1
+ P2 1
+ IC1 11
+ IC1 10
+ IC1 8
+ U24 1
+ U22 1
+ U23 1
+ U21 1
+ BT1 2
+ C1 2
+ D1 1
+ U1 1
+ U3 1
+ U5 1
+ U7 1
+ U9 1
+ U11 1
+ U13 1
+ U15 1
+ U2 1
+ U4 1
+ U6 1
+ U8 1
+ U10 1
+ U12 1
+ U14 1
+ U16 1
+ R99 2
+ R2 1
+Net 2 "" ""
+ R6 1
+ D1 2
+Net 3 "GND" "GND"
+ IC1 5
+ R99 1
+ R4 1
+Net 4 "" ""
+ IC1 4
+ R5 1
+Net 5 "" ""
+ R1 1
+ R2 2
+ IC1 7
+Net 6 "" ""
+ R3 1
+ R31 1
+Net 7 "" ""
+ R31 3
+ R31 2
+ IC1 3
+ R4 2
+Net 8 "" ""
+ IC1 2
+ R3 2
+ P1 2
+ P2 2
+ C3 1
+ R5 2
+ C2 1
+ R6 2
+ U18 1
+Net 9 "" ""
+ IC1 9
+ L1 1
+Net 10 "" ""
+ BT1 1
+ C1 1
+ R1 2
+ IC1 6
+ IC1 1
+ L1 2
+ U19 1
+ U20 1
+}
+#End
