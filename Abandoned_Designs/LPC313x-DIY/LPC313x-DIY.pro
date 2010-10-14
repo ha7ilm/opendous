@@ -1,5 +1,5 @@
-update=12/9/2009 6:05:37 PM
-last_client=pcbnew
+update=13/10/2010 22:37:32
+last_client=cvpcb
 [general]
 version=1
 RootSch=LPC313x-DIY.sch
@@ -40,15 +40,20 @@ TxtLar=80
 MSegLar=80
 WpenSer=10
 [pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=opendous
 LibDir=
-LibName1=opendous
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=valves
-LibName10=led
-LibName11=dip_sockets
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

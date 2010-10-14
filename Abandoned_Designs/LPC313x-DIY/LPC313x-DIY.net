@@ -1,198 +1,198 @@
-# EESchema Netlist Version 1.1 created  2/6/2010 1:53:42 AM
+# EESchema Netlist Version 1.1 created  13/10/2010 22:37:44
 (
  ( /49F49153/4B1E113E $noname  X1 12MHz {Lib=CRYSTAL_MINI}
   (    1 /LPC313x/XTALo )
   (    2 /LPC313x/XTALi )
  )
  ( /49F49153/4B088E85 $noname  IC1 LPC313X {Lib=LPC313X}
-  (   C6 VDDI )
-  (  C12 VDDI )
-  (   H3 VDDI )
-  (   L7 VDDI )
-  (  L12 VDDI )
-  (   A9 VDDI )
-  (   C9 VDDI )
-  (   B2 VSUP3 )
-  (   E5 VSUP3 )
-  (   G5 VSUP3 )
-  (   H5 VSUP3 )
-  (   F5 VSUP3 )
-  (   L4 VSUP3 )
-  (   M5 VSUP3 )
-  (   M7 VSUP3 )
-  (   M9 VSUP3 )
-  (  C13 VSUP3 )
-  (   D5 VSUP3 )
-  (   D7 VSUP3 )
-  (   E8 VSUP3 )
-  (  G12 VSUP3 )
-  (  L10 VSUP3 )
-  (  K11 VSUP3 )
-  (  D11 VDDI )
+  (  D10 ? )
   (  E10 VDDI )
-  (  A13 VSUP3 )
-  (   L1 VDDA12 )
-  (   M2 VDDA3 )
-  (   P1 VDDA3_USB )
-  (  K13 ? )
-  (  H11 ? )
-  (  K14 ? )
-  (  K12 ? )
-  (  J11 ? )
-  (  J13 ? )
-  (  J14 /LPC313x/GPIO14 )
-  (  J12 ? )
+  (  F10 ? )
+  (  G10 ? )
   (  H10 ? )
-  (  H13 ? )
-  (  C11 ? )
-  (  B11 ? )
-  (  L14 /LPC313x/GPIO2 )
   (  J10 /LPC313x/GPIO1 )
   (  K10 /LPC313x/GPIO0 )
-  (   D4 ? )
-  (   B4 /LPC313x/mNAND_RYBN2-MCI_DAT6 )
-  (   E7 ? )
-  (   E6 ? )
-  (   K2 ? )
-  (   K1 ? )
-  (   J3 ? )
-  (   J1 ? )
-  (   N3 ? )
-  (   P3 ? )
-  (   P4 ? )
-  (   K5 ? )
-  (   N4 ? )
-  (   K7 ? )
-  (   L5 ? )
-  (   N5 /LPC313x/mLCD_DB_8-EBI_A8 )
-  (   P5 /LPC313x/mLCD_DB_7-EBI_A7 )
-  (   K6 ? )
-  (   P7 /LPC313x/mLCD_DB_5-EBI_A5 )
-  (   N7 /LPC313x/mLCD_DB_4-EBI_A4 )
-  (   P6 /LPC313x/mLCD_DB_3-EBI_A3 )
-  (   N6 ? )
-  (   P9 ? )
-  (   N8 ? )
-  (   N9 ? )
-  (   P8 ? )
-  (   L8 ? )
-  (   K8 ? )
-  (   A2 ? )
-  (   B3 ? )
-  (   J2 ? )
-  (   H1 ? )
-  (   H2 ? )
-  (   G1 ? )
-  (   F3 ? )
-  (   E3 /LPC313x/EBI_D_14 )
-  (   D3 ? )
-  (   G3 /LPC313x/EBI_D_12 )
-  (   C2 /LPC313x/EBI_D_11 )
-  (   A1 /LPC313x/EBI_D_10 )
-  (   A3 /LPC313x/EBI_D_9 )
-  (   B1 /LPC313x/EBI_D_8 )
-  (   C1 /LPC313x/EBI_D_7 )
-  (   D2 ? )
-  (   D1 /LPC313x/EBI_D_5 )
-  (   E2 ? )
-  (   E1 /LPC313x/EBI_D_3 )
-  (   F1 /LPC313x/EBI_D_2 )
-  (   F2 /LPC313x/EBI_D_1 )
-  (   G2 /LPC313x/EBI_D_0 )
-  (   A4 /LPC313x/MCI_DAT3 )
-  (   C5 ? )
-  (   B5 ? )
-  (   A5 ? )
-  (   A6 ? )
-  (   B6 ? )
-  (  E13 /LPC313x/I2C_SCL1 )
-  (  E12 /LPC313x/I2C_SDA1 )
-  (  D10 ? )
-  (  C10 ? )
-  (  N12 /LPC313x/UART_TXD )
-  (  P12 /LPC313x/UART_RXD )
-  (  P14 /LPC313x/mUART_RTS_N )
-  (  N13 /LPC313x/mUART_CTS_N )
-  (   B8 ? )
-  (   B7 /LPC313x/SPI_MOSI )
-  (   C8 /LPC313x/SPI_MISO )
-  (   A8 /LPC313x/SPI_SCK )
-  (   A7 /LPC313x/SPI_CS_OUT0 )
-  (  G10 ? )
-  (  E14 ? )
-  (  F12 ? )
-  (  N14 ? )
-  (  M11 /LPC313x/mI2STX_WS0 )
-  (  M12 ? )
-  (  M13 /LPC313x/mI2STX_DATA0 )
-  (  P11 ? )
-  (  N10 ? )
+  (  L10 VSUP4 )
   (  M10 ? )
-  (  F13 /LPC313x/I2SRX_WS1 )
-  (  F14 /LPC313x/I2SRX_BCK1 )
-  (  G14 /LPC313x/I2SRX_DATA1 )
-  (  C14 /LPC313x/ADC10B_GPA3 )
-  (  B13 ? )
+  (  N10 ? )
+  (  P10 /LPC313x/TMS )
+  (  A11 GND )
+  (  B11 ? )
+  (  C11 ? )
+  (  D11 VDDI )
+  (  E11 /LPC313x/ARM_TDO )
+  (  F11 ? )
+  (  G11 GND )
+  (  H11 ? )
+  (  J11 ? )
+  (  K11 VSUP4 )
+  (  L11 GND )
+  (   A8 /LPC313x/SPI_SCK )
+  (   B8 ? )
+  (   C8 /LPC313x/SPI_MISO )
+  (   D8 GND )
+  (   E8 VSUP4 )
+  (   K8 ? )
+  (   L8 ? )
+  (   M8 GND )
+  (   N8 ? )
+  (   P8 ? )
+  (   A9 VDDI )
+  (   B9 ? )
+  (   C9 VDDI )
+  (   D9 GND )
+  (   E9 GND )
+  (   K9 /LPC313x/TDI )
+  (   L9 GND )
+  (   M9 VSUP4 )
+  (   N9 ? )
+  (   P9 ? )
+  (  A10 /LPC313x/XTALi )
+  (  B10 /LPC313x/XTALo )
+  (  C10 ? )
+  (  G13 ? )
+  (  H13 ? )
+  (  J13 ? )
+  (  K13 ? )
+  (  L13 GND )
+  (  M13 /LPC313x/mI2STX_DATA0 )
+  (  N13 /LPC313x/mUART_CTS_N )
+  (  P13 /LPC313x/TRST_N )
   (  A14 /LPC313x/ADC10B_GPA1 )
   (  B14 /LPC313x/ADC10B_GPA0 )
+  (  C14 /LPC313x/ADC10B_GPA3 )
+  (  D14 ? )
+  (  E14 ? )
+  (  F14 /LPC313x/I2SRX_BCK1 )
+  (  G14 /LPC313x/I2SRX_DATA1 )
+  (  H14 /LPC313x/RESET_SUP3 )
+  (  J14 /LPC313x/GPIO14 )
+  (  K14 ? )
+  (  L14 /LPC313x/GPIO2 )
+  (  M14 /LPC313x/TCK )
+  (  N14 ? )
+  (  P14 /LPC313x/mUART_RTS_N )
+  (  M11 /LPC313x/mI2STX_WS0 )
+  (  N11 /LPC313x/JTAGSEL )
+  (  P11 ? )
+  (  A12 GND )
+  (  B12 GND )
+  (  C12 VDDI )
+  (  D12 GND )
+  (  E12 /LPC313x/I2C_SDA1 )
+  (  F12 ? )
+  (  G12 VSUP4 )
+  (  H12 /LPC313x/CLK_256FS_O )
+  (  J12 ? )
+  (  K12 ? )
+  (  L12 VDDI )
+  (  M12 ? )
+  (  N12 /LPC313x/UART_TXD )
+  (  P12 /LPC313x/UART_RXD )
+  (  A13 VSUP4 )
+  (  B13 ? )
+  (  C13 VSUP4 )
+  (  D13 ? )
+  (  E13 /LPC313x/I2C_SCL1 )
+  (  F13 /LPC313x/I2SRX_WS1 )
+  (   K2 ? )
+  (   L2 N-000125 )
+  (   M2 VDDA3 )
   (   N2 /LPC313x/USB_DM )
   (   P2 /LPC313x/USB_DP )
-  (   J5 /LPC313x/USB_RREF )
-  (   M1 ? )
-  (   L2 N-000007 )
-  (  D14 ? )
-  (  D13 ? )
-  (  F11 ? )
-  (  E11 /LPC313x/ARM_TDO )
-  (  F10 ? )
-  (  P10 /LPC313x/TMS )
-  (  M14 /LPC313x/TCK )
-  (  P13 /LPC313x/TRST_N )
-  (   K9 /LPC313x/TDI )
-  (  N11 /LPC313x/JTAGSEL )
-  (   B9 ? )
-  (  H14 /LPC313x/RESET_SUP3 )
-  (  G13 ? )
-  (  H12 /LPC313x/CLK_256FS_O )
-  (   J4 ? )
-  (  B10 /LPC313x/XTALo )
-  (  A10 /LPC313x/XTALi )
-  (  A11 GND )
-  (   C7 GND )
-  (  D12 GND )
-  (   G4 GND )
-  (   L6 GND )
-  (  L11 GND )
+  (   A3 /LPC313x/EBI_D_9 )
+  (   B3 ? )
   (   C3 GND )
+  (   D3 ? )
+  (   E3 /LPC313x/EBI_D_14 )
+  (   F3 ? )
+  (   G3 /LPC313x/EBI_D_12 )
+  (   H3 VDDI )
+  (   J3 ? )
+  (   K3 GND )
+  (   L3 GND )
+  (   M3 GND )
+  (   N3 ? )
+  (   P3 ? )
+  (   A4 /LPC313x/MCI_DAT3 )
+  (   B4 /LPC313x/mNAND_RYBN2-MCI_DAT6 )
   (   C4 GND )
+  (   A1 /LPC313x/EBI_D_10 )
+  (   B1 /LPC313x/EBI_D_8 )
+  (   C1 /LPC313x/EBI_D_7 )
+  (   D1 /LPC313x/EBI_D_5 )
+  (   E1 /LPC313x/EBI_D_3 )
+  (   F1 /LPC313x/EBI_D_2 )
+  (   G1 ? )
+  (   H1 ? )
+  (   J1 ? )
+  (   K1 ? )
+  (   L1 VDDA12 )
+  (   M1 ? )
+  (   N1 GND )
+  (   P1 VDDA3_USB )
+  (   A2 ? )
+  (   B2 VSUP4 )
+  (   C2 /LPC313x/EBI_D_11 )
+  (   D2 ? )
+  (   E2 ? )
+  (   F2 /LPC313x/EBI_D_1 )
+  (   G2 /LPC313x/EBI_D_0 )
+  (   H2 ? )
+  (   J2 ? )
+  (   N5 /LPC313x/mLCD_DB_8-EBI_A8 )
+  (   P5 /LPC313x/mLCD_DB_7-EBI_A7 )
+  (   A6 ? )
+  (   B6 ? )
+  (   C6 VDDI )
+  (   D6 GND )
+  (   E6 ? )
+  (   K6 ? )
+  (   L6 GND )
+  (   M6 GND )
+  (   N6 ? )
+  (   P6 /LPC313x/mLCD_DB_3-EBI_A3 )
+  (   A7 /LPC313x/SPI_CS_OUT0 )
+  (   B7 /LPC313x/SPI_MOSI )
+  (   C7 GND )
+  (   D7 VSUP4 )
+  (   E7 ? )
+  (   K7 ? )
+  (   L7 VDDI )
+  (   M7 VSUP4 )
+  (   N7 /LPC313x/mLCD_DB_4-EBI_A4 )
+  (   P7 /LPC313x/mLCD_DB_5-EBI_A5 )
+  (   D4 ? )
   (   E4 GND )
   (   F4 GND )
+  (   G4 GND )
   (   H4 GND )
-  (   K3 GND )
-  (   M3 GND )
-  (   M4 GND )
-  (   M6 GND )
-  (   M8 GND )
-  (  B12 GND )
-  (   D6 GND )
-  (   D8 GND )
-  (   D9 GND )
-  (  G11 GND )
-  (   L9 GND )
-  (  L13 GND )
-  (  A12 GND )
-  (   E9 GND )
-  (   L3 GND )
-  (   N1 GND )
+  (   J4 ? )
   (   K4 GND )
+  (   L4 VSUP4 )
+  (   M4 GND )
+  (   N4 ? )
+  (   P4 ? )
+  (   A5 ? )
+  (   B5 ? )
+  (   C5 ? )
+  (   D5 VSUP4 )
+  (   E5 VSUP4 )
+  (   F5 VSUP4 )
+  (   G5 VSUP4 )
+  (   H5 VSUP4 )
+  (   J5 /LPC313x/USB_RREF )
+  (   K5 ? )
+  (   L5 ? )
+  (   M5 VSUP4 )
  )
  ( /49F49153/4A6AA978 $noname  L1 FB {Lib=L_MINI}
-  (    1 N-000003 )
+  (    1 N-000131 )
   (    2 VBUS )
  )
  ( /49F49153/49F49B3C $noname  R1 1k {Lib=R_MINI}
-  (    1 N-000007 )
-  (    2 N-000003 )
+  (    1 N-000125 )
+  (    2 N-000131 )
  )
  ( /49F49153/49F49975 $noname  C2 22p {Lib=C_MINI}
   (    1 /LPC313x/XTALi )
@@ -204,7 +204,7 @@
  )
  ( /49F49538/49FFF5C4 $noname  R34 10k {Lib=R_MINI}
   (    1 /LPC313x/SPI_CS_OUT0 )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49538/49FFF537 $noname  IC17 AT45DBxx1D-SU {Lib=AT45DBXX1}
   (    1 /LPC313x/SPI_MOSI )
@@ -212,7 +212,7 @@
   (    3 /LPC313x/RESET_SUP3 )
   (    4 /LPC313x/SPI_CS_OUT0 )
   (    5 /LPC313x/RESET_SUP3 )
-  (    6 VSUP3 )
+  (    6 VSUP4 )
   (    7 GND )
   (    8 /LPC313x/SPI_MISO )
  )
@@ -225,23 +225,23 @@
   (    2 GND )
  )
  ( /49F49522/4B1EEBD1 $noname  R91 120 {Lib=R_MINI}
-  (    1 N-000138 )
-  (    2 VSUP3 )
+  (    1 N-000136 )
+  (    2 VSUP4 )
  )
  ( /49F49522/4B1EEBAE $noname  C90 4u7 {Lib=C_MINI}
-  (    1 N-000138 )
+  (    1 N-000136 )
   (    2 GND )
  )
  ( /49F49522/4B1EEBA5 $noname  R92 168 {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000138 )
+  (    2 N-000136 )
  )
  ( /49F49522/4B1EE9FA $noname  R86 120 {Lib=R_MINI}
   (    1 GND )
   (    2 VDD12 )
  )
  ( /49F49522/4B1DBD6F $noname  C89 22u {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4B1DBD6E $noname  C88 4u7 {Lib=C_MINI}
@@ -249,10 +249,10 @@
   (    2 GND )
  )
  ( /49F49522/4B1DBD6D $noname  U12 1117-Adj {Lib=1117}
-  (    1 N-000138 )
-  (    2 VSUP3 )
+  (    1 N-000136 )
+  (    2 VSUP4 )
   (    3 VSYS )
-  (    4 VSUP3 )
+  (    4 VSUP4 )
  )
  ( /49F49522/4B16D81C $noname  C87 10u {Lib=C_MINI}
   (    1 VDD12 )
@@ -269,7 +269,7 @@
   (    4 VDD12 )
  )
  ( /49F49522/4B13BD72 $noname  C85 1uF {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4A5A3EE9 $noname  C79 4u7 {Lib=C_MINI}
@@ -282,22 +282,22 @@
  )
  ( /49F49522/4A5A3785 $noname  L9 FB {Lib=L_MINI}
   (    1 VDDA3_USB )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49522/4A5A093B $noname  C48 1u {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4A5A08F6 $noname  C50 0u1 {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4A063E0C $noname  C70 10n {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4A063CC4 $noname  C68 1uF {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/4A0638D3 $noname  C66 1uF {Lib=C_MINI}
@@ -311,8 +311,8 @@
  ( /49F49522/49F7CEA6 $noname  IC4 811 {Lib=ADM811}
   (    1 GND )
   (    2 /Power/nRST )
-  (    3 N-000139 )
-  (    4 VSUP3 )
+  (    3 N-000140 )
+  (    4 VSUP4 )
  )
  ( /49F49522/49F5B5EF $noname  R8 100k {Lib=R_MINI}
   (    1 GND )
@@ -325,23 +325,23 @@
  )
  ( /49F49522/49F5ACDE $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
   (    1 GND )
-  (    2 N-000139 )
+  (    2 N-000140 )
  )
  ( /49F49522/49F5ACBA $noname  R13 10k {Lib=R_MINI}
-  (    1 N-000139 )
-  (    2 VSUP3 )
+  (    1 N-000140 )
+  (    2 VSUP4 )
  )
  ( /49F49522/49F5ABB5 $noname  IC2 G07 {Lib=74LVC2G07}
   (    1 /Power/^JTAG_SRST )
   (    2 GND )
   (    3 /Power/nRST )
   (    4 /LPC313x/RESET_SUP3 )
-  (    5 VSUP3 )
+  (    5 VSUP4 )
   (    6 /LPC313x/RESET_SUP3 )
  )
  ( /49F49522/49F5A65B $noname  R2 10k {Lib=R_MINI}
   (    1 /LPC313x/RESET_SUP3 )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49522/49F4D755 $noname  L3 FB {Lib=L_MINI}
   (    1 VSYS )
@@ -349,7 +349,7 @@
  )
  ( /49F49522/49F4AA10 $noname  L7 FB {Lib=L_MINI}
   (    1 VDDA3 )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49522/49F4A9FE $noname  C39 3n9 {Lib=C_MINI}
   (    1 VDDA3 )
@@ -364,19 +364,19 @@
   (    2 VDDI )
  )
  ( /49F49522/49F4A881 $noname  C29 1uF {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/49F4A87F $noname  C19 10u {Lib=CP_TANTALUM_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/49F4A803 $noname  C35 10n {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/49F4A800 $noname  C28 10n {Lib=C_MINI}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
   (    2 GND )
  )
  ( /49F49522/49F4A7C0 $noname  C34 0u1 {Lib=C_MINI}
@@ -414,7 +414,7 @@
  ( /49F49582/4B206637 $noname  P10 EXP2 {Lib=CONN_12X2}
   (    1 VDD12 )
   (    2 VBUS )
-  (    3 VSUP3 )
+  (    3 VSUP4 )
   (    4 GND )
   (    5 /LPC313x/mLCD_DB_3-EBI_A3 )
   (    6 ? )
@@ -439,7 +439,7 @@
  )
  ( /49F49582/4B206633 $noname  P11 EXP1 {Lib=CONN_12X2}
   (    1 GND )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
   (    3 ? )
   (    4 /LPC313x/UART_TXD )
   (    5 /LPC313x/UART_RXD )
@@ -473,31 +473,31 @@
  ( /49F49582/4B08A001 $noname  Q1 NCH {Lib=MOSFET_N_OPENDOUS}
   (    1 /LPC313x/GPIO2 )
   (    2 GND )
-  (    3 N-000188 )
+  (    3 N-000192 )
  )
  ( /49F49582/4A6BA953 $noname  R81 10k {Lib=R_MINI}
   (    1 /LPC313x/TDI )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A6BA952 $noname  R80 10k {Lib=R_MINI}
   (    1 /LPC313x/TMS )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A6BA951 $noname  R82 10k {Lib=R_MINI}
   (    1 /LPC313x/TRST_N )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A6BA94F $noname  R78 10k {Lib=R_MINI}
-  (    1 N-000186 )
+  (    1 N-000194 )
   (    2 GND )
  )
  ( /49F49582/4A6BA94E $noname  R79 10k {Lib=R_MINI}
   (    1 /LPC313x/TCK )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A6BA94B $noname  R77 10k {Lib=R_MINI}
   (    1 /LPC313x/ARM_TDO )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A6AB403 $noname  L10 FB {Lib=L_MINI}
   (    1 GND )
@@ -505,33 +505,33 @@
  )
  ( /49F49582/4A64F6EA $noname  R76 4k7 {Lib=R_MINI}
   (    1 /LPC313x/JTAGSEL )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/4A5BB0EF $noname  R74 4k7 {Lib=R_MINI}
-  (    1 N-000192 )
+  (    1 N-000188 )
   (    2 /LPC313x/GPIO0 )
  )
  ( /49F49582/4A5BB0ED $noname  R75 4k7 {Lib=R_MINI}
-  (    1 N-000187 )
+  (    1 N-000186 )
   (    2 /LPC313x/GPIO1 )
  )
  ( /49F49582/4A5BB0CF $noname  R73 4k7 {Lib=R_MINI}
-  (    1 N-000191 )
+  (    1 N-000187 )
   (    2 /LPC313x/GPIO2 )
  )
  ( /49F49582/4A5BB068 $noname  JP0 JUMPER-3 {Lib=JUMPER-3}
-  (    1 VSUP3 )
-  (    2 N-000192 )
+  (    1 VSUP4 )
+  (    2 N-000188 )
   (    3 GND )
  )
  ( /49F49582/4A5BB064 $noname  JP2 JUMPER-3 {Lib=JUMPER-3}
   (    1 GND )
-  (    2 N-000191 )
-  (    3 VSUP3 )
+  (    2 N-000187 )
+  (    3 VSUP4 )
  )
  ( /49F49582/4A5BB05B $noname  JP1 JUMPER-3 {Lib=JUMPER-3}
-  (    1 VSUP3 )
-  (    2 N-000187 )
+  (    1 VSUP4 )
+  (    2 N-000186 )
   (    3 GND )
  )
  ( /49F49582/49F7CD20 $noname  R26 12k {Lib=R_MINI}
@@ -539,24 +539,24 @@
   (    2 /LPC313x/USB_RREF )
  )
  ( /49F49582/49FB5F38 $noname  R33 1k {Lib=R_MINI}
-  (    1 N-000190 )
-  (    2 VSUP3 )
+  (    1 N-000185 )
+  (    2 VSUP4 )
  )
  ( /49F49582/49FB5E87 $noname  D2 LED {Lib=D_LED}
-  (    1 N-000188 )
-  (    2 N-000190 )
+  (    1 N-000192 )
+  (    2 N-000185 )
  )
  ( /49F49582/49F7BB94 $noname  R27 10k {Lib=R_MINI}
   (    1 /Power/^JTAG_SRST )
-  (    2 VSUP3 )
+  (    2 VSUP4 )
  )
  ( /49F49582/49F7B8F4 $noname  R29 33 {Lib=R_MINI}
-  (    1 N-000189 )
-  (    2 VSUP3 )
+  (    1 N-000193 )
+  (    2 VSUP4 )
  )
  ( /49F49582/49F7B888 $noname  U4 JTAG {Lib=CONN_JTAG_ARM}
-  (    1 N-000189 )
-  (    2 VSUP3 )
+  (    1 N-000193 )
+  (    2 VSUP4 )
   (    3 /LPC313x/TRST_N )
   (    4 GND )
   (    5 /LPC313x/TDI )
@@ -565,7 +565,7 @@
   (    8 GND )
   (    9 /LPC313x/TCK )
   (   10 GND )
-  (   11 N-000186 )
+  (   11 N-000194 )
   (   12 GND )
   (   13 /LPC313x/ARM_TDO )
   (   14 GND )
@@ -589,6 +589,9 @@
  ( /49F49582/49F7CD63 $noname  R25 1M {Lib=R_MINI}
   (    1 GND )
   (    2 /LPC313x/USB_DM )
+ )
+ ( /4A0869EC/4CB66CD6 $noname  V941 VIA {Lib=VIA}
+  (    1 GND )
  )
  ( /4A0869EC/4B212DFD $noname  V940 VIA {Lib=VIA}
   (    1 GND )
@@ -630,16 +633,16 @@
   (    1 GND )
  )
  ( /4A0869EC/4B212695 $noname  V927 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4B212693 $noname  V926 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4B212400 $noname  V925 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4B212280 $noname  V920 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4B21227E $noname  V924 VIA {Lib=VIA}
   (    1 GND )
@@ -654,7 +657,7 @@
   (    1 GND )
  )
  ( /4A0869EC/4B212269 $noname  V919 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4B212260 $noname  V918 VIA {Lib=VIA}
   (    1 /LPC313x/SPI_CS_OUT0 )
@@ -816,16 +819,16 @@
   (    1 GND )
  )
  ( /4A0869EC/4A062A88 $noname  V448 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A062A86 $noname  V447 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A062A84 $noname  V446 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A062A82 $noname  V445 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A062A70 $noname  V451 VIA {Lib=VIA}
   (    1 GND )
@@ -837,16 +840,16 @@
   (    1 GND )
  )
  ( /4A0869EC/4A054D32 $noname  V417 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A054C9E $noname  V415 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A0548D1 $noname  V410 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A04FA00 $noname  V379 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A03E89F $noname  V225 VIA {Lib=VIA}
   (    1 GND )
@@ -870,10 +873,10 @@
   (    1 GND )
  )
  ( /4A0869EC/4A028C8D $noname  V123 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A0289EA $noname  V118 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A0289DD $noname  V117 VIA {Lib=VIA}
   (    1 VDDI )
@@ -885,7 +888,7 @@
   (    1 VDDI )
  )
  ( /4A0869EC/4A025FA8 $noname  V87 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A0158ED $noname  V59 VIA {Lib=VIA}
   (    1 VDDI )
@@ -897,19 +900,19 @@
   (    1 VDDI )
  )
  ( /4A0869EC/4A015436 $noname  V40 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A01542D $noname  V39 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A01542B $noname  V38 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A014B18 $noname  V35 VIA {Lib=VIA}
   (    1 VDDI )
  )
  ( /4A0869EC/4A013D89 $noname  V22 VIA {Lib=VIA}
-  (    1 VSUP3 )
+  (    1 VSUP4 )
  )
  ( /4A0869EC/4A03E60C $noname  V221 VIA {Lib=VIA}
   (    1 /LPC313x/RESET_SUP3 )
@@ -962,561 +965,562 @@
 )
 *
 { Pin List by Nets
-Net 1 "/LPC313x/XTALo" "XTALo"
- X1 1
- C1 1
- V459 1
- IC1 B10
-Net 2 "/LPC313x/XTALi" "XTALi"
- C2 1
- X1 2
- IC1 A10
-Net 3 "" ""
- L1 1
- R1 2
-Net 4 "VBUS" "VBUS"
- L3 2
- P10 2
- U2 1
- L1 2
- IC21 4
- V184 1
-Net 5 "VDDA12" "VDDA12"
- C78 1
- C38 1
- R17 1
- IC1 L1
-Net 6 "GND" "GND"
- P11 1
- V758 1
- V763 1
- V760 1
- V759 1
- V723 1
- V722 1
- V721 1
- V729 1
- V728 1
- V727 1
- V726 1
- V764 1
- IC1 A11
- IC1 C7
- IC1 D12
- IC1 G4
- IC1 L6
- IC1 L11
- IC1 C3
- IC1 C4
- IC1 E4
- IC1 F4
- IC1 H4
- IC1 K3
- IC1 M3
- IC1 M4
- IC1 M6
- IC1 M8
- IC1 B12
- IC1 D6
- IC1 D8
- IC1 D9
- IC1 G11
- IC1 L9
- IC1 L13
- IC1 A12
- IC1 E9
- IC1 L3
- IC1 N1
- IC1 K4
- V725 1
- V724 1
- V921 1
- V922 1
- V923 1
- V924 1
- V928 1
- V929 1
- V930 1
- V931 1
- V932 1
- V933 1
- V934 1
- V935 1
- V936 1
- V937 1
- V938 1
- V939 1
- V940 1
- R25 1
- R24 1
- U4 4
- U4 6
- U4 8
- U4 10
- U4 12
- U4 14
- U4 16
- U4 18
- U4 20
- R26 1
- JP1 3
- JP2 1
- JP0 3
- L10 1
- R78 2
- Q1 2
- U2 4
- P11 24
- P10 4
- C2 2
- C1 2
- V538 1
- V535 1
- V457 1
- V456 1
- V451 1
- V450 1
- V449 1
- IC17 7
- V225 1
- C17 2
- C21 2
- C26 2
- C33 2
- C40 2
- C78 2
- C34 2
- C48 2
- C28 2
- C35 2
- C19 2
- C29 2
- V151 1
- C38 2
- C32 2
- C39 2
- C79 2
- V150 1
- C92 2
- V149 1
- C85 2
- U11 1
- IC2 2
- C86 2
- C87 2
- SW1 1
- C88 2
- C89 2
- R8 1
- IC4 1
- C91 2
- C62 2
- C66 2
- C68 2
- C70 2
- C50 2
- C90 2
- R92 1
- R86 1
-Net 7 "" ""
- IC1 L2
- R1 1
-Net 8 "VDDI" "VDDI"
- C66 1
- C62 1
- C91 1
- C92 1
- V115 1
- V117 1
- R17 2
- V219 1
- C34 1
- L6 1
- C21 1
- V220 1
- V88 1
- C79 1
- V35 1
- V41 1
- V916 1
- V915 1
- V59 1
- V718 1
- C17 1
- IC1 E10
- IC1 D11
- IC1 C9
- IC1 A9
- IC1 L12
- IC1 L7
- IC1 H3
- V58 1
- IC1 C12
- IC1 C6
-Net 9 "VDDA3_USB" "VDDA3_USB"
- C40 1
- C26 1
- IC1 P1
- L9 1
-Net 10 "VDDA3" "VDDA3"
- IC1 M2
- C32 1
- C39 1
- L7 1
- C33 1
-Net 14 "/LPC313x/RESET_SUP3" "RESET_SUP3"
- IC17 5
- V423 1
- IC2 4
- R2 1
- IC17 3
- IC2 6
- V422 1
- V425 1
- IC1 H14
- P11 23
- V221 1
-Net 19 "/LPC313x/GPIO14" "GPIO14"
- P11 11
- IC1 J14
-Net 24 "/LPC313x/GPIO2" "GPIO2"
- V262 1
- V383 1
- IC1 L14
- Q1 1
- R73 2
-Net 25 "/LPC313x/GPIO1" "GPIO1"
- R75 2
- IC1 J10
- V412 1
- V75 1
-Net 26 "/LPC313x/GPIO0" "GPIO0"
- V74 1
- R74 2
- V413 1
- IC1 K10
-Net 28 "/LPC313x/mNAND_RYBN2-MCI_DAT6" "mNAND_RYBN2-MCI_DAT6"
- IC1 B4
- P10 23
-Net 42 "/LPC313x/mLCD_DB_8-EBI_A8" "mLCD_DB_8-EBI_A8"
- V740 1
- P10 10
- IC1 N5
-Net 43 "/LPC313x/mLCD_DB_7-EBI_A7" "mLCD_DB_7-EBI_A7"
- P10 9
- V739 1
- IC1 P5
-Net 45 "/LPC313x/mLCD_DB_5-EBI_A5" "mLCD_DB_5-EBI_A5"
- P10 7
- V737 1
- IC1 P7
-Net 46 "/LPC313x/mLCD_DB_4-EBI_A4" "mLCD_DB_4-EBI_A4"
- IC1 N7
- P10 8
- V858 1
-Net 47 "/LPC313x/mLCD_DB_3-EBI_A3" "mLCD_DB_3-EBI_A3"
- P10 5
+Net 1 "/LPC313x/mLCD_DB_3-EBI_A3" "mLCD_DB_3-EBI_A3"
  V735 1
  IC1 P6
-Net 62 "/LPC313x/EBI_D_14" "EBI_D_14"
+ P10 5
+Net 16 "/LPC313x/EBI_D_14" "EBI_D_14"
  P10 21
  V779 1
  IC1 E3
-Net 64 "/LPC313x/EBI_D_12" "EBI_D_12"
- V91 1
+Net 18 "/LPC313x/EBI_D_12" "EBI_D_12"
  P10 22
  IC1 G3
-Net 65 "/LPC313x/EBI_D_11" "EBI_D_11"
- P10 19
- IC1 C2
+ V91 1
+Net 19 "/LPC313x/EBI_D_11" "EBI_D_11"
  V782 1
-Net 66 "/LPC313x/EBI_D_10" "EBI_D_10"
- IC1 A1
+ IC1 C2
+ P10 19
+Net 20 "/LPC313x/EBI_D_10" "EBI_D_10"
  P10 20
-Net 67 "/LPC313x/EBI_D_9" "EBI_D_9"
+ IC1 A1
+Net 21 "/LPC313x/EBI_D_9" "EBI_D_9"
  IC1 A3
  P10 17
-Net 68 "/LPC313x/EBI_D_8" "EBI_D_8"
- IC1 B1
- P10 18
-Net 69 "/LPC313x/EBI_D_7" "EBI_D_7"
- P10 15
- IC1 C1
-Net 71 "/LPC313x/EBI_D_5" "EBI_D_5"
- P10 16
- IC1 D1
-Net 73 "/LPC313x/EBI_D_3" "EBI_D_3"
- IC1 E1
- P10 13
-Net 74 "/LPC313x/EBI_D_2" "EBI_D_2"
- IC1 F1
- P10 14
-Net 75 "/LPC313x/EBI_D_1" "EBI_D_1"
- IC1 F2
- P10 11
-Net 76 "/LPC313x/EBI_D_0" "EBI_D_0"
- P10 12
- IC1 G2
-Net 77 "/LPC313x/MCI_DAT3" "MCI_DAT3"
- P10 24
- IC1 A4
-Net 83 "/LPC313x/I2C_SCL1" "I2C_SCL1"
- IC1 E13
- P11 15
-Net 84 "/LPC313x/I2C_SDA1" "I2C_SDA1"
- P11 16
- IC1 E12
-Net 87 "/LPC313x/UART_TXD" "UART_TXD"
- IC1 N12
- P11 4
-Net 88 "/LPC313x/UART_RXD" "UART_RXD"
- IC1 P12
- P11 5
-Net 89 "/LPC313x/mUART_RTS_N" "mUART_RTS_N"
- P11 6
+Net 22 "/LPC313x/GPIO0" "GPIO0"
+ V413 1
+ V74 1
+ IC1 K10
+ R74 2
+Net 24 "/LPC313x/mNAND_RYBN2-MCI_DAT6" "mNAND_RYBN2-MCI_DAT6"
+ P10 23
+ IC1 B4
+Net 38 "/LPC313x/mLCD_DB_8-EBI_A8" "mLCD_DB_8-EBI_A8"
+ P10 10
+ IC1 N5
+ V740 1
+Net 39 "/LPC313x/mLCD_DB_7-EBI_A7" "mLCD_DB_7-EBI_A7"
+ V739 1
+ P10 9
+ IC1 P5
+Net 41 "/LPC313x/mLCD_DB_5-EBI_A5" "mLCD_DB_5-EBI_A5"
+ V737 1
+ IC1 P7
+ P10 7
+Net 42 "/LPC313x/mLCD_DB_4-EBI_A4" "mLCD_DB_4-EBI_A4"
+ IC1 N7
+ V858 1
+ P10 8
+Net 43 "/LPC313x/mUART_RTS_N" "mUART_RTS_N"
  IC1 P14
-Net 90 "/LPC313x/mUART_CTS_N" "mUART_CTS_N"
+ P11 6
+Net 44 "/LPC313x/mUART_CTS_N" "mUART_CTS_N"
  P11 7
  IC1 N13
-Net 92 "/LPC313x/SPI_MOSI" "SPI_MOSI"
- IC1 B7
- V434 1
+Net 46 "/LPC313x/SPI_MOSI" "SPI_MOSI"
  P11 21
  IC17 1
-Net 93 "/LPC313x/SPI_MISO" "SPI_MISO"
- P11 20
- V428 1
- IC17 8
- V316 1
+ V434 1
+ IC1 B7
+Net 47 "/LPC313x/SPI_MISO" "SPI_MISO"
  IC1 C8
-Net 94 "/LPC313x/SPI_SCK" "SPI_SCK"
+ IC17 8
+ P11 20
+ V316 1
+ V428 1
+Net 48 "/LPC313x/SPI_SCK" "SPI_SCK"
+ P11 22
  IC17 2
  IC1 A8
- P11 22
-Net 95 "/LPC313x/SPI_CS_OUT0" "SPI_CS_OUT0"
+Net 49 "/LPC313x/SPI_CS_OUT0" "SPI_CS_OUT0"
+ V918 1
  V917 1
  IC17 4
  IC1 A7
  R34 1
- V918 1
-Net 100 "/LPC313x/mI2STX_WS0" "mI2STX_WS0"
- V72 1
+Net 54 "/LPC313x/mI2STX_WS0" "mI2STX_WS0"
  IC1 M11
+ V72 1
  V671 1
- V805 1
  P11 8
-Net 102 "/LPC313x/mI2STX_DATA0" "mI2STX_DATA0"
+ V805 1
+Net 56 "/LPC313x/mI2STX_DATA0" "mI2STX_DATA0"
  IC1 M13
  P11 9
-Net 106 "/LPC313x/I2SRX_WS1" "I2SRX_WS1"
+Net 60 "/LPC313x/I2SRX_WS1" "I2SRX_WS1"
  P11 14
  IC1 F13
-Net 107 "/LPC313x/I2SRX_BCK1" "I2SRX_BCK1"
- IC1 F14
+Net 61 "/LPC313x/I2SRX_BCK1" "I2SRX_BCK1"
  P11 13
-Net 108 "/LPC313x/I2SRX_DATA1" "I2SRX_DATA1"
+ IC1 F14
+Net 62 "/LPC313x/I2SRX_DATA1" "I2SRX_DATA1"
  P11 12
  IC1 G14
-Net 109 "/LPC313x/ADC10B_GPA3" "ADC10B_GPA3"
- IC1 C14
+Net 63 "/LPC313x/ADC10B_GPA3" "ADC10B_GPA3"
  P11 17
-Net 111 "/LPC313x/ADC10B_GPA1" "ADC10B_GPA1"
+ IC1 C14
+Net 64 "/LPC313x/EBI_D_8" "EBI_D_8"
+ P10 18
+ IC1 B1
+Net 65 "/LPC313x/EBI_D_7" "EBI_D_7"
+ P10 15
+ IC1 C1
+Net 67 "/LPC313x/EBI_D_5" "EBI_D_5"
+ IC1 D1
+ P10 16
+Net 69 "/LPC313x/EBI_D_3" "EBI_D_3"
+ P10 13
+ IC1 E1
+Net 70 "/LPC313x/EBI_D_2" "EBI_D_2"
+ IC1 F1
+ P10 14
+Net 71 "/LPC313x/EBI_D_1" "EBI_D_1"
+ IC1 F2
+ P10 11
+Net 72 "/LPC313x/EBI_D_0" "EBI_D_0"
+ IC1 G2
+ P10 12
+Net 73 "/LPC313x/MCI_DAT3" "MCI_DAT3"
+ IC1 A4
+ P10 24
+Net 79 "/LPC313x/I2C_SCL1" "I2C_SCL1"
+ IC1 E13
+ P11 15
+Net 80 "/LPC313x/I2C_SDA1" "I2C_SDA1"
+ IC1 E12
+ P11 16
+Net 83 "/LPC313x/UART_TXD" "UART_TXD"
+ IC1 N12
+ P11 4
+Net 84 "/LPC313x/UART_RXD" "UART_RXD"
+ IC1 P12
+ P11 5
+Net 88 "/LPC313x/CLK_256FS_O" "CLK_256FS_O"
+ P11 10
+ V287 1
+ IC1 H12
+ V249 1
+Net 98 "/LPC313x/GPIO14" "GPIO14"
+ P11 11
+ IC1 J14
+Net 104 "/LPC313x/GPIO2" "GPIO2"
+ V383 1
+ R73 2
+ IC1 L14
+ Q1 1
+ V262 1
+Net 105 "/LPC313x/GPIO1" "GPIO1"
+ R75 2
+ IC1 J10
+ V75 1
+ V412 1
+Net 107 "/LPC313x/ADC10B_GPA1" "ADC10B_GPA1"
  P11 19
  IC1 A14
-Net 112 "/LPC313x/ADC10B_GPA0" "ADC10B_GPA0"
+Net 108 "/LPC313x/ADC10B_GPA0" "ADC10B_GPA0"
  IC1 B14
  P11 18
-Net 113 "/LPC313x/USB_DM" "USB_DM"
- IC21 3
- R25 2
+Net 109 "/LPC313x/USB_DM" "USB_DM"
  V813 1
  U2 2
+ IC21 3
+ R25 2
  IC1 N2
-Net 114 "/LPC313x/USB_DP" "USB_DP"
- V812 1
- IC21 2
- R24 2
+Net 110 "/LPC313x/USB_DP" "USB_DP"
  U2 3
  IC1 P2
-Net 115 "/LPC313x/USB_RREF" "USB_RREF"
- V294 1
- IC1 J5
+ IC21 2
+ R24 2
+ V812 1
+Net 111 "/LPC313x/USB_RREF" "USB_RREF"
  R26 2
  V55 1
-Net 121 "/LPC313x/TMS" "TMS"
- IC1 P10
+ V294 1
+ IC1 J5
+Net 113 "VBUS" "VBUS"
+ IC21 4
+ V184 1
+ L1 2
+ P10 2
+ L3 2
+ U2 1
+Net 118 "/LPC313x/TMS" "TMS"
  V286 1
  R80 1
+ IC1 P10
  U4 7
-Net 122 "/LPC313x/TCK" "TCK"
+Net 119 "/LPC313x/TCK" "TCK"
  R79 1
+ IC1 M14
  V285 1
  U4 9
- IC1 M14
-Net 123 "/LPC313x/TRST_N" "TRST_N"
- V284 1
+Net 120 "/LPC313x/TRST_N" "TRST_N"
  R82 1
+ U4 3
  D1 1
  IC1 P13
  V384 1
- U4 3
-Net 124 "/LPC313x/TDI" "TDI"
- V765 1
- V76 1
- V65 1
+ V284 1
+Net 121 "/LPC313x/TDI" "TDI"
  IC1 K9
+ V76 1
  U4 5
  R81 1
+ V765 1
  V283 1
-Net 125 "/LPC313x/JTAGSEL" "JTAGSEL"
- R76 1
+ V65 1
+Net 122 "/LPC313x/JTAGSEL" "JTAGSEL"
  IC1 N11
  D1 2
-Net 129 "/LPC313x/CLK_256FS_O" "CLK_256FS_O"
- V249 1
- V287 1
- IC1 H12
- P11 10
+ R76 1
+Net 123 "VDDI" "VDDI"
+ V115 1
+ V117 1
+ V58 1
+ V41 1
+ V35 1
+ V220 1
+ V219 1
+ V916 1
+ V915 1
+ IC1 C6
+ V718 1
+ V59 1
+ V88 1
+ IC1 H3
+ C21 1
+ C17 1
+ R17 2
+ C34 1
+ L6 1
+ C92 1
+ C91 1
+ IC1 A9
+ IC1 C9
+ IC1 E10
+ IC1 L7
+ C79 1
+ C66 1
+ C62 1
+ IC1 C12
+ IC1 D11
+ IC1 L12
+Net 124 "GND" "GND"
+ V149 1
+ V150 1
+ C79 2
+ C38 2
+ C1 2
+ C48 2
+ C50 2
+ C70 2
+ C68 2
+ V449 1
+ C2 2
+ C66 2
+ C88 2
+ C87 2
+ C86 2
+ U11 1
+ C85 2
+ IC1 L11
+ V151 1
+ IC1 D12
+ IC1 G11
+ IC1 N1
+ IC1 A11
+ IC1 L13
+ V225 1
+ IC1 A12
+ IC1 B12
+ C17 2
+ C32 2
+ V535 1
+ V457 1
+ V456 1
+ C89 2
+ IC1 C3
+ V450 1
+ C29 2
+ C19 2
+ C35 2
+ C28 2
+ C34 2
+ C92 2
+ C91 2
+ R86 1
+ R92 1
+ C90 2
+ V451 1
+ V923 1
+ V758 1
+ V763 1
+ V764 1
+ V724 1
+ V725 1
+ V726 1
+ V922 1
+ V921 1
+ IC1 D9
+ IC1 E9
+ IC1 L9
+ V924 1
+ V722 1
+ V723 1
+ V759 1
+ V760 1
+ V721 1
+ V729 1
+ V728 1
+ V727 1
+ IC1 D8
+ IC1 M8
+ V934 1
+ V939 1
+ V940 1
+ IC1 C7
+ V938 1
+ V937 1
+ V936 1
+ V935 1
+ V932 1
+ V933 1
+ V941 1
+ V929 1
+ V928 1
+ V930 1
+ V931 1
+ IC1 C4
+ C78 2
+ SW1 1
+ IC1 M3
+ IC1 D6
+ IC1 L3
+ U4 18
+ U4 16
+ U4 14
+ R78 2
+ Q1 2
+ IC1 H4
+ IC1 G4
+ R25 1
+ R24 1
+ IC1 F4
+ IC1 E4
+ U4 6
+ U4 4
+ R8 1
+ IC4 1
+ C62 2
+ C39 2
+ IC1 K3
+ IC1 M6
+ P11 1
+ IC1 L6
+ P11 24
+ U4 12
+ U4 20
+ U4 10
+ U4 8
+ IC2 2
+ C21 2
+ V538 1
+ IC1 M4
+ IC1 K4
+ IC17 7
+ R26 1
+ JP1 3
+ C26 2
+ JP2 1
+ JP0 3
+ C33 2
+ U2 4
+ P10 4
+ C40 2
+ L10 1
+Net 125 "" ""
+ R1 1
+ IC1 L2
+Net 126 "VDDA3" "VDDA3"
+ C39 1
+ C32 1
+ L7 1
+ IC1 M2
+ C33 1
+Net 127 "VDDA12" "VDDA12"
+ R17 1
+ C78 1
+ C38 1
+ IC1 L1
+Net 128 "VDDA3_USB" "VDDA3_USB"
+ L9 1
+ IC1 P1
+ C26 1
+ C40 1
+Net 129 "/LPC313x/XTALo" "XTALo"
+ C1 1
+ X1 1
+ IC1 B10
+ V459 1
+Net 130 "/LPC313x/XTALi" "XTALi"
+ IC1 A10
+ X1 2
+ C2 1
+Net 131 "" ""
+ L1 1
+ R1 2
+Net 132 "/LPC313x/RESET_SUP3" "RESET_SUP3"
+ IC2 4
+ IC1 H14
+ V221 1
+ V422 1
+ V423 1
+ V425 1
+ IC17 3
+ IC2 6
+ P11 23
+ IC17 5
+ R2 1
 Net 134 "VSYS" "VSYS"
  U11 3
- C86 1
- U12 3
  C88 1
+ U12 3
  L3 1
-Net 135 "VDD12" "VDD12"
- R86 2
- P10 1
- L6 2
- C87 1
- U11 4
- U11 2
-Net 136 "/Power/^JTAG_SRST" "^JTAG_SRST"
- V698 1
- IC2 1
- U4 15
- R27 1
-Net 137 "/Power/nRST" "nRST"
- IC4 2
- R8 2
- D1 3
- IC2 3
-Net 138 "" ""
+ C86 1
+Net 135 "VSUP4" "VSUP4"
+ R76 2
+ IC1 F5
+ IC1 G5
+ IC1 D7
+ IC1 L10
+ V920 1
+ R82 2
+ R80 2
+ R81 2
+ IC1 E8
+ R33 2
+ JP1 1
+ JP2 3
+ JP0 1
+ V927 1
+ V926 1
+ P10 3
+ IC1 H5
+ R77 2
+ IC1 M7
+ R79 2
+ IC1 M5
+ V447 1
+ V446 1
+ V448 1
+ V417 1
+ IC1 L4
+ IC1 B2
+ IC17 6
+ IC1 D5
+ IC1 E5
+ V919 1
+ IC1 M9
+ V925 1
+ V445 1
+ V410 1
+ V415 1
+ R34 2
+ IC1 A13
+ V87 1
+ IC1 C13
+ V118 1
+ R91 2
+ V40 1
+ V39 1
+ V38 1
+ U12 4
+ U12 2
+ IC4 4
+ IC2 5
+ C68 1
+ C70 1
+ C50 1
+ R2 2
+ C48 1
+ L9 2
+ V22 1
+ L7 2
+ P11 2
+ V379 1
+ R13 2
+ C89 1
+ V123 1
+ IC1 K11
+ C85 1
+ C28 1
+ R27 2
+ IC1 G12
+ C29 1
+ C19 1
+ C35 1
+ U4 2
+ R29 2
+Net 136 "" ""
  R92 2
  C90 1
  R91 1
  U12 1
-Net 139 "" ""
- IC4 3
- SW1 2
+Net 137 "VDD12" "VDD12"
+ U11 2
+ R86 2
+ P10 1
+ L6 2
+ U11 4
+ C87 1
+Net 138 "/Power/^JTAG_SRST" "^JTAG_SRST"
+ R27 1
+ U4 15
+ V698 1
+ IC2 1
+Net 139 "/Power/nRST" "nRST"
+ IC4 2
+ IC2 3
+ R8 2
+ D1 3
+Net 140 "" ""
  R13 1
-Net 140 "VSUP3" "VSUP3"
- IC1 G5
- IC1 H5
- IC1 F5
- IC1 L4
- IC1 M5
- IC1 M7
- IC1 M9
- IC1 C13
- IC1 D5
- IC1 D7
- IC1 E8
- IC1 G12
- IC1 L10
- IC1 K11
- IC1 A13
- V919 1
- IC1 E5
- C28 1
- C35 1
- C19 1
- V920 1
- V925 1
- V87 1
- R91 2
- V926 1
- V927 1
- C29 1
- L7 2
- U4 2
- R29 2
- R27 2
- R33 2
- IC1 B2
- JP1 1
- JP2 3
- JP0 1
- R2 2
- IC2 5
- R76 2
- R13 2
- R77 2
- R79 2
- R82 2
- R80 2
- R81 2
- P11 2
- P10 3
- IC4 4
- C68 1
- C70 1
- C50 1
- V40 1
- V39 1
- V22 1
- C89 1
- V38 1
- U12 4
- V118 1
- V123 1
- U12 2
- C85 1
- L9 2
- V448 1
- V447 1
- V446 1
- V445 1
- C48 1
- IC17 6
- R34 2
- V417 1
- V415 1
- V410 1
- V379 1
-Net 185 "GNDPWR" "GNDPWR"
- V692 1
+ SW1 2
+ IC4 3
+Net 184 "GNDPWR" "GNDPWR"
+ IC21 1
  V691 1
  L10 2
+ V692 1
  V701 1
  U2 5
- IC21 1
-Net 186 "" ""
- R78 1
- U4 11
-Net 187 "" ""
- JP1 2
- R75 1
-Net 188 "" ""
- Q1 3
- D2 1
-Net 189 "" ""
- R29 1
- U4 1
-Net 190 "" ""
+Net 185 "" ""
  R33 1
  D2 2
-Net 191 "" ""
- R73 1
+Net 186 "" ""
+ JP1 2
+ R75 1
+Net 187 "" ""
  JP2 2
-Net 192 "" ""
+ R73 1
+Net 188 "" ""
  JP0 2
  R74 1
-Net 194 "/LPC313x/ARM_TDO" "ARM_TDO"
- IC1 E11
- U4 13
+Net 189 "/LPC313x/ARM_TDO" "ARM_TDO"
  V288 1
+ IC1 E11
  R77 1
  V695 1
  V694 1
+ U4 13
+Net 192 "" ""
+ D2 1
+ Q1 3
+Net 193 "" ""
+ R29 1
+ U4 1
+Net 194 "" ""
+ U4 11
+ R78 1
 }
 #End
