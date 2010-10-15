@@ -5,3 +5,5 @@ This board has been prototyped but is not very useful.
 The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/micropendous/source/checkout SVN] in the `/Abandoned_Designs/LPC313x-DIY/` directory.
 
 A PCB of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44279 BatchPCB].
+
+http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIY/LPC313x-DIY_Picture.jpg
