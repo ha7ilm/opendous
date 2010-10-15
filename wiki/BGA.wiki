@@ -1,7 +1,7 @@
-#summary Boards for testing BGA reflow soldering
+#summary Board for testing BGA reflow soldering
 
-These boards are still under development.
+This board is still under development.
 
-The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/micropendous/source/checkout SVN] in the `/Current_Designs/BGA_Regulator/` and `/Current_Designs/BGA_Audio_Amplifier/` directories.
+The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/micropendous/source/checkout SVN] in the `/Current_Designs/BGA_Regulator/ `directory.
 
-PCBs of these designs can be purchased at cost through [http://www.batchpcb.com BatchPCB]:: [http://batchpcb.com/index.php/Products/44119 Audio Amplifier Board], [http://batchpcb.com/index.php/Products/44231 Regulators Board]
+PCB of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44231 BatchPCB].
