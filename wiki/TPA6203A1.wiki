@@ -1,0 +1,7 @@
+#summary Development Board for the TPA6203A1 BGA Audio Amplifier
+
+This board is still under development.
+
+The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/micropendous/source/checkout SVN] in the `/Current_Designs/TPA6203A1/ `directory.
+
+PCBs of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44231 BatchPCB].
