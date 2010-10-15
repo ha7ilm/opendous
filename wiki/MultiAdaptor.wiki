@@ -1,0 +1,7 @@
+#summary MultiAdaptor for SOIC SSOP TSSOP MSOP SOT23 SOT223 SOT143 SC70
+
+This board is still under development.
+
+The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/micropendous/source/checkout SVN] in the `/Current_Designs/MultiAdaptor/` directory.
+
+A PCB of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44123 BatchPCB].
