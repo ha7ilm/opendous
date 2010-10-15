@@ -6,4 +6,4 @@ The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files c
 
 A PCB of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44279 BatchPCB].
 
-http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIY/LPC313x-DIY_Picture.jpg
+http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIY/LPC313x-DIY_Picture_Small.jpg
