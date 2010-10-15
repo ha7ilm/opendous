@@ -3,7 +3,7 @@
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Opendous_FT2232H_JTAG/Opendous_FT2232H_JTAG_Picture_Small.jpg
 
-This is a DIY project with design files available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG SVN].  The design is 8mil/8mil trace/clearnace with minimum 20mil vias for cheap PCB fabrication.  PCBs of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44068 BatchPCB].  The smallest component is 0805 to ease prototyping.  A manufacturing tutorial will be posted at some point in the future.
+This is a DIY project with design files available in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Opendous_FT2232H_JTAG SVN].  The design is 8mil/8mil trace/clearnace with minimum 20mil vias for cheap PCB fabrication.  PCBs of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44280 BatchPCB].  The smallest component is 0805 to ease prototyping.  A manufacturing tutorial will be posted at some point in the future.
 
 It has Cortex Debug, ARM, and Xilinx JTAG headers.  The associated required cables are: [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8218-ND 0.05" 5x2 for Cortex Debug], [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H3AAH-2006G-ND 0.1" 10x2 for ARM], and [http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1476-ND 2mm 7x4 for Xilinx].
 
