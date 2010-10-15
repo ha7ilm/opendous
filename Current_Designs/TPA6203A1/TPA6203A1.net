@@ -1,0 +1,200 @@
+# EESchema Netlist Version 1.1 created  14/10/2010 23:33:06
+(
+ ( /4CB59174 $noname  V17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CB590AF $noname  V16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD522 $noname  V15 VIA {Lib=VIA}
+  (    1 /RCA_IN- )
+ )
+ ( /4BDAD51F $noname  P3 POWER {Lib=CONN_2}
+  (    1 GND )
+  (    2 VDD )
+ )
+ ( /4BDAD51D $noname  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD51C $noname  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD519 $noname  V12 VIA {Lib=VIA}
+  (    1 /RCA_IN- )
+ )
+ ( /4BDAD518 $noname  V11 VIA {Lib=VIA}
+  (    1 /VO- )
+ )
+ ( /4BDAD516 $noname  TP1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4BDAD513 $noname  V9 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD512 $noname  V10 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD50E $noname  P1 IN {Lib=CONN_2}
+  (    1 /RCA_IN- )
+  (    2 /RCA_IN+ )
+ )
+ ( /4BDAD50D $noname  P2 OUT {Lib=CONN_2}
+  (    1 /VO- )
+  (    2 /VO+ )
+ )
+ ( /4BDAD50C $noname  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD509 $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD508 $noname  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD505 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD503 $noname  V3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD500 $noname  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD4FE $noname  V2 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDAD4AB $noname  V1 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BDACB67 $noname  RF2 100k {Lib=R_MINI}
+  (    1 /VO- )
+  (    2 /IN+ )
+ )
+ ( /4BDACA20 $noname  RI2 20k {Lib=R_MINI}
+  (    1 N-000009 )
+  (    2 /IN+ )
+ )
+ ( /4BDAC9EB $noname  C2 0u1 {Lib=C_MINI}
+  (    1 N-000009 )
+  (    2 /RCA_IN- )
+ )
+ ( /4BDAC8A7 $noname  RCA_JACK2 OUT {Lib=RCA_JACK}
+  (    1 /VO- )
+  (    2 /VO+ )
+ )
+ ( /4BDAC781 $noname  RCA_JACK1 IN {Lib=RCA_JACK}
+  (    1 /RCA_IN- )
+  (    2 /RCA_IN+ )
+ )
+ ( /4BDA5804 $noname  C1 0u1 {Lib=C_MINI}
+  (    1 N-000006 )
+  (    2 /RCA_IN+ )
+ )
+ ( /4BDA572A $noname  C4 0u1 {Lib=C_MINI}
+  (    1 /BYPASS )
+  (    2 GND )
+ )
+ ( /4BDA56D9 $noname  R1 100k {Lib=R_MINI}
+  (    1 /nSHUTDOWN )
+  (    2 VDD )
+ )
+ ( /4BDA56C6 $noname  RF1 100k {Lib=R_MINI}
+  (    1 /VO+ )
+  (    2 /IN- )
+ )
+ ( /4BDA56A6 $noname  RI1 20k {Lib=R_MINI}
+  (    1 /IN- )
+  (    2 N-000006 )
+ )
+ ( /4BDA5683 $noname  BATTERY1 CR2032 {Lib=BATTERY}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4BDA5654 $noname  C3 0u1 {Lib=C_MINI}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4BDA5613 $noname  IC1 TPA6203A1 {Lib=TPA6203A1}
+  (   A1 /VO- )
+  (   B1 /nSHUTDOWN )
+  (   C1 /BYPASS )
+  (   B2 GND )
+  (   C2 /IN+ )
+  (   A3 VDD )
+  (   B3 /VO+ )
+  (   C3 /IN- )
+  (    1 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ V16 1
+ V17 1
+ C4 2
+ V1 1
+ IC1 B2
+ C3 2
+ BATTERY1 2
+ P3 1
+ V4 1
+ V2 1
+ V3 1
+ V7 1
+ V5 1
+ V10 1
+ V9 1
+ V6 1
+ TP1 1
+ V13 1
+ V14 1
+ V8 1
+Net 2 "VDD" "VDD"
+ C3 1
+ IC1 A3
+ P3 2
+ BATTERY1 1
+ R1 2
+Net 3 "/VO-" "VO-"
+ V11 1
+ RCA_JACK2 1
+ RF2 1
+ P2 1
+ IC1 A1
+Net 4 "/RCA_IN-" "RCA_IN-"
+ V15 1
+ P1 1
+ C2 2
+ RCA_JACK1 1
+ V12 1
+Net 5 "/VO+" "VO+"
+ P2 2
+ IC1 B3
+ RF1 1
+ RCA_JACK2 2
+Net 6 "" ""
+ RI1 2
+ C1 1
+Net 8 "/nSHUTDOWN" "nSHUTDOWN"
+ IC1 B1
+ R1 1
+Net 9 "" ""
+ C2 1
+ RI2 1
+Net 10 "/RCA_IN+" "RCA_IN+"
+ C1 2
+ RCA_JACK1 2
+ P1 2
+Net 11 "/BYPASS" "BYPASS"
+ IC1 C1
+ C4 1
+Net 12 "/IN-" "IN-"
+ RF1 2
+ IC1 C3
+ RI1 1
+Net 13 "/IN+" "IN+"
+ RI2 2
+ IC1 C2
+ RF2 2
+}
+#End

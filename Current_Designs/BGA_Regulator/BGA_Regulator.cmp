@@ -1,0 +1,255 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 15/10/2010 00:30:58
+
+BeginCmp
+TimeStamp = /4BE9C1C3;
+Reference = C1;
+ValeurCmp = 0u1;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C1CC;
+Reference = C2;
+ValeurCmp = 1n0;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C1DB;
+Reference = C3;
+ValeurCmp = 2u2;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F851;
+Reference = C4;
+ValeurCmp = 0u1;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F850;
+Reference = C5;
+ValeurCmp = 1n0;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F84F;
+Reference = C6;
+ValeurCmp = 2u2;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F854;
+Reference = C7;
+ValeurCmp = 0u1;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F855;
+Reference = C8;
+ValeurCmp = 1n0;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F856;
+Reference = C9;
+ValeurCmp = 2u2;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C2AB;
+Reference = D1;
+ValeurCmp = ON;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F84A;
+Reference = D2;
+ValeurCmp = ON;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F85B;
+Reference = D3;
+ValeurCmp = ON;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C1AE;
+Reference = IC1;
+ValeurCmp = TPS793xxYZQ;
+IdModule  = BGA5_YZQ_TPS793xx;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F852;
+Reference = IC2;
+ValeurCmp = TPS793xxYZQ;
+IdModule  = BGA5_YZQ_TPS793xx;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F853;
+Reference = IC3;
+ValeurCmp = TPS793xxYZQ;
+IdModule  = BGA5_YZQ_TPS793xx;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C27C;
+Reference = P1;
+ValeurCmp = VIN;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C275;
+Reference = P2;
+ValeurCmp = VOUT;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F84C;
+Reference = P3;
+ValeurCmp = VIN;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F859;
+Reference = P4;
+ValeurCmp = VIN;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F84D;
+Reference = P5;
+ValeurCmp = VOUT;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F858;
+Reference = P6;
+ValeurCmp = VOUT;
+IdModule  = SIL-2_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9C2A5;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F84B;
+Reference = R2;
+ValeurCmp = 150;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F85A;
+Reference = R3;
+ValeurCmp = 150;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F4B0;
+Reference = V1;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F4B2;
+Reference = V2;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F767;
+Reference = V3;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F847;
+Reference = V4;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F846;
+Reference = V5;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F845;
+Reference = V6;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F85E;
+Reference = V7;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F85F;
+Reference = V8;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BE9F860;
+Reference = V9;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB7D6C8;
+Reference = V10;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB7D6C4;
+Reference = V11;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB7D6CA;
+Reference = V12;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+EndListe

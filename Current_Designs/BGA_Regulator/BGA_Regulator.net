@@ -1,0 +1,145 @@
+# EESchema Netlist Version 1.1 created  15/10/2010 00:30:58
+(
+ ( /4BE9C1C3 SM1206_Opendous C1 0u1
+  ( 1 /VIN )
+  ( 2 GND )
+ )
+ ( /4BE9C1CC SM0805_Opendous C2 1n0
+  ( 1 /NR )
+  ( 2 GND )
+ )
+ ( /4BE9C1DB SM1206_Opendous C3 2u2
+  ( 1 /VOUT )
+  ( 2 GND )
+ )
+ ( /4BE9F851 SM1206_Opendous C4 0u1
+  ( 1 /VIN2 )
+  ( 2 GND )
+ )
+ ( /4BE9F850 SM0805_Opendous C5 1n0
+  ( 1 /NR2 )
+  ( 2 GND )
+ )
+ ( /4BE9F84F SM1206_Opendous C6 2u2
+  ( 1 /VOUT2 )
+  ( 2 GND )
+ )
+ ( /4BE9F854 SM1206_Opendous C7 0u1
+  ( 1 /VIN3 )
+  ( 2 GND )
+ )
+ ( /4BE9F855 SM0805_Opendous C8 1n0
+  ( 1 /NR3 )
+  ( 2 GND )
+ )
+ ( /4BE9F856 SM1206_Opendous C9 2u2
+  ( 1 /VOUT3 )
+  ( 2 GND )
+ )
+ ( /4BE9C2AB SM1206_Opendous D1 ON
+  ( 1 GND )
+  ( 2 N-000008 )
+ )
+ ( /4BE9F84A SM1206_Opendous D2 ON
+  ( 1 GND )
+  ( 2 N-000013 )
+ )
+ ( /4BE9F85B SM1206_Opendous D3 ON
+  ( 1 GND )
+  ( 2 N-000004 )
+ )
+ ( /4BE9C1AE BGA5_YZQ_TPS793xx IC1 TPS793xxYZQ
+  ( A1 GND )
+  ( A3 /VIN )
+  ( B2 /NR )
+  ( C1 /VOUT )
+  ( C3 /VIN )
+ )
+ ( /4BE9F852 BGA5_YZQ_TPS793xx IC2 TPS793xxYZQ
+  ( A1 GND )
+  ( A3 /VIN2 )
+  ( B2 /NR2 )
+  ( C1 /VOUT2 )
+  ( C3 /VIN2 )
+ )
+ ( /4BE9F853 BGA5_YZQ_TPS793xx IC3 TPS793xxYZQ
+  ( A1 GND )
+  ( A3 /VIN3 )
+  ( B2 /NR3 )
+  ( C1 /VOUT3 )
+  ( C3 /VIN3 )
+ )
+ ( /4BE9C27C SIL-2_Opendous P1 VIN
+  ( 1 GND )
+  ( 2 /VIN )
+ )
+ ( /4BE9C275 SIL-2_Opendous P2 VOUT
+  ( 1 GND )
+  ( 2 /VOUT )
+ )
+ ( /4BE9F84C SIL-2_Opendous P3 VIN
+  ( 1 GND )
+  ( 2 /VIN2 )
+ )
+ ( /4BE9F859 SIL-2_Opendous P4 VIN
+  ( 1 GND )
+  ( 2 /VIN3 )
+ )
+ ( /4BE9F84D SIL-2_Opendous P5 VOUT
+  ( 1 GND )
+  ( 2 /VOUT2 )
+ )
+ ( /4BE9F858 SIL-2_Opendous P6 VOUT
+  ( 1 GND )
+  ( 2 /VOUT3 )
+ )
+ ( /4BE9C2A5 SM1206_Opendous R1 150
+  ( 1 N-000008 )
+  ( 2 /VOUT )
+ )
+ ( /4BE9F84B SM1206_Opendous R2 150
+  ( 1 N-000013 )
+  ( 2 /VOUT2 )
+ )
+ ( /4BE9F85A SM1206_Opendous R3 150
+  ( 1 N-000004 )
+  ( 2 /VOUT3 )
+ )
+ ( /4BE9F4B0 1Pin_20mil_VIA V1 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F4B2 1Pin_20mil_VIA V2 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F767 1Pin_20mil_VIA V3 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F847 1Pin_20mil_VIA V4 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F846 1Pin_20mil_VIA V5 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F845 1Pin_20mil_VIA V6 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F85E 1Pin_20mil_VIA V7 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F85F 1Pin_20mil_VIA V8 VIA
+  ( 1 GND )
+ )
+ ( /4BE9F860 1Pin_20mil_VIA V9 VIA
+  ( 1 GND )
+ )
+ ( /4CB7D6C8 1Pin_20mil_VIA V10 VIA
+  ( 1 GND )
+ )
+ ( /4CB7D6C4 1Pin_20mil_VIA V11 VIA
+  ( 1 GND )
+ )
+ ( /4CB7D6CA 1Pin_20mil_VIA V12 VIA
+  ( 1 GND )
+ )
+)
+*
