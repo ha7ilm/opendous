@@ -1,4 +1,4 @@
-#summary Development Board for the TPA6203A1 BGA Audio Amplifier
+#summary Development Board for the LT1945 Positive and Negative DC-DC Converter
 
 This board is still under development.
 
