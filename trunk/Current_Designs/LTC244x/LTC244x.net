@@ -1,0 +1,491 @@
+# EESchema Netlist Version 1.1 created  14/12/2010 10:58:20
+(
+ ( /4CF8E465 $noname  J4 JUMPER-3 {Lib=JUMPER-3}
+  (    1 GND )
+  (    2 /nEXT )
+  (    3 VCC )
+ )
+ ( /4CF8E28F $noname  U42 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CF8CC87 $noname  K2 Extra {Lib=CONN_2}
+  (    1 /BUSY )
+  (    2 /F0 )
+ )
+ ( /4CF8CA99 $noname  IC1 LTC244x {Lib=LTC2448}
+  (    1 GND )
+  (    2 /BUSY )
+  (    3 /nEXT )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 /COM_ )
+  (    8 /CH0 )
+  (    9 /CH1 )
+  (   10 /CH2 )
+  (   11 /CH3 )
+  (   12 /CH4 )
+  (   13 /CH5 )
+  (   14 /CH6 )
+  (   15 /CH7 )
+  (   16 /CH8 )
+  (   17 /CH9 )
+  (   18 /CH10 )
+  (   19 /CH11 )
+  (   20 /CH12 )
+  (   21 /CH13 )
+  (   22 /CH14 )
+  (   23 /CH15 )
+  (   24 /MUXOUTP )
+  (   25 /ADCINP )
+  (   26 /ADCINN )
+  (   27 /MUXOUTN )
+  (   28 VCC )
+  (   29 /REF+ )
+  (   30 /REF- )
+  (   31 GND )
+  (   32 GND )
+  (   33 GND )
+  (   34 /SDI )
+  (   35 /F0 )
+  (   36 /CS )
+  (   37 /SDO )
+  (   38 /SCK )
+  (   39 GND )
+ )
+ ( /4CF8C885 $noname  U2 TL4051A {Lib=TL4051A}
+  (    1 N-000004 )
+  (    2 /Vz )
+  (    3 GND )
+ )
+ ( /49F08FEC $noname  U41 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49F08C51 $noname  U40 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49F08B25 $noname  U38 VIA {Lib=VIA}
+  (    1 /SDO )
+ )
+ ( /49F08B22 $noname  U39 VIA {Lib=VIA}
+  (    1 /SDI )
+ )
+ ( /49F086EE $noname  U37 VIA {Lib=VIA}
+  (    1 /Vz )
+ )
+ ( /49F086C3 $noname  U36 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /49A6A65C $noname  mask1 VIA {Lib=VIA}
+  (    1 N-000007 )
+ )
+ ( /49A6A65A $noname  mask0 VIA {Lib=VIA}
+  (    1 N-000007 )
+ )
+ ( /49A69968 $noname  U35 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49A69966 $noname  U34 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /499996E9 $noname  U33 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /499996E7 $noname  U32 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /499993D2 $noname  U27 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49999311 $noname  U26 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /499990E6 $noname  U25 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EEA $noname  U24 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EB3 $noname  U23 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EB1 $noname  U22 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EAF $noname  U21 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EAD $noname  U20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998EAB $noname  U19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49998AE5 $noname  U17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /499983CE $noname  U14 VIA {Lib=VIA}
+  (    1 /CS )
+ )
+ ( /49998389 $noname  U12 VIA {Lib=VIA}
+  (    1 /F0 )
+ )
+ ( /49997F99 $noname  U10 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /49997F97 $noname  U9 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /49997F94 $noname  U8 VIA {Lib=VIA}
+  (    1 VCC )
+ )
+ ( /49996EEA $noname  U6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49996EE8 $noname  U5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49996EE4 $noname  U4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49996ED9 $noname  U3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /49996451 $noname  P6 ADC_Input {Lib=CONN_20}
+  (    1 N-000031 )
+  (    2 /REF+ )
+  (    3 /CH15 )
+  (    4 /CH14 )
+  (    5 /CH13 )
+  (    6 /CH12 )
+  (    7 /CH11 )
+  (    8 /CH10 )
+  (    9 /CH9 )
+  (   10 /CH8 )
+  (   11 /CH7 )
+  (   12 /CH6 )
+  (   13 /CH5 )
+  (   14 /CH4 )
+  (   15 /CH3 )
+  (   16 /CH2 )
+  (   17 /CH1 )
+  (   18 /CH0 )
+  (   19 /COM )
+  (   20 GND )
+ )
+ ( /499963D0 $noname  R9 100 {Lib=R_MINI}
+  (    1 /MISO )
+  (    2 /SDO )
+ )
+ ( /4999637C $noname  R8 50 {Lib=R_MINI}
+  (    1 GND )
+  (    2 /F0 )
+ )
+ ( /49995FB0 $noname  C10 10u {Lib=C_MINI}
+  (    1 /REF- )
+  (    2 GND )
+ )
+ ( /49995FAB $noname  C11 u01 {Lib=C_MINI}
+  (    1 /REF- )
+  (    2 GND )
+ )
+ ( /49995FA7 $noname  C8 10u {Lib=C_MINI}
+  (    1 /REF+ )
+  (    2 GND )
+ )
+ ( /49995F9B $noname  C9 u01 {Lib=C_MINI}
+  (    1 /REF+ )
+  (    2 GND )
+ )
+ ( /48FB1303 $noname  J2 JUMPER-3 {Lib=JUMPER-3}
+  (    1 N-000031 )
+  (    2 /REF- )
+  (    3 GND )
+ )
+ ( /49995D08 $noname  K1 SPI {Lib=CONN_SPI}
+  (    1 /MISO )
+  (    2 VDD )
+  (    3 /SCK )
+  (    4 /SDI )
+  (    5 /CS )
+  (    6 DGND )
+ )
+ ( /49995CC1 $noname  R7 1R5 {Lib=R_MINI}
+  (    1 VCC )
+  (    2 N-000017 )
+ )
+ ( /48FB134A $noname  J1 JUMPER-3 {Lib=JUMPER-3}
+  (    1 /COM )
+  (    2 /COM_ )
+  (    3 GND )
+ )
+ ( /48FB12FD $noname  J3 JUMPER-3 {Lib=JUMPER-3}
+  (    1 /Vz )
+  (    2 /REF+ )
+  (    3 N-000009 )
+ )
+ ( /48FB0042 $noname  C2 1u0 {Lib=C_MINI}
+  (    1 /COM )
+  (    2 GND )
+ )
+ ( /48FAFFE7 $noname  C1 0u1 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48FAFF59 $noname  R4 10k {Lib=R_MINI}
+  (    1 N-000009 )
+  (    2 VCC )
+ )
+ ( /48FAFB18 $noname  L2 FB {Lib=L_MINI}
+  (    1 GND )
+  (    2 DGND )
+ )
+ ( /48FAFAC0 $noname  C7 u01 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48FAFABD $noname  C6 u01 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48FAFABA $noname  C5 1u0 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48FAFAAB $noname  C4 0u1 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /48FAFA82 $noname  L1 FB {Lib=L_MINI}
+  (    1 N-000017 )
+  (    2 VDD )
+ )
+ ( /48FAFA72 $noname  C3 10u {Lib=CP_TANTALUM_MINI}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /48FAF768 $noname  P5 OAN {Lib=CONN_2}
+  (    1 /MUXOUTN )
+  (    2 /ADCINN )
+ )
+ ( /48FAF761 $noname  P4 OAP {Lib=CONN_2}
+  (    1 /MUXOUTP )
+  (    2 /ADCINP )
+ )
+ ( /48FAF3A5 $noname  R3 1k {Lib=R_MINI}
+  (    1 VCC )
+  (    2 /Vz )
+ )
+ ( /48FAF39A $noname  R2 1k {Lib=R_MINI}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /48FAF392 $noname  R1 1k {Lib=R_MINI}
+  (    1 /Vz )
+  (    2 N-000004 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ J1 3
+ R2 2
+ C4 2
+ C5 2
+ C6 2
+ C7 2
+ U34 1
+ U35 1
+ L2 1
+ C1 2
+ C2 2
+ J2 3
+ C9 2
+ C8 2
+ C11 2
+ C10 2
+ R8 1
+ IC1 1
+ IC1 4
+ IC1 5
+ IC1 6
+ IC1 31
+ IC1 32
+ P6 20
+ J4 1
+ U42 1
+ U25 1
+ U26 1
+ U3 1
+ U4 1
+ U5 1
+ U6 1
+ U40 1
+ U41 1
+ U2 3
+ IC1 39
+ U17 1
+ U19 1
+ U20 1
+ U21 1
+ U22 1
+ U23 1
+ U24 1
+ IC1 33
+ U27 1
+ U32 1
+ U33 1
+Net 2 "VCC" "VCC"
+ C1 1
+ R7 1
+ R4 2
+ C7 1
+ IC1 28
+ U36 1
+ R3 1
+ C4 1
+ C5 1
+ C6 1
+ U10 1
+ U9 1
+ U8 1
+ J4 3
+Net 3 "/CS" "CS"
+ U14 1
+ K1 5
+ IC1 36
+Net 4 "" ""
+ R2 1
+ U2 1
+ R1 2
+Net 5 "/SDI" "SDI"
+ IC1 34
+ K1 4
+ U39 1
+Net 6 "/MUXOUTP" "MUXOUTP"
+ P4 1
+ IC1 24
+Net 7 "" ""
+ mask1 1
+ mask0 1
+Net 8 "/SDO" "SDO"
+ R9 2
+ IC1 37
+ U38 1
+Net 9 "" ""
+ R4 1
+ J3 3
+Net 10 "/Vz" "Vz"
+ J3 1
+ U37 1
+ U2 2
+ R1 1
+ R3 2
+Net 11 "/COM_" "COM_"
+ J1 2
+ IC1 7
+Net 12 "/ADCINP" "ADCINP"
+ P4 2
+ IC1 25
+Net 13 "/ADCINN" "ADCINN"
+ P5 2
+ IC1 26
+Net 14 "/MUXOUTN" "MUXOUTN"
+ IC1 27
+ P5 1
+Net 15 "DGND" "DGND"
+ K1 6
+ L2 2
+ C3 2
+Net 16 "VDD" "VDD"
+ K1 2
+ C3 1
+ L1 2
+Net 17 "" ""
+ R7 2
+ L1 1
+Net 18 "/CH1" "CH1"
+ IC1 9
+ P6 17
+Net 19 "/CH3" "CH3"
+ P6 15
+ IC1 11
+Net 20 "/CH5" "CH5"
+ IC1 13
+ P6 13
+Net 21 "/CH6" "CH6"
+ P6 12
+ IC1 14
+Net 22 "/CH7" "CH7"
+ P6 11
+ IC1 15
+Net 23 "/CH8" "CH8"
+ IC1 16
+ P6 10
+Net 24 "/CH9" "CH9"
+ IC1 17
+ P6 9
+Net 25 "/CH10" "CH10"
+ P6 8
+ IC1 18
+Net 26 "/CH11" "CH11"
+ IC1 19
+ P6 7
+Net 27 "/CH13" "CH13"
+ P6 5
+ IC1 21
+Net 28 "/CH15" "CH15"
+ P6 3
+ IC1 23
+Net 29 "/SCK" "SCK"
+ K1 3
+ IC1 38
+Net 30 "/MISO" "MISO"
+ K1 1
+ R9 1
+Net 31 "" ""
+ P6 1
+ J2 1
+Net 32 "/REF+" "REF+"
+ J3 2
+ IC1 29
+ P6 2
+ C9 1
+ C8 1
+Net 33 "/REF-" "REF-"
+ IC1 30
+ J2 2
+ C11 1
+ C10 1
+Net 34 "/BUSY" "BUSY"
+ K2 1
+ IC1 2
+Net 35 "/F0" "F0"
+ IC1 35
+ R8 2
+ K2 2
+ U12 1
+Net 36 "/nEXT" "nEXT"
+ J4 2
+ IC1 3
+Net 37 "/CH14" "CH14"
+ P6 4
+ IC1 22
+Net 38 "/CH4" "CH4"
+ IC1 12
+ P6 14
+Net 39 "/CH12" "CH12"
+ IC1 20
+ P6 6
+Net 40 "/CH2" "CH2"
+ IC1 10
+ P6 16
+Net 41 "/CH0" "CH0"
+ IC1 8
+ P6 18
+Net 42 "/COM" "COM"
+ P6 19
+ J1 1
+ C2 1
+}
+#End
