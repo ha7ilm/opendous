@@ -2,9 +2,7 @@
 
 This board has been prototyped but is not very useful.
 
-The LPC313x-DIY has limited functionality as it is a 2-layer single-sided components board made to 8mil-8mil-20mil (trace-clearance-minimum_drill) specification.  It is surprising how much functionality managed to be routed.
-
-http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIY/LPC313x-DIY_Picture_Small.jpg
+The LPC313x-DIY has limited functionality as it is a 2-layer single-sided components board made to 8mil-8mil-20mil (trace-clearance-minimum_drill) specification.
 
 The relevant [http://www.lis.inpg.fr/realise_au_lis/kicad/ KiCAD] design files can be found through [http://code.google.com/p/opendous/source/checkout SVN] in the `/Abandoned_Designs/LPC313x-DIY/` directory.
 
