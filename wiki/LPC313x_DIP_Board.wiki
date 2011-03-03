@@ -7,6 +7,6 @@ The LPC313x-DIY is a very limited 2-layer single-sided components board made to 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIY/LPC313x-DIY_Picture_Small.jpg
 
 
-There is also a DIP version but the USB will not work at High Speed due to noise from other signals.  It is very difficult to properly route such a board using just 2-layers.  Adding internal GND planes would probably be enough to make it usable.  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/LPC313x-DIP-Board available] in [http://code.google.com/p/opendous/source/checkout SVN].
+The DIP version but the USB will not work at High Speed due to noise from other signals.  It is very difficult to properly route such a board using just 2-layers.  Adding internal GND planes would probably be enough to make it usable.  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/LPC313x-DIP-Board available] in [http://code.google.com/p/opendous/source/checkout SVN].
 
 http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg
