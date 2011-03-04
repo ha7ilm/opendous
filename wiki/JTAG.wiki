@@ -18,7 +18,7 @@ to
 {{{
          if (ftdi_set_interface(&ftdic, INTERFACE_B) < 0)
 }}}
-in order to use Channel B for JTAG.  The board will then function as a JTAGKey with the default FTDI VID and PID:
+in order to use Channel B for JTAG.  Recompile OpenOCD and install this modified version under a different name.  The board will then function as a JTAGKey with the default FTDI VID and PID:
 {{{
 ft2232_device_desc "Dual RS232-HS"
 ft2232_layout jtagkey
