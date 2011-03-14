@@ -1,0 +1,60 @@
+Bill of Materials for the BioSensoPlatform Project
+
+THIS FILE HAS NOT YET BEEN UPDATED FOR THE NEW BioSensoPlatform REVISION!
+
+
+Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description
+
+~~~ ADS1298 Components ~~~
+ 1, ADS1298CZXGT                    ,48.36 - IC1 - IC ADC 8CH 24BIT SPI 32KSPS 64NFBGA
+ 1, ADM811RARTZ                     , 1.38 - IC4 - IC SUPERVISER RST 2.63V SOT-143
+ 1, C2012C0G1H101J                  , 0.06 - C21 - CAP CER 100PF 50V C0G 5% Low ESR 0805
+ 2, C2012X7R1H103K                  , 0.04 - C15 C26 - CAP CER 10000PF=0.01uF 50V X7R 10% Low ESR 0805
+ 3, GRM188R71C104KA01D              , 0.01 - C48 C49 C50 - CAP CER .1UF 16V 10% X7R 0603
+ 5, GRM188R61A105KA61D              , 0.04 - C18 C19 C20 C27 C28 - CAP CER 1.0UF 10V 10% X5R Low ESR 0603
+ 2, C2012X7R1A105K                  , 0.10 - C51 C52 - CAP CER 1.0UF 10V X7R 10% Low ESR 0805
+ 3, C2012X5R0J106K                  , 0.23 - C32 C34 C38 - CAP CER 10UF 6.3V X5R 10% 0805
+ 1, C3216X5R0J226K/1.6              , 0.66 - C17 - CAP CER 22UF 6.3V X5R 10% 1206
+ 4, BK1608TS102-T                   , 0.04 - L3 L10 L21 L22 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 5, RMCF 1/10 47K 1% R 0805         , 0.04 - R2 R9 R23 R24 R25 - RES 47K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 100K 1% R 0805        , 0.04 - R19 - RES 100K OHM 1/8W 1% 0805 SMD
+ 2, 1566230-1                       , OPTIONAL - TP1 TP2 - CONN UMCC RCPT 50-Ohm SMD STYLE A
+ 1, PPPC252LFBN-RC                  , 3.61 - P1 - CONN HEADER FMAL 50PS.1" DL GOLD
+ 1, PPPC161LGBN-RC                  , 1.30 - P2 - CONN FEMALE 16POS .100" R/A GOLD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=56.97
+
+~~~ Power Supply Components ~~~
+ 1, TPS79230DBV                     , 1.52 - U2 - IC 3.0V 100MA LDO REG SOT-23-5
+ 1, TPS79201DBV                     , 1.52 - U3 - IC ADJ 100MA LDO REG SOT-23-6
+ 1, TPS60403DBV                     , 1.31 - U4 - IC UNREG CHRG PUMP V INV SOT23-5
+ 1, TPS72325DBV                     , 3.60 - U5 - IC LDO REG NEG 200MA 2.5V SOT23
+ 1, C1608C0G1H220J                  , 0.03 - C23 - CAP CER 22PF 50V C0G 5% 0603
+ 3, GRM188R71H103KA01D              , 0.02 - C15 C16 C26 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
+ 1, C2012X7R1H103K                  , 0.04 - C15 - CAP CER 10000PF=10nF=0.01uF 50V X7R 10% Low ESR 0805
+ 2, GRM188R71C104KA01D              , 0.01 - C31 C33 C48 - CAP CER .1UF 16V 10% X7R 0603
+ 1, C2012X7R1A105K                  , 0.10 - C30 - CAP CER 1.0UF 10V X7R 10% Low ESR 0805
+ 5, C0805C225K8RACTU                , 0.17 - C12 C13 C22 C24 C36 - CAP CERAMIC 2.2UF 10V 10% X7R 0805
+ 3, C2012X5R0J106K                  , 0.23 - C11 C14 C25 - CAP CER 10UF 6.3V X5R 10% 0805
+ 3, BK1608TS102-T                   , 0.04 - L8 L9 L11 - FERRITE BEAD 1000 OHM 300mA 300-mOhm-DCR 0603
+ 4, LB2016T3R3M                     , 0.43 - L13 L14 L15 L22 - INDUCTOR WOUND 3.3UH 285MA 0806
+ 1, RMCF 1/10 30.1K 1% R 0805       , 0.04 - R18 - RES 30.1K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 33.2K 1% R 0805       , 0.04 - R17 - RES 33.2K OHM 1/8W 1% 0805 SMD
+ 1, MCR10EZHF4322                   , 0.04 - R21 - RES 43.2K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 47K 1% R 0805         , 0.04 - R20 - RES 47K OHM 1/8W 1% 0805 SMD
+ 1, RMCF 1/10 100K 1% R 0805        , 0.04 - R19 - RES 100K OHM 1/8W 1% 0805 SMD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=11.78
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=68.75
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey.com
+	- This is not a finalized Bill Of Materials so check with schematic and assembly notes
+	- DO NOT connect finished board to people without using a digital isolation interface
+	- LT1964ES5-SD#TRMPBF is a compatible replacement for the TPS72301DBV/TPS72325DBV
+	  Although R20, R21 values may need to be adjusted for a more accurate output
+	- R20 and R21 should only be populated when using the TPS72301DBV/LT1964ES5 variable regulators
+	- ADP150AUJZ-3.0-R7 is a drop-in replacement for the TPS79230DBV
+	- LM828M5/NOPB is a compatible replacement for the TPS60403DBV
+	- Only one of (R2, R3) 47k pull-up resistors should be populated
+	- The UMCC 1566230-1 connectors can be replaced by 73412-0110 U.FL connectors
+	- For insulation use Polyimide tape which has a 7.5kV breakdown voltage such
+	  as 3M 1205 or 1206 Electrical Tape

@@ -1,0 +1,154 @@
+# EESchema Netlist Version 1.1 created  13/03/2011 12:36:19
+(
+ ( /4D7CFFDB $noname  P2 Shield {Lib=CONN_1}
+  (    1 /Shield )
+ )
+ ( /4D7CFFAE $noname  P1 Electrode {Lib=CONN_1}
+  (    1 /Electrode )
+ )
+ ( /4D7CFF70 $noname  C2 . {Lib=C_MINI}
+  (    1 /Electrode )
+  (    2 /RLDINV_FILT )
+ )
+ ( /4D7CFF52 $noname  R2 1M {Lib=R_MINI}
+  (    1 /RLDINV_FILT )
+  (    2 /Electrode )
+ )
+ ( /4D7CFF04 $noname  R4 . {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /Shield )
+ )
+ ( /4D7CFEEA $noname  R5 . {Lib=R_MINI}
+  (    1 GNDPWR )
+  (    2 /Shield )
+ )
+ ( /4D7CFE68 $noname  R3 0 {Lib=R_MINI}
+  (    1 /RLDINV )
+  (    2 /RLDINV_FILT )
+ )
+ ( /4D7CFDFB $noname  C3 . {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7CFDE9 $noname  C1 . {Lib=C_MINI}
+  (    1 /RLDOUT )
+  (    2 /RLDINV )
+ )
+ ( /4D7CDC17 $noname  V9 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC16 $noname  V10 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC15 $noname  V12 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC14 $noname  V11 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC13 $noname  V15 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC12 $noname  V16 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC11 $noname  V14 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC10 $noname  V13 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0F $noname  V5 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0E $noname  V6 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0D $noname  V8 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0C $noname  V7 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0A $noname  V3 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC09 $noname  V4 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC07 $noname  V2 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDBFE $noname  V1 VIA {Lib=VIA}
+  (    1 /Electrode )
+ )
+ ( /4D7CD545 $noname  R1 100k {Lib=R_MINI}
+  (    1 /RLDOUT )
+  (    2 /Electrode )
+ )
+ ( /4D7BFC25 $noname  IN1 RLDFromFrontEnd {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /RLDOUT )
+  (    6 /RLDINV )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/Shield" "Shield"
+ V11 1
+ V12 1
+ V10 1
+ V9 1
+ P2 1
+ R4 2
+ R5 2
+ V4 1
+ V2 1
+ V3 1
+ V7 1
+ V8 1
+ V6 1
+ V5 1
+ V13 1
+ V14 1
+ V16 1
+ V15 1
+Net 2 "/RLDINV" "RLDINV"
+ R3 1
+ C1 2
+ IN1 6
+Net 3 "AVSS" "AVSS"
+ IN1 3
+ C3 2
+Net 4 "AVDD" "AVDD"
+ C3 1
+ IN1 2
+Net 5 "AGND" "AGND"
+ IN1 1
+ IN1 4
+ R4 1
+ IN1 7
+Net 6 "/Electrode" "Electrode"
+ R2 2
+ C2 1
+ P1 1
+ V1 1
+ R1 2
+Net 7 "/RLDOUT" "RLDOUT"
+ IN1 5
+ R1 1
+ C1 1
+Net 8 "GNDPWR" "GNDPWR"
+ R5 1
+ IN1 8
+Net 9 "/RLDINV_FILT" "RLDINV_FILT"
+ C2 2
+ R2 1
+ R3 2
+}
+#End

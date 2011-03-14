@@ -1,0 +1,1730 @@
+# EESchema Netlist Version 1.1 created  13/03/2011 09:18:15
+(
+ ( /4D7CCF17 $noname  V127 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D7CCF16 $noname  V141 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D7CCF15 $noname  V144 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D7CCD69 $noname  V101 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D7CCAE0 $noname  V41 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7CC6C1 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D7CC6BC $noname  V5 VIA {Lib=VIA}
+  (    1 /CLKSEL )
+ )
+ ( /4D7CC229 $noname  C9 100u {Lib=CP_MINI}
+  (    1 GND )
+  (    2 N-000069 )
+ )
+ ( /4D7CBAF0 $noname  V1 VIA {Lib=VIA}
+  (    1 /nCS )
+ )
+ ( /4D7C9D39 $noname  V121 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D38 $noname  V122 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D37 $noname  V118 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D36 $noname  V110 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D35 $noname  V123 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D34 $noname  V129 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D33 $noname  V128 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D32 $noname  V130 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2F $noname  V146 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2E $noname  V139 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2D $noname  V142 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2C $noname  V137 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2B $noname  V131 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D2A $noname  V132 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D29 $noname  V134 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9D28 $noname  V133 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A26 $noname  V79 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A25 $noname  V77 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A24 $noname  V78 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A23 $noname  V76 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A22 $noname  V72 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A21 $noname  V73 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A20 $noname  V75 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1F $noname  V74 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1E $noname  V90 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1D $noname  V95 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1C $noname  V89 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1B $noname  V88 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A1A $noname  V100 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A19 $noname  V105 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A18 $noname  V104 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A17 $noname  V107 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A14 $noname  V87 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A13 $noname  V85 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A12 $noname  V86 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A11 $noname  V84 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A10 $noname  V80 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0F $noname  V81 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0E $noname  V83 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0D $noname  V82 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0C $noname  V58 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0B $noname  V59 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A0A $noname  V57 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A09 $noname  V56 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A08 $noname  V60 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A07 $noname  V62 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A06 $noname  V61 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A05 $noname  V63 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A02 $noname  V71 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A01 $noname  V69 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9A00 $noname  V70 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FF $noname  V68 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FE $noname  V64 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FD $noname  V65 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FC $noname  V67 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FB $noname  V66 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99FA $noname  V50 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F9 $noname  V51 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F8 $noname  V49 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F7 $noname  V48 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F6 $noname  V52 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F5 $noname  V54 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F4 $noname  V53 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99F3 $noname  V55 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99DA $noname  V47 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D9 $noname  V45 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D8 $noname  V46 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D7 $noname  V44 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D6 $noname  V40 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D4 $noname  V43 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C99D3 $noname  V42 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C970D $noname  V34 VIA {Lib=VIA}
+  (    1 /GPIO3-RESP )
+ )
+ ( /4D7C970C $noname  V35 VIA {Lib=VIA}
+  (    1 /GPIO4-RESP_PH )
+ )
+ ( /4D7C970B $noname  V33 VIA {Lib=VIA}
+  (    1 /GPIO2-RESP_BLK )
+ )
+ ( /4D7C970A $noname  V32 VIA {Lib=VIA}
+  (    1 /GPIO1-PACEIN )
+ )
+ ( /4D7C9709 $noname  V36 VIA {Lib=VIA}
+  (    1 /GPIO1-PACEIN )
+ )
+ ( /4D7C9708 $noname  V38 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9707 $noname  V37 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C9706 $noname  V39 VIA {Lib=VIA}
+  (    1 GNDPWR )
+ )
+ ( /4D7C6C0F $noname  V26 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6C0E $noname  V27 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6C0D $noname  V25 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6C0C $noname  V24 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6C0B $noname  V28 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C0A $noname  V30 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C09 $noname  V29 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C07 $noname  V31 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C06 $noname  V23 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C04 $noname  V21 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C03 $noname  V22 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C02 $noname  V20 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C01 $noname  V16 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6C00 $noname  V17 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6BFF $noname  V19 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6BFE $noname  V18 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4D7C6BFD $noname  V10 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BFC $noname  V11 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BFB $noname  V9 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BFA $noname  V8 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BF9 $noname  V12 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BF8 $noname  V14 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BF7 $noname  V13 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6BF5 $noname  V15 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4D7C6986 $noname  P3 AN {Lib=CONN_5X2}
+  (    1 AVSS )
+  (    2 /WCT )
+  (    3 AVDD )
+  (    4 /RLDIN )
+  (    5 AGND )
+  (    6 /RLDREF )
+  (    7 /TESTP_PACE_OUT1 )
+  (    8 /TESTN_PACE_OUT2 )
+  (    9 AGND )
+  (   10 AVSS )
+ )
+ ( /4D7C611E $noname  P1 GPIO {Lib=CONN_5X2}
+  (    1 DGND )
+  (    2 DGND )
+  (    3 DVDD )
+  (    4 /GPIO4-RESP_PH )
+  (    5 /GPIO3-RESP )
+  (    6 DGND )
+  (    7 DGND )
+  (    8 /GPIO2-RESP_BLK )
+  (    9 /GPIO1-PACEIN )
+  (   10 DGND )
+ )
+ ( /4D7C601E $noname  C2 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7C601D $noname  C4 0u1 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7C601C $noname  C3 0u1 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7C601B $noname  C1 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7C5D71 $noname  RLD1 RLD {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /RLDOUT )
+  (    6 /RLDINV )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D70 $noname  IN2 IN2 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN2P )
+  (    6 /IN2N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D63 $noname  IN4 IN4 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN4P )
+  (    6 /IN4N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D62 $noname  IN8 IN8 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN8P )
+  (    6 /IN8N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D55 $noname  IN6 IN6 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN6P )
+  (    6 /IN6N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D54 $noname  IN5 IN5 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN5P )
+  (    6 /IN5N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D47 $noname  IN7 IN7 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN7P )
+  (    6 /IN7N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7C5D46 $noname  IN3 IN3 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN3P )
+  (    6 /IN3N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7BFC66 $noname  L1 FB {Lib=L_MINI}
+  (    1 GND )
+  (    2 GNDPWR )
+ )
+ ( /4D7BFC25 $noname  IN1 IN1 {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /IN1P )
+  (    6 /IN1N )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7BF467 $noname  R1 47k {Lib=R_MINI}
+  (    1 /nRESET )
+  (    2 DVDD )
+ )
+ ( /4D7BF0C8 $noname  C6 10u {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4D7BF0C7 $noname  C8 0u1 {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4D7BF0C6 $noname  C7 0u1 {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4D7BF0C5 $noname  C15 10u {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4D7BEF52 $noname  C17 22u {Lib=CP_TANTALUM_MINI}
+  (    1 /VCAP1 )
+  (    2 AVSS )
+ )
+ ( /4D7BED5F $noname  IC1 ADS1298 {Lib=ADS1298_TQFP}
+  (    1 /IN8N )
+  (    2 /IN8P )
+  (    3 /IN7N )
+  (    4 /IN7P )
+  (    5 /IN6N )
+  (    6 /IN6P )
+  (    7 /IN5N )
+  (    8 /IN5P )
+  (    9 /IN4N )
+  (   10 /IN4P )
+  (   11 /IN3N )
+  (   12 /IN3P )
+  (   13 /IN2N )
+  (   14 /IN2P )
+  (   15 /IN1N )
+  (   16 /IN1P )
+  (   17 /TESTP_PACE_OUT1 )
+  (   18 /TESTN_PACE_OUT2 )
+  (   19 AVDD )
+  (   20 AVSS )
+  (   21 AVDD )
+  (   22 AVDD )
+  (   23 AVSS )
+  (   24 /VREFP )
+  (   25 /VREFN )
+  (   26 /VCAP4 )
+  (   27 ? )
+  (   28 /VCAP1 )
+  (   29 ? )
+  (   30 /VCAP2 )
+  (   31 DGND )
+  (   32 AVSS )
+  (   33 DGND )
+  (   34 /DIN )
+  (   35 /nPWDN )
+  (   36 /nRESET )
+  (   37 /CLK )
+  (   38 /START )
+  (   39 /nCS )
+  (   40 /SCLK )
+  (   41 /DAISY_IN )
+  (   42 /GPIO1-PACEIN )
+  (   43 /DOUT )
+  (   44 /GPIO2-RESP_BLK )
+  (   45 /GPIO3-RESP )
+  (   46 /GPIO4-RESP_PH )
+  (   47 /nDRDY )
+  (   48 DVDD )
+  (   49 DGND )
+  (   50 DVDD )
+  (   51 DGND )
+  (   52 /CLKSEL )
+  (   53 /AVSS1 )
+  (   54 /AVDD1 )
+  (   55 /VCAP3 )
+  (   56 AVDD )
+  (   57 AVSS )
+  (   58 AVSS )
+  (   59 AVDD )
+  (   60 /RLDREF )
+  (   61 /RLDINV )
+  (   62 /RLDIN )
+  (   63 /RLDOUT )
+  (   64 /WCT )
+ )
+ ( /4C738A6E $noname  V113 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C723996 $noname  V207 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723994 $noname  V205 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723993 $noname  V206 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723992 $noname  V204 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723991 $noname  V200 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723990 $noname  V201 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72398F $noname  V203 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C72398E $noname  V202 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C72398C $noname  V211 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72398B $noname  V209 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4C72398A $noname  V208 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4C723989 $noname  V212 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4C723988 $noname  V214 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723987 $noname  V213 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723985 $noname  V215 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723926 $noname  V199 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723924 $noname  V197 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723923 $noname  V198 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723922 $noname  V196 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723921 $noname  V192 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723920 $noname  V193 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391F $noname  V195 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391E $noname  V194 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391D $noname  V186 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391C $noname  V187 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391B $noname  V185 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C72391A $noname  V184 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723919 $noname  V188 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723918 $noname  V190 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723917 $noname  V189 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723915 $noname  V191 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723709 $noname  V182 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723708 $noname  V180 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723707 $noname  V176 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723706 $noname  V177 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723705 $noname  V179 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4C723704 $noname  V178 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C721B78 $noname  R24 47k {Lib=R_MINI}
+  (    1 /START )
+  (    2 DGND )
+ )
+ ( /4C72157A $noname  R23 47k {Lib=R_MINI}
+  (    1 /nPWDN )
+  (    2 DVDD )
+ )
+ ( /4C72082C $noname  V171 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C72082B $noname  V172 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4C72082A $noname  V170 VIA {Lib=VIA}
+  (    1 /DAISY_IN )
+ )
+ ( /4C720829 $noname  V169 VIA {Lib=VIA}
+  (    1 /nPWDN )
+ )
+ ( /4C720828 $noname  V173 VIA {Lib=VIA}
+  (    1 /START )
+ )
+ ( /4C720826 $noname  V174 VIA {Lib=VIA}
+  (    1 /DAISY_IN )
+ )
+ ( /4C70C3C6 $noname  P2 Interface {Lib=CONN-16}
+  (    1 /nDRDY )
+  (    2 /nPWDN )
+  (    3 /nRESET )
+  (    4 /START )
+  (    5 GND )
+  (    6 N-000069 )
+  (    7 /DAISY_IN )
+  (    8 /CLKSEL )
+  (    9 /CLK )
+  (   10 GND )
+  (   11 /DOUT )
+  (   12 /SCLK )
+  (   13 /nCS )
+  (   14 /DIN )
+  (   15 GND )
+  (   16 N-000069 )
+ )
+ ( /4C2582DE $noname  L22 3uH {Lib=L_MINI}
+  (    1 VCC )
+  (    2 N-000069 )
+ )
+ ( /4C25667E $noname  L21 FB {Lib=L_MINI}
+  (    1 /VREFN )
+  (    2 AVSS )
+ )
+ ( /4C256673 $noname  L20 DNI {Lib=L_MINI}
+  (    1 /VREFP )
+  (    2 AVDD )
+ )
+ ( /4BB6CABB $noname  U3 79201 {Lib=TPS79101}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 N-000065 )
+  (    5 /FB25 )
+  (    6 /OUT25 )
+ )
+ ( /4BDC3FFE $noname  U5 72325 {Lib=TPS723XX}
+  (    1 AGND )
+  (    2 AVCC )
+  (    3 AVCC )
+  (    4 /NRn25 )
+  (    5 /OUTneg25 )
+ )
+ ( /4BC95E44 $noname  V168 VIA {Lib=VIA}
+  (    1 /GPIO2-RESP_BLK )
+ )
+ ( /4BC95BC0 $noname  V167 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC9352E $noname  V165 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC9352D $noname  V166 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC9352C $noname  V164 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC9352B $noname  V160 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC9352A $noname  V161 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC93529 $noname  V163 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC87C49 $noname  V151 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC87C48 $noname  V152 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC87C47 $noname  V150 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC87C45 $noname  V153 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC87C44 $noname  V155 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC865D9 $noname  V143 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC865D6 $noname  V148 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC865D5 $noname  V147 VIA {Lib=VIA}
+  (    1 /nRESET )
+ )
+ ( /4BC85C44 $noname  V140 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC85C41 $noname  V135 VIA {Lib=VIA}
+  (    1 AVCC )
+ )
+ ( /4BC85C40 $noname  V136 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC85C3F $noname  V138 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC8546F $noname  V126 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC8546D $noname  V125 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC8546A $noname  V124 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC83CCA $noname  V116 VIA {Lib=VIA}
+  (    1 /CLK )
+ )
+ ( /4BC83CC9 $noname  V117 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC83CC8 $noname  V115 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4BC83CC7 $noname  V114 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC83CC5 $noname  V120 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC83CC4 $noname  V119 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC83CBD $noname  V112 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC83C8D $noname  V111 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC83C8B $noname  V108 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC83C89 $noname  V109 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4BC83C88 $noname  V106 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC81BE7 $noname  C51 1u0 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /4BC81BE5 $noname  C52 1u0 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /4BC81978 $noname  V103 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC81975 $noname  V99 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC81974 $noname  V98 VIA {Lib=VIA}
+  (    1 AVSS )
+ )
+ ( /4BC81973 $noname  V102 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BB6DE06 $noname  C27 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4BC8172B $noname  C49 0u1 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4BC8172A $noname  C50 0u1 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4BC81596 $noname  V96 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC81595 $noname  V97 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /4BC81594 $noname  V93 VIA {Lib=VIA}
+  (    1 AVDD )
+ )
+ ( /4BC81593 $noname  V94 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4BC81592 $noname  V92 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4BC81591 $noname  V91 VIA {Lib=VIA}
+  (    1 DVDD )
+ )
+ ( /4BC814C7 $noname  C48 0u1 {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4BC59BF6 $noname  V6 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4BC59BF0 $noname  V3 VIA {Lib=VIA}
+  (    1 /GPIO4-RESP_PH )
+ )
+ ( /4BC59BEF $noname  V4 VIA {Lib=VIA}
+  (    1 /nDRDY )
+ )
+ ( /4BC59BEC $noname  V2 VIA {Lib=VIA}
+  (    1 /GPIO3-RESP )
+ )
+ ( /4BC52E2C $noname  R21 43k {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /NRn25 )
+ )
+ ( /4BC52E14 $noname  R20 47k {Lib=R_MINI}
+  (    1 /NRn25 )
+  (    2 /OUTneg25 )
+ )
+ ( /4BB9697D $noname  C11 10u {Lib=C_MINI}
+  (    1 /VREFP )
+  (    2 /VREFN )
+ )
+ ( /4BB958BB $noname  R3 DNI {Lib=R_MINI}
+  (    1 /CLKSEL )
+  (    2 DGND )
+ )
+ ( /4BB95889 $noname  R2 47k {Lib=R_MINI}
+  (    1 /CLKSEL )
+  (    2 DVDD )
+ )
+ ( /4BB957FF $noname  R9 47k {Lib=R_MINI}
+  (    1 /nCS )
+  (    2 DVDD )
+ )
+ ( /4BB6ECEF $noname  L3 FB {Lib=L_MINI}
+  (    1 /AVDD1 )
+  (    2 AVDD )
+ )
+ ( /4BB6EBEA $noname  C18 1u {Lib=C_MINI}
+  (    1 /VCAP2 )
+  (    2 AVSS )
+ )
+ ( /4BB6EBE5 $noname  C19 1u {Lib=C_MINI}
+  (    1 /VCAP3 )
+  (    2 AVSS )
+ )
+ ( /4BB6EBE2 $noname  C20 1u {Lib=C_MINI}
+  (    1 /VCAP4 )
+  (    2 AVSS )
+ )
+ ( /4BB6EBDF $noname  C21 100p {Lib=C_MINI}
+  (    1 /WCT )
+  (    2 AVSS )
+ )
+ ( /4BB6EA91 $noname  L10 FB {Lib=L_MINI}
+  (    1 AVSS )
+  (    2 /AVSS1 )
+ )
+ ( /4BB6E278 $noname  L13 3uH {Lib=L_MINI}
+  (    1 /INinv )
+  (    2 VCC )
+ )
+ ( /4BB6E234 $noname  L11 FB {Lib=L_MINI}
+  (    1 AVDD )
+  (    2 /OUT25 )
+ )
+ ( /4BB6E232 $noname  C26 10n {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /4BB6E231 $noname  C25 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /4BB6E1ED $noname  L8 FB {Lib=L_MINI}
+  (    1 DVDD )
+  (    2 /OUT33 )
+ )
+ ( /4BB6E1EB $noname  C5 10n {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4BB6E1EA $noname  C14 10u {Lib=C_MINI}
+  (    1 DVDD )
+  (    2 DGND )
+ )
+ ( /4BB6E1CB $noname  C38 10u {Lib=C_MINI}
+  (    1 AVSS )
+  (    2 AGND )
+ )
+ ( /4BB6E1BF $noname  C39 10n {Lib=C_MINI}
+  (    1 /OUTneg25 )
+  (    2 AGND )
+ )
+ ( /4BB6E1B4 $noname  L15 3uH {Lib=L_MINI}
+  (    1 AVSS )
+  (    2 /OUTneg25 )
+ )
+ ( /4BB6E0DE $noname  C35 10n {Lib=C_MINI}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4BB6E0BE $noname  L14 3uH {Lib=L_MINI}
+  (    1 AVCC )
+  (    2 /OUTinv )
+ )
+ ( /4BB6E064 $noname  C34 10u {Lib=C_MINI}
+  (    1 /OUTinv )
+  (    2 AGND )
+ )
+ ( /4BB6E063 $noname  C33 0u1 {Lib=C_MINI}
+  (    1 /OUTinv )
+  (    2 AGND )
+ )
+ ( /4BB6E060 $noname  C31 0u1 {Lib=C_MINI}
+  (    1 /INinv )
+  (    2 AGND )
+ )
+ ( /4BB6E05F $noname  C32 10u {Lib=C_MINI}
+  (    1 /INinv )
+  (    2 AGND )
+ )
+ ( /4BB6DE54 $noname  C28 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4BB6DC69 $noname  C30 1uF {Lib=C_MINI}
+  (    1 /Cfly- )
+  (    2 /Cfly+ )
+ )
+ ( /4BB6DC50 $noname  U4 60403 {Lib=TPS60403}
+  (    1 /OUTinv )
+  (    2 /INinv )
+  (    3 /Cfly- )
+  (    4 AGND )
+  (    5 /Cfly+ )
+ )
+ ( /4BB6CED1 $noname  L9 FB {Lib=L_MINI}
+  (    1 DGND )
+  (    2 GND )
+ )
+ ( /4BB6CEB9 $noname  U2 79230 {Lib=TPS736XX}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 N-000058 )
+  (    5 /OUT33 )
+ )
+ ( /4BB6CEB6 $noname  C13 2u2 {Lib=C_MINI}
+  (    1 /OUT33 )
+  (    2 GND )
+ )
+ ( /4BB6CEB5 $noname  C16 10n {Lib=C_MINI}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4BB6CEB4 $noname  C12 2u2 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BB6CE0B $noname  C22 2u2 {Lib=C_MINI}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BB6CD91 $noname  L12 FB {Lib=L_MINI}
+  (    1 AGND )
+  (    2 GND )
+ )
+ ( /4BB6CD27 $noname  C36 2u2 {Lib=C_MINI}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4BB6CD12 $noname  C40 10n {Lib=C_MINI}
+  (    1 /NRn25 )
+  (    2 AGND )
+ )
+ ( /4BB6CCFD $noname  C37 2u2 {Lib=C_MINI}
+  (    1 /OUTneg25 )
+  (    2 AGND )
+ )
+ ( /4BB6CBE7 $noname  C24 2u2 {Lib=C_MINI}
+  (    1 /OUT25 )
+  (    2 GND )
+ )
+ ( /4BB6CB7A $noname  R18 30k1 {Lib=R_MINI}
+  (    1 GND )
+  (    2 /FB25 )
+ )
+ ( /4BB6CB6C $noname  R17 33k4 {Lib=R_MINI}
+  (    1 /FB25 )
+  (    2 /OUT25 )
+ )
+ ( /4BB6CB54 $noname  C29 10n {Lib=C_MINI}
+  (    1 N-000065 )
+  (    2 GND )
+ )
+ ( /4BB6CB44 $noname  C23 22p {Lib=C_MINI}
+  (    1 /OUT25 )
+  (    2 /FB25 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component U3
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$component U5
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$component U2
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 3 "/VCAP1" "VCAP1"
+ C17 1
+ IC1 28
+Net 4 "DGND" "DGND"
+ V112 1
+ V117 1
+ V97 1
+ V96 1
+ IC1 49
+ V113 1
+ V111 1
+ V108 1
+ C48 2
+ V171 1
+ V172 1
+ R24 2
+ V178 1
+ IC1 33
+ V202 1
+ V203 1
+ L9 1
+ R3 2
+ C5 2
+ C14 2
+ V151 1
+ V152 1
+ V150 1
+ V143 1
+ P1 10
+ P1 7
+ P1 6
+ P1 2
+ P1 1
+ V167 1
+ V164 1
+ V160 1
+ V161 1
+ V163 1
+ C15 2
+ C7 2
+ C8 2
+ C6 2
+ IC1 31
+ IC1 51
+Net 5 "DVDD" "DVDD"
+ V91 1
+ V109 1
+ IC1 50
+ P1 3
+ R1 2
+ C6 1
+ C48 1
+ R9 2
+ C5 1
+ C15 1
+ C14 1
+ V212 1
+ V208 1
+ V209 1
+ R23 2
+ V92 1
+ IC1 48
+ L8 1
+ C8 1
+ C7 1
+ R2 2
+Net 6 "/IN1N" "IN1N"
+ IC1 15
+ IN1 6
+Net 7 "/IN1P" "IN1P"
+ IC1 16
+ IN1 5
+Net 8 "/SCLK" "SCLK"
+ P2 12
+ IC1 40
+Net 9 "GNDPWR" "GNDPWR"
+ V75 1
+ V73 1
+ V72 1
+ V76 1
+ V78 1
+ V77 1
+ V74 1
+ V90 1
+ V95 1
+ V89 1
+ V88 1
+ V100 1
+ V105 1
+ V63 1
+ V37 1
+ V39 1
+ V67 1
+ V65 1
+ V64 1
+ V68 1
+ V70 1
+ V133 1
+ V69 1
+ V71 1
+ V79 1
+ V129 1
+ V123 1
+ V110 1
+ V118 1
+ V122 1
+ V121 1
+ V85 1
+ V87 1
+ V107 1
+ V104 1
+ V134 1
+ V132 1
+ V131 1
+ V137 1
+ V142 1
+ V139 1
+ V146 1
+ V130 1
+ V128 1
+ V45 1
+ V46 1
+ V44 1
+ V40 1
+ V43 1
+ V42 1
+ V38 1
+ IN6 8
+ L1 2
+ IN2 8
+ V86 1
+ V84 1
+ V80 1
+ V81 1
+ IN7 8
+ V50 1
+ V51 1
+ V49 1
+ V48 1
+ V66 1
+ IN5 8
+ V52 1
+ V54 1
+ V53 1
+ V55 1
+ V47 1
+ RLD1 8
+ V82 1
+ V58 1
+ V83 1
+ V59 1
+ IN8 8
+ V57 1
+ IN4 8
+ V56 1
+ V60 1
+ V62 1
+ IN3 8
+ IN1 8
+ V61 1
+Net 10 "/IN3N" "IN3N"
+ IC1 11
+ IN3 6
+Net 11 "/IN3P" "IN3P"
+ IC1 12
+ IN3 5
+Net 12 "AVSS" "AVSS"
+ IN6 3
+ C1 2
+ C3 2
+ P3 10
+ IC1 57
+ V99 1
+ V98 1
+ C27 2
+ V124 1
+ C49 2
+ C50 2
+ RLD1 3
+ IC1 58
+ IC1 23
+ C2 2
+ C4 2
+ V148 1
+ IN2 3
+ P3 1
+ V155 1
+ L21 2
+ V153 1
+ V10 1
+ L10 1
+ C21 2
+ C20 2
+ C19 2
+ C18 2
+ V26 1
+ V27 1
+ V25 1
+ V24 1
+ IN3 3
+ V15 1
+ V13 1
+ V14 1
+ V12 1
+ V8 1
+ IN7 3
+ V9 1
+ V11 1
+ IC1 32
+ IN5 3
+ IN8 3
+ IN1 3
+ C28 2
+ IN4 3
+ C17 2
+ C38 1
+ IC1 20
+ L15 1
+ V41 1
+Net 13 "/IN7N" "IN7N"
+ IC1 3
+ IN7 6
+Net 14 "/IN7P" "IN7P"
+ IN7 5
+ IC1 4
+Net 15 "AVDD" "AVDD"
+ IN1 2
+ IC1 21
+ V115 1
+ IC1 22
+ IC1 56
+ IN3 2
+ V93 1
+ IC1 19
+ IC1 59
+ C50 1
+ IN7 2
+ C49 1
+ C27 1
+ C52 1
+ C51 1
+ V28 1
+ V30 1
+ V29 1
+ IN6 2
+ IN5 2
+ C2 1
+ C4 1
+ P3 3
+ IN4 2
+ C28 1
+ IN8 2
+ V31 1
+ V23 1
+ V21 1
+ V22 1
+ V20 1
+ V16 1
+ V17 1
+ V19 1
+ V18 1
+ L3 2
+ C25 1
+ C26 1
+ L11 1
+ L20 2
+ IN2 2
+ RLD1 2
+ C3 1
+ C1 1
+Net 16 "GND" "GND"
+ C16 2
+ C13 2
+ C12 2
+ L9 2
+ U2 2
+ P2 15
+ V106 1
+ V126 1
+ V125 1
+ U3 2
+ C9 1
+ C24 2
+ R18 1
+ V7 1
+ V101 1
+ C29 2
+ L1 1
+ V94 1
+ C22 2
+ P2 5
+ V166 1
+ V165 1
+ V103 1
+ L12 2
+ P2 10
+ V102 1
+Net 17 "AGND" "AGND"
+ V127 1
+ V141 1
+ V144 1
+ V6 1
+ C37 2
+ V189 1
+ V190 1
+ V188 1
+ V184 1
+ V176 1
+ V185 1
+ C40 2
+ V114 1
+ V120 1
+ V119 1
+ R21 1
+ V182 1
+ V180 1
+ IN5 1
+ IN6 7
+ IN6 4
+ IN6 1
+ V214 1
+ V140 1
+ V136 1
+ V138 1
+ IN5 7
+ IN5 4
+ L12 1
+ V179 1
+ V187 1
+ V186 1
+ V194 1
+ U5 1
+ V195 1
+ V193 1
+ V192 1
+ V196 1
+ V198 1
+ V197 1
+ V177 1
+ V199 1
+ V215 1
+ V213 1
+ C36 2
+ RLD1 7
+ IN4 4
+ IN4 7
+ RLD1 4
+ RLD1 1
+ V205 1
+ V206 1
+ V204 1
+ V200 1
+ V201 1
+ V211 1
+ IN8 1
+ P3 9
+ IN8 4
+ IN8 7
+ P3 5
+ C25 2
+ C26 2
+ V207 1
+ U4 4
+ C38 2
+ C39 2
+ C35 2
+ C34 2
+ IN1 7
+ IN1 4
+ C33 2
+ C31 2
+ C32 2
+ IN4 1
+ IN2 4
+ IN2 1
+ V191 1
+ C51 2
+ C52 2
+ IN2 7
+ IN3 7
+ IN3 4
+ IN3 1
+ IN7 7
+ IN7 4
+ IN7 1
+ IN1 1
+Net 18 "/nRESET" "nRESET"
+ IC1 36
+ V147 1
+ P2 3
+ R1 1
+Net 19 "/VCAP3" "VCAP3"
+ IC1 55
+ C19 1
+Net 20 "/VREFN" "VREFN"
+ L21 1
+ C11 2
+ IC1 25
+Net 21 "/DIN" "DIN"
+ IC1 34
+ P2 14
+Net 22 "/DOUT" "DOUT"
+ IC1 43
+ P2 11
+Net 23 "/TESTN_PACE_OUT2" "TESTN_PACE_OUT2"
+ P3 8
+ IC1 18
+Net 24 "/IN2N" "IN2N"
+ IN2 6
+ IC1 13
+Net 25 "/IN2P" "IN2P"
+ IN2 5
+ IC1 14
+Net 26 "/RLDINV" "RLDINV"
+ IC1 61
+ RLD1 6
+Net 27 "/RLDOUT" "RLDOUT"
+ IC1 63
+ RLD1 5
+Net 28 "/TESTP_PACE_OUT1" "TESTP_PACE_OUT1"
+ IC1 17
+ P3 7
+Net 29 "/RLDREF" "RLDREF"
+ IC1 60
+ P3 6
+Net 30 "/RLDIN" "RLDIN"
+ IC1 62
+ P3 4
+Net 31 "/WCT" "WCT"
+ P3 2
+ IC1 64
+ C21 1
+Net 32 "/GPIO1-PACEIN" "GPIO1-PACEIN"
+ V32 1
+ V36 1
+ P1 9
+ IC1 42
+Net 33 "/GPIO2-RESP_BLK" "GPIO2-RESP_BLK"
+ V33 1
+ P1 8
+ IC1 44
+ V168 1
+Net 34 "/GPIO3-RESP" "GPIO3-RESP"
+ V34 1
+ P1 5
+ V2 1
+ IC1 45
+Net 35 "/GPIO4-RESP_PH" "GPIO4-RESP_PH"
+ IC1 46
+ V3 1
+ P1 4
+ V35 1
+Net 36 "/IN6N" "IN6N"
+ IN6 6
+ IC1 5
+Net 37 "/IN6P" "IN6P"
+ IC1 6
+ IN6 5
+Net 38 "/IN5N" "IN5N"
+ IC1 7
+ IN5 6
+Net 39 "/IN5P" "IN5P"
+ IC1 8
+ IN5 5
+Net 40 "/IN8N" "IN8N"
+ IN8 6
+ IC1 1
+Net 41 "/IN8P" "IN8P"
+ IN8 5
+ IC1 2
+Net 42 "/IN4N" "IN4N"
+ IN4 6
+ IC1 9
+Net 43 "/IN4P" "IN4P"
+ IN4 5
+ IC1 10
+Net 44 "/INinv" "INinv"
+ C32 1
+ C31 1
+ U4 2
+ L13 1
+Net 45 "/OUTinv" "OUTinv"
+ U4 1
+ L14 2
+ C34 1
+ C33 1
+Net 46 "AVCC" "AVCC"
+ L14 1
+ C35 1
+ C36 1
+ U5 3
+ U5 2
+ V135 1
+Net 47 "/Cfly+" "Cfly+"
+ U4 5
+ C30 2
+Net 48 "/Cfly-" "Cfly-"
+ U4 3
+ C30 1
+Net 49 "/nCS" "nCS"
+ IC1 39
+ P2 13
+ R9 1
+ V1 1
+Net 50 "VCC" "VCC"
+ C22 1
+ U2 1
+ U2 3
+ C12 1
+ L13 2
+ U3 1
+ U3 3
+ L22 1
+Net 51 "/VCAP4" "VCAP4"
+ IC1 26
+ C20 1
+Net 52 "/VCAP2" "VCAP2"
+ C18 1
+ IC1 30
+Net 53 "/FB25" "FB25"
+ U3 5
+ C23 2
+ R17 1
+ R18 2
+Net 54 "/OUT25" "OUT25"
+ L11 2
+ U3 6
+ C23 1
+ R17 2
+ C24 1
+Net 55 "/AVDD1" "AVDD1"
+ IC1 54
+ L3 1
+Net 56 "/AVSS1" "AVSS1"
+ IC1 53
+ L10 2
+Net 57 "/OUT33" "OUT33"
+ C13 1
+ L8 2
+ U2 5
+Net 58 "" ""
+ C16 1
+ U2 4
+Net 59 "/OUTneg25" "OUTneg25"
+ R20 2
+ U5 5
+ C37 1
+ C39 1
+ L15 2
+Net 60 "/CLK" "CLK"
+ IC1 37
+ V116 1
+ P2 9
+Net 61 "/CLKSEL" "CLKSEL"
+ P2 8
+ IC1 52
+ R2 1
+ R3 1
+ V5 1
+Net 62 "/DAISY_IN" "DAISY_IN"
+ V174 1
+ V170 1
+ P2 7
+ IC1 41
+Net 63 "/START" "START"
+ V173 1
+ IC1 38
+ P2 4
+ R24 1
+Net 64 "/nPWDN" "nPWDN"
+ IC1 35
+ R23 1
+ P2 2
+ V169 1
+Net 65 "" ""
+ U3 4
+ C29 1
+Net 66 "/nDRDY" "nDRDY"
+ IC1 47
+ V4 1
+ P2 1
+Net 67 "/VREFP" "VREFP"
+ IC1 24
+ L20 1
+ C11 1
+Net 68 "/NRn25" "NRn25"
+ U5 4
+ C40 1
+ R20 1
+ R21 2
+Net 69 "" ""
+ L22 2
+ P2 6
+ C9 2
+ P2 16
+}
+#End

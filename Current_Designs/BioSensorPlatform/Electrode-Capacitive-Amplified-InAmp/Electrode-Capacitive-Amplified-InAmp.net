@@ -1,0 +1,168 @@
+# EESchema Netlist Version 1.1 created  13/03/2011 12:12:50
+(
+ ( /4D7CF992 $noname  C4 10u {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7CF97F $noname  C3 0u1 {Lib=C_MINI}
+  (    1 AVDD )
+  (    2 AVSS )
+ )
+ ( /4D7CF21F $noname  IN1 ToFrontEnd {Lib=CONN_8}
+  (    1 AGND )
+  (    2 /AVDD_CONN )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /INP )
+  (    6 AVSS )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+ ( /4D7CF217 $noname  L1 FB {Lib=L_MINI}
+  (    1 /AVDD_CONN )
+  (    2 AVDD )
+ )
+ ( /4D7CF18F $noname  R1 49.9 {Lib=R_MINI}
+  (    1 /RG2 )
+  (    2 /RG )
+ )
+ ( /4D7CEC12 $noname  IC1 INAMP {Lib=INAMP}
+  (    1 /RG2 )
+  (    2 /-IN )
+  (    3 /+IN )
+  (    4 AVSS )
+  (    5 AGND )
+  (    6 /OUTPUT )
+  (    7 AVDD )
+  (    8 /RG )
+ )
+ ( /4D7CDC17 $noname  V9 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC16 $noname  V10 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC15 $noname  V12 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC14 $noname  V11 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC13 $noname  V15 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC12 $noname  V16 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC11 $noname  V14 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC10 $noname  V13 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0F $noname  V5 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0E $noname  V6 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0D $noname  V8 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0C $noname  V7 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0A $noname  V3 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC09 $noname  V4 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC07 $noname  V2 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDBFE $noname  V1 VIA {Lib=VIA}
+  (    1 /Electrode )
+ )
+ ( /4D7CD81E $noname  P2 Shield {Lib=CONN_1}
+  (    1 /Shield )
+ )
+ ( /4D7CD810 $noname  P1 Electrode {Lib=CONN_1}
+  (    1 /Electrode )
+ )
+ ( /4D7CD545 $noname  R3 10 {Lib=R_MINI}
+  (    1 /INP )
+  (    2 /OUTPUT )
+ )
+ ( /4D7CD523 $noname  C2 . {Lib=C_MINI}
+  (    1 /-IN )
+  (    2 /Shield )
+ )
+ ( /4D7C601B $noname  C1 . {Lib=C_MINI}
+  (    1 /+IN )
+  (    2 /Electrode )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "AGND" "AGND"
+ IN1 7
+ IN1 4
+ IN1 1
+ IC1 5
+Net 2 "AVDD" "AVDD"
+ C4 1
+ C3 1
+ IC1 7
+ L1 2
+Net 3 "AVSS" "AVSS"
+ C4 2
+ IC1 4
+ IN1 6
+ C3 2
+ IN1 3
+Net 4 "/RG" "RG"
+ R1 2
+ IC1 8
+Net 5 "/RG2" "RG2"
+ R1 1
+ IC1 1
+Net 6 "/AVDD_CONN" "AVDD_CONN"
+ L1 1
+ IN1 2
+Net 7 "/+IN" "+IN"
+ C1 1
+ IC1 3
+Net 8 "/-IN" "-IN"
+ C2 1
+ IC1 2
+Net 9 "/OUTPUT" "OUTPUT"
+ R3 2
+ IC1 6
+Net 10 "/INP" "INP"
+ R3 1
+ IN1 5
+Net 11 "/Electrode" "Electrode"
+ V1 1
+ P1 1
+ C1 2
+Net 12 "/Shield" "Shield"
+ V9 1
+ V10 1
+ C2 2
+ V12 1
+ V11 1
+ P2 1
+ V15 1
+ V16 1
+ V14 1
+ V13 1
+ V5 1
+ V6 1
+ V8 1
+ V7 1
+ V3 1
+ V4 1
+ V2 1
+}
+#End
