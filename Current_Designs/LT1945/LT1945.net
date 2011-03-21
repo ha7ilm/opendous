@@ -1,5 +1,42 @@
-# EESchema Netlist Version 1.1 created  15/10/2010 06:01:22
+# EESchema Netlist Version 1.1 created  12/03/2011 16:19:43
 (
+ ( /4D7BE2A9 $noname  P1 9V {Lib=CONN_2}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D7383E6 $noname  V913 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D7383E0 $noname  V914 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D73826F $noname  V912 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D737F72 $noname  C97 10u {Lib=C_MINI}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D737F4F $noname  BT1 BATTERY {Lib=BATTERY}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D6786D7 $noname  D95 POS_ON {Lib=D_LED}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /4D6786D6 $noname  R93 2k {Lib=R_MINI}
+  (    1 N-000005 )
+  (    2 VSUP2 )
+ )
+ ( /4D678616 $noname  R83 2k {Lib=R_MINI}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4D67860B $noname  D94 NEG_ON {Lib=D_LED}
+  (    1 VSUP1 )
+  (    2 N-000006 )
+ )
  ( /4C7385AD $noname  V906 VIA {Lib=VIA}
   (    1 GND )
  )
@@ -28,13 +65,13 @@
   (    1 GND )
  )
  ( /4C738063 $noname  V902 VIA {Lib=VIA}
-  (    1 /SW1 )
+  (    1 GND )
  )
  ( /4C73805F $noname  V901 VIA {Lib=VIA}
-  (    1 /SW1 )
+  (    1 GND )
  )
  ( /4C738055 $noname  V900 VIA {Lib=VIA}
-  (    1 VSUP1 )
+  (    1 GND )
  )
  ( /4C7378BE $noname  P92 VOUT {Lib=CONN_3}
   (    1 VSUP1 )
@@ -45,17 +82,17 @@
   (    1 VIN )
   (    2 GND )
  )
- ( /4C73667A $noname  D92 MBR120 {Lib=D_SCHOTTKY}
+ ( /4C73667A $noname  D92 MBR140 {Lib=D_SCHOTTKY}
   (    1 GND )
-  (    2 N-000009 )
+  (    2 N-000010 )
  )
- ( /4C736527 $noname  R92 R_MINI {Lib=R_MINI}
+ ( /4C736527 $noname  R92 100k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000007 )
+  (    2 /FB2 )
  )
- ( /4C73650E $noname  R82 R_MINI {Lib=R_MINI}
+ ( /4C73650E $noname  R82 24k9 {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000005 )
+  (    2 /nFB1 )
  )
  ( /4C736145 $noname  C94 1u0 {Lib=C_MINI}
   (    1 VSUP1 )
@@ -66,23 +103,23 @@
   (    2 GND )
  )
  ( /4C7360B6 $noname  C92 0u1 {Lib=C_MINI}
-  (    1 N-000009 )
+  (    1 N-000010 )
   (    2 /SW1 )
  )
  ( /4C735F12 $noname  C95 4p7 {Lib=C_MINI}
   (    1 VSUP2 )
-  (    2 N-000007 )
+  (    2 /FB2 )
  )
  ( /4C735ECA $noname  C93 100p {Lib=C_MINI}
   (    1 VSUP1 )
-  (    2 N-000005 )
+  (    2 /nFB1 )
  )
- ( /4C735E6D $noname  D91 MBR120 {Lib=D_SCHOTTKY}
-  (    1 N-000009 )
+ ( /4C735E6D $noname  D91 MBR140 {Lib=D_SCHOTTKY}
+  (    1 N-000010 )
   (    2 VSUP1 )
  )
  ( /4C735E0C $noname  R91 R_MINI {Lib=R_MINI}
-  (    1 N-000007 )
+  (    1 /FB2 )
   (    2 VSUP2 )
  )
  ( /4C735DE9 $noname  C91 4u7 {Lib=C_MINI}
@@ -90,15 +127,15 @@
   (    2 GND )
  )
  ( /4C735D8E $noname  R81 R_MINI {Lib=R_MINI}
-  (    1 N-000005 )
+  (    1 /nFB1 )
   (    2 VSUP1 )
  )
- ( /4C735D5E $noname  D93 MBR120 {Lib=D_SCHOTTKY}
+ ( /4C735D5E $noname  D93 MBR140 {Lib=D_SCHOTTKY}
   (    1 VSUP2 )
-  (    2 N-000006 )
+  (    2 /SW2 )
  )
  ( /4C735D4C $noname  L93 10uH {Lib=L_MINI}
-  (    1 N-000006 )
+  (    1 /SW2 )
   (    2 VIN )
  )
  ( /4C735D46 $noname  L91 10uH {Lib=L_MINI}
@@ -106,12 +143,12 @@
   (    2 VIN )
  )
  ( /4C735D20 $noname  IC91 LT1945 {Lib=LT1945}
-  (    1 N-000005 )
+  (    1 /nFB1 )
   (    2 VIN )
   (    3 GND )
   (    4 VIN )
-  (    5 N-000007 )
-  (    6 N-000006 )
+  (    5 /FB2 )
+  (    6 /SW2 )
   (    7 GND )
   (    8 VIN )
   (    9 GND )
@@ -142,70 +179,89 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "GND" "GND"
- IC91 9
- IC91 7
- V906 1
- V907 1
- V908 1
  IC91 3
- V909 1
- V910 1
- V911 1
- C91 2
- P91 2
- P92 2
- V903 1
- V904 1
- V905 1
- C96 2
- C94 2
- R82 1
- R92 1
+ IC91 7
+ IC91 9
  D92 1
-Net 2 "VSUP1" "VSUP1"
- P92 1
- R81 2
- D91 2
- C93 1
- C94 1
- V900 1
-Net 3 "/SW1" "SW1"
+ R92 1
+ R82 1
+ C94 2
+ C96 2
+ D95 1
+ P1 2
+ V913 1
+ V914 1
+ V912 1
+ C97 2
+ BT1 2
+ V911 1
+ P91 2
+ V910 1
+ P92 2
+ V909 1
+ V908 1
+ C91 2
+ V907 1
+ V905 1
+ V904 1
+ V903 1
  V902 1
  V901 1
- C92 2
- IC91 10
- L91 1
+ V900 1
+ R83 2
+ V906 1
+Net 2 "VSUP1" "VSUP1"
+ D94 1
+ D91 2
+ R81 2
+ C94 1
+ P92 1
+ C93 1
+Net 3 "VSUP2" "VSUP2"
+ R93 2
+ P92 3
+ C95 1
+ D93 1
+ R91 2
+ C96 1
 Net 4 "VIN" "VIN"
- IC91 2
- L91 2
- IC91 4
+ P1 1
+ C97 1
+ P91 1
+ BT1 1
+ C91 1
  IC91 8
  L93 2
- C91 1
- P91 1
+ IC91 4
+ IC91 2
+ L91 2
 Net 5 "" ""
- IC91 1
+ D95 2
+ R93 1
+Net 6 "" ""
+ D94 2
+ R83 1
+Net 7 "/FB2" "FB2"
+ R92 2
+ R91 1
+ C95 2
+ IC91 5
+Net 8 "/nFB1" "nFB1"
+ R82 2
  R81 1
  C93 2
- R82 2
-Net 6 "" ""
- L93 1
+ IC91 1
+Net 9 "/SW2" "SW2"
  D93 2
+ L93 1
  IC91 6
-Net 7 "" ""
- IC91 5
- C95 2
- R91 1
- R92 2
-Net 8 "VSUP2" "VSUP2"
- C96 1
- P92 3
- D93 1
- C95 1
- R91 2
-Net 9 "" ""
- C92 1
+Net 10 "" ""
  D91 1
+ C92 1
  D92 2
+Net 11 "/SW1" "SW1"
+ IC91 10
+ L91 1
+ C92 2
 }
 #End

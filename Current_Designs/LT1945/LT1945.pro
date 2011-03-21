@@ -1,4 +1,4 @@
-update=15/10/2010 05:58:31
+update=20/03/2011 15:23:07
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -82,9 +82,9 @@ LibName30=valves
 LibName31=power
 [pcbnew]
 version=1
-PadDrlX=250
-PadDimH=460
-PadDimV=460
+PadDrlX=0
+PadDimH=157
+PadDimV=790
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=320
@@ -92,7 +92,7 @@ TxtPcbH=320
 TxtModV=320
 TxtModH=320
 TxtModW=80
-VEgarde=100
+VEgarde=10
 DrawLar=80
 EdgeLar=80
 TxtLar=80

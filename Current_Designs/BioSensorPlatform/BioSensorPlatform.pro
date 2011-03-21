@@ -1,4 +1,4 @@
-update=13/03/2011 09:22:02
+update=20/03/2011 15:14:50
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -91,12 +91,12 @@ TxtPcbV=320
 TxtPcbH=320
 TxtModV=320
 TxtModH=320
-TxtModW=160
-VEgarde=100
+TxtModW=80
+VEgarde=10
 DrawLar=160
 EdgeLar=160
 TxtLar=160
-MSegLar=160
+MSegLar=80
 LastNetListRead=BioSensorPlatform.net
 [pcbnew/libraries]
 LibDir=

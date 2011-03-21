@@ -1,6 +1,7 @@
-Bill of Materials for the BioSensoPlatform Project
+Bill of Materials for the ADS1298 Project
 
-THIS FILE HAS NOT YET BEEN UPDATED FOR THE NEW BioSensoPlatform REVISION!
+
+THIS FILE HAS NOT YET BEEN UPDATED FOR THE LATEST REVISION OF THE DESIGN
 
 
 Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description

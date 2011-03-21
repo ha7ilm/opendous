@@ -1,0 +1,109 @@
+Bill of Materials for LT1945 Project
+
+THIS FILE HAS NOT YET BEEN UPDATED FOR THE LATEST DESIGN REVISION
+
+ 2, 500R15N180JV4T         , 0.04 - C1 C2 - CAP CER 18PF 50V NP0 0805
+ 3, GRM21BR71H104KA01L     , 0.04 - C3 C8 C9 - CAP CER .1UF 50V 10% X7R 0805
+ 1, C2012X7R1A105K         , 0.05 - C4 - CAP CER 1.0UF 10V X7R 10% Low ESR 0805
+ 1, C0805C475K8PACTU       , 0.22 - C6 - CAP CER 4.7UF 10V X5R 0805
+ 2, ESD03A5V5R17V          , 0.56 - CR1 CR2 - SUPPRESSOR ESD 0.2PF 5.5VDC 0603
+ 1, BLM21PG221SN1D         , 0.06 - L4 - FERRITE CHIP 220 OHM 2000MA 0805
+ 1, APT2012EC              , 0.13 - D1 - LED 20mA 2X1.2MM 625NM RED WTR CLR SMD 0805
+ 1, APT2012SGC             , 0.13 - D2 - LED 20mA 2X1.2MM 568NM GREEN WTR CLR SMD 0805
+ 2, MCR10EZPF22R0          , 0.04 - R1 R2 - RES 22.0 OHM 1/8W 1% 0805 SMD
+ 2, RMCF0805JT390R         , 0.03 - R5 R6 - RES 390 OHM 1/8W 5% 0805 SMD
+ 2, RMCF0805JT47K0         , 0.03 - R3 R4 - RES 47K OHM 1/8W 5% 0805 SMD
+ 1, ABLS-16.000MHZ-B4-T    , 0.41 - X1 - CRYSTAL 16.000 MHZ 18PF HC49US 30ppm
+--------------Cost Estimate: 8.81
+
+Notes:	- Component costs listed are for minimal quantity orders from DigiKey
+	- 
+
+
+eeschema (2011-01-22 BZR 2754)-stable  >> Creation date: 06/03/2011 10:14:16
+
+#Cmp ( order = Reference )
+| BT1        BATTERY     ;             
+| C91        4u7         ;             
+| C92        0u1         ;             
+| C93        100p        ;             
+| C94        1u0         ;             
+| C95        4p7         ;             
+| C96        1u0         ;             
+| C97        10u         ;             
+| D91        MBR140      ;             
+| D92        MBR140      ;             
+| D93        MBR140      ;             
+| D94        NEG_ON      ;             
+| D95        POS_ON      ;             
+| IC91       LT1945      ;             
+| L91        10uH        ;             
+| L93        10uH        ;             
+| P91        VIN         ;             
+| P92        VOUT        ;             
+| R81        R_MINI      ;             
+| R82        24k9        ;             
+| R83        2k          ;             
+| R91        R_MINI      ;             
+| R92        100k        ;             
+| R93        2k          ;             
+| V900       VIA         ;             
+| V901       VIA         ;             
+| V902       VIA         ;             
+| V903       VIA         ;             
+| V904       VIA         ;             
+| V905       VIA         ;             
+| V906       VIA         ;             
+| V907       VIA         ;             
+| V908       VIA         ;             
+| V909       VIA         ;             
+| V910       VIA         ;             
+| V911       VIA         ;             
+| V912       VIA         ;             
+| V913       VIA         ;             
+| V914       VIA         ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 0u1          C92       ;             
+| 100k         R92       ;             
+| 100p         C93       ;             
+| 10u          C97       ;             
+| 10uH         L91       ;             
+| 10uH         L93       ;             
+| 1u0          C94       ;             
+| 1u0          C96       ;             
+| 24k9         R82       ;             
+| 2k           R83       ;             
+| 2k           R93       ;             
+| 4p7          C95       ;             
+| 4u7          C91       ;             
+| BATTERY      BT1       ;             
+| LT1945       IC91      ;             
+| MBR140       D91       ;             
+| MBR140       D92       ;             
+| MBR140       D93       ;             
+| NEG_ON       D94       ;             
+| POS_ON       D95       ;             
+| R_MINI       R81       ;             
+| R_MINI       R91       ;             
+| VIA          V900      ;             
+| VIA          V901      ;             
+| VIA          V902      ;             
+| VIA          V903      ;             
+| VIA          V904      ;             
+| VIA          V905      ;             
+| VIA          V906      ;             
+| VIA          V907      ;             
+| VIA          V908      ;             
+| VIA          V909      ;             
+| VIA          V910      ;             
+| VIA          V911      ;             
+| VIA          V912      ;             
+| VIA          V913      ;             
+| VIA          V914      ;             
+| VIN          P91       ;             
+| VOUT         P92       ;             
+#End Cmp
+
+#End List

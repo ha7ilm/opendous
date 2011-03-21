@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 13/03/2011 09:07:37
+Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 20/03/2011 14:56:05
 
 BeginCmp
 TimeStamp = /4D7C601B;
@@ -61,6 +61,13 @@ TimeStamp = /4D7CC229;
 Reference = C9;
 ValeurCmp = 100u;
 IdModule  = 1210_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D865B69;
+Reference = C10;
+ValeurCmp = 1n5;
+IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
@@ -319,56 +326,56 @@ BeginCmp
 TimeStamp = /4D7BFC25;
 Reference = IN1;
 ValeurCmp = IN1;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D70;
 Reference = IN2;
 ValeurCmp = IN2;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D46;
 Reference = IN3;
 ValeurCmp = IN3;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D63;
 Reference = IN4;
 ValeurCmp = IN4;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D54;
 Reference = IN5;
 ValeurCmp = IN5;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D55;
 Reference = IN6;
 ValeurCmp = IN6;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D47;
 Reference = IN7;
 ValeurCmp = IN7;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7C5D62;
 Reference = IN8;
 ValeurCmp = IN8;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
@@ -505,6 +512,13 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D865B75;
+Reference = R4;
+ValeurCmp = 1M;
+IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BB957FF;
 Reference = R9;
 ValeurCmp = 47k;
@@ -557,34 +571,34 @@ BeginCmp
 TimeStamp = /4D7C5D71;
 Reference = RLD1;
 ValeurCmp = RLD;
-IdModule  = SATA_Molex_67490-1220;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BB6CEB9;
 Reference = U2;
-ValeurCmp = TPS79230;
+ValeurCmp = 79230;
 IdModule  = SOT23-5_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BB6CABB;
 Reference = U3;
-ValeurCmp = TPS79201;
+ValeurCmp = 79201;
 IdModule  = SOT23-6_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BB6DC50;
 Reference = U4;
-ValeurCmp = TPS60403;
+ValeurCmp = 60403;
 IdModule  = SOT23-5_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BDC3FFE;
 Reference = U5;
-ValeurCmp = TPS72325;
+ValeurCmp = 72325;
 IdModule  = SOT23-5_Opendous;
 EndCmp
 

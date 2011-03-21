@@ -1,0 +1,110 @@
+# EESchema Netlist Version 1.1 created  20/03/2011 14:30:05
+(
+ ( /4D86530E $noname  R1 0 {Lib=R_MINI}
+  (    1 /INN )
+  (    2 /Shield )
+ )
+ ( /4D7CFFDB $noname  P2 Shield {Lib=CONN_1}
+  (    1 /Shield )
+ )
+ ( /4D7CFFAE $noname  P1 Electrode {Lib=CONN_1}
+  (    1 /Electrode )
+ )
+ ( /4D7CFF04 $noname  R2 0 {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /Shield )
+ )
+ ( /4D7CDC17 $noname  V9 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC16 $noname  V10 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC15 $noname  V12 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC14 $noname  V11 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC13 $noname  V15 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC12 $noname  V16 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC11 $noname  V14 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC10 $noname  V13 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0F $noname  V5 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0E $noname  V6 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0D $noname  V8 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0C $noname  V7 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC0A $noname  V3 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC09 $noname  V4 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDC07 $noname  V2 VIA {Lib=VIA}
+  (    1 /Shield )
+ )
+ ( /4D7CDBFE $noname  V1 VIA {Lib=VIA}
+  (    1 /Electrode )
+ )
+ ( /4D7BFC25 $noname  IN1 OutToFrontEnd {Lib=CONN_8}
+  (    1 AGND )
+  (    2 AVDD )
+  (    3 AVSS )
+  (    4 AGND )
+  (    5 /Electrode )
+  (    6 /INN )
+  (    7 AGND )
+  (    8 GNDPWR )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/Electrode" "Electrode"
+ P1 1
+ IN1 5
+ V1 1
+Net 2 "/Shield" "Shield"
+ R1 2
+ V2 1
+ V14 1
+ V16 1
+ V15 1
+ V11 1
+ V12 1
+ V10 1
+ V9 1
+ R2 2
+ P2 1
+ V13 1
+ V5 1
+ V6 1
+ V8 1
+ V7 1
+ V3 1
+ V4 1
+Net 6 "AGND" "AGND"
+ R2 1
+ IN1 1
+ IN1 7
+ IN1 4
+Net 7 "/INN" "INN"
+ R1 1
+ IN1 6
+}
+#End

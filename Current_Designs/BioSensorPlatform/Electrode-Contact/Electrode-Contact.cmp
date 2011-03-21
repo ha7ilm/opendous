@@ -1,79 +1,100 @@
-Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 13/03/2011 12:08:28
+Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 20/03/2011 13:29:39
 
 BeginCmp
-TimeStamp = /4D7C601B;
+TimeStamp = /4D7CFDE9;
 Reference = C1;
 ValeurCmp = .;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CD523;
+TimeStamp = /4D7CFF70;
 Reference = C2;
 ValeurCmp = .;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CF97F;
+TimeStamp = /4D7CFDFB;
 Reference = C3;
-ValeurCmp = 0u1;
+ValeurCmp = .;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CF992;
+TimeStamp = /4D8646D4;
 Reference = C4;
-ValeurCmp = 10u;
+ValeurCmp = u01;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CEC12;
+TimeStamp = /4D86466A;
 Reference = IC1;
-ValeurCmp = INAMP;
-IdModule  = SO8E_4x5mm_Opendous;
+ValeurCmp = MC33501;
+IdModule  = SOT23-5_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CF21F;
+TimeStamp = /4D7BFC25;
 Reference = IN1;
-ValeurCmp = ToFrontEnd;
-IdModule  = SATA_Molex_67490-1220;
+ValeurCmp = RLDFromFrontEnd;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CF217;
-Reference = L1;
-ValeurCmp = FB;
-IdModule  = 0603_Opendous;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7CD810;
+TimeStamp = /4D7CFFAE;
 Reference = P1;
 ValeurCmp = Electrode;
 IdModule  = 1Pin_TH_40milVia;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CD81E;
+TimeStamp = /4D7CFFDB;
 Reference = P2;
 ValeurCmp = Shield;
 IdModule  = 1Pin_15mil_VIA;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CF18F;
+TimeStamp = /4D7CD545;
 Reference = R1;
-ValeurCmp = 49.9;
+ValeurCmp = 100k;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CD545;
+TimeStamp = /4D7CFF52;
+Reference = R2;
+ValeurCmp = 1M;
+IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CFE68;
 Reference = R3;
-ValeurCmp = 10;
+ValeurCmp = 0;
+IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CFF04;
+Reference = R4;
+ValeurCmp = .;
+IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CFEEA;
+Reference = R5;
+ValeurCmp = .;
+IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8646BA;
+Reference = R6;
+ValeurCmp = .;
 IdModule  = 0805_Opendous;
 EndCmp
 
