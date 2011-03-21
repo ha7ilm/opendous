@@ -1,4 +1,4 @@
-update=13/03/2011 12:43:03
+update=20/03/2011 14:08:41
 version=1
 last_client=pcbnew
 [general]
@@ -83,12 +83,12 @@ TxtPcbH=320
 TxtModV=320
 TxtModH=320
 TxtModW=80
-VEgarde=100
+VEgarde=10
 DrawLar=80
 EdgeLar=80
 TxtLar=80
 MSegLar=80
-LastNetListRead=Electrode-Capacitive-RLD.net
+LastNetListRead=Electrode-Capacitive-DRL-RLD.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

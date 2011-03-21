@@ -1,5 +1,20 @@
-# EESchema Netlist Version 1.1 created  13/03/2011 12:36:19
+# EESchema Netlist Version 1.1 created  20/03/2011 14:06:51
 (
+ ( /4D8646D4 $noname  C4 u01 {Lib=C_MINI}
+  (    1 N-000010 )
+  (    2 AGND )
+ )
+ ( /4D8646BA $noname  R6 . {Lib=R_MINI}
+  (    1 /Shield )
+  (    2 N-000008 )
+ )
+ ( /4D86466A $noname  IC1 OpAmp {Lib=OPAMP_SINGLE_SOT23}
+  (    1 N-000008 )
+  (    2 AVDD )
+  (    3 N-000010 )
+  (    4 N-000008 )
+  (    5 AVSS )
+ )
  ( /4D7CFFDB $noname  P2 Shield {Lib=CONN_1}
   (    1 /Shield )
  )
@@ -99,56 +114,67 @@
 )
 *
 { Pin List by Nets
-Net 1 "/Shield" "Shield"
- V11 1
- V12 1
- V10 1
- V9 1
- P2 1
- R4 2
- R5 2
- V4 1
+Net 1 "AVDD" "AVDD"
+ IN1 2
+ IC1 2
+ C3 1
+Net 2 "AVSS" "AVSS"
+ C3 2
+ IN1 3
+ IC1 5
+Net 3 "/RLDOUT" "RLDOUT"
+ R1 1
+ C1 1
+ IN1 5
+Net 4 "/RLDINV" "RLDINV"
+ IN1 6
+ C1 2
+ R3 1
+Net 5 "/Shield" "Shield"
  V2 1
+ V4 1
  V3 1
- V7 1
- V8 1
+ P2 1
+ R6 1
+ R5 2
+ R4 2
  V6 1
  V5 1
  V13 1
  V14 1
  V16 1
  V15 1
-Net 2 "/RLDINV" "RLDINV"
- R3 1
- C1 2
- IN1 6
-Net 3 "AVSS" "AVSS"
- IN1 3
- C3 2
-Net 4 "AVDD" "AVDD"
- C3 1
- IN1 2
-Net 5 "AGND" "AGND"
- IN1 1
- IN1 4
- R4 1
- IN1 7
-Net 6 "/Electrode" "Electrode"
- R2 2
+ V11 1
+ V12 1
+ V9 1
+ V7 1
+ V8 1
+ V10 1
+Net 6 "GNDPWR" "GNDPWR"
+ IN1 8
+ R5 1
+Net 7 "/Electrode" "Electrode"
  C2 1
  P1 1
  V1 1
+ R2 2
  R1 2
-Net 7 "/RLDOUT" "RLDOUT"
- IN1 5
- R1 1
- C1 1
-Net 8 "GNDPWR" "GNDPWR"
- R5 1
- IN1 8
-Net 9 "/RLDINV_FILT" "RLDINV_FILT"
- C2 2
- R2 1
+Net 8 "" ""
+ IC1 4
+ IC1 1
+ R6 2
+Net 9 "AGND" "AGND"
+ IN1 4
+ IN1 7
+ R4 1
+ C4 2
+ IN1 1
+Net 10 "" ""
+ C4 1
+ IC1 3
+Net 11 "/RLDINV_FILT" "RLDINV_FILT"
  R3 2
+ R2 1
+ C2 2
 }
 #End

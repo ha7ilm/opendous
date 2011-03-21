@@ -1,80 +1,80 @@
-Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 13/03/2011 12:34:43
+Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 20/03/2011 13:01:40
 
 BeginCmp
-TimeStamp = /4D7CFDE9;
+TimeStamp = /4D7C601B;
 Reference = C1;
-ValeurCmp = .;
-IdModule  = 0805_Opendous;
+ValeurCmp = u01;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CFF70;
+TimeStamp = /4D7CD523;
 Reference = C2;
-ValeurCmp = .;
-IdModule  = 0805_Opendous;
+ValeurCmp = u22;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CFDFB;
+TimeStamp = /4D7C601C;
 Reference = C3;
-ValeurCmp = .;
-IdModule  = 0805_Opendous;
+ValeurCmp = 0u1;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CEDC8;
+Reference = IC1;
+ValeurCmp = OPAMP;
+IdModule  = SO8E_4x5mm_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D7BFC25;
 Reference = IN1;
-ValeurCmp = RLDFromFrontEnd;
-IdModule  = SATA_Molex_67490-1220;
+ValeurCmp = ToFrontEnd;
+IdModule  = SATA_Molex_67490-1220_Electrode;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CFFAE;
+TimeStamp = /4D7CE37B;
+Reference = L1;
+ValeurCmp = FB;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CD810;
 Reference = P1;
 ValeurCmp = Electrode;
 IdModule  = 1Pin_TH_40milVia;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CFFDB;
+TimeStamp = /4D7CD81E;
 Reference = P2;
 ValeurCmp = Shield;
 IdModule  = 1Pin_15mil_VIA;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CD545;
+TimeStamp = /4D7CD555;
 Reference = R1;
-ValeurCmp = 100k;
-IdModule  = 0805_Opendous;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7CFF52;
-Reference = R2;
 ValeurCmp = 1M;
-IdModule  = 0805_Opendous;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7CFE68;
+TimeStamp = /4D7CD785;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7CD545;
 Reference = R3;
-ValeurCmp = 0;
-IdModule  = 0805_Opendous;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7CFF04;
-Reference = R4;
-ValeurCmp = .;
-IdModule  = 0805_Opendous;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7CFEEA;
-Reference = R5;
-ValeurCmp = .;
-IdModule  = 0805_Opendous;
+ValeurCmp = 10;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
