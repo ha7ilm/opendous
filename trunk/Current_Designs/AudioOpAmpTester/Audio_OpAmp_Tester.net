@@ -1,0 +1,1181 @@
+# EESchema Netlist Version 1.1 created  21/03/2011 08:54:06
+(
+ ( /4D87541A $noname  P4 8DIP {Lib=CONN_8}
+  (    1 N-000046 )
+  (    2 N-000047 )
+  (    3 N-000045 )
+  (    4 /Thermal )
+  (    5 N-000044 )
+  (    6 N-000048 )
+  (    7 N-000043 )
+  (    8 N-000049 )
+ )
+ ( /4D875419 $noname  P5 8MSOP {Lib=CONN_8}
+  (    1 N-000046 )
+  (    2 N-000047 )
+  (    3 N-000045 )
+  (    4 /Thermal )
+  (    5 N-000044 )
+  (    6 N-000048 )
+  (    7 N-000043 )
+  (    8 N-000049 )
+ )
+ ( /4D8753C1 $noname  P3 8SOIC {Lib=CONN_8}
+  (    1 N-000054 )
+  (    2 N-000052 )
+  (    3 N-000055 )
+  (    4 /Thermal )
+  (    5 N-000056 )
+  (    6 N-000051 )
+  (    7 N-000057 )
+  (    8 N-000050 )
+ )
+ ( /4D8753B8 $noname  P2 8DIP {Lib=CONN_8}
+  (    1 N-000054 )
+  (    2 N-000052 )
+  (    3 N-000055 )
+  (    4 /Thermal )
+  (    5 N-000056 )
+  (    6 N-000051 )
+  (    7 N-000057 )
+  (    8 N-000050 )
+ )
+ ( /4D874E46 $noname  IC2 OpAmp {Lib=OPAMP_DUAL_8PIN}
+  (    1 /OUT1 )
+  (    2 /IN1- )
+  (    3 /IN1+ )
+  (    4 -15V )
+  (    5 /IN2+ )
+  (    6 /IN2- )
+  (    7 /OUT2 )
+  (    8 +15V )
+ )
+ ( /4D874CBC $noname  V120 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CBB $noname  V121 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CBA $noname  V123 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CB9 $noname  V122 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CB8 $noname  V118 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CB7 $noname  V119 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CB6 $noname  V117 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D874CB5 $noname  V116 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743FB $noname  V106 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743FA $noname  V107 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F9 $noname  V109 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F8 $noname  V108 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F7 $noname  V112 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F6 $noname  V113 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F5 $noname  V111 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743F4 $noname  V110 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743E0 $noname  V114 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8743D1 $noname  V115 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741F1 $noname  V104 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741F0 $noname  V105 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741EF $noname  V103 VIA {Lib=VIA}
+  (    1 -15V )
+ )
+ ( /4D8741EB $noname  V100 VIA {Lib=VIA}
+  (    1 -15V )
+ )
+ ( /4D8741E1 $noname  V102 VIA {Lib=VIA}
+  (    1 -15V )
+ )
+ ( /4D8741E0 $noname  V101 VIA {Lib=VIA}
+  (    1 -15V )
+ )
+ ( /4D8741C7 $noname  V80 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C6 $noname  V81 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C5 $noname  V83 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C4 $noname  V82 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C3 $noname  V78 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C2 $noname  V79 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C1 $noname  V77 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741C0 $noname  V76 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741BD $noname  V92 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741BC $noname  V93 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741BB $noname  V95 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741BA $noname  V94 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B9 $noname  V98 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B8 $noname  V99 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B7 $noname  V97 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B6 $noname  V96 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B3 $noname  V84 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8741B2 $noname  V85 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741B1 $noname  V87 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741B0 $noname  V86 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741AF $noname  V90 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741AE $noname  V91 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741AD $noname  V89 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D8741AC $noname  V88 VIA {Lib=VIA}
+  (    1 AGND )
+ )
+ ( /4D873FD1 $noname  V68 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FD0 $noname  V69 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCF $noname  V71 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCE $noname  V70 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCD $noname  V74 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCC $noname  V75 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCB $noname  V73 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873FCA $noname  V72 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D873B4D $noname  V65 VIA {Lib=VIA}
+  (    1 +18V )
+ )
+ ( /4D873B4C $noname  V64 VIA {Lib=VIA}
+  (    1 -18V )
+ )
+ ( /4D873B40 $noname  V66 VIA {Lib=VIA}
+  (    1 -18V )
+ )
+ ( /4D873B3F $noname  V67 VIA {Lib=VIA}
+  (    1 +18V )
+ )
+ ( /4D8735EC $noname  L7 10uH {Lib=L_MINI}
+  (    1 GNDFence )
+  (    2 AGND )
+ )
+ ( /4D873474 $noname  C14 0u1 {Lib=C_MINI}
+  (    1 -15V )
+  (    2 AGND )
+ )
+ ( /4D873459 $noname  V52 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873458 $noname  V53 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873457 $noname  V55 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873456 $noname  V54 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873455 $noname  V50 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873454 $noname  V51 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873453 $noname  V49 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873452 $noname  V48 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87344E $noname  V60 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87344D $noname  V61 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87344C $noname  V63 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87344B $noname  V62 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87344A $noname  V58 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873449 $noname  V59 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873448 $noname  V57 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873447 $noname  V56 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873326 $noname  V32 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873325 $noname  V33 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873324 $noname  V35 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873323 $noname  V34 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873322 $noname  V38 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873321 $noname  V39 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873320 $noname  V37 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331F $noname  V36 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331E $noname  V44 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331D $noname  V45 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331C $noname  V47 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331B $noname  V46 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87331A $noname  V42 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873319 $noname  V43 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873318 $noname  V41 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D873317 $noname  V40 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D8720F6 $noname  L6 FB {Lib=L_MINI}
+  (    1 /OUT_GND )
+  (    2 AGND )
+ )
+ ( /4D87205D $noname  C10 0u1 {Lib=C_MINI}
+  (    1 /IN2+ )
+  (    2 N-000019 )
+ )
+ ( /4D87205C $noname  R6 100k {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /IN2+ )
+ )
+ ( /4D87205A $noname  R10 100k {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /IN2- )
+ )
+ ( /4D872059 $noname  R9 100k {Lib=R_MINI}
+  (    1 /IN2- )
+  (    2 /OUT2 )
+ )
+ ( /4D872057 $noname  R12 0 {Lib=R_MINI}
+  (    1 /OUT_Right )
+  (    2 /OUT2 )
+ )
+ ( /4D872044 $noname  R11 0 {Lib=R_MINI}
+  (    1 /OUT_Left )
+  (    2 /OUT1 )
+ )
+ ( /4D872023 $noname  R7 100k {Lib=R_MINI}
+  (    1 /IN1- )
+  (    2 /OUT1 )
+ )
+ ( /4D872010 $noname  R8 100k {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /IN1- )
+ )
+ ( /4D871FB3 $noname  R5 100k {Lib=R_MINI}
+  (    1 AGND )
+  (    2 /IN1+ )
+ )
+ ( /4D871BE3 $noname  L1 FB {Lib=L_MINI}
+  (    1 AGND )
+  (    2 /IN_GND )
+ )
+ ( /4D871BAE $noname  C9 0u1 {Lib=C_MINI}
+  (    1 /IN1+ )
+  (    2 N-000021 )
+ )
+ ( /4D871B41 $noname  L5 10uH {Lib=L_MINI}
+  (    1 GNDFenceIN )
+  (    2 GND )
+ )
+ ( /4D871696 $noname  C11 0u1 {Lib=C_MINI}
+  (    1 +15V )
+  (    2 AGND )
+ )
+ ( /4D871620 $noname  C13 220u {Lib=CP_MINI}
+  (    1 AGND )
+  (    2 +15V )
+ )
+ ( /4D87160F $noname  C12 220u {Lib=CP_MINI}
+  (    1 -15V )
+  (    2 AGND )
+ )
+ ( /4D87152B $noname  L4 FB {Lib=L_MINI}
+  (    1 AGND )
+  (    2 GND )
+ )
+ ( /4D871504 $noname  L3 FB {Lib=L_MINI}
+  (    1 +18V )
+  (    2 /POS )
+ )
+ ( /4D8714F8 $noname  L2 FB {Lib=L_MINI}
+  (    1 -18V )
+  (    2 /NEG )
+ )
+ ( /4D871276 $noname  V1 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871275 $noname  V2 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871274 $noname  V4 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871273 $noname  V3 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871272 $noname  V7 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871271 $noname  V8 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871270 $noname  V6 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126F $noname  V5 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126E $noname  V13 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126D $noname  V14 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126C $noname  V16 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126B $noname  V15 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87126A $noname  V11 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871269 $noname  V12 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871268 $noname  V10 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871267 $noname  V9 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871266 $noname  V24 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871265 $noname  V25 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871264 $noname  V27 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871263 $noname  V26 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871262 $noname  V30 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871261 $noname  V31 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D871260 $noname  V29 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87125F $noname  V28 VIA {Lib=VIA}
+  (    1 GNDFence )
+ )
+ ( /4D87125D $noname  V20 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87125C $noname  V21 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87125B $noname  V23 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D87125A $noname  V22 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871258 $noname  V18 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871257 $noname  V19 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871254 $noname  V17 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D8711AD $noname  V915 VIA {Lib=VIA}
+  (    1 GNDFenceIN )
+ )
+ ( /4D871088 $noname  TR1 10k {Lib=TRIMPOT_DUAL_EVJ}
+  (    1 N-000021 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 N-000019 )
+  (    5 /IN_Right )
+  (    6 /IN_Left )
+ )
+ ( /4D870CA8 $noname  IC1 OpAmp {Lib=OPAMP_DUAL_8PIN}
+  (    1 /OUT1 )
+  (    2 /IN1- )
+  (    3 /IN1+ )
+  (    4 -15V )
+  (    5 /IN2+ )
+  (    6 /IN2- )
+  (    7 /OUT2 )
+  (    8 +15V )
+ )
+ ( /4D86846E $noname  U1 IN {Lib=STEREO-AUDIO-JACK_SJ1-3524-SMT}
+  (    1 /IN_GND )
+  (    2 /IN_Left )
+  (    3 /IN_Right )
+  (    4 ? )
+ )
+ ( /4D86842E $noname  U2 OUT {Lib=STEREO-AUDIO-JACK_SJ1-3524-SMT}
+  (    1 /OUT_GND )
+  (    2 /OUT_Left )
+  (    3 /OUT_Right )
+  (    4 ? )
+ )
+ ( /4D868387 $noname  R3 604k {Lib=R_MINI}
+  (    1 N-000036 )
+  (    2 +15V )
+ )
+ ( /4D868386 $noname  C2 10u {Lib=C_MINI}
+  (    1 +18V )
+  (    2 AGND )
+ )
+ ( /4D868385 $noname  C4 u01 {Lib=C_MINI}
+  (    1 N-000038 )
+  (    2 AGND )
+ )
+ ( /4D868384 $noname  C8 10u {Lib=C_MINI}
+  (    1 +15V )
+  (    2 AGND )
+ )
+ ( /4D868383 $noname  C6 u01 {Lib=C_MINI}
+  (    1 +15V )
+  (    2 N-000036 )
+ )
+ ( /4D868382 $noname  R4 51k1 {Lib=R_MINI}
+  (    1 AGND )
+  (    2 N-000036 )
+ )
+ ( /4D868381 $noname  IC93 TPS7A4901 {Lib=TPS7A}
+  (    1 +15V )
+  (    2 N-000036 )
+  (    3 ? )
+  (    4 AGND )
+  (    5 +18V )
+  (    6 N-000038 )
+  (    7 ? )
+  (    8 +18V )
+  (    9 AGND )
+ )
+ ( /4D8681B6 $noname  IC92 TPS7A3001 {Lib=TPS7A}
+  (    1 -15V )
+  (    2 N-000031 )
+  (    3 ? )
+  (    4 AGND )
+  (    5 -18V )
+  (    6 N-000032 )
+  (    7 ? )
+  (    8 -18V )
+  (    9 AGND )
+ )
+ ( /4D868164 $noname  R2 51k1 {Lib=R_MINI}
+  (    1 AGND )
+  (    2 N-000031 )
+ )
+ ( /4D86814B $noname  C5 u01 {Lib=C_MINI}
+  (    1 -15V )
+  (    2 N-000031 )
+ )
+ ( /4D868147 $noname  C7 10u {Lib=C_MINI}
+  (    1 -15V )
+  (    2 AGND )
+ )
+ ( /4D868141 $noname  C3 u01 {Lib=C_MINI}
+  (    1 N-000032 )
+  (    2 AGND )
+ )
+ ( /4D86813C $noname  C1 10u {Lib=C_MINI}
+  (    1 -18V )
+  (    2 AGND )
+ )
+ ( /4D868137 $noname  R1 604k {Lib=R_MINI}
+  (    1 N-000031 )
+  (    2 -15V )
+ )
+ ( /4D7BE2A9 $noname  P1 9V {Lib=CONN_2}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D7383E6 $noname  V913 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D7383E0 $noname  V914 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D73826F $noname  V912 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4D737F72 $noname  C97 10u {Lib=C_MINI}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D737F4F $noname  BT1 BATTERY {Lib=BATTERY}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4D6786D7 $noname  D95 POS_ON {Lib=D_LED}
+  (    1 GND )
+  (    2 N-000014 )
+ )
+ ( /4D6786D6 $noname  R93 2k {Lib=R_MINI}
+  (    1 N-000014 )
+  (    2 /POS )
+ )
+ ( /4D678616 $noname  R83 2k {Lib=R_MINI}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /4D67860B $noname  D94 NEG_ON {Lib=D_LED}
+  (    1 /NEG )
+  (    2 N-000015 )
+ )
+ ( /4C7385AD $noname  V906 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7385AC $noname  V907 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7385AB $noname  V908 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7385AA $noname  V909 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7385A9 $noname  V910 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7385A8 $noname  V911 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C73806B $noname  V905 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C738068 $noname  V904 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C738065 $noname  V903 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C738063 $noname  V902 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C73805F $noname  V901 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C738055 $noname  V900 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4C7378BE $noname  P92 VOUT {Lib=CONN_3}
+  (    1 /NEG )
+  (    2 GND )
+  (    3 /POS )
+ )
+ ( /4C7378B8 $noname  P91 VIN {Lib=CONN_2}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4C73667A $noname  D92 MBR140 {Lib=D_SCHOTTKY}
+  (    1 GND )
+  (    2 N-000041 )
+ )
+ ( /4C736527 $noname  R92 100k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /FB2 )
+ )
+ ( /4C73650E $noname  R82 24k9 {Lib=R_MINI}
+  (    1 GND )
+  (    2 /nFB1 )
+ )
+ ( /4C736145 $noname  C94 1u0 {Lib=C_MINI}
+  (    1 /NEG )
+  (    2 GND )
+ )
+ ( /4C736144 $noname  C96 1u0 {Lib=C_MINI}
+  (    1 /POS )
+  (    2 GND )
+ )
+ ( /4C7360B6 $noname  C92 0u1 {Lib=C_MINI}
+  (    1 N-000041 )
+  (    2 /SW1 )
+ )
+ ( /4C735F12 $noname  C95 4p7 {Lib=C_MINI}
+  (    1 /POS )
+  (    2 /FB2 )
+ )
+ ( /4C735ECA $noname  C93 100p {Lib=C_MINI}
+  (    1 /NEG )
+  (    2 /nFB1 )
+ )
+ ( /4C735E6D $noname  D91 MBR140 {Lib=D_SCHOTTKY}
+  (    1 N-000041 )
+  (    2 /NEG )
+ )
+ ( /4C735E0C $noname  R91 1M36 {Lib=R_MINI}
+  (    1 /FB2 )
+  (    2 /POS )
+ )
+ ( /4C735DE9 $noname  C91 4u7 {Lib=C_MINI}
+  (    1 VIN )
+  (    2 GND )
+ )
+ ( /4C735D8E $noname  R81 326k {Lib=R_MINI}
+  (    1 /nFB1 )
+  (    2 /NEG )
+ )
+ ( /4C735D5E $noname  D93 MBR140 {Lib=D_SCHOTTKY}
+  (    1 /POS )
+  (    2 /SW2 )
+ )
+ ( /4C735D4C $noname  L93 10uH {Lib=L_MINI}
+  (    1 /SW2 )
+  (    2 VIN )
+ )
+ ( /4C735D46 $noname  L91 10uH {Lib=L_MINI}
+  (    1 /SW1 )
+  (    2 VIN )
+ )
+ ( /4C735D20 $noname  IC91 LT1945 {Lib=LT1945}
+  (    1 /nFB1 )
+  (    2 VIN )
+  (    3 GND )
+  (    4 VIN )
+  (    5 /FB2 )
+  (    6 /SW2 )
+  (    7 GND )
+  (    8 VIN )
+  (    9 GND )
+  (   10 /SW1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D92
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D91
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D93
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/IN2+" "IN2+"
+ C10 1
+ R6 2
+ IC1 5
+ IC2 5
+Net 2 "AGND" "AGND"
+ V104 1
+ V114 1
+ V110 1
+ V111 1
+ V113 1
+ V105 1
+ V107 1
+ V106 1
+ V80 1
+ V81 1
+ V83 1
+ V82 1
+ V78 1
+ V79 1
+ V85 1
+ V87 1
+ V86 1
+ V90 1
+ V91 1
+ V89 1
+ V88 1
+ V109 1
+ V108 1
+ V112 1
+ L7 2
+ C14 2
+ V77 1
+ V116 1
+ V117 1
+ V119 1
+ V118 1
+ V122 1
+ V123 1
+ V121 1
+ V120 1
+ IC92 9
+ C2 2
+ C4 2
+ IC92 4
+ C8 2
+ R4 1
+ IC93 4
+ L6 2
+ IC93 9
+ C1 2
+ R6 1
+ R10 1
+ R8 1
+ R5 1
+ C3 2
+ C7 2
+ R2 1
+ L1 1
+ TR1 2
+ C11 2
+ TR1 3
+ C13 1
+ C12 2
+ L4 1
+ V76 1
+Net 3 "/OUT2" "OUT2"
+ IC2 7
+ R9 2
+ R12 2
+ IC1 7
+Net 4 "/OUT_Right" "OUT_Right"
+ R12 1
+ U2 3
+Net 5 "/IN1+" "IN1+"
+ IC2 3
+ C9 1
+ IC1 3
+ R5 2
+Net 6 "-18V" "-18V"
+ IC92 8
+ C1 1
+ IC92 5
+ V64 1
+ V66 1
+ L2 1
+Net 9 "GND" "GND"
+ C96 2
+ C94 2
+ R82 1
+ R92 1
+ D92 1
+ P91 2
+ IC91 9
+ IC91 7
+ L4 2
+ L5 2
+ D95 1
+ BT1 2
+ C97 2
+ V912 1
+ V914 1
+ V913 1
+ P1 2
+ P92 2
+ V900 1
+ V901 1
+ V902 1
+ V903 1
+ V904 1
+ V905 1
+ V906 1
+ V911 1
+ V910 1
+ V909 1
+ V908 1
+ V907 1
+ C91 2
+ R83 2
+ IC91 3
+Net 10 "GNDFence" "GNDFence"
+ V96 1
+ V97 1
+ V99 1
+ V98 1
+ V94 1
+ V95 1
+ V93 1
+ V24 1
+ V25 1
+ V27 1
+ V26 1
+ V30 1
+ V92 1
+ L7 1
+ V31 1
+ V29 1
+ V37 1
+ V39 1
+ V28 1
+ V58 1
+ V38 1
+ V34 1
+ V52 1
+ V63 1
+ V61 1
+ V60 1
+ V53 1
+ V48 1
+ V49 1
+ V51 1
+ V50 1
+ V55 1
+ V54 1
+ V62 1
+ V115 1
+ V84 1
+ V57 1
+ V59 1
+ V56 1
+ V32 1
+ V36 1
+ V44 1
+ V45 1
+ V47 1
+ V46 1
+ V42 1
+ V43 1
+ V41 1
+ V40 1
+ V33 1
+ V35 1
+Net 11 "/NEG" "NEG"
+ D94 1
+ D91 2
+ P92 1
+ C93 1
+ L2 2
+ C94 1
+ R81 2
+Net 12 "/POS" "POS"
+ R91 2
+ R93 2
+ D93 1
+ L3 2
+ C95 1
+ C96 1
+ P92 3
+Net 13 "VIN" "VIN"
+ C91 1
+ L93 2
+ L91 2
+ IC91 2
+ IC91 4
+ IC91 8
+ BT1 1
+ C97 1
+ P1 1
+ P91 1
+Net 14 "" ""
+ D95 2
+ R93 1
+Net 15 "" ""
+ D94 2
+ R83 1
+Net 16 "/FB2" "FB2"
+ C95 2
+ IC91 5
+ R92 2
+ R91 1
+Net 17 "/nFB1" "nFB1"
+ R82 2
+ IC91 1
+ C93 2
+ R81 1
+Net 18 "/SW2" "SW2"
+ IC91 6
+ L93 1
+ D93 2
+Net 19 "" ""
+ C10 2
+ TR1 4
+Net 20 "/IN_Right" "IN_Right"
+ U1 3
+ TR1 5
+Net 21 "" ""
+ C9 2
+ TR1 1
+Net 22 "-15V" "-15V"
+ R1 2
+ C7 1
+ C5 1
+ IC92 1
+ V103 1
+ V100 1
+ V102 1
+ V101 1
+ IC2 4
+ IC1 4
+ C14 1
+ IC1 4
+ IC2 4
+ C12 1
+Net 23 "/IN2-" "IN2-"
+ R9 1
+ IC1 6
+ R10 2
+ IC2 6
+Net 24 "+15V" "+15V"
+ IC2 8
+ IC2 8
+ C11 1
+ C13 2
+ IC1 8
+ R3 2
+ C8 1
+ C6 1
+ IC93 1
+ IC1 8
+Net 25 "/IN1-" "IN1-"
+ IC1 2
+ IC2 2
+ R8 2
+ R7 1
+Net 26 "/IN_GND" "IN_GND"
+ L1 2
+ U1 1
+Net 27 "/IN_Left" "IN_Left"
+ TR1 6
+ U1 2
+Net 28 "GNDFenceIN" "GNDFenceIN"
+ V12 1
+ V10 1
+ V9 1
+ V11 1
+ V15 1
+ V16 1
+ V14 1
+ V20 1
+ L5 1
+ V21 1
+ V72 1
+ V73 1
+ V75 1
+ V74 1
+ V70 1
+ V71 1
+ V69 1
+ V68 1
+ V23 1
+ V22 1
+ V18 1
+ V19 1
+ V17 1
+ V915 1
+ V4 1
+ V2 1
+ V13 1
+ V5 1
+ V6 1
+ V1 1
+ V3 1
+ V7 1
+ V8 1
+Net 31 "" ""
+ R1 1
+ C5 2
+ R2 2
+ IC92 2
+Net 32 "" ""
+ IC92 6
+ C3 1
+Net 33 "+18V" "+18V"
+ IC93 8
+ IC93 5
+ L3 1
+ C2 1
+ V67 1
+ V65 1
+Net 34 "/OUT_GND" "OUT_GND"
+ L6 1
+ U2 1
+Net 35 "/OUT_Left" "OUT_Left"
+ U2 2
+ R11 1
+Net 36 "" ""
+ R3 1
+ IC93 2
+ R4 2
+ C6 2
+Net 38 "" ""
+ C4 1
+ IC93 6
+Net 40 "/SW1" "SW1"
+ C92 2
+ IC91 10
+ L91 1
+Net 41 "" ""
+ D92 2
+ D91 1
+ C92 1
+Net 42 "/Thermal" "Thermal"
+ P5 4
+ P4 4
+ P3 4
+ P2 4
+Net 43 "" ""
+ P5 7
+ P4 7
+Net 44 "" ""
+ P5 5
+ P4 5
+Net 45 "" ""
+ P5 3
+ P4 3
+Net 46 "" ""
+ P5 1
+ P4 1
+Net 47 "" ""
+ P5 2
+ P4 2
+Net 48 "" ""
+ P4 6
+ P5 6
+Net 49 "" ""
+ P4 8
+ P5 8
+Net 50 "" ""
+ P3 8
+ P2 8
+Net 51 "" ""
+ P3 6
+ P2 6
+Net 52 "" ""
+ P2 2
+ P3 2
+Net 53 "/OUT1" "OUT1"
+ IC1 1
+ R7 2
+ R11 2
+ IC2 1
+Net 54 "" ""
+ P2 1
+ P3 1
+Net 55 "" ""
+ P3 3
+ P2 3
+Net 56 "" ""
+ P3 5
+ P2 5
+Net 57 "" ""
+ P3 7
+ P2 7
+}
+#End
