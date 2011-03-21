@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/03/2011 12:36:21
+EESchema Schematic File Version 2  date 20/03/2011 14:06:52
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
-LIBS:Electrode-Capacitive-RLD-cache
+LIBS:Electrode-Capacitive-DRL-RLD-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
-Title "BioSensorPlatform Electrode - Capacitive RLD"
-Date "13 mar 2011"
+Title "BioSensorPlatform Electrode - Capacitive DRL/RLD"
+Date "20 mar 2011"
 Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
@@ -44,21 +44,37 @@ Comment2 "Copyright Under the Creative Commons Attribution License"
 Comment3 "Capacitive Electrode for ADS1298 Biological Sensor Platform"
 Comment4 "http://www.opendous.org/BioSensorPlatform"
 $EndDescr
-Text Label 4550 3750 0    30   ~ 0
-Electrode
-Text Label 4550 4250 0    30   ~ 0
-Shield
-Text Label 4750 3950 2    30   ~ 0
-RLDINV_FILT
+Text Notes 1750 3850 0    60   ~ 0
+Optional
+Wire Notes Line
+	3750 3700 1650 3700
+Wire Notes Line
+	3750 3700 3750 5150
+Wire Notes Line
+	3750 5150 1650 5150
+Wire Notes Line
+	1650 5150 1650 3700
+Wire Wire Line
+	3350 4400 3250 4400
+Wire Wire Line
+	2150 4350 2050 4350
+Wire Wire Line
+	2850 4700 2850 4750
+Wire Wire Line
+	2450 4450 2450 5000
+Wire Wire Line
+	2450 5000 3250 5000
+Wire Wire Line
+	3250 5000 3250 4400
 Connection ~ 4750 3750
 Wire Wire Line
-	4550 3750 5150 3750
+	5150 3750 4550 3750
 Connection ~ 4950 3950
 Wire Wire Line
-	5150 3950 4750 3950
+	4750 3950 5150 3950
 Connection ~ 4950 3750
 Wire Wire Line
-	5150 4150 5150 4350
+	5150 4350 5150 4150
 Connection ~ 5800 4000
 Wire Wire Line
 	5800 4000 5800 4100
@@ -81,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3600 6050 3600
 Wire Wire Line
-	6000 4100 6000 4150
+	6000 4150 6000 4100
 Wire Wire Line
 	5900 3700 6050 3700
 Wire Wire Line
@@ -98,7 +114,7 @@ Wire Wire Line
 	5600 3950 5350 3950
 Connection ~ 5500 3950
 Wire Wire Line
-	5750 4000 6050 4000
+	6050 4000 5750 4000
 Wire Wire Line
 	6050 4100 5850 4100
 Wire Wire Line
@@ -112,6 +128,76 @@ Wire Wire Line
 Wire Wire Line
 	5150 4250 4550 4250
 Connection ~ 5150 4250
+Wire Wire Line
+	2850 4100 2850 4050
+Wire Wire Line
+	2450 4350 2350 4350
+Wire Wire Line
+	4550 4250 4550 4400
+Wire Wire Line
+	4550 4400 3550 4400
+Connection ~ 3250 4400
+Connection ~ 4550 4250
+$Comp
+L C_MINI C4
+U 1 1 4D8646D4
+P 2250 4350
+F 0 "C4" H 2325 4275 30  0000 C CNN
+F 1 "u01" H 2175 4275 25  0000 C CNN
+	1    2250 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L AGND #PWR01
+U 1 1 4D8646C9
+P 2050 4350
+F 0 "#PWR01" H 2050 4350 40  0001 C CNN
+F 1 "AGND" V 2050 4225 35  0000 C CNN
+	1    2050 4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L R_MINI R6
+U 1 1 4D8646BA
+P 3450 4400
+F 0 "R6" H 3380 4450 25  0000 C CNN
+F 1 "." H 3520 4450 20  0000 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVSS #PWR02
+U 1 1 4D86467F
+P 2850 4750
+F 0 "#PWR02" H 2850 4850 30  0001 C CNN
+F 1 "AVSS" V 2850 4900 30  0000 C CNN
+	1    2850 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L AVDD #PWR03
+U 1 1 4D86467E
+P 2850 4050
+F 0 "#PWR03" H 2850 4150 30  0001 C CNN
+F 1 "AVDD" V 2850 4200 30  0000 C CNN
+	1    2850 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OPAMP_SINGLE_SOT23 IC1
+U 1 1 4D86466A
+P 2850 4400
+F 0 "IC1" H 3040 4165 40  0000 C CNN
+F 1 "OpAmp" H 3000 4625 30  0000 C CNN
+	1    2850 4400
+	1    0    0    -1  
+$EndComp
+Text Label 4550 3750 0    30   ~ 0
+Electrode
+Text Label 4550 4250 0    30   ~ 0
+Shield
+Text Label 4750 3950 2    30   ~ 0
+RLDINV_FILT
 $Comp
 L CONN_1 P2
 U 1 1 4D7CFFDB
@@ -176,19 +262,19 @@ F 1 "0" H 5320 4000 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVSS #PWR01
+L AVSS #PWR04
 U 1 1 4D7CFE07
 P 6750 3900
-F 0 "#PWR01" H 6750 4000 30  0001 C CNN
+F 0 "#PWR04" H 6750 4000 30  0001 C CNN
 F 1 "AVSS" H 6750 4000 30  0000 C CNN
 	1    6750 3900
 	1    0    0    1   
 $EndComp
 $Comp
-L AVDD #PWR02
+L AVDD #PWR05
 U 1 1 4D7CFE01
 P 6750 3600
-F 0 "#PWR02" H 6750 3700 30  0001 C CNN
+F 0 "#PWR05" H 6750 3700 30  0001 C CNN
 F 1 "AVDD" H 6750 3700 30  0000 C CNN
 	1    6750 3600
 	-1   0    0    -1  
@@ -401,55 +487,55 @@ RLDINV
 Text Label 6050 3800 2    40   ~ 0
 RLDOUT
 $Comp
-L AGND #PWR03
+L AGND #PWR06
 U 1 1 4D7C5D2F
 P 5900 3400
-F 0 "#PWR03" H 5900 3400 40  0001 C CNN
+F 0 "#PWR06" H 5900 3400 40  0001 C CNN
 F 1 "AGND" V 5900 3275 35  0000 C CNN
 	1    5900 3400
 	0    1    -1   0   
 $EndComp
 $Comp
-L AGND #PWR04
+L AGND #PWR07
 U 1 1 4D7C5D2C
 P 5750 4000
-F 0 "#PWR04" H 5750 4000 40  0001 C CNN
+F 0 "#PWR07" H 5750 4000 40  0001 C CNN
 F 1 "AGND" V 5750 3875 35  0000 C CNN
 	1    5750 4000
 	0    1    -1   0   
 $EndComp
 $Comp
-L AGND #PWR05
+L AGND #PWR08
 U 1 1 4D7BFD61
 P 5900 3700
-F 0 "#PWR05" H 5900 3700 40  0001 C CNN
+F 0 "#PWR08" H 5900 3700 40  0001 C CNN
 F 1 "AGND" V 5900 3575 35  0000 C CNN
 	1    5900 3700
 	0    1    -1   0   
 $EndComp
 $Comp
-L AVDD #PWR06
+L AVDD #PWR09
 U 1 1 4D7BFCF8
 P 5850 3500
-F 0 "#PWR06" H 5850 3600 30  0001 C CNN
+F 0 "#PWR09" H 5850 3600 30  0001 C CNN
 F 1 "AVDD" V 5850 3650 30  0000 C CNN
 	1    5850 3500
 	0    -1   1    0   
 $EndComp
 $Comp
-L AVSS #PWR07
+L AVSS #PWR010
 U 1 1 4D7BFCF7
 P 5950 3600
-F 0 "#PWR07" H 5950 3700 30  0001 C CNN
+F 0 "#PWR010" H 5950 3700 30  0001 C CNN
 F 1 "AVSS" V 5950 3750 30  0000 C CNN
 	1    5950 3600
 	0    -1   1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR08
+L GNDPWR #PWR011
 U 1 1 4D7BFC84
 P 6000 4150
-F 0 "#PWR08" H 6000 4200 40  0001 C CNN
+F 0 "#PWR011" H 6000 4200 40  0001 C CNN
 F 1 "GNDPWR" H 6000 4090 25  0000 C CNN
 	1    6000 4150
 	1    0    0    -1  
@@ -463,6 +549,6 @@ F 1 "RLDFromFrontEnd" V 6450 3750 60  0000 C CNN
 	1    6400 3750
 	1    0    0    -1  
 $EndComp
-Text Notes 4300 4800 0    50   ~ 0
-Design Notes:\n - capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - AVDD = +2.5V, AGND = 0V, AVSS = -2.5V\n - L1 (Ferrite Bead) is used as a jumper and can also be a 0-Ohm resistor
+Text Notes 2300 2600 0    50   ~ 0
+Design Notes:\n - component values are just placeholders and have not yet been tested experimentally!\n - the OpAmp is a standard SOT23-5 IC such as the OnSemi MC33501\n - capacitors are X7R, 6.3V, 10% or better unless otherwise noted\n - AVDD = +2.5V, AGND = 0V, AVSS = -2.5V
 $EndSCHEMATC
