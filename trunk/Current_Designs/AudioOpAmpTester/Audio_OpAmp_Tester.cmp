@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 21/03/2011 08:48:07
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 6/12/2011 3:38:15 PM
 
 BeginCmp
 TimeStamp = /4D737F4F;
@@ -288,6 +288,62 @@ IdModule  = SRR7045;
 EndCmp
 
 BeginCmp
+TimeStamp = /4DF50941;
+Reference = Mask1;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF5094F;
+Reference = Mask2;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50955;
+Reference = Mask3;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50954;
+Reference = Mask4;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50BEF;
+Reference = Mask5;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50BEE;
+Reference = Mask6;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50BEC;
+Reference = Mask7;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DF50BED;
+Reference = Mask8;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D7BE2A9;
 Reference = P1;
 ValeurCmp = 9V;
@@ -381,42 +437,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4D872023;
 Reference = R7;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D872010;
 Reference = R8;
-ValeurCmp = 100k;
+ValeurCmp = 1k;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D872059;
 Reference = R9;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D87205A;
 Reference = R10;
-ValeurCmp = 100k;
+ValeurCmp = 1k;
 IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D872044;
 Reference = R11;
-ValeurCmp = 0;
+ValeurCmp = 10;
 IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D872057;
 Reference = R12;
-ValeurCmp = 0;
+ValeurCmp = 10;
 IdModule  = 1206_Opendous;
 EndCmp
 

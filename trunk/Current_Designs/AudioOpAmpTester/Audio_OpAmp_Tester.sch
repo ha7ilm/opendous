@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/03/2011 09:08:14
-LIBS:opendous
+EESchema Schematic File Version 2  date 6/12/2011 3:38:19 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -34,9 +33,10 @@ LIBS:Audio_OpAmp_Tester-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 1
 Title "Audio OpAmp Tester"
-Date "21 mar 2011"
+Date "12 jun 2011"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
@@ -44,6 +44,96 @@ Comment2 "Copyright Under the Creative Commons Attribution License"
 Comment3 "Development Board for 8-DIP Dual Op-Amps with +/-15V Power Supply"
 Comment4 "http://www.opendous.org/AudioOpAmpTester"
 $EndDescr
+$Comp
+L CONN_1 Mask5
+U 1 1 4DF50BEF
+P 6750 2850
+F 0 "Mask5" H 6830 2850 40  0000 L CNN
+F 1 "CONN_1" H 6750 2905 30  0001 C CNN
+	1    6750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask6
+U 1 1 4DF50BEE
+P 6750 2950
+F 0 "Mask6" H 6830 2950 40  0000 L CNN
+F 1 "CONN_1" H 6750 3005 30  0001 C CNN
+	1    6750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask8
+U 1 1 4DF50BED
+P 7300 2950
+F 0 "Mask8" H 7380 2950 40  0000 L CNN
+F 1 "CONN_1" H 7300 3005 30  0001 C CNN
+	1    7300 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask7
+U 1 1 4DF50BEC
+P 7300 2850
+F 0 "Mask7" H 7380 2850 40  0000 L CNN
+F 1 "CONN_1" H 7300 2905 30  0001 C CNN
+	1    7300 2850
+	1    0    0    1   
+$EndComp
+NoConn ~ 6900 2850
+NoConn ~ 7150 2850
+NoConn ~ 7150 2950
+NoConn ~ 6900 2950
+Text Notes 6650 2650 0    30   ~ 0
+These mask cutouts prevent the GND\nguard shield from capacitively coupling\nwith the LT1945 GND.
+Text Notes 5400 2650 0    30   ~ 0
+These mask cutouts prevent the GND\nguard shield from capacitively coupling\nwith the analog GND.
+NoConn ~ 5650 2950
+NoConn ~ 5900 2950
+NoConn ~ 5900 2850
+NoConn ~ 5650 2850
+$Comp
+L CONN_1 Mask3
+U 1 1 4DF50955
+P 6050 2850
+F 0 "Mask3" H 6130 2850 40  0000 L CNN
+F 1 "CONN_1" H 6050 2905 30  0001 C CNN
+	1    6050 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask4
+U 1 1 4DF50954
+P 6050 2950
+F 0 "Mask4" H 6130 2950 40  0000 L CNN
+F 1 "CONN_1" H 6050 3005 30  0001 C CNN
+	1    6050 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask2
+U 1 1 4DF5094F
+P 5500 2950
+F 0 "Mask2" H 5580 2950 40  0000 L CNN
+F 1 "CONN_1" H 5500 3005 30  0001 C CNN
+	1    5500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 Mask1
+U 1 1 4DF50941
+P 5500 2850
+F 0 "Mask1" H 5580 2850 40  0000 L CNN
+F 1 "CONN_1" H 5500 2905 30  0001 C CNN
+	1    5500 2850
+	-1   0    0    1   
+$EndComp
+Text Notes 950  5900 0    60   ~ 0
+Gain of 11 = 20.9dB\nFor audio frequencies the root Hz is sqrt(20000-20) = 141.35\nIf using the OPA2211 OpAmp with 1.1nV/sqrt(Hz) voltage noise\nthe Equivalent Input Noise is 1.1*141.35 = 155.49 nV\nOutput noise is input noise multiplied by gain:\n155.49 * 11 = 1710 nV\nSignal-to-Noise therefore = 20*log(1V / (1710*(10^-9))) = 20log(584795) = 115dB\nWith a gain of 2 it would be 20log(1/((141.35*1.1*2)*10^(-9))) = 130dB
+Text Notes 6950 4050 0    60   ~ 0
+Amplification equals R7/R8+1 = 10k/1k+1 = 11
+Text Notes 6950 5950 0    60   ~ 0
+Amplification equals R9/R10+1 = 10k/1k+1 = 11
 Text Label 1500 3550 2    20   ~ 0
 Thermal
 Wire Wire Line
@@ -74,9 +164,9 @@ Connection ~ 700  7100
 Wire Wire Line
 	700  7050 700  7500
 Wire Wire Line
-	600  7150 600  7200
+	600  7200 600  7150
 Wire Wire Line
-	700  7150 600  7150
+	600  7150 700  7150
 Connection ~ 700  7500
 Connection ~ 700  7450
 Connection ~ 700  7400
@@ -94,13 +184,13 @@ Wire Wire Line
 Wire Wire Line
 	3450 7500 3450 7150
 Wire Wire Line
-	3650 7150 3650 7200
+	3650 7200 3650 7150
 Wire Wire Line
-	3750 7150 3650 7150
+	3650 7150 3750 7150
 Wire Wire Line
 	3450 7150 3350 7150
 Wire Wire Line
-	3750 7500 3750 7150
+	3750 7150 3750 7500
 Connection ~ 3450 7500
 Connection ~ 3450 7450
 Connection ~ 3450 7400
@@ -166,9 +256,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 5250 5500 5250
 Wire Wire Line
-	5500 5700 5500 5250
+	5500 5250 5500 5700
 Wire Wire Line
-	6300 5700 5500 5700
+	5500 5700 6300 5700
 Wire Wire Line
 	6300 6000 6300 6050
 Connection ~ 6300 5200
@@ -176,9 +266,9 @@ Connection ~ 6300 3700
 Wire Wire Line
 	6300 4500 6300 4550
 Wire Wire Line
-	5500 4200 6300 4200
+	6300 4200 5500 4200
 Wire Wire Line
-	5500 3750 5500 4200
+	5500 4200 5500 3750
 Wire Wire Line
 	5200 3850 5200 3900
 Wire Wire Line
@@ -190,9 +280,9 @@ Wire Wire Line
 Connection ~ 10750 1050
 Connection ~ 10850 2150
 Wire Wire Line
-	10950 2150 10950 2100
+	10950 2100 10950 2150
 Wire Wire Line
-	10150 2150 10950 2150
+	10950 2150 10150 2150
 Connection ~ 10850 850 
 Wire Wire Line
 	10150 850  10950 850 
@@ -267,7 +357,7 @@ Connection ~ 10250 2150
 Wire Wire Line
 	9250 2650 9250 2600
 Wire Wire Line
-	9350 2150 9350 2250
+	9350 2250 9350 2150
 Wire Wire Line
 	9350 2400 9250 2400
 Wire Wire Line
@@ -281,9 +371,9 @@ Wire Wire Line
 	9250 2600 9350 2600
 Connection ~ 9250 2600
 Wire Wire Line
-	8950 2150 8950 2100
+	8950 2100 8950 2150
 Wire Wire Line
-	9350 2150 8950 2150
+	8950 2150 9350 2150
 Connection ~ 9050 2150
 Connection ~ 9050 850 
 Wire Wire Line
@@ -294,7 +384,7 @@ Connection ~ 9250 1300
 Wire Wire Line
 	9350 1300 9250 1300
 Wire Wire Line
-	10450 1050 10450 1100
+	10450 1100 10450 1050
 Connection ~ 10450 850 
 Wire Wire Line
 	10200 1350 10200 1300
@@ -316,7 +406,7 @@ Wire Wire Line
 	6750 7450 6750 7350
 Connection ~ 1850 1050
 Wire Wire Line
-	1750 1050 1750 1000
+	1750 1000 1750 1050
 Wire Wire Line
 	800  1600 800  1650
 Connection ~ 6650 7250
@@ -364,9 +454,9 @@ Wire Wire Line
 Connection ~ 2250 1050
 Connection ~ 2250 1250
 Wire Wire Line
-	2250 1050 2250 1400
+	2250 1400 2250 1050
 Wire Wire Line
-	1750 1050 2250 1050
+	2250 1050 1750 1050
 Wire Wire Line
 	3300 1050 3400 1050
 Connection ~ 2650 1800
@@ -375,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1400 3150 1500
 Wire Wire Line
-	3650 1500 3150 1500
+	3150 1500 3650 1500
 Wire Wire Line
 	3650 1500 3650 1400
 Wire Wire Line
@@ -450,7 +540,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 1350 10750 1050
 Wire Wire Line
-	10150 1050 10450 1050
+	10450 1050 10150 1050
 Connection ~ 10250 1050
 Wire Wire Line
 	10450 1300 10450 1350
@@ -469,7 +559,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 7150 4550 7200
 Wire Wire Line
-	4950 7150 4850 7150
+	4850 7150 4950 7150
 Wire Wire Line
 	4850 7150 4850 7200
 Wire Wire Line
@@ -477,7 +567,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 7150 3000 7200
 Wire Wire Line
-	4950 7500 4950 7150
+	4950 7150 4950 7500
 Wire Wire Line
 	5500 1050 5600 1050
 Wire Wire Line
@@ -489,11 +579,11 @@ Wire Wire Line
 Wire Wire Line
 	9050 1050 9050 1350
 Wire Wire Line
-	5300 1200 5950 1200
+	5950 1200 5300 1200
 Wire Wire Line
-	5300 1050 5300 1200
+	5300 1200 5300 1050
 Wire Wire Line
-	4300 1050 5300 1050
+	5300 1050 4300 1050
 Connection ~ 10650 850 
 Connection ~ 10650 2150
 Connection ~ 10750 2350
@@ -536,13 +626,13 @@ Wire Wire Line
 Wire Wire Line
 	3350 7150 3350 7200
 Wire Wire Line
-	2650 7150 2650 7200
+	2650 7200 2650 7150
 Wire Wire Line
-	2300 7150 2300 7200
+	2300 7200 2300 7150
 Wire Wire Line
-	2400 7150 2300 7150
+	2300 7150 2400 7150
 Wire Wire Line
-	2400 7500 2400 7150
+	2400 7150 2400 7500
 Connection ~ 2400 7500
 Connection ~ 2400 7450
 Connection ~ 2400 7400
@@ -560,9 +650,9 @@ Connection ~ 2750 7400
 Connection ~ 2750 7450
 Connection ~ 2750 7500
 Wire Wire Line
-	2750 7150 2650 7150
+	2650 7150 2750 7150
 Wire Wire Line
-	2750 7500 2750 7150
+	2750 7150 2750 7500
 Wire Wire Line
 	10400 4150 10400 4200
 Wire Wire Line
@@ -605,11 +695,11 @@ Connection ~ 2000 7150
 Wire Wire Line
 	1900 7150 1900 7200
 Wire Wire Line
-	1200 7150 1200 7200
+	1200 7200 1200 7150
 Wire Wire Line
-	1300 7150 1200 7150
+	1200 7150 1300 7150
 Wire Wire Line
-	1300 7500 1300 7150
+	1300 7150 1300 7500
 Connection ~ 1300 7500
 Connection ~ 1300 7450
 Connection ~ 1300 7400
@@ -712,7 +802,7 @@ L OPAMP_DUAL_8PIN IC2
 U 1 1 4D874E42
 P 5850 3700
 F 0 "IC2" H 5650 3300 50  0000 C CNN
-F 1 "OpAmp" H 5550 4000 35  0000 C CNN
+F 1 "OpAmp" H 5650 4000 35  0000 C CNN
 	1    5850 3700
 	1    0    0    -1  
 $EndComp
@@ -1841,7 +1931,7 @@ L R_MINI R10
 U 1 1 4D87205A
 P 6300 5900
 F 0 "R10" V 6275 5950 25  0000 C CNN
-F 1 "100k" V 6325 5950 20  0000 C CNN
+F 1 "1k" V 6325 5950 20  0000 C CNN
 	1    6300 5900
 	0    1    1    0   
 $EndComp
@@ -1850,7 +1940,7 @@ L R_MINI R9
 U 1 1 4D872059
 P 6300 5500
 F 0 "R9" V 6275 5550 25  0000 C CNN
-F 1 "100k" V 6325 5550 20  0000 C CNN
+F 1 "10k" V 6325 5550 20  0000 C CNN
 	1    6300 5500
 	0    1    1    0   
 $EndComp
@@ -1868,7 +1958,7 @@ L R_MINI R12
 U 1 1 4D872057
 P 6550 5200
 F 0 "R12" H 6480 5250 25  0000 C CNN
-F 1 "0" H 6620 5250 20  0000 C CNN
+F 1 "10" H 6620 5250 20  0000 C CNN
 	1    6550 5200
 	1    0    0    -1  
 $EndComp
@@ -1877,7 +1967,7 @@ L R_MINI R11
 U 1 1 4D872044
 P 6550 3700
 F 0 "R11" H 6480 3750 25  0000 C CNN
-F 1 "0" H 6620 3750 20  0000 C CNN
+F 1 "10" H 6620 3750 20  0000 C CNN
 	1    6550 3700
 	1    0    0    -1  
 $EndComp
@@ -1895,7 +1985,7 @@ L R_MINI R7
 U 1 1 4D872023
 P 6300 4000
 F 0 "R7" V 6275 4050 25  0000 C CNN
-F 1 "100k" V 6325 4050 20  0000 C CNN
+F 1 "10k" V 6325 4050 20  0000 C CNN
 	1    6300 4000
 	0    1    1    0   
 $EndComp
@@ -1904,7 +1994,7 @@ L R_MINI R8
 U 1 1 4D872010
 P 6300 4400
 F 0 "R8" V 6275 4450 25  0000 C CNN
-F 1 "100k" V 6325 4450 20  0000 C CNN
+F 1 "1k" V 6325 4450 20  0000 C CNN
 	1    6300 4400
 	0    1    1    0   
 $EndComp
@@ -1984,9 +2074,9 @@ F 1 "GND" H 5200 1980 30  0001 C CNN
 	1    5200 2050
 	1    0    0    -1  
 $EndComp
-Text Notes 10900 975  0    25   ~ 0
+Text Notes 10710 975  0    25   ~ 0
 25V+
-Text Notes 10900 2275 0    25   ~ 0
+Text Notes 10710 2275 0    25   ~ 0
 25V+
 $Comp
 L C_MINI C11
@@ -2794,8 +2884,6 @@ F 1 "GND" H 800 1580 30  0001 C CNN
 	1    800  1650
 	1    0    0    -1  
 $EndComp
-Text Notes 6650 1550 0    50   ~ 0
-Note: The 10uH 7045-size inductors have been\nchosen for high output current when using a 1.5V\nbattery to generate +/- (2V to 5V).  Refer to the\nLT1945 datasheet for component selection calculations.
 Text Notes 6650 1300 0    50   ~ 0
 Note: Depending on output voltage, can use any\nSOD-123 Schottky rated 0.4A+ instead of MBR140
 Text Notes 6650 950  0    40   ~ 0
