@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/12/2011 3:38:19 PM
+EESchema Schematic File Version 2  date 6/15/2011 10:22:22 AM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Audio OpAmp Tester"
-Date "12 jun 2011"
+Date "15 jun 2011"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 "http://creativecommons.org/licenses/by/3.0/"
@@ -1484,7 +1484,7 @@ L C_MINI C14
 U 1 1 4D873474
 P 10400 4300
 F 0 "C14" V 10350 4350 30  0000 C CNN
-F 1 "0u1" V 10450 4350 25  0000 C CNN
+F 1 "u033" V 10450 4350 25  0000 C CNN
 	1    10400 4300
 	0    1    1    0   
 $EndComp
@@ -2083,7 +2083,7 @@ L C_MINI C11
 U 1 1 4D871696
 P 10200 4300
 F 0 "C11" V 10150 4350 30  0000 C CNN
-F 1 "0u1" V 10250 4350 25  0000 C CNN
+F 1 "u033" V 10250 4350 25  0000 C CNN
 	1    10200 4300
 	0    1    1    0   
 $EndComp
@@ -2101,7 +2101,7 @@ L CP_MINI C13
 U 1 1 4D871620
 P 10850 2250
 F 0 "C13" V 10800 2350 30  0000 C CNN
-F 1 "220u" V 10900 2350 25  0000 C CNN
+F 1 "100u" V 10900 2350 25  0000 C CNN
 	1    10850 2250
 	0    1    1    0   
 $EndComp
@@ -2110,7 +2110,7 @@ L CP_MINI C12
 U 1 1 4D87160F
 P 10850 950
 F 0 "C12" V 10900 850 30  0000 C CNN
-F 1 "220u" V 10800 850 25  0000 C CNN
+F 1 "100u" V 10800 850 25  0000 C CNN
 	1    10850 950 
 	0    -1   -1   0   
 $EndComp
@@ -2853,7 +2853,7 @@ L C_MINI C97
 U 1 1 4D737F72
 P 1850 1150
 F 0 "C97" V 1800 1200 30  0000 C CNN
-F 1 "10u" V 1900 1200 25  0000 C CNN
+F 1 "4u7" V 1900 1200 25  0000 C CNN
 	1    1850 1150
 	0    1    1    0   
 $EndComp
@@ -2904,7 +2904,7 @@ L R_MINI R93
 U 1 1 4D6786D6
 P 6050 1500
 F 0 "R93" H 5980 1550 25  0000 C CNN
-F 1 "2k" H 6120 1550 20  0000 C CNN
+F 1 "5k" H 6120 1550 20  0000 C CNN
 	1    6050 1500
 	1    0    0    -1  
 $EndComp
@@ -2931,7 +2931,7 @@ L R_MINI R83
 U 1 1 4D678616
 P 6350 1200
 F 0 "R83" H 6280 1250 25  0000 C CNN
-F 1 "2k" H 6420 1250 20  0000 C CNN
+F 1 "5k" H 6420 1250 20  0000 C CNN
 	1    6350 1200
 	-1   0    0    -1  
 $EndComp

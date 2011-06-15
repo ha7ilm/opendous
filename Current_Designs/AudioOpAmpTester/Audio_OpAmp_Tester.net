@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/12/2011 3:38:18 PM
+# EESchema Netlist Version 1.1 created  6/15/2011 10:22:20 AM
 (
  ( /4DF50BEF $noname  Mask5 CONN_1 {Lib=CONN_1}
   (    1 ? )
@@ -258,7 +258,7 @@
   (    1 GNDFence )
   (    2 AGND )
  )
- ( /4D873474 $noname  C14 0u1 {Lib=C_MINI}
+ ( /4D873474 $noname  C14 u033 {Lib=C_MINI}
   (    1 -15V )
   (    2 AGND )
  )
@@ -410,15 +410,15 @@
   (    1 GNDFenceIN )
   (    2 GND )
  )
- ( /4D871696 $noname  C11 0u1 {Lib=C_MINI}
+ ( /4D871696 $noname  C11 u033 {Lib=C_MINI}
   (    1 +15V )
   (    2 AGND )
  )
- ( /4D871620 $noname  C13 220u {Lib=CP_MINI}
+ ( /4D871620 $noname  C13 100u {Lib=CP_MINI}
   (    1 AGND )
   (    2 +15V )
  )
- ( /4D87160F $noname  C12 220u {Lib=CP_MINI}
+ ( /4D87160F $noname  C12 100u {Lib=CP_MINI}
   (    1 -15V )
   (    2 AGND )
  )
@@ -643,7 +643,7 @@
  ( /4D73826F $noname  V912 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /4D737F72 $noname  C97 10u {Lib=C_MINI}
+ ( /4D737F72 $noname  C97 4u7 {Lib=C_MINI}
   (    1 VIN )
   (    2 GND )
  )
@@ -655,11 +655,11 @@
   (    1 GND )
   (    2 N-000012 )
  )
- ( /4D6786D6 $noname  R93 2k {Lib=R_MINI}
+ ( /4D6786D6 $noname  R93 5k {Lib=R_MINI}
   (    1 N-000012 )
   (    2 /POS )
  )
- ( /4D678616 $noname  R83 2k {Lib=R_MINI}
+ ( /4D678616 $noname  R83 5k {Lib=R_MINI}
   (    1 N-000013 )
   (    2 GND )
  )

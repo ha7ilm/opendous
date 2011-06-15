@@ -1,0 +1,58 @@
+Bill Of Materials for the Audio OpAmp Tester Project
+
+QTY, Manufacturer Part#          , Cost($USD each) - References - Description
+
+~~~ LT1945 +/-18V Boost DC-DC Section ~~~
+  1, LT1945EMS#PBF               , 4.25 - IC91 - IC DC/DC CONV MICRPWR DUAL 10MSOP
+  1, 08051A4R7CAT2A              , 0.17 - C95 - CAP CER 4.7PF 100V NP0 0805
+  1, 500R15N101JV4T              , 0.04 - C93 - CAP CER 100PF 50V NP0 0805
+  1, GRM21BR71H104KA01L          , 0.06 - C92 - CAP CER .1UF 50V 10% X7R 0805
+  2, TMK212B7105KG-T             , 0.06 - C94 C96 C97 - CAP CER 1.0UF 25V X7R 0805
+  2, C0805C475K3PACTU            , 0.33 - C91 C97 - CAP CER 4.7UF 25V X5R 0805
+  3, MBR140SFT1G                 , 0.45 - D91 D92 D93 - DIODE SCHOTTKY 40V 1A SOD123FL
+  2, APT2012SGC                  , 0.13 - D4 D95 - LED 2X1.2MM 568NM GN WTR CLR SMD 0805
+  2, RMCF0805FT5K10              , 0.04 - R83 R93 - RES 5.1K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT324K              , 0.04 - R81 - RES 324K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT24K9              , 0.04 - R82 - RES 24.9K OHM 1/8W 1% 0805 SMD
+  1, MCR10EZHF1374               , 0.45 - R91 - RES 1.37M OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT100K              , 0.04 - R92 - RES 100K OHM 1/8W 1% 0805 SMD
+  2, SRR7045-100M                , 0.60 - L91 L93 - INDUCTOR SHIELDED 10UH 2A SMD
+  3, BKP2125HS330-T              , 0.30 - L2 L3 L4 - FERRITE BEAD 33 OHM 0805
+  2, MLZ2012DR10D                , 0.09 - L5 L7 - INDUCTOR MULTILAYER .10NH 0805
+  1, PPPC021LFBN-RC              , 0.33 - P91 (Vin) - CONN HEADER FEMALE 2POS .1" GOLD
+  1, PPPC031LFBN-RC              , 0.39 - P92 (Vout) - CONN HEADER FEMALE 3POS .1" GOLD
+  1, BH9V-PC                     , 1.30 - P1 - HOLDER BATTERY 9V PC MOUNT
+------------------------Sub-Total=11.86
+
+~~~ Regulated +/- 15V Power Supply Section ~~~
+  1, TPS7A3001DGN                , 5.25 - IC92 - IC REG LDO NEG ADJ 200MA 8MSOP
+  1, TPS7A4901DGN                , 3.90 - IC93 - IC REG LDO ADJ 150MA 8MSOP
+  4, GCM2195C1H103JA16D          , 0.43 - C3 C4 C5 C6 - CAP CER .01uF=10000pF 50V COG 0805
+  2, TMK316B7106KL-TD            , 0.58 - C1 C2 - CAP CER 10UF 25V X7R 10% 1206
+  2, TMK325B7106KN-TR            , 0.67 - C7 C8 - CAP CER 10UF 25V X7R 10% 1210
+  2, RG2012P-4992-B-T5           , 0.41 - R2 R4 - RES 49.9K OHM 1/8W .1% 0805 SMD
+  2, RG2012P-684-B-T5            , 0.41 - R1 R3 - RES 680K OHM 1/8W .1% 0805 SMD
+------------------------Sub-Total=15.01
+
+~~~ OpAmp Stereo Headphone Amplifier Section ~~~
+  1, EVJ-C20F02A14               , 1.76 - TR1 - POT 10K OHM 12MM HORZ w/o DETENT BUSHIN Volume
+  2, ECH-U1C104GX5               , 0.92 - C9 C10 - CAP .1UF 16V PPS FILM 1210 2%
+  2, GRM21B5C1H223JA01L          , 0.44 - C11 C14 - CAP CER 0.022uF=22000pF 50V 5% C0G 0805
+  2, UUQ1H101MCL1GS              , 1.52 - C12 C13 - CAP 100UF 50V ELECT AUDIO SMD 10.30x10.30mm
+  2, BKP2125HS330-T              , 0.30 - L6 - FERRITE BEAD 33 OHM 0805
+  2, RNCS1206BKE10R0             , 0.84 - R11 R12 - RES 1/8W 10 OHM 0.1% 1206 Anti-Corrosive, Moisture Resistant
+  2, RG2012P-102-B-T5            , 0.41 - R8 R10 - RES 1.0K OHM 1/8W .1% 0805 SMD Low Noise Thin Film
+  2, RG2012P-103-B-T5            , 0.41 - R7 R9 - RES 10.0K OHM 1/8W .1% 0805 SMD Low Noise Thin Film
+  2, RG2012P-104-B-T5            , 0.41 - R5 R6 - RES 100K OHM 1/8W .1% 0805 SMD Low Noise Thin Film
+  2, SJ-3524-SMT                 , 0.91 - U1 U2 - CONN AUDIO JACK 3.5MM STEREO SMD
+  1, WMS-080Z                    , 0.26 - IC1 - CONN SOCKET IC WSH AWAY 8PIN .3"
+------------------------Sub-Total=14.34
+
+----------------------------Total=41.21
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey
+	- The 9V battery holder, BH9VPC, can be substituted with a
+	  CR2032 battery holder, Linx's BAT-H, for lower output currents or voltages
+	- EVJ-C20F02D14 can be substituted with EVJ-C20F02A14
+	- Try Non-Inductive/Magnetic resistors in the feedback loop: PNM0805E1001BST5, PNM0805E1002BST5
+
