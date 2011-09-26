@@ -1,0 +1,1012 @@
+# EESchema Netlist Version 1.1 created  9/26/2011 9:36:33 AM
+(
+ ( /4E807DEC $noname  V106 VIA {Lib=VIA}
+  (    1 SCK )
+ )
+ ( /4E807D82 $noname  V105 VIA {Lib=VIA}
+  (    1 SCK )
+ )
+ ( /4E807ACA $noname  V97 VIA {Lib=VIA}
+  (    1 /LEDBoost_PWM )
+ )
+ ( /4E807AC9 $noname  V98 VIA {Lib=VIA}
+  (    1 /LEDBoost_PWM )
+ )
+ ( /4E807AC8 $noname  V100 VIA {Lib=VIA}
+  (    1 RX0 )
+ )
+ ( /4E807AC7 $noname  V99 VIA {Lib=VIA}
+  (    1 PWM1 )
+ )
+ ( /4E807AC6 $noname  V102 VIA {Lib=VIA}
+  (    1 /STMPE_INT )
+ )
+ ( /4E807AC5 $noname  V101 VIA {Lib=VIA}
+  (    1 /STMPE_INT )
+ )
+ ( /4E807AC4 $noname  V103 VIA {Lib=VIA}
+  (    1 /LCD_CS )
+ )
+ ( /4E807AC3 $noname  V104 VIA {Lib=VIA}
+  (    1 /LCD_CS )
+ )
+ ( /4E805914 $noname  V81 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4E805913 $noname  V82 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4E805912 $noname  V84 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805911 $noname  V83 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4E805910 $noname  V86 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E80590F $noname  V85 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E80590D $noname  V87 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E80590C $noname  V88 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E80590B $noname  V96 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E80590A $noname  V95 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805908 $noname  V93 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805907 $noname  V94 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805906 $noname  V91 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805905 $noname  V92 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805904 $noname  V90 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E805903 $noname  V89 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4E804F56 $noname  R3 200k {Lib=R_MINI}
+  (    1 N-000042 )
+  (    2 nMS )
+ )
+ ( /4E804E84 $noname  R6 1k {Lib=R_MINI}
+  (    1 SCK )
+  (    2 3V3 )
+ )
+ ( /4E804E83 $noname  R7 1k {Lib=R_MINI}
+  (    1 /SDA )
+  (    2 3V3 )
+ )
+ ( /4E804DE7 $noname  R10 249 {Lib=R_MINI}
+  (    1 PWM1 )
+  (    2 N-000041 )
+ )
+ ( /4E804CE6 $noname  IC7 LVC2T45 {Lib=LOGIC-BUS_TRANSCEIVER-74LVC2T45}
+  (    1 nMS )
+  (    2 RX0 )
+  (    3 /LEDBoost_PWM )
+  (    4 GND )
+  (    5 GND )
+  (    6 N-000041 )
+  (    7 /STMPE_INT )
+  (    8 3V3 )
+ )
+ ( /4E8049CB $noname  C9 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4E8049C3 $noname  C11 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4E8045AC $noname  IC5 PCA9306 {Lib=PCA9306}
+  (    1 GND )
+  (    2 3V3 )
+  (    3 SCK )
+  (    4 /SDA )
+  (    5 SMDAT )
+  (    6 SMCLK )
+  (    7 N-000042 )
+  (    8 N-000042 )
+ )
+ ( /4E80445D $noname  IC4 LVC2T45 {Lib=LOGIC-BUS_TRANSCEIVER-74LVC2T45}
+  (    1 3V3 )
+  (    2 /LCD_CS )
+  (    3 /LCD_nRST )
+  (    4 GND )
+  (    5 GND )
+  (    6 TX1 )
+  (    7 TX0 )
+  (    8 nMS )
+ )
+ ( /4E804304 $noname  R8 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000039 )
+ )
+ ( /4E5034D1 $noname  TP2 IN3 {Lib=CONN_1}
+  (    1 N-000028 )
+ )
+ ( /4E5034BE $noname  TP1 IN2 {Lib=CONN_1}
+  (    1 N-000027 )
+ )
+ ( /4E500EA6 $noname  U3 COG-C172MVHC-04 {Lib=COG-C172MVHC-04}
+  (    1 GND )
+  (    2 N-000032 )
+  (    3 N-000020 )
+  (    4 GND )
+  (    5 /LCD_nRST )
+  (    6 N-000039 )
+  (    7 /SDA )
+  (    8 SCK )
+  (    9 3V3 )
+  (   10 3V3 )
+  (   11 /LCD_CS )
+  (   12 GND )
+  (   13 N-000040 )
+  (   14 N-000023 )
+  (   15 N-000030 )
+  (   16 N-000029 )
+  (   17 GND )
+  (   18 GND )
+ )
+ ( /4E500608 $noname  IC8 STMPE610 {Lib=STMPE610}
+  (    1 N-000040 )
+  (    2 /STMPE_INT )
+  (    3 GND )
+  (    4 SCK )
+  (    5 /SDA )
+  (    6 3V3 )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 GND )
+  (   11 N-000027 )
+  (   12 N-000028 )
+  (   13 N-000029 )
+  (   14 3V3 )
+  (   15 N-000030 )
+  (   16 N-000023 )
+  (   17 GND )
+ )
+ ( /4E21DB78 $noname  R4 0 {Lib=R_MINI}
+  (    1 N-000021 )
+  (    2 /LEDBoost_PWM )
+ )
+ ( /4D52C1E7 $noname  C8 0u1 {Lib=C_MINI}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( /4D52BF76 $noname  R9 15 {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000032 )
+ )
+ ( /4D52B64F $noname  C6 4u7 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4D4A7459 $noname  L1 33uH {Lib=L_MINI}
+  (    1 N-000019 )
+  (    2 3V3 )
+ )
+ ( /4D4A7440 $noname  D1 PMEG4005EH {Lib=D_SCHOTTKY}
+  (    1 N-000020 )
+  (    2 N-000019 )
+ )
+ ( /4D4A7408 $noname  C10 u22 {Lib=C_MINI}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /4D4A73B9 $noname  R5 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000021 )
+ )
+ ( /4D4A7320 $noname  C7 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4D4A7315 $noname  IC6 CAT4237 {Lib=BOOST_DC-DC_SOT23-5}
+  (    1 N-000019 )
+  (    2 GND )
+  (    3 N-000032 )
+  (    4 N-000021 )
+  (    5 3V3 )
+ )
+ ( /4E2D797D $noname  Mask1 Mask {Lib=VIA}
+  (    1 ? )
+ )
+ ( /4E2D6DA3 $noname  P1 Breakout {Lib=CONN_12X2}
+  (    1 GND )
+  (    2 RX1 )
+  (    3 RX0 )
+  (    4 VDDIO )
+  (    5 PWM1 )
+  (    6 PWM0 )
+  (    7 TX1 )
+  (    8 TX0 )
+  (    9 nMS )
+  (   10 UTX )
+  (   11 URX )
+  (   12 GND )
+  (   13 MOSI )
+  (   14 MISO )
+  (   15 CTS )
+  (   16 RTS )
+  (   17 SSCK )
+  (   18 GND )
+  (   19 SMDAT )
+  (   20 SMCLK )
+  (   21 GND )
+  (   22 6V0 )
+  (   23 5V0 )
+  (   24 3V3 )
+ )
+ ( /4E2D6BEC $noname  V73 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BEB $noname  V74 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BEA $noname  V76 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BE9 $noname  V75 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BE8 $noname  V78 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BE7 $noname  V77 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BE5 $noname  V79 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D6BE4 $noname  V80 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D0C0B $noname  V72 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2D0C0A $noname  V71 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD71 $noname  V69 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD70 $noname  V70 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD6F $noname  V67 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD6E $noname  V68 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD6D $noname  V66 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CFD6C $noname  V65 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE38D $noname  V57 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE38C $noname  V58 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE38B $noname  V60 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE38A $noname  V59 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE389 $noname  V63 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2CE388 $noname  V64 VIA {Lib=VIA}
+  (    1 SSCK )
+ )
+ ( /4E2CE387 $noname  V62 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2CE386 $noname  V61 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C01E4 $noname  V49 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C01E3 $noname  V50 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C01E2 $noname  V52 VIA {Lib=VIA}
+  (    1 nMS )
+ )
+ ( /4E2C01E1 $noname  V51 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C01E0 $noname  V55 VIA {Lib=VIA}
+  (    1 /nM-Addr )
+ )
+ ( /4E2C01DF $noname  V56 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C01DE $noname  V54 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C01DD $noname  V53 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C00C0 $noname  V33 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00BF $noname  V34 VIA {Lib=VIA}
+  (    1 MISO )
+ )
+ ( /4E2C00BE $noname  V36 VIA {Lib=VIA}
+  (    1 nMS0 )
+ )
+ ( /4E2C00BD $noname  V35 VIA {Lib=VIA}
+  (    1 MOSI )
+ )
+ ( /4E2C00BC $noname  V39 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C00BB $noname  V40 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2C00BA $noname  V38 VIA {Lib=VIA}
+  (    1 RX1 )
+ )
+ ( /4E2C00B9 $noname  V37 VIA {Lib=VIA}
+  (    1 nMS1 )
+ )
+ ( /4E2C00B8 $noname  V45 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B7 $noname  V46 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B6 $noname  V48 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B5 $noname  V47 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B4 $noname  V43 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B3 $noname  V44 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B2 $noname  V42 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2C00B1 $noname  V41 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BFDEF $noname  V25 VIA {Lib=VIA}
+  (    1 CTS )
+ )
+ ( /4E2BFDEE $noname  V26 VIA {Lib=VIA}
+  (    1 URX )
+ )
+ ( /4E2BFDED $noname  V28 VIA {Lib=VIA}
+  (    1 TX0 )
+ )
+ ( /4E2BFDEC $noname  V27 VIA {Lib=VIA}
+  (    1 UTX )
+ )
+ ( /4E2BFDEB $noname  V31 VIA {Lib=VIA}
+  (    1 PWM1 )
+ )
+ ( /4E2BFDEA $noname  V32 VIA {Lib=VIA}
+  (    1 RX0 )
+ )
+ ( /4E2BFDE9 $noname  V30 VIA {Lib=VIA}
+  (    1 PWM0 )
+ )
+ ( /4E2BFDE8 $noname  V29 VIA {Lib=VIA}
+  (    1 TX1 )
+ )
+ ( /4E2BABDA $noname  C5 0u1 {Lib=C_MINI}
+  (    1 5V0 )
+  (    2 GND )
+ )
+ ( /4E2BABC8 $noname  C3 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GND )
+ )
+ ( /4E2BABC1 $noname  C2 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GND )
+ )
+ ( /4E2BABAB $noname  C1 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GND )
+ )
+ ( /4E2BAB83 $noname  C4 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4E2BAB0A $noname  V21 VIA {Lib=VIA}
+  (    1 RX1 )
+ )
+ ( /4E2BAB09 $noname  V22 VIA {Lib=VIA}
+  (    1 SMCLK )
+ )
+ ( /4E2BAB08 $noname  V24 VIA {Lib=VIA}
+  (    1 RTS )
+ )
+ ( /4E2BAB07 $noname  V23 VIA {Lib=VIA}
+  (    1 SMDAT )
+ )
+ ( /4E2BAB06 $noname  V19 VIA {Lib=VIA}
+  (    1 PWM1 )
+ )
+ ( /4E2BAB05 $noname  V20 VIA {Lib=VIA}
+  (    1 RX0 )
+ )
+ ( /4E2BAB04 $noname  V18 VIA {Lib=VIA}
+  (    1 PWM0 )
+ )
+ ( /4E2BAB03 $noname  V17 VIA {Lib=VIA}
+  (    1 /nM-Addr )
+ )
+ ( /4E2BAB02 $noname  V9 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4E2BAB01 $noname  V10 VIA {Lib=VIA}
+  (    1 5V0 )
+ )
+ ( /4E2BAB00 $noname  V12 VIA {Lib=VIA}
+  (    1 SSCK )
+ )
+ ( /4E2BAAFF $noname  V11 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4E2BAAFE $noname  V15 VIA {Lib=VIA}
+  (    1 nMS0 )
+ )
+ ( /4E2BAAFD $noname  V16 VIA {Lib=VIA}
+  (    1 nMS1 )
+ )
+ ( /4E2BAAFC $noname  V14 VIA {Lib=VIA}
+  (    1 MOSI )
+ )
+ ( /4E2BAAFB $noname  V13 VIA {Lib=VIA}
+  (    1 MISO )
+ )
+ ( /4E2BAAFA $noname  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF9 $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF8 $noname  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF7 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF5 $noname  V3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF4 $noname  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAF2 $noname  V2 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAAEB $noname  V1 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4E2BAA09 $noname  IC3 LOGIC-INVERTER {Lib=LOGIC-INVERTER}
+  (    1 ? )
+  (    2 /nM-Addr )
+  (    3 GND )
+  (    4 /nM-Addr_U2 )
+  (    5 VDDIO )
+ )
+ ( /4E2BA98F $noname  U2 Opennect-Controller-MCU_3V3to5V {Lib=OPENNECT-CONTROLLER-MCU-PWR}
+  (   A1 GND )
+  (   A2 6V0 )
+  (   A3 6V0 )
+  (   A4 GND )
+  (   A5 SSCK )
+  (   A6 MISO )
+  (   A7 MOSI )
+  (   A8 nMS0 )
+  (   A9 nMS1 )
+  (  A10 /nM-Addr_U2 )
+  (  A11 GND )
+  (  A12 GND )
+  (  A13 PWM0 )
+  (  A14 PWM1 )
+  (  A15 GND )
+  (  A16 RX0 )
+  (  A17 RX1 )
+  (  A18 GND )
+  (   B1 GND )
+  (   B2 3V3 )
+  (   B3 5V0 )
+  (   B4 GND )
+  (   B5 SMCLK )
+  (   B6 SMDAT )
+  (   B7 RTS )
+  (   B8 CTS )
+  (   B9 URX )
+  (  B10 UTX )
+  (  B11 GND )
+  (  B12 GND )
+  (  B13 GND )
+  (  B14 TX0 )
+  (  B15 TX1 )
+  (  B16 GND )
+  (  B17 VDDIO )
+  (  B18 GND )
+ )
+ ( /4E2BA530 $noname  U1 Opennect-Module-MCU_3V3to5V {Lib=OPENNECT-CONTROLLER-MCU-PWR}
+  (   A1 GND )
+  (   A2 6V0 )
+  (   A3 6V0 )
+  (   A4 GND )
+  (   A5 SSCK )
+  (   A6 MISO )
+  (   A7 MOSI )
+  (   A8 nMS0 )
+  (   A9 nMS1 )
+  (  A10 /nM-Addr )
+  (  A11 GND )
+  (  A12 GND )
+  (  A13 PWM0 )
+  (  A14 PWM1 )
+  (  A15 GND )
+  (  A16 RX0 )
+  (  A17 RX1 )
+  (  A18 GND )
+  (   B1 GND )
+  (   B2 3V3 )
+  (   B3 5V0 )
+  (   B4 GND )
+  (   B5 SMCLK )
+  (   B6 SMDAT )
+  (   B7 RTS )
+  (   B8 CTS )
+  (   B9 URX )
+  (  B10 UTX )
+  (  B11 GND )
+  (  B12 GND )
+  (  B13 GND )
+  (  B14 TX0 )
+  (  B15 TX1 )
+  (  B16 GND )
+  (  B17 VDDIO )
+  (  B18 GND )
+ )
+ ( /4E29CD25 $noname  IC1 LOGIC-MUX_2TO1 {Lib=LOGIC-MUX_2TO1}
+  (    1 nMS0 )
+  (    2 GND )
+  (    3 nMS1 )
+  (    4 nMS )
+  (    5 VDDIO )
+  (    6 /nM-Addr )
+ )
+ ( /4DDD189E $noname  R1 2k2 {Lib=R_MINI}
+  (    1 SMDAT )
+  (    2 VDDIO )
+ )
+ ( /4DDD188E $noname  R2 2k2 {Lib=R_MINI}
+  (    1 SMCLK )
+  (    2 VDDIO )
+ )
+ ( /4DDCCEF5 $noname  IC2 EEPROM {Lib=EEPROM_24XX_32K+}
+  (    1 VDDIO )
+  (    2 VDDIO )
+  (    3 /nM-Addr )
+  (    4 GND )
+  (    5 SMDAT )
+  (    6 SMCLK )
+  (    7 GND )
+  (    8 VDDIO )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "6V0" "6V0"
+ U2 A2
+ U1 A3
+ U1 A2
+ U2 A3
+ P1 22
+Net 2 "5V0" "5V0"
+ V10 1
+ U2 B3
+ C5 1
+ P1 23
+ U1 B3
+Net 3 "3V3" "3V3"
+ U3 10
+ IC6 5
+ IC8 6
+ C4 1
+ IC8 14
+ U2 B2
+ U1 B2
+ C7 1
+ V9 1
+ L1 2
+ C6 1
+ P1 24
+ U3 9
+ C9 1
+ C11 1
+ IC5 2
+ IC4 1
+ R6 2
+ R7 2
+ IC7 8
+ V81 1
+ V82 1
+ V83 1
+ V89 1
+Net 4 "SSCK" "SSCK"
+ P1 17
+ U1 A5
+ U2 A5
+ V64 1
+ V12 1
+Net 5 "VDDIO" "VDDIO"
+ R1 2
+ IC1 5
+ U2 B17
+ V11 1
+ IC3 5
+ C1 1
+ C2 1
+ C3 1
+ U1 B17
+ IC2 8
+ IC2 2
+ IC2 1
+ R2 2
+ V49 1
+ V50 1
+ V53 1
+ V51 1
+ V54 1
+ V40 1
+ V39 1
+ V63 1
+ P1 4
+Net 6 "GND" "GND"
+ V71 1
+ V72 1
+ V56 1
+ C6 2
+ C10 2
+ IC3 3
+ V1 1
+ V2 1
+ V4 1
+ V3 1
+ V7 1
+ V8 1
+ V6 1
+ V5 1
+ V59 1
+ U3 4
+ U3 1
+ V62 1
+ V61 1
+ R8 1
+ V90 1
+ V92 1
+ V91 1
+ V94 1
+ V93 1
+ V95 1
+ V96 1
+ V69 1
+ V70 1
+ V67 1
+ IC4 5
+ IC4 4
+ V68 1
+ V66 1
+ IC5 1
+ V65 1
+ C11 2
+ C9 2
+ V57 1
+ V58 1
+ V60 1
+ V47 1
+ V43 1
+ V44 1
+ V42 1
+ V41 1
+ V88 1
+ V87 1
+ V85 1
+ V86 1
+ V84 1
+ V33 1
+ IC7 5
+ IC7 4
+ V45 1
+ V46 1
+ V48 1
+ C2 2
+ U2 B16
+ U1 B4
+ U1 A4
+ IC8 17
+ U1 B1
+ U1 A1
+ U3 12
+ C3 2
+ IC6 2
+ C8 2
+ R9 1
+ IC8 9
+ IC8 10
+ C4 2
+ IC8 3
+ U3 18
+ U3 17
+ C1 2
+ IC2 4
+ U2 B18
+ U2 A18
+ U1 B13
+ U2 A11
+ U2 B11
+ U2 A12
+ V80 1
+ V79 1
+ U2 B12
+ V77 1
+ U2 B13
+ V78 1
+ V75 1
+ V76 1
+ U2 A15
+ V74 1
+ V73 1
+ P1 18
+ R5 1
+ U1 B12
+ U1 A12
+ U1 B11
+ U1 A11
+ IC2 7
+ IC1 2
+ P1 1
+ U1 B18
+ U1 A18
+ C5 2
+ U2 A1
+ U2 B1
+ C7 2
+ U2 A4
+ U2 B4
+ U1 B16
+ P1 21
+ P1 12
+ U1 A15
+Net 7 "MISO" "MISO"
+ U1 A6
+ V34 1
+ U2 A6
+ P1 14
+ V13 1
+Net 8 "nMS0" "nMS0"
+ U1 A8
+ V15 1
+ IC1 1
+ U2 A8
+ V36 1
+Net 9 "MOSI" "MOSI"
+ V35 1
+ U2 A7
+ P1 13
+ U1 A7
+ V14 1
+Net 10 "RX1" "RX1"
+ U1 A17
+ P1 2
+ V21 1
+ U2 A17
+ V38 1
+Net 11 "nMS1" "nMS1"
+ V16 1
+ U1 A9
+ U2 A9
+ V37 1
+ IC1 3
+Net 12 "SCK" "SCK"
+ U3 8
+ R6 1
+ IC5 3
+ IC8 4
+ V106 1
+ V105 1
+Net 13 "UTX" "UTX"
+ U2 B10
+ V27 1
+ P1 10
+ U1 B10
+Net 14 "URX" "URX"
+ U2 B9
+ P1 11
+ V26 1
+ U1 B9
+Net 15 "RTS" "RTS"
+ V24 1
+ U2 B7
+ U1 B7
+ P1 16
+Net 16 "CTS" "CTS"
+ U1 B8
+ V25 1
+ U2 B8
+ P1 15
+Net 17 "nMS" "nMS"
+ V52 1
+ P1 9
+ R3 2
+ IC1 4
+ IC7 1
+ IC4 8
+Net 18 "/nM-Addr" "nM-Addr"
+ V17 1
+ IC3 2
+ U1 A10
+ V55 1
+ IC2 3
+ IC1 6
+Net 19 "" ""
+ D1 2
+ L1 1
+ IC6 1
+Net 20 "" ""
+ D1 1
+ C10 1
+ U3 3
+Net 21 "" ""
+ IC6 4
+ R5 2
+ R4 1
+Net 23 "" ""
+ IC8 16
+ U3 14
+Net 24 "/SDA" "SDA"
+ IC5 4
+ IC8 5
+ U3 7
+ R7 1
+Net 27 "" ""
+ IC8 11
+ TP1 1
+Net 28 "" ""
+ IC8 12
+ TP2 1
+Net 29 "" ""
+ IC8 13
+ U3 16
+Net 30 "" ""
+ IC8 15
+ U3 15
+Net 31 "/LEDBoost_PWM" "LEDBoost_PWM"
+ IC7 3
+ V97 1
+ V98 1
+ R4 2
+Net 32 "" ""
+ U3 2
+ C8 1
+ R9 2
+ IC6 3
+Net 33 "PWM1" "PWM1"
+ U2 A14
+ V19 1
+ V99 1
+ U1 A14
+ P1 5
+ R10 1
+ V31 1
+Net 34 "RX0" "RX0"
+ V100 1
+ U2 A16
+ IC7 2
+ U1 A16
+ P1 3
+ V20 1
+ V32 1
+Net 35 "PWM0" "PWM0"
+ U2 A13
+ U1 A13
+ V30 1
+ P1 6
+ V18 1
+Net 36 "TX1" "TX1"
+ U2 B15
+ V29 1
+ U1 B15
+ IC4 6
+ P1 7
+Net 38 "/nM-Addr_U2" "nM-Addr_U2"
+ U2 A10
+ IC3 4
+Net 39 "" ""
+ U3 6
+ R8 2
+Net 40 "" ""
+ U3 13
+ IC8 1
+Net 41 "" ""
+ R10 2
+ IC7 6
+Net 42 "" ""
+ R3 1
+ IC5 7
+ IC5 8
+Net 43 "/LCD_nRST" "LCD_nRST"
+ U3 5
+ IC4 3
+Net 44 "SMDAT" "SMDAT"
+ V23 1
+ U1 B6
+ IC2 5
+ U2 B6
+ R1 1
+ IC5 5
+ P1 19
+Net 45 "SMCLK" "SMCLK"
+ R2 1
+ P1 20
+ IC2 6
+ U1 B5
+ V22 1
+ U2 B5
+ IC5 6
+Net 46 "TX0" "TX0"
+ P1 8
+ U2 B14
+ IC4 7
+ V28 1
+ U1 B14
+Net 47 "/STMPE_INT" "STMPE_INT"
+ IC7 7
+ V101 1
+ IC8 2
+ V102 1
+Net 48 "/LCD_CS" "LCD_CS"
+ V104 1
+ V103 1
+ U3 11
+ IC4 2
+}
+#End
