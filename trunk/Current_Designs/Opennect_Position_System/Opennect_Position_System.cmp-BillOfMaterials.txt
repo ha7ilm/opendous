@@ -1,0 +1,26 @@
+Bill of Materials for the Opennect_Position_System Project - www.opendous.org/PositionSystem
+
+QTY, Manufacturer Part#     , Cost($USD each) - References - Description
+
+  1, SN74LVC1G3157DBVR      , 0.44 - IC1 - IC SWITCH SPDT 2-to-1 MUX SOT23-6 1.65V-to-5.5V
+  1, CAT24C32WI-GT3         , 0.63 - IC2 - IC EEPROM 32KBIT 400KHZ I2C 16-bit Addresses 8SOIC 1.7V-to-5.5V
+  3, SN74LVC2T45DCTR        , 0.79 - IC3 IC6 IC7 - IC BUS TRANSCVR 2BIT N-INV SM8
+  1, LSM303DLMTR            , 8.85 - IC4 - ACCELEROMETER/MAGNETOMETER 28LGA
+  1, PCA9306DCTR            , 0.99 - IC5 - IC I2C SMBus VOLT-LEVEL TRANSLATOR SM8
+  6, GRM21BR71H104KA01L     , 0.04 - C1 C2 C3 C6 C11 C15 - CAP CER .1UF 50V 10% X7R 0805
+  1, 08055C103KAT2A         , 0.03 - C4 - CAP CER 10000PF = 0.01uF 50V X7R 10% Low ESR 0805
+  1, C0805C224K5RACTU       , 0.19 - C9 - CAP CER 0.22UF 50V 10% X7R 0805
+  1, CC0805KKX7R7BB105      , 0.10 - C5 - CAP CERAMIC 1UF 16V X7R 0805
+  1, C0805C475K8PACTU       , 0.30 - C10 - CAP CER 4.7UF 10V 10% X5R 0805
+  2, LMK212BJ106KG-T        , 0.42 - C12 C16 - CAP CER 10UF 10V X5R 0805
+  1, BLM21PG300SN1D         , 0.28 - L1 - FERRITE CHIP 30 OHM 3000MA 0805 0.15-Ohm-DCR
+  1, RC0805FR-07330RL       , 0.02 - R3 R5 R9 - RES 330 OHM 1/8W 1% 0805 SMD
+  2, RMCF0805JT2K20         , 0.03 - R1 R2 - RES 2.2K OHM 1/8W 5% 0805 SMD
+  2, RC0805FR-0710KL        , 0.02 - R6 R7 - RES 10.0K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT200K         , 0.04 - R8 - RES 200K OHM 1/8W 1% 0805 SMD
+  1, 1566230-1              , 1.09 - TP2 - CONN UMCC RCPT SMD STYLE A
+  1, PA6C GPS Module        ,25.00 - U2 - PA6C from www.gtop-tech.com
+-----------------------Total:41.51
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey unless noted otherwise
+
