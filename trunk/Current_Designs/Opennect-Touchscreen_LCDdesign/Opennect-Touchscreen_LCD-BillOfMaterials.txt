@@ -1,0 +1,30 @@
+Bill of Materials for the Opennect-Touchscreen_LCD Project - www.opendous.org/TouchscreenLCD
+
+QTY, Manufacturer Part#     , Cost($USD each) - References - Description
+
+  1, SN74LVC1G3157DBVR      , 0.44 - IC1 - IC SWITCH SPDT 2-to-1 MUX SOT23-6 1.65V-to-5.5V
+  1, CAT24C32WI-GT3         , 0.63 - IC2 - IC EEPROM 32KBIT 400KHZ I2C 16-bit Addresses 8SOIC 1.7V-to-5.5V
+  1, SN74LVC1G14DBVR        , 0.42 - IC3 - IC SCHMITT TRIGGER INVERTER SOT-23-5 1.65V-to-5.5V
+  2, SN74LVC2T45DCTR        , 0.79 - IC4 IC7 - IC BUS TRANSCVR 2BIT N-INV SM8
+  1, PCA9306DCTR            , 0.99 - IC5 - IC I2C SMBus VOLT-LEVEL TRANSLATOR SM8
+  1, CAT4237TD-GT3          , 1.52 - IC6 - IC LED DRVR WHT BCKLGHT TSOT23-5
+  1, STMPE610QTR            , 2.21 - IC8 - IC CTLR ADV TOUCH SCREEN 16-QFN
+  9, GRM21BR71H104KA01L     , 0.04 - C1 C2 C3 C4 C5 C7 C8 C9 C11 - CAP CER .1UF 50V 10% X7R 0805
+  1, C0805C224K5RACTU       , 0.19 - C10 - CAP CER 0.22UF 50V 10% X7R 0805
+  1, C0805C475K8PACTU       , 0.30 - C6 - CAP CER 4.7UF 10V 10% X5R 0805
+  1, PMEG4005EH,115         , 0.56 - D1 - SCHOTTKY RECT 40V 0.5A SOD123F
+  1, NR5040T330M            , 0.41 - L1 - INDUCTOR 33UH 1.2A 20% SMD
+  1, ERJ-6GEY0R00V          , 0.05 - R4 - RES 0.0 OHM 1/8W 0805 SMD
+  1, RNCP0805FTD15R0        , 0.07 - R9 - RES 15 OHM 1/4W 1% 0805 SMD
+  1, RC0805FR-07249RL       , 0.02 - R10 - RES 249 OHM 1/8W 1% 0805 SMD
+  2, RMCF0805FT1K00         , 0.04 - R6 R7 - RES 1K OHM 1/8W 1% 0805 SMD
+  2, RMCF0805JT2K20         , 0.03 - R1 R2 - RES 2.2K OHM 1/8W 5% 0805 SMD
+  2, RMCF0805FT47K0         , 0.04 - R5 R8 - RES 47K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT200K         , 0.04 - R3 - RES 200K OHM 1/8W 1% 0805 SMD
+  1, NWE18DHRN-T941         , 2.47 - U2 - CONN PCI EXPRESS 36POS VERT PCB
+  1, COG-C172MVHC-04        , 5.40 - U3 - LCD DISPLAY 128X160 CSTN
+-----------------------Total:17.88
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey
+	- A 2mm Header such as NPPN122AFCN-RC can be optionally populated for testing
+
