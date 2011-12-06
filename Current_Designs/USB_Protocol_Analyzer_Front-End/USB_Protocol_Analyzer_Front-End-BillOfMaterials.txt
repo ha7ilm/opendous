@@ -1,0 +1,104 @@
+THIS FILE IS STILL A WORK IN PROGRESS
+
+
+Bill of Materials for LT1945 Project
+
+ 2, 500R15N180JV4T         , 0.04 - C1 C2 - CAP CER 18PF 50V NP0 0805
+ 3, GRM21BR71H104KA01L     , 0.04 - C3 C8 C9 - CAP CER .1UF 50V 10% X7R 0805
+ 1, C2012X7R1A105K         , 0.05 - C4 - CAP CER 1.0UF 10V X7R 10% Low ESR 0805
+ 1, C0805C475K8PACTU       , 0.22 - C6 - CAP CER 4.7UF 10V X5R 0805
+ 2, ESD03A5V5R17V          , 0.56 - CR1 CR2 - SUPPRESSOR ESD 0.2PF 5.5VDC 0603
+ 1, BLM21PG221SN1D         , 0.06 - L4 - FERRITE CHIP 220 OHM 2000MA 0805
+ 1, APT2012EC              , 0.13 - D1 - LED 20mA 2X1.2MM 625NM RED WTR CLR SMD 0805
+ 1, APT2012SGC             , 0.13 - D2 - LED 20mA 2X1.2MM 568NM GREEN WTR CLR SMD 0805
+ 2, MCR10EZPF22R0          , 0.04 - R1 R2 - RES 22.0 OHM 1/8W 1% 0805 SMD
+ 2, RMCF0805JT390R         , 0.03 - R5 R6 - RES 390 OHM 1/8W 5% 0805 SMD
+ 2, RMCF0805JT47K0         , 0.03 - R3 R4 - RES 47K OHM 1/8W 5% 0805 SMD
+ 1, ABLS-16.000MHZ-B4-T    , 0.41 - X1 - CRYSTAL 16.000 MHZ 18PF HC49US 30ppm
+--------------Cost Estimate: 8.81
+
+Notes:	- Component costs listed are for minimal quantity orders from DigiKey
+	- 
+
+
+
+
+eeschema (2011-07-08 BZR 3044)-stable  >> Creation date: 12/5/2011 6:53:50 PM
+
+#Cmp ( order = Reference )
+| C1         0u1         ;             
+| C2         4u7         ;             
+| C3         4u7         ;             
+| C4         0u1         ;             
+| C6         0u1         ;             
+| C7         0u1         ;             
+| C8         0u1         ;             
+| C9         0u1         ;             
+| CON1       AVR-ISP-6   ; AVR-ISP-6   
+| IC1        XC6222      ;             
+| IC2        ATtiny25    ; DIP8        
+| IC3        USB1T11A    ;             
+| IC4        ADuM1400    ;             
+| IC5        EEPROM      ;             
+| L1         FB          ;             
+| Mask1      MASK        ;             
+| R1         100k        ;             
+| R2         100         ;             
+| R3         0R1         ;             
+| R4         100         ;             
+| R5         100k        ;             
+| R6         47k         ;             
+| R7         47k         ;             
+| R8         47k         ;             
+| R9         47k         ;             
+| R10        47k         ;             
+| R11        47k         ;             
+| R12        100         ;             
+| R13        DNI         ;             
+| R14        47k         ;             
+| R15        2k2         ;             
+| R16        2k2         ;             
+| U1         USB-B       ;             
+| U2         USB-A       ;             
+| U3         Opennect-Module-MCU-3V3;             
+| U4         ORgate      ;             
+| U5         Atmel_XPLD_Serial;             
+
+#Cmp ( order = Value )
+| 0R1          R3        ;             
+| 0u1          C1        ;             
+| 0u1          C4        ;             
+| 0u1          C6        ;             
+| 0u1          C7        ;             
+| 0u1          C8        ;             
+| 0u1          C9        ;             
+| 100          R2        ;             
+| 100          R4        ;             
+| 100          R12       ;             
+| 100k         R1        ;             
+| 100k         R5        ;             
+| 2k2          R15       ;             
+| 2k2          R16       ;             
+| 47k          R6        ;             
+| 47k          R7        ;             
+| 47k          R8        ;             
+| 47k          R9        ;             
+| 47k          R10       ;             
+| 47k          R11       ;             
+| 47k          R14       ;             
+| 4u7          C2        ;             
+| 4u7          C3        ;             
+| ADuM1400     IC4       ;             
+| Atmel_XPLD_Serial U5        ;             
+| ATtiny25     IC2       ; DIP8        
+| AVR-ISP-6    CON1      ; AVR-ISP-6   
+| DNI          R13       ;             
+| EEPROM       IC5       ;             
+| FB           L1        ;             
+| MASK         Mask1     ;             
+| Opennect-Module-MCU-3V3 U3        ;             
+| ORgate       U4        ;             
+| USB-A        U2        ;             
+| USB-B        U1        ;             
+| USB1T11A     IC3       ;             
+| XC6222       IC1       ;             

@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  25/06/2010 22:46:36
+PCBNEW-LibDoc----V1  21/03/2011 05:20:23
 #
 $MODULE 1Pin_TH_40milVia
 Li 1Pin_TH_40milVia
@@ -325,11 +325,6 @@ Li LQFP64_0.5mm_Pitch_10x10mm_FT2232
 Kw LQFP64 0.5mm Pitch 10x10mm FT2232 Opendous
 $EndMODULE
 #
-$MODULE Memory_Card_microSD_3M_290805
-Li Memory_Card_microSD_3M_290805
-Kw microSD 3M 290805 DigiKey 3M5607CT-ND Opendous
-$EndMODULE
-#
 $MODULE 1553B_Hammond_Enclosure
 Li 1553B_Hammond_Enclosure
 Kw Guard Ring and Edge Outline for Hammond 1553B_BAT Enclosure Opendous
@@ -355,6 +350,105 @@ $EndMODULE
 $MODULE MSOP10-0.5mmPitch_Opendous
 Li MSOP10-0.5mmPitch_Opendous
 Cd MSOP10 10pins pitch 0.5mm
+$EndMODULE
+#
+$MODULE Switch_SMT_TH_EVQ_TL59_Minimized
+Li Switch_SMT_TH_EVQ_TL59_Minimized
+Cd EVQ-Q2F03W, TL59AF100Q Compatible
+Kw Switch SMT TH Through-Hole
+$EndMODULE
+#
+$MODULE CONN_USB-A_Vertical_RA
+Li CONN_USB-A_Vertical_RA
+Kw EDAC USB-A Receptacle Right Angle Vertical 690-004-261-013
+$EndMODULE
+#
+$MODULE Memory_Card_microSD_3M_290805
+Li Memory_Card_microSD_3M_290805
+Kw microSD 3M 290805 DigiKey 3M5607CT-ND Opendous
+$EndMODULE
+#
+$MODULE Switch_SMT_TH_EVQ_TL59_Minimized_v2
+Li Switch_SMT_TH_EVQ_TL59_Minimized_v2
+Cd EVQ-Q2F03W, TL59AF100Q Compatible
+Kw Switch SMT TH Through-Hole
+$EndMODULE
+#
+$MODULE MEMORY_CARD_microSD_101-00303_Amphenol
+Li MEMORY_CARD_microSD_101-00303_Amphenol
+Kw microSD Amphenol 101-00303-** Memory Card Connector
+$EndMODULE
+#
+$MODULE SSOP20_TSSOP20_Opendous
+Li SSOP20_TSSOP20_Opendous
+Cd TSSOP 20 Pins
+Kw CMS TSSOP SMD TI PW
+$EndMODULE
+#
+$MODULE Memory_Card_microSD_DM3CS-SF
+Li Memory_Card_microSD_DM3CS-SF
+Kw Hirose DM3CS-SF CONN microSD R/A Hinge Type SMD
+$EndMODULE
+#
+$MODULE BGA-144_1.0mm_Kinetis
+Li BGA-144_1.0mm_Kinetis
+Kw BGA 144 1.0mm 13x13mm Kinetis
+$EndMODULE
+#
+$MODULE BGA-289_p0.8_iMX28
+Li BGA-289_p0.8_iMX28
+Kw BGA 289 0.8mm 14x14mm
+$EndMODULE
+#
+$MODULE BGA-84_P0.8mm_JEDEC_DDR2
+Li BGA-84_P0.8mm_JEDEC_DDR2
+Kw BGA 84 0.8mm 8x12.5mm JEDEC DDR2 x16
+$EndMODULE
+#
+$MODULE Memory_Card_microSD_DM3D-SF
+Li Memory_Card_microSD_DM3D-SF
+Kw Hirose DM3D-SF CONN microSD R/A Push-Pull SMD
+$EndMODULE
+#
+$MODULE Antenna_Meander_2.4GHz_TI_AN043
+Li Antenna_Meander_2.4GHz_TI_AN043
+Kw Small 2.4GHz Meander Antenna TI AppNote AN0403 SWRA117D
+$EndMODULE
+#
+$MODULE MEC6-140-2-L-D-RA1
+Li MEC6-140-2-L-D-RA1
+Kw MEC6-140-2-S-D-RA1 or MEC6-140-2-L-D-RA1 Sullins MEC6 7GBps 14GHz Edgeboard
+$EndMODULE
+#
+$MODULE SATA_Molex_67490-1220
+Li SATA_Molex_67490-1220
+Kw Molex SATA 67490-002 67490-1220
+$EndMODULE
+#
+$MODULE SATA_Molex_67490-1220_Electrode
+Li SATA_Molex_67490-1220_Electrode
+Kw Molex SATA 67490-002 67490-1220
+$EndMODULE
+#
+$MODULE SOT23-8_Opendous
+Li SOT23-8_Opendous
+Kw SOT23-5_Opendous
+$EndMODULE
+#
+$MODULE EVJ_Dual_Potentiometer
+Li EVJ_Dual_Potentiometer
+Kw Panasonic EVJ Dual Audio Potentiometer EVJC20
+$EndMODULE
+#
+$MODULE SM1210L_Opendous
+Li SM1210L_Opendous
+Kw CMS SM
+$EndMODULE
+#
+$MODULE SO8E_4x5mm_Opendous_ThermalPad
+Li SO8E_4x5mm_Opendous_ThermalPad
+Cd module CMS SOJ 8 pins etroit
+Kw CMS SOJ
 $EndMODULE
 #
 $EndLIBDOC
