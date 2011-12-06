@@ -1,0 +1,660 @@
+# EESchema Netlist Version 1.1 created  12/5/2011 6:16:02 PM
+(
+ ( /4EDD5056 $noname  Mask1 MASK {Lib=VIA}
+  (    1 ? )
+ )
+ ( /4EDD49C7 $noname  V51 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDD49C6 $noname  V52 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDD49C5 $noname  V50 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDD49C4 $noname  V49 VIA {Lib=VIA}
+  (    1 /SEO )
+ )
+ ( /4EDCC6BA $noname  V1 VIA {Lib=VIA}
+  (    1 /VBUSb )
+ )
+ ( /4EDCC6B9 $noname  V2 VIA {Lib=VIA}
+  (    1 /DN )
+ )
+ ( /4EDCC6B8 $noname  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B7 $noname  V3 VIA {Lib=VIA}
+  (    1 /DP )
+ )
+ ( /4EDCC6B6 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B5 $noname  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B4 $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B3 $noname  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B2 $noname  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B1 $noname  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6B0 $noname  V16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6AF $noname  V15 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6AE $noname  V11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6AD $noname  V12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC6AC $noname  V10 VIA {Lib=VIA}
+  (    1 /ISO_ID )
+ )
+ ( /4EDCC6AB $noname  V9 VIA {Lib=VIA}
+  (    1 /ISO_ID )
+ )
+ ( /4EDCC6AA $noname  V33 VIA {Lib=VIA}
+  (    1 /UART_DOUT_ISO )
+ )
+ ( /4EDCC6A9 $noname  V34 VIA {Lib=VIA}
+  (    1 /UART_DOUT_ISO )
+ )
+ ( /4EDCC6A8 $noname  V36 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC6A7 $noname  V35 VIA {Lib=VIA}
+  (    1 /ISO_EN )
+ )
+ ( /4EDCC6A6 $noname  V39 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4EDCC6A5 $noname  V40 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4EDCC6A4 $noname  V38 VIA {Lib=VIA}
+  (    1 VDDIO )
+ )
+ ( /4EDCC6A3 $noname  V37 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC6A2 $noname  V45 VIA {Lib=VIA}
+  (    1 /nMS0 )
+ )
+ ( /4EDCC6A1 $noname  V46 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC6A0 $noname  V48 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC69F $noname  V47 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC69E $noname  V43 VIA {Lib=VIA}
+  (    1 /SDA )
+ )
+ ( /4EDCC69D $noname  V44 VIA {Lib=VIA}
+  (    1 /nMS0 )
+ )
+ ( /4EDCC69C $noname  V42 VIA {Lib=VIA}
+  (    1 /SCL )
+ )
+ ( /4EDCC69B $noname  V41 VIA {Lib=VIA}
+  (    1 /RCV_ISO )
+ )
+ ( /4EDCC69A $noname  V25 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC699 $noname  V26 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC698 $noname  V28 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC697 $noname  V27 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC696 $noname  V31 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC695 $noname  V32 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC694 $noname  V30 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC693 $noname  V29 VIA {Lib=VIA}
+  (    1 GNDISO )
+ )
+ ( /4EDCC692 $noname  V21 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC691 $noname  V22 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC690 $noname  V24 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC68F $noname  V23 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC68C $noname  V19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC68B $noname  V20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC688 $noname  V18 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC682 $noname  V17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4EDCC426 $noname  U4 ORgate {Lib=OR_GATE}
+  (    1 /Vp_ISO )
+  (    2 /Vm_ISO )
+  (    3 GNDISO )
+  (    4 /SEO )
+  (    5 VDDIO )
+ )
+ ( /4EDCC083 $noname  C8 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GNDISO )
+ )
+ ( /4EDCC067 $noname  C9 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GNDISO )
+ )
+ ( /4EDCBE60 $noname  R15 2k2 {Lib=R_MINI}
+  (    1 /SDA )
+  (    2 VDDIO )
+ )
+ ( /4EDCBDB1 $noname  R8 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /Vmo-Fseo )
+ )
+ ( /4EDCBDAD $noname  R11 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /Vpo )
+ )
+ ( /4EDCB9C6 DIP8  IC2 ATtiny25 {Lib=ATTINY25-P}
+  (    1 /RST )
+  (    2 /VBUSa )
+  (    3 /VBUSb )
+  (    4 GND )
+  (    5 /MOSI )
+  (    6 /UART_DOUT )
+  (    7 /SCK )
+  (    8 /VBUSb )
+ )
+ ( /4EDCB97A $noname  R12 100 {Lib=R_MINI}
+  (    1 /ISO_ID )
+  (    2 /UART_DOUT )
+ )
+ ( /4EDC9F17 $noname  R6 47k {Lib=R_MINI}
+  (    1 /SPEED )
+  (    2 3V3 )
+ )
+ ( /4EDC9EEC $noname  R7 47k {Lib=R_MINI}
+  (    1 /nOE )
+  (    2 3V3 )
+ )
+ ( /4EDC9EBD $noname  R9 47k {Lib=R_MINI}
+  (    1 /MODE )
+  (    2 3V3 )
+ )
+ ( /4EDC9E8D $noname  R10 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /SUSPND )
+ )
+ ( /4EDC9D4B AVR-ISP-6  CON1 AVR-ISP-6 {Lib=AVR-ISP-6}
+  (    1 /UART_DOUT )
+  (    2 /VBUSb )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RST )
+  (    6 GND )
+ )
+ ( /4EDC9A19 $noname  R16 2k2 {Lib=R_MINI}
+  (    1 /SCL )
+  (    2 VDDIO )
+ )
+ ( /4EDC98E5 $noname  R14 47k {Lib=R_MINI}
+  (    1 GNDISO )
+  (    2 /ISO_EN )
+ )
+ ( /4EDC986D $noname  R13 DNI {Lib=R_MINI}
+  (    1 /ISO_EN )
+  (    2 VDDIO )
+ )
+ ( /4EDC97BF $noname  C4 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4EDC97BB $noname  C1 0u1 {Lib=C_MINI}
+  (    1 /VBUSb )
+  (    2 GND )
+ )
+ ( /4EDC912E $noname  U5 Atmel_XPLD_Serial {Lib=ATMEL_XPLD_SERIAL}
+  (    1 /Vp_ISO )
+  (    2 /Vm_ISO )
+  (    3 /UART_DOUT_ISO )
+  (    4 /SEO )
+  (    5 /ISO_EN )
+  (    6 ? )
+  (    7 /RCV_ISO )
+  (    8 ? )
+  (    9 GNDISO )
+  (   10 VDDIO )
+ )
+ ( /4EDC8F9A $noname  C7 0u1 {Lib=C_MINI}
+  (    1 VDDIO )
+  (    2 GNDISO )
+ )
+ ( /4EDC8F89 $noname  C6 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4EDC8B9B $noname  L1 FB {Lib=L_MINI}
+  (    1 GNDSHIELD )
+  (    2 GND )
+ )
+ ( /4EDC8B45 $noname  C3 4u7 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4EDC8B2E $noname  C2 4u7 {Lib=C_MINI}
+  (    1 /VBUSb )
+  (    2 GND )
+ )
+ ( /4EDC8B00 $noname  IC1 XC6222 {Lib=REGULATOR_SOT23-5}
+  (    1 /VBUSb )
+  (    2 GND )
+  (    3 /VBUSb )
+  (    4 ? )
+  (    5 3V3 )
+ )
+ ( /4EDC89E1 $noname  R5 100k {Lib=R_MINI}
+  (    1 /DN )
+  (    2 GND )
+ )
+ ( /4EDC89DC $noname  R1 100k {Lib=R_MINI}
+  (    1 /DP )
+  (    2 GND )
+ )
+ ( /4EDC89D8 $noname  R2 100 {Lib=R_MINI}
+  (    1 /DP )
+  (    2 /D- )
+ )
+ ( /4EDC89AE $noname  R4 100 {Lib=R_MINI}
+  (    1 /DN )
+  (    2 /D+ )
+ )
+ ( /4EDC88EC $noname  R3 0R1 {Lib=R_MINI}
+  (    1 /VBUSa )
+  (    2 /VBUSb )
+ )
+ ( /4EDC88CF $noname  U2 USB-A {Lib=USBCONN}
+  (    1 /VBUSa )
+  (    2 /DN )
+  (    3 /DP )
+  (    4 GND )
+  (    5 GNDSHIELD )
+ )
+ ( /4EDC88C3 $noname  U1 USB-B {Lib=USBCONN}
+  (    1 /VBUSb )
+  (    2 /DN )
+  (    3 /DP )
+  (    4 GND )
+  (    5 GNDSHIELD )
+ )
+ ( /4EDC886B $noname  IC4 ADuM1400 {Lib=ADUMX400}
+  (    1 3V3 )
+  (    2 GND )
+  (    3 /Vm )
+  (    4 /Vp )
+  (    5 /RCV )
+  (    6 /ISO_ID )
+  (    7 ? )
+  (    8 GND )
+  (    9 GNDISO )
+  (   10 /ISO_EN )
+  (   11 /UART_DOUT_ISO )
+  (   12 /RCV_ISO )
+  (   13 /Vp_ISO )
+  (   14 /Vm_ISO )
+  (   15 GNDISO )
+  (   16 VDDIO )
+ )
+ ( /4EDC8807 $noname  IC3 USB1T11A {Lib=USB1T11A}
+  (    1 /MODE )
+  (    2 /nOE )
+  (    3 /RCV )
+  (    4 /Vp )
+  (    5 /Vm )
+  (    6 /SUSPND )
+  (    7 GND )
+  (    8 ? )
+  (    9 /SPEED )
+  (   10 /D- )
+  (   11 /D+ )
+  (   12 /Vpo )
+  (   13 /Vmo-Fseo )
+  (   14 3V3 )
+ )
+ ( /4EDC87F8 $noname  IC5 EEPROM {Lib=EEPROM_24XX_32K+}
+  (    1 VDDIO )
+  (    2 VDDIO )
+  (    3 /nMS0 )
+  (    4 GNDISO )
+  (    5 /SDA )
+  (    6 /SCL )
+  (    7 GNDISO )
+  (    8 VDDIO )
+ )
+ ( /4EDC87F2 $noname  U3 Opennect-Module-MCU-3V3 {Lib=OPENNECT-CONTROLLER-MCU}
+  (   A1 GNDISO )
+  (   A2 ? )
+  (   A3 ? )
+  (   A4 GNDISO )
+  (   A5 ? )
+  (   A6 /RCV_ISO )
+  (   A7 ? )
+  (   A8 /nMS0 )
+  (   A9 ? )
+  (  A10 ? )
+  (  A11 GNDISO )
+  (  A12 GNDISO )
+  (  A13 ? )
+  (  A14 ? )
+  (  A15 GNDISO )
+  (  A16 /Vm_ISO )
+  (  A17 /Vp_ISO )
+  (  A18 GNDISO )
+  (   B1 GNDISO )
+  (   B2 ? )
+  (   B3 ? )
+  (   B4 GNDISO )
+  (   B5 /SCL )
+  (   B6 /SDA )
+  (   B7 ? )
+  (   B8 /SEO )
+  (   B9 /UART_DOUT_ISO )
+  (  B10 ? )
+  (  B11 GNDISO )
+  (  B12 GNDISO )
+  (  B13 GNDISO )
+  (  B14 /ISO_EN )
+  (  B15 ? )
+  (  B16 GNDISO )
+  (  B17 VDDIO )
+  (  B18 GNDISO )
+ )
+)
+*
+{ Allowed footprints by component:
+$component U4
+ SOT23
+ SOT23-5
+ SOT23-6
+$endlist
+$component U5
+ Pin_Array_Port_5x2_STK500
+$endlist
+$component IC1
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "3V3" "3V3"
+ IC1 5
+ R6 2
+ R7 2
+ R9 2
+ IC3 14
+ C3 1
+ IC4 1
+ C6 1
+ C4 1
+Net 2 "/MODE" "MODE"
+ R9 1
+ IC3 1
+Net 3 "GND" "GND"
+ C3 2
+ C2 2
+ IC1 2
+ IC3 7
+ U2 4
+ U1 4
+ IC4 2
+ IC4 8
+ C6 2
+ R5 2
+ R1 2
+ L1 2
+ V15 1
+ V4 1
+ V7 1
+ V8 1
+ V6 1
+ V5 1
+ V13 1
+ V14 1
+ V16 1
+ R8 1
+ R11 1
+ V17 1
+ V18 1
+ V20 1
+ V19 1
+ V23 1
+ V24 1
+ V22 1
+ IC2 4
+ C4 2
+ C1 2
+ V21 1
+ CON1 6
+ R10 1
+ V12 1
+ V11 1
+Net 4 "/SUSPND" "SUSPND"
+ R10 2
+ IC3 6
+Net 7 "/RST" "RST"
+ IC2 1
+ CON1 5
+Net 8 "/MOSI" "MOSI"
+ IC2 5
+ CON1 4
+Net 9 "/VBUSb" "VBUSb"
+ U1 1
+ IC2 3
+ IC2 8
+ IC1 3
+ CON1 2
+ IC1 1
+ C1 1
+ R3 2
+ C2 1
+ V1 1
+Net 12 "/SCK" "SCK"
+ CON1 3
+ IC2 7
+Net 13 "/SEO" "SEO"
+ U4 4
+ U3 B8
+ V49 1
+ U5 4
+Net 14 "/ISO_ID" "ISO_ID"
+ V9 1
+ V10 1
+ IC4 6
+ R12 1
+Net 15 "/nMS0" "nMS0"
+ IC5 3
+ V44 1
+ U3 A8
+ V45 1
+Net 29 "/nOE" "nOE"
+ R7 1
+ IC3 2
+Net 30 "/RCV" "RCV"
+ IC4 5
+ IC3 3
+Net 31 "/SPEED" "SPEED"
+ R6 1
+ IC3 9
+Net 32 "/D-" "D-"
+ R2 2
+ IC3 10
+Net 33 "/D+" "D+"
+ IC3 11
+ R4 2
+Net 34 "/Vpo" "Vpo"
+ IC3 12
+ R11 2
+Net 35 "/Vmo-Fseo" "Vmo-Fseo"
+ IC3 13
+ R8 2
+Net 36 "/VBUSa" "VBUSa"
+ R3 1
+ U2 1
+ IC2 2
+Net 37 "/Vm" "Vm"
+ IC3 5
+ IC4 3
+Net 38 "/Vp" "Vp"
+ IC3 4
+ IC4 4
+Net 39 "/UART_DOUT_ISO" "UART_DOUT_ISO"
+ U5 3
+ U3 B9
+ V34 1
+ V33 1
+ IC4 11
+Net 40 "/Vm_ISO" "Vm_ISO"
+ IC4 14
+ U3 A16
+ U4 2
+ U5 2
+Net 41 "/Vp_ISO" "Vp_ISO"
+ U4 1
+ U5 1
+ U3 A17
+ IC4 13
+Net 42 "/SCL" "SCL"
+ R16 1
+ IC5 6
+ U3 B5
+ V42 1
+Net 43 "/RCV_ISO" "RCV_ISO"
+ V41 1
+ U5 7
+ U3 A6
+ IC4 12
+Net 44 "VDDIO" "VDDIO"
+ U3 B17
+ IC4 16
+ C9 1
+ R15 2
+ V39 1
+ V40 1
+ V38 1
+ C7 1
+ R13 2
+ C8 1
+ U5 10
+ U4 5
+ R16 2
+ IC5 1
+ IC5 2
+ IC5 8
+Net 46 "/UART_DOUT" "UART_DOUT"
+ IC2 6
+ CON1 1
+ R12 2
+Net 47 "GNDISO" "GNDISO"
+ V32 1
+ V30 1
+ V29 1
+ IC4 15
+ V47 1
+ C9 2
+ R14 1
+ U3 A1
+ U3 B1
+ U3 A4
+ V31 1
+ U3 B4
+ V27 1
+ V28 1
+ V25 1
+ C7 2
+ V46 1
+ V48 1
+ U5 9
+ U4 3
+ C8 2
+ V36 1
+ V37 1
+ U3 A15
+ U3 B13
+ U3 B12
+ U3 A12
+ U3 B11
+ V51 1
+ V52 1
+ V50 1
+ U3 B16
+ U3 A18
+ U3 B18
+ IC5 4
+ U3 A11
+ IC4 9
+ V26 1
+ IC5 7
+Net 48 "/ISO_EN" "ISO_EN"
+ U5 5
+ V35 1
+ R13 1
+ R14 2
+ IC4 10
+ U3 B14
+Net 49 "GNDSHIELD" "GNDSHIELD"
+ L1 1
+ U1 5
+ U2 5
+Net 50 "/DN" "DN"
+ U1 2
+ U2 2
+ R4 1
+ V2 1
+ R5 1
+Net 51 "/DP" "DP"
+ U2 3
+ U1 3
+ V3 1
+ R2 1
+ R1 1
+Net 53 "/SDA" "SDA"
+ U3 B6
+ R15 1
+ V43 1
+ IC5 5
+}
+#End
