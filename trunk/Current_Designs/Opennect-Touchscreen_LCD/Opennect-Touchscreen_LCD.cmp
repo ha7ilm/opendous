@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/26/2011 9:28:23 AM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 12/12/2011 8:08:06 AM
 
 BeginCmp
 TimeStamp = /4E2BABAB;
@@ -78,6 +78,27 @@ IdModule  = Opennect_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4EE5C31C;
+Reference = C12;
+ValeurCmp = 1u0;
+IdModule  = Opennect_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5C31E;
+Reference = C13;
+ValeurCmp = 1u0;
+IdModule  = Opennect_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5FBBE;
+Reference = C14;
+ValeurCmp = u01;
+IdModule  = Opennect_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D4A7440;
 Reference = D1;
 ValeurCmp = PMEG4005EH;
@@ -138,6 +159,13 @@ TimeStamp = /4E500608;
 Reference = IC8;
 ValeurCmp = STMPE610;
 IdModule  = QFN16_3x3mm_0.5mmPitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5C290;
+Reference = IC9;
+ValeurCmp = REG2V8;
+IdModule  = Opennect_SOT23-5_0.95mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
@@ -1004,6 +1032,69 @@ EndCmp
 BeginCmp
 TimeStamp = /4E807DEC;
 Reference = V106;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CD3B;
+Reference = V107;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CD3C;
+Reference = V108;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CD39;
+Reference = V109;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CD38;
+Reference = V110;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CE30;
+Reference = V111;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5CE2F;
+Reference = V112;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5D0EF;
+Reference = V113;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5D0F5;
+Reference = V114;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE5FC96;
+Reference = V115;
 ValeurCmp = VIA;
 IdModule  = 1Pin_20mil_VIA;
 EndCmp
