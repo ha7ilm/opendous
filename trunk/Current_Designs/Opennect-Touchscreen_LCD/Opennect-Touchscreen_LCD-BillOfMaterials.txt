@@ -9,8 +9,11 @@ QTY, Manufacturer Part#     , Cost($USD each) - References - Description
   1, PCA9306DCTR            , 0.99 - IC5 - IC I2C SMBus VOLT-LEVEL TRANSLATOR SM8
   1, CAT4237TD-GT3          , 1.52 - IC6 - IC LED DRVR WHT BCKLGHT TSOT23-5
   1, STMPE610QTR            , 2.21 - IC8 - IC CTLR ADV TOUCH SCREEN 16-QFN
+  1, XC6221A282MR-G         , 0.50 - IC9 - IC VREG LDO 2.8V HS SOT-25
+  1, 500R15W103KV4T         , 0.04 - C14 - CAP CER 10000pF=0.01uF 50V 10% NP0 0805
   9, GRM21BR71H104KA01L     , 0.04 - C1 C2 C3 C4 C5 C7 C8 C9 C11 - CAP CER .1UF 50V 10% X7R 0805
   1, C0805C224K5RACTU       , 0.19 - C10 - CAP CER 0.22UF 50V 10% X7R 0805
+  2, CC0805KKX7R7BB105      , 0.10 - C12 C13 - CAP CER 1UF 16V 10% X7R 0805
   1, C0805C475K8PACTU       , 0.30 - C6 - CAP CER 4.7UF 10V 10% X5R 0805
   1, PMEG4005EH,115         , 0.56 - D1 - SCHOTTKY RECT 40V 0.5A SOD123F
   1, NR5040T330M            , 0.41 - L1 - INDUCTOR 33UH 1.2A 20% SMD
@@ -23,7 +26,7 @@ QTY, Manufacturer Part#     , Cost($USD each) - References - Description
   1, RMCF0805FT200K         , 0.04 - R3 - RES 200K OHM 1/8W 1% 0805 SMD
   1, NWE18DHRN-T941         , 2.47 - U2 - CONN PCI EXPRESS 36POS VERT PCB
   1, COG-C172MVHC-04        , 5.40 - U3 - LCD DISPLAY 128X160 CSTN
------------------------Total:17.88
+-----------------------Total:18.62
 
 Notes:	- Component costs are based on minimum quantity orders from DigiKey
 	- A 2mm Header such as NPPN122AFCN-RC can be optionally populated for testing
