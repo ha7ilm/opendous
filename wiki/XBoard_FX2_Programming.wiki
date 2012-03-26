@@ -1,6 +1,6 @@
 #summary Instructions for programming the CY7C68013A FX2 IC on a Digilent X-Board
 
-The Cypress [http://www.cypress.com/?mpn=CY7C68013A-56LTXC CY7C68013A] FX2 High Speed USB Microcontroller on a [http://www.digilentinc.com/Products/Detail.cfm?Prod=X-BOARD Digilent X-Board] is easily programmable without any board modifications.  Wolfgang Wieser's excellent Open Source [http://www.triplespark.net/elec/periph/USB-FX2/software/ FX2 Development Website] has very detailed instructions.  The following are some useful notes.
+The Cypress [http://www.cypress.com/?mpn=CY7C68013A-56LTXC CY7C68013A] FX2 High Speed USB Microcontroller on a [http://www.digilentinc.com/Products/Detail.cfm?Prod=X-BOARD Digilent X-Board] is easily programmable without any board modifications.  [http://www.triplespark.net/ Wolfgang Wieser's] excellent Open Source [http://www.triplespark.net/elec/periph/USB-FX2/software/ FX2 Development Website] has very detailed instructions.  The following are some useful notes.
 
 You can always return to the default Digilent X-Board firmware by unplugging your X-Board from USB and any power supply and then re-plugging it in.
 
