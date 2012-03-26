@@ -34,11 +34,14 @@ A@B:~/cycfx2prog-0.47$  ./cycfx2prog -id=1443.0005
 Using ID 1443:0005 on 001.024.
 }}}
 
-Extract the [http://www.triplespark.net/elec/periph/USB-FX2/software/usb-fx2-local-examples-0.5.tar.gz examples] and edit the `Makefile` so that `CYCFX2PROG` points to the location of `cycfx2prog` and includes the `id` of the X-Board (`CYCFX2PROG = ../cycfx2prog -id=1443.0005`):
+Extract the [http://www.triplespark.net/elec/periph/USB-FX2/software/usb-fx2-local-examples-0.5.tar.gz examples] and edit the `Makefile` so that `CYCFX2PROG` points to the location of `cycfx2prog` and includes the `id` of the X-Board:
 
 {{{
 A@B:~/cycfx2prog-0.47$ cd hello_world_ram/
 A@B:~/cycfx2prog-0.47/hello_world_ram$ gedit Makefile 
+
+  CYCFX2PROG = ../cycfx2prog -id=1443.0005
+
 }}}
 
 http://opendous.googlecode.com/svn/trunk/Pictures/X-Board_FX2_Programming.jpg
