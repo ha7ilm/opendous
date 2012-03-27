@@ -53,7 +53,7 @@ A@B:~/cycfx2prog-0.47/hello_world_ram$  make
 sdcc -mmcs51 -I../include hello.c
 
 A@B:~/cycfx2prog-0.47/hello_world_ram$  sudo make run
-../cycfx2prog -d=001.024 prg:hello.ihx run delay:100 reset dram:0x1000,37
+../cycfx2prog -id=1443.0005 prg:hello.ihx run delay:100 reset dram:0x1000,37
 Using ID 1443:0005 on 001.024.
 Putting 8051 into reset.
 Programming 8051 using "hello.ihx".
