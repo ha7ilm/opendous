@@ -27,6 +27,6 @@ ft2232_layout jtagkey
 ft2232_vid_pid 0x0403 0x6010
 }}}
 
-Unfortunately channel selection is still not implemented via configuration scripts.
+Unfortunately channel selection is still not implemented via configuration scripts in OpenOCD.
 
 See the [http://www.intra2net.com/en/developer/libftdi/ libftdi] Project for Open Source software to control this board.
