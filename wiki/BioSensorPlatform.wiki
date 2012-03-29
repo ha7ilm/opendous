@@ -1,17 +1,41 @@
 #summary ADS1298 Based Biopotential Sensor Platform
 
-*Status*: _Under Development_.  Second revision has been prototyped and is being tested.
+*Status*: _Under Development_.  Third PCB revision has been prototyped.  I'm scraping together funding for more development.
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/ADS1298/ADS1298-Picture1.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/BioSensorPlatform-Picture.jpg
 
-[http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://focus.ti.com/docs/prod/folders/print/ads1298.html ADS1298] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electrocardiography ECG]/[http://en.wikipedia.org/wiki/Electroencephalography EEG] front end.
-
-If you decide to build this board, omit the ADM811 RESET circuit and just short the nRESET and nRESET_MR signals.
+[http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://focus.ti.com/docs/prod/folders/print/ads1298.html ADS1298] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electrocardiography ECG]/[http://en.wikipedia.org/wiki/Electroencephalography EEG] front end for use in a head-mounted 32+ non-contact electrode system.
 
 Design files are available in [http://en.wikipedia.org/wiki/Open_format Open Formats] for the [http://kicad.sourceforge.net/ KiCAD] [http://en.wikipedia.org/wiki/Open_source Open Source] [http://en.wikipedia.org/wiki/Electronic_design_automation EDA] Suite.
 
-You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/ADS1298 browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
+You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/BioSensorPlatform browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
 
 {{{
-svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/ADS1298/ opendous-ADS1298-BioSensorPlatform
+svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/ opendous-BioSensorPlatform
 }}}
+
+The design uses [http://en.wikipedia.org/wiki/SATA SATA] cables for powered electrodes as this is the cheapest way to connect a differential signal pair, positive, negative, and Ground.  All this is a cheap, shielded, controlled impedance and capacitance commodity cable that comes in lengths from 30cm to 1.5m.
+
+===Non-Contact Capacitive Electrode Example using OpAmp===
+
+During exploration of non-contact electrodes the [http://sites.google.com/site/openloopproject/ OpenLoop] project pointed me towards [http://www.isn.ucsd.edu/pubs/wh2010.pdf this article].  Based on those ideas the following amplified opamp-based electrode was designed:
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/Electrode-Capacitive-Amplified-OpAmp/BioSensorPlatform-Electrode-Capacitive-Amplified-OpAmp-Picture.jpg	
+
+===Non-Contact Capacitive Electrode Example using InAmp===
+
+[http://en.wikipedia.org/wiki/Garbage_in,_garbage_out The better the data the better the results] so exploration of classic [http://en.wikipedia.org/wiki/Instrumentation_amplifier instrumentation amplifier] electrodes is ongoing.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/Electrode-Capacitive-Amplified-InAmp/BioSensorPlatform-Electrode-Capacitive-Amplified-InAmp-Picture.jpg
+
+===Non-Contact Capacitive Electrode Leg Driver===
+
+To improve common-mode interference a [http://en.wikipedia.org/wiki/Driven_right_leg_circuit right leg driver] circuit is required although for EEG this is usually placed on the neck.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/Electrode-Capacitive-DRL-RLD/BioSensorPlatform-Electrode-Capacitive-DRL-RLD-Picture.jpg
+
+===Non-Contact Capacitive Electrode===
+
+A direct connection to the ADC is also useful.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/Electrode-Contact/BioSensorPlatform-Electrode-Contact-Picture.jpg
