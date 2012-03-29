@@ -18,13 +18,13 @@ The design uses [http://en.wikipedia.org/wiki/SATA SATA] cables for powered elec
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/BioSensorPlatform-Picture.jpg
 
-===Non-Contact Capacitive Electrode Example using OpAmp===
+===Non-Contact Capacitive Electrode Example using !OpAmp===
 
 During exploration of non-contact electrodes the [http://sites.google.com/site/openloopproject/ OpenLoop] project pointed me towards [http://www.isn.ucsd.edu/pubs/wh2010.pdf this article].  Based on those ideas the following amplified opamp-based electrode was designed:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/Electrode-Capacitive-Amplified-OpAmp/BioSensorPlatform-Electrode-Capacitive-Amplified-OpAmp-Picture.jpg	
 
-===Non-Contact Capacitive Electrode Example using InAmp===
+===Non-Contact Capacitive Electrode Example using !InAmp===
 
 [http://en.wikipedia.org/wiki/Garbage_in,_garbage_out The better the data the better the results] so exploration of classic [http://en.wikipedia.org/wiki/Instrumentation_amplifier instrumentation amplifier] electrodes is ongoing.
 
