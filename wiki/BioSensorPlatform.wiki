@@ -2,8 +2,6 @@
 
 *Status*: _Under Development_.  Third PCB revision has been prototyped.  I'm scraping together funding for more development.
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/BioSensorPlatform-Picture.jpg
-
 [http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://focus.ti.com/docs/prod/folders/print/ads1298.html ADS1298] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electrocardiography ECG]/[http://en.wikipedia.org/wiki/Electroencephalography EEG] front end for use in a head-mounted 32+ non-contact electrode system.
 
 Design files are available in [http://en.wikipedia.org/wiki/Open_format Open Formats] for the [http://kicad.sourceforge.net/ KiCAD] [http://en.wikipedia.org/wiki/Open_source Open Source] [http://en.wikipedia.org/wiki/Electronic_design_automation EDA] Suite.
@@ -14,7 +12,11 @@ You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/B
 svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/ opendous-BioSensorPlatform
 }}}
 
+==Design==
+
 The design uses [http://en.wikipedia.org/wiki/SATA SATA] cables for powered electrodes as this is the cheapest way to connect a differential signal pair, positive, negative, and Ground.  All this is a cheap, shielded, controlled impedance and capacitance commodity cable that comes in lengths from 30cm to 1.5m.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/BioSensorPlatform-Picture.jpg
 
 ===Non-Contact Capacitive Electrode Example using OpAmp===
 
