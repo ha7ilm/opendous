@@ -14,7 +14,10 @@ svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorP
 
 ==Design==
 
-The design uses [http://en.wikipedia.org/wiki/SATA SATA] cables for powered electrodes as this is the cheapest way to connect a differential signal pair, positive, negative, and Ground.  All this is a cheap, shielded, controlled impedance and controlled capacitance commodity cable that is flexible and comes in lengths from 30cm to 1.5m.  Also, SATA cables have [http://www.heilind.com/products/hitachi/sata_cat.pdf lower capacitance] than similarly sized [http://rfcafe.com/references/electrical/coax-chart.htm coaxial cables] and only slightly [http://en.wikipedia.org/wiki/Wire#Solid_versus_stranded higher resistance].
+The design uses [http://en.wikipedia.org/wiki/SATA SATA] powered electrodes connected with shielded cables to reduce noise and provide low output impedance signals to the ADS1298.  SATA cables are a cheap way to connect a differential signal pair, bipolar power supply, and ground through a shielded, controlled impedance and controlled capacitance commodity cable that is flexible and comes in lengths from 30cm to 1.5m.  Also, SATA cables have [http://www.heilind.com/products/hitachi/sata_cat.pdf lower capacitance] than similarly sized [http://rfcafe.com/references/electrical/coax-chart.htm coaxial cables] and only slightly [http://en.wikipedia.org/wiki/Wire#Solid_versus_stranded higher resistance].  The [http://code.google.com/p/opennect/wiki/Opennect_ADC Opennect-ADC-Differential] connector pinout is used.
+
+http://opennect.googlecode.com/svn/trunk/Documentation/Opennect-Analog-ADC-Differential_Pinout.jpg	
+
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/BioSensorPlatform-Picture.jpg
 
