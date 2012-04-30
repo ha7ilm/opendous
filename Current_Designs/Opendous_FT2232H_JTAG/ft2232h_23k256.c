@@ -245,8 +245,8 @@ int main(int argc, char **argv)
     printf("Enabling MPSSE Mode on Channel A\n\n");
     ftdi_set_bitmode(&ftdic, 0xFF, BITMODE_MPSSE);
 
-    // Disable the Div-By-5 Clock Prescaler
-    buf[0] =  DIS_DIV_5;
+    // Enable the Div-By-5 Clock Prescaler
+    buf[0] =  EN_DIV_5;
     send_buf(&ftdic, buf, 1);
     recv_buf(&ftdic, buf, 1);
 
