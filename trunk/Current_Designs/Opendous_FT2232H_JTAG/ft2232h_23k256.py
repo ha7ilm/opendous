@@ -184,21 +184,23 @@ if __name__ == '__main__':
         print 'Cannot enable MPSSE Mode'
         os._exit( 1 )
 
-    # disable Clock-Divider
-    cmd = [ftdi.DIS_DIV_5]
+    # enable Clock-Divider which will set SK to 6MHz
+    cmd = [ftdi.EN_DIV_5]
     chrcmd = ""
     for i in range(len(cmd)):
         chrcmd += chr(cmd[i])
     print "Clock Divisor Disable ret =", ftdi.write_data( ftdic, chrcmd, len(chrcmd) ), "\n"
 
-    # divide clock to 6MHz
+    # set clock divisor to 0 so that SK stays at 6MHz
     cmd = [ftdi.TCK_DIVISOR, 0x00, 0x00]
     chrcmd = ""
     for i in range(len(cmd)):
         chrcmd += chr(cmd[i])
     print "Clock Divisor ret =", ftdi.write_data( ftdic, chrcmd, len(chrcmd) ), "\n"
 
-    # divide clock to 6MHz
+    # set up IO lines for SPI
+    # Val = 0x08 = 0b00001000 --> 0,0,0,0,CS=1,DI=0,DO=0,SK=0
+    # Dir = 0x0B = 0b00001011 --> 0,0,0,0,CS=out,DI=in,DO=out,SK=out
     cmd = [ftdi.SET_BITS_LOW, 0x08, 0x0B]
     chrcmd = ""
     for i in range(len(cmd)):
