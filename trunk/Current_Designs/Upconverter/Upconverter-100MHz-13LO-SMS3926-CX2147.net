@@ -1,0 +1,1057 @@
+# EESchema Netlist Version 1.1 created  7/18/2012 2:10:03 AM
+(
+ ( /5006532F $noname  V157 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006532E $noname  V158 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006532D $noname  V160 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006532C $noname  V159 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006532B $noname  V155 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006532A $noname  V156 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50065329 $noname  V154 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50065328 $noname  V153 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006527E $noname  V145 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006527D $noname  V146 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006527C $noname  V148 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006527B $noname  V147 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5006527A $noname  V151 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50065279 $noname  V152 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50065278 $noname  V150 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50065277 $noname  V149 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5002445E $noname  V141 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5002445D $noname  V142 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5002445C $noname  V144 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5002445B $noname  V143 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5002445A $noname  V139 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50024459 $noname  V140 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50024458 $noname  V138 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50024457 $noname  V137 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D13 $noname  V133 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D12 $noname  V134 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D11 $noname  V136 VIA {Lib=VIA}
+  (    1 /VBUS_CONN )
+ )
+ ( /50023D10 $noname  V135 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D0F $noname  V131 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D0E $noname  V132 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D0D $noname  V130 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023D0C $noname  V129 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023ADA $noname  V121 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD9 $noname  V122 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD8 $noname  V124 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD7 $noname  V123 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD6 $noname  V127 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD5 $noname  V128 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD4 $noname  V126 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023AD3 $noname  V125 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /50023885 $noname  C13 1uF {Lib=C_MINI}
+  (    1 VBUS )
+  (    2 DGND )
+ )
+ ( /500236DC $noname  V117 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236DB $noname  V118 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236DA $noname  V120 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236D9 $noname  V119 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236D8 $noname  V115 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236D7 $noname  V116 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236D6 $noname  V114 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /500236D5 $noname  V113 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C6A4 $noname  V105 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C6A3 $noname  V106 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C6A2 $noname  V108 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C6A1 $noname  V107 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C6A0 $noname  V111 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69F $noname  V112 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69E $noname  V110 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69D $noname  V109 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69C $noname  V101 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69B $noname  V102 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C69A $noname  V104 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C699 $noname  V103 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C698 $noname  V99 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C697 $noname  V100 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C696 $noname  V98 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C695 $noname  V97 VIA {Lib=VIA}
+  (    1 DGND )
+ )
+ ( /5000C68F $noname  V81 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C68E $noname  V82 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C68D $noname  V84 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C68C $noname  V83 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C68B $noname  V87 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C68A $noname  V88 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C689 $noname  V86 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C688 $noname  V85 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C67D $noname  V93 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C67C $noname  V94 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C67B $noname  V96 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C67A $noname  V95 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C679 $noname  V91 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C678 $noname  V92 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C677 $noname  V90 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000C676 $noname  V89 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6F0 $noname  V65 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6EF $noname  V66 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6EE $noname  V68 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6ED $noname  V67 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6EC $noname  V71 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6EB $noname  V72 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6EA $noname  V70 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E9 $noname  V69 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E8 $noname  V77 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E7 $noname  V78 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E6 $noname  V80 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E5 $noname  V79 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E4 $noname  V75 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E3 $noname  V76 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E2 $noname  V74 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E1 $noname  V73 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6E0 $noname  V33 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DF $noname  V34 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DE $noname  V36 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DD $noname  V35 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DC $noname  V39 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DB $noname  V40 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DA $noname  V38 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D9 $noname  V37 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D8 $noname  V45 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D7 $noname  V46 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D6 $noname  V48 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D5 $noname  V47 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D4 $noname  V43 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D3 $noname  V44 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D2 $noname  V42 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D1 $noname  V41 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D0 $noname  V57 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CF $noname  V58 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CE $noname  V60 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CD $noname  V59 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CC $noname  V63 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CB $noname  V64 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6CA $noname  V62 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C9 $noname  V61 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C8 $noname  V53 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C7 $noname  V54 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C6 $noname  V56 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C5 $noname  V55 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C4 $noname  V51 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C3 $noname  V52 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C2 $noname  V50 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C1 $noname  V49 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C0 $noname  V17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BF $noname  V18 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BE $noname  V20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BD $noname  V19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BC $noname  V23 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BB $noname  V24 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BA $noname  V22 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B9 $noname  V21 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B8 $noname  V29 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B7 $noname  V30 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B6 $noname  V32 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B5 $noname  V31 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B4 $noname  V27 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B3 $noname  V28 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B2 $noname  V26 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B1 $noname  V25 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B0 $noname  V9 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AF $noname  V10 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AE $noname  V12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AD $noname  V11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AC $noname  V15 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AB $noname  V16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AA $noname  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A9 $noname  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A8 $noname  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A7 $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A6 $noname  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A5 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A3 $noname  V3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A2 $noname  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A0 $noname  V2 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A69B $noname  V1 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500092D6 $noname  D3 POWER {Lib=D_LED}
+  (    1 DGND )
+  (    2 /LED_A )
+ )
+ ( /500092BB $noname  R7 1k {Lib=R_MINI}
+  (    1 /LED_A )
+  (    2 VBUS )
+ )
+ ( /5000915A $noname  L2 FB {Lib=L_MINI}
+  (    1 +5V )
+  (    2 VBUS )
+ )
+ ( /500090A6 $noname  C1 1uF {Lib=C_MINI}
+  (    1 VBUS )
+  (    2 DGND )
+ )
+ ( /5000909E $noname  L5 FB {Lib=L_MINI}
+  (    1 GND )
+  (    2 DGND )
+ )
+ ( /5000903F $noname  R2 95R3 {Lib=R_MINI}
+  (    1 GND )
+  (    2 /LO_BUF )
+ )
+ ( /50009032 $noname  C2 0.1uF {Lib=C_MINI}
+  (    1 +5V )
+  (    2 DGND )
+ )
+ ( /50009031 $noname  C3 12pF {Lib=C_MINI}
+  (    1 +5V )
+  (    2 DGND )
+ )
+ ( /50008FC6 $noname  X1 100MHz {Lib=OSCILLATOR_HALF-DIP}
+  (    1 +5V )
+  (    4 DGND )
+  (    5 /CLK )
+  (    8 +5V )
+ )
+ ( /50008EBB $noname  C9 12pF {Lib=C_MINI}
+  (    1 +2.5V )
+  (    2 DGND )
+ )
+ ( /50008EB2 $noname  C6 0.1uF {Lib=C_MINI}
+  (    1 +2.5V )
+  (    2 DGND )
+ )
+ ( /50008E8B $noname  R4 95R3 {Lib=R_MINI}
+  (    1 GND )
+  (    2 /LO )
+ )
+ ( /50008E7B $noname  R1 DNP {Lib=R_MINI}
+  (    1 +5V )
+  (    2 +5V )
+ )
+ ( /50008E55 $noname  R3 75 {Lib=R_MINI}
+  (    1 /LO )
+  (    2 /LO_BUF )
+ )
+ ( /50008316 $noname  T2 CX2147 {Lib=RF_TRANSFORMER}
+  (    1 /LOn )
+  (    2 GND )
+  (    3 /LOp )
+  (    4 /LO )
+  (    6 GND )
+ )
+ ( /50008271 $noname  T1 CX2147 {Lib=RF_TRANSFORMER}
+  (    1 /RFn )
+  (    2 /IF )
+  (    3 /RFp )
+  (    4 /RF )
+  (    6 GND )
+ )
+ ( /50007C0A $noname  D1 Limiter {Lib=D_RECTIFIER_SERIES}
+  (    1 GND )
+  (    2 GND )
+  (    3 /RF_IN )
+ )
+ ( /50007B3C $noname  C11 56pF {Lib=C_MINI}
+  (    1 /RF )
+  (    2 GND )
+ )
+ ( /50007B3B $noname  C10 36pF {Lib=C_MINI}
+  (    1 N-000010 )
+  (    2 /RF )
+ )
+ ( /50007B3A $noname  L4 82nH {Lib=L_MINI}
+  (    1 /RF )
+  (    2 N-000010 )
+ )
+ ( /50007B2E $noname  C4 68pF {Lib=C_MINI}
+  (    1 /RF_IN )
+  (    2 GND )
+ )
+ ( /50007AE9 $noname  P1 RF {Lib=BNC}
+  (    1 /RF_IN )
+  (    2 GND )
+ )
+ ( /50007AE4 $noname  L3 150nH {Lib=L_MINI}
+  (    1 N-000010 )
+  (    2 /RF_IN )
+ )
+ ( /50007AE3 $noname  C5 12pF {Lib=C_MINI}
+  (    1 /RF_IN )
+  (    2 N-000010 )
+ )
+ ( /50007AE1 $noname  C7 82pF {Lib=C_MINI}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /500079A3 $noname  L8 18nH {Lib=L_MINI}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /500079A2 $noname  C16 82pF {Lib=C_MINI}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /50007995 $noname  C14 20pF {Lib=C_MINI}
+  (    1 /IF )
+  (    2 GND )
+ )
+ ( /50007994 $noname  L6 82nH {Lib=L_MINI}
+  (    1 /IF )
+  (    2 GND )
+ )
+ ( /50007960 $noname  C15 10pF {Lib=C_MINI}
+  (    1 /IF )
+  (    2 N-000014 )
+ )
+ ( /5000795F $noname  L7 150nH {Lib=L_MINI}
+  (    1 N-000012 )
+  (    2 N-000014 )
+ )
+ ( /50007959 $noname  C18 82pF {Lib=C_MINI}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /50007958 $noname  L10 18nH {Lib=L_MINI}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /50007957 $noname  L9 220nH {Lib=L_MINI}
+  (    1 N-000004 )
+  (    2 N-000005 )
+ )
+ ( /50007956 $noname  C17 6.8pF {Lib=C_MINI}
+  (    1 N-000012 )
+  (    2 N-000005 )
+ )
+ ( /500078E4 $noname  C19 10pF {Lib=C_MINI}
+  (    1 N-000004 )
+  (    2 N-000006 )
+ )
+ ( /500078E3 $noname  L11 150nH {Lib=L_MINI}
+  (    1 /IF_OUT )
+  (    2 N-000006 )
+ )
+ ( /50007875 $noname  L12 82nH {Lib=L_MINI}
+  (    1 /IF_OUT )
+  (    2 GND )
+ )
+ ( /500076DF $noname  D2 Limiter {Lib=D_RECTIFIER_SERIES}
+  (    1 GND )
+  (    2 GND )
+  (    3 /IF_OUT )
+ )
+ ( /5000749A $noname  C20 18pF {Lib=C_MINI}
+  (    1 /IF_OUT )
+  (    2 GND )
+ )
+ ( /50007479 $noname  P2 IF {Lib=BNC}
+  (    1 /IF_OUT )
+  (    2 GND )
+ )
+ ( /4FFC75C9 $noname  IC1 SMS3926 {Lib=SMS3926}
+  (    1 /RFp )
+  (    2 /RFn )
+  (    3 /LOp )
+  (    4 /LOn )
+ )
+ ( /4FFC6E36 $noname  L1 FB {Lib=L_MINI}
+  (    1 DGND )
+  (    2 GNDPWR )
+ )
+ ( /4FFC6D63 $noname  F1 F {Lib=FUSE-MINI}
+  (    1 VBUS )
+  (    2 /VBUS_CONN )
+ )
+ ( /4FFC6CDB $noname  U2 USB-A-Plug {Lib=USBCONN}
+  (    1 /VBUS_CONN )
+  (    2 /USB_DN )
+  (    3 /USB_DP )
+  (    4 DGND )
+  (    5 GNDPWR )
+ )
+ ( /4FFC6CD5 $noname  U1 USB-microB {Lib=USBCONN-HOSTCAPABLE}
+  (    1 /VBUS_CONN )
+  (    2 /USB_DN )
+  (    3 /USB_DP )
+  (    4 DGND )
+  (    5 GNDPWR )
+  (    6 ? )
+ )
+ ( /4FFC6CAB $noname  C8 0.1uF {Lib=C_MINI}
+  (    1 VBUS )
+  (    2 DGND )
+ )
+ ( /4FFC6C78 $noname  C12 DNP {Lib=C_MINI}
+  (    1 /TPS_NR )
+  (    2 DGND )
+ )
+ ( /4FFC6ACD $noname  R5 39k2 {Lib=R_MINI}
+  (    1 /TPS_NR )
+  (    2 +2.5V )
+ )
+ ( /4FFC6AB5 $noname  R6 36k5 {Lib=R_MINI}
+  (    1 DGND )
+  (    2 /TPS_NR )
+ )
+ ( /4FFC6A49 $noname  IC3 TPS {Lib=TPS736XX}
+  (    1 VBUS )
+  (    2 DGND )
+  (    3 VBUS )
+  (    4 /TPS_NR )
+  (    5 +2.5V )
+ )
+ ( /4FFC698F $noname  IC2 125 {Lib=BUFFER_GATE}
+  (    1 DGND )
+  (    2 /CLK )
+  (    3 DGND )
+  (    4 /LO_BUF )
+  (    5 +2.5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component IC3
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$component IC2
+ SOT23
+ SOT23-5
+ SOT23-6
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/LED_A" "LED_A"
+ D3 2
+ R7 1
+Net 2 "VBUS" "VBUS"
+ IC3 3
+ L2 2
+ IC3 1
+ R7 2
+ C13 1
+ F1 1
+ C1 1
+ C8 1
+Net 3 "DGND" "DGND"
+ V131 1
+ R6 1
+ U1 4
+ C8 2
+ C12 2
+ IC3 2
+ IC2 1
+ IC2 3
+ L1 1
+ V115 1
+ V119 1
+ V120 1
+ V118 1
+ C2 2
+ V135 1
+ V134 1
+ V133 1
+ V132 1
+ C1 2
+ L5 2
+ C3 2
+ X1 4
+ C9 2
+ C6 2
+ U2 4
+ V105 1
+ V117 1
+ D3 1
+ V142 1
+ V106 1
+ V144 1
+ V107 1
+ V116 1
+ V112 1
+ V110 1
+ V109 1
+ V101 1
+ V138 1
+ V141 1
+ V111 1
+ V114 1
+ V113 1
+ V108 1
+ V139 1
+ V121 1
+ V102 1
+ V124 1
+ V123 1
+ V127 1
+ V143 1
+ V137 1
+ V122 1
+ V140 1
+ V126 1
+ V125 1
+ C13 2
+ V129 1
+ V128 1
+ V130 1
+ V97 1
+ V98 1
+ V100 1
+ V99 1
+ V103 1
+ V104 1
+Net 4 "" ""
+ C18 1
+ L10 1
+ C19 1
+ L9 1
+Net 5 "" ""
+ L9 2
+ C17 2
+Net 6 "" ""
+ L11 2
+ C19 2
+Net 7 "/IF_OUT" "IF_OUT"
+ P2 1
+ C20 1
+ L12 1
+ D2 3
+ L11 1
+Net 8 "/RF" "RF"
+ L4 1
+ C11 1
+ C10 2
+ T1 4
+Net 9 "/RF_IN" "RF_IN"
+ D1 3
+ C4 1
+ P1 1
+ L3 2
+ C5 1
+Net 10 "" ""
+ C10 1
+ L4 2
+ C7 1
+ L3 1
+ C5 2
+Net 11 "/RFn" "RFn"
+ IC1 2
+ T1 1
+Net 12 "" ""
+ L8 1
+ C17 1
+ C16 1
+ L7 1
+Net 13 "/IF" "IF"
+ C15 1
+ C14 1
+ L6 1
+ T1 2
+Net 14 "" ""
+ L7 2
+ C15 2
+Net 15 "/USB_DN" "USB_DN"
+ U2 2
+ U1 2
+Net 16 "/USB_DP" "USB_DP"
+ U2 3
+ U1 3
+Net 18 "/TPS_NR" "TPS_NR"
+ C12 1
+ IC3 4
+ R6 2
+ R5 1
+Net 19 "+2.5V" "+2.5V"
+ R5 2
+ IC3 5
+ IC2 5
+ C9 1
+ C6 1
+Net 20 "/LOn" "LOn"
+ IC1 4
+ T2 1
+Net 21 "GNDPWR" "GNDPWR"
+ U1 5
+ L1 2
+ U2 5
+Net 22 "/VBUS_CONN" "VBUS_CONN"
+ U1 1
+ F1 2
+ U2 1
+ V136 1
+Net 23 "/LO_BUF" "LO_BUF"
+ R3 2
+ R2 2
+ IC2 4
+Net 24 "/CLK" "CLK"
+ IC2 2
+ X1 5
+Net 25 "/LOp" "LOp"
+ T2 3
+ IC1 3
+Net 26 "GND" "GND"
+ V158 1
+ V160 1
+ V155 1
+ V156 1
+ V154 1
+ V153 1
+ V145 1
+ V146 1
+ V148 1
+ V13 1
+ V8 1
+ V6 1
+ V5 1
+ V14 1
+ V16 1
+ V15 1
+ V11 1
+ V12 1
+ V10 1
+ V9 1
+ V68 1
+ V26 1
+ V28 1
+ V27 1
+ V31 1
+ V32 1
+ V30 1
+ V86 1
+ C18 2
+ V157 1
+ V89 1
+ V90 1
+ V92 1
+ V91 1
+ V95 1
+ V96 1
+ V94 1
+ V85 1
+ V29 1
+ V88 1
+ V87 1
+ V83 1
+ V84 1
+ V82 1
+ V81 1
+ V93 1
+ V66 1
+ V65 1
+ V54 1
+ V69 1
+ V70 1
+ V72 1
+ V71 1
+ V67 1
+ V74 1
+ V20 1
+ V18 1
+ V17 1
+ V49 1
+ V50 1
+ V52 1
+ V51 1
+ V55 1
+ V56 1
+ V77 1
+ V53 1
+ V48 1
+ V62 1
+ V64 1
+ V63 1
+ V59 1
+ V60 1
+ V58 1
+ V57 1
+ V41 1
+ V42 1
+ V44 1
+ V43 1
+ V47 1
+ V37 1
+ V21 1
+ V22 1
+ V24 1
+ V23 1
+ V25 1
+ V7 1
+ V1 1
+ V2 1
+ V4 1
+ V3 1
+ V46 1
+ V45 1
+ V38 1
+ V40 1
+ V39 1
+ V35 1
+ V36 1
+ V34 1
+ V33 1
+ V73 1
+ V19 1
+ V76 1
+ V75 1
+ V79 1
+ V80 1
+ V78 1
+ V61 1
+ L10 2
+ V159 1
+ V147 1
+ V149 1
+ V150 1
+ V152 1
+ V151 1
+ C14 2
+ T2 6
+ T2 2
+ R2 1
+ L5 1
+ L6 2
+ C16 2
+ L8 2
+ P1 2
+ C4 2
+ C7 2
+ P2 2
+ C20 2
+ D2 2
+ D2 1
+ L12 2
+ R4 1
+ C11 2
+ D1 2
+ T1 6
+ D1 1
+Net 27 "/RFp" "RFp"
+ T1 3
+ IC1 1
+Net 28 "+5V" "+5V"
+ C3 1
+ R1 1
+ R1 2
+ L2 1
+ X1 8
+ X1 1
+ C2 1
+Net 29 "/LO" "LO"
+ R4 2
+ R3 1
+ T2 4
+}
+#End
