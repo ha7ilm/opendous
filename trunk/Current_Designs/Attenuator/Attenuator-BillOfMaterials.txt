@@ -24,7 +24,7 @@ Notes:	- Component costs are based on minimum quantity orders from DigiKey
 	- Components are chosen for operation over the Industrial Temperature Range (-40C to 85C)
 	- Limiter Diode D1 is unpopulated but could be ASML-5822-BLKG with OP1dB=+3dBm or
 	  HSMP-482B with OP1dB=+7dBm (Avago AN1050 Pg#12, Fig.31) or BAV99W with OP1dB=+10dBm
-	- Instead of the USB-B connector U2, there is a USB-microB footprint
-	  connector on the underside: 629105136821, CONN RCPT USB MICRO B R/A SMT with Mounting Posts
+	- Instead of the USB-B connector U2, there is a USB-microB footprint connector that can
+	  be used instead: 629105136821, CONN RCPT USB MICRO B R/A SMT with Mounting Posts
 	- PTC Fuse MF-PSMF075X-2 can be replaced with 0ZCE0035FF2G or a Ferrite Bead
 
