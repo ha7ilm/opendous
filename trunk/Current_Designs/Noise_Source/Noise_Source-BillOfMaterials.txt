@@ -1,51 +1,34 @@
-              0;  2;               ;"R4, R6"
-         0.01uF;  1;               ;"C4"
-          0.1uF;  1;               ;"C5"
-            100;  1;               ;"R2"
-         1000pF;  1;               ;"C3"
-          100nH;  1;               ;"L1"
-          150pF;  2;               ;"C1, C2"
-           15pF;  1;               ;"C7"
-            1uF;  1;               ;"C6"
-          4.7uF;  1;               ;"C8"
-          4.7uH;  1;               ;"L2"
-           432k;  1;               ;"R7"
-           49k9;  1;               ;"R8"
-             5k;  1;               ;"R1"
-            AMP;  1;               ;"IC1"
-            DNP;  3;               ;"R3, R5, R11"
-              F;  1;               ;"F1"
-         MBR120;  1;               ;"D2"
-            OUT;  1;               ;"P1"
-         SC4503;  1;               ;"IC2"
-          USB-B;  1;               ;"U2"
-     USB-microB;  1;               ;"U1"
-            VIA; 32;               ;"V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32"
-          ZENER;  1;               ;"D1"
+Bill Of Materials for the Noise Source Project
 
+QTY, Manufacturer Part#          , Cost($USD each) - References - Description
+  1, MMG3H21NT1                  , 1.82 - IC1 - TRANS HBT 20.5DBM 19.3DB SOT-89
+  1, SC4503TSKTRT                , 1.30 - IC2 - IC REG BOOST ADJ 1.4A TSOT23-5
+  1, 500R15N150JV4T              , 0.16 - C7 - CAP CER 15PF 50V 5% NP0 0805
+  2, 251R15S151JV4E              , 0.45 - C1 C2 - CAP CER 150PF 250V 5% NP0 High-Q Low Loss RF 0805
+  1, C0805C102K5RACTU            , 0.05 - C3 - CAP CER 0.001uF=1000PF 50V 10% X7R 0805
+  1, C0805C103K5RACTU            , 0.05 - C4 - CAP CER 0.01uF=10000PF 50V 10% X7R 0805
+  1, GRM21BR71H104KA01L          , 0.10 - C5 - CAP CER 0.1UF 50V 10% X7R 0805
+  1, CC0805KKX7R7BB105           , 0.07 - C6 - CAP CER 1UF 16V 10% X7R 0805
+  1, C0805C475K8PACTU            , 0.22 - C8 - CAP CER 4.7UF 10V X5R 0805
+  1, 1SMA5921BT3G                , 0.50 - D1 - DIODE ZENER 6.8V 1.5W SMA DO-214
+  1, MBR120ESFT1G                , 0.49 - D2 - DIODE SCHOTTKY 20V 1A SOD123
+  1, MF-PSMF075X-2               , 0.36 - F1 - FUSE PTC RESETTABLE Ihold=0.75A 6V SMD 0805
+  1, AIMC-0805-R10J-T            , 0.08 - L1 - INDUCTOR MULTILAYER 100NH 0805
+  1, LQH3NPN4R7NG0L              , 0.43 - L2 - INDUCTOR 4.7UH 30% 925MA 1212
+  2, RMCF0805ZT0R00              , 0.03 - R4 R6 - RES 0.0 OHM 1/8W 0805 SMD Jumper
+  1, RC1206JR-074R7L             , 0.10 - R2 - RES 4.7 OHM 1/4W 5% 1206 SMD
+  1, TC33X-2-502E                , 0.25 - R1 - TRIMMER 5K OHM 0.1W SMD
+  1, RMCF0805FT49K9              , 0.04 - R8 - RES 49.9K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT432K              , 0.04 - R7 - RES 432K OHM 1/8W 1% 0805 SMD
+  1, 61729-1011BLF               , 1.16 - U2 - USB RCPT B-TYPE TH HORIZONTAL RA FULL BACK
+  1, CONSMA003.062               , 3.29 - P1 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR .062" BOARD
+----------------------------Total=11.47
 
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"IC1";"SOT89-3";1;"AMP";;;
-2;"R2";"1206";1;"100";;;
-3;"U2";"CONN_USB_B";1;"USB-B";;;
-4;"P1";"SMA_EndLaunch";1;"OUT";;;
-5;"R1";"POT_TC33X_3.8x3mm";1;"5k";;;
-6;"U1";"CONN_USB_microAB_5PF_MountingPosts";1;"USB-microB";;;
-7;"V8,V16,V15,V14,V13,V12,V11,V10,V9,V7,V6,V5,V4,V3,V2,V1,V17,V24,V23,V22,V21,V20,V19,V18,V29,V30,V32,V31,V27,V28,V26,V25";"1Pin_20mil_VIA";32;"VIA";;;
-8;"R6,R4";"0805";2;"0";;;
-9;"C2,C1";"0805";2;"150pF";;;
-10;"C4";"0805";1;"0.01uF";;;
-11;"C5";"0805";1;"0.1uF";;;
-12;"R3,R5,R11";"0805";3;"DNP";;;
-13;"C3";"0805";1;"1000pF";;;
-14;"L1";"0805";1;"100nH";;;
-15;"F1";"0805";1;"F";;;
-16;"D1";"SMA_DO214A_Diode";1;"ZENER";;;
-17;"IC2";"SOT23-5";1;"SC4503";;;
-18;"D2";"SOD123";1;"MBR120";;;
-19;"L2";"Inductor_LQH3NP";1;"4.7uH";;;
-20;"R8";"0805";1;"49k9";;;
-21;"R7";"0805";1;"432k";;;
-22;"C7";"0805";1;"15pF";;;
-23;"C6";"0805";1;"1uF";;;
-24;"C8";"0805";1;"4.7uF";;;
+Notes:	- Component costs are based on minimum quantity orders from DigiKey
+	- Components are chosen for operation over the Industrial Temperature Range (-40C to 85C)
+	- PTC Fuse MF-PSMF075X-2 can be replaced with 0ZCE0035FF2G or a Ferrite Bead
+	- Zener Diode can be substituted with: 1SMA5922BT3G, PTZTE256.8B, BZG05C6V2TR or any SMA/DO-214
+	  Zener diode with a voltage greater than 6V so that Avalanche Noise dominates
+	- Amplifier IC1 can be substituted with: MMG3007NT1, SKY65017-70LF
+	- SC4503 in SOT23-5 can be substituted with: LM2733XMF, MIC2295YD5, MIC2288YD5, LT1930ES5
+

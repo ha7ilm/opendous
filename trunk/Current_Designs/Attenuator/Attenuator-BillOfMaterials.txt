@@ -1,48 +1,30 @@
-          0.1uF;  2;           0805;"C8, C9"
-          100pF;  3;           0805;"C1, C2, C6"
-            10k;  6;           0805;"R10, R11, R12, R13, R14, R15"
-             1k;  1;           0805;"R7"
-            1uF;  2;           0805;"C3, C14"
-            2k2;  6;           0805;"R1, R2, R3, R4, R8, R9"
-           30k1;  1;           0805;"R6"
-           52k3;  1;           0805;"R5"
-    Attenuation;  1;DIP_Switches_0.05inch_8POS_218-10LPST;"SW1"
-        Control;  1;          SIL-8;"P3"
-            DNP;  1;           0805;"C12"
-              F;  1;           0805;"F1"
-             IN;  1;  SMA_EndLaunch;"P1"
-        Limiter;  1; SC70-3_SOT-323;"D1"
-            OUT;  1;  SMA_EndLaunch;"P2"
-         PE4309;  1;QFN24_4x4mm_0.5mmPitch;"IC1"
-          POWER;  1;           0805;"D3"
-            TPS;  1;        SOT23-5;"IC2"
-          USB-B;  1;     CONN_USB_B;"U2"
-     USB-microB;  1;CONN_USB_microAB_5PF_MountingPosts;"U1"
-            VIA; 48; 1Pin_20mil_VIA;"V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32, V33, V34, V35, V36, V37, V38, V39, V40, V41, V42, V43, V44, V45, V46, V47, V48"
+Bill Of Materials for the Attenuator Project
 
+QTY, Manufacturer Part#          , Cost($USD each) - References - Description
+  1, 4309-52                     , 3.06 - IC1 - IC DSA 6BIT 50 OHM 24-QFN PE4309
+  1, TPS73201DBVT                , 1.75 - IC2 - IC LDO REG 250MA ADJ-V SOT23-5
+  2, 251R15S101JV4E              , 0.45 - C1 C2 - CAP CER 100PF 250V 5% NP0 High-Q Low Loss RF 0805
+  1, C0805C101J5GACTU            , 0.06 - C6 - CAP CER 100PF 50V 5% NP0 0805
+  2, GRM21BR71H104KA01L          , 0.10 - C3 C14 - CAP CER 0.1UF 50V 10% X7R 0805
+  2, CC0805KKX7R7BB105           , 0.07 - C1 C13 - CAP CER 1UF 16V 10% X7R 0805
+  1, APT2012SGC                  , 0.13 - D3 - LED 2X1.2MM 568NM GN WTR CLR SMD 0805
+  1, MF-PSMF075X-2               , 0.36 - F1 - FUSE PTC RESETTABLE Ihold=0.75A 6V SMD 0805
+  1, RMCF0805JT1K00              , 0.03 - R7 - RES 1K OHM 1/8W 5% 0805 SMD
+  6, RMCF0805JT2K20              , 0.03 - R1 R2 R3 R4 R8 R9 - RES 2.2K OHM 1/8W 5% 0805 SMD
+  6, RMCF0805JT10K0              , 0.03 - R10 R11 R12 R13 R14 R15 - RES 10K OHM 1/8W 5% 0805 SMD
+  1, RC0805FR-0730K1L            , 0.10 - R6 - RES 30.1K OHM 1/8W 1% 0805 SMD
+  1, RC0805FR-0752K3L            , 0.10 - R5 - RES 52.3K OHM 1/8W 1% 0805 SMD
+  1, 218-6LPST                   , 1.40 - SW1 - SWITCH DIP HALF PITCH 6POS
+  1, PPTC081LFBN-RC              , 0.85 - P3 - CONN HEADER FEMALE 8POS .1" TIN
+  1, 61729-1011BLF               , 1.16 - U2 - USB RCPT B-TYPE TH HORIZONTAL RA FULL BACK
+  2, CONSMA003.062               , 3.29 - P1 P2 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR .062" BOARD
+----------------------------Total=16.02
 
+Notes:	- Component costs are based on minimum quantity orders from DigiKey
+	- Components are chosen for operation over the Industrial Temperature Range (-40C to 85C)
+	- Limiter Diode D1 is unpopulated but could be ASML-5822-BLKG with OP1dB=+3dBm or
+	  HSMP-482B with OP1dB=+7dBm (Avago AN1050 Pg#12, Fig.31) or BAV99W with OP1dB=+10dBm
+	- Instead of the USB-microB connector, there is a USB-B footprint
+	  connector on the underside:  61729-1011BLF , 1.16 - USB RCPT B-TYPE TH HORIZONTAL RA
+	- PTC Fuse MF-PSMF075X-2 can be replaced with 0ZCE0035FF2G or a Ferrite Bead
 
-
-
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"D3";"0805";1;"POWER";;;
-2;"U2";"CONN_USB_B";1;"USB-B";;;
-3;"P3";"SIL-8";1;"Control";;;
-4;"IC1";"QFN24_4x4mm_0.5mmPitch";1;"PE4309";;;
-5;"U1";"CONN_USB_microAB_5PF_MountingPosts";1;"USB-microB";;;
-6;"IC2";"SOT23-5";1;"TPS";;;
-7;"D1";"SC70-3_SOT-323";1;"Limiter";;;
-8;"V48,V47,V46,V45,V44,V43,V42,V41,V11,V20,V19,V18,V17,V16,V15,V14,V13,V12,V21,V10,V9,V8,V7,V6,V5,V4,V3,V2,V31,V40,V39,V38,V37,V36,V35,V34,V33,V32,V1,V30,V29,V28,V27,V26,V25,V24,V23,V22";"1Pin_20mil_VIA";48;"VIA";;;
-9;"P1";"SMA_EndLaunch";1;"IN";;;
-10;"P2";"SMA_EndLaunch";1;"OUT";;;
-11;"C1,C2,C6";"0805";3;"100pF";;;
-12;"C3,C14";"0805";2;"1uF";;;
-13;"C8,C9";"0805";2;"0.1uF";;;
-14;"C12";"0805";1;"DNP";;;
-15;"F1";"0805";1;"F";;;
-16;"R1,R2,R3,R4,R8,R9";"0805";6;"2k2";;;
-17;"R5";"0805";1;"52k3";;;
-18;"R6";"0805";1;"30k1";;;
-19;"R7";"0805";1;"1k";;;
-20;"SW1";"DIP_Switches_0.05inch_8POS_218-10LPST";1;"Attenuation";;;
-21;"R15,R14,R12,R13,R11,R10";"0805";6;"10k";;;
