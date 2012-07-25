@@ -31,6 +31,6 @@ Notes:	- Component costs are based on minimum quantity orders from DigiKey
 	  Zener diode with a voltage greater than 6V so that Avalanche Noise dominates
 	- Amplifier IC1 can be substituted with: MMG3007NT1, SKY65017-70LF
 	- SC4503 in SOT23-5 can be substituted with: LM2733XMF, MIC2295YD5, MIC2288YD5, LT1930ES5
-	- Instead of the USB-B connector U2, there is a USB-microB footprint
-	  connector on the underside: 629105136821, CONN RCPT USB MICRO B R/A SMT with Mounting Posts
+	- Instead of the USB-B connector U2, there is a USB-microB footprint connector that can
+	  be used instead: 629105136821, CONN RCPT USB MICRO B R/A SMT with Mounting Posts
 
