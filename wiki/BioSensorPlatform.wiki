@@ -1,6 +1,6 @@
 #summary ADS1298 Based Biopotential Sensor Platform
 
-*Status*: _Under Development_.  Third PCB revision has been prototyped.  I'm scraping together funding for more development.
+*Status*: _Under Development_.  Third PCB revision has been prototyped and a fourth revision is under development.
 
 [http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://focus.ti.com/docs/prod/folders/print/ads1298.html ADS1298] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electrocardiography ECG]/[http://en.wikipedia.org/wiki/Electroencephalography EEG] front end for use in a head-mounted 32+ non-contact electrode system.
 
