@@ -1,4 +1,4 @@
-update=03/06/2010 12:36:30
+update=21/03/2011 14:34:19
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -76,25 +76,24 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=opendous
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=200
+PadDimH=360
+PadDimV=360
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
 TxtModH=600
-TxtModW=120
-VEgarde=100
+TxtModW=60
+VEgarde=10
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=150
-LastNetListRead=MultiAdaptor-SOIC-SSOP-SOT23-SC70.net
+MSegLar=60
+LastNetListRead=MultiAdaptor.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -107,4 +106,3 @@ LibName7=valves
 LibName8=divers
 LibName9=led
 LibName10=dip_sockets
-LibName11=opendous

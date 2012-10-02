@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 03/06/2010 12:28:54
+Cmp-Mod V01 Created by CvPcb (2011-12-28 BZR 3254)-stable date = 6/3/2012 5:33:37 AM
 
 BeginCmp
 TimeStamp = /4BD9BBE6;
@@ -108,29 +108,29 @@ EndCmp
 BeginCmp
 TimeStamp = /4BD9BEC3;
 Reference = U2;
-ValeurCmp = SOT23;
+ValeurCmp = SOT23-6;
 IdModule  = SOT23-6_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BD9BED4;
 Reference = U3;
-ValeurCmp = SOT23;
+ValeurCmp = SOT23-6;
 IdModule  = SOT23-6_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BD9BED6;
+TimeStamp = /4D866928;
 Reference = U4;
-ValeurCmp = SOT23;
-IdModule  = SOT23-6_Opendous;
+ValeurCmp = SOT23-8;
+IdModule  = SOT23-8_0.65mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BD9BEDB;
+TimeStamp = /4D866652;
 Reference = U5;
-ValeurCmp = SOT23;
-IdModule  = SOT23-6_Opendous;
+ValeurCmp = SOT23-3;
+IdModule  = SOT23-3_Opendous;
 EndCmp
 
 BeginCmp
@@ -141,23 +141,16 @@ IdModule  = SSOP28_ExtendedForAdaptor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BD9C7D5;
-Reference = U7;
-ValeurCmp = SC70;
-IdModule  = SC70-6_AdaptorVersion;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BD9C7D4;
+TimeStamp = /4D866A7D;
 Reference = U8;
-ValeurCmp = SC70;
-IdModule  = SC70-6_AdaptorVersion;
+ValeurCmp = SC70-8;
+IdModule  = SC70-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BD9C7D3;
 Reference = U9;
-ValeurCmp = SC70;
+ValeurCmp = SC70-6;
 IdModule  = SC70-6_AdaptorVersion;
 EndCmp
 
@@ -166,6 +159,13 @@ TimeStamp = /4BD9D781;
 Reference = U10;
 ValeurCmp = MSOP10;
 IdModule  = MSOP10-0.5mmPitch_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D866B12;
+Reference = U11;
+ValeurCmp = SC70-6;
+IdModule  = SC70-6_AdaptorVersion;
 EndCmp
 
 BeginCmp
