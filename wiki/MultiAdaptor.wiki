@@ -8,16 +8,16 @@ A PCB of this design can be purchased at cost through [http://batchpcb.com/index
 
 == Usage Examples ==
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample1.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample1.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample2.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample2.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample3.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample3.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample4.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample4.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample5.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample5.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample6.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample6.jpg
 
-http://opennect.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample7.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample7.jpg
