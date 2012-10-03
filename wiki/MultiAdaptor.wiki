@@ -6,6 +6,10 @@ This adaptor has multiple overlapping footprints for any occasion: up to 28 pin 
 
 A PCB of this design can be purchased at cost through [http://batchpcb.com/index.php/Products/44123 BatchPCB].
 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-Top.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-Bottom.jpg
+
 == Usage Examples ==
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/MultiAdaptor/MultiAdaptor-UsageExample1.jpg
