@@ -59,7 +59,7 @@ To reduce costs and allow for cheap prototyping, the board was designed to 2-lay
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
 
-One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector.  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow disabling the oscillator when Passthrough mode is selected.  Additional space that was leftover is used for a basic Noise Source.
+One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector.  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow disabling the oscillator when Passthrough mode is selected.  Additional space that was leftover is used for a simple [http://code.google.com/p/opendous/wiki/Upconverter#Optional_Noise_Source Noise Source].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
 
