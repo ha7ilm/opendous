@@ -2,30 +2,47 @@
 
 PAGE UNDER CONSTRUCTION
 
-The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].
+Converts signals in the 0.1MHz to 60MHz range to signals in the 100.1MHz to 160MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
-Converts signals in the 0.1MHz to 60MHz range to signals in the 100.1MHz to 160MHz range.  Intended for use in receiver applications with projects like the FunCube Dongle and RTL-SDR.
+The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
 Now [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 available] from [http://www.ebay.com/sch/nooelec/m.html NooElec]!
 
+= Design =
+
+The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a passthrough mode.  Power is sourced from a standard USB-microB connector.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
 
+RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
+
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with +7dBm LO Power Level to reduce noise.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
+== RF Input Low-pass Filter ==
+
+The input [http://en.wikipedia.org/wiki/Low-pass_filter Low-pass filter] is an [http://en.wikipedia.org/wiki/Elliptic_filter Elliptic (Cauer)] filter used for its sharp transition between passband and stopband.  This allows a further reduction in LO radiation through the antenna and keeps higher frequencies from mixing with the intended output products.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Schematic.jpg
 
+The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap SDR dongles (64MHz).
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Simulation.jpg
 
 
+== LO Band-pass Filter ==
+
+Most oscillators show significant bleed of the internal frequency used in their multiplier circuitry.  With 100MHz oscillators the internal frequency tends to be in the 20-25MHz range, directly in the [http://en.wikipedia.org/wiki/High_frequency HF] band of interest.  To reduce these frequencies at the output and also help reduce LO harmonics, a [http://en.wikipedia.org/wiki/Bessel_filter Bessel] [http://en.wikipedia.org/wiki/Bandpass band-pass] filter is used for its minimal phase distortion to keep the LO signal as clean as possible.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
 
+The attenuator and filter are used to reduce the LO level to the required +7dBm.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
+
+== IF Output Band-pass Filter ==
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
@@ -39,6 +56,6 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
 
 
-== SDR Software Tuning Instructions ==
+= SDR Software Tuning Instructions =
 
 Tune to 100.01MHz and see where the nearest peak is (other than 100MHz).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
