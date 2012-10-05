@@ -9,33 +9,34 @@ Converts signals in the 0.1MHz to 60MHz range to signals in the 100.1MHz to 160M
 Now [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 available] from [http://www.ebay.com/sch/nooelec/m.html NooElec]!
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Diagram.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Mixer.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Lowpass_Filter_Schematic.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Schematic.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Lowpass_Filter_Simulation.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Simulation.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_LO_Filter_Schematic.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_LO_Filter_Simulation.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Bandpass_Filter_Schematic.jpg
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_Bandpass_Filter_Simulation.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter_PCB_Trace_Calculations.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter-100MHz-ADE_Layout-Small.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
+
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
 
 
 == SDR Software Tuning Instructions ==
