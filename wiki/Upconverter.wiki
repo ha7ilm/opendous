@@ -70,7 +70,7 @@ Tune your SDR software to 100.01MHz and see where the nearest peak is (other tha
 
 = Optional Noise Source =
 
-The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] noise circuit.  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 5V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
+The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 5V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
 
 When using the Noise Source, install its power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
 
