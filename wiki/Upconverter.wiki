@@ -55,7 +55,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Layout ==
 
-To reduce costs and allow for cheap prototyping, the board was designed to 2-layer 8-8-20 (8mil Trace, 8mil Clearance, and 20mil minimum drill size) specifications.  A [http://www.microwaves101.com/encyclopedia/coplanarwaveguide.cfm Coplanar Waveguide with Ground] 40mil-Trace 8mil-Clearance structure provides the necessary 50-Ohm [http://en.wikipedia.org/wiki/Characteristic_impedance characteristic impedance] over the intended frequency range.
+To reduce costs and allow for cheap prototyping, the board was designed to 2-layer 8-8-20 (8mil Trace, 8mil Clearance, and 20mil minimum drill size) specifications.  A [http://www.microwaves101.com/encyclopedia/coplanarwaveguide.cfm Coplanar Waveguide with Ground] 40mil-Trace 8mil-Clearance structure provides the necessary 50-Ohm [http://en.wikipedia.org/wiki/Characteristic_impedance characteristic impedance] over the intended frequency range.  This happens to be about as wide as 0805 parts which allows for DIY'ability.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
 
