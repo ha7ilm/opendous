@@ -1,108 +1,864 @@
-# EESchema Netlist Version 1.1 created  7/17/2012 12:24:04 PM
+# EESchema Netlist Version 1.1 created  9/2/2012 2:20:09 PM
 (
- ( /50059192 $noname  V165 VIA {Lib=VIA}
+ ( /503CF0CF 1Pin_20mil_VIA  V372 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50059191 $noname  V166 VIA {Lib=VIA}
+ ( /503CF0CE 1Pin_20mil_VIA  V373 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50059190 $noname  V168 VIA {Lib=VIA}
+ ( /503CF0CD 1Pin_20mil_VIA  V371 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5005918F $noname  V167 VIA {Lib=VIA}
+ ( /503CF0CC 1Pin_20mil_VIA  V370 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5005918E $noname  V163 VIA {Lib=VIA}
-  (    1 GND )
+ ( /503CE335 $noname  JP3 OSC_EN {Lib=JUMPER-3}
+  (    1 RFS2 )
+  (    2 OSC_EN )
+  (    3 RFS1 )
  )
- ( /5005918D $noname  V164 VIA {Lib=VIA}
-  (    1 GND )
- )
- ( /5005918C $noname  V162 VIA {Lib=VIA}
-  (    1 GND )
- )
- ( /5005918B $noname  V161 VIA {Lib=VIA}
-  (    1 GND )
- )
- ( /50058EB1 $noname  P3 Pa {Lib=BNC}
-  (    1 N-000028 )
+ ( /503CE08A 0805  C46 100pF {Lib=C_MINI}
+  (    1 +3.3V )
   (    2 GND )
  )
- ( /50058EA8 $noname  U4 OPENNECT-CLOCK {Lib=OPENNECT-CLOCK}
-  (    1 GND )
-  (    2 N-000028 )
+ ( /503CE066 $noname  IC8 126 {Lib=BUFFER_GATE_NONINV}
+  (    1 OSC_EN )
+  (    2 /CLK )
   (    3 GND )
-  (    4 GND )
-  (    5 GND )
-  (    6 N-000027 )
-  (    7 GND )
-  (    8 ? )
+  (    4 N-000027 )
+  (    5 +3.3V )
  )
- ( /50058E6D $noname  P4 Pb {Lib=BNC}
-  (    1 N-000027 )
+ ( /50293CE0 1Pin_20mil_VIA  V369 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BE4 1Pin_20mil_VIA  V345 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BE3 1Pin_20mil_VIA  V346 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BE2 1Pin_20mil_VIA  V348 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BE1 1Pin_20mil_VIA  V347 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BE0 1Pin_20mil_VIA  V351 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDF 1Pin_20mil_VIA  V352 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDE 1Pin_20mil_VIA  V350 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDD 1Pin_20mil_VIA  V349 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDC 1Pin_20mil_VIA  V365 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDB 1Pin_20mil_VIA  V366 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BDA 1Pin_20mil_VIA  V368 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD9 1Pin_20mil_VIA  V367 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD8 1Pin_20mil_VIA  V363 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD7 1Pin_20mil_VIA  V364 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD6 1Pin_20mil_VIA  V362 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD5 1Pin_20mil_VIA  V361 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD2 1Pin_20mil_VIA  V353 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD1 1Pin_20mil_VIA  V354 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BD0 1Pin_20mil_VIA  V356 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCF 1Pin_20mil_VIA  V355 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCE 1Pin_20mil_VIA  V359 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCD 1Pin_20mil_VIA  V360 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCC 1Pin_20mil_VIA  V358 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCB 1Pin_20mil_VIA  V357 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BCA 1Pin_20mil_VIA  V333 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC9 1Pin_20mil_VIA  V334 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC8 1Pin_20mil_VIA  V336 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC7 1Pin_20mil_VIA  V335 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC6 1Pin_20mil_VIA  V331 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC5 1Pin_20mil_VIA  V332 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC4 1Pin_20mil_VIA  V330 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC3 1Pin_20mil_VIA  V329 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BC0 1Pin_20mil_VIA  V337 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBF 1Pin_20mil_VIA  V338 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBE 1Pin_20mil_VIA  V340 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBD 1Pin_20mil_VIA  V339 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBC 1Pin_20mil_VIA  V343 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBB 1Pin_20mil_VIA  V344 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BBA 1Pin_20mil_VIA  V342 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB9 1Pin_20mil_VIA  V341 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB8 1Pin_20mil_VIA  V325 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB7 1Pin_20mil_VIA  V326 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB6 1Pin_20mil_VIA  V328 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB5 1Pin_20mil_VIA  V327 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB4 1Pin_20mil_VIA  V323 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB3 1Pin_20mil_VIA  V324 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB2 1Pin_20mil_VIA  V322 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BB1 1Pin_20mil_VIA  V321 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BAE 1Pin_20mil_VIA  V313 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BAD 1Pin_20mil_VIA  V314 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BAC 1Pin_20mil_VIA  V316 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BAB 1Pin_20mil_VIA  V315 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BAA 1Pin_20mil_VIA  V319 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BA9 1Pin_20mil_VIA  V320 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BA8 1Pin_20mil_VIA  V318 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292BA7 1Pin_20mil_VIA  V317 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925B4 1Pin_20mil_VIA  V261 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925B3 1Pin_20mil_VIA  V262 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925B2 1Pin_20mil_VIA  V264 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925B1 1Pin_20mil_VIA  V263 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925B0 1Pin_20mil_VIA  V259 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925AF 1Pin_20mil_VIA  V260 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925AE 1Pin_20mil_VIA  V258 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925AD 1Pin_20mil_VIA  V257 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925AA 1Pin_20mil_VIA  V265 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A9 1Pin_20mil_VIA  V266 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A8 1Pin_20mil_VIA  V268 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A7 1Pin_20mil_VIA  V267 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A6 1Pin_20mil_VIA  V271 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A5 1Pin_20mil_VIA  V272 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A4 1Pin_20mil_VIA  V270 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A3 1Pin_20mil_VIA  V269 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A2 1Pin_20mil_VIA  V285 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A1 1Pin_20mil_VIA  V286 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /502925A0 1Pin_20mil_VIA  V288 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029259F 1Pin_20mil_VIA  V287 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029259E 1Pin_20mil_VIA  V283 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029259D 1Pin_20mil_VIA  V284 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029259C 1Pin_20mil_VIA  V282 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029259B 1Pin_20mil_VIA  V281 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292598 1Pin_20mil_VIA  V273 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292597 1Pin_20mil_VIA  V274 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292596 1Pin_20mil_VIA  V276 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292595 1Pin_20mil_VIA  V275 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292594 1Pin_20mil_VIA  V279 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292593 1Pin_20mil_VIA  V280 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292592 1Pin_20mil_VIA  V278 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292591 1Pin_20mil_VIA  V277 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292590 1Pin_20mil_VIA  V301 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258F 1Pin_20mil_VIA  V302 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258E 1Pin_20mil_VIA  V304 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258D 1Pin_20mil_VIA  V303 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258C 1Pin_20mil_VIA  V299 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258B 1Pin_20mil_VIA  V300 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029258A 1Pin_20mil_VIA  V298 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292589 1Pin_20mil_VIA  V297 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292586 1Pin_20mil_VIA  V305 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292585 1Pin_20mil_VIA  V306 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292584 1Pin_20mil_VIA  V308 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292583 1Pin_20mil_VIA  V307 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292582 1Pin_20mil_VIA  V311 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292581 1Pin_20mil_VIA  V312 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292580 1Pin_20mil_VIA  V310 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257F 1Pin_20mil_VIA  V309 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257E 1Pin_20mil_VIA  V293 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257D 1Pin_20mil_VIA  V294 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257C 1Pin_20mil_VIA  V296 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257B 1Pin_20mil_VIA  V295 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5029257A 1Pin_20mil_VIA  V291 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292579 1Pin_20mil_VIA  V292 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292578 1Pin_20mil_VIA  V290 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50292577 1Pin_20mil_VIA  V289 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50291BB0 0603  R15 DNI {Lib=R_MINI}
+  (    1 RFS2 )
+  (    2 RFS2 )
+ )
+ ( /50291B8A 0603  R13 DNI {Lib=R_MINI}
+  (    1 RFS1 )
+  (    2 RFS1 )
+ )
+ ( /50290FD0 MTS-1x2-C3  JP2 RF_Path_Select {Lib=JUMPER-3-WITH-GND}
+  (    1 GND )
+  (    2 N-000013 )
+  (    3 +3.3V )
+  (    4 GND )
+ )
+ ( /50290463 1Pin_20mil_VIA  V249 VIA {Lib=VIA}
+  (    1 OSC_EN )
+ )
+ ( /50290462 1Pin_20mil_VIA  V250 VIA {Lib=VIA}
+  (    1 OSC_EN )
+ )
+ ( /50290461 1Pin_20mil_VIA  V252 VIA {Lib=VIA}
+  (    1 RFS2 )
+ )
+ ( /50290460 1Pin_20mil_VIA  V251 VIA {Lib=VIA}
+  (    1 RFS2 )
+ )
+ ( /5029045F 1Pin_20mil_VIA  V255 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /5029045E 1Pin_20mil_VIA  V256 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /5029045D 1Pin_20mil_VIA  V254 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /5029045C 1Pin_20mil_VIA  V253 VIA {Lib=VIA}
+  (    1 +3.3V )
+ )
+ ( /5029006F 0805  C40 100pF {Lib=C_MINI}
+  (    1 +3.3V )
   (    2 GND )
  )
- ( /50058ABC $noname  V157 VIA {Lib=VIA}
+ ( /50290068 0805  C39 0.1uF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5029003A 0805  C44 100pF {Lib=C_MINI}
+  (    1 RFS2 )
+  (    2 GND )
+ )
+ ( /50290039 0805  C43 100pF {Lib=C_MINI}
+  (    1 RFS1 )
+  (    2 GND )
+ )
+ ( /50290022 0805  C33 100pF {Lib=C_MINI}
+  (    1 RFS1 )
+  (    2 GND )
+ )
+ ( /5029001B 0805  C36 100pF {Lib=C_MINI}
+  (    1 RFS2 )
+  (    2 GND )
+ )
+ ( /5028FFA5 1Pin_20mil_VIA  V225 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058ABB $noname  V158 VIA {Lib=VIA}
+ ( /5028FFA4 1Pin_20mil_VIA  V226 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058ABA $noname  V160 VIA {Lib=VIA}
+ ( /5028FFA3 1Pin_20mil_VIA  V228 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058AB9 $noname  V159 VIA {Lib=VIA}
+ ( /5028FFA2 1Pin_20mil_VIA  V227 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058AB8 $noname  V155 VIA {Lib=VIA}
+ ( /5028FFA1 1Pin_20mil_VIA  V231 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058AB7 $noname  V156 VIA {Lib=VIA}
+ ( /5028FFA0 1Pin_20mil_VIA  V232 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058AB6 $noname  V154 VIA {Lib=VIA}
+ ( /5028FF9F 1Pin_20mil_VIA  V230 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50058AB5 $noname  V153 VIA {Lib=VIA}
+ ( /5028FF9E 1Pin_20mil_VIA  V229 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50057E27 $noname  R9 0 {Lib=R_MINI}
-  (    1 /IF_OUT )
-  (    2 N-000017 )
- )
- ( /50057E26 $noname  R10 DNI {Lib=R_MINI}
+ ( /5028FF9D 1Pin_20mil_VIA  V245 VIA {Lib=VIA}
   (    1 GND )
+ )
+ ( /5028FF9C 1Pin_20mil_VIA  V246 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF9B 1Pin_20mil_VIA  V248 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF9A 1Pin_20mil_VIA  V247 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF99 1Pin_20mil_VIA  V243 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF98 1Pin_20mil_VIA  V244 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF97 1Pin_20mil_VIA  V242 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF96 1Pin_20mil_VIA  V241 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF93 1Pin_20mil_VIA  V233 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF92 1Pin_20mil_VIA  V234 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF91 1Pin_20mil_VIA  V236 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF90 1Pin_20mil_VIA  V235 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF8F 1Pin_20mil_VIA  V239 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF8E 1Pin_20mil_VIA  V240 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF8D 1Pin_20mil_VIA  V238 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF8C 1Pin_20mil_VIA  V237 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5028FF71 SOT23-6  IC5 04 {Lib=74LVC2GU04}
+  (    1 N-000013 )
+  (    2 GND )
+  (    3 RFS1 )
+  (    4 RFS2 )
+  (    5 +3.3V )
+  (    6 RFS1 )
+ )
+ ( /5028FE33 0805  C45 0.1uF {Lib=C_MINI}
+  (    1 N-000044 )
   (    2 /IF_OUT )
  )
- ( /50057E23 $noname  R8 DNI {Lib=R_MINI}
-  (    1 GND )
-  (    2 N-000017 )
+ ( /5028FDFA 0805  C41 0.1uF {Lib=C_MINI}
+  (    1 /RF_Passthrough )
+  (    2 N-000012 )
  )
- ( /500266C8 $noname  V145 VIA {Lib=VIA}
+ ( /5028FDF9 0805  C42 0.1uF {Lib=C_MINI}
+  (    1 N-000042 )
+  (    2 N-000007 )
+ )
+ ( /5028FD91 0805  C38 0.1uF {Lib=C_MINI}
+  (    1 N-000006 )
+  (    2 /RF_Passthrough )
+ )
+ ( /5028FD83 0805  C37 0.1uF {Lib=C_MINI}
+  (    1 N-000005 )
+  (    2 N-000025 )
+ )
+ ( /5028FD12 0805  C30 0.1uF {Lib=C_MINI}
+  (    1 /RF_IN )
+  (    2 N-000004 )
+ )
+ ( /5028FD05 SOT23-6  IC7 RFS2 {Lib=RF_SWITCH_SPDT}
+  (    1 N-000012 )
+  (    2 GND )
+  (    3 N-000007 )
+  (    4 RFS2 )
+  (    5 N-000044 )
+  (    6 RFS1 )
+ )
+ ( /5028FCE4 SOT23-6  IC6 RFS1 {Lib=RF_SWITCH_SPDT}
+  (    1 N-000005 )
+  (    2 GND )
+  (    3 N-000006 )
+  (    4 RFS1 )
+  (    5 N-000004 )
+  (    6 RFS2 )
+ )
+ ( /5024F152 1Pin_20mil_VIA  V213 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C7 $noname  V146 VIA {Lib=VIA}
+ ( /5024F151 1Pin_20mil_VIA  V214 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C6 $noname  V148 VIA {Lib=VIA}
+ ( /5024F150 1Pin_20mil_VIA  V216 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C5 $noname  V147 VIA {Lib=VIA}
+ ( /5024F14F 1Pin_20mil_VIA  V215 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C4 $noname  V151 VIA {Lib=VIA}
+ ( /5024F14E 1Pin_20mil_VIA  V211 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C3 $noname  V152 VIA {Lib=VIA}
+ ( /5024F14D 1Pin_20mil_VIA  V212 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C2 $noname  V150 VIA {Lib=VIA}
+ ( /5024F14C 1Pin_20mil_VIA  V210 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /500266C1 $noname  V149 VIA {Lib=VIA}
+ ( /5024F14B 1Pin_20mil_VIA  V209 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /50025E70 $noname  U3 ADE {Lib=ADE_MIXER}
+ ( /5024F148 1Pin_20mil_VIA  V217 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F147 1Pin_20mil_VIA  V218 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F146 1Pin_20mil_VIA  V220 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F145 1Pin_20mil_VIA  V219 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F144 1Pin_20mil_VIA  V223 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F143 1Pin_20mil_VIA  V224 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F142 1Pin_20mil_VIA  V222 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F141 1Pin_20mil_VIA  V221 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F031 1Pin_20mil_VIA  V205 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F030 1Pin_20mil_VIA  V206 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02F 1Pin_20mil_VIA  V208 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02E 1Pin_20mil_VIA  V207 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02D 1Pin_20mil_VIA  V203 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02C 1Pin_20mil_VIA  V204 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02B 1Pin_20mil_VIA  V202 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024F02A 1Pin_20mil_VIA  V201 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024E018 0805  R14 1k {Lib=R_MINI}
+  (    1 N-000002 )
+  (    2 VDD_RF )
+ )
+ ( /5024E017 0805  D5 POWERED {Lib=D_LED}
+  (    1 GND )
+  (    2 N-000002 )
+ )
+ ( /5024DA7D 1Pin_20mil_VIA  V193 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA7C 1Pin_20mil_VIA  V194 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA7B 1Pin_20mil_VIA  V196 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA7A 1Pin_20mil_VIA  V195 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA79 1Pin_20mil_VIA  V199 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA78 1Pin_20mil_VIA  V200 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA77 1Pin_20mil_VIA  V198 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA76 1Pin_20mil_VIA  V197 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA70 1Pin_20mil_VIA  V177 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6F 1Pin_20mil_VIA  V178 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6E 1Pin_20mil_VIA  V180 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6D 1Pin_20mil_VIA  V179 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6C 1Pin_20mil_VIA  V183 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6B 1Pin_20mil_VIA  V184 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA6A 1Pin_20mil_VIA  V182 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA69 1Pin_20mil_VIA  V181 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA68 1Pin_20mil_VIA  V189 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA67 1Pin_20mil_VIA  V190 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA66 1Pin_20mil_VIA  V192 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA65 1Pin_20mil_VIA  V191 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA64 1Pin_20mil_VIA  V187 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA63 1Pin_20mil_VIA  V188 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA62 1Pin_20mil_VIA  V186 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024DA61 1Pin_20mil_VIA  V185 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5024B815 0805  L16 100nH {Lib=L_MINI}
+  (    1 N-000051 )
+  (    2 /AMP2_OUT )
+ )
+ ( /5024B814 0805  C32 1000pF {Lib=C_MINI}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /5024B813 0805  C34 0.1uF {Lib=C_MINI}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /5024B80F 0805  C35 0.1uF {Lib=C_MINI}
+  (    1 /AMP2_OUT )
+  (    2 /OUT )
+ )
+ ( /5024B80D SOT89-3  IC4 AMP {Lib=AMP_RF_SOT-89}
+  (    1 /AMP2_IN )
+  (    2 GND )
+  (    3 /AMP2_OUT )
+ )
+ ( /5024B502 SIL-2  JP1 NoiseSource_EN {Lib=JUMPER-2-NON}
+  (    1 VDD_RF )
+  (    2 VBUS )
+ )
+ ( /50249BBF 1Pin_20mil_VIA  V169 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BBE 1Pin_20mil_VIA  V170 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BBD 1Pin_20mil_VIA  V172 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BBC 1Pin_20mil_VIA  V171 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BBB 1Pin_20mil_VIA  V175 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BBA 1Pin_20mil_VIA  V176 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BB9 1Pin_20mil_VIA  V174 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50249BB8 1Pin_20mil_VIA  V173 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50242193 0805  C22 6.8pF {Lib=C_MINI}
+  (    1 N-000023 )
+  (    2 N-000011 )
+ )
+ ( /50242192 0805  L5 330nH {Lib=L_MINI}
+  (    1 /LO )
+  (    2 N-000011 )
+ )
+ ( /50242191 0805  L13 6.8nH {Lib=L_MINI}
+  (    1 /LO )
+  (    2 GND )
+ )
+ ( /50242190 0805  C23 330pF {Lib=C_MINI}
+  (    1 /LO )
+  (    2 GND )
+ )
+ ( /5024218F 0805  C21 56pF {Lib=C_MINI}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /5024218E 0805  L1 47nH {Lib=L_MINI}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /502395DF 0805  L4 120nH {Lib=L_MINI}
+  (    1 /RF )
+  (    2 N-000048 )
+ )
+ ( /502395DE 0805  C10 20pF {Lib=C_MINI}
+  (    1 N-000048 )
+  (    2 /RF )
+ )
+ ( /502395DD 0805  C11 68pF {Lib=C_MINI}
+  (    1 /RF )
+  (    2 GND )
+ )
+ ( /50059192 1Pin_20mil_VIA  V165 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50059191 1Pin_20mil_VIA  V166 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50059190 1Pin_20mil_VIA  V168 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5005918F 1Pin_20mil_VIA  V167 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5005918E 1Pin_20mil_VIA  V163 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5005918D 1Pin_20mil_VIA  V164 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5005918C 1Pin_20mil_VIA  V162 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5005918B 1Pin_20mil_VIA  V161 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058ABC 1Pin_20mil_VIA  V157 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058ABB 1Pin_20mil_VIA  V158 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058ABA 1Pin_20mil_VIA  V160 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058AB9 1Pin_20mil_VIA  V159 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058AB8 1Pin_20mil_VIA  V155 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058AB7 1Pin_20mil_VIA  V156 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058AB6 1Pin_20mil_VIA  V154 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50058AB5 1Pin_20mil_VIA  V153 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C8 1Pin_20mil_VIA  V145 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C7 1Pin_20mil_VIA  V146 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C6 1Pin_20mil_VIA  V148 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C5 1Pin_20mil_VIA  V147 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C4 1Pin_20mil_VIA  V151 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C3 1Pin_20mil_VIA  V152 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C2 1Pin_20mil_VIA  V150 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /500266C1 1Pin_20mil_VIA  V149 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50025E70 MiniCircuits_PL-052  U3 ADE {Lib=ADE_MIXER}
   (    1 GND )
   (    2 /IF )
   (    3 /RF )
@@ -110,1006 +866,1386 @@
   (    5 GND )
   (    6 /LO )
  )
- ( /50023885 $noname  C13 1uF {Lib=C_MINI}
-  (    1 VBUS )
-  (    2 DGND )
+ ( /50023885 0805  C13 4.7uF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /500092D6 $noname  D3 POWER {Lib=D_LED}
-  (    1 DGND )
+ ( /500092D6 0805  D3 POWERED {Lib=D_LED}
+  (    1 GND )
   (    2 /LED_A )
  )
- ( /500092BB $noname  R7 1k {Lib=R_MINI}
+ ( /500092BB 0805  R7 1k {Lib=R_MINI}
   (    1 /LED_A )
   (    2 VBUS )
  )
- ( /5000915A $noname  L2 FB {Lib=L_MINI}
-  (    1 +5V )
-  (    2 VBUS )
- )
- ( /500090A6 $noname  C1 1uF {Lib=C_MINI}
+ ( /5024B6CC 0805  C1 4.7uF {Lib=C_MINI}
   (    1 VBUS )
-  (    2 DGND )
+  (    2 GND )
  )
- ( /5000909E $noname  L5 FB {Lib=L_MINI}
+ ( /5024B6CB 0805  R2 432 {Lib=R_MINI}
   (    1 GND )
-  (    2 DGND )
+  (    2 N-000027 )
  )
- ( /5000903F $noname  R2 88R7 {Lib=R_MINI}
-  (    1 GND )
-  (    2 /LO_BUF )
+ ( /50009032 0805  C2 0.1uF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /50009032 $noname  C2 0.1uF {Lib=C_MINI}
-  (    1 +5V )
-  (    2 DGND )
+ ( /50009031 0805  C3 100pF {Lib=C_MINI}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /50009031 $noname  C3 12pF {Lib=C_MINI}
-  (    1 +5V )
-  (    2 DGND )
- )
- ( /50008FC6 $noname  X1 100MHz {Lib=OSCILLATOR_HALF-DIP}
-  (    1 +5V )
-  (    4 DGND )
+ ( /50008FC6 Oscillator_Half_DIP  X1 100MHz {Lib=OSCILLATOR_HALF-DIP}
+  (    1 OSC_EN )
+  (    4 GND )
   (    5 /CLK )
-  (    8 +5V )
+  (    8 +3.3V )
  )
- ( /50008EBB $noname  C9 12pF {Lib=C_MINI}
-  (    1 +2.5V )
-  (    2 DGND )
- )
- ( /50008EB2 $noname  C6 0.1uF {Lib=C_MINI}
-  (    1 +2.5V )
-  (    2 DGND )
- )
- ( /50008E8B $noname  R4 88R7 {Lib=R_MINI}
+ ( /50008E8B 0805  R4 432 {Lib=R_MINI}
   (    1 GND )
-  (    2 /LO )
+  (    2 N-000023 )
  )
- ( /50008E7B $noname  R1 DNP {Lib=R_MINI}
-  (    1 +5V )
-  (    2 +5V )
+ ( /50008E55 0805  R3 11R5 {Lib=R_MINI}
+  (    1 N-000023 )
+  (    2 N-000027 )
  )
- ( /50008E55 $noname  R3 82 {Lib=R_MINI}
-  (    1 /LO )
-  (    2 /LO_BUF )
- )
- ( /50007C0A $noname  D1 Limiter {Lib=D_RECTIFIER_SERIES}
+ ( /50007C0A SC70-3_SOT-323  D1 Limiter {Lib=D_RECTIFIER_SERIES}
   (    1 GND )
   (    2 GND )
   (    3 /RF_IN )
  )
- ( /50007B3C $noname  C11 56pF {Lib=C_MINI}
-  (    1 /RF )
+ ( /50007B3C 0805  C9 82pF {Lib=C_MINI}
+  (    1 N-000048 )
   (    2 GND )
  )
- ( /50007B3B $noname  C10 36pF {Lib=C_MINI}
-  (    1 N-000004 )
-  (    2 /RF )
+ ( /50007B3B 0805  C7 30pF {Lib=C_MINI}
+  (    1 N-000049 )
+  (    2 N-000048 )
  )
- ( /50007B3A $noname  L4 82nH {Lib=L_MINI}
-  (    1 /RF )
-  (    2 N-000004 )
+ ( /50007B3A 0805  L3 110nH {Lib=L_MINI}
+  (    1 N-000048 )
+  (    2 N-000049 )
  )
- ( /50007B2E $noname  C4 68pF {Lib=C_MINI}
+ ( /50007B2E 0805  C4 68pF {Lib=C_MINI}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /5024B6C4 SMA_EndLaunch  P1 RF {Lib=BNC}
   (    1 /RF_IN )
   (    2 GND )
  )
- ( /50007AE9 $noname  P1 RF {Lib=BNC}
-  (    1 /RF_IN )
+ ( /50007AE4 0805  L2 150nH {Lib=L_MINI}
+  (    1 N-000049 )
+  (    2 N-000025 )
+ )
+ ( /50007AE3 0805  C5 6.2pF {Lib=C_MINI}
+  (    1 N-000025 )
+  (    2 N-000049 )
+ )
+ ( /50007AE1 0805  C6 100pF {Lib=C_MINI}
+  (    1 N-000049 )
   (    2 GND )
  )
- ( /50007AE4 $noname  L3 150nH {Lib=L_MINI}
-  (    1 N-000004 )
-  (    2 /RF_IN )
- )
- ( /50007AE3 $noname  C5 12pF {Lib=C_MINI}
-  (    1 /RF_IN )
-  (    2 N-000004 )
- )
- ( /50007AE1 $noname  C7 82pF {Lib=C_MINI}
-  (    1 N-000004 )
+ ( /500079A3 0805  L8 18nH {Lib=L_MINI}
+  (    1 N-000029 )
   (    2 GND )
  )
- ( /500079A3 $noname  L8 18nH {Lib=L_MINI}
-  (    1 N-000005 )
+ ( /500079A2 0805  C16 82pF {Lib=C_MINI}
+  (    1 N-000029 )
   (    2 GND )
  )
- ( /500079A2 $noname  C16 82pF {Lib=C_MINI}
-  (    1 N-000005 )
-  (    2 GND )
- )
- ( /50007995 $noname  C14 20pF {Lib=C_MINI}
+ ( /50007995 0805  C14 20pF {Lib=C_MINI}
   (    1 /IF )
   (    2 GND )
  )
- ( /50007994 $noname  L6 82nH {Lib=L_MINI}
+ ( /50007994 0805  L6 82nH {Lib=L_MINI}
   (    1 /IF )
   (    2 GND )
  )
- ( /50007960 $noname  C15 10pF {Lib=C_MINI}
+ ( /50007960 0805  C15 10pF {Lib=C_MINI}
   (    1 /IF )
-  (    2 N-000012 )
+  (    2 N-000035 )
  )
- ( /5000795F $noname  L7 150nH {Lib=L_MINI}
-  (    1 N-000005 )
-  (    2 N-000012 )
+ ( /5000795F 0805  L7 150nH {Lib=L_MINI}
+  (    1 N-000029 )
+  (    2 N-000035 )
  )
- ( /50007959 $noname  C18 82pF {Lib=C_MINI}
-  (    1 N-000013 )
+ ( /50007959 0805  C18 82pF {Lib=C_MINI}
+  (    1 N-000034 )
   (    2 GND )
  )
- ( /50007958 $noname  L10 18nH {Lib=L_MINI}
-  (    1 N-000013 )
+ ( /50007958 0805  L10 18nH {Lib=L_MINI}
+  (    1 N-000034 )
   (    2 GND )
  )
- ( /50007957 $noname  L9 220nH {Lib=L_MINI}
-  (    1 N-000013 )
-  (    2 N-000014 )
+ ( /50007957 0805  L9 220nH {Lib=L_MINI}
+  (    1 N-000034 )
+  (    2 N-000033 )
  )
- ( /50007956 $noname  C17 6.8pF {Lib=C_MINI}
-  (    1 N-000005 )
-  (    2 N-000014 )
+ ( /50007956 0805  C17 6.8pF {Lib=C_MINI}
+  (    1 N-000029 )
+  (    2 N-000033 )
  )
- ( /500078E4 $noname  C19 10pF {Lib=C_MINI}
-  (    1 N-000013 )
-  (    2 N-000016 )
+ ( /500078E4 0805  C19 10pF {Lib=C_MINI}
+  (    1 N-000034 )
+  (    2 N-000032 )
  )
- ( /500078E3 $noname  L11 150nH {Lib=L_MINI}
-  (    1 N-000017 )
-  (    2 N-000016 )
+ ( /500078E3 0805  L11 150nH {Lib=L_MINI}
+  (    1 N-000042 )
+  (    2 N-000032 )
  )
- ( /50007875 $noname  L12 82nH {Lib=L_MINI}
-  (    1 N-000017 )
+ ( /50007875 0805  L12 82nH {Lib=L_MINI}
+  (    1 N-000042 )
   (    2 GND )
  )
- ( /500076DF $noname  D2 Limiter {Lib=D_RECTIFIER_SERIES}
-  (    1 GND )
-  (    2 GND )
-  (    3 /IF_OUT )
- )
- ( /5000749A $noname  C20 18pF {Lib=C_MINI}
-  (    1 N-000017 )
+ ( /5000749A 0805  C20 20pF {Lib=C_MINI}
+  (    1 N-000042 )
   (    2 GND )
  )
- ( /50007479 $noname  P2 IF {Lib=BNC}
+ ( /50007479 SMA_EndLaunch  P2 IF {Lib=BNC}
   (    1 /IF_OUT )
   (    2 GND )
  )
- ( /4FFC6E36 $noname  L1 FB {Lib=L_MINI}
-  (    1 DGND )
-  (    2 GNDPWR )
- )
- ( /4FFC6D63 $noname  F1 F {Lib=FUSE-MINI}
+ ( /4FFC6D63 0805  F1 F {Lib=FUSE-MINI}
   (    1 VBUS )
   (    2 /VBUS_CONN )
  )
- ( /4FFC6CDB $noname  U2 USB-A-Plug {Lib=USBCONN}
+ ( /4FFC6CDB CONN_USB_B  U2 USB-B {Lib=USBCONN}
   (    1 /VBUS_CONN )
   (    2 /USB_DN )
   (    3 /USB_DP )
-  (    4 DGND )
+  (    4 GND )
   (    5 GNDPWR )
  )
- ( /4FFC6CD5 $noname  U1 USB-microB {Lib=USBCONN-HOSTCAPABLE}
+ ( /4FFC6CD5 CONN_USB_microAB_5PF_MountingPosts  U1 USB-microB {Lib=USBCONN-HOSTCAPABLE}
   (    1 /VBUS_CONN )
   (    2 /USB_DN )
   (    3 /USB_DP )
-  (    4 DGND )
+  (    4 GND )
   (    5 GNDPWR )
   (    6 ? )
  )
- ( /4FFC6CAB $noname  C8 0.1uF {Lib=C_MINI}
+ ( /4FFC6CAB 0805  C8 0.1uF {Lib=C_MINI}
   (    1 VBUS )
-  (    2 DGND )
+  (    2 GND )
  )
- ( /4FFC6C78 $noname  C12 DNP {Lib=C_MINI}
+ ( /4FFC6C78 0805  C12 0.01uF {Lib=C_MINI}
   (    1 /TPS_NR )
-  (    2 DGND )
+  (    2 GND )
  )
- ( /4FFC6ACD $noname  R5 39k2 {Lib=R_MINI}
+ ( /4FFC6ACD 0805  R5 DNI {Lib=R_MINI}
   (    1 /TPS_NR )
-  (    2 +2.5V )
+  (    2 +3.3V )
  )
- ( /4FFC6AB5 $noname  R6 36k5 {Lib=R_MINI}
-  (    1 DGND )
+ ( /4FFC6AB5 0805  R6 DNI {Lib=R_MINI}
+  (    1 GND )
   (    2 /TPS_NR )
  )
- ( /4FFC6A49 $noname  IC3 TPS {Lib=TPS736XX}
+ ( /4FFC6A49 SOT23-5  IC1 TPS {Lib=TPS736XX}
   (    1 VBUS )
-  (    2 DGND )
+  (    2 GND )
   (    3 VBUS )
   (    4 /TPS_NR )
-  (    5 +2.5V )
+  (    5 +3.3V )
  )
- ( /4FFC698F $noname  IC2 125 {Lib=BUFFER_GATE}
-  (    1 DGND )
-  (    2 /CLK )
-  (    3 DGND )
-  (    4 /LO_BUF )
-  (    5 +2.5V )
+ ( /5002445E 1Pin_20mil_VIA  V141 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5002445E $noname  V141 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5002445D 1Pin_20mil_VIA  V142 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5002445D $noname  V142 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5002445C 1Pin_20mil_VIA  V144 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5002445C $noname  V144 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5002445B 1Pin_20mil_VIA  V143 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5002445B $noname  V143 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5002445A 1Pin_20mil_VIA  V139 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5002445A $noname  V139 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50024459 1Pin_20mil_VIA  V140 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50024459 $noname  V140 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50024458 1Pin_20mil_VIA  V138 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50024458 $noname  V138 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50024457 1Pin_20mil_VIA  V137 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50024457 $noname  V137 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D13 1Pin_20mil_VIA  V133 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D13 $noname  V133 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D12 1Pin_20mil_VIA  V134 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D12 $noname  V134 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D11 1Pin_20mil_VIA  V136 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D11 $noname  V136 VIA {Lib=VIA}
-  (    1 /VBUS_CONN )
+ ( /50023D10 1Pin_20mil_VIA  V135 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D10 $noname  V135 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D0F 1Pin_20mil_VIA  V131 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D0F $noname  V131 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D0E 1Pin_20mil_VIA  V132 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D0E $noname  V132 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D0D 1Pin_20mil_VIA  V130 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D0D $noname  V130 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023D0C 1Pin_20mil_VIA  V129 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023D0C $noname  V129 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023ADA 1Pin_20mil_VIA  V121 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023ADA $noname  V121 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD9 1Pin_20mil_VIA  V122 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD9 $noname  V122 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD8 1Pin_20mil_VIA  V124 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD8 $noname  V124 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD7 1Pin_20mil_VIA  V123 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD7 $noname  V123 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD6 1Pin_20mil_VIA  V127 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD6 $noname  V127 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD5 1Pin_20mil_VIA  V128 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD5 $noname  V128 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD4 1Pin_20mil_VIA  V126 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD4 $noname  V126 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /50023AD3 1Pin_20mil_VIA  V125 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /50023AD3 $noname  V125 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236DC 1Pin_20mil_VIA  V117 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236DC $noname  V117 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236DB 1Pin_20mil_VIA  V118 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236DB $noname  V118 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236DA 1Pin_20mil_VIA  V120 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236DA $noname  V120 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236D9 1Pin_20mil_VIA  V119 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236D9 $noname  V119 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236D8 1Pin_20mil_VIA  V115 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236D8 $noname  V115 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236D7 1Pin_20mil_VIA  V116 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236D7 $noname  V116 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236D6 1Pin_20mil_VIA  V114 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236D6 $noname  V114 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /500236D5 1Pin_20mil_VIA  V113 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /500236D5 $noname  V113 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C6A4 1Pin_20mil_VIA  V105 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C6A4 $noname  V105 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C6A3 1Pin_20mil_VIA  V106 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C6A3 $noname  V106 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C6A2 1Pin_20mil_VIA  V108 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C6A2 $noname  V108 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C6A1 1Pin_20mil_VIA  V107 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C6A1 $noname  V107 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C6A0 1Pin_20mil_VIA  V111 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C6A0 $noname  V111 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69F 1Pin_20mil_VIA  V112 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69F $noname  V112 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69E 1Pin_20mil_VIA  V110 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69E $noname  V110 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69D 1Pin_20mil_VIA  V109 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69D $noname  V109 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69C 1Pin_20mil_VIA  V101 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69C $noname  V101 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69B 1Pin_20mil_VIA  V102 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69B $noname  V102 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C69A 1Pin_20mil_VIA  V104 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C69A $noname  V104 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C699 1Pin_20mil_VIA  V103 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C699 $noname  V103 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C698 1Pin_20mil_VIA  V99 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C698 $noname  V99 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C697 1Pin_20mil_VIA  V100 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C697 $noname  V100 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C696 1Pin_20mil_VIA  V98 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C696 $noname  V98 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C695 1Pin_20mil_VIA  V97 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C695 $noname  V97 VIA {Lib=VIA}
-  (    1 DGND )
+ ( /5000C68F 1Pin_20mil_VIA  V81 VIA {Lib=VIA}
+  (    1 GND )
  )
- ( /5000C68F $noname  V81 VIA {Lib=VIA}
+ ( /5000C68E 1Pin_20mil_VIA  V82 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C68E $noname  V82 VIA {Lib=VIA}
+ ( /5000C68D 1Pin_20mil_VIA  V84 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C68D $noname  V84 VIA {Lib=VIA}
+ ( /5000C68C 1Pin_20mil_VIA  V83 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C68C $noname  V83 VIA {Lib=VIA}
+ ( /5000C68B 1Pin_20mil_VIA  V87 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C68B $noname  V87 VIA {Lib=VIA}
+ ( /5000C68A 1Pin_20mil_VIA  V88 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C68A $noname  V88 VIA {Lib=VIA}
+ ( /5000C689 1Pin_20mil_VIA  V86 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C689 $noname  V86 VIA {Lib=VIA}
+ ( /5000C688 1Pin_20mil_VIA  V85 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C688 $noname  V85 VIA {Lib=VIA}
+ ( /5000C67D 1Pin_20mil_VIA  V93 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C67D $noname  V93 VIA {Lib=VIA}
+ ( /5000C67C 1Pin_20mil_VIA  V94 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C67C $noname  V94 VIA {Lib=VIA}
+ ( /5000C67B 1Pin_20mil_VIA  V96 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C67B $noname  V96 VIA {Lib=VIA}
+ ( /5000C67A 1Pin_20mil_VIA  V95 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C67A $noname  V95 VIA {Lib=VIA}
+ ( /5000C679 1Pin_20mil_VIA  V91 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C679 $noname  V91 VIA {Lib=VIA}
+ ( /5000C678 1Pin_20mil_VIA  V92 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C678 $noname  V92 VIA {Lib=VIA}
+ ( /5000C677 1Pin_20mil_VIA  V90 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C677 $noname  V90 VIA {Lib=VIA}
+ ( /5000C676 1Pin_20mil_VIA  V89 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000C676 $noname  V89 VIA {Lib=VIA}
+ ( /5000A6F0 1Pin_20mil_VIA  V65 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6F0 $noname  V65 VIA {Lib=VIA}
+ ( /5000A6EF 1Pin_20mil_VIA  V66 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6EF $noname  V66 VIA {Lib=VIA}
+ ( /5000A6EE 1Pin_20mil_VIA  V68 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6EE $noname  V68 VIA {Lib=VIA}
+ ( /5000A6ED 1Pin_20mil_VIA  V67 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6ED $noname  V67 VIA {Lib=VIA}
+ ( /5000A6EC 1Pin_20mil_VIA  V71 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6EC $noname  V71 VIA {Lib=VIA}
+ ( /5000A6EB 1Pin_20mil_VIA  V72 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6EB $noname  V72 VIA {Lib=VIA}
+ ( /5000A6EA 1Pin_20mil_VIA  V70 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6EA $noname  V70 VIA {Lib=VIA}
+ ( /5000A6E9 1Pin_20mil_VIA  V69 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E9 $noname  V69 VIA {Lib=VIA}
+ ( /5000A6E8 1Pin_20mil_VIA  V77 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E8 $noname  V77 VIA {Lib=VIA}
+ ( /5000A6E7 1Pin_20mil_VIA  V78 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E7 $noname  V78 VIA {Lib=VIA}
+ ( /5000A6E6 1Pin_20mil_VIA  V80 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E6 $noname  V80 VIA {Lib=VIA}
+ ( /5000A6E5 1Pin_20mil_VIA  V79 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E5 $noname  V79 VIA {Lib=VIA}
+ ( /5000A6E4 1Pin_20mil_VIA  V75 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E4 $noname  V75 VIA {Lib=VIA}
+ ( /5000A6E3 1Pin_20mil_VIA  V76 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E3 $noname  V76 VIA {Lib=VIA}
+ ( /5000A6E2 1Pin_20mil_VIA  V74 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E2 $noname  V74 VIA {Lib=VIA}
+ ( /5000A6E1 1Pin_20mil_VIA  V73 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E1 $noname  V73 VIA {Lib=VIA}
+ ( /5000A6E0 1Pin_20mil_VIA  V33 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6E0 $noname  V33 VIA {Lib=VIA}
+ ( /5000A6DF 1Pin_20mil_VIA  V34 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DF $noname  V34 VIA {Lib=VIA}
+ ( /5000A6DE 1Pin_20mil_VIA  V36 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DE $noname  V36 VIA {Lib=VIA}
+ ( /5000A6DD 1Pin_20mil_VIA  V35 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DD $noname  V35 VIA {Lib=VIA}
+ ( /5000A6DC 1Pin_20mil_VIA  V39 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DC $noname  V39 VIA {Lib=VIA}
+ ( /5000A6DB 1Pin_20mil_VIA  V40 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DB $noname  V40 VIA {Lib=VIA}
+ ( /5000A6DA 1Pin_20mil_VIA  V38 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6DA $noname  V38 VIA {Lib=VIA}
+ ( /5000A6D9 1Pin_20mil_VIA  V37 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D9 $noname  V37 VIA {Lib=VIA}
+ ( /5000A6D8 1Pin_20mil_VIA  V45 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D8 $noname  V45 VIA {Lib=VIA}
+ ( /5000A6D7 1Pin_20mil_VIA  V46 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D7 $noname  V46 VIA {Lib=VIA}
+ ( /5000A6D6 1Pin_20mil_VIA  V48 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D6 $noname  V48 VIA {Lib=VIA}
+ ( /5000A6D5 1Pin_20mil_VIA  V47 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D5 $noname  V47 VIA {Lib=VIA}
+ ( /5000A6D4 1Pin_20mil_VIA  V43 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D4 $noname  V43 VIA {Lib=VIA}
+ ( /5000A6D3 1Pin_20mil_VIA  V44 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D3 $noname  V44 VIA {Lib=VIA}
+ ( /5000A6D2 1Pin_20mil_VIA  V42 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D2 $noname  V42 VIA {Lib=VIA}
+ ( /5000A6D1 1Pin_20mil_VIA  V41 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D1 $noname  V41 VIA {Lib=VIA}
+ ( /5000A6D0 1Pin_20mil_VIA  V57 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6D0 $noname  V57 VIA {Lib=VIA}
+ ( /5000A6CF 1Pin_20mil_VIA  V58 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CF $noname  V58 VIA {Lib=VIA}
+ ( /5000A6CE 1Pin_20mil_VIA  V60 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CE $noname  V60 VIA {Lib=VIA}
+ ( /5000A6CD 1Pin_20mil_VIA  V59 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CD $noname  V59 VIA {Lib=VIA}
+ ( /5000A6CC 1Pin_20mil_VIA  V63 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CC $noname  V63 VIA {Lib=VIA}
+ ( /5000A6CB 1Pin_20mil_VIA  V64 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CB $noname  V64 VIA {Lib=VIA}
+ ( /5000A6CA 1Pin_20mil_VIA  V62 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6CA $noname  V62 VIA {Lib=VIA}
+ ( /5000A6C9 1Pin_20mil_VIA  V61 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C9 $noname  V61 VIA {Lib=VIA}
+ ( /5000A6C8 1Pin_20mil_VIA  V53 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C8 $noname  V53 VIA {Lib=VIA}
+ ( /5000A6C7 1Pin_20mil_VIA  V54 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C7 $noname  V54 VIA {Lib=VIA}
+ ( /5000A6C6 1Pin_20mil_VIA  V56 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C6 $noname  V56 VIA {Lib=VIA}
+ ( /5000A6C5 1Pin_20mil_VIA  V55 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C5 $noname  V55 VIA {Lib=VIA}
+ ( /5000A6C4 1Pin_20mil_VIA  V51 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C4 $noname  V51 VIA {Lib=VIA}
+ ( /5000A6C3 1Pin_20mil_VIA  V52 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C3 $noname  V52 VIA {Lib=VIA}
+ ( /5000A6C2 1Pin_20mil_VIA  V50 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C2 $noname  V50 VIA {Lib=VIA}
+ ( /5000A6C1 1Pin_20mil_VIA  V49 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C1 $noname  V49 VIA {Lib=VIA}
+ ( /5000A6C0 1Pin_20mil_VIA  V17 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6C0 $noname  V17 VIA {Lib=VIA}
+ ( /5000A6BF 1Pin_20mil_VIA  V18 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BF $noname  V18 VIA {Lib=VIA}
+ ( /5000A6BE 1Pin_20mil_VIA  V20 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BE $noname  V20 VIA {Lib=VIA}
+ ( /5000A6BD 1Pin_20mil_VIA  V19 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BD $noname  V19 VIA {Lib=VIA}
+ ( /5000A6BC 1Pin_20mil_VIA  V23 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BC $noname  V23 VIA {Lib=VIA}
+ ( /5000A6BB 1Pin_20mil_VIA  V24 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BB $noname  V24 VIA {Lib=VIA}
+ ( /5000A6BA 1Pin_20mil_VIA  V22 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6BA $noname  V22 VIA {Lib=VIA}
+ ( /5000A6B9 1Pin_20mil_VIA  V21 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B9 $noname  V21 VIA {Lib=VIA}
+ ( /5000A6B8 1Pin_20mil_VIA  V29 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B8 $noname  V29 VIA {Lib=VIA}
+ ( /5000A6B7 1Pin_20mil_VIA  V30 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B7 $noname  V30 VIA {Lib=VIA}
+ ( /5000A6B6 1Pin_20mil_VIA  V32 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B6 $noname  V32 VIA {Lib=VIA}
+ ( /5000A6B5 1Pin_20mil_VIA  V31 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B5 $noname  V31 VIA {Lib=VIA}
+ ( /5000A6B4 1Pin_20mil_VIA  V27 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B4 $noname  V27 VIA {Lib=VIA}
+ ( /5000A6B3 1Pin_20mil_VIA  V28 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B3 $noname  V28 VIA {Lib=VIA}
+ ( /5000A6B2 1Pin_20mil_VIA  V26 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B2 $noname  V26 VIA {Lib=VIA}
+ ( /5000A6B1 1Pin_20mil_VIA  V25 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B1 $noname  V25 VIA {Lib=VIA}
+ ( /5000A6B0 1Pin_20mil_VIA  V9 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6B0 $noname  V9 VIA {Lib=VIA}
+ ( /5000A6AF 1Pin_20mil_VIA  V10 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AF $noname  V10 VIA {Lib=VIA}
+ ( /5000A6AE 1Pin_20mil_VIA  V12 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AE $noname  V12 VIA {Lib=VIA}
+ ( /5000A6AD 1Pin_20mil_VIA  V11 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AD $noname  V11 VIA {Lib=VIA}
+ ( /5000A6AC 1Pin_20mil_VIA  V15 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AC $noname  V15 VIA {Lib=VIA}
+ ( /5000A6AB 1Pin_20mil_VIA  V16 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AB $noname  V16 VIA {Lib=VIA}
+ ( /5000A6AA 1Pin_20mil_VIA  V14 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6AA $noname  V14 VIA {Lib=VIA}
+ ( /5000A6A9 1Pin_20mil_VIA  V13 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A9 $noname  V13 VIA {Lib=VIA}
+ ( /5000A6A8 1Pin_20mil_VIA  V5 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A8 $noname  V5 VIA {Lib=VIA}
+ ( /5000A6A7 1Pin_20mil_VIA  V6 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A7 $noname  V6 VIA {Lib=VIA}
+ ( /5000A6A6 1Pin_20mil_VIA  V8 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A6 $noname  V8 VIA {Lib=VIA}
+ ( /5000A6A5 1Pin_20mil_VIA  V7 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A5 $noname  V7 VIA {Lib=VIA}
+ ( /5000A6A3 1Pin_20mil_VIA  V3 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A3 $noname  V3 VIA {Lib=VIA}
+ ( /5000A6A2 1Pin_20mil_VIA  V4 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A2 $noname  V4 VIA {Lib=VIA}
+ ( /5000A6A0 1Pin_20mil_VIA  V2 VIA {Lib=VIA}
   (    1 GND )
  )
- ( /5000A6A0 $noname  V2 VIA {Lib=VIA}
+ ( /5000A69B 1Pin_20mil_VIA  V1 VIA {Lib=VIA}
   (    1 GND )
+ )
+ ( /5003FD45 SOT23-5  IC3 SC4503 {Lib=BOOST_DC-DC_SOT23-5}
+  (    1 N-000022 )
+  (    2 GND )
+  (    3 N-000016 )
+  (    4 VDD_RF )
+  (    5 VDD_RF )
  )
- ( /5000A69B $noname  V1 VIA {Lib=VIA}
+ ( /5003FCFB SOD123  D2 MBR120 {Lib=D_SCHOTTKY_SMALL}
+  (    1 +12V )
+  (    2 N-000022 )
+ )
+ ( /5003FCE9 0805  R9 49k9 {Lib=R_MINI}
   (    1 GND )
+  (    2 N-000016 )
+ )
+ ( /5003FCE6 0805  R8 432k {Lib=R_MINI}
+  (    1 N-000016 )
+  (    2 +12V )
+ )
+ ( /5003FCCE 1206  L14 4.7uH {Lib=L_MINI}
+  (    1 VDD_RF )
+  (    2 N-000022 )
+ )
+ ( /5003FCBB 0805  C25 15pF {Lib=C_MINI}
+  (    1 +12V )
+  (    2 N-000016 )
+ )
+ ( /5003FCBA 0805  C24 4.7uF {Lib=C_MINI}
+  (    1 VDD_RF )
+  (    2 GND )
+ )
+ ( /5003FCB9 0805  C26 4.7uF {Lib=C_MINI}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /5003C259 SOT89-3  IC2 AMP {Lib=AMP_RF_SOT-89}
+  (    1 /AMP1_IN )
+  (    2 GND )
+  (    3 /AMP1_OUT )
+ )
+ ( /5003BDF6 0805  R11 2k5 {Lib=R_MINI}
+  (    1 /D_Cathode )
+  (    2 +12V )
+ )
+ ( /5003BC5A TrimPOT_TH  R10 5k {Lib=TRIMPOT}
+  (    1 /D_Cathode )
+  (    2 +12V )
+  (    3 +12V )
+ )
+ ( /5003B8EB 0805  C29 0.1uF {Lib=C_MINI}
+  (    1 /AMP1_OUT )
+  (    2 /AMP2_IN )
+ )
+ ( /5003B6B9 1206  R12 1 {Lib=R_MINI}
+  (    1 N-000051 )
+  (    2 VDD_RF )
+ )
+ ( /5003B485 SMA_DO214A_Diode  D4 ZENER {Lib=D_ZENER}
+  (    1 /D_Cathode )
+  (    2 GND )
+ )
+ ( /500090A6 0805  C31 4.7uF {Lib=C_MINI}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /5024B6CA 0805  C27 0.1uF {Lib=C_MINI}
+  (    1 /D_Cathode )
+  (    2 /AMP1_IN )
+ )
+ ( /5024B6C9 0805  C28 1000pF {Lib=C_MINI}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /50007AE9 SMA_EndLaunch  P3 OUT {Lib=BNC}
+  (    1 /OUT )
+  (    2 GND )
+ )
+ ( /5024B6C3 0805  L15 100nH {Lib=L_MINI}
+  (    1 N-000051 )
+  (    2 /AMP1_OUT )
  )
 )
 *
 { Allowed footprints by component:
-$component IC3
+$component IC8
+ SOT23
+ SOT23-5
+ SOT23-6
+$endlist
+$component IC1
  SOT23
  SOT23-5
  SOT23-6
  SOT223
  SON8
 $endlist
-$component IC2
- SOT23
- SOT23-5
- SOT23-6
+$component D4
+ D?
+ SO*
+ SM*
+ SLP1006P2
 $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "GND" "GND"
- V58 1
- V50 1
- V52 1
- V51 1
- V55 1
- V90 1
- V54 1
- V53 1
- V61 1
- V62 1
- V64 1
- V63 1
- V59 1
- V60 1
- V49 1
- V57 1
- V41 1
- V42 1
- V56 1
- V1 1
- V2 1
- V4 1
- V3 1
- V7 1
- V8 1
- V6 1
- V5 1
- V13 1
- V166 1
- V168 1
- V167 1
- V163 1
- V164 1
- V162 1
- V161 1
- V14 1
- V24 1
- V23 1
- V19 1
- V20 1
- V18 1
- V17 1
- V44 1
- V89 1
- V43 1
- V47 1
- V48 1
- V46 1
- V45 1
- V37 1
- V38 1
- V40 1
- V39 1
- V35 1
- V36 1
- V34 1
- V29 1
- V16 1
- V15 1
- V22 1
- V12 1
- V10 1
- V9 1
- V25 1
- V26 1
- V28 1
- V27 1
- V31 1
- V32 1
- V30 1
- V21 1
- V11 1
- V68 1
- V66 1
- V65 1
- V92 1
- V82 1
- V91 1
- V95 1
- V96 1
- V94 1
- V93 1
- V85 1
- V86 1
- V88 1
- V83 1
- V84 1
- V67 1
- V81 1
- V87 1
- L10 2
- L12 2
+Net 1 "VDD_RF" "VDD_RF"
+ IC3 4
+ IC3 5
+ R12 2
+ L14 1
+ C24 1
+ JP1 1
+ R14 2
+Net 2 "" ""
+ R14 1
+ D5 2
+Net 3 "GND" "GND"
+ V146 1
+ U3 5
+ U3 4
+ U3 1
+ V122 1
  C18 2
- P3 2
- R10 1
- U4 1
- V158 1
- V160 1
- V159 1
+ L10 2
+ V131 1
+ V132 1
+ V130 1
+ V129 1
+ V121 1
+ L12 2
+ V124 1
+ V123 1
+ V127 1
+ V128 1
+ V126 1
+ V117 1
+ V118 1
+ V120 1
+ V119 1
+ C20 2
+ V115 1
+ P2 2
+ V332 1
+ U2 4
+ U1 4
+ L8 2
+ C16 2
+ C14 2
+ L6 2
+ C2 2
+ V138 1
+ V137 1
+ V133 1
+ V134 1
+ V136 1
+ C13 2
+ D3 1
+ C1 2
+ R2 1
+ V140 1
+ C3 2
  V155 1
  V156 1
  V154 1
  V153 1
- D2 2
- D2 1
- C14 2
- L6 2
- C16 2
- L8 2
- C7 2
- P1 2
- C4 2
- V165 1
- C11 2
- C20 2
- P2 2
- D1 2
- D1 1
- R4 1
- V71 1
- V73 1
- V74 1
- V76 1
- V75 1
- V79 1
- V80 1
- V78 1
- V77 1
- V69 1
- V70 1
- V72 1
- V33 1
- U3 1
- V149 1
- V150 1
- V152 1
- V151 1
- V147 1
- V157 1
- V145 1
- V146 1
- U4 3
- R8 1
- V148 1
- U4 4
- U4 5
- U4 7
- P4 2
- U3 4
- R2 1
- L5 1
- U3 5
-Net 2 "/RF" "RF"
- U3 3
- C11 1
- C10 2
- L4 1
-Net 3 "/RF_IN" "RF_IN"
- P1 1
- C4 1
- D1 3
- L3 2
- C5 1
-Net 4 "" ""
- L3 1
- C10 1
- L4 2
- C5 2
- C7 1
-Net 5 "" ""
- C17 1
- C16 1
- L7 1
- L8 1
-Net 6 "/IF" "IF"
- C15 1
- C14 1
- U3 2
- L6 1
-Net 7 "+5V" "+5V"
- C2 1
- X1 1
- C3 1
- X1 8
- R1 1
- R1 2
- L2 1
-Net 8 "GNDPWR" "GNDPWR"
- U1 5
- L1 2
- U2 5
-Net 9 "/VBUS_CONN" "VBUS_CONN"
- U2 1
- F1 2
- V136 1
- U1 1
-Net 10 "/USB_DN" "USB_DN"
- U1 2
- U2 2
-Net 11 "/USB_DP" "USB_DP"
- U1 3
- U2 3
-Net 12 "" ""
- L7 2
- C15 2
-Net 13 "" ""
- C18 1
- C19 1
- L10 1
- L9 1
-Net 14 "" ""
- L9 2
- C17 2
-Net 15 "/LO" "LO"
- R4 2
- R3 1
- U3 6
-Net 16 "" ""
- C19 2
- L11 2
-Net 17 "" ""
- L11 1
- R8 2
- C20 1
- R9 2
- L12 1
-Net 18 "/IF_OUT" "IF_OUT"
- R10 2
- P2 1
- D2 3
- R9 1
-Net 19 "/LED_A" "LED_A"
- R7 1
- D3 2
-Net 20 "/LO_BUF" "LO_BUF"
- R2 2
- R3 2
- IC2 4
-Net 22 "VBUS" "VBUS"
- R7 2
- IC3 3
- F1 1
- IC3 1
- C1 1
- L2 2
- C8 1
- C13 1
-Net 23 "/TPS_NR" "TPS_NR"
- C12 1
- R5 1
- IC3 4
- R6 2
-Net 24 "/CLK" "CLK"
- IC2 2
- X1 5
-Net 25 "+2.5V" "+2.5V"
- IC2 5
- IC3 5
- C9 1
- C6 1
- R5 2
-Net 26 "DGND" "DGND"
- V144 1
- V142 1
- V141 1
- IC2 3
- U2 4
- IC2 1
- V126 1
- R6 1
  C12 2
- C8 2
- U1 4
- IC3 2
  V116 1
  V114 1
  V113 1
  V105 1
  V106 1
- V115 1
  V108 1
  V107 1
- V111 1
- V112 1
- V110 1
- V109 1
+ V125 1
+ C8 2
+ R6 1
+ IC1 2
+ V135 1
+ V141 1
+ V142 1
+ V144 1
+ V143 1
+ V139 1
+ V151 1
+ V149 1
+ V150 1
+ V152 1
+ V145 1
+ V147 1
+ V148 1
+ C46 2
+ V366 1
+ V368 1
+ V367 1
+ V363 1
+ V364 1
+ V362 1
+ V361 1
+ V372 1
+ V373 1
+ V371 1
+ V370 1
+ V347 1
+ IC8 3
+ V365 1
+ V369 1
+ V345 1
+ V346 1
+ V348 1
+ V351 1
+ V352 1
+ V350 1
+ V349 1
+ V360 1
+ V354 1
+ V356 1
+ V355 1
+ V359 1
+ V358 1
+ V357 1
+ V333 1
+ V334 1
+ V336 1
+ V335 1
+ V331 1
+ V353 1
+ V339 1
+ V330 1
+ V329 1
+ V337 1
+ V338 1
+ V340 1
+ V264 1
+ V343 1
+ V342 1
+ V341 1
+ V325 1
+ V326 1
+ V328 1
+ V327 1
+ V323 1
+ V260 1
+ V319 1
+ V320 1
+ V318 1
+ V317 1
+ V261 1
+ V262 1
+ V290 1
+ V263 1
+ V259 1
+ V324 1
+ V258 1
+ V257 1
+ V265 1
+ V266 1
+ V268 1
+ V292 1
+ V311 1
+ V312 1
+ V310 1
+ V309 1
+ V293 1
+ V294 1
+ V296 1
+ V295 1
+ V291 1
+ V307 1
+ V306 1
+ V271 1
+ V272 1
+ V270 1
+ V269 1
+ V285 1
+ V286 1
+ V288 1
+ V287 1
+ V298 1
+ V322 1
+ V321 1
+ V344 1
+ V304 1
+ V303 1
+ V299 1
+ V300 1
+ V315 1
+ V297 1
+ V305 1
+ V267 1
+ V308 1
+ V289 1
+ V159 1
+ C40 2
+ C39 2
+ C44 2
+ C43 2
+ JP2 1
+ JP2 4
+ V244 1
+ V242 1
+ V241 1
+ V34 1
+ V77 1
+ V78 1
+ V80 1
+ V45 1
+ V75 1
+ V76 1
+ V74 1
+ V73 1
+ V33 1
+ V36 1
+ V35 1
+ V39 1
+ V40 1
+ V38 1
+ V37 1
+ V79 1
+ V229 1
+ V243 1
+ V225 1
+ V226 1
+ V228 1
+ V227 1
+ V231 1
+ V232 1
+ V230 1
+ C36 2
+ V245 1
+ V246 1
+ V248 1
+ V247 1
+ V313 1
+ V314 1
+ V316 1
+ IC5 2
+ V233 1
+ V234 1
+ V236 1
+ V235 1
+ V239 1
+ V240 1
+ V237 1
+ V283 1
+ V238 1
+ C33 2
+ V204 1
+ V223 1
+ V224 1
+ V222 1
+ V221 1
+ V205 1
+ V206 1
+ V208 1
+ V207 1
+ V203 1
+ V219 1
+ V202 1
+ V220 1
+ V216 1
+ IC6 2
+ V213 1
+ V214 1
+ IC7 2
+ V212 1
+ V215 1
+ V211 1
+ V180 1
+ V210 1
+ V209 1
+ V217 1
+ V218 1
+ V194 1
+ D5 1
+ V178 1
+ V193 1
+ V196 1
+ V195 1
+ V199 1
+ V200 1
+ V198 1
+ V197 1
+ V177 1
+ V187 1
+ V179 1
+ V183 1
+ V184 1
+ V182 1
+ V181 1
+ V189 1
+ V190 1
+ V192 1
+ V191 1
+ V201 1
+ V186 1
+ V185 1
+ C32 2
+ C34 2
+ V188 1
+ L13 2
+ V169 1
+ V170 1
+ V172 1
+ V171 1
+ V175 1
+ V176 1
+ V174 1
+ V173 1
+ C23 2
+ C21 2
+ L1 2
+ IC4 2
+ V276 1
+ V284 1
+ V282 1
+ V281 1
+ V302 1
+ V273 1
+ V274 1
+ V275 1
+ V279 1
+ V280 1
+ V278 1
+ V277 1
+ V301 1
+ V157 1
+ V158 1
+ V160 1
+ V166 1
+ V161 1
+ C11 2
+ V165 1
+ V168 1
+ V167 1
+ V163 1
+ V164 1
+ V162 1
+ P3 2
+ V89 1
+ V90 1
+ V92 1
+ V91 1
+ V95 1
+ V96 1
+ IC2 2
+ C26 2
+ C24 2
+ C28 2
+ C31 2
+ D4 2
+ V28 1
+ V6 1
+ V5 1
+ V13 1
+ V14 1
+ V82 1
+ V81 1
+ V94 1
+ V97 1
+ V98 1
+ V100 1
+ V99 1
  V103 1
  V104 1
- V99 1
- V100 1
- V98 1
- V97 1
  V102 1
- V125 1
- L1 1
- V117 1
- V118 1
- V120 1
- V119 1
- V132 1
- V139 1
- X1 4
- C3 2
- V140 1
- C2 2
- V138 1
  V101 1
- V137 1
+ V109 1
+ V110 1
+ V112 1
+ V16 1
+ V18 1
+ V3 1
+ V7 1
+ V4 1
+ R4 1
+ X1 4
  C6 2
+ P1 2
+ C4 2
  C9 2
- V128 1
- V127 1
- D3 1
- C13 2
- V121 1
- V122 1
- V124 1
- V123 1
- V133 1
- V134 1
- V135 1
- V131 1
- V143 1
- V130 1
- V129 1
+ D1 2
+ D1 1
+ V24 1
+ V15 1
+ V11 1
+ V12 1
+ V10 1
+ V9 1
+ V25 1
+ V26 1
+ V8 1
+ V27 1
+ V31 1
+ V32 1
+ V30 1
+ V29 1
+ V21 1
+ V22 1
+ V69 1
+ V23 1
+ V19 1
+ V20 1
+ R9 1
+ IC3 2
+ V111 1
+ V1 1
+ V2 1
+ V17 1
+ V53 1
+ V61 1
+ V58 1
+ V44 1
+ V83 1
+ V87 1
+ V60 1
+ V49 1
+ V93 1
+ V59 1
+ V41 1
+ V42 1
+ V50 1
+ V52 1
+ V51 1
+ V55 1
+ V56 1
+ V54 1
+ V62 1
+ V85 1
+ V86 1
+ V88 1
+ V64 1
+ V63 1
+ V70 1
+ V72 1
+ V48 1
+ V71 1
+ V67 1
+ V68 1
+ V46 1
+ V47 1
+ V84 1
+ V66 1
+ V65 1
+ V57 1
+ V43 1
+Net 4 "" ""
+ IC6 5
+ C30 2
+Net 5 "" ""
+ IC6 1
+ C37 1
+Net 6 "" ""
+ C38 1
+ IC6 3
+Net 7 "" ""
+ C42 2
+ IC7 3
+Net 8 "/RF" "RF"
+ L4 1
+ C10 2
+ C11 1
+ U3 3
+Net 9 "VBUS" "VBUS"
+ F1 1
+ JP1 2
+ R7 2
+ IC1 3
+ C1 1
+ IC1 1
+ C8 1
+Net 10 "/LO" "LO"
+ U3 6
+ C23 1
+ L13 1
+ L5 1
+Net 11 "" ""
  L5 2
- C1 2
-Net 27 "" ""
- P4 1
- U4 6
-Net 28 "" ""
+ C22 2
+Net 12 "" ""
+ C41 2
+ IC7 1
+Net 13 "" ""
+ JP2 2
+ IC5 1
+Net 14 "OSC_EN" "OSC_EN"
+ V250 1
+ V249 1
+ IC8 1
+ X1 1
+ JP3 2
+Net 15 "/RF_Passthrough" "RF_Passthrough"
+ C41 1
+ C38 2
+Net 16 "" ""
+ R8 1
+ R9 2
+ C25 2
+ IC3 3
+Net 17 "+12V" "+12V"
+ D2 1
+ R8 2
+ C25 1
+ C26 1
+ R10 3
+ R10 2
+ R11 2
+Net 18 "/AMP1_OUT" "AMP1_OUT"
+ L15 2
+ IC2 3
+ C29 1
+Net 19 "/OUT" "OUT"
+ C35 2
  P3 1
- U4 2
+Net 20 "/AMP1_IN" "AMP1_IN"
+ IC2 1
+ C27 2
+Net 21 "/AMP2_IN" "AMP2_IN"
+ C29 2
+ IC4 1
+Net 22 "" ""
+ D2 2
+ IC3 1
+ L14 2
+Net 23 "" ""
+ R3 1
+ R4 2
+ C22 1
+ L1 1
+ C21 1
+Net 24 "+3.3V" "+3.3V"
+ C13 1
+ C2 1
+ C3 1
+ R5 2
+ IC5 5
+ C46 1
+ C39 1
+ IC1 5
+ X1 8
+ V255 1
+ IC8 5
+ V256 1
+ V253 1
+ V254 1
+ JP2 3
+ C40 1
+Net 25 "" ""
+ C4 1
+ L2 2
+ C5 1
+ C37 2
+Net 26 "/RF_IN" "RF_IN"
+ C30 1
+ P1 1
+ D1 3
+Net 27 "" ""
+ R3 2
+ IC8 4
+ R2 2
+Net 28 "/LED_A" "LED_A"
+ D3 2
+ R7 1
+Net 29 "" ""
+ C17 1
+ C16 1
+ L8 1
+ L7 1
+Net 30 "/TPS_NR" "TPS_NR"
+ IC1 4
+ R6 2
+ R5 1
+ C12 1
+Net 32 "" ""
+ C19 2
+ L11 2
+Net 33 "" ""
+ C17 2
+ L9 2
+Net 34 "" ""
+ L9 1
+ L10 1
+ C19 1
+ C18 1
+Net 35 "" ""
+ L7 2
+ C15 2
+Net 36 "/IF" "IF"
+ U3 2
+ C15 1
+ L6 1
+ C14 1
+Net 37 "GNDPWR" "GNDPWR"
+ U2 5
+ U1 5
+Net 38 "/USB_DP" "USB_DP"
+ U1 3
+ U2 3
+Net 39 "/USB_DN" "USB_DN"
+ U1 2
+ U2 2
+Net 40 "/VBUS_CONN" "VBUS_CONN"
+ U2 1
+ F1 2
+ U1 1
+Net 41 "/IF_OUT" "IF_OUT"
+ C45 2
+ P2 1
+Net 42 "" ""
+ L12 1
+ L11 1
+ C42 1
+ C20 1
+Net 43 "RFS1" "RFS1"
+ IC6 4
+ IC7 6
+ IC5 6
+ C33 1
+ R13 1
+ JP3 3
+ IC5 3
+ R13 2
+ C43 1
+Net 44 "" ""
+ C45 1
+ IC7 5
+Net 45 "/AMP2_OUT" "AMP2_OUT"
+ L16 2
+ C35 1
+ IC4 3
+Net 46 "/D_Cathode" "D_Cathode"
+ R11 1
+ D4 1
+ C27 1
+ R10 1
+Net 47 "/CLK" "CLK"
+ X1 5
+ IC8 2
+Net 48 "" ""
+ C10 1
+ C7 2
+ L4 2
+ C9 1
+ L3 1
+Net 49 "" ""
+ C7 1
+ L2 1
+ L3 2
+ C5 2
+ C6 1
+Net 50 "RFS2" "RFS2"
+ R15 2
+ R15 1
+ C44 1
+ C36 1
+ V251 1
+ JP3 1
+ IC5 4
+ V252 1
+ IC6 6
+ IC7 4
+Net 51 "" ""
+ C34 1
+ C28 1
+ C31 1
+ L16 1
+ L15 1
+ C32 1
+ R12 1
 }
 #End
