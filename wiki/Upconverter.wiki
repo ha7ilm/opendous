@@ -2,7 +2,7 @@
 
 PAGE UNDER CONSTRUCTION
 
-Converts signals in the 0.1MHz to 60MHz range to signals in the 100.1MHz to 160MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
+Converts signals in the 1MHz to 64MHz range to signals in the 101MHz to 164MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
@@ -10,13 +10,13 @@ Now [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSD
 
 = Design =
 
-The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a passthrough mode.  Power is sourced from a standard USB-microB connector.
+The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a Passthrough mode.  Power is sourced from a standard USB-microB connector.  The switch controls the signal path, Passthrough or Upconvert, and mirrors the board layout.  Switch towards the SMA connector is Upconvert, towards PCB edge for Passthrough.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with +7dBm LO Power Level to reduce noise.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low +7dBm LO Power Level to reduce noise.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
@@ -44,14 +44,22 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == IF Output Band-pass Filter ==
 
+The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http://en.wikipedia.org/wiki/Butterworth_filter Butterworth] filter used for its lack of ripple in the passband.  It is a 7th-order topology to ensure a sharp transition between passband and stopband.  A band-pass filter was chosen to get the upconversion products of the mixer and to reduce LO harmonic products at the IF output.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
+The filter was designed to have a passpand between 100MHz and 164MHz (the upconverted 1MHz to 64MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
 
+== Layout ==
+
+To reduce costs and allow for cheap prototyping, the board was designed to 2-layer 8-8-20 (8mil Trace, 8mil Clearance, and 20mil minimum drill size) specifications.  A [http://www.microwaves101.com/encyclopedia/coplanarwaveguide.cfm Coplanar Waveguide with Ground] 40mil-Trace 8mil-Clearance structure provides the necessary 50-Ohm [http://en.wikipedia.org/wiki/Characteristic_impedance characteristic impedance] over the intended frequency range.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
 
+One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector.  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow disabling the oscillator when Passthrough mode is selected.  Additional space that was leftover is used for a basic Noise Source.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
 
@@ -59,3 +67,5 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 = SDR Software Tuning Instructions =
 
 Tune to 100.01MHz and see where the nearest peak is (other than 100MHz).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
+
+= Optional Noise Source =
