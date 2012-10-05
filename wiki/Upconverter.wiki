@@ -59,13 +59,19 @@ To reduce costs and allow for cheap prototyping, the board was designed to 2-lay
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
 
-One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector.  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow disabling the oscillator when Passthrough mode is selected.  Additional space that was leftover is used for a simple [http://code.google.com/p/opendous/wiki/Upconverter#Optional_Noise_Source Noise Source].
+One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector to allow powering the board using anything compatible with standard [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mobile_device_charger_standards mobile device chargers].  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow disabling the oscillator when Passthrough mode is selected.  Additional space that was leftover is used for a simple [http://code.google.com/p/opendous/wiki/Upconverter#Optional_Noise_Source Noise Source].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
 
 
 = SDR Software Tuning Instructions =
 
-Tune to 100.01MHz and see where the nearest peak is (other than 100MHz).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
+Tune your SDR software to 100.01MHz and see where the nearest peak is (other than 100MHz where you will see the DC spike).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
 
 = Optional Noise Source =
+
+The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] noise circuit.  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 5V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
+
+When using the Noise Source, install its power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Schematic-Small.jpg
