@@ -1,0 +1,33 @@
+Bill Of Materials for the Upconverter-100MHz-13LO-SMS3926-CX2147 Project
+
+INCOMPLETE
+
+QTY, Manufacturer Part#          , Cost($USD each) - References - Description
+  1, SMS3926-023LF               , 1.22 - IC1 - DIODE SCHOTTKY MIXER 2V +13dBm-LO SOT-143
+  2, CX2147NL                    , 2.35 - T1 T2 - TRANSFORMR BALUN RF 5-200MHZ SMD
+  1, SN74LVC1G125DBVR            , 0.08 - IC2 - IC BUS BUFF TRI-ST N-INV SOT235
+  1, TPS73201DBVT                , 1.75 - IC3 - IC LDO REG 250MA ADJ-V SOT23-5
+  1, MF-PSMF075X-2               , 0.36 - F1 - FUSE PTC RESETTABLE Ihold=0.75A 6V SMD 0805
+
+  3, HZ0805E601R-10              , 0.05 - L1 L2 L5 - FERRITE 500MA 600-OHM 300mOhm-DCR SMD 0805
+
+  1, APT2012SGC                  , 0.13 - D3 - LED 2X1.2MM 568NM GN WTR CLR SMD 0805
+  1, RMCF0805JT1K00              , 0.03 - R7 - RES 1K OHM 1/8W 5% 0805 SMD
+  1, RC0805FR-0736K5L            , 0.10 - R6 - RES 36.5K OHM 1/8W 1% 0805 SMD
+  1, RC0805FR-0739K2L            , 0.10 - R5 - RES 39.2K OHM 1/8W 1% 0805 SMD
+  1, 629105136821                , 1.78 - U1 - CONN RCPT USB MICRO B R/A SMT with Mounting Posts
+  1, 61729-1011BLF               , 1.16 - U2 - USB RCPT B-TYPE TH HORIZONTAL RA FULL BACK
+  1, CPPC4-HT0RP                 , 8.14 - X1 - OSC 5.0V PROG CMOS PWRDN 25PPM
+----------------------------Total=
+
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey
+	- Components are chosen for operation over the Industrial Temperature Range (-40C to 85C)
+	- R1 is a copper trace short, D2 need not be populated
+	- Limiter Diode D1 can instead be ASML-5822-BLKG with OP1dB=+3dBm
+	- Instead of the USB-microB connector, there is a footprint for a USB-A-Plug
+	  connector on the underside:  0480371000 , 1.47 - U2 - CONN PLUG USB 4POS RT ANG SMD
+	- Pi Filter with R1=53.6, R2=115 ==> 8dB, R1=80.6, R2=88.7 ==> 11dB, R1=120, R2=75 ==> 14dB
+	- PTC Fuse MF-PSMF075X-2 can be replaced with 0ZCE0035FF2G or a Ferrite Bead
+	- For higher LO power, consider the SMS3940-029LF
+

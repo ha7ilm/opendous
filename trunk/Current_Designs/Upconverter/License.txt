@@ -11,6 +11,8 @@ Upconverter-100MHz-ADE.cmp
 Upconverter-100MHz-ADE.net
 Upconverter-100MHz-ADE.stf
 Upconverter-100MHz-ADE-cache.lib
+Upconverter-100MHz-ADE_Assembly_Instructions.svg
+Upconverter-100MHz-ADE_BillOfMaterials.txt
 Upconverter_Diagram.svg
 Upconverter_Bandpass_Filter.dpl
 Upconverter_Bandpass_Filter.sch
@@ -18,11 +20,19 @@ Upconverter_LO_Filter.sch
 Upconverter_LO_Filter.dpl
 Upconverter_Lowpass_Filter.dpl
 Upconverter_Lowpass_Filter.sch
-Upconverter-100MHz-ADE_BillOfMaterials.txt
+Upconverter-100MHz-13LO-SMS3926-CX2147.pro
+Upconverter-100MHz-13LO-SMS3926-CX2147.sch
+Upconverter-100MHz-13LO-SMS3926-CX2147.brd
+Upconverter-100MHz-13LO-SMS3926-CX2147.cmp
+Upconverter-100MHz-13LO-SMS3926-CX2147.net
+Upconverter-100MHz-13LO-SMS3926-CX2147-cache.lib
+Upconverter-100MHz-13LO-SMS3926-CX2147_Assembly_Instructions.svg
+Upconverter-100MHz-13LO-SMS3926-CX2147_BillOfMaterials.txt
 
 
 
-All other files such as the pictures associated with this Upconverter
-project are distributed under the Creative Commons Attribution License:
+All other files such as the pictures and testing data associated
+with this Upconverter project are distributed under the
+Creative Commons Attribution License:
 http://creativecommons.org/licenses/by/3.0/
 
