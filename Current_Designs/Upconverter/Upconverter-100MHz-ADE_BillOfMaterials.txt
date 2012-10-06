@@ -1,7 +1,7 @@
 Bill Of Materials for the Upconverter-100MHz-ADE Project
 
 QTY, Manufacturer Part#          , Cost($USD each) - References - Description
-  1, ADE-1+                      , 2.99 - U3 - Frequency Mixer 0.5-500MHz +7dBm-LO [from MiniCircuits.com]
+  1, ADE-1+                      , 2.49 - U3 - Frequency Mixer 0.5-500MHz +7dBm-LO [from MiniCircuits.com]
   1, TPS79333DBVR                , 0.86 - IC1 - IC REG LDO 3.3V .2A SOT23-5
   1, SN74LVC2GU04DBVR            , 0.64 - IC5 - IC DUAL INVERTER GATE SOT-23-6
   2, AS169-73LF                  , 0.62 - IC6 IC7 - IC SW SPDT 300K-2.5GHZ SOT23-6
@@ -41,7 +41,7 @@ QTY, Manufacturer Part#          , Cost($USD each) - References - Description
   1, 629105136821                , 1.78 - U1 - CONN RCPT USB MICRO B R/A SMT with Mounting Posts
   1, CPPC4-LT5RT                 , 8.14 - X1 - OSC 3.3V PROG CMOS TRI ST 25PPM 100MHz
   1, 1411GU                      , 4.86 - OPTIONAL - BOX ALUM 4X2.3X1.6" UNPTD
-------------------------Sub-Total=40.18
+------------------------Sub-Total=39.68
 
 
 ---- Optional Noise Source -----------------------------
@@ -85,6 +85,6 @@ Notes:	- Component costs are based on minimum quantity orders from DigiKey or el
 	- Noise Source Zener Diode can be substituted with: 1SMA5922BT3G, PTZTE256.8B, BZG05C6V2TR or
 	  any SMA/DO-214 Zener diode with a voltage greater than 6V so that Avalanche Noise dominates
 	- Noise Source Amplifiers IC2 and IC4 can be substituted with: MMG3007NT1 or SKY65017-70LF or similar
-	- Noise Source SC4503 in SOT23-5 can be substituted with: LM2733XMF, MIC2295YD5, MIC2288YD5, LT1930ES5
+	- Noise Source IC3 (SC4503) is footprint-compatible with: LM2733XMF, MIC2295YD5, MIC2288YD5, LT1930ES5
 	- Noise Source resistor R11 has an overlapping footprint for a EVM-AASA00B14 potentiometer
 

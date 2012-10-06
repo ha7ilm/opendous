@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/4/2012 9:52:59 PM
+EESchema Schematic File Version 2  date 10/5/2012 9:45:18 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Upconverter-100MHz-ADE"
-Date "5 oct 2012"
+Date "6 oct 2012"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
@@ -44,6 +44,8 @@ Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
 Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
 Comment4 "For more information visit www.opendous.org/Upconverter"
 $EndDescr
+Text Notes 8350 1000 0    80   ~ 0
+Attenuator
 Wire Wire Line
 	5850 900  5950 900 
 Wire Wire Line
@@ -4038,12 +4040,8 @@ F 2 "1Pin_20mil_VIA" H 7900 8400 60  0001 C CNN
 	1    7900 8100
 	0    -1   -1   0   
 $EndComp
-Text Notes 9550 750  0    80   ~ 0
+Text Notes 9550 1000 0    80   ~ 0
 Bessel Bandpass Filter
-Text Notes 9550 850  0    50   ~ 0
-Measured loss of 4.5dB at 100MHz
-Text Notes 8150 700  0    50   ~ 0
-Buffer output is\n3.3Vp-p = 14.35dBm\nAfter Attenuator and Filter\nthe LO Level is about 7dBm\naccounting for component variation\n14.35dBm-2-4.5=7.85dBm
 Text Label 5100 3050 2    40   ~ 0
 RF
 $Comp
