@@ -46,6 +46,8 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice clearly deviate here but the losses are acceptable for the LO signal.
 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results.jpg
+
 == IF Output Band-pass Filter ==
 
 The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http://en.wikipedia.org/wiki/Butterworth_filter Butterworth] filter used for its lack of ripple in the passband.  It is a 7th-order topology to ensure a sharp transition between passband and stopband.  A band-pass filter was chosen to get the upconversion products of the mixer and to reduce LO harmonic products at the IF output.
