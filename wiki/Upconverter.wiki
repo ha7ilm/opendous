@@ -2,7 +2,7 @@
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
 
-Converts signals in the 1MHz to 50MHz range to signals in the 101MHz to 150MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
+Converts signals in the 0.1MHz to 50MHz range to signals in the 100.1MHz to 150MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
@@ -52,7 +52,7 @@ The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http:/
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
-The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 1MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
+The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.1MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
