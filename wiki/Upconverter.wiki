@@ -1,8 +1,8 @@
-#summary MF/HF to 100MHz Upconverter
+#summary MF/HF 100MHz Upconverter
 
-PAGE UNDER CONSTRUCTION
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
 
-Converts signals in the 1MHz to 64MHz range to signals in the 101MHz to 164MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
+Converts signals in the 1MHz to 50MHz range to signals in the 101MHz to 150MHz range.  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
@@ -16,7 +16,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low +7dBm LO Power Level to reduce noise.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
@@ -26,10 +26,13 @@ The input [http://en.wikipedia.org/wiki/Low-pass_filter Low-pass filter] is an [
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Schematic.jpg
 
-The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap SDR dongles (64MHz).
+The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap SDR dongles.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Simulation.jpg
 
+The input switch and filter together manage to keep passband ripple below 1.5dB.  This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 120MHz.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Testing_Results.jpg
 
 == LO Band-pass Filter ==
 
@@ -37,10 +40,11 @@ Most oscillators show significant bleed of the internal frequency used in their 
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
 
-The attenuator and filter are used to reduce the LO level to the required +7dBm.
+The attenuator and filter are used to reduce the LO level to an optimal value.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice clearly deviate here but the losses are acceptable for the LO signal.
 
 == IF Output Band-pass Filter ==
 
@@ -48,10 +52,19 @@ The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http:/
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
-The filter was designed to have a passpand between 100MHz and 164MHz (the upconverted 1MHz to 64MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
+The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 1MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 70MHz to 200MHz.  
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results.jpg
+
+== Passthrough Mode ==
+
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 1300MHz.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results.jpg
 
 == Layout ==
 
@@ -66,12 +79,12 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = SDR Software Tuning Instructions =
 
-Tune your SDR software to 100.01MHz and see where the nearest peak is (other than 100.01MHz where you will see the DC spike).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
+Tune your SDR software to 100.04MHz and see where the nearest peak is (other than 100.04MHz where you will see the DC spike).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
 
 = Optional Noise Source =
 
 The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 5V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
 
-When using the Noise Source, install its power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
+When using the Noise Source, place the Upconverter into Passthrough Mode (switch away from SMA connector) and install the `Noise_Source_EN` power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Schematic-Small.jpg
