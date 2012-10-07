@@ -1,12 +1,16 @@
-#summary MF/HF 100MHz Upconverter
+#summary MF/HF 100MHz Upconverter for Receivers
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
 
-Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.1MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
+PAGE UNDER CONSTRUCTION
+
+Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.3MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#] or the [http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
 Now [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 available] from [http://www.ebay.com/sch/nooelec/m.html NooElec]!
+
+Questions/comments can be placed through the [http://groups.google.com/group/opendous Opendous Google Group].
 
 = Design =
 
@@ -16,7 +20,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
@@ -54,7 +58,7 @@ The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http:/
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
-The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.1MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
+The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.3MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
@@ -64,7 +68,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Passthrough Mode ==
 
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 1300MHz.  The [http://www.skyworksinc.com/Product.aspx?ProductID=39 AS169-73LF] RF switches and PCB trace have losses of about 1dB up to around 1GHz.
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.3MHz to 1300MHz.  The [http://www.skyworksinc.com/Product.aspx?ProductID=39 AS169-73LF] RF switches and PCB trace have losses of about 1dB up to around 1GHz.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results.jpg
 
@@ -85,7 +89,7 @@ Tune your SDR software to 100.04MHz and see where the nearest peak is (other tha
 
 = Optional Noise Source =
 
-The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 5V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
+The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 6V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
 
 When using the Noise Source, place the Upconverter into Passthrough Mode (switch away from SMA connector) and install the `Noise_Source_EN` power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
 
