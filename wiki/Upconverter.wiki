@@ -85,7 +85,9 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = SDR Software Tuning Instructions =
 
-Tune your SDR software to 100.04MHz and see where the nearest peak is (other than 100.04MHz where you will see the DC spike).  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
+Tune your SDR software to 100.06MHz, select the Lower Sideband (LSB) and see where the nearest peak is (other than 100.06MHz where you will see the DC spike) in the FFT display.  This is the ideal base tuning frequency for your combination of Upconverter and Receiver.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Configuring_SDR_Software_Offset_Frequency.jpg
 
 = Optional Noise Source =
 
