@@ -96,3 +96,9 @@ The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Av
 When using the Noise Source, place the Upconverter into Passthrough Mode (switch away from SMA connector) and install the `Noise_Source_EN` power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Schematic-Small.jpg
+
+= Enclosure =
+
+INSTRUCTIONS WILL BE POSTED SOON
+
+The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm Hammond 1411GU Box].  The box needs holes drilled for the Upconverter.  [http://www.digikey.com/product-detail/en/1411GU/HM609-ND DigiKey], [http://us.mouser.com/Search/Refine.aspx?Keyword=1411G+box+hammond Mouser], [http://uk.farnell.com/hammond/1411gu/box-aluminium-102x56x56mm/dp/3536853 Farnell], and [http://www.eciaauthorized.com/search?pn=1411GU other suppliers].
