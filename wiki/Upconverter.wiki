@@ -101,4 +101,4 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 INSTRUCTIONS WILL BE POSTED SOON
 
-The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm Hammond 1411GU Box].  The box needs holes drilled for the Upconverter.  [http://www.digikey.com/product-detail/en/1411GU/HM609-ND DigiKey], [http://us.mouser.com/Search/Refine.aspx?Keyword=1411G+box+hammond Mouser], [http://uk.farnell.com/hammond/1411gu/box-aluminium-102x56x56mm/dp/3536853 Farnell], and [http://www.eciaauthorized.com/search?pn=1411GU other suppliers].
+The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm Hammond 1411GU Box].  The box needs holes drilled for the Upconverter.  It is available from [http://www.digikey.com/product-detail/en/1411GU/HM609-ND DigiKey], [http://us.mouser.com/Search/Refine.aspx?Keyword=1411G+box+hammond Mouser], [http://uk.farnell.com/hammond/1411gu/box-aluminium-102x56x56mm/dp/3536853 Farnell], and [http://www.eciaauthorized.com/search?pn=1411GU other suppliers].
