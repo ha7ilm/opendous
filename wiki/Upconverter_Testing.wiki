@@ -2,7 +2,7 @@
 
 = Prototypes =
 
-The project went through a couple prototype phases:
+The [Upconverter] project went through a couple prototype phases:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Prototype1-Small.jpg
 
@@ -13,39 +13,30 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = PCB Testing =
 
+The standard 2-layer [http://en.wikipedia.org/wiki/FR-4 FR4] 1oz. copper PCB from [http://www.myropcb.com/ MyRoPCB] was tested with different SMA connectors as well as the production board and a SMA Cable of similar length.  All of these are plots of uncompensated raw data.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing_Hardware.jpg
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062-VNWA_Data.s2p
-	
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062-VNWA_Data.s2p data] plot is of the PCB and [http://www.digikey.com/product-detail/en/CONSMA003.062/CONSMA003.062-ND CONSMA003.062] SMA connectors:
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors-VNWA_Data.s2p
-	
+
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors-VNWA_Data.s2p data] plot is of the PCB and the production SMA connectors:
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable-VNWA_Data.s2p
-	
+
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable-VNWA_Data.s2p data] plot is of a [http://en.wikipedia.org/wiki/Coaxial_cable#Standards RG-316] coaxial SMA extension cable of similar length.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable.jpg
 
-= LO Filter Testing =
+The following [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough-VNWA_Data.s2p data] plot is of the Upconverter in Passthrough mode:
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_with_No_L13-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_with_No_L13.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13.jpg
-	
-	
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough.jpg
+
+The following plot uses the same [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough-VNWA_Data.s2p data as above] but has been corrected for the length delay of the PCB trace.  Using 165ps/inch=6.5ps/mm as the signal propagation time through copper on FR4 and a 103mm value for trace+connector length.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough_with_Delay_Corrections.jpg
+
 = Conversion Losses =
 
 The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]):
@@ -53,66 +44,82 @@ The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wi
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
 
 The following is the spectrum of the 24MHz oscillator in Passthrough Mode on the Upconverter:
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Passthrough.jpg
-	
+
 The following is the spectrum of the 24MHz oscillator in Upconvert Mode on the Upconverter.  The filters are doing their job and removing the input signal.
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_in_Upconvert_Mode.jpg
 
 The following is the spectrum of the 24MHz oscillator Upconverted to 124MHz:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
-	
 
 
-	
+= Filter Prototyping and Testing =	
 
-	
-
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough_with_Delay_Corrections.jpg
-	
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Production_Filter_Testing_Setup.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter.jpg
-	
+
+
+== Lowpass Filter ==
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Lowpass_Filter-VNWA_Data.s2p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Lowpass_Filter.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter-VNWA_Data.s2p
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Lowpass_Filter-VNWA_Data.s2p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Lowpass_Filter.jpg
-	
+
+
+== Bandpass Filter ==
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter.jpg
+
+
+
+= LO Filter =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_with_No_L13-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_with_No_L13.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13-VNWA_Data.s2p
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13.jpg
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-100MHz_Breadboard_Oscillator-VNWA_Data.s1p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-100MHz_Breadboard_Oscillator.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-IF_with_LO_Enabled-VNWA_Data.s1p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-IF_with_LO_Enabled.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-Open_RX.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-RF_with_LO_Enabled-VNWA_Data.s1p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-19MHz_to_26MHz-RF_with_LO_Enabled.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-IF_with_LO_Enabled-VNWA_Data.s1p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-IF_with_LO_Enabled.jpg
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-RF_with_LO_Enabled-VNWA_Data.s1p
-	
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-RF_with_LO_Enabled.jpg
