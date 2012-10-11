@@ -9,7 +9,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
 
-Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.3MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#]/[http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
+Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#]/[http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
 
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
@@ -25,9 +25,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is nominally +7dBm but set to around +4dBm to better receive weak signals.  [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter Minor modifications] can increase LO Level if desired.  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
-
-http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Testing
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Increasing_LO_Level nominally +7dBm].  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
@@ -47,11 +45,14 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == LO Band-pass Filter ==
 
-Most oscillators show significant bleed of the internal frequency used in their multiplier circuitry.  With 100MHz oscillators the internal frequency tends to be in the 20-25MHz range, directly in the [http://en.wikipedia.org/wiki/High_frequency HF] band of interest.  To reduce these frequencies at the output and also help reduce LO harmonics, a [http://en.wikipedia.org/wiki/Bessel_filter Bessel] [http://en.wikipedia.org/wiki/Bandpass band-pass] filter is used for its minimal phase distortion to keep the LO signal as clean as possible.
+Most oscillators show significant bleed of the internal frequency used in their multiplier circuitry.  With 100MHz oscillators the [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Why_a_LO_Filter_is_Needed internal frequency tends to be in the 20-25MHz range], directly in the [http://en.wikipedia.org/wiki/High_frequency HF] band of interest.  To reduce these frequencies at the output and also help reduce LO harmonics, a [http://en.wikipedia.org/wiki/Bessel_filter Bessel] [http://en.wikipedia.org/wiki/Bandpass band-pass] filter is used for its minimal phase distortion to keep the LO signal as clean as possible.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
 
-The attenuator and filter are used to reduce the LO level to an optimal value.
+The attenuator and filter are used to reduce the LO level to an optimal value.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vrms=14.35dBm].  The LO level at the mixer is therefore approximately +4dBm.
+
+http://www.rfcafe.com/references/electrical/square-wave-voltage-conversion.htm
+
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
@@ -65,7 +66,7 @@ The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http:/
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
 
-The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.3MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
+The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.5MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
 
@@ -75,7 +76,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Passthrough Mode ==
 
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.3MHz to 1300MHz.  The [http://www.skyworksinc.com/Product.aspx?ProductID=39 AS169-73LF] RF switches and PCB trace have losses of about 1dB up to around 1GHz.
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 1300MHz.  The [http://www.skyworksinc.com/Product.aspx?ProductID=39 AS169-73LF] RF switches and PCB trace have losses of about 1dB up to around 1GHz.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results.jpg
 
@@ -128,4 +129,4 @@ The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm
 
 * Why not add an amplifier? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
 
-* Can it be used for Transmitting? * : Sure, there are no one-way paths in the Upconverter.  If you have a VHF transmitter that operates in the 100MHz to 150MHz range then the Upconverter can be used in reverse as a down-converting mixer to broadcast over 0.3MHz to 50MHz (downconverted 100MHz to 150MHz signal).  All you would need is a Power Amplifier and [http://en.wikipedia.org/wiki/Bandpass bandpass filter] for your intended frequency range at the RF port and an attenuator at the IF port if the transmitting signal was above 0dBm.
+* Can it be used for Transmitting? * : Sure, there are no one-way paths in the Upconverter.  If you have a VHF transmitter that operates in the 100MHz to 150MHz range then the Upconverter can be used in reverse as a down-converting mixer to broadcast over 0.5MHz to 50MHz (downconverted 100.5MHz to 150MHz signal).  All you would need is a Power Amplifier and [http://en.wikipedia.org/wiki/Bandpass bandpass filter] for your intended frequency range at the RF port and an attenuator at the IF port if the transmitting signal was above 0dBm.
