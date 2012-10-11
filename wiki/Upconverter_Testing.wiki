@@ -2,8 +2,6 @@
 
 PAGE UNDER CONSTRUCTION 
 
-#labels
-
 = Prototypes =
 
 The [Upconverter] project went through a couple prototype phases:
