@@ -25,7 +25,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is nominally +7dBm but set to around +4dBm to better receive weak signals.  [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Testing Minor modifications] can increase LO Level if desired.  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is nominally +7dBm but set to around +4dBm to better receive weak signals.  [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter Minor modifications] can increase LO Level if desired.  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
 
 http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Testing
 
@@ -81,7 +81,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Testing ==
 
-There is a dedicated page for [http://code.google.com/p/opendous/wiki/Upconverter_Testing?ts=1349936676&updated=Upconverter_Testing#Conversion_Losses additional testing results].
+There is a dedicated page for [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Conversion_Losses additional testing results].
 
 The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]):
 
