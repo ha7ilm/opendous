@@ -12,7 +12,7 @@ The second prototype more closely resembles the production boards:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Prototype2.jpg
 
-There was also an attempt to design an Upconverter using all-[http://www.DigiKey.com DigiKey sourceable] parts but the conversion losses were on the order of 20dB.
+There was also an attempt to [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-13LO-SMS3926-CX2147_Schematic.pdf design] an Upconverter using only [http://www.DigiKey.com DigiKey sourceable] parts but the conversion losses were on the order of 20dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-13LO-SMS3926-CX2147_Picture.jpg
 
