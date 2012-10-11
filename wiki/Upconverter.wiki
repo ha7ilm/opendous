@@ -23,7 +23,7 @@ The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technolog
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
 
-RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input and the RF Low-pass filter has greater than 60dB attenuation at the LO frequency.
+RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input.
 
 The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Increasing_LO_Level nominally +7dBm].  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
 
@@ -31,11 +31,11 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == RF Input Low-pass Filter ==
 
-The input [http://en.wikipedia.org/wiki/Low-pass_filter Low-pass filter] is an [http://en.wikipedia.org/wiki/Elliptic_filter Elliptic (Cauer)] filter used for its sharp transition between passband and stopband.  This allows a further reduction in LO radiation through the antenna and keeps higher frequencies from mixing with the intended output products.
+The input [http://en.wikipedia.org/wiki/Low-pass_filter Low-pass filter] is an [http://en.wikipedia.org/wiki/Elliptic_filter Elliptic (Cauer)] filter used for its sharp transition between passband and stopband.  This ensures higher input frequencies do not mix with the intended output products.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Schematic.jpg
 
-The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap SDR dongles.
+The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap DVB dongles being repurposed for [http://en.wikipedia.org/wiki/Software-defined_radio SDR].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Simulation.jpg
 
@@ -49,14 +49,11 @@ Most oscillators show significant bleed of the internal frequency used in their 
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
 
-The attenuator and filter are used to reduce the LO level to an optimal value.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vrms=14.35dBm].  The LO level at the mixer is therefore approximately +4dBm.
-
-http://www.rfcafe.com/references/electrical/square-wave-voltage-conversion.htm
-
+The attenuator and filter are used to reduce the LO level to an optimal value.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice clearly deviate here but the losses are acceptable for the LO signal.
+This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Prototyping clearly deviate] here but the losses are acceptable for the LO signal.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vp-p=1.6Vpk=1.6Vrms=17dBm].  The LO level at the mixer is therefore approximately +7dBm.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results.jpg
 
@@ -127,6 +124,6 @@ The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm
 
 = FAQ =
 
-* Why not add an amplifier? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
+* Why not add an amplifier to overcome the 10dB conversion loss? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
 
 * Can it be used for Transmitting? * : Sure, there are no one-way paths in the Upconverter.  If you have a VHF transmitter that operates in the 100MHz to 150MHz range then the Upconverter can be used in reverse as a down-converting mixer to broadcast over 0.5MHz to 50MHz (downconverted 100.5MHz to 150MHz signal).  All you would need is a Power Amplifier and [http://en.wikipedia.org/wiki/Bandpass bandpass filter] for your intended frequency range at the RF port and an attenuator at the IF port if the transmitting signal was above 0dBm.
