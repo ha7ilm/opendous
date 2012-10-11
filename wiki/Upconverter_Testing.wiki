@@ -13,7 +13,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = PCB Testing =
 
-The standard 2-layer [http://en.wikipedia.org/wiki/FR-4 FR4] 1oz. copper PCB from [http://www.myropcb.com/ MyRoPCB] was tested with different SMA connectors as well as the production board and a SMA Cable of similar length.  All of these are plots of uncompensated raw data.
+The standard 2-layer [http://en.wikipedia.org/wiki/FR-4 FR4] 1oz. copper PCB from [http://www.myropcb.com/ MyROPCB] was tested with different SMA connectors as well as the production board and a SMA Cable of similar length.  All of these are plots of uncompensated raw data.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing_Hardware.jpg
 
