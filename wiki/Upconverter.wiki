@@ -19,7 +19,7 @@ Questions or comments? Visit the [http://groups.google.com/group/opendous Opendo
 
 = Design =
 
-The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a Passthrough mode.  Power is sourced from a standard USB-microB connector.  The switch controls the signal path, Passthrough or Upconvert, and mirrors the board layout.  Switch towards the SMA connector is Upconvert, towards PCB edge for Passthrough.
+The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a Passthrough mode.  Power is sourced from a standard USB-microB connector to allow powering via [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mobile_device_charger_standards mobile device chargers].  The switch controls the signal path, Passthrough or Upconvert, and mirrors the board layout.  Switch towards the SMA connector is Upconvert, towards PCB edge for Passthrough.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
 
