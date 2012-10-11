@@ -81,13 +81,13 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Testing ==
 
-There is a dedicated page for [Upconverter_Testing additional testing results].
+There is a dedicated page for [http://code.google.com/p/opendous/wiki/Upconverter_Testing?ts=1349936676&updated=Upconverter_Testing#Conversion_Losses additional testing results].
 
 The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]):
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
 
-The following is the spectrum of the 24MHz oscillator Upconvertered to 124MHz:
+The following is the spectrum of the 24MHz oscillator upconvertered to 124MHz:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
 
