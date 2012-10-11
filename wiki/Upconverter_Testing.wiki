@@ -1,28 +1,34 @@
 #summary Additional Testing Results from the Upconverter Project
 
+= Prototypes =
 
-== LO Filter Testing ==
+The project went through a couple prototype phases:
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-13LO-SMS3926-CX2147_Picture.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Picture.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
-	
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Prototype1-Small.jpg
-	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Prototype1.jpg
-	
+
+The second prototype more closely resembles the production boards:
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Prototype2.jpg
+
+
+= PCB Testing =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing_Hardware.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062-VNWA_Data.s2p
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062.jpg
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Passthrough.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors-VNWA_Data.s2p
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors.jpg
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_in_Upconvert_Mode.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable-VNWA_Data.s2p
 	
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable.jpg
+
+= LO Filter Testing =
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ-VNWA_Data.s2p
 	
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ.jpg
@@ -39,19 +45,31 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 	
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13.jpg
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062-VNWA_Data.s2p
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-CONSMA003.062.jpg
+= Conversion Losses =
+
+The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]):
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
+
+The following is the spectrum of the 24MHz oscillator in Passthrough Mode on the Upconverter:
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors-VNWA_Data.s2p
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Passthrough.jpg
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-Production_SMA_Connectors.jpg
+The following is the spectrum of the 24MHz oscillator in Upconvert Mode on the Upconverter.  The filters are doing their job and removing the input signal.
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable-VNWA_Data.s2p
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_in_Upconvert_Mode.jpg
+
+The following is the spectrum of the 24MHz oscillator Upconverted to 124MHz:
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing-SMA_Cable.jpg
+
+
 	
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-PCB_Impedance_Testing_Hardware.jpg
+
+	
+
 	
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Passthrough-VNWA_Data.s2p
 	
