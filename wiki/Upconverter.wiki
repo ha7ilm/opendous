@@ -87,7 +87,7 @@ The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wi
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
 
-The following is the spectrum of the 24MHz oscillator Upconverter to 124MHz:
+The following is the spectrum of the 24MHz oscillator Upconvertered to 124MHz:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
 
