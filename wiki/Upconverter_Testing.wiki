@@ -2,6 +2,8 @@
 
 PAGE UNDER CONSTRUCTION 
 
+#labels
+
 = Prototypes =
 
 The [Upconverter] project went through a couple prototype phases:
@@ -140,7 +142,7 @@ The following is a [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upc
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_Updated_L13_HigherQ.jpg
 
-You can gain another ~4dB by replacing L1 (47nH) with either a [http://www.digikey.com/product-detail/en/AISC-0805-R047G-T/AISC-0805-R047G-TCT-ND AISC-0805-R047G-T] or [http://www.digikey.com/product-detail/en/PM0805-47NM-RC/M8459CT-ND/ PM0805-47NM-RC].  An additional 0.5dB can be gained by removing R2, the 432 Ohm resistor closest to the LO buffer that makes up half the [http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits Pi Attenuator].  However, it is not recommended to remove the full attenuator since it and the filter help convert the 12 Ohm output impedance of the CMOS buffer into the 50 Ohm needed by the mixer.
+You can gain another ~4dB by replacing L1 (47nH) with either a [http://www.digikey.com/product-detail/en/AISC-0805-R047G-T/AISC-0805-R047G-TCT-ND AISC-0805-R047G-T] or [http://www.digikey.com/product-detail/en/PM0805-47NM-RC/M8459CT-ND/ PM0805-47NM-RC].  An additional 0.5dB can be gained by removing `R2`, the 432 Ohm resistor closest to the LO buffer that makes up half the [http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits Pi Attenuator].  However, it is not recommended to remove the full attenuator since it and the filter help convert the 12 Ohm output impedance of the CMOS buffer into the 50 Ohm needed by the mixer.
 
 The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Production_with_No_L13-VNWA_Data.s2p data] plot for the response of the production filter with no L13 shows you should not just remove it.
 
