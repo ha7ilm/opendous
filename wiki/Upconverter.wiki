@@ -125,3 +125,7 @@ INSTRUCTIONS WILL BE POSTED SOON
 The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm Hammond 1411GU Box].  The box needs holes drilled for the Upconverter.  It is available from [http://www.digikey.com/product-detail/en/1411GU/HM609-ND DigiKey], [http://us.mouser.com/Search/Refine.aspx?Keyword=1411G+box+hammond Mouser], [http://uk.farnell.com/hammond/1411gu/box-aluminium-102x56x56mm/dp/3536853 Farnell], and [http://www.eciaauthorized.com/search?pn=1411GU other suppliers].
 
 = FAQ =
+
+* Why not add an amplifier? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
+
+* Can it be used for Transmitting? * : Sure, there are no one-way paths in the Upconverter.  If you have a VHF transmitter that operates in the 100MHz to 150MHz range then the Upconverter can be used in reverse as a down-converting mixer to broadcast over 0.3MHz to 50MHz (downconverted 100MHz to 150MHz signal).  All you would need is a Power Amplifier and bandpass filter for your intended frequency range at the RF port and an attenuator at the IF port if the transmitting signal was above 0dBm.
