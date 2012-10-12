@@ -25,7 +25,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Increasing_LO_Level nominally +7dBm].  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter#LO_Level nominally +7dBm].  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
@@ -53,7 +53,9 @@ The attenuator and filter are used to reduce the LO level to an optimal value.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Prototyping clearly deviate] here but the losses are acceptable for the LO signal.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vp-p=1.6Vpk=1.6Vrms=17dBm].  The LO level at the mixer is therefore approximately +7dBm.
+=== LO Level ===
+
+The following [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Prototyping clearly deviate] here but the losses are acceptable for the LO signal.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vp-p=1.6Vpk=1.6Vrms=17dBm].  The LO level at the mixer is therefore approximately +7dBm.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results.jpg
 
