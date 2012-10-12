@@ -124,7 +124,7 @@ The following is a [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upc
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-LO_Filter_Prototype_with_LowerQ_L13.jpg
 
-Lowering the [http://en.wikipedia.org/wiki/Q_factor#Individual_reactive_components Q value] of the L13 inductor increases losses by 4dB.  Since it shorts signals to ground, the 3.76x greater resistance of the lower Q inductor leads to the greater losses.
+Lowering the [http://en.wikipedia.org/wiki/Q_factor#Individual_reactive_components Q value] of the [http://code.google.com/p/opendous/wiki/Upconverter#LO_Band-pass_Filter L13 inductor] increases losses by 4dB.  Since it shorts to ground, the 3.76x greater resistance of the lower Q inductor leads to the greater power dissipation.
 
 {{{
 100MHz = 628318530 rad/s
