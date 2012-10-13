@@ -87,9 +87,14 @@ The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wi
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
 
-The following is the spectrum of the 24MHz oscillator upconverted to 124MHz:
+The following is the spectrum of the 24MHz oscillator upconverted to 124MHz.  There is a ~9.35dB upconversion loss.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
+
+The following is the [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset-VNWA_Data.s1p spectrum] of the Upconverter with the tracking generator offset by 100MHz.  This is a plot of the Upconversion losses which are below 10dB up to about 40Mhz, about 15dB at 50MHz, and hit the [http://sdr-kits.net/VNWA3_Description.html VNWA3] limits beyond 81MHz.  The various peaks beyond are noise.  The spectrum is vertically offset -2.61dB to make sure the 24MHz signal falls at 9.35dB loss, same as per the above Upconversion result for a 24MHz clock.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset.jpg
+
 
 == Layout ==
 
