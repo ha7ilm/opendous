@@ -62,6 +62,8 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 The following is the [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset-VNWA_Data.s1p spectrum] of the Upconverter with the tracking generator offset by 100MHz.  This is a plot of the Upconversion losses which are below 10dB up to about 40Mhz, about 15dB at 50MHz, and hit the [http://sdr-kits.net/VNWA3_Description.html VNWA3] limits beyond 81MHz.  The various peaks beyond are noise.  The spectrum is vertically offset -2.61dB to make sure the 24MHz signal falls at 9.35dB loss, same as per the above Upconversion result for a 24MHz clock.
 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset.jpg
+
 
 = Filter Prototyping and Testing =	
 
@@ -70,22 +72,22 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 == Lowpass Filter ==
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Lowpass_Filter-VNWA_Data.s2p
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Lowpass_Filter-VNWA_Data.s2p data] plot is of the response of the first prototype Lowpass filter which was a 5th order filter.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Lowpass_Filter.jpg
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Lowpass_Filter-VNWA_Data.s2p
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Lowpass_Filter-VNWA_Data.s2p data] plot is of the response of the second prototype Lowpass filter which is a [http://code.google.com/p/opendous/wiki/Upconverter#RF_Input_Low-pass_Filter 7th order] filter for a sharper transition band.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Lowpass_Filter.jpg
 
 
 == Bandpass Filter ==
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter-VNWA_Data.s2p
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter-VNWA_Data.s2p data] plot is of the response of the first prototype Bandpass filter which is a [http://code.google.com/p/opendous/wiki/Upconverter#LO_Band-pass_Filter 7th order] filter.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype1_Bandpass_Filter.jpg
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter-VNWA_Data.s2p
+The following [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter-VNWA_Data.s2p data] plot is of the response of the second prototype Bandpass filter which is the same [http://code.google.com/p/opendous/wiki/Upconverter#LO_Band-pass_Filter 7th order] filter as in the first prototype but with a different layout.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Prototype2_Bandpass_Filter.jpg
 
