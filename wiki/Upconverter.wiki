@@ -109,7 +109,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = SDR Software Tuning Instructions =
 
-With your Upconverter input shorted or unconnected, tune your SDR software to 100.06MHz, select the Lower Sideband (LSB) and see where the nearest peak is (other than 100.06MHz where you will see the DC spike) in the FFT display.  This is the ideal base tuning frequency for your combination of Upconverter and Receiver/Demodulator.  This takes into account any frequency offset from the Receiver/Demodulator.  To tune to a [http://en.wikipedia.org/wiki/Shortwave_bands Shortwave band] such as 9.5MHz, simply add 9.5 to the value of the peak (in the picture below it would be 100.0045 + 9.5 = 109.5045MHz).
+With your Upconverter input shorted or unconnected, tune your SDR software to 100.06MHz, select the Lower Sideband (LSB) and see where the nearest peak is (other than 100.06MHz where you will see the DC spike) in the FFT display.  This is the ideal base tuning frequency for your combination of Upconverter and Receiver/Demodulator.  This takes into account any frequency offset from the Receiver/Demodulator.  
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Configuring_SDR_Software_Offset_Frequency.jpg
 
