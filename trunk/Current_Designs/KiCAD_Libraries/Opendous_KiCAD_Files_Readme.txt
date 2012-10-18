@@ -45,6 +45,8 @@ LibName29=opendous
 
 
 
-opendous.dcm, opendous.lib, opendous.mod, and opendous.mdc are By Opendous Inc.
-and Copyright Under the Creative Commons Attribution License:
-http://creativecommons.org/licenses/by/3.0/
+opendous.dcm, opendous.lib, opendous.mod, and opendous.mdc
+are hereby deeded by Opendous Inc. into the Public Domain
+under the Creative Commons CC0 Public Domain Dedication:
+http://creativecommons.org/publicdomain/zero/1.0/
+

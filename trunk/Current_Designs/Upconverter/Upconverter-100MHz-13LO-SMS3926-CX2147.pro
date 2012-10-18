@@ -1,4 +1,4 @@
-update=7/15/2012 1:08:54 AM
+update=Fri 12 Oct 2012 05:50:30 PM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -76,6 +76,7 @@ PadDrlX=320
 PadDimH=600
 PadDimV=600
 BoardThickness=630
+SgPcb45=1
 TxtPcbV=320
 TxtPcbH=320
 TxtModV=320
