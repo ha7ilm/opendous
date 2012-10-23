@@ -1,4 +1,5 @@
 #summary MF/HF 100MHz Upconverter for Receivers
+#labels Featured,Phase-Design
 
 PAGE UNDER CONSTRUCTION
 = Upconverter =
