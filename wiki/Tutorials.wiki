@@ -1,5 +1,4 @@
 #summary Tutorials related to Open Source Software and Hardware Design
-#labels Featured
 
 = PCB Design with KiCAD =
 
