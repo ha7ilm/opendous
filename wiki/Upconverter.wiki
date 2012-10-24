@@ -26,7 +26,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input.
 
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter#LO_Level nominally +7dBm].  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
+The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter#LO_Level nominally +7dBm] which puts the [http://www.minicircuits.com/app/AN00-009.pdf 1dB compression point] at +1dBm.  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
 
