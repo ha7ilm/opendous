@@ -44,7 +44,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = Conversion Losses =
 
-The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]):
+The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]).  Note that the [http://sdr-kits.net/VNWA3_Description.html VNWA] is not designed as a [http://en.wikipedia.org/wiki/Spectrum_analyzer Spectrum Analyzer] so the signal levels are not absolutely accurate but relative levels are useful.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
 
