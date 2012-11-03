@@ -10,28 +10,56 @@ The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm
 
 In most circumstances, the effort to fabricate such an enclosure is not worth the marginal performance increase.
 
+Remove the protective film as it will be much more difficult to do at the end.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-RemoveProtectiveFilm.jpg
+
+Place the U piece of the enclosure inside the main piece and lay the Upconverter over the cavity.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking1.jpg
 
+Mark the opposite side for the USB connector since the U piece will be reversed.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking2.jpg
+
+Draw a horizontal line across the vertical lines about 1" (2.5cm) below the edge.  Any lower and it will be difficult to insert the Upconverter later on.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillHeightMarking1.jpg
 
+Fit the enclosure pieces together properly and lay the Upconverter on top to check alignment.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillHeightMarking2.jpg
+
+Start with a fine metal-capable drill bit and drill the marked cross-points.  Or, use a [http://www.homedepot.com/buy/klein-tools-unibit-step-drill-bit-14-59014sen.html Step Drill] if you have one.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Drilling1.jpg
 
+Move on to larger drill bits until you get to 1/4".
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Drilling2.jpg
+
+Use a [http://en.wikipedia.org/wiki/Rotary_tool rotary tool] with a [http://www.dremel.com/en-us/Accessories/Pages/ProductDetail.aspx?pid=84922 Silicon Carbide] grinding bit to grind down the drilling [http://en.wikipedia.org/wiki/Burr_%28edge%29 burrs].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-FinishGrinding1.jpg
 
+Use the grinding bit to enlarge the USB-microB connector hole.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-FinishGrinding2.jpg
+
+Bend one side of the main enclosure piece and insert the Upconverter board.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-InsertBoard1.jpg
 
+Bend back the enclosure.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-InsertBoard2.jpg
 
+Screw the two enclosure pieces together.
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-ScrewTogether.jpg
+
+If the drilled holes are too big you may need to fill in the space using [http://www.digikey.com/product-detail/en/4223PA51H01800/903-1083-ND EMI Gasket Fabric].
+
+The finished enclosure will look something like this:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
