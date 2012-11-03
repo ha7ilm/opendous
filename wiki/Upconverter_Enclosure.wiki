@@ -22,7 +22,7 @@ Mark the opposite side for the USB connector since the U piece will be reversed.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking2.jpg
 
-Draw a horizontal line across the vertical lines about 1" (2.5cm) below the edge.  Any lower and it will be difficult to insert the Upconverter later on.
+Draw a horizontal line across the vertical lines about 3/4"(2cm) to 1" (2.5cm) below the edge.  Any lower and it will be difficult to insert the Upconverter later on.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillHeightMarking1.jpg
 
