@@ -2,10 +2,36 @@
 
 == Cheap and Simple  ==
 
-Work is underway on a cheap and simple DIY enclosure fabrication process.  Basically it involves insulating the Upconverter using something like [Heat-shrink tubing http://www.digikey.com/product-detail/en/SH275-4/W193-5-ND] or a plastic bag and then wrapping everything with [http://www.digikey.com/product-detail/en/1126%20X%201"/3M1126C-1YD-ND Copper Shielding Tape].
+Work is underway on a cheap and simple DIY enclosure fabrication process.  Basically it involves insulating the Upconverter using something like [http://www.digikey.com/product-detail/en/SH275-4/W193-5-ND Heat-shrink tubing] or a plastic bag and then wrapping everything with [http://www.digikey.com/product-detail/en/1126%20X%201"/3M1126C-1YD-ND Copper Shielding Tape].
 
 == Aluminum Box ==
 
 The Upconverter is designed to fit within a [http://www.hammondmfg.com/dwg18.htm Hammond 1411GU Box].  The box needs holes drilled for the Upconverter.  It is available from [http://www.digikey.com/product-detail/en/1411GU/HM609-ND DigiKey], [http://us.mouser.com/Search/Refine.aspx?Keyword=1411G+box+hammond Mouser], [http://uk.farnell.com/hammond/1411gu/box-aluminium-102x56x56mm/dp/3536853 Farnell], and [http://www.eciaauthorized.com/search?pn=1411GU other suppliers].
 
 In most circumstances, the effort to fabricate such an enclosure is not worth the marginal performance increase.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-RemoveProtectiveFilm.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking2.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillHeightMarking1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillHeightMarking2.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Drilling1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Drilling2.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-FinishGrinding1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-FinishGrinding2.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-InsertBoard1.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-InsertBoard2.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-ScrewTogether.jpg
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
