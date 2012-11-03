@@ -126,9 +126,9 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = Enclosure =
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
-
 See the [Upconverter_Enclosure Upconverter Enclosure Fabrication Instructions].
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
 
 = FAQ =
 
