@@ -14,7 +14,7 @@ Remove the protective film as it will be much more difficult to do at the end.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-RemoveProtectiveFilm.jpg
 
-Place the U piece of the enclosure inside the main piece and lay the Upconverter over the cavity.
+Place the U piece of the enclosure inside the main piece and lay the Upconverter over the cavity.  Make vertical marks in line with all the connectors.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-DrillMarking1.jpg
 
