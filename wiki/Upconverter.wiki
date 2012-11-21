@@ -16,6 +16,8 @@ The design files can be found in [http://code.google.com/p/opendous/source/brows
 
 Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
 
+KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
+
 Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group]!  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ] and [Upconverter_Testing additional testing results].
 
 = Design =
