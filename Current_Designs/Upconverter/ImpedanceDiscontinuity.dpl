@@ -1,0 +1,36 @@
+<Qucs Schematic 0.0.16>
+<Properties>
+  <View=-80,0,868,977,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=ImpedanceDiscontinuity.dat>
+  <DataDisplay=ImpedanceDiscontinuity.sch>
+  <OpenDisplay=1>
+  <Script=ImpedanceDiscontinuity.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 40 434 579 364 3 #c0c0c0 1 00 0 1e+06 2e+08 1.301e+09 0 -132 6 3 0 35 5 90 315 0 225 "Frequency (MHz)" "" "">
+	<"Gain_dBS21" #ff0000 2 3 0 0 0>
+	  <Mkr 6.0023e+08 210 -311 3 0 0>
+	  <Mkr 9.99884e+08 400 -311 3 0 0>
+	  <Mkr 2.00077e+08 10 -311 3 0 0>
+	<"ReturnLoss_dBS11" #0000ff 2 3 0 0 0>
+	  <Mkr 1.19996e+09 390 -161 3 0 0>
+	  <Mkr 6.0023e+08 200 -161 3 0 0>
+	  <Mkr 2.00077e+08 10 -161 3 0 0>
+	<"Characteristic_Impedance_ZL" #00ff00 2 3 0 0 1>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
