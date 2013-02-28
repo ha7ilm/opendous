@@ -2,7 +2,7 @@
 
 == Cheap and Simple  ==
 
-Work is underway on a cheap and simple DIY enclosure fabrication process.  Basically it involves insulating the Upconverter using something like [http://www.digikey.com/product-detail/en/SH275-4/W193-5-ND Heat-shrink tubing] or a plastic bag and then wrapping everything with [http://www.digikey.com/product-detail/en/1126%20X%201"/3M1126C-1YD-ND Copper Shielding Tape].
+Work is underway on a cheap and simple DIY enclosure fabrication process.  Basically it involves insulating the Upconverter using something like [http://www.digikey.com/product-detail/en/SH275-4/W193-5-ND Heat-shrink tubing] or a plastic bag and then wrapping everything with [http://www.digikey.com/product-detail/en/1126%20X%201"/3M1126C-1YD-ND Copper Shielding Tape].  The trick is to keep the copper tape far enough away from the RF signal path to avoid altering impedance.
 
 == Aluminum Box ==
 
@@ -38,7 +38,7 @@ Move on to larger drill bits until you get to 1/4".
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Drilling2.jpg
 
-Use a [http://en.wikipedia.org/wiki/Rotary_tool rotary tool] with a [http://www.dremel.com/en-us/Accessories/Pages/ProductDetail.aspx?pid=84922 Silicon Carbide] grinding bit to grind down the drilling [http://en.wikipedia.org/wiki/Burr_%28edge%29 burrs].
+Use a [http://en.wikipedia.org/wiki/Rotary_tool rotary tool] with an [http://www.dremel.com/en-us/Accessories/Pages/ProductDetail.aspx?pid=952 Aluminum Oxide] grinding bit to grind down the drilling [http://en.wikipedia.org/wiki/Burr_%28edge%29 burrs].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-FinishGrinding1.jpg
 
