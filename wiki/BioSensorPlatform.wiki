@@ -1,6 +1,6 @@
 #summary ADS1298 Based Biopotential Sensor Platform
 
-*Status*: _Under Development_.  Fourth revision is under development.
+*Status*: _Under Development_.  Fourth revision is under development.  The pictured third revision did not work correctly and the earlier [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/ADS1298/ second revision] was a BGA-based design.
 
 [http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://www.ti.com/product/ads1299 ADS1299] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electroencephalography EEG] front end for use in a head-mounted 32+ non-contact electrode system.
 
@@ -8,7 +8,7 @@ Design files are available in [http://en.wikipedia.org/wiki/Open_format Open For
 
 You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/BioSensorPlatform browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
 
-If you are looking for a turn-key EEG platform, the [http://www.ti.com TI] [http://www.ti.com/tool/ads1299eegfe-pdk ADS1299EEGFE-PDK] kit is ideal and [http://us.mouser.com/Search/Refine.aspx?Keyword=DS1299EEGFE-PDK widely] [http://www.digikey.com/product-detail/en/ADS1299EEGFE-PDK/296-34948-ND available].  Look into a [http://www.digikey.com/product-detail/en/EVAL-ADUM4160EBZ/EVAL-ADUM4160EBZ-ND USB-ISOlator] board if it is to be used with a mains-powered computer.
+If you are looking for a turn-key EEG platform, the [http://www.ti.com TI] [http://www.ti.com/tool/ads1299eegfe-pdk ADS1299EEGFE-PDK] kit is ideal and [http://us.mouser.com/Search/Refine.aspx?Keyword=DS1299EEGFE-PDK widely] [http://www.digikey.com/product-detail/en/ADS1299EEGFE-PDK/296-34948-ND available].  Look into a [http://www.digikey.com/product-detail/en/EVAL-ADUM4160EBZ/EVAL-ADUM4160EBZ-ND USB-ISOlator] board if it is to be used with a [http://en.wikipedia.org/wiki/Mains_electricity mains]-powered computer.
 
 {{{
 svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/ opendous-BioSensorPlatform
