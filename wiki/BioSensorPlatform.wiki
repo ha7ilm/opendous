@@ -6,9 +6,9 @@
 
 Design files are available in [http://en.wikipedia.org/wiki/Open_format Open Formats] for the [http://iut-tice.ujf-grenoble.fr/kicad/ KiCAD] [http://en.wikipedia.org/wiki/Open_source Open Source] [http://en.wikipedia.org/wiki/Electronic_design_automation EDA] Suite.
 
-You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/BioSensorPlatform browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
-
 If you are looking for a turn-key EEG platform, the [http://www.ti.com TI] [http://www.ti.com/tool/ads1299eegfe-pdk ADS1299EEGFE-PDK] kit is ideal and [http://us.mouser.com/Search/Refine.aspx?Keyword=DS1299EEGFE-PDK widely] [http://www.digikey.com/product-detail/en/ADS1299EEGFE-PDK/296-34948-ND available].  Look into a [http://www.digikey.com/product-detail/en/EVAL-ADUM4160EBZ/EVAL-ADUM4160EBZ-ND USB-ISOlator] board if it is to be used with a [http://en.wikipedia.org/wiki/Mains_electricity mains]-powered computer.
+
+You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/BioSensorPlatform browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
 
 {{{
 svn checkout http://opendous.googlecode.com/svn/trunk/Current_Designs/BioSensorPlatform/ opendous-BioSensorPlatform
