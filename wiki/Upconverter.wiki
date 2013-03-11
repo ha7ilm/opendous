@@ -122,6 +122,8 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Picture.jpg
 
+The Noise Source is not fully populated on production boards.  To use it you will need to purchase and populate two SOT-89 amplifier ICs (such as [http://www.digikey.com/product-detail/en/MMG3H21NT1/MMG3H21NT1CT-ND MMG3H21NT1]), the Boost Regulator ([http://www.digikey.com/product-detail/en/SC4503TSKTRT/SC4503TSKCT-ND SC4503TSKTRT]), an SMA Connector (such as [http://www.digikey.com/product-detail/en/CONSMA003.062/CONSMA003.062-ND CONSMA003.062]), a 2-pin 0.1" header (such as [http://www.digikey.com/product-detail/en/961102-6404-AR/3M9447-ND 961102-6404-AR]) and a 0.1" jumper (such as [http://www.digikey.com/product-detail/en/969102-0000-DA/3M9580-ND 969102-0000-DA]).  These parts were omitted to reduce costs since a Noise Source isn't particularly useful.
+
 The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V boost regulator is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 6V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
 
 When using the Noise Source, place the Upconverter into Passthrough Mode (switch away from SMA connector) and install the `Noise_Source_EN` power jumper prior to powering the Upconverter board through the USB connector.  Otherwise the [http://en.wikipedia.org/wiki/Switch#Contact_bounce contact bounce] will create problems.
