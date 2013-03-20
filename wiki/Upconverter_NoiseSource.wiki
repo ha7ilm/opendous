@@ -14,9 +14,9 @@ The Noise Source is not fully populated on production boards.  To use it you wil
 {{{
 2, MMG3H21NT1     , IC2 IC4 - TRANS HBT 20.5DBM 19.3DB SOT-89
 1, SC4503TSKTRT   , IC3 - IC REG BOOST ADJ 1.4A TSOT23-5
-1, CONSMA003.062  , P3 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR .062in PCB
+1, CONSMA003.062  , P3 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR 0.062in PCB
 1, 961102-6404-AR , JP1 - CONN HEADER VERT SGL 2POS GOLD
-1, 969102-0000-DA , SHUNT JUMPER .1in BLACK GOLD
+1, 969102-0000-DA , SHUNT JUMPER 0.1in BLACK GOLD
 }}}
 
 These parts were omitted to reduce costs since a Noise Source isn't used in an Upconverter.  If you use a different amplifier than the MMG3H21NT1 you may need to [http://www.digikey.com/scripts/dksearch/dksus.dll?k=RC1206JR&vendor=0&mnonly=0&newproducts=0&ptm=0&fid=0&quantity=0&PV3=2&PV7=2&stock=1 adjust the value] of `R12` which is 1R0 (1.0 Ohm).  Refer to your amplifier's datasheet.  The amplifier supply voltage is 5V from the USB connector.
