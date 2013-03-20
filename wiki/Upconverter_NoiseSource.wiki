@@ -1,5 +1,7 @@
 #summary How to use the Noise Source Circuit on the Upconverter
 
+* UPDATE IN PROGRESS *
+
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Noise_Source_Picture.jpg
 
 The Noise Source is a basic [http://en.wikipedia.org/wiki/Avalanche_breakdown Avalanche] [http://pdfserv.maximintegrated.com/en/an/AN3469.pdf noise circuit].  A 5V to 12V [http://www.semtech.com/power-management/switching-regulators/sc4503/ boost regulator] is used to power a [http://en.wikipedia.org/wiki/Zener_diode#Uses Zener] diode which use Avalanche breakdown above 6V.  The output is DC-blocked and amplified by about 40dB using two amplifiers.
