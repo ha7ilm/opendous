@@ -1,0 +1,90 @@
+Bill Of Materials for the Upconverter-125MHz-ADE Project
+
+QTY, Manufacturer Part#          , Cost($USD each) - References - Description
+  1, ADE-1+                      , 2.49 - U3 - Frequency Mixer 0.5-500MHz +7dBm-LO [from MiniCircuits.com]
+  1, TPS79333DBVR                , 0.86 - IC1 - IC REG LDO 3.3V .2A SOT23-5
+  1, SN74LVC2GU04DBVR            , 0.64 - IC5 - IC DUAL INVERTER GATE SOT-23-6
+  2, AS169-73LF                  , 0.62 - IC6 IC7 - IC SW SPDT 300K-2.5GHZ SOT23-6
+  1, SN74LVC1G126DBVR            , 0.40 - IC8 - IC BUS BUFF TRI-ST N-INV SOT23-5
+  1, 08055A2R2CAT2A              , 0.25 - C22 - CAP CER 2.2PF 50V NP0 0805 LO_BPF
+  1, 251R15S4R7BV4E              , 0.42 - C17 - CAP CER 4.7PF 250V NP0 0805 OUT_BPF
+  1, CC0805DRNP09BN6R0           , 0.21 - C5 - CAP CER 6PF 50V NP0 0805 IN_LPF
+  2, 251R15S8R2CV4E              , 0.36 - C15 C19 - CAP CER 8.2PF 250V NP0 0805 OUT_BPF
+  2, 500R15N150JV4T              , 0.26 - C14 C20 - CAP CER 15PF 50V 5% NP0 0805 OUT_BPF
+  1, 08051A200JAT2A              , 0.25 - C10 - CAP CER 20PF 100V 5% NP0 0805
+  1, 08051A300JAT2A              , 0.25 - C7 - CAP CER 30PF 100V 5% NP0 0805
+  2, C0805C560J5GACTU            , 0.10 - C16 C18 - CAP CER 56PF 50V 5% NP0 0805 OUT_BPF
+  4, CC0805JRNPO9BN680           , 0.10 - C4 C11 C21 C23 - CAP CER 68PF 50V 5% NPO 0805  IN_LPF LO_BPF
+  1, CC0805JRNPO9BN820           , 0.07 - C9 - CAP CER 82PF 50V 5% NP0 0805 IN_LPF
+  8, C0805C101J5GACTU            , 0.06 - C3 C6 C33 C36 C40 C43 C44 C46 - CAP CER 100PF 50V 5% NP0 0805
+  1, GRM216R71H103KA01D          , 0.10 - C12 - CAP CER 10000PF=0.01uF 50V 10% X7R 0805
+  6, LMK212SD104KG-T             , 0.36 - C30 C37 C38 C41 C42 C45 - CAP CER 0.1UF 10V 10% RF Microwave Low Distortion 0805
+  4, GRM21BR71H104KA01L          , 0.10 - C2 C6 C8 C39 - CAP CER 0.1UF 50V 10% X7R 0805
+  2, C0805C475K8PACTU            , 0.22 - C1 C13 - CAP CER 4.7UF 10V X5R 0805
+  1, BAV99WT1G                   , 0.17 - D1 - DIODE SWITCH SS DUAL 70V SOT323 SC-70
+  1, APT2012SGC                  , 0.13 - D3 - LED 2X1.2MM 568NM GN WTR CLR SMD 0805
+  1, MF-PSMF075X-2               , 0.36 - F1 - FUSE PTC RESETTABLE Ihold=0.75A 6V SMD 0805
+  2, AISC-0805-R015G-T           , 0.25 - L8 L10 - INDUCTOR 15nH Q=50 600MA 2% 0805 OUT_BPF
+  2, CW201212-22NJ               , 0.27 - L1 L13 - INDUCTOR 22nH Q=60 0805 LO_BPF
+  2, PM0805-56NK-RC              , 0.30 - L6 L12 - INDUCTOR 56NH Q=60 10% 0805 OUT_BPF
+  3, 4-1624113-7                 , 0.42 - L3 L7 L11 - INDUCTOR 110nH Q=50 5% 0805 OUT_BPF
+  1, AISC-0805-R12J-T            , 0.24 - L4 - INDUCTOR 120nH Q=50 0805 IN_LPF
+  1, AISC-0805-R15J-T            , 0.24 - L2 - INDUCTOR 150nH Q=50 0805 IN_LPF
+  2, AISC-0805-R18G-T            , 0.25 - L9 L10 - INDUCTOR 180nH Q=50 400MA 2% 0805 OUT_BPF
+  1, PE-0805CM561JTT             , 0.40 - L5 - INDUCTOR 560nH Q=40 240MA 0805 LO_BPF
+  1, RC0603JR-070RL              , 0.10 - JP3 (OSC_EN) - RES 0.0 OHM 1/10W 0603 SMD
+  1, RC0805FR-0737R4L            , 0.10 - R3 - RES 37.4 OHM 1/8W 1% 0805 LO_BPF
+  2, RC0805FR-07150RL            , 0.10 - R2 R4 - RES 150 OHM 1/8W 1% 0805 LO_BPF
+  1, RMCF0805JT1K00              , 0.03 - R7 - RES 1K OHM 1/8W 5% 0805 SMD
+  1, 2M1-SP1-T2-B4-M6RE          , 2.70 - JP2 - SW TOGGLE SPDT .4VA RT ANG PCB
+  2, CONSMA003.062               , 3.29 - P1 P2 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR .062" BOARD
+  1, USB-B1HSW6                  , 0.54 - U1 - CONN USB TYPE B R/A WHITE
+  1, SGR-8002DC-SCB              , 4.10 - X1 - OSCILLATOR CMOS PROG 50ppm 3.3V Shutdown 125MHz
+  1, 1411GU                      , 0.00 - OPTIONAL - BOX ALUM 4X2.3X1.6" UNPTD
+----------------------Sub-Total= ~40.00
+
+
+---- Optional Noise Source -----------------------------
+----     Unpopulated in Production: --------------------
+  2, MMG3H21NT1                  , 1.82 - IC2 IC4 - TRANS HBT 20.5DBM 19.3DB SOT-89
+  1, SC4503TSKTRT                , 1.30 - IC3 - IC REG BOOST ADJ 1.4A TSOT23-5
+  1, CONSMA003.062               , 3.29 - P3 - CONN 50 OHM SMA FEMALE EDGE MOUNT FOR .062" BOARD
+  1, 961102-6404-AR              , 0.16 - JP1 - CONN HEADER VERT SGL 2POS GOLD
+  1, 969102-0000-DA              , 0.10 - * - SHUNT JUMPER .1" BLACK GOLD
+----     End Unpopulated in Production -----------------
+  1, 500R15N150JV4T              , 0.16 - C25 - CAP CER 15PF 50V 5% NP0 0805
+  2, C0805C102K5RACTU            , 0.05 - C28 C32 - CAP CER 0.001uF=1000PF 50V 10% X7R 0805
+  4, LMK212SD104KG-T             , 0.36 - C27 C29 C34 C35 - CAP CER 0.1UF 10V 10% RF Microwave Low Distortion 0805
+  2, C0805C475K8PACTU            , 0.22 - C24 C31 - CAP CER 4.7UF 10V X5R 0805
+  1, C2012Y5V1E475Z              , 0.24 - C26 - CAP CER 4.7UF 25V Y5V 0805
+  1, MBR120ESFT1G                , 0.49 - D2 - DIODE SCHOTTKY 20V 1A SOD123
+  1, 1SMA5921BT3G                , 0.50 - D4 - DIODE ZENER 6.8V 1.5W SMA DO-214
+  1, APT2012SGC                  , 0.13 - D5 - LED 2X1.2MM 568NM GN WTR CLR SMD 0805
+  1, AIMC-0805-R10J-T            , 0.08 - L15 L16 - INDUCTOR MULTILAYER 100NH 0805
+  1, LB3218T4R7M                 , 0.13 - L14 - INDUCTOR 4.7UH 550MA 20% 1207 SMD
+  1, RC1206JR-071RL              , 0.10 - R12 - RES 1.0 OHM 1/4W 5% 1206 SMD
+  1, RMCF0805JT1K00              , 0.03 - R14 - RES 1K OHM 1/8W 5% 0805 SMD
+  1, RMCF0805JT2K40              , 0.03 - R11 - RES 2.4K OHM 1/8W 5% 0805 SMD
+  1, RMCF0805FT49K9              , 0.04 - R9 - RES 49.9K OHM 1/8W 1% 0805 SMD
+  1, RMCF0805FT432K              , 0.04 - R8 - RES 432K OHM 1/8W 1% 0805 SMD
+------------------------Sub-Total=12.44
+
+Notes:	- Component costs are based on minimum quantity orders from DigiKey or elsewhere as noted
+	- Components are chosen for operation over the Commercial Temperature Range (-20C to 70C)
+	- Oscillator X1 is footprint-compatible with Half-DIP (1108800) and DIP8 sockets (1-390261-2)
+	- Limiter Diode D1 can instead be ASML-5822-BLKG with OP1dB=+3dBm
+	- Instead of the USB-B connector, there is a footprint for a USB-microB connector:
+		629105136821, 1.78 - U1 - CONN RCPT USB MICRO B R/A SMT with Mounting Posts
+	- Pi Attenuator with R3=37.4, R2/R4=150 ==> 6dB at 50ohm
+	- IC1 regulator has R5 and R6 footprints for use with the TPS73201 or similar
+	- PTC Fuse MF-PSMF075X-2 can be replaced with 0ZCE0035FF2G or a Ferrite Bead
+	- For P1, P2, or P3 a Male Connector may be more useful; CONSMA013.062
+	- Series inductors and capacitors should be high Q for low insertion loss and
+	  have a resonant frequency 10x or more the working frequency
+	- Toggle Switch JP2 is also compatible with 100SP1T2B4M6QE
+	- Noise Source Zener Diode can be substituted with: 1SMA5922BT3G, PTZTE256.8B, BZG05C6V2TR or
+	  any SMA/DO-214 Zener diode with a voltage greater than 6V so that Avalanche Noise dominates
+	- Noise Source Amplifiers IC2 and IC4 can be substituted with: MMG3007NT1 or SKY65017-70LF or similar
+	- Noise Source IC3 (SC4503) is footprint-compatible with: LM2733XMF, MIC2295YD5, MIC2288YD5, LT1930ES5
+	- Noise Source resistor R11 has an overlapping footprint for a EVM-AASA00B14 potentiometer
+
