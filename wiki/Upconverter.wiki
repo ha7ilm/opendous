@@ -5,7 +5,7 @@ Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [
 
 The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free and Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
-There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [100MHz version] and a [125MHz] version.
+There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [100MHz version] and a [125MHz version]] version.
 
 KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
 
@@ -23,7 +23,7 @@ The design files can be found in [http://code.google.com/p/opendous/source/brows
 
 == 100MHz Upconverter Upconversion Losses ==
 
-The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 44kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
+The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 45kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
 
 http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.png	
 
@@ -33,97 +33,22 @@ http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverte
 Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
 
 
+= 125MHz Upconverter =
 
-= Design =
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
 
-The Upconverter is a passive [http://www.radio-electronics.com/info/rf-technology-design/mixers/double-balanced-mixer-tutorial.php Double-Balanced Mixer] with RF switches at input and output to allow a Passthrough mode.  Power is sourced from a standard USB-microB connector to allow powering via [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mobile_device_charger_standards mobile device chargers].  The switch controls the signal path, Passthrough or Upconvert, and mirrors the board layout.  Switch towards the SMA connector is Upconvert, towards PCB edge for Passthrough.
+Available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Diagram.jpg
-
-RF and IF ports in a Double-Balanced Mixer are interchangeable but there is more LO-to-RF Isolation than LO-to-IF Isolation.  To reduce LO radiation through the antenna, the RF port is used as input.
-
-The mixer used is the [http://www.minicircuits.com/homepage/homepage.html Mini-Circuits] [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] with a low LO Power Level to reduce noise and better receive weak signals.  The LO Level is [http://code.google.com/p/opendous/wiki/Upconverter#LO_Level nominally +7dBm] which puts the [http://www.minicircuits.com/app/AN00-009.pdf 1dB compression point] at +1dBm (this is the maximum input signal level before distortion occurs).  [http://code.google.com/p/opendous/wiki/Upconverter#Testing Upconversion losses] are around 10dB.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Mixer.jpg
-
-== RF Input Low-pass Filter ==
-
-The input [http://en.wikipedia.org/wiki/Low-pass_filter Low-pass filter] is an [http://en.wikipedia.org/wiki/Elliptic_filter Elliptic (Cauer)] filter used for its sharp transition between passband and stopband.  This ensures higher input frequencies do not mix with the intended output products.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Schematic.jpg
-
-The filter was designed to have less than 1dB of ripple in its passband and a 3dB cutoff at the lower input range of cheap DVB dongles being repurposed for [http://en.wikipedia.org/wiki/Software-defined_radio SDR].
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Simulation.jpg
-
-The input switch and filter together manage to keep passband ripple below 1.5dB.  This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 120MHz.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Lowpass_Filter_Testing_Results.jpg
-
-== LO Band-pass Filter ==
-
-Most oscillators show significant bleed of the internal frequency used in their multiplier circuitry.  With 100MHz oscillators the [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Why_a_LO_Filter_is_Needed internal frequency tends to be in the 20-25MHz range], directly in the [http://en.wikipedia.org/wiki/High_frequency HF] band of interest.  To reduce these frequencies at the output and also help reduce LO harmonics, a [http://en.wikipedia.org/wiki/Bessel_filter Bessel] [http://en.wikipedia.org/wiki/Bandpass band-pass] filter is used for its minimal phase distortion to keep the LO signal as clean as possible.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Schematic.jpg
-
-The attenuator and filter are used to reduce the LO level to an optimal value.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
-
-=== LO Level ===
-
-The following [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Prototyping clearly deviate] here but the losses are acceptable for the LO signal.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vp-p=1.6Vpk=1.6Vrms=17dBm].  The LO level at the mixer is therefore approximately +7dBm.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results.jpg
-
-== IF Output Band-pass Filter ==
-
-The output [http://en.wikipedia.org/wiki/Bandpass Band-pass filter] is a [http://en.wikipedia.org/wiki/Butterworth_filter Butterworth] filter used for its lack of ripple in the passband.  It is a 7th-order topology to ensure a sharp transition between passband and stopband.  A band-pass filter was chosen to get the upconversion products of the mixer and to reduce LO harmonic products at the IF output.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Schematic.jpg
-
-The filter was designed to have a passpand between 100MHz and 150MHz (the upconverted 0.5MHz to 50MHz signals).  Attenuation of LO harmonics/products and RF input frequencies is >30dB.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Simulation.jpg
-
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 70MHz to 200MHz.  The filter and output switch manage to keep losses to about 3dB in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results.jpg
-
-== Passthrough Mode ==
-
-This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 0.1MHz to 1300MHz.  The [http://www.skyworksinc.com/Product.aspx?ProductID=39 AS169-73LF] RF switches and PCB trace have losses of about 1dB up to around 1GHz.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Passthrough_Testing_Results.jpg
-
-== Testing ==
-
-There is a dedicated page for [http://code.google.com/p/opendous/wiki/Upconverter_Testing#Conversion_Losses additional testing results].
-
-The following is the spectrum of a 24MHz oscillator ([http://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_circuits attenuated] and [http://en.wikipedia.org/wiki/DC_block DC-blocked]).  Note that the [http://sdr-kits.net/VNWA3_Description.html VNWA] is not designed as a [http://en.wikipedia.org/wiki/Spectrum_analyzer Spectrum Analyzer] so the signal levels are not absolutely accurate but relative levels are useful.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock.jpg
-
-The following is the spectrum of the 24MHz oscillator upconverted to 124MHz.  There is a ~9.35dB upconversion loss.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-24MHz_Breadboard_Clock_Upconverted_to_124MHz.jpg
-
-=== Conversion Losses ===
-
-The following is the [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset-VNWA_Data.s1p spectrum] of the Upconverter with the tracking generator offset by 100MHz.  This is a plot of the Upconversion losses which are below 10dB up to about 40Mhz, about 15dB at 50MHz, and hit the [http://sdr-kits.net/VNWA3_Description.html VNWA3] limits beyond 81MHz.  The various peaks beyond are noise.  The spectrum is vertically offset -2.61dB to make sure the 24MHz signal falls at 9.35dB loss, same as per the above Upconversion result for a 24MHz clock.
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum_Sweep_with_100MHz_Offset.jpg
+The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].
 
 
-== Layout ==
+== 125MHz Upconverter Upconversion Losses ==
 
-To reduce costs and allow for cheap prototyping, the board was designed to 2-layer 8-8-20 (8mil Trace, 8mil Clearance, and 20mil minimum drill size) specifications.  A [http://www.microwaves101.com/encyclopedia/coplanarwaveguide.cfm Coplanar Waveguide with Ground] 40mil-Trace 8mil-Clearance structure provides the necessary 50-Ohm [http://en.wikipedia.org/wiki/Characteristic_impedance characteristic impedance] over the intended frequency range.  This happens to be about as wide as 0805 parts which allows for DIY'ability.  The following image is of [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad]'s PCB Calculator.
+The 125MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 55.8MHz and 15dB from 45kHz to 64.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_PCB_Trace_Calculations.jpg
+http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.png	
 
-One side is a GND plane underneath all RF circuitry.  Power is supplied through a [http://en.wikipedia.org/wiki/Resettable_fuse PTC]-protected [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mini_and_Micro_connectors USB-microB] connector to allow powering the board using anything compatible with standard [http://en.wikipedia.org/wiki/Universal_Serial_Bus#Mobile_device_charger_standards mobile device chargers].  The 5V supply is converted to 3.3V with an RF LDO, the [http://www.ti.com/product/tps79333 TPS79333].  The 100MHz oscillator is buffered with a [http://www.ti.com/product/sn74lvc1g126 74LVC1G126] gate to enable high drive levels and allow either TTL or CMOS output oscillators to be used.  The oscillator is disabled when Passthrough mode is selected.  Additional space that was leftover is used for a simple [http://code.google.com/p/opendous/wiki/Upconverter#Optional_Noise_Source Noise Source].
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_Layout-Small.jpg
+http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.png	
 
 
 = SDR Software Tuning Instructions =
@@ -143,7 +68,10 @@ See the [Upconverter_Enclosure Upconverter Enclosure Fabrication Instructions].
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
 
+
 = FAQ =
+
+* Can I connect two receivers to the same Upconverter? * : Yes, but the two receivers must have inputs that are compatible with each other.  The safest option is to make sure both receivers have no DC feed through a [http://en.wikipedia.org/wiki/Bias_tee bias tee] or disable this option.  The receivers could damage each other if one or both have a DC bias.  The output of the Upconverter is [http://en.wikipedia.org/wiki/DC_block DC-Blocked] so you do not need to worry about it unless dealing with high power levels (> +10dBm).
 
 * Why not add an amplifier to overcome the 10dB conversion loss? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
 
