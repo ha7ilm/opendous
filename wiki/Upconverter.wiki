@@ -5,7 +5,7 @@ Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [
 
 The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free and Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
-There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [100MHz version] and a [125MHz version]] version.
+There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [#100MHz_Upconverter 100MHz version] and a [#125MHz_Upconverter 125MHz version] version.
 
 KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
 
