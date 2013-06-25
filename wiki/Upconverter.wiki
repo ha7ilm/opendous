@@ -71,7 +71,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = FAQ =
 
-* Can I connect two receivers to the same Upconverter? * : Yes, but the two receivers must have inputs that are compatible with each other.  The safest option is to make sure both receivers have no DC feed through a [http://en.wikipedia.org/wiki/Bias_tee bias tee] or disable this option.  The receivers could damage each other if one or both have a DC bias.  The output of the Upconverter is [http://en.wikipedia.org/wiki/DC_block DC-Blocked] so you do not need to worry about it unless dealing with high power levels (> +10dBm).  
+* Can I connect two receivers to the same Upconverter? * : Yes, but the two receivers must have inputs that are compatible with each other.  The safest option is to make sure both receivers have no DC feed through a [http://en.wikipedia.org/wiki/Bias_tee bias tee] or disable this option.  The receivers could damage each other if one or both have a DC bias.  The output of the Upconverter is [http://en.wikipedia.org/wiki/DC_block DC-Blocked] so you do not need to worry about it unless dealing with high power levels (> +10dBm).  Check out the [ Upconverter_Splitter Upconverter Splitter] page.
 
 * Why not add an amplifier to overcome the 10dB conversion loss? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
 
