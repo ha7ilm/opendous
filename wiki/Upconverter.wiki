@@ -1,7 +1,7 @@
 #summary MF/HF Converter for Receivers
 #labels Featured,Phase-Design
 
-Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#] or [http://www.funcubedongle.com/ FunCube Dongle].
+Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (approximately 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#] or [http://www.funcubedongle.com/ FunCube Dongle].
 
 The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free and Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
