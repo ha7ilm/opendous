@@ -19,11 +19,13 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
 
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz_LO_and_OUT_BPFs.jpg
+
 The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].
 
 == 100MHz Upconverter Upconversion Losses ==
 
-The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 45kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
+The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 45kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).  The [http://www.minicircuits.com/app/AN00-009.pdf 1dB compression point] is at +1dBm (this is the maximum input signal level before distortion occurs).
 
 http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.png	
 
@@ -35,7 +37,11 @@ Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-u
 
 = 125MHz Upconverter =
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_Picture.jpg
+
+Since both use the same PCB and only differ in LO and IF/Output filters, the 125MHz version was fabricated using an unmodified PCB.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_LO_and_OUT_BPFs.jpg
 
 Available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
 
@@ -44,7 +50,7 @@ The design files can be found in [http://code.google.com/p/opendous/source/brows
 
 == 125MHz Upconverter Upconversion Losses ==
 
-The 125MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 55.8MHz and 15dB from 45kHz to 64.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
+The 125MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 55.8MHz and 15dB from 45kHz to 64.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).  The [http://www.minicircuits.com/app/AN00-009.pdf 1dB compression point] is at +1dBm (this is the maximum input signal level before distortion occurs).
 
 http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.png	
 
