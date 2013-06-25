@@ -1,24 +1,38 @@
 #summary MF/HF Converter for Receivers
 #labels Featured,Phase-Design
 
-PAGE UNDER CONSTRUCTION
-= Upconverter =
+Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#] or [http://www.funcubedongle.com/ FunCube Dongle].
 
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
+The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free and Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
 
-= Upconverter with DVB Dongle =
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
-
-Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#]/[http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
-
-The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
-
-Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
+There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [100MHz version] and a [125MHz] version.
 
 KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
 
-Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group]!  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ] and [Upconverter_Testing additional testing results].
+Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group]!  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ], [Upconverter_Design_Details detailed explanation of the design], and [Upconverter_Testing additional testing results].
+
+= Upconverter in action with DVB Dongle =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
+
+= 100MHz Upconverter =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
+
+The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].
+
+== 100MHz Upconverter Upconversion Losses ==
+
+The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 44kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	 data]).
+
+http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.png	
+
+http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.png	
+
+
+Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
+
+
 
 = Design =
 
@@ -114,7 +128,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = SDR Software Tuning Instructions =
 
-With your Upconverter input shorted or unconnected, tune your SDR software to 100.06MHz, select the Lower Sideband (LSB) and note where the nearest peak is (other than 100.06MHz where you will see the DC spike) in the FFT display.  This value takes into account any frequency offset from the Receiver/Demodulator.  Since the 25ppm 100MHz oscillator is likely more precise than the Receiver/Demodulator, subtract 100 from the value to get the Receiver/Demodulator offset (in the picture below it would be 100.0045-100=0.0045).  To tune to a [http://en.wikipedia.org/wiki/Shortwave_bands Shortwave band] such as 9.5MHz, simply add 9.5 to 100 and subtract the offset (9.5 + 100 - 0.0045 = 109.4955).  With a high enough SDR sampling speed (1MSPS+) you will now be able to make out communication signals you can further tune to.
+With your Upconverter input shorted or unconnected, tune your SDR software to several kHz above the Upconversion frequency (100.06MHz or 125.06MHz depending on version).  Note where the nearest peak is (other than 100.06MHz/125.06MHz where you will see the DC spike) in the FFT display.  This value takes into account any frequency offset from the Receiver/Demodulator.  Since the 25ppm 100MHz oscillator is likely more precise than the Receiver/Demodulator, subtract the Upconversion frequency from the value to get the Receiver/Demodulator offset (in the picture below it would be 100.0045-100=0.0045).  To tune to a [http://en.wikipedia.org/wiki/Shortwave_bands Shortwave band] such as 9.5MHz, simply add 9.5 to 100 and subtract the offset (9.5 + 100 - 0.0045 = 109.4955).  With a high enough SDR sampling speed (0.5MSPS+) you will now be able to make out communication signals you can further tune to.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Configuring_SDR_Software_Offset_Frequency.jpg
 
