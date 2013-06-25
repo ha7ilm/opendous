@@ -1,23 +1,12 @@
 #summary MF/HF Converter for Receivers
 
 PAGE UNDER CONSTRUCTION
+
+
 = Upconverter =
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
 
-= Upconverter with DVB Dongle =
-
-http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
-
-Converts signals in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands to signals in the [http://en.wikipedia.org/wiki/Very_high_frequency VHF] Band (specifically 100.5MHz to 150MHz).  Intended for use in receiver applications with projects like [http://sdr.osmocom.org/trac/wiki/rtl-sdr RTL-SDR]/[http://sdrsharp.com/ SDR#]/[http://www.funcubedongle.com/ FunCube Dongle], or to listen to AM radio using an FM receiver.
-
-The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].  The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
-
-Now available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
-
-KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
-
-Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group]!  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ] and [Upconverter_Testing additional testing results].
 
 = Design =
 
@@ -55,6 +44,17 @@ The attenuator and filter are used to reduce the LO level to an optimal value.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Simulation.jpg
 
+
+=== 125MHz LO Band-pass Filter ===
+
+The 6dB attenuator and filter are needed to reduce the LO level to the +7dBm optimal value and filter any oscillator spurious signals and harmonics.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_LO_Filter_Schematic_and_Simulation.jpg
+
+The [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz-ADE_LO_Bandpass_Filter-Testing_Data.s2p testing results]:
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz-ADE_LO_Bandpass_Filter-Testing.png
+
 === LO Level ===
 
 The following [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_LO_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 40MHz to 160MHz.  Theory and practice [http://code.google.com/p/opendous/wiki/Upconverter_Testing#LO_Filter_Prototyping clearly deviate] here but the losses are acceptable for the LO signal.  With the LO buffer running at 3.3V and outputting nearly a square wave ([http://en.wikipedia.org/wiki/Root_mean_square#RMS_of_common_waveforms Vpk=Vrms]), the LO level at the buffer is about [http://ifmaxp1.ifm.uni-hamburg.de/DBM.shtml 3.3Vp-p=1.6Vpk=1.6Vrms=17dBm].  The LO level at the mixer is therefore approximately +7dBm.
@@ -74,6 +74,17 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 This [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results-VNWA_Data.s2p data] plot was created using a [http://www.sdr-kits.net/VNWA/VNWA_Description.html VNWA] freshly calibrated for 70MHz to 200MHz.  The filter and output switch manage to keep losses to about 3dB in the [http://en.wikipedia.org/wiki/Medium_frequency MF] and [http://en.wikipedia.org/wiki/High_frequency HF] Bands.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Bandpass_Filter_Testing_Results.jpg
+
+== 125MHz IF Output Band-pass Filter ==
+
+The filter was designed to have a pass the Upconversion products and attenuate LO harmonics/products and RF input frequencies.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_OUT_Filter_Schematic_and_Simulation.jpg
+
+It has a 6dB bandwidth ([http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz-ADE_Output_Bandpass_Filter-Testing_Data.s2p data]) of 121.5MHz to 193MHz and attenuates signals below 108MHz (FM Radio) by more than 26dB.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz-ADE_Output_Bandpass_Filter-Testing.png
+
 
 == Passthrough Mode ==
 
