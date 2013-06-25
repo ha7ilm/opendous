@@ -34,7 +34,7 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_Picture.jpg
 
-Since both use the same PCB and only differ in LO and IF/Output filters, the 125MHz version was fabricated using an unmodified PCB.  Here is a close-up:
+Only the [http://code.google.com/p/opendous/wiki/Upconverter_Design_Details#125MHz_IF_Output_Band-pass_Filter IF Output filter] and [http://code.google.com/p/opendous/wiki/Upconverter_Design_Details#125MHz_LO_Band-pass_Filter LO Filter] were updated compared to the previous version.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_LO_and_OUT_BPFs.jpg
 
