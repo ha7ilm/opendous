@@ -1,5 +1,21 @@
 #labels Featured,Phase-Design
 
+
+The board was designed using the [http://en.wikipedia.org/wiki/Free_and_open-source_software Free and Open-Source Software] [http://iut-tice.ujf-grenoble.fr/kicad/ KiCad] and [http://qucs.sourceforge.net/ QUCS].  All design files are [http://freedomdefined.org/OSHW Open Hardware] and [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/License.txt released] into the Public Domain under [http://creativecommons.org/publicdomain/zero/1.0/ Creative Commons CC0].
+
+There are two versions of this Upconverter that differ only in the LO and IF/Output filters, a [#100MHz_Upconverter 100MHz version] and a [#125MHz_Upconverter 125MHz version] version.
+
+Available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1-0-rf-upconverter-for-software-defined-radio.html NooElec Online] or [http://www.ebay.com/itm/Ham-It-Up-v1-0-RF-Upconverter-For-SDR-Funcube-RTLSDR-MF-HF-Converter-E4000-/150916970582 eBay].
+
+KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
+
+Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group].  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ], [Upconverter_Design_Details detailed explanation of the design], and [Upconverter_Testing additional testing results].
+
+= Upconverter in action with DVB Dongle =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz-ADE_with_DVB_Dongle.jpg
+
+
 = 125MHz Upconverter =
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_Picture.jpg
@@ -18,3 +34,47 @@ The 125MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendo
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_2560pts_50ms_Upconversion_Losses.png
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-125MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.png
+
+
+
+= 100MHz Upconverter =
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Picture.jpg
+
+The design files can be found in [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/ SVN] or [http://opendous.googlecode.com/files/Upconverter-100MHz-ADE_Design_Files_Rev2012-09-02.zip downloaded as an archive].
+
+== 100MHz Upconverter Upconversion Losses ==
+
+The 100MHz Upconverter has Upconversion Losses ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.s1p data]) of approximately 10dB from 0.1MHz to 48MHz and 15dB from 45kHz to 53.5MHz ([http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.s1p	data]).  The [http://www.minicircuits.com/app/AN00-009.pdf 1dB compression point] is at +1dBm (this is the maximum input signal level before distortion occurs).
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz_2560pts_50ms_Upconversion_Losses.png
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter-100MHz_0.001-1MHz_2560pts_50ms_Upconversion_Losses.png
+
+
+= SDR Software Tuning Instructions =
+
+With your Upconverter input shorted or unconnected, tune your SDR software to several kHz above the Upconversion frequency (100.06MHz or 125.06MHz depending on version).  Note where the nearest peak is (other than 100.06MHz/125.06MHz where you will see the DC spike) in the FFT display.  This value takes into account any frequency offset from the Receiver/Demodulator.  Since the 25ppm 100MHz oscillator is likely more precise than the Receiver/Demodulator, subtract the Upconversion frequency from the value to get the Receiver/Demodulator offset (in the picture below it would be 100.0045-100=0.0045).  To tune to a [http://en.wikipedia.org/wiki/Shortwave_bands Shortwave band] such as 9.5MHz, simply add 9.5 to 100 and subtract the offset (9.5 + 100 - 0.0045 = 109.4955).  With a high enough SDR sampling speed (0.5MSPS+) you will now be able to make out communication signals you can further tune to.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Configuring_SDR_Software_Offset_Frequency.jpg
+
+= Optional Noise Source =
+
+See [Upconverter_NoiseSource] for more information.
+
+
+= Enclosure =
+
+See the [Upconverter_Enclosure Upconverter Enclosure Fabrication Instructions].
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_HammondEnclosure-Complete.jpg
+
+
+= FAQ =
+
+* Can I connect two receivers to the same Upconverter? * : Yes, but the two receivers must have inputs that are compatible with each other.  The safest option is to make sure both receivers have no DC feed through a [http://en.wikipedia.org/wiki/Bias_tee bias tee] or disable this option.  The receivers could damage each other if one or both have a DC bias.  The output of the Upconverter is [http://en.wikipedia.org/wiki/DC_block DC-Blocked] so you do not need to worry about it unless dealing with high power levels (> +10dBm). Check out the [Upconverter_Splitter Upconverter Splitter] page.
+
+* Why not add an amplifier to overcome the 10dB conversion loss? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
+
+* Can it be used for Transmitting? * : Sure, there are no one-way paths in the Upconverter.  If you have a VHF transmitter that operates in the 100MHz to 150MHz range then the Upconverter can be used in reverse as a down-converting mixer to broadcast over 0.5MHz to 50MHz (downconverted 100.5MHz to 150MHz signal).  All you would need is a Power Amplifier and [http://en.wikipedia.org/wiki/Bandpass bandpass filter] for your intended frequency range at the RF port and an attenuator at the IF port if the transmitting signal was above 0dBm.
+
