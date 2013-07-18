@@ -1,0 +1,328 @@
+# EESchema Netlist Version 1.1 created  1/7/2013 1:20:15 PM
+(
+ ( /50EA3190 1Pin_20mil_VIA  V49 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318F 1Pin_20mil_VIA  V50 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318E 1Pin_20mil_VIA  V52 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318D 1Pin_20mil_VIA  V51 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318C 1Pin_20mil_VIA  V55 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318B 1Pin_20mil_VIA  V56 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA318A 1Pin_20mil_VIA  V54 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA3189 1Pin_20mil_VIA  V53 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /50EA295E SC70-3_SOT-323  D2 Limiter {Lib=D_RECTIFIER_SERIES}
+  (    1 GND )
+  (    2 GND )
+  (    3 /RF2 )
+ )
+ ( /5028FD12 0805  C1 18pF {Lib=C_MINI}
+  (    1 /RF1 )
+  (    2 N-000001 )
+ )
+ ( /50007C0A SC70-3_SOT-323  D1 Limiter {Lib=D_RECTIFIER_SERIES}
+  (    1 GND )
+  (    2 GND )
+  (    3 /RF1 )
+ )
+ ( /5024B6C4 SMA_EndLaunch  P1 RF {Lib=BNC}
+  (    1 /RF1 )
+  (    2 GND )
+ )
+ ( /500079A3 0805  L4 120nH {Lib=L_MINI}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /500079A2 0805  C4 18pF {Lib=C_MINI}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /50007995 0805  C2 100pF {Lib=C_MINI}
+  (    1 N-000001 )
+  (    2 N-000002 )
+ )
+ ( /50007994 0805  L2 68nH {Lib=L_MINI}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /50007960 0805  C3 16pF {Lib=C_MINI}
+  (    1 N-000001 )
+  (    2 N-000008 )
+ )
+ ( /50007959 0805  C6 27pF {Lib=C_MINI}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+ ( /50007958 0805  L6 100nH {Lib=L_MINI}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /50007956 0805  C5 20pF {Lib=C_MINI}
+  (    1 N-000008 )
+  (    2 N-000003 )
+ )
+ ( /500078E4 0805  C7 27pF {Lib=C_MINI}
+  (    1 N-000003 )
+  (    2 /RF2 )
+ )
+ ( /50007479 SMA_EndLaunch  P2 RF {Lib=BNC}
+  (    1 /RF2 )
+  (    2 GND )
+ )
+ ( /5000A6E0 1Pin_20mil_VIA  V33 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DF 1Pin_20mil_VIA  V34 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DE 1Pin_20mil_VIA  V36 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DD 1Pin_20mil_VIA  V35 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DC 1Pin_20mil_VIA  V39 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DB 1Pin_20mil_VIA  V40 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6DA 1Pin_20mil_VIA  V38 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D9 1Pin_20mil_VIA  V37 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D8 1Pin_20mil_VIA  V45 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D7 1Pin_20mil_VIA  V46 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D6 1Pin_20mil_VIA  V48 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D5 1Pin_20mil_VIA  V47 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D4 1Pin_20mil_VIA  V43 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D3 1Pin_20mil_VIA  V44 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D2 1Pin_20mil_VIA  V42 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6D1 1Pin_20mil_VIA  V41 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6C0 1Pin_20mil_VIA  V17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BF 1Pin_20mil_VIA  V18 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BE 1Pin_20mil_VIA  V20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BD 1Pin_20mil_VIA  V19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BC 1Pin_20mil_VIA  V23 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BB 1Pin_20mil_VIA  V24 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6BA 1Pin_20mil_VIA  V22 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B9 1Pin_20mil_VIA  V21 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B8 1Pin_20mil_VIA  V29 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B7 1Pin_20mil_VIA  V30 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B6 1Pin_20mil_VIA  V32 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B5 1Pin_20mil_VIA  V31 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B4 1Pin_20mil_VIA  V27 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B3 1Pin_20mil_VIA  V28 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B2 1Pin_20mil_VIA  V26 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B1 1Pin_20mil_VIA  V25 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6B0 1Pin_20mil_VIA  V9 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AF 1Pin_20mil_VIA  V10 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AE 1Pin_20mil_VIA  V12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AD 1Pin_20mil_VIA  V11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AC 1Pin_20mil_VIA  V15 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AB 1Pin_20mil_VIA  V16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6AA 1Pin_20mil_VIA  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A9 1Pin_20mil_VIA  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A8 1Pin_20mil_VIA  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A7 1Pin_20mil_VIA  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A6 1Pin_20mil_VIA  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A5 1Pin_20mil_VIA  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A3 1Pin_20mil_VIA  V3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A2 1Pin_20mil_VIA  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A6A0 1Pin_20mil_VIA  V2 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /5000A69B 1Pin_20mil_VIA  V1 VIA {Lib=VIA}
+  (    1 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ C2 1
+ C3 1
+ C1 2
+Net 2 "" ""
+ C2 2
+ L2 1
+Net 3 "" ""
+ C5 2
+ C6 1
+ C7 1
+Net 4 "" ""
+ L6 1
+ C6 2
+Net 5 "/RF2" "RF2"
+ D2 3
+ P2 1
+ C7 2
+Net 6 "/RF1" "RF1"
+ P1 1
+ C1 1
+ D1 3
+Net 7 "" ""
+ L4 1
+ C4 2
+Net 8 "" ""
+ C4 1
+ C5 1
+ C3 2
+Net 9 "GND" "GND"
+ V50 1
+ V52 1
+ V49 1
+ V51 1
+ V55 1
+ V56 1
+ V54 1
+ V53 1
+ V31 1
+ D1 1
+ D1 2
+ P1 2
+ L4 2
+ V11 1
+ V21 1
+ V29 1
+ V30 1
+ V32 1
+ V27 1
+ V28 1
+ V26 1
+ V25 1
+ V9 1
+ V10 1
+ V12 1
+ V22 1
+ V15 1
+ V16 1
+ L2 2
+ L6 2
+ P2 2
+ V14 1
+ D2 1
+ D2 2
+ V47 1
+ V43 1
+ V44 1
+ V42 1
+ V41 1
+ V17 1
+ V18 1
+ V20 1
+ V19 1
+ V23 1
+ V24 1
+ V13 1
+ V5 1
+ V6 1
+ V8 1
+ V7 1
+ V3 1
+ V4 1
+ V2 1
+ V1 1
+ V48 1
+ V33 1
+ V34 1
+ V36 1
+ V35 1
+ V39 1
+ V40 1
+ V38 1
+ V37 1
+ V45 1
+ V46 1
+}
+#End

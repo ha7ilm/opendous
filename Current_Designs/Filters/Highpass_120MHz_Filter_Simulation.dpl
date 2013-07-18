@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.16>
+<Properties>
+  <View=-81,-43,800,1015,1,50,43>
+  <Grid=10,10,0>
+  <DataSet=Highpass_120MHz_Filter_Simulation.dat>
+  <DataDisplay=Highpass_120MHz_Filter_Simulation.sch>
+  <OpenDisplay=1>
+  <Script=Highpass_120MHz_Filter_Simulation.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 50 457 646 437 3 #c0c0c0 1 00 1 1e+07 2e+07 2e+08 0 -48 3 3 1 -1 0.2 1 315 0 225 "Frequency (MHz)" "" "">
+	<"ReturnLoss_dBS11" #0000ff 2 3 0 0 0>
+	<"Gain_dBS21" #ff0000 2 3 0 0 0>
+	  <Mkr 1.1875e+08 90 -351 3 0 0>
+	  <Mkr 1.0975e+08 100 -151 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
