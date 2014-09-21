@@ -1,12 +1,10 @@
 #summary ADS1298 Based Biopotential Sensor Platform
 
-*Status*: _Under Development_.  Fourth revision is under development.  The pictured third revision did not work correctly and the earlier [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/ADS1298/ second revision] was a BGA-based design.  Also, the SATA cables introduced noise when moved or deformed.
+*Status*: _Abandoned_.  The pictured third revision did not work correctly and the earlier [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/ADS1298/ second revision] was a BGA-based design.  Also, the SATA cables turned out to be less than ideal.
 
-[http://www.opendous.org Opendous Inc.] is currently developing an OpenHardware [http://en.wikipedia.org/wiki/Biopotential Biopotential] Sensor Platform based on [http://www.ti.com/ TI]'s [http://www.ti.com/product/ads1299 ADS1299] [http://en.wikipedia.org/wiki/ADC ADC] with [http://en.wikipedia.org/wiki/Electroencephalography EEG] front end for use in a head-mounted 32+ non-contact electrode system.
+If you are looking for an EEG development platform, the [http://www.ti.com TI] [http://www.ti.com/tool/ads1299eegfe-pdk ADS1299EEGFE-PDK] kit is ideal and [http://us.mouser.com/Search/Refine.aspx?Keyword=ADS1299EEGFE-PDK widely] [http://www.digikey.com/product-detail/en/ADS1299EEGFE-PDK/296-34948-ND available].  Look into a [http://www.digikey.com/product-detail/en/EVAL-ADUM4160EBZ/EVAL-ADUM4160EBZ-ND USB-ISOlator] board if it is to be used with a [http://en.wikipedia.org/wiki/Mains_electricity mains]-powered computer.  Consider the [https://www.kickstarter.com/projects/openbci/openbci-an-open-source-brain-computer-interface-fo OpenBCI] project for a complete EEG solution.
 
 Design files are available in [http://en.wikipedia.org/wiki/Open_format Open Formats] for the [http://iut-tice.ujf-grenoble.fr/kicad/ KiCAD] [http://en.wikipedia.org/wiki/Open_source Open Source] [http://en.wikipedia.org/wiki/Electronic_design_automation EDA] Suite.
-
-If you are looking for a turn-key EEG platform, the [http://www.ti.com TI] [http://www.ti.com/tool/ads1299eegfe-pdk ADS1299EEGFE-PDK] kit is ideal and [http://us.mouser.com/Search/Refine.aspx?Keyword=ADS1299EEGFE-PDK widely] [http://www.digikey.com/product-detail/en/ADS1299EEGFE-PDK/296-34948-ND available].  Look into a [http://www.digikey.com/product-detail/en/EVAL-ADUM4160EBZ/EVAL-ADUM4160EBZ-ND USB-ISOlator] board if it is to be used with a [http://en.wikipedia.org/wiki/Mains_electricity mains]-powered computer.
 
 You can [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/BioSensorPlatform browse] the design files or get the latest copy using [http://en.wikipedia.org/wiki/Subversion_(software) Subversion]:
 
