@@ -10,6 +10,8 @@ Adding KiCAD Libraries To a Specific Project:
 Adding KiCAD Libraries Permanently:
 ```````````````````````````````````
 
+  These are valid with kicad-2013-07-07, the latest stable release.
+
   To use Opendous Inc.'s KiCAD footprints, you must copy opendous.DCM and
 opendous.LIB to your \KiCad\share\library directory and copy opendous.MOD and
 opendous.MDC to your \KiCad\share\modules directory.  For older version of
