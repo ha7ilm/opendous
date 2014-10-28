@@ -1,7 +1,5 @@
 #summary Additional Testing Results from the Upconverter Project
 
-PAGE UNDER CONSTRUCTION 
-
 = Prototypes =
 
 The [Upconverter] project went through a couple prototype phases:
