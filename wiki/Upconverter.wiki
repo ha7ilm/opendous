@@ -11,7 +11,7 @@ Available from [http://www.nooelec.com/store/software-defined-radio/ham-it-up-v1
 
 KS4JU at [http://www.hamradioscience.com HamRadioScience] has a [http://www.hamradioscience.com/ham-it-up-hf-converter/ review] of the board and has posted a [http://www.youtube.com/watch?v=Rnof4xGkdAo tutorial video].
 
-Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group].  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ], [Upconverter_Design_Details detailed explanation of the design], and [Upconverter_Testing additional testing results].
+Questions or comments? Visit the [http://groups.google.com/group/opendous Opendous Google Group].  There is also a [http://code.google.com/p/opendous/wiki/Upconverter#FAQ FAQ], [Upconverter_Design_Details detailed explanation of the design], and [Upconverter_Testing additional testing results].  [https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA W2AEW] has a video explaining [https://www.youtube.com/watch?v=a4p8XInX5ZA Upconverter design].
 
 = Upconverter in action with DVB Dongle =
 
