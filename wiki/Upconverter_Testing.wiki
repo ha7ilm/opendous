@@ -158,7 +158,7 @@ The following is the 98MHz to 102MHz [http://opendous.googlecode.com/svn/trunk/C
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-IF_with_LO_Enabled.jpg
 
-Here is sweep courtesy [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore] with a spectrum analyzer.
+Here is sweep courtesy [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore] with a spectrum analyzer.  The -48dBm makes more sense since the [http://www.minicircuits.com/pdfs/ADE-1.pdf ADE-1] mixer has 43dB LO-to-IF isolation.
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_RF_Tests_by_PA-NoRF_LO_Bleed_at_IF.jpg
 
