@@ -28,7 +28,26 @@ Upconverter-100MHz-13LO-SMS3926-CX2147.net
 Upconverter-100MHz-13LO-SMS3926-CX2147-cache.lib
 Upconverter-100MHz-13LO-SMS3926-CX2147_Assembly_Instructions.svg
 Upconverter-100MHz-13LO-SMS3926-CX2147_BillOfMaterials.txt
+Upconverter-125MHz-ADE.pro
+Upconverter-125MHz-ADE.sch
+Upconverter-125MHz-ADE.brd
+Upconverter-125MHz-ADE-cache.lib
+Upconverter-125MHz-ADE.cmp
+Upconverter-125MHz-ADE.net
+Upconverter-125MHz-ADE.stf
+Upconverter-125MHz-ADE_IN_Lowpass_Filter.dpl
+Upconverter-125MHz-ADE_IN_Lowpass_Filter.sch
+Upconverter-125MHz-ADE_LO_Bandpass_Filter.dpl
+Upconverter-125MHz-ADE_LO_Bandpass_Filter.sch
+Upconverter-125MHz-ADE_Output_Bandpass_Filter.dpl
+Upconverter-125MHz-ADE_Output_Bandpass_Filter.sch
+Upconverter-125MHz-ADE_Assembly_Instructions.svg
+Upconverter-125MHz-ADE_BillOfMaterials.txt
 
+
+Upconverter_RF_Tests_by_PA-* pics are courtesy tikiarya of Avionics Bangalore
+who has allowed the test result images to be used by Opendous Inc.
+http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109&sid=3e14337e124129af0a50b39441f4d7c7
 
 
 All other files such as the pictures and testing data associated
