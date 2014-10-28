@@ -47,7 +47,7 @@ Upconverter-125MHz-ADE_BillOfMaterials.txt
 
 Upconverter_RF_Tests_by_PA-* pics are courtesy tikiarya of Avionics Bangalore
 who has allowed the test result images to be used by Opendous Inc.
-http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109&sid=3e14337e124129af0a50b39441f4d7c7
+http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109
 
 
 All other files such as the pictures and testing data associated
