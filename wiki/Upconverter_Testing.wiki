@@ -160,6 +160,18 @@ The following is the 98MHz to 102MHz [http://opendous.googlecode.com/svn/trunk/C
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-IF_with_LO_Enabled.jpg
 
+Here is sweep courtesy [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore] with a spectrum analyzer.
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_RF_Tests_by_PA-NoRF_LO_Bleed_at_IF.jpg
+
 The following is the 98MHz to 102MHz [http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-RF_with_LO_Enabled-VNWA_Data.s1p spectrum] at the RF port of the Upconverter with IF shorted with a 50-Ohm load and LO enabled (Upconvert mode).
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-RF_with_LO_Enabled.jpg
+
+The LO undergoes minimal shifting well within its 25ppm stability (100000000Hz*(25/1000000)ppm=2.5kHz).  Spectrum Analyzer results [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore].  Initial LO:
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_RF_Tests_by_PA-IF_with_30MHz_Input.jpg
+
+After warmup the Upconversion results shift <1kHz:
+
+http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_RF_Tests_by_PA-IF_with_30MHz_Input_LO_Warmup_Shift.jpg
