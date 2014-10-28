@@ -166,7 +166,7 @@ The following is the 98MHz to 102MHz [http://opendous.googlecode.com/svn/trunk/C
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_Testing-Spectrum-98MHz_to_102MHz-RF_with_LO_Enabled.jpg
 
-The LO undergoes minimal shifting well within its 25ppm stability (100000000Hz*(25/1000000)ppm=2.5kHz).  Spectrum Analyzer results [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore].  Initial LO:
+The LO undergoes minimal shifting well within its 25ppm stability (100000000Hz(25/1000000)ppm=2.5kHz).  Spectrum Analyzer results [http://avionics-bangalore.com/avionics/viewtopic.php?f=14&t=109 tikiarya of Avionics-Bangalore].  Initial LO:
 
 http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter_RF_Tests_by_PA-IF_with_30MHz_Input.jpg
 
