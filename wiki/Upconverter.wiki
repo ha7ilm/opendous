@@ -74,6 +74,10 @@ http://opendous.googlecode.com/svn/trunk/Current_Designs/Upconverter/Upconverter
 
 = FAQ =
 
+* It doesn't work! * : Please first check all connections and try different cables.  Then try a different USB power source (different port on PC, no hub).  Then put the Upconverter into Upconvert mode and connect to your receiver tuned to 125.01MHz to see the LO bleed.  You should be able to receive the 125MHz LO signal from the mixer which is about -45dBm at the IF/OUTput port.
+
+* I cannot receive any signals * : If the above doesn't help, try a better/larger antenna.  A quick hack is to connect the Upconverter INput to a large piece of safe exposed household metal such as a metal sink and its pipes or radiator. I recommend avoiding use of RF equipment during lightning storms or when lightning is forecast.  You should be able to receive AM radio stations (0.5-2MHz) by tuning your receiver to 125.5-127MHz when connected to the Upconverter in Upconvert mode.
+
 * Can I connect two receivers to the same Upconverter? * : Yes, but the two receivers must have inputs that are compatible with each other.  The safest option is to make sure both receivers have no DC feed through a [http://en.wikipedia.org/wiki/Bias_tee bias tee] or disable this option.  The receivers could damage each other if one or both have a DC bias.  The output of the Upconverter is [http://en.wikipedia.org/wiki/DC_block DC-Blocked] so you do not need to worry about it unless dealing with high power levels (> +10dBm). Check out the [Upconverter_Splitter Upconverter Splitter] page.
 
 * Why not add an amplifier to overcome the 10dB conversion loss? * : Since the [http://en.wikipedia.org/wiki/Noise_figure Noise Figure] of an RF system is most dependent on the Noise Figure of the first elements in the signal chain, it does make sense to place an [http://en.wikipedia.org/wiki/Low_noise_amplifier LNA] at the antenna port.  I just wasn't sure if most users would have their Upconverter at their antenna.
