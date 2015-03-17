@@ -1,10 +1,10 @@
 #summary Creating GERBER-274-X files for PCB fabrication in KiCAD
 
+This quick tutorial is for an older version of `KiCad`.  The [http://www.kicad-pcb.org/display/KICAD/Installing+KiCad KiCad] website has many newer [http://www.kicad-pcb.org/display/KICAD/Tutorials tutorials].
+
 This Tutorial uses the [http://code.google.com/p/micropendous/source/browse/trunk/Micropendous/Design/Micropendous1 Micropendous1] project as an example.
 
 After finishing your project you must set up KiCAD to produce well-defined [http://en.wikipedia.org/wiki/Gerber_File Gerber] files.
-
-This quick tutorial is for an older version of `KiCad`.  The [http://www.kicad-pcb.org/display/KICAD/Installing+KiCad KiCad] website has many newer [http://www.kicad-pcb.org/display/KICAD/Tutorials tutorials].
 
 Open your PCB layout in PCBNew:
 
