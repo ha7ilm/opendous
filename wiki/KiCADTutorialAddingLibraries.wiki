@@ -2,6 +2,9 @@
 
 This example will use the Opendous KiCAD libraries available through [http://code.google.com/p/opendous/source/browse/trunk/Current_Designs/KiCAD_Libraries SVN] or in the [http://code.google.com/p/opendous/downloads/list downloads] section as _KiCAD_Libraries-?.zip_.
 
+This quick tutorial is for an older version of KiCad.  The [http://www.kicad-pcb.org/display/KICAD/Installing+KiCad KiCad] website has many newer [http://www.kicad-pcb.org/display/KICAD/Tutorials tutorials].
+
+
 == Adding Schematic Symbol Libraries ==
 
 After starting or [http://code.google.com/p/opendous/wiki/KiCADTutorialOpeningProjects opening] a project, run *EEschema*.  Select _Library_ from the _Preferences_ menu:
