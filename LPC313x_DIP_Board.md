@@ -1,0 +1,5 @@
+This project has been abandoned.  These designs are not viable commercially at lower quantities.  The LPC313x is great value in volume production but that does not extend well to prototype lots.
+
+The DIP version has USB that will not work at High Speed due to noise from other signals running underneath USB signals.  Full-Speed USB works.  It is very difficult to properly route such a board using just 2-layers.  Adding internal GND planes would probably be enough to make it usable.  All design files are [available](http://code.google.com/p/opendous/source/browse/trunk/Abandoned_Designs/LPC313x-DIP-Board) in [SVN](http://code.google.com/p/opendous/source/checkout).
+
+![http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg](http://opendous.googlecode.com/svn/trunk/Abandoned_Designs/LPC313x-DIP-Board/LPC313x-DIP-Board_Picture.jpg)
